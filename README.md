@@ -46,16 +46,18 @@
 更新由 agent 按固定工作流执行（详见 [`更新工作流.md`](更新工作流.md)）：
 
 ```
-读基准 → 增量抓取（上次更新以来的全部期刊论文）→ 去重 → OA 检查 → 抓摘要
-→ 六段式总结 → 下载 PDF → 同步进 data/papers.js → 推进基准 → QA → git push 发布
+读基准 → 增量抓取（上次更新以来的全部期刊论文，DOI + 标题双重去重）→ OA 检查 → 抓摘要
+→ 六段式总结 → PDF 智能探测并下载 → 同步进 data/papers.js → 推进基准 → QA → publish 发布并验证
 ```
 
 一键命令：
 
 ```bash
 python scripts/run_update.py fetch     # 抓取 + OA + 摘要
+python scripts/run_update.py pdf       # 探测新增论文的 PDF 可下载性
 node scripts/sync-papers.js            # 总结同步进网站数据
 python scripts/run_update.py advance   # 推进更新基准
+python scripts/run_update.py publish   # 推送 + 等待 Pages 构建 + 验证线上一致
 ```
 
 ## 目录结构
@@ -65,7 +67,8 @@ index.html / styles.css / app.js / tokens.css / fonts.css   # 网站本体
 data/papers.js         # 网站数据（浏览器加载，脚本自动生成）
 summaries/             # 六段式总结（每篇一个 Markdown）
 papers/                # 已下载的 PDF
-scripts/               # 抓取 / 同步 / 一键更新脚本
+scripts/               # 抓取 / PDF 获取 / 同步 / 发布脚本
+shared/                # 浏览器与 Node 共用的解析与存储模块
 skill-runs/            # 更新基准与抓取记录
 更新工作流.md          # 「更新」完整流程说明
 部署指南.md            # 部署到 GitHub Pages 等平台的说明
