@@ -31,6 +31,7 @@
   authors,      // 作者（前 3 位 + et al.）
   journal,      // 期刊 / 会议
   year,         // 年份
+  published,    // 论文发表日期（趋势时间轴）
   direction,    // 研究方向：信息安全 / 人工智能
   doi, arxiv, pdf, link,   // 出处链接
   summary,      // 一句话概括
