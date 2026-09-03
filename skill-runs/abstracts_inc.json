@@ -1,73 +1,84 @@
 [
   {
-    "doi": "10.1016/j.neunet.2026.109538",
-    "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
-    "authors": [
-      "Jinjie Guo",
-      "Tao Feng",
-      "Yiping Wang",
-      "Yanfeng Yang",
-      "Guixia Kang",
-      "Guoguang Zhao"
-    ],
-    "venue": "Neural Networks",
-    "year": 2026,
-    "abstract": "Most existing ictal stereoelectroencephalography (SEEG)-based seizure onset zone (SOZ) localization methods rely on patient-specific training, limiting their clinical applicability due to the scarcity of seizure recordings and substantial inter-patient variability. Consequently, robust patient-independent SOZ localization remains a major challenge. In this work, we propose a deep learning approach for patient-independent SOZ localization using ictal SEEG recordings, aiming to improve cross-patient generalization while preserving seizure-related temporal characteristics. To mitigate domain shifts across subjects, we introduce a clinically guided feature learning strategy that combines a cross-frequency coupling (CFC) mechanism to capture SOZ-related abnormal interactions across frequency bands with a self-comparison (SC) mechanism to emphasize seizure-onset evolution patterns within SEEG channels. We further incorporate seizure detection as an auxiliary task within a multi-task learning framework to provide seizure-onset-related temporal supervision, thereby improving the temporal awareness and generalizability of SOZ localization. Experiments on the public OpenNeuro HUP dataset demonstrate substantial improvements over existing methods, while additional evaluations on a private clinical dataset further validate the robustness and cross-patient generalization capability of the proposed method. Moreover, comparisons between the learned CFC representations and clinically established phase-amplitude coupling (PAC) metrics reveal consistent physiological patterns, supporting the interpretability of the learned representations.",
-    "source": "openalex"
-  },
-  {
-    "doi": "10.60882/cispa.32775141",
-    "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
-    "authors": [
-      "Ziqing Yang",
-      "Rui Wen",
-      "Xinlei He",
-      "Yun Shen",
-      "Michael Backes",
-      "Yang Zhang"
-    ],
-    "venue": "IEEE Transactions on Information Forensics and Security",
-    "year": 2026,
-    "abstract": "Prompt learning is a new machine learning paradigm that has attracted ample attention due to its simplicity and proven efficacy. Despite its growing adoption, the security vulnerabilities associated with this paradigm remain underexplored. In this work, we take the first step to propose BadBone, a stealthy and adaptive backdoor attack against prompt learning using bi-level optimization. Instead of backdooring the prompt learning process, we aim to compromise a backbone model such that only target downstream tasks employing prompt learning inherit the backdoor vulnerability. Extensive experiments on three different models and three datasets from various domains show that our targeted/untargeted backdoored models achieve high attack performance while maintaining utility on both pretraining and downstream tasks. Moreover, we evaluate our approach against six state-of-the-art model-level defenses, including Neural Cleanse, ABS, MNTD, NAD, CLP, and D-BR. The results demonstrate that these defenses are largely ineffective against our backdoored models and thus leave the effective defense as an important direction for future work. Our code is available at https://github.com/TrustAIRLab/BadBone.",
-    "source": "openalex"
-  },
-  {
-    "doi": "10.1007/s10994-026-07148-1",
-    "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
-    "authors": [
-      "Xinyu Tian",
-      "Xiaotong Shen"
-    ],
-    "venue": "Machine Learning",
-    "year": 2026,
-    "abstract": "Abstract Accurate prediction for multimodal data—including tabular, textual, and visual inputs or outputs—is essential for advancing analytics across diverse application domains. Existing methods often struggle to integrate heterogeneous data types while maintaining strong predictive performance. We introduce Generative Distribution Prediction (GDP), a model-agnostic framework that leverages high-fidelity multimodal synthetic data generated from the conditional distribution of interest, such as via conditional diffusion models, to enhance prediction across both structured and unstructured modalities. GDP is compatible with any expressive generative model and naturally supports transfer learning for domain adaptation. We provide a rigorous theoretical foundation for GDP, establishing statistical guarantees on its predictive accuracy when diffusion models serve as the generative backbone. By estimating the underlying data-generating distribution and enabling loss-adapted risk minimization, GDP delivers accurate point predictions in broad multimodal settings. We empirically validate GDP on a range of supervised learning tasks, including adaptive quantile regression, modal regression, tabular prediction, image captioning, and question answering, demonstrating its versatility and effectiveness across domains.",
-    "source": "openalex"
-  },
-  {
-    "doi": "10.1109/tai.2026.3680823",
-    "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
-    "authors": [
-      "Qunyi Zhang",
-      "Songan Zhang",
-      "Jiaqi Liu",
-      "Jinbao Wang",
-      "Xiaoning Lei",
-      "Guoyang Xie",
-      "Guannan Jiang",
-      "Zhichao Lu"
-    ],
-    "venue": "IEEE Transactions on Artificial Intelligence",
-    "year": 2026,
-    "abstract": "Anomaly detection plays a pivotal role in manufacturing quality control, yet its application is constrained by limited abnormal samples and high manual annotation costs. While anomaly synthesis offers a promising solution, existing studies predominantly treat anomaly synthesis as an auxiliary component within anomaly detection frameworks, lacking systematic evaluation of anomaly synthesis algorithms. Current research also overlooks crucial factors specific to anomaly synthesis, such as decoupling its impact from detection, quantitative analysis of synthetic data and adaptability across different scenarios. To address these limitations, we propose ASBench, the first comprehensive benchmarking framework dedicated to evaluating anomaly synthesis methods. Our framework introduces four critical evaluation dimensions: (i) the generalization performance across different datasets and pipelines (ii) the ratio of synthetic to real data (iii) the correlation between intrinsic metrics of synthesis images and anomaly detection performance metrics, and (iv) strategies for hybrid anomaly synthesis methods. Through extensive experiments, ASBench not only reveals limitations in current anomaly synthesis methods but also provides actionable insights for future research directions in anomaly synthesis. Code is available athttps://github.com/M-3LAB/ASBench.",
-    "source": "openalex"
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105129",
-    "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
+    "doi": "10.1016/j.artint.2026.104607",
+    "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
     "abstract": null,
     "authors": [],
     "venue": null,
     "year": null,
     "source": null
+  },
+  {
+    "doi": "10.1038/s42256-026-01300-1",
+    "title": "Implicit-bias-like patterns in reasoning models",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105133",
+    "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109565",
+    "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
+    "authors": [
+      "Zhenwei Wang",
+      "Tiehua Zhang",
+      "Jing Liu",
+      "Heng Yu",
+      "Kaizhu Huang",
+      "Ruibin Bai"
+    ],
+    "venue": "Neural Networks",
+    "year": 2026,
+    "abstract": "The application of learning-based methods, particularly neural network based methods, to Vehicle Routing Problems (VRP) has emerged as a pivotal area of research within combinatorial optimization. VRPs are characterized by expansive solution spaces and complex constraints, often compounded by uncertainties, which render traditional approaches, such as exact mathematical models or heuristic methods, prone to substantial computational overhead. Although some recent learning-based methods have demonstrated good performance for VRPs with straightforward constraint scenarios, they often struggle to effectively handle the complex, hard constraints commonly encountered in practice. As the first work to incorporate hypergraph learning into routing problems, this study introduces an end-to-end framework that integrates constraint-oriented hypergraph neural networks with reinforcement learning to address these challenges in vehicle routing problems. The central motivation is that routing constraints, such as capacity limits and time-window penalties, are naturally imposed on groups of nodes and partial routes rather than on isolated pairwise edges. Therefore, a representation mechanism capable of preserving such high-order constraint semantics is needed. A key innovation of this work lies in the development of a constraint-oriented dynamic hyperedge reconstruction strategy within the designated encoder, which substantially enhances hypergraph representation learning. Additionally, the decoder leverages a double-pointer attention mechanism to iteratively generate solutions. The proposed model is trained using asynchronous parameter updates guided by hypergraph constraints and optimized through a dual loss function that includes both constraint loss and policy gradient loss. Experimental results on benchmark datasets demonstrate that this approach not only eliminates the need for complex heuristic operators but also achieves state-of-the-art (SOTA) solution quality.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1007/s10994-026-07147-2",
+    "title": "Robust Multi-label Classification via Preference Learning",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1007/s10207-026-01263-9",
+    "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
+    "authors": [
+      "Daniel Oberhofer",
+      "Johannes Grill",
+      "Günther Pernul",
+      "Stefan Schönig"
+    ],
+    "venue": "International Journal of Information Security",
+    "year": 2026,
+    "abstract": "Abstract Automated security risk management addresses threats by implementing mitigation and remediation strategies described in public security advisories. These advisories, regularly published by independent Cyber Emergency Response Teams (CERTs), are typically presented as unstructured text and supplemented with additional security-relevant information sources. Using a Large Language Model (LLM) orchestration framework, we generate security playbooks in a standardized meta-model, visualize them with Business Process Modeling and Notation (BPMN) diagrams, and classify them into actionable tasks. We present the theoretical foundations of the framework, describe the underlying meta-model, and conduct an experimental study that produces a dataset of 725 security playbooks. Our subsequent content analysis shows that advisory-based playbooks focus on update tasks, but also include defensive themes like disabling vulnerable policies or restricting network access.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1109/tkde.2026.3718295",
+    "title": "Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering",
+    "authors": [
+      "Ying Zhang",
+      "Xinying Qian",
+      "Yu Zhao",
+      "Baohang Zhou",
+      "Xuhui Sui",
+      "Xiaojie Yuan"
+    ],
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": 2026,
+    "abstract": "Temporal Knowledge Graph Question Answering (TKGQA) aims to answer time-sensitive questions by leveraging factual information from Temporal Knowledge Graphs (TKGs). While previous studies have employed pre-trained TKG embeddings or graph neural networks to inject temporal knowledge, they fail to fully understand the complex semantic information of time constraints. Recently, Large Language Models (LLMs) have shown remarkable progress, benefiting from their strong semantic understanding and reasoning generalization capabilities. However, their temporal reasoning ability remains limited. LLMs frequently suffer from hallucination and a lack of knowledge. To address these limitations, we propose the Plan of Knowledge framework with a contrastive temporal retriever, which is named PoK. Specifically, the proposed Plan of Knowledge module decomposes a complex temporal question into a sequence of sub-objectives from the pre-defined tools, serving as intermediate guidance for reasoning exploration. In parallel, we construct a Temporal Knowledge Store (TKS) with a contrastive retrieval framework, enabling the model to selectively retrieve semantically and temporally aligned facts from TKGs. By combining structured planning with temporal knowledge retrieval, PoK effectively enhances the interpretability and factual consistency of temporal reasoning. Extensive experiments on four benchmark TKGQA datasets demonstrate that PoK significantly improves the retrieval precision and reasoning accuracy of LLMs, surpassing the performance of the state-of-the-art TKGQA methods by 56.0% at most.",
+    "source": "openalex"
   }
 ]

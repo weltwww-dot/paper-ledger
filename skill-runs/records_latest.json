@@ -1,41 +1,49 @@
 [
   {
-    "doi": "10.1007/s10994-026-07148-1",
-    "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+    "doi": "10.1016/j.cose.2026.105133",
+    "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
     "year": 2026,
-    "date": "2026-08-31",
-    "type": "article",
-    "source": "Machine Learning"
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109538",
-    "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
-    "year": 2026,
-    "date": "2026-08-31",
-    "type": "article",
-    "source": "Neural Networks"
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105129",
-    "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
-    "year": 2026,
-    "date": "2026-08-29",
+    "date": "2026-09-01",
     "type": "article",
     "source": "Computers & Security"
   },
   {
-    "doi": "10.1007/s10207-026-01321-2",
-    "title": "From static tasks to dynamic reasoning: a characterization framework and study of large language models in next-generation cybersecurity automation",
+    "doi": "10.1007/s10207-026-01263-9",
+    "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
     "year": 2026,
-    "date": "2026-08-29",
+    "date": "2026-09-01",
     "type": "article",
     "source": "International Journal of Information Security"
   },
   {
-    "doi": "10.1038/s42256-026-01299-5",
-    "title": "Enhancing reproducibility in hybrid Earth system models",
+    "doi": "10.1016/j.artint.2026.104607",
+    "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
     "year": 2026,
-    "date": "2026-08-28",
+    "date": "2026-09-01",
+    "type": "article",
+    "source": "Artificial Intelligence"
+  },
+  {
+    "doi": "10.1007/s10994-026-07147-2",
+    "title": "Robust Multi-label Classification via Preference Learning",
+    "year": 2026,
+    "date": "2026-09-01",
+    "type": "article",
+    "source": "Machine Learning"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109565",
+    "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
+    "year": 2026,
+    "date": "2026-09-01",
+    "type": "article",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1038/s42256-026-01300-1",
+    "title": "Implicit-bias-like patterns in reasoning models",
+    "year": 2026,
+    "date": "2026-09-01",
     "type": "article",
     "source": "Nature Machine Intelligence"
   },
@@ -48,12 +56,12 @@
     "source": "ACM Transactions on Privacy and Security"
   },
   {
-    "doi": "10.1016/j.artint.2026.104604",
-    "title": "ParaKplex: A parallel local search algorithm for the maximum K-Plex problem",
+    "doi": "10.1109/tkde.2026.3718295",
+    "title": "Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering",
     "year": 2026,
-    "date": "2026-08-20",
+    "date": "2026-08-14",
     "type": "article",
-    "source": "Artificial Intelligence"
+    "source": "IEEE Transactions on Knowledge and Data Engineering"
   },
   {
     "doi": "10.1177/0926227x261476666",
@@ -62,14 +70,6 @@
     "date": "2026-08-10",
     "type": "article",
     "source": "Journal of Computer Security"
-  },
-  {
-    "doi": "10.1109/tkde.2026.3709786",
-    "title": "Data-Centric Challenges, Techniques, and Impacts: A Survey on Image Data Perturbation",
-    "year": 2026,
-    "date": "2026-08-07",
-    "type": "article",
-    "source": "IEEE Transactions on Knowledge and Data Engineering"
   },
   {
     "doi": "10.1109/msec.2026.3697946",
