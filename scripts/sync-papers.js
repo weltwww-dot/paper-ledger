@@ -14,6 +14,34 @@ const ROOT = path.resolve(__dirname, "..");
 const SUMMARIES_DIR = path.join(ROOT, "summaries");
 const OUT_DIR = path.join(ROOT, "data");
 const OUT_FILE = path.join(OUT_DIR, "papers.js");
+const THEME_FILE = path.join(OUT_DIR, "theme-tags.json");
+
+/* 主题标签映射：DOI(小写) → 研究主题数组（data/theme-tags.json，人工维护） */
+function loadThemeMap() {
+  try {
+    const map = JSON.parse(fs.readFileSync(THEME_FILE, "utf8"));
+    const out = {};
+    for (const [doi, tags] of Object.entries(map || {})) {
+      out[String(doi).toLowerCase()] = Array.isArray(tags) ? tags.map((t) => String(t).trim()).filter(Boolean) : [];
+    }
+    return out;
+  } catch (err) {
+    console.warn("data/theme-tags.json 读取失败，本次不带主题标签:", err.message);
+    return {};
+  }
+}
+
+function attachTags(papers, themeMap) {
+  let missing = 0;
+  for (const p of papers) {
+    const key = String(p.doi || "").toLowerCase();
+    const tags = key && themeMap[key] ? themeMap[key] : [];
+    if (!tags.length) missing++;
+    p.tags = tags;
+  }
+  if (missing) console.warn(`注意：${missing} 篇论文未配置主题标签（详见 data/theme-tags.json）`);
+  return papers;
+}
 
 /* ── 主流程 ──────────────────────────────────────────────────────── */
 function main() {
@@ -62,6 +90,7 @@ function main() {
   }
 
   const ordered = [...fresh, ...knownOrder].map(({ _file, ...p }) => p);
+  attachTags(ordered, loadThemeMap());
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const body = `/* 自动生成: node scripts/sync-papers.js · 请勿手改 */\nwindow.PAPERLEDGER_SEED = ${JSON.stringify(ordered, null, 2)};\n`;

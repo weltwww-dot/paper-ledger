@@ -16,7 +16,12 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体数据集与实验结果未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 Artificial Intelligence（2026），主题为基于离散图卷积网络的联邦推荐效率提升。\n- 因论文暂无公开摘要且全文为付费访问，作者名单、方法细节、实验结论与局限需要获取全文后深化。\n---\nDOI: 10.1016/j.artint.2026.104607",
     "sample": false,
-    "id": "r-1gdh74a"
+    "id": "r-1gdh74a",
+    "tags": [
+      "联邦学习",
+      "图神经网络",
+      "隐私保护"
+    ]
   },
   {
     "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
@@ -34,7 +39,12 @@ window.PAPERLEDGER_SEED = [
     "experiments": "原文摘要确认方法有效处理复杂硬约束场景并优于既有方法，但未给出具体数值。",
     "contribution": "- 贡献一：首次将超图学习引入车辆路径问题，建模路由约束的高阶语义。\n- 贡献二：动态超边重建 + 双指针注意力解码的端到端 RL 框架。\n- 局限：具体性能数字原文摘要未提供；更大规模与更多 VRP 变体的验证待展开。\n---\nDOI: 10.1016/j.neunet.2026.109565",
     "sample": false,
-    "id": "r-187dk4x"
+    "id": "r-187dk4x",
+    "tags": [
+      "组合优化",
+      "图神经网络",
+      "强化学习"
+    ]
   },
   {
     "title": "Implicit-bias-like patterns in reasoning models",
@@ -52,7 +62,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "o3-mini、DeepSeek-R1、gpt-oss-20b 与 Qwen-3 8B 等推理模型在不相容任务上一致消耗更多推理 token，提示处理反刻板印象信息需要更大计算努力；Claude 3.7 Sonnet 呈现反转模式，其主题分析与对偏见/刻板印象的独特内部推理关注相关（论文未报告具体数值指标）。",
     "contribution": "- 贡献一：首个关注推理模型内部处理过程的隐式偏见测试范式（RM-IAT），而非仅输出层。\n- 贡献二：跨多个推理模型发现一致的类隐式偏见模式，并揭示模型间因内部推理内容而显著不同。\n- 局限：论文未报告具体数值指标；token 消耗作为偏见代理的效度与更广模型覆盖待后续研究。\n---\nDOI: 10.1038/s42256-026-01300-1",
     "sample": false,
-    "id": "r-1hb5cfb"
+    "id": "r-1hb5cfb",
+    "tags": [
+      "大模型",
+      "偏见与公平性"
+    ]
   },
   {
     "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
@@ -70,7 +84,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体数据集（常见为 Car-Hacking 等 CAN 数据集）、检测指标与基线对比未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 Computers & Security（2026），提出 MSTE-CAN 用于 CAN 总线入侵检测。\n- 因论文暂无公开摘要，作者名单、方法细节、实验结论与局限需要获取全文后深化。\n---\nDOI: 10.1016/j.cose.2026.105133",
     "sample": false,
-    "id": "r-6noico"
+    "id": "r-6noico",
+    "tags": [
+      "入侵检测与防御"
+    ]
   },
   {
     "title": "Robust Multi-label Classification via Preference Learning",
@@ -88,7 +105,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在噪声与不平衡标签的鲁棒多标签分类、以及部分弃权预测两类设置中实验，验证序结构学习在这些场景的价值（论文未报告具体数值指标）。",
     "contribution": "- 贡献一：首次把多标签分类系统性地形式化为序结构学习，把标签偏好结构引入预测。\n- 贡献二：为噪声/不平衡标签下的鲁棒预测与部分弃权预测提供统一视角。\n- 局限：论文未报告具体数值指标；更大规模数据集与更复杂标签结构的验证待后续工作。\n---\nDOI: 10.1007/s10994-026-07147-2",
     "sample": false,
-    "id": "r-6k242u"
+    "id": "r-6k242u",
+    "tags": [
+      "多标签学习"
+    ]
   },
   {
     "title": "Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering",
@@ -106,7 +126,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在四个 TKGQA 基准数据集上实验：显著提升检索精度与推理准确率，最高超过现有 SOTA 方法 56.0%（数字来自原文摘要）。",
     "contribution": "- 贡献一：面向 TKGQA 的「规划 + 对比时序检索」框架，缓解 LLM 时序推理的幻觉与知识缺失。\n- 贡献二：时间知识库（TKS）对比检索与子目标分解结合，四个基准上大幅领先 SOTA。\n- 局限：评测集中于 TKGQA 基准；更复杂开放域时序问答的泛化待验证。\n---\nDOI: 10.1109/tkde.2026.3718295",
     "sample": false,
-    "id": "r-112q9vb"
+    "id": "r-112q9vb",
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
@@ -124,7 +147,12 @@ window.PAPERLEDGER_SEED = [
     "experiments": "对生成的 725 个 playbook 做内容分析：公告驱动的 playbook 以更新（update）任务为主，也涵盖禁用易受攻击策略、限制网络访问等防御主题（数字来自原文摘要）。",
     "contribution": "- 贡献一：首个把 LLM 编排用于公告→安全 playbook 半自动生成的框架，含标准化元模型。\n- 贡献二：725 个 playbook 数据集与内容分析，展示公告驱动的缓解策略分布。\n- 局限：以更新类任务为主，覆盖的安全动作类型有限；自动化程度与误生成率原文摘要未量化。\n---\nDOI: 10.1007/s10207-026-01263-9",
     "sample": false,
-    "id": "r-zu4awk"
+    "id": "r-zu4awk",
+    "tags": [
+      "大模型",
+      "安全运营自动化",
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
@@ -142,7 +170,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "ASBench 不仅揭示了当前异常合成方法的不足，还提供了对未来异常合成研究方向的可操作洞见（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首个专用于异常合成评估的基准框架，把合成环节与检测环节解耦评测。\n- 贡献二：四维评测体系 + 公开代码库，为异常合成研究提供标准。\n- 局限：具体数字原文摘要未提供；评测覆盖面随社区扩展待持续更新。\n---\nDOI: 10.1109/tai.2026.3680823",
     "sample": false,
-    "id": "r-6jt42i"
+    "id": "r-6jt42i",
+    "tags": [
+      "异常检测",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
@@ -160,7 +192,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "发现多种真实行为：发卡行 A 的借记现金返现程序在退款入账后从不调整奖励，支持确定性的双重吃奖励攻击；发卡行 B 存在账单周期时间差，可在商户退货窗口关闭前先兑换奖励；发卡行 F 在账单结算时生成负奖励条目但结算后立即可兑换，形成时间不对称；C/D/E 三家采用无限负余额强制与比例回收，较稳健。攻击与防御边界原文给出（数字来自原文）。",
     "contribution": "- 贡献一：首次系统研究奖励引擎退款逻辑的完整性缺陷，形式化状态机与不变量。\n- 贡献二：在真实生产系统上实证记录多种奖励滥用攻击，给出漏洞分类。\n- 局限：实验限于六家发行商账户的小规模受控场景；更广泛平台与防御机制的验证待后续工作。\n---\nDOI: 10.1016/j.cose.2026.105129",
     "sample": false,
-    "id": "r-l5b38k"
+    "id": "r-l5b38k",
+    "tags": [
+      "反欺诈"
+    ]
   },
   {
     "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
@@ -178,7 +213,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在一系列监督学习任务上验证，包括自适应分位数回归、模态回归、表格预测、图像描述与问答，展示跨领域的通用性与有效性（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：模型无关的多模态统一预测框架，兼容任意条件生成模型。\n- 贡献二：扩散模型骨干下预测精度的统计保证 + 损失自适应风险最小化。\n- 局限：具体性能数字原文摘要未提供；大模型规模生成成本下的效率待验证。\n---\nDOI: 10.1007/s10994-026-07148-1",
     "sample": false,
-    "id": "r-go692v"
+    "id": "r-go692v",
+    "tags": [
+      "生成模型",
+      "多模态学习"
+    ]
   },
   {
     "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
@@ -196,7 +235,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在公开 OpenNeuro HUP 数据集上相较现有方法取得显著提升；额外在私有临床数据集上验证了鲁棒性与跨患者泛化能力（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首个以临床引导特征学习实现患者无关 SOZ 定位的深度学习方法。\n- 贡献二：CFC + SC + 多任务时间监督的组合，同时保留发作时间特征并缓解域偏移。\n- 局限：具体数字原文摘要未提供；更大规模多中心临床验证待展开。\n---\nDOI: 10.1016/j.neunet.2026.109538",
     "sample": false,
-    "id": "r-icz3cf"
+    "id": "r-icz3cf",
+    "tags": [
+      "医学AI"
+    ]
   },
   {
     "title": "From static tasks to dynamic reasoning: a characterization framework and study of large language model-based agents",
@@ -214,7 +256,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "调研发现当前系统受限于四类问题：隐私与部署约束、威胁知识陈旧或不完整、反馈驱动动作缺乏验证、缺乏可量化的运营收益证据；并给出相应改进方向（隐私感知部署、及时检索与知识维护、面向可测量安全结果的过程级评估、受控混合自动化中的人工监督）。原文以框架与调研为主，未提供量化对比。",
     "contribution": "- 贡献一：首个面向动态网络任务的 LLM 智能体表征框架，统一了跨领域的分析维度。\n- 贡献二：系统梳理七个安全领域的现状与瓶颈，给出可执行的改进方向。\n- 局限：以定性调研为主；具体任务上的量化评估待后续工作。\n---\nDOI: 10.1007/s10207-026-01321-2",
     "sample": false,
-    "id": "r-8nkhp1"
+    "id": "r-8nkhp1",
+    "tags": [
+      "大模型",
+      "安全运营自动化"
+    ]
   },
   {
     "title": "Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning",
@@ -232,7 +278,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在四个基准数据集上，NPC 在可解释性与性能之间取得平衡，性能可与端到端黑盒模型竞争，同时提供增强的可解释性（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首个将概率电路与属性识别结合的天然透明分类架构，支持逻辑推理式预测。\n- 贡献二：误差上界的理论保证 + 最可能/反事实解释，兼顾性能与可解释性。\n- 局限：具体性能数字原文摘要未提供；更大规模数据与任务的验证待展开。\n---\nDOI: 10.1007/s10994-026-07118-7",
     "sample": false,
-    "id": "r-1egbkll"
+    "id": "r-1egbkll",
+    "tags": [
+      "可解释AI"
+    ]
   },
   {
     "title": "Imagining Trajectories for Anomaly Detection in Reinforcement Learning from Images",
@@ -250,7 +299,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "广泛实验与消融表明检测性能强：在 Anomaly-Gym 基准上优于现有基线，平均 AUROC 0.853、FPR95 0.279（数字来自原文摘要）。",
     "contribution": "- 贡献一：首个无需策略内部访问的 agent-agnostic 视觉 RL 异常检测方法，解耦策略与安全机制。\n- 贡献二：世界模型潜空间预测-比较框架，在 Anomaly-Gym 上显著优于基线。\n- 局限：评测集中于 Anomaly-Gym 基准；更多真实环境的部署验证待后续工作。\n---\nDOI: 10.1007/s10994-026-07126-7",
     "sample": false,
-    "id": "r-15uq0k9"
+    "id": "r-15uq0k9",
+    "tags": [
+      "异常检测",
+      "强化学习"
+    ]
   },
   {
     "title": "APKOS: Accurate and Privacy-Preserving Keyword Spotting for Intelligent Voice Assistant Systems",
@@ -268,7 +321,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在多个数据集上进行了广泛评估，方案在保持语义安全的同时取得高 KWS 性能（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首个兼顾语义安全与高准确率的同态加密 KWS 方案。\n- 贡献二：融合层 + 实值多项式激活 + 核扩展的组合优化，显著降低密文推理开销。\n- 局限：具体性能数字原文摘要未提供；更复杂语音任务上的扩展待验证。\n---\nDOI: 10.1145/3838797",
     "sample": false,
-    "id": "r-184ab7i"
+    "id": "r-184ab7i",
+    "tags": [
+      "隐私保护",
+      "密码学"
+    ]
   },
   {
     "title": "CAM-LDS: cyber attack manifestations for automatic interpretation of system logs and security alerts",
@@ -286,7 +343,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "原文以数据集构建与开源为主；摘要未提供量化对比数字。",
     "contribution": "- 贡献一：首个面向攻击表现自动解释、完全开源可复现的 Linux 日志数据集。\n- 贡献二：填补 LLM 日志语义解释研究缺乏覆盖广泛攻击类型的标注数据这一空白。\n- 局限：具体规模与评测数字原文摘要未提供；数据集覆盖面仍需社区持续扩展。\n---\nDOI: 10.1007/s10207-026-01318-x",
     "sample": false,
-    "id": "r-33hngs"
+    "id": "r-33hngs",
+    "tags": [
+      "入侵检测与防御",
+      "安全运营自动化"
+    ]
   },
   {
     "title": "Secure and verifiable coercion-resistant electronic exam",
@@ -304,7 +365,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "原文以形式化证明与分析为主：证明近期协议在强强制模型下可被攻击，改进后的协议达到所定义的安全性质（原文摘要未提供量化实验数字）。",
     "contribution": "- 贡献一：提出比现有模型更强的强制抵抗定义（全部秘密泄露）。\n- 贡献二：在该模型下攻破近期协议并给出改进方案，推动 e-exam 安全的形式化研究。\n- 局限：以形式化分析为主，实际部署规模与可用性评估原文摘要未展开。\n---\nDOI: 10.1093/cybsec/tyag022",
     "sample": false,
-    "id": "r-13m83fg"
+    "id": "r-13m83fg",
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "What You See Is Not What You Execute: Memory-Based Runtime SBOM Generation for Supply Chain Security",
@@ -322,7 +386,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "对 51 个真实 Python 应用评估：模块提取准确率 100%；识别出 Streamlit 是唯一调用 tornado 依赖中漏洞例程的应用；恢复出现有 SBOM 工具遗漏的全部运行时包，依赖图更准确、漏洞评估更好（数字来自原文）。",
     "contribution": "- 贡献一：首个直接从运行时内存生成 SBOM 的取证框架，无需预先插桩。\n- 贡献二：字节码级依赖图 + 可达漏洞函数识别，提供更准确的供应链风险评估。\n- 局限：当前聚焦 Python 生态；其他语言与大规模部署场景的覆盖待扩展。\n---\nDOI: 10.1016/j.cose.2026.105125",
     "sample": false,
-    "id": "r-ndpil6"
+    "id": "r-ndpil6",
+    "tags": [
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "Morphing-Based Sensitivity Analysis: A Comparative Study of Linear and Non-linear Temporal Transformations in TSC Robustness",
@@ -340,7 +407,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在 10 个真实医学时间序列数据集与 4 个分类器上验证：InceptionTime 的决策边界最鲁棒，Catch22 最脆弱；当判别信号是时间性而非幅度性时，线性变形在结构上无法恢复边界位置，而 PathI 能精确恢复；两者在估计边界位置上系统性地不同，但一致性无实际差异，且 PathI 更贴近保留原始信号的时间结构（论文未报告具体数值指标）。",
     "contribution": "- 贡献一：首个把敏感性分析锚定到决策边界位置的时间序列模型敏感性测试框架（tsMIST）。\n- 贡献二：证明并实证变形算子选择（线性 vs 时间路径插值）显著影响结论，主张其应被论证与报告，把边界感知的敏感性分析纳入 Responsible AI 评估。\n- 局限：实验结论以定性对比为主，论文未报告具体数值指标；框架在更广任务与模型上的适用性待扩展。\n---\nDOI: 10.1007/s10994-026-07132-9",
     "sample": false,
-    "id": "r-mvnxmf"
+    "id": "r-mvnxmf",
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "ParaKplex: A parallel local search algorithm for the maximum K-Plex problem",
@@ -358,7 +428,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体基准实例与实验结果未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 Artificial Intelligence（2026），提出最大 K-Plex 问题的并行局部搜索算法 ParaKplex，作者 Jieyu Wu、Rui Sun、Yiyuan Wang、Minghao Yin。\n- 因论文暂无公开摘要且全文为付费访问，算法细节、实验结论与局限需要获取全文后深化。\n---\nDOI: 10.1016/j.artint.2026.104604",
     "sample": false,
-    "id": "r-1m4pmgg"
+    "id": "r-1m4pmgg",
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Enhancing reproducibility in hybrid Earth system models",
@@ -376,7 +449,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "观点/框架类论文，无实证实验；其\"结果\"是概念框架 + 实施路线图 + RHEM 参考指南，把可复现性从事后要求转变为混合 ESM 的结构性属性与地球系统科学的基础原则（论文未报告量化评估）。",
     "contribution": "- 贡献一：重新框定混合 ESM 的可复现性，提出评估理论 + 实施路径的集成路线图。\n- 贡献二：发布 RHEM 参考指南，为透明可信的混合 ESM 治理提供可操作标准。\n- 局限：作为观点文未提供实证评估；框架在真实建模社区的落地效果待后续验证。\n---\nDOI: 10.1038/s42256-026-01299-5",
     "sample": false,
-    "id": "r-1wqtbq9"
+    "id": "r-1wqtbq9",
+    "tags": [
+      "科学计算AI"
+    ]
   },
   {
     "title": "Event-triggered impulsive control for switched delay systems and its application in image encryption of switched neural networks",
@@ -394,7 +470,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体数据集与实验结果未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 Neural Networks（2026），主题为事件触发脉冲控制及其在图像加密中的应用，作者 Zhifeng Lu、Haiying Wang、Yujuan Tian。\n- 因论文暂无公开摘要且全文为付费访问，方法细节、实验结论与局限需要获取全文后深化。\n---\nDOI: 10.1016/j.neunet.2026.109525",
     "sample": false,
-    "id": "r-1lygj7g"
+    "id": "r-1lygj7g",
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Dynamic defense model based on bionic mechanism",
@@ -412,7 +491,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体实验场景与结果未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 Computers & Security（2026），主题为基于仿生机制的动态防御模型，作者 Yanyi Zhang、Tao Li。\n- 因论文暂无公开摘要且全文为付费访问，模型细节、实验结论与局限需要获取全文后深化。\n---\nDOI: 10.1016/j.cose.2026.105132",
     "sample": false,
-    "id": "r-2z1l5h"
+    "id": "r-2z1l5h",
+    "tags": [
+      "入侵检测与防御"
+    ]
   },
   {
     "title": "Multi-resolution enhancement for full-spectrum neural representations",
@@ -430,7 +512,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在多种原始实验测量数据上验证，包括高分辨 X 射线衍射、4D 非弹性中子散射、超快 X 射线散射、相干衍射成像、ptychography 等。相比现有 INR 基线，在更少参数下取得最高 PSNR 与 SSIM，R² 最高；平移 ROI 时保留 95% 的对比度趋势；网络体积约比原始数据小 30 倍（数字来自原文）。",
     "contribution": "- 贡献一：理论引导的多分辨率小波域 INR 框架，以增强网络恢复小模型的细节表征能力。\n- 贡献二：在跨尺度、跨模态的科学数据上验证压缩与保真度兼得，推进 INR 进入科学工作流。\n- 局限：压缩率与保真度的完整权衡分析原文未展开；面向更广泛科学工作流的落地仍需后续工作。\n---\nDOI: 10.1038/s42256-026-01287-9",
     "sample": false,
-    "id": "r-16sj8o1"
+    "id": "r-16sj8o1",
+    "tags": [
+      "科学计算AI"
+    ]
   },
   {
     "title": "A novel FPGA-based garbled circuit accelerator for secure two-party multiplication (GCMult)",
@@ -448,7 +533,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "FPGA 实验表明：与最佳现有硬件加速器相比，乱码时间平均降低 258%，通信带宽平均改善超过 60%；与已知最快的软件实现相比实现 4140% 的加速（数字来自原文摘要）。",
     "contribution": "- 贡献一：首次在乱码电路框架内分解单次乘法为并发子运算，并给出 GCMult 硬件加速器。\n- 贡献二：Karatsuba 分解同时降低门数与通信开销，实验验证了跨软硬件的大幅收益。\n- 局限：评测以 FPGA 实现为主，更广泛的安全性与部署场景原文摘要未展开。\n---\nDOI: 10.1007/s10207-026-01315-0",
     "sample": false,
-    "id": "r-1k3kev4"
+    "id": "r-1k3kev4",
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Instruction Learning Paradigms: A Dual Perspective on White-Box and Black-Box LLMs",
@@ -466,7 +554,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在一系列基准任务上评测，涵盖复杂推理与三个英译 X 翻译任务；与强基线相比，该方法在平均性能上持续领先（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首次系统融合白盒与黑盒两种指令优化范式，兼顾初始化质量与语义可解释性。\n- 贡献二：共享语义空间 + 特征适配模块的迭代优化框架，跨任务可扩展。\n- 局限：具体性能数字原文摘要未提供；更大规模模型上的成本与收益仍需验证。\n---\nDOI: 10.1007/s10994-026-07137-4",
     "sample": false,
-    "id": "r-1jc30n5"
+    "id": "r-1jc30n5",
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "Hook & Match - Development and Evaluation of a Pair Matching Phishing Card Game",
@@ -484,7 +575,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "评估显示，玩过「Hook & Match」后，用户区分钓鱼与合法邮件的能力显著提升；无论初始知识水平如何，新手与有经验的用户都受益，且初始水平最低的参与者受益最大（论文以定性结论为主，未报告具体统计数字）。",
     "contribution": "- 贡献一：提出并实证验证低数字疲劳的纸牌式钓鱼教育工具。\n- 贡献二：发现该方式对知识水平最低的用户收益最大，支持其作为普惠教育的价值。\n- 局限：具体效应量与长期保持效果原文摘要未提供；线下游戏形式的大规模推广成本待评估。\n---\nDOI: 10.1145/3833421",
     "sample": false,
-    "id": "r-thokya"
+    "id": "r-thokya",
+    "tags": [
+      "社会工程与钓鱼"
+    ]
   },
   {
     "title": "Probing diametric coordination graphs for multi-agent reinforcement learning",
@@ -502,7 +596,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在 Predator-Prey 与 Traffic Junction 环境中评测：在最终平均回报/成功率与收敛速度上均优于基线；并进一步展示其跨场景的适应性（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：首次在观测层面显式结合一致性与差异性建模协调图。\n- 贡献二：信息论分析给出表达力证明，并在两类经典 MARL 架构下提供可落地实现。\n- 局限：具体性能数字原文摘要未提供；更大规模环境与真实机器人场景的验证待后续工作。\n---\nDOI: 10.1016/j.artint.2026.104603",
     "sample": false,
-    "id": "r-4o89dc"
+    "id": "r-4o89dc",
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Robust backdoor attacks against fine-tuning-based transfer learning via self-attention distillation",
@@ -520,7 +617,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在三个基准迁移学习任务上，RBA-SAD 攻击成功率超过 97%，并对七种 SOTA 后门防御保持隐蔽（数字来自原文摘要）；还泛化到 Vision Transformer、ImageNet 规模迁移与 LoRA 参数高效微调等场景。",
     "contribution": "- 贡献一：首次针对微调式迁移学习提出自注意力蒸馏型鲁棒后门攻击。\n- 贡献二：多层特征碰撞的触发器优化同时对抗微调与输入净化防御，跨架构与高效微调可泛化。\n- 局限：评测集中于图像分类迁移任务，其他模态与防御场景待扩展。\n---\nDOI: 10.1177/0926227x261476666",
     "sample": false,
-    "id": "r-zalpkk"
+    "id": "r-zalpkk",
+    "tags": [
+      "后门与投毒"
+    ]
   },
   {
     "title": "Data-Centric Challenges, Techniques, and Impacts: A Survey on Image Data Perturbation",
@@ -538,7 +638,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "综述性论文，无新实验；其「结果」为对图像数据扰动的系统分类、方法归纳与机制分析（原文以梳理为主，未提供量化对比）。",
     "contribution": "- 贡献一：首个聚焦图像数据扰动、覆盖数字与物理两域的全面综述与分类体系。\n- 贡献二：把数据工程视角引入鲁棒性研究，阐明扰动如何帮助构建既准确又鲁棒的模型。\n- 局限：范围集中于图像分类；其他模态与任务的数据扰动分析待补充。\n---\nDOI: 10.1109/tkde.2026.3709786",
     "sample": false,
-    "id": "r-fjaifi"
+    "id": "r-fjaifi",
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "PrivaCI: Privacy as Contextual Integrity",
@@ -556,7 +659,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "论文暂缺公开摘要，具体案例或实验未能获取；建议获取全文后补全。",
     "contribution": "- 可证实的信息：发表在 IEEE Security & Privacy（2026），作者 Kirsten Martin、Helen Nissenbaum（情境完整性理论提出者）、Yan Shvartzshnaider。\n- 因论文暂无公开摘要且 IEEE Xplore 需要订阅访问，理论框架细节与结论需要获取全文后深化。\n---\nDOI: 10.1109/msec.2026.3697946",
     "sample": false,
-    "id": "r-5gewdy"
+    "id": "r-5gewdy",
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
@@ -574,7 +680,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在三个不同领域的模型与数据集上评测：CIFAR-10 上针对 ResNet50 的 targeted 后门攻击成功率达到 98.66%，较基线提升 86.22%（数字来自原文）。对六个 SOTA 模型级防御（Neural Cleanse、ABS、MNTD、NAD、CLP、D-BR）逐一评估，结果显示这些防御对被后门化的骨干模型基本无效。",
     "contribution": "- 贡献一：首次在 backbone 层面注入后门并传染到 prompt learning 下游任务，暴露该范式的深层风险。\n- 贡献二：对六个主流模型级防御的系统评估，表明现有防御手段失效，为防御研究提出明确新课题。\n- 局限：攻击依赖与下游分布相似的 shadow dataset；有效且实用的防御仍是开放方向。\n---\nDOI: 10.1109/TIFS.2026.3698596",
     "sample": false,
-    "id": "r-2pmqx0"
+    "id": "r-2pmqx0",
+    "tags": [
+      "后门与投毒",
+      "多模态学习"
+    ]
   },
   {
     "title": "Hard-Label Black-Box Attacks on 3D Point Clouds",
@@ -592,7 +702,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在 ModelNet40（12,311 个 CAD 模型）上评测。攻击在多种 3D 架构上实现显著扰动缩减：在 CurveNet 上改进 31.8%，在另一架构上改进 17.6%；扰动幅度小于现有黑盒方法，与白盒方法持平；面对几何类防御（如 SRS）时仍保持性能优势，差距最高 21.1%（数字来自原文）。",
     "contribution": "- 贡献一：首次将 hard-label 黑盒设置引入 3D 点云对抗攻击，贴近真实部署场景。\n- 贡献二：频谱融合决策边界 + 曲率感知坐标-频谱迭代优化，兼顾攻击成功率与不可感知性。\n- 局限：仍需多次标签查询，代价高于白盒；几何防御下优势有所收窄（最高差距 21.1%），更鲁棒的防御与攻击仍是开放问题。\n---\nDOI: 10.1109/tdsc.2026.3694723",
     "sample": false,
-    "id": "r-1euff9e"
+    "id": "r-1euff9e",
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "MMA++: Effective Multi-Modal Adaptation for Vision-Language Models",
@@ -610,7 +724,10 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在大量 few-shot 泛化任务上评测，包括 base-to-novel 泛化、跨数据集迁移与域泛化，方法持续取得领先性能（原文摘要未给出具体数字）。",
     "contribution": "- 贡献一：数据驱动的选择性适配器放置策略 + 共享投影空间，参数高效且跨模态对齐更好。\n- 贡献二：从经验与理论两方面论证融合尺度 α 应随数据规模自适应，并给出免调的 α-consistency 框架。\n- 局限：具体性能数字原文摘要未提供；更大规模 VLM 与更多任务族的验证待展开。\n---\nDOI: 10.1109/tpami.2026.3691448",
     "sample": false,
-    "id": "r-1lv8cp6"
+    "id": "r-1lv8cp6",
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "A Survey on Vision–Language–Action Models for Embodied AI",
@@ -628,7 +745,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "综述性论文，无新实验。其「结果」体现为结构化的分类体系与资源清单：覆盖三条研究线的代表性方法，以及数据集、仿真器、基准的整理（原文以资源梳理为主，未给出量化对比）。",
     "contribution": "- 贡献一：首个 VLA 综合综述与三线分类框架，为快速演进的领域提供地图。\n- 贡献二：持续维护的 Awesome-VLA 资源仓库，降低入门与对比成本。\n- 局限：领域变化极快，覆盖内容会迅速过时；数据稀缺与不一致是当前主要挑战，未来方向包括世界模型（预测未来状态）与模型自我改进等（原文列举）。\n---\nDOI: 10.1109/tnnls.2025.3650584",
     "sample": false,
-    "id": "r-jnvo82"
+    "id": "r-jnvo82",
+    "tags": [
+      "多模态学习",
+      "具身智能"
+    ]
   },
   {
     "title": "PrivateEdit: A Privacy-Preserving Pipeline for Face-Centric Generative Image Editing",
@@ -646,7 +767,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在专业与创意工作流中展示可用性，并提供选择性匿名化用户界面（原文摘要未给出量化评估数字）。",
     "contribution": "- 贡献一：默认隐私（privacy by default）的人脸编辑流水线，生物特征数据不离开设备。\n- 贡献二：不修改第三方模型的可调掩码机制，兼顾隐私与保真度，兼容现有商业 API。\n- 局限：具体量化结果原文摘要未提供；编辑质量与隐私的完整权衡分析待全文评估。\n---\nDOI: 10.1109/tai.2026.3671211",
     "sample": false,
-    "id": "r-ljw7hu"
+    "id": "r-ljw7hu",
+    "tags": [
+      "隐私保护",
+      "生成模型"
+    ]
   },
   {
     "title": "Fake it till you make it: the psychological and communication tactics behind \"Pig Butchering\" scams",
@@ -664,7 +789,11 @@ window.PAPERLEDGER_SEED = [
     "experiments": "质性分析结果：诈骗者系统化利用人际沟通、关系建立与动机操纵三类策略；统一阶段模型覆盖从接触、信任建立到资金提取的完整过程（原文以质性发现为主，未提供量化指标）。",
     "contribution": "- 贡献一：首次基于诈骗手册揭示杀猪盘的训练与实施机制，而非仅受害者视角。\n- 贡献二：统一阶段模型连接心理学与沟通理论，为预防与干预设计提供理论依据。\n- 局限：基于诈骗手册的质性分析，样本代表性有限；理论映射的实证验证待后续研究。\n---\nDOI: 10.1093/cybsec/tyag003",
     "sample": false,
-    "id": "r-9a8m09"
+    "id": "r-9a8m09",
+    "tags": [
+      "反欺诈",
+      "社会工程与钓鱼"
+    ]
   },
   {
     "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
@@ -682,6 +811,9 @@ window.PAPERLEDGER_SEED = [
     "experiments": "在三个任务上 ToT 显著提升了解题能力：Game of 24 中 GPT-4 + CoT 仅解出 4%，ToT 达 74%（GPT-3.5 上为 19%，GPT-3.5 下仍是 ToT > CoT > IO）；Creative Writing 中 GPT-3.5 + ToT 超过 GPT-4 + IO；扩展到 GSM8K 与 StrategyQA 的 zero-shot ToT 也小幅优于 CoT。成本上，Game of 24 每题 ToT 约 5.5k 生成 token、$0.74，优于 best-of-100 CoT（$0.47、49%）；Creative Writing 的 ToT 约为 IO 的 5 倍 token 与费用（数字来自论文全文）。",
     "contribution": "- 贡献一：提出 ToT 框架，首次把「探索 + 自我评估 + 前瞻/回溯」的树搜索机制系统性地用于语言模型推理。\n- 贡献二：ToT 通用化 Chain-of-Thought，证明了在复杂规划类任务上「想得多」比「想得快」更有效。\n- 局限：推理代价显著高于 IO/CoT（约 5× token 与费用），评测集中在少数人工设计的任务；传统 NLP 任务上 GPT-4 + CoT 已很强，ToT 的收益更适用于挑战其推理的难题，实用时需权衡成本与收益。\n---\nDOI: 10.48550/arXiv.2305.10601",
     "sample": false,
-    "id": "r-63sb00"
+    "id": "r-63sb00",
+    "tags": [
+      "大模型"
+    ]
   }
 ];

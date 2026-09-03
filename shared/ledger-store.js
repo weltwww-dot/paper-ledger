@@ -42,6 +42,7 @@
       method: p.method || "",
       experiments: p.experiments || "",
       contribution: p.contribution || "",
+      tags: Array.isArray(p.tags) ? p.tags.map((t) => String(t).trim()).filter(Boolean) : [],
       sample: !!p.sample,
     };
   }
@@ -147,6 +148,32 @@
             writeStorage(deletedKey, JSON.stringify(deleted));
           }
         }
+        persist(papers);
+        return papers;
+      },
+      /* 撤销删除：插回原位置；内置条目同时移出删除记忆 */
+      restore(entry, index) {
+        const normalized = normalize(entry);
+        const idx = Math.max(0, Math.min(index == null ? papers.length : index, papers.length));
+        papers.splice(idx, 0, normalized);
+        if (/^r-/.test(normalized.id || "")) {
+          const deleted = getDeletedIds().filter((d) => d !== normalized.id);
+          writeStorage(deletedKey, JSON.stringify(deleted));
+        }
+        persist(papers);
+        return papers;
+      },
+      /* 备份：导出全部论文与删除记忆 */
+      exportData() {
+        return {
+          papers: papers.map((p) => ({ ...p })),
+          deleted: getDeletedIds(),
+        };
+      },
+      /* 备份：整体替换（导入前由调用方确认覆盖） */
+      importData(data) {
+        papers = (data.papers || []).map(normalize).filter((p) => !p.sample);
+        writeStorage(deletedKey, JSON.stringify(data.deleted || []));
         persist(papers);
         return papers;
       },
