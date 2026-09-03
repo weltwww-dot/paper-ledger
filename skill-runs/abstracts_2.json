@@ -1,0 +1,32 @@
+[
+  {
+    "doi": "10.1007/s10207-026-01321-2",
+    "title": "From static tasks to dynamic reasoning: a characterization framework and study of large language models in next-generation cybersecurity automation",
+    "authors": [
+      "Hanbo Yu",
+      "Shahrear Iqbal",
+      "Euclides Carlos Pinto Neto",
+      "Scott Buffett",
+      "Adrian Taylor"
+    ],
+    "venue": "International Journal of Information Security",
+    "year": 2026,
+    "abstract": "Abstract Large Language Models (LLMs) are increasingly applied in cybersecurity, but most existing industry use cases focus on static, one-shot tasks such as classification, entity extraction, or summarization. While effective in narrow contexts, these applications fail to capture the complexity of real-world cybersecurity workflows, which often unfold over time, involve evolving inputs, and require multi-step reasoning. In this paper, we shift the focus toward dynamic cyber tasks—problems that demand context awareness, tool interaction, and adaptive decision-making. Our main goal is to define, analyze, and investigate the role of LLMs in automating these dynamic tasks. To achieve this, we introduce a characterization framework that profiles dynamic cyber tasks along four complementary dimensions: operational goal, knowledge grounding, collaboration mode, and cognitive complexity. We survey recent LLM-based systems across seven core domains: threat intelligence, data privacy and security, vulnerability detection, malware detection, intrusion detection, incident response and red teaming automation. Our analysis shows that current systems remain limited by privacy and deployment constraints, stale or incomplete threat knowledge, weak validation of feedback-driven actions, and insufficient evidence of operational benefit. We identify the need for privacy-aware deployment, timely retrieval and knowledge maintenance for emerging threats, process-level evaluation tied to measurable security outcomes, and human oversight within controlled and hybrid automation workflows. These findings clarify where LLMs can provide practical value and where conventional or hybrid approaches may remain more suitable.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1007/s10994-026-07118-7",
+    "title": "Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning",
+    "authors": [
+      "Weixin Chen",
+      "Simon C.H. Yu",
+      "Huajie Shao",
+      "Lui Sha",
+      "Han Zhao"
+    ],
+    "venue": "Machine Learning",
+    "year": 2026,
+    "abstract": "Abstract End-to-end deep neural networks have achieved remarkable success across various domains but are often criticized for their lack of interpretability. While post hoc explanation methods attempt to address this issue, they often fail to accurately represent these black-box models, resulting in misleading or incomplete explanations. To overcome these challenges, we propose an inherently transparent model architecture called Neural Probabilistic Circuits (NPCs), which enable compositional and interpretable predictions through logical reasoning. In particular, an NPC consists of two modules: an attribute recognition model, which predicts probabilities for various attributes, and a task predictor built on a probabilistic circuit, which enables logical reasoning over recognized attributes to make class predictions. To train NPCs, we introduce a three-stage training algorithm comprising attribute recognition, circuit construction, and joint optimization. Moreover, we theoretically demonstrate that an NPC’s error is upper-bounded by a linear combination of the errors from its modules. To further demonstrate the interpretability of NPC, we provide both the most probable explanations and the counterfactual explanations. Empirical results on four benchmark datasets show that NPCs strike a balance between interpretability and performance, achieving results competitive even with those of end-to-end black-box models while providing enhanced interpretability.",
+    "source": "openalex"
+  }
+]

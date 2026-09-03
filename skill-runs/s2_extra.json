@@ -1,0 +1,114 @@
+{
+ "10.1016/j.neunet.2026.109525": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "10.1016/j.cose.2026.105132": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "10.1007/s10207-026-01315-0": {
+  "title": "A novel FPGA-based garbled circuit accelerator for secure two-party multiplication (GCMult)",
+  "year": 2026,
+  "venue": "International Journal of Information Security",
+  "abstract": "Privacy-preserving function execution is crucial for applications such as cloud-based machine learning and IoT. While garbled circuits offer a viable solution, they suffer from high computational and communication costs. Multiplication, a fundamental operation in computing, plays a critical role in overall efficiency. Although parallel execution of independent operations has been widely explored, ",
+  "authors": [
+   "Hiva Assasi",
+   "Shahram Etemadi Borujeni"
+  ]
+ },
+ "10.1007/s10994-026-07137-4": {
+  "title": "Instruction Learning Paradigms: A Dual Perspective on White-Box and Black-Box LLMs",
+  "year": 2025,
+  "venue": "Machine-mediated learning",
+  "abstract": "Optimizing instructions for large language models (LLMs) is critical for harnessing their full potential in complex and diverse tasks. However, relying solely on white-box approaches demands extensive computational resources and offers limited representational capacity, while black-box models can incur prohibitive financial costs. To address these challenges, we introduce a novel framework that se",
+  "authors": [
+   "Yanwei Ren",
+   "Liu Liu",
+   "Baosheng Yu",
+   "Jiayan Qiu"
+  ]
+ },
+ "10.1145/3833421": {
+  "title": "Hook & Match - Development and Evaluation of a Pair Matching Phishing Card Game",
+  "year": 2026,
+  "venue": "ACM Transactions on Privacy and Security",
+  "abstract": "Digital fatigue is increasing due to ongoing digitization, yet understanding digital processes remains crucial. Cybercriminals exploit the lack of knowledge and awareness among users. To address this, we developed “Hook & Match”, a Pair Matching Phishing Card game, which combines the familiar non-digital principle of pair matching with phishing education to avoid contributing to digital fatigue. I",
+  "authors": [
+   "B. Berens",
+   "Sebastian Pape",
+   "Melanie Volkamer"
+  ]
+ },
+ "10.1016/j.artint.2026.104603": {
+  "title": "Probing Diametric Coordination Graphs for Multi-Agent Reinforcement Learning",
+  "year": 2026,
+  "venue": "Artificial Intelligence",
+  "abstract": "",
+  "authors": [
+   "Mutong Liu",
+   "Tiantian He",
+   "Yang Liu",
+   "Jiming Liu"
+  ]
+ },
+ "10.1177/0926227x261476666": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "10.1109/tkde.2026.3709786": {
+  "title": "Data-Centric Challenges, Techniques, and Impacts: A Survey on Image Data Perturbation",
+  "year": 2026,
+  "venue": "IEEE Transactions on Knowledge and Data Engineering",
+  "abstract": "Data-driven deep learning models have revolutionized the ability to understand and model intrinsic data patterns. However, in real-world applications, their reliability is often compromised by inherent randomness, uncertainty, and potential adversarial threats, particularly those originating from data. As a critical component of data engineering, data perturbation has emerged as an effective appro",
+  "authors": [
+   "Pengfei Zhang",
+   "Guangdong Bai",
+   "Xinshun Xu",
+   "Z. Huang"
+  ]
+ },
+ "10.1109/msec.2026.3697946": {
+  "title": "PrivaCI: Privacy as Contextual Integrity",
+  "year": 2026,
+  "venue": "IEEE Security and Privacy",
+  "abstract": "",
+  "authors": [
+   "Kirsten Martin",
+   "H. Nissenbaum",
+   "Yan Shvartzshnaider"
+  ]
+ },
+ "10.1109/tpami.2026.3691448": {
+  "title": "MMA++: Effective Multi-Modal Adaptation for Vision-Language Models",
+  "year": 2026,
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "abstract": "Large scale pre-trained Vision-Language Models (VLMs) have shown good generalization capabilities across diverse downstream tasks. However, adapting such large-scale models to few-shot generalization scenarios remains challenging due to the trade-off between preserving general knowledge and incorporating task-specific information. In this paper, we propose <bold>MMA++</bold>, an advanced and effec",
+  "authors": [
+   "Lingxiao Yang",
+   "Ru-Yuan Zhang",
+   "Yanchen Wang",
+   "Xiaohua Xie"
+  ]
+ },
+ "10.1109/tai.2026.3671211": {
+  "title": "PrivateEdit: A Privacy-Preserving Pipeline for Face-Centric Generative Image Editing",
+  "year": 2026,
+  "venue": "IEEE Transactions on Artificial Intelligence",
+  "abstract": "Recent advances in generative image editing have enabled transformative applications, from professional headshot generation to avatar stylization. However, these systems often require uploading high-fidelity facial images to third-party models, raising concerns around biometric privacy, data misuse, and user consent. We propose a privacy-preserving pipeline that supports high-quality editing while",
+  "authors": [
+   "D. Tamboli",
+   "Vineet Punyamoorty",
+   "Atharv Pawar",
+   "Vaneeta Aggarwal"
+  ]
+ },
+ "10.1093/cybsec/tyag003": {
+  "title": "Fake it till you make it: the psychological and communication tactics behind \"Pig Butchering\" scams",
+  "year": 2026,
+  "venue": "Journal of Cybersecurity",
+  "abstract": "",
+  "authors": [
+   "Ayse Nur Asyali",
+   "M. Frank",
+   "Pol Hölzmer"
+  ]
+ }
+}

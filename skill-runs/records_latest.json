@@ -1,0 +1,130 @@
+[
+  {
+    "doi": "10.1007/s10994-026-07148-1",
+    "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+    "year": 2026,
+    "date": "2026-08-31",
+    "type": "article",
+    "source": "Machine Learning"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109538",
+    "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
+    "year": 2026,
+    "date": "2026-08-31",
+    "type": "article",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105129",
+    "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
+    "year": 2026,
+    "date": "2026-08-29",
+    "type": "article",
+    "source": "Computers & Security"
+  },
+  {
+    "doi": "10.1007/s10207-026-01321-2",
+    "title": "From static tasks to dynamic reasoning: a characterization framework and study of large language models in next-generation cybersecurity automation",
+    "year": 2026,
+    "date": "2026-08-29",
+    "type": "article",
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1038/s42256-026-01299-5",
+    "title": "Enhancing reproducibility in hybrid Earth system models",
+    "year": 2026,
+    "date": "2026-08-28",
+    "type": "article",
+    "source": "Nature Machine Intelligence"
+  },
+  {
+    "doi": "10.1145/3838797",
+    "title": "APKOS: Accurate and Privacy-Preserving Keyword Spotting for Intelligent Voice Assistant Systems",
+    "year": 2026,
+    "date": "2026-08-26",
+    "type": "article",
+    "source": "ACM Transactions on Privacy and Security"
+  },
+  {
+    "doi": "10.1016/j.artint.2026.104604",
+    "title": "ParaKplex: A parallel local search algorithm for the maximum K-Plex problem",
+    "year": 2026,
+    "date": "2026-08-20",
+    "type": "article",
+    "source": "Artificial Intelligence"
+  },
+  {
+    "doi": "10.1177/0926227x261476666",
+    "title": "Robust backdoor attacks against fine-tuning-based transfer learning via self-attention distillation",
+    "year": 2026,
+    "date": "2026-08-10",
+    "type": "article",
+    "source": "Journal of Computer Security"
+  },
+  {
+    "doi": "10.1109/tkde.2026.3709786",
+    "title": "Data-Centric Challenges, Techniques, and Impacts: A Survey on Image Data Perturbation",
+    "year": 2026,
+    "date": "2026-08-07",
+    "type": "article",
+    "source": "IEEE Transactions on Knowledge and Data Engineering"
+  },
+  {
+    "doi": "10.1109/msec.2026.3697946",
+    "title": "PrivaCI: Privacy as Contextual Integrity",
+    "year": 2026,
+    "date": "2026-07-01",
+    "type": "article",
+    "source": "IEEE Security & Privacy"
+  },
+  {
+    "doi": "10.60882/cispa.32775141",
+    "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
+    "year": 2026,
+    "date": "2026-06-01",
+    "type": "article",
+    "source": "IEEE Transactions on Information Forensics and Security"
+  },
+  {
+    "doi": "10.1109/tpami.2026.3691448",
+    "title": "MMA++: Effective Multi-Modal Adaptation for Vision-Language Models",
+    "year": 2026,
+    "date": "2026-05-25",
+    "type": "article",
+    "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  },
+  {
+    "doi": "10.1109/tdsc.2026.3694723",
+    "title": "Hard-Label Black-Box Attacks on 3D Point Clouds",
+    "year": 2026,
+    "date": "2026-05-19",
+    "type": "article",
+    "source": "IEEE Transactions on Dependable and Secure Computing"
+  },
+  {
+    "doi": "10.1109/tnnls.2025.3650584",
+    "title": "A Survey on Vision--Language--Action Models for Embodied AI",
+    "year": 2026,
+    "date": "2026-04-28",
+    "type": "article",
+    "source": "IEEE Transactions on Neural Networks and Learning Systems"
+  },
+  {
+    "doi": "10.1109/tai.2026.3680823",
+    "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
+    "year": 2026,
+    "date": "2026-04-20",
+    "type": "article",
+    "source": "IEEE Transactions on Artificial Intelligence"
+  },
+  {
+    "doi": "10.1093/cybsec/tyag022",
+    "title": "Secure and verifiable coercion-resistant electronic exam",
+    "year": 2026,
+    "date": "2026-01-01",
+    "type": "article",
+    "source": "Journal of Cybersecurity"
+  }
+]

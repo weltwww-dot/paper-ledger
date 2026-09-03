@@ -1,0 +1,205 @@
+[
+  {
+    "doi": "10.1145/3838797",
+    "title": "APKOS: Accurate and Privacy-Preserving Keyword Spotting for Intelligent Voice Assistant Systems",
+    "authors": [
+      "Peijia Zheng",
+      "Jingyi Chen",
+      "Zhaoqi Chen",
+      "Huiyu Zhou",
+      "Guorui Xie",
+      "Qing Li",
+      "Jiwu Huang"
+    ],
+    "venue": "ACM Transactions on Privacy and Security",
+    "year": 2026,
+    "abstract": "Intelligent voice assistants and their supporting Cloud Voice Assistant (CVA) systems are becoming increasingly prevalent in AIoT environments. However, transmitting voice data to the cloud raises significant privacy concerns. Homomorphic encryption (HE) offers a promising solution by enabling secure computation over encrypted data without revealing the plaintext. Yet, its application introduces performance challenges for keyword spotting (KWS). Therefore, designing a privacy-preserving KWS scheme that ensures both security and high accuracy remains a significant challenge. In this paper, we propose a privacy-preserving and accurate keyword spotting scheme tailored for CVA systems. Our design is based on HE and achieves semantic security while maintaining high KWS performance. To optimize encrypted inference, we introduce a fusion layer that combines activation and pooling operations, reducing ciphertext-level computation. We also design a real-valued polynomial activation function tailored for audio-based tasks and employ a kernel expansion strategy to enhance representational capacity without increasing multiplicative depth. Extensive evaluations across multiple datasets demonstrate that our method achieves up to 7% improvement in accuracy and 10% gain in robustness compared to state-of-the-art privacy-preserving KWS methods.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1007/s10994-026-07132-9",
+    "title": "Morphing-Based Sensitivity Analysis: A Comparative Study of Linear and Non-linear Temporal Transformations in TSC Robustness",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105125",
+    "title": "What You See Is Not What You Execute: Memory-Based Runtime SBOM Generation for Supply Chain Security",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1109/msec.2026.3697946",
+    "title": "PrivaCI: Privacy as Contextual Integrity",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.60882/cispa.32775141",
+    "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
+    "authors": [
+      "Ziqing Yang",
+      "Rui Wen",
+      "Xinlei He",
+      "Yun Shen",
+      "Michael Backes",
+      "Yang Zhang"
+    ],
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "year": 2026,
+    "abstract": "Prompt learning is a new machine learning paradigm that has attracted ample attention due to its simplicity and proven efficacy. Despite its growing adoption, the security vulnerabilities associated with this paradigm remain underexplored. In this work, we take the first step to propose BadBone, a stealthy and adaptive backdoor attack against prompt learning using bi-level optimization. Instead of backdooring the prompt learning process, we aim to compromise a backbone model such that only target downstream tasks employing prompt learning inherit the backdoor vulnerability. Extensive experiments on three different models and three datasets from various domains show that our targeted/untargeted backdoored models achieve high attack performance while maintaining utility on both pretraining and downstream tasks. Moreover, we evaluate our approach against six state-of-the-art model-level defenses, including Neural Cleanse, ABS, MNTD, NAD, CLP, and D-BR. The results demonstrate that these defenses are largely ineffective against our backdoored models and thus leave the effective defense as an important direction for future work. Our code is available at https://github.com/TrustAIRLab/BadBone.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1038/s42256-026-01299-5",
+    "title": "Enhancing reproducibility in hybrid Earth system models",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1109/tkde.2026.3709786",
+    "title": "Data-Centric Challenges, Techniques, and Impacts: A Survey on Image Data Perturbation",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "abstract": "Data-driven deep learning models have revolutionized the ability to understand and model intrinsic data patterns. However, in real-world applications, their reliability is often compromised by inherent randomness, uncertainty, and potential adversarial threats, particularly those originating from data. As a critical component of data engineering, data perturbation has emerged as an effective approach for evaluating and enhancing the robustness of deep learning models, encompassing both inadvertent and deliberate modifications to data. This survey offers a comprehensive review of data perturbations, with a particular focus on the extensively studied image perturbations on classification throughout the development and deployment of deep models. It presents a detailed summary and taxonomy of existing perturbations, their generation methods, interrelationships, implications for model robustness, and explores underlying mechanisms. By systematically analyzing recent advances and best practices across both digital and physical domains, our goal is to provide an in-depth understanding of how data engineering, which is particularly through data perturbation, can be leveraged to develop models that are both accurate and resilient. Additionally, we discuss current limitations in current research and suggest promising directions for future study.",
+    "source": "semanticscholar"
+  },
+  {
+    "doi": "10.1109/tai.2026.3671211",
+    "title": "PrivateEdit: A Privacy-Preserving Pipeline for Face-Centric Generative Image Editing",
+    "authors": [
+      "Dipesh Tamboli",
+      "Vineet Punyamoorty",
+      "Atharv Pandurang Pawar",
+      "Vaneet Aggarwal"
+    ],
+    "venue": "IEEE Transactions on Artificial Intelligence",
+    "year": 2026,
+    "abstract": "Recent advances in generative image editing have enabled transformative applications, from professional head shot generation to avatar stylization. However, these systems often require uploading high-fidelity facial images to third-party models, raising concerns around biometric privacy, data misuse, and user consent. We propose a privacy-preserving pipeline that supports high-quality editing while keeping users in control over their biometric data in face-centric use cases. Our approach separates identity-sensitive regions from editable image context using on-device segmentation and masking, enabling secure, user-controlled editing without modifying third-party generative models. Unlike traditional cloud-based tools, PRIVATEEDITenforces privacy by default: biometric data is never exposed or transmitted. This design requires no access to or retraining of third-party models, making it compatible with a wide range of commercial APIs. By treating privacy as a core design constraint, our system supports responsible generative AI centered on user autonomy and trust. The pipeline includes a tunable masking mechanism that lets users control how much facial information is concealed, allowing them to balance privacy and output fidelity based on trust level or use case. We demonstrate its applicability in professional and creative workflows and provide a user interface for selective anonymization. By advocating privacy-by-design in generative AI, our work offers both technical feasibility and normative guidance for protecting digital identity. The source code is available athttps://github.com/Dipeshtamboli/PrivateEdit-Privacy-Preserving-GenAI.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1007/s10207-026-01318-x",
+    "title": "CAM-LDS: cyber attack manifestations for automatic interpretation of system logs and security alerts",
+    "authors": [
+      "Max Landauer",
+      "Wolfgang Hotwagner",
+      "Thorina Boenke",
+      "Florian Skopik",
+      "Markus Wurzenberger"
+    ],
+    "venue": "International Journal of Information Security",
+    "year": 2026,
+    "abstract": "Abstract Log data are essential for intrusion detection and forensic investigations. However, manual log analysis is tedious due to high data volumes, heterogeneous event formats, and unstructured messages. Although many automated log-analysis methods exist, they usually still rely on domain-specific configurations, including expert-defined detection rules, handcrafted log parsers, or manual feature-engineering. Crucially, the level of automation of conventional methods remains limited by their inability to semantically understand logs and explain their underlying causes. In contrast, Large Language Models enable domain- and format-agnostic interpretation of system logs and security alerts. Unfortunately, research on this topic is challenging, because publicly available labeled data sets covering a broad range of attack techniques remain scarce. To address this gap, we introduce the Cyber Attack Manifestation Log Data Set (CAM-LDS), a fully open-source and reproducible Linux-based data set for analyzing cyber attack manifestations in system logs and security alerts. Unlike existing datasets that are often network-centric, Windows-focused, or limited in attack diversity, CAM-LDS comprises seven attack scenarios covering 81 techniques across 13 tactics and collected from 18 host- and network-based data sources. We isolate log events temporally associated with individual attack steps to enable analysis of manifestations concerning command observability, event frequencies, performance metrics, and intrusion detection alerts. We further present an illustrative case study utilizing an LLM to process CAM-LDS. The best-performing model ranks at least one correct attack technique first for $$41.8\\%$$ 41.8 % of attack steps and within Top 10 for $$67.2\\%$$ 67.2 % , demonstrating the potential of LLM-based log interpretation and utility of our data set.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109525",
+    "title": "Event-triggered impulsive control for switched delay systems and its application in image encryption of switched neural networks.",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "abstract": "This paper addresses the event-triggered impulsive control problem for nonlinear switched systems with time delay. The main challenge is that the delayed state may originate from a historical interval governed by a subsystem different from the current one, while switching may also occur before the next impulse is generated. To address this issue, a mode-dependent event-triggered mechanism is developed by incorporating an exponential attenuation term associated with the initial historical information. Based on the Lyapunov-Razumikhin method and the average dwell time technique, sufficient criteria are established to ensure exponential stability of the considered system and rule out Zeno behavior. An explicit lower bound on the inter-event times is also obtained, which characterizes the admissible triggering intervals under the combined influence of switching and delay. Since the impulse input is applied only at triggering instants, no continuous control signal needs to be transmitted between two successive triggers, and the communication burden associated with control transmission from the controller to the actuator can be reduced. The proposed theoretical results are further applied to the synchronization of switched neural networks, where the design conditions for the triggering mechanism and impulsive control gain are formulated as linear matrix inequalities. Numerical simulations and an image encryption application demonstrate the effectiveness and practical applicability of the developed method.",
+    "source": "semanticscholar"
+  },
+  {
+    "doi": "10.1177/0926227x261476666",
+    "title": "Robust backdoor attacks against fine-tuning-based transfer learning via self-attention distillation",
+    "authors": [
+      "Ziyang Zhuo",
+      "Yilun Lyu",
+      "Xu Ma",
+      "Yuan Ma",
+      "Hongwei Zhou",
+      "Jiankang Wei"
+    ],
+    "venue": "Journal of Computer Security",
+    "year": 2026,
+    "abstract": "Backdoor attacks inject hidden behaviors into deep neural networks, causing them to behave normally on benign inputs but produce attacker-specified results under trigger conditions, which poses significant threats to model integrity. However, transfer learning, as a prevalent paradigm for training neural networks, often compromises backdoors during the fine-tuning process. To address this issue, we propose Robust Backdoor Attacks against Fine-tuning-based Transfer Learning via Self-Attention Distillation (RBA-SAD), a robust backdoor attack scheme that manipulates model’s ability to recognize the trigger via layer-wise and top-down self-attention distillation, effectively withstanding the impact of fine-tuning. Additionally, imperceptible noise is employed as a trigger to evade defenses based on input purification. To enhance the effectiveness of self-attention distillation, we optimize trigger generation to achieve multi-layer feature collisions, ensuring that the representations of poisoned samples at each corresponding layer are similar to those of clean samples. Extensive experiments on three benchmark transfer-learning tasks show that RBA-SAD achieves over 97% attack success rate while remaining stealthy against seven state-of-the-art backdoor defenses. Moreover, it generalizes well to additional settings, including Vision Transformers, ImageNet-scale transfers, and parameter-efficient fine-tuning with Low-Rank Adaptation.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1016/j.artint.2026.104604",
+    "title": "ParaKplex: A parallel local search algorithm for the maximum K-Plex problem",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  },
+  {
+    "doi": "10.1093/cybsec/tyag022",
+    "title": "Secure and verifiable coercion-resistant electronic exam",
+    "authors": [
+      "Mohammadamin RAKEEI",
+      "Rosario Giustolisi",
+      "Gabriele Lenzini",
+      "Dhekra Mahmoud",
+      "Jannik Dreier",
+      "Pascal Lafourcade"
+    ],
+    "venue": "Journal of Cybersecurity",
+    "year": 2026,
+    "abstract": "Abstract Since they enable efficient assessment of large cohorts of students and test-takers, electronic exams (e-exams) have become popular. However, the transition from pencil-and-paper tests to e-exams comes with challenges: researchers needed to ensure a comparable level of security and privacy as that enjoyed before the transition; at the same time, they have to address threats due to the use of information and communication technology. Research has shown that, for the reason of assessment fairness, e-exams should satisfy a list of peculiar security properties, for instance, about authentication, secrecy, integrity, anonymity, and correctness, including their universal and individual verifiability. Recently, e-exams have been scrutinized for their resistance to collusion and coercion. Subsets of participants have an interest in teaming up, or forcing one another, to gain an unfair advantage over the honest others. In this work, we study coercion-resistance for e-exams. We propose a novel strong definition of coercion where all secrets are leaked to the attacker. Under this threat, we prove that a recent coercion-resistant exam protocol is subject to attacks. We improve the protocol by ensuring that all its properties are maintained and that it is coercion-resistant under the new threat model. Our new protocol is also verifiable, which is a must-have property whenever there is the need to prove that fairness is preserved despite anyone attempting to subvert it. All our claims are formally verified using ProVerif. Notably, our formal verification includes proving the security of a recent exponentiation mixnet framework proposed in the literature.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1109/tdsc.2026.3694723",
+    "title": "Hard-Label Black-Box Attacks on 3D Point Clouds",
+    "authors": [
+      "Daizong Liu",
+      "Yunbo Tao",
+      "Junhao Dong",
+      "Keke Tang",
+      "Pan Zhou",
+      "Wei Hu",
+      "Yew-Soon Ong"
+    ],
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "year": 2026,
+    "abstract": "With the maturity of depth sensors in various 3D safety-critical applications, 3D point cloud models have been shown to be vulnerable to adversarial attacks. Almost all existing 3D attackers simply follow the white-box or black-box setting to iteratively update coordinate perturbations based on back-propagated or estimated gradients. However, these methods are hard to deploy in real-world scenarios (no model details are provided) as they severely rely on parameters or output logits of victim models. To this end, we propose point cloud attacks from a more practical setting,i.e., hard-label black-box attack, in which attackers can only access the prediction label of 3D input. We introduce a novel 3D attack method based on a new spectrum-aware decision boundary algorithm to generate high-quality adversarial samples. In particular, we first construct a class-aware model decision boundary, by developing a learnable spectrum-fusion strategy to adaptively fuse point clouds of different classes in the spectral domain, aiming to craft their intermediate samples without distorting the original geometry. Then, we devise an iterative coordinate-spectrum optimization method with curvature-aware boundary search to move the intermediate sample along the decision boundary for generating adversarial point clouds with trivial perturbations. Experiments demonstrate that our attack competitively outperforms existing white/black-box attackers in terms of attack performance and adversary quality.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1109/tpami.2026.3691448",
+    "title": "MMA++: Effective Multi-Modal Adaptation for Vision-Language Models",
+    "authors": [
+      "Lingxiao Yang",
+      "Ru‐Yuan Zhang",
+      "Yanchen Wang",
+      "Xiaohua Xie"
+    ],
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2026,
+    "abstract": "Large scale pre-trained Vision-Language Models (VLMs) have shown good generalization capabilities across diverse downstream tasks. However, adapting such large-scale models to few-shot generalization scenarios remains challenging due to the trade-off between preserving general knowledge and incorporating task-specific information. In this paper, we propose MMA++, an advanced and effective Multi-Modal Adapter framework for parameter-efficient VLM adaptation. Unlike prior works that independently inject adapters into each modality or uniformly across layers, MMA++ performs a dataset-level analysis to identify discriminative and generalizable features, and selectively applies adapters to the higher layers of both vision and text encoders. To bridge the modality gap, we further propose a shared feature projection space that enhances alignment between modalities. Beyond architecture design, we identify the fusion scale $\\alpha$α-which controls the strength of adapter integration-as a key factor in few-shot generalization. We empirically and theoretically demonstrate that $\\alpha$α should not be static, but adapted based on training data size. To reduce the effort of tuning this value across different datasets, we propose the $\\alpha$α-consistency framework, consisting of: (1) a consistency training strategy under varying fusion scales; and (2) an $\\alpha$α-decoupling strategy that uses a larger fusion scale during training and a smaller one at inference to account for sample size mismatch. We evaluate MMA++ on a wide range of few-shot generalization tasks, including base-to-novel generalization, cross-dataset transfer, and domain generalization. Our method consistently achieves leading performance.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1109/tnnls.2025.3650584",
+    "title": "A Survey on Vision--Language--Action Models for Embodied AI",
+    "authors": [
+      "Yueen Ma",
+      "Zixing Song",
+      "Yuzheng Zhuang",
+      "Jianye Hao",
+      "Irwin King"
+    ],
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "year": 2026,
+    "abstract": "Embodied AI is widely recognized as a cornerstone of artificial general intelligence (AGI) because it involves controlling embodied agents to perform tasks in the physical world. Building on the success of large language models (LLMs) and vision-language models (VLMs), a new category of multimodal models-referred to as vision-language-action (VLA) models-has emerged to address language-conditioned robotic tasks in embodied AI by leveraging their distinct ability to generate actions. The recent proliferation of VLAs necessitates a comprehensive survey to capture the rapidly evolving landscape. To this end, we present the first survey on VLAs for embodied AI. This work provides a detailed taxonomy of VLAs, organized into three major lines of research. The first line focuses on individual components of VLAs. The second line is dedicated to developing VLA-based control policies adept at predicting low-level actions. The third line comprises high-level task planners capable of decomposing long-horizon tasks into a sequence of subtasks, thereby guiding VLAs to follow more general user instructions. Furthermore, we provide an extensive summary of relevant resources, including datasets, simulators, and benchmarks. Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI. A curated repository associated with this survey is available at: https://github.com/yueen-ma/Awesome-VLA.",
+    "source": "openalex"
+  }
+]

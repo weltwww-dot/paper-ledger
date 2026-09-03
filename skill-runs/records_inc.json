@@ -1,0 +1,40 @@
+[
+ {
+  "doi": "10.1007/s10994-026-07148-1",
+  "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+  "year": 2026,
+  "date": "2026-08-31",
+  "source": "Machine Learning"
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109538",
+  "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
+  "year": 2026,
+  "date": "2026-08-31",
+  "source": "Neural Networks"
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105129",
+  "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
+  "year": 2026,
+  "date": "2026-08-29",
+  "type": "article",
+  "source": "Computers & Security"
+ },
+ {
+  "doi": "10.60882/cispa.32775141",
+  "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
+  "year": 2026,
+  "date": "2026-06-01",
+  "type": "article",
+  "source": "IEEE Transactions on Information Forensics and Security"
+ },
+ {
+  "doi": "10.1109/tai.2026.3680823",
+  "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
+  "year": 2026,
+  "date": "2026-04-20",
+  "type": "article",
+  "source": "IEEE Transactions on Artificial Intelligence"
+ }
+]

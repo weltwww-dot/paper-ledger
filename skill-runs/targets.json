@@ -1,0 +1,23 @@
+[
+  {
+    "label": "PigButchering",
+    "out": "papers/JCYB_2026_PigButchering.pdf",
+    "urls": [
+      "https://academic.oup.com/cybersecurity/article/doi/10.1093/cybsec/tyag003/8449214"
+    ]
+  },
+  {
+    "label": "HookMatch",
+    "out": "papers/ACMTOPS_2026_HookMatch.pdf",
+    "urls": [
+      "https://dl.acm.org/doi/10.1145/3833421"
+    ]
+  },
+  {
+    "label": "DiaCoG",
+    "out": "papers/AI_2026_DiaCoG.pdf",
+    "urls": [
+      "https://doi.org/10.1016/j.artint.2026.104603"
+    ]
+  }
+]

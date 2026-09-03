@@ -1,0 +1,62 @@
+[
+  {
+    "doi": "10.1016/j.neunet.2026.109538",
+    "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1016/j.neunet.2026.109538",
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.60882/cispa.32775141",
+    "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.60882/cispa.32775141",
+    "arxiv_id": "2605.31246v1",
+    "matched": true,
+    "note": null,
+    "source": "IEEE Transactions on Information Forensics and Security"
+  },
+  {
+    "doi": "10.1007/s10994-026-07148-1",
+    "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1007/s10994-026-07148-1",
+    "arxiv_id": "2502.07090v2",
+    "matched": true,
+    "note": null,
+    "source": "Machine Learning"
+  },
+  {
+    "doi": "10.1109/tai.2026.3680823",
+    "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "green",
+    "best_pdf_url": "https://arxiv.org/pdf/2510.07927",
+    "arxiv_id": "2510.07927v3",
+    "matched": true,
+    "note": null,
+    "source": "IEEE Transactions on Artificial Intelligence"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105129",
+    "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "green",
+    "best_pdf_url": "https://doi.org/10.2139/ssrn.6576014",
+    "arxiv_id": "2604.16427v1",
+    "matched": true,
+    "note": null,
+    "source": "Computers & Security"
+  }
+]

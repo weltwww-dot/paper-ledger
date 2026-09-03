@@ -1,0 +1,10 @@
+# 嵌套的技能源码仓库（hallmark 是独立 git 仓库，不纳入本站）
+hallmark/
+
+# 抓取中间产物的大文本（保留 records/oa/abstracts JSON，排除全文提取）
+skill-runs/txt/
+
+# 临时与系统文件
+*.part
+Thumbs.db
+.DS_Store

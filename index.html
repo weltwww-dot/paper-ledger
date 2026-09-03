@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>论文台账 · 顶刊论文的简介、方法与问题</title>
+  <meta name="description" content="课题组的顶刊论文台账：每篇论文归档三件事——它做了什么、怎么做、想回答什么问题。" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="tokens.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data/papers.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="rails" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <!-- N9 · Edge-aligned minimal nav -->
+  <header class="nav-edge">
+    <a class="wordmark" href="#top" aria-label="论文台账，回到页首">
+      <span class="wordmark__cn">论文台账</span>
+      <span class="wordmark__en">PAPER LEDGER</span>
+    </a>
+    <a class="cta-outline" href="#upload">上传论文 <span class="cta-arrow" aria-hidden="true">→</span></a>
+  </header>
+
+  <main id="main">
+
+    <!-- Band 1 · positioning + live stats (Ecosystem Index opening) -->
+    <section class="band band--lede" id="top">
+      <div class="shell">
+        <div class="stats" aria-live="polite">
+          <div class="stat">
+            <span class="stat__num" id="stats-count" data-count="0">0</span>
+            <span class="stat__label">已收录论文</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" id="stats-directions" data-count="0">0</span>
+            <span class="stat__label">研究方向</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" id="stats-questions" data-count="0">0</span>
+            <span class="stat__label">待答研究问题</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Band 2 · Latest rail -->
+    <section class="band" id="latest">
+      <div class="shell">
+        <div class="rail-head">
+          <h2 class="rail-title">收录</h2>
+          <span class="rail-count" id="latest-count" aria-live="polite"></span>
+        </div>
+
+        <div class="filter-row" id="filter-row">
+          <span class="filter-label">研究方向</span>
+          <div class="filter-chips" id="filter-chips" role="group" aria-label="按研究方向筛选收录列表"></div>
+        </div>
+
+        <div class="paper-grid" id="latest-list"><!-- rendered by app.js --></div>
+
+        <div class="empty" id="latest-empty" hidden>
+          <span class="empty__mark" aria-hidden="true"></span>
+          <p class="empty__line">尚无论文收录。</p>
+          <p class="empty__sub">上传第一篇顶刊论文，台账会自动归档它的简介、方法与问题。</p>
+          <a class="link" href="#upload">上传第一篇论文 →</a>
+        </div>
+
+        <p class="rail-more">
+          <button class="link link--btn" id="latest-more" type="button" hidden>查看全部 →</button>
+        </p>
+      </div>
+    </section>
+
+    <!-- Band 3 · Directions rail -->
+    <section class="band" id="directions">
+      <div class="shell">
+        <div class="rail-head">
+          <h2 class="rail-title">研究方向 <span class="rail-title__en">DIRECTIONS</span></h2>
+          <span class="rail-count" id="directions-count" aria-live="polite"></span>
+        </div>
+
+        <div class="direction-grid" id="directions-list"><!-- rendered by app.js --></div>
+
+        <div class="empty" id="directions-empty" hidden>
+          <span class="empty__mark empty__mark--disc" aria-hidden="true"></span>
+          <p class="empty__line">还没有研究方向。</p>
+          <p class="empty__sub">录入论文时填写研究方向，这里会自动汇总归类。</p>
+          <a class="link" href="#upload">录入第一篇论文 →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Band 4 · Open questions rail -->
+    <section class="band" id="questions">
+      <div class="shell">
+        <div class="rail-head">
+          <h2 class="rail-title">研究问题 <span class="rail-title__en">OPEN QUESTIONS</span></h2>
+          <span class="rail-count" id="questions-count" aria-live="polite"></span>
+        </div>
+
+        <div class="question-rows" id="questions-list"><!-- rendered by app.js --></div>
+
+        <div class="empty" id="questions-empty" hidden>
+          <span class="empty__mark" aria-hidden="true"></span>
+          <p class="empty__line">暂无研究问题。</p>
+          <p class="empty__sub">论文条目里的「研究问题」字段会自动汇总到这里。</p>
+          <a class="link" href="#upload">录入一篇带问题的论文 →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Band 5 · Upload plate — the one poster moment -->
+    <section class="band" id="import">
+      <div class="shell">
+        <div class="rail-head">
+          <h2 class="rail-title">导入总结 <span class="rail-title__en">IMPORT</span></h2>
+          <span class="rail-count">粘贴 paper-summarize-fetch 生成的六段式总结</span>
+        </div>
+
+        <div class="import-panel">
+          <div class="field">
+            <label class="field__label" for="import-text">粘贴总结内容（Markdown）</label>
+            <textarea class="field__input field__input--area import-text" id="import-text" rows="10"
+                      placeholder="把《…总结.md》的全部内容粘贴到这里，然后点「解析」…"></textarea>
+            <p class="field__helper" id="import-help">
+              支持「基本信息 / 一句话概括 / 问题与动机 / 方法 / 实验与结果 / 贡献与局限」六段式结构。
+            </p>
+          </div>
+
+          <div class="form__actions">
+            <button class="btn" id="import-parse" type="button" data-state="default">
+              <span class="btn__label">解析</span>
+            </button>
+            <p class="form__note import-note">解析后先预览，确认无误再录入台账。</p>
+          </div>
+
+          <div class="import-preview" id="import-preview" hidden>
+            <div class="import-preview__head">
+              <span class="import-preview__label">解析结果</span>
+              <span class="tag tag--accent" id="import-status">待确认</span>
+            </div>
+            <dl class="import-preview__grid" id="import-fields"></dl>
+            <div class="import-preview__actions">
+              <div class="field field--direction">
+                <label class="field__label" for="import-direction">研究方向（可选）</label>
+                <input class="field__input" id="import-direction" type="text" list="direction-list"
+                       autocomplete="off" placeholder="留空则归为未分类" />
+                <p class="field__helper">用于台账归类与筛选。</p>
+              </div>
+              <button class="btn" id="import-confirm" type="button" data-state="default">
+                <span class="btn__label">确认导入</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Band 6 · Upload plate — the one poster moment -->
+    <section class="band plate" id="upload">
+      <div class="shell">
+        <div class="plate__head">
+          <h2 class="plate__title">录入一篇顶刊论文</h2>
+          <p class="plate__sub">简介、方法、问题，三个字段一次归档。数据保存在当前浏览器。</p>
+        </div>
+
+        <form class="form" id="paper-form" novalidate>
+          <div class="form__row">
+            <div class="field field--wide">
+              <label class="field__label" for="f-title">论文标题</label>
+              <input class="field__input" id="f-title" name="title" type="text"
+                     autocomplete="off" aria-required="true" required
+                     placeholder="如：Attention Is All You Need" />
+              <p class="field__helper" id="f-title-help">论文的正式标题。</p>
+            </div>
+          </div>
+
+          <div class="form__row form__row--3">
+            <div class="field">
+              <label class="field__label" for="f-journal">期刊 / 会议</label>
+              <input class="field__input" id="f-journal" name="journal" type="text"
+                     list="journal-list" autocomplete="off" aria-required="true" required
+                     placeholder="如：Nature" />
+              <datalist id="journal-list">
+                <option value="Nature"></option>
+                <option value="Science"></option>
+                <option value="Cell"></option>
+                <option value="Nature Machine Intelligence"></option>
+                <option value="NeurIPS"></option>
+                <option value="ICML"></option>
+                <option value="ICLR"></option>
+                <option value="CVPR"></option>
+                <option value="ACL"></option>
+                <option value="EMNLP"></option>
+                <option value="arXiv"></option>
+              </datalist>
+              <p class="field__helper" id="f-journal-help">发表刊物或会议名称。</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-year">年份</label>
+              <input class="field__input" id="f-year" name="year" type="text" inputmode="numeric"
+                     autocomplete="off" aria-required="true" required
+                     placeholder="如：2017" />
+              <p class="field__helper" id="f-year-help">发表年份，四位数字。</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-direction">研究方向</label>
+              <input class="field__input" id="f-direction" name="direction" type="text"
+                     list="direction-list" autocomplete="off" aria-required="true" required
+                     placeholder="如：自然语言处理" />
+              <datalist id="direction-list">
+                <option value="信息安全"></option>
+                <option value="人工智能"></option>
+              </datalist>
+              <p class="field__helper" id="f-direction-help">可选，留空归为未分类。</p>
+            </div>
+          </div>
+
+          <div class="form__row form__row--3">
+            <div class="field">
+              <label class="field__label" for="f-authors">作者 <span class="field__tag">可选</span></label>
+              <input class="field__input" id="f-authors" name="authors" type="text"
+                     autocomplete="off" placeholder="前 3 位 + et al." />
+              <p class="field__helper" id="f-authors-help">作者列表，可写前三位。</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-doi">DOI <span class="field__tag">可选</span></label>
+              <input class="field__input" id="f-doi" name="doi" type="text"
+                     autocomplete="off" inputmode="url" placeholder="10.48550/…" />
+              <p class="field__helper" id="f-doi-help">形如 10.xxxx/xxxxx。</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-arxiv">arXiv ID <span class="field__tag">可选</span></label>
+              <input class="field__input" id="f-arxiv" name="arxiv" type="text"
+                     autocomplete="off" placeholder="2305.10601" />
+              <p class="field__helper" id="f-arxiv-help">形如 2305.10601。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-pdf">PDF 链接 <span class="field__tag">可选</span></label>
+              <input class="field__input" id="f-pdf" name="pdf" type="url"
+                     autocomplete="off" inputmode="url" placeholder="https://…" />
+              <p class="field__helper" id="f-pdf-help">开放获取的 PDF 地址，会附在原文链接旁。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-summary">一句话概括</label>
+              <textarea class="field__input field__input--area" id="f-summary" name="summary"
+                        rows="3" aria-required="true" required
+                        placeholder="这篇论文提出什么、解决什么问题，一两句话。"></textarea>
+              <p class="field__helper" id="f-summary-help">提出什么、解决什么问题，一两句话。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-question">问题与动机</label>
+              <textarea class="field__input field__input--area" id="f-question" name="question"
+                        rows="3" aria-required="true" required
+                        placeholder="现有方法的痛点，为什么这个问题重要。"></textarea>
+              <p class="field__helper" id="f-question-help">现有方法的痛点与重要性。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-method">方法</label>
+              <textarea class="field__input field__input--area" id="f-method" name="method"
+                        rows="3" aria-required="true" required
+                        placeholder="核心思想 + 关键机制，讲清为什么有效。"></textarea>
+              <p class="field__helper" id="f-method-help">核心思想与关键机制。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-experiments">实验与结果 <span class="field__tag">可选</span></label>
+              <textarea class="field__input field__input--area" id="f-experiments" name="experiments"
+                        rows="3" placeholder="数据集、基线、关键数字——只写原文提供的。"></textarea>
+              <p class="field__helper" id="f-experiments-help">缺失时写「原文未提供」，不要补数字。</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="f-contribution">贡献与局限 <span class="field__tag">可选</span></label>
+              <textarea class="field__input field__input--area" id="f-contribution" name="contribution"
+                        rows="3" placeholder="约两条主要贡献，再写局限或开放问题。"></textarea>
+              <p class="field__helper" id="f-contribution-help">贡献在前，局限在后。</p>
+            </div>
+          </div>
+
+          <div class="form__actions">
+            <button class="btn" id="f-submit" type="submit" data-state="default">
+              <span class="btn__label">录入台账</span>
+            </button>
+            <p class="form__note">录入后可随时移除；全部数据仅存于本机浏览器。</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Ft2 · Inline-rule single line -->
+  <footer class="foot-line">
+    <p>论文台账 · PAPER LEDGER · 课题组内部使用 · © 2026</p>
+  </footer>
+</body>
+</html>

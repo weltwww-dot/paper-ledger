@@ -1,0 +1,73 @@
+[
+  {
+    "doi": "10.1016/j.neunet.2026.109538",
+    "title": "Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision",
+    "authors": [
+      "Jinjie Guo",
+      "Tao Feng",
+      "Yiping Wang",
+      "Yanfeng Yang",
+      "Guixia Kang",
+      "Guoguang Zhao"
+    ],
+    "venue": "Neural Networks",
+    "year": 2026,
+    "abstract": "Most existing ictal stereoelectroencephalography (SEEG)-based seizure onset zone (SOZ) localization methods rely on patient-specific training, limiting their clinical applicability due to the scarcity of seizure recordings and substantial inter-patient variability. Consequently, robust patient-independent SOZ localization remains a major challenge. In this work, we propose a deep learning approach for patient-independent SOZ localization using ictal SEEG recordings, aiming to improve cross-patient generalization while preserving seizure-related temporal characteristics. To mitigate domain shifts across subjects, we introduce a clinically guided feature learning strategy that combines a cross-frequency coupling (CFC) mechanism to capture SOZ-related abnormal interactions across frequency bands with a self-comparison (SC) mechanism to emphasize seizure-onset evolution patterns within SEEG channels. We further incorporate seizure detection as an auxiliary task within a multi-task learning framework to provide seizure-onset-related temporal supervision, thereby improving the temporal awareness and generalizability of SOZ localization. Experiments on the public OpenNeuro HUP dataset demonstrate substantial improvements over existing methods, while additional evaluations on a private clinical dataset further validate the robustness and cross-patient generalization capability of the proposed method. Moreover, comparisons between the learned CFC representations and clinically established phase-amplitude coupling (PAC) metrics reveal consistent physiological patterns, supporting the interpretability of the learned representations.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.60882/cispa.32775141",
+    "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
+    "authors": [
+      "Ziqing Yang",
+      "Rui Wen",
+      "Xinlei He",
+      "Yun Shen",
+      "Michael Backes",
+      "Yang Zhang"
+    ],
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "year": 2026,
+    "abstract": "Prompt learning is a new machine learning paradigm that has attracted ample attention due to its simplicity and proven efficacy. Despite its growing adoption, the security vulnerabilities associated with this paradigm remain underexplored. In this work, we take the first step to propose BadBone, a stealthy and adaptive backdoor attack against prompt learning using bi-level optimization. Instead of backdooring the prompt learning process, we aim to compromise a backbone model such that only target downstream tasks employing prompt learning inherit the backdoor vulnerability. Extensive experiments on three different models and three datasets from various domains show that our targeted/untargeted backdoored models achieve high attack performance while maintaining utility on both pretraining and downstream tasks. Moreover, we evaluate our approach against six state-of-the-art model-level defenses, including Neural Cleanse, ABS, MNTD, NAD, CLP, and D-BR. The results demonstrate that these defenses are largely ineffective against our backdoored models and thus leave the effective defense as an important direction for future work. Our code is available at https://github.com/TrustAIRLab/BadBone.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1007/s10994-026-07148-1",
+    "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+    "authors": [
+      "Xinyu Tian",
+      "Xiaotong Shen"
+    ],
+    "venue": "Machine Learning",
+    "year": 2026,
+    "abstract": "Abstract Accurate prediction for multimodal data—including tabular, textual, and visual inputs or outputs—is essential for advancing analytics across diverse application domains. Existing methods often struggle to integrate heterogeneous data types while maintaining strong predictive performance. We introduce Generative Distribution Prediction (GDP), a model-agnostic framework that leverages high-fidelity multimodal synthetic data generated from the conditional distribution of interest, such as via conditional diffusion models, to enhance prediction across both structured and unstructured modalities. GDP is compatible with any expressive generative model and naturally supports transfer learning for domain adaptation. We provide a rigorous theoretical foundation for GDP, establishing statistical guarantees on its predictive accuracy when diffusion models serve as the generative backbone. By estimating the underlying data-generating distribution and enabling loss-adapted risk minimization, GDP delivers accurate point predictions in broad multimodal settings. We empirically validate GDP on a range of supervised learning tasks, including adaptive quantile regression, modal regression, tabular prediction, image captioning, and question answering, demonstrating its versatility and effectiveness across domains.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1109/tai.2026.3680823",
+    "title": "ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection",
+    "authors": [
+      "Qunyi Zhang",
+      "Songan Zhang",
+      "Jiaqi Liu",
+      "Jinbao Wang",
+      "Xiaoning Lei",
+      "Guoyang Xie",
+      "Guannan Jiang",
+      "Zhichao Lu"
+    ],
+    "venue": "IEEE Transactions on Artificial Intelligence",
+    "year": 2026,
+    "abstract": "Anomaly detection plays a pivotal role in manufacturing quality control, yet its application is constrained by limited abnormal samples and high manual annotation costs. While anomaly synthesis offers a promising solution, existing studies predominantly treat anomaly synthesis as an auxiliary component within anomaly detection frameworks, lacking systematic evaluation of anomaly synthesis algorithms. Current research also overlooks crucial factors specific to anomaly synthesis, such as decoupling its impact from detection, quantitative analysis of synthetic data and adaptability across different scenarios. To address these limitations, we propose ASBench, the first comprehensive benchmarking framework dedicated to evaluating anomaly synthesis methods. Our framework introduces four critical evaluation dimensions: (i) the generalization performance across different datasets and pipelines (ii) the ratio of synthetic to real data (iii) the correlation between intrinsic metrics of synthesis images and anomaly detection performance metrics, and (iv) strategies for hybrid anomaly synthesis methods. Through extensive experiments, ASBench not only reveals limitations in current anomaly synthesis methods but also provides actionable insights for future research directions in anomaly synthesis. Code is available athttps://github.com/M-3LAB/ASBench.",
+    "source": "openalex"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105129",
+    "title": "Refunded but rewarded: The double dip attack on cashback reward engines",
+    "abstract": null,
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null
+  }
+]

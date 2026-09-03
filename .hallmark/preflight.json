@@ -1,0 +1,7 @@
+{
+  "scanned": "2026-08-27",
+  "findings": "No pre-flight signals - empty workspace (vanilla build). Full Hallmark stack introduced.",
+  "framework": "vanilla HTML",
+  "motion": "motion-cut with Grid hover micro-states",
+  "tokens": "created tokens.css (Grid, ultramarine)"
+}
