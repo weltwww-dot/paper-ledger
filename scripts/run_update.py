@@ -260,14 +260,30 @@ def main():
     except Exception:
         pass
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
-    ap.add_argument("mode", choices=["fetch", "advance", "publish"], help="fetch=抓取 / advance=推进基准 / publish=推送并验证线上")
+    ap.add_argument(
+        "mode",
+        choices=["fetch", "advance", "publish", "pdf"],
+        help="fetch=抓取 / pdf=探测 PDF 可下载性 / advance=推进基准 / publish=推送并验证线上",
+    )
     args = ap.parse_args()
     if args.mode == "fetch":
         fetch()
+    elif args.mode == "pdf":
+        probe_pdfs()
     elif args.mode == "advance":
         advance()
     else:
         publish()
+
+
+def probe_pdfs():
+    """对最近一次 fetch 的待处理论文做 PDF 可下载性探测（智能获取器）。"""
+    oa = RUNS / "oa_inc.json"
+    if not oa.exists():
+        raise SystemExit(f"缺少 {oa}。请先运行 fetch。")
+    log("PDF 探测（smart_pdf.py）…")
+    run([sys.executable, ROOT / "scripts" / "smart_pdf.py", "--probe", oa])
+    log("按探测结果：direct/arxiv 直链可直接下载；article-pdf/blocked 需人工判断。")
 
 
 if __name__ == "__main__":
