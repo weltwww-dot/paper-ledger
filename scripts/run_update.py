@@ -212,21 +212,23 @@ def publish():
         if not pushed:
             raise SystemExit("git push 多次失败：github.com 网络被阻断，稍后重跑 publish。")
 
-    # 3 · 等待 Pages 构建完成（最多约 8 分钟）
-    log("等待 GitHub Pages 构建…")
+    # 3 · 等待「本地 HEAD 对应的」Pages 构建完成（最多约 10 分钟）
+    hr = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    head_sha = (hr.stdout or "").strip()
+    log(f"等待 GitHub Pages 构建 {head_sha[:7]} …")
     built = False
-    for _ in range(32):
+    for _ in range(40):
         br = subprocess.run(
-            ["gh", "api", f"repos/{repo}/pages/builds/latest", "--jq", ".status"],
+            ["gh", "api", f"repos/{repo}/pages/builds/latest", "--jq", "{status: .status, commit: .commit[0:7]}"],
             capture_output=True, text=True, encoding="utf-8", errors="replace",
         )
-        status = (br.stdout or "").strip()
-        if status == "built":
+        info = (br.stdout or "").strip()
+        if info and head_sha[:7] in info and '"built"' in info:
             built = True
             break
         time.sleep(15)
     if not built:
-        log("提示: Pages 构建尚未完成（可能仍在排队），稍后可再跑一次 publish 验证。")
+        log(f"提示: 本次提交 {head_sha[:7]} 的 Pages 构建尚未完成，稍后可再跑 publish 验证。")
 
     # 4 · 验证线上内容 = 本地内容（带版本参数绕过 CDN 缓存）
     local_count = count_papers(DATA_FILE)
