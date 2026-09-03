@@ -20,6 +20,8 @@ import time
 from datetime import date
 from pathlib import Path
 
+from dedup import is_known, make_known
+
 ROOT = Path(__file__).resolve().parent.parent
 SKILL_SCRIPTS = Path("D:/codex/.codex/skills/paper-summarize-fetch/scripts")
 RUNS = ROOT / "skill-runs"
@@ -65,11 +67,10 @@ def merge_records(records, latest_file, existing, existing_titles=None):
 
     OpenAlex 收录存在延迟：日期较早但刚入库的文章，仅按日期区间抓取会漏掉。
     因此用 fetch_latest.py（每刊最新一篇）做兜底交叉检查。
-    同一篇论文可能挂多个 DOI（如正式 DOI 与仓库 DOI），因此再按标题兜底去重。
+    去重语义与 fetch_incremental 共用 scripts/dedup.py（DOI 或标题命中即重复）。
     """
     recs = json.loads(records.read_text(encoding="utf-8")) if records.exists() else []
-    known = {d.lower() for d in existing}
-    known_titles = {t.strip().lower() for t in (existing_titles or [])}
+    known = make_known(existing, existing_titles)
     by_doi = {}
     for r in recs:
         k = (r.get("doi") or "").lower()
@@ -79,8 +80,7 @@ def merge_records(records, latest_file, existing, existing_titles=None):
     if latest_file.exists():
         for r in json.loads(latest_file.read_text(encoding="utf-8")):
             k = (r.get("doi") or "").lower()
-            t = (r.get("title") or "").strip().lower()
-            if k and k not in by_doi and k not in known and t not in known_titles:
+            if k and k not in by_doi and not is_known(k, r.get("title"), known):
                 by_doi[k] = r
                 added += 1
     merged = list(by_doi.values())
@@ -111,20 +111,26 @@ def fetch():
             records,
             "--existing-dois",
             ",".join(dois),
+            "--existing-titles",
+            ",".join(titles_from_data()),
         ]
     )
 
     log("Step 1.5/3 · 交叉检查每刊最新一篇（兜底 OpenAlex 延迟收录）…")
     latest_file = RUNS / "records_latest.json"
     run([sys.executable, SKILL_SCRIPTS / "fetch_latest.py", "-o", latest_file])
-    known_titles = []
+    recs = merge_records(records, latest_file, dois, titles_from_data())
+    log(f"合并后待处理: {len(recs)} 篇")
+
+
+def titles_from_data():
+    titles = []
     if DATA_FILE.exists():
         src = DATA_FILE.read_text(encoding="utf-8")
         m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
         if m:
-            known_titles = [p.get("title") or "" for p in json.loads(m.group(1))]
-    recs = merge_records(records, latest_file, dois, known_titles)
-    log(f"合并后待处理: {len(recs)} 篇")
+            titles = [p.get("title") or "" for p in json.loads(m.group(1))]
+    return titles
 
     log("Step 2/3 · OA 检查 + arXiv…")
     run(

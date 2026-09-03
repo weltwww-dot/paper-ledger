@@ -16,6 +16,8 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from dedup import is_known, make_known
+
 UA = {"User-Agent": "paper-ledger/1.0 (mailto:verify.references.user@gmail.com)"}
 
 JOURNALS = [
@@ -102,9 +104,13 @@ def main():
     ap.add_argument("--last-date", required=True, help="上次更新日期 YYYY-MM-DD（含当天起）")
     ap.add_argument("--out", required=True, help="输出 records JSON")
     ap.add_argument("--existing-dois", default="", help="逗号分隔的已收录 DOI，用于跳过")
+    ap.add_argument("--existing-titles", default="", help="逗号分隔的已收录标题，用于跳过（同一论文多 DOI 时按标题兜底）")
     args = ap.parse_args()
 
-    existing = {d.strip().lower() for d in args.existing_dois.split(",") if d.strip()}
+    known = make_known(
+        [d for d in args.existing_dois.split(",") if d.strip()],
+        [t for t in args.existing_titles.split(",") if t.strip()],
+    )
     records = []
 
     def fetch(j):
@@ -115,12 +121,13 @@ def main():
         recs = []
         for r in rows:
             doi = (r.get("doi") or "").replace("https://doi.org/", "").lower()
-            if not doi or doi in existing:
+            title = r.get("display_name") or ""
+            if not doi or is_known(doi, title, known):
                 continue
             recs.append(
                 {
                     "doi": doi,
-                    "title": r.get("display_name") or "",
+                    "title": title,
                     "year": r.get("publication_year"),
                     "date": r.get("publication_date") or "",
                     "source": j["journal"],

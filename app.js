@@ -7,106 +7,22 @@
 (() => {
   "use strict";
 
-  const KEY = "paperledger.v1";
-  const DELETED_KEY = "paperledger.deleted.v1";
   const LATEST_LIMIT = 4;
 
-  /* Built-in real summaries (paper-summarize-fetch output), newest first. No samples. */
-  /* 内置论文数据来自 data/papers.js（由 scripts/sync-papers.js 自动生成）。 */
-const SEED =
-  typeof window !== 'undefined' && Array.isArray(window.PAPERLEDGER_SEED)
-    ? window.PAPERLEDGER_SEED.map((p) => ({ ...p }))
-    : [];
-
-  let papers = load();
+  /* 共享模块：解析器 + 存储引擎（index.html 在 app.js 之前加载） */
+  const Parser = window.PaperParser;
+  const store = window.LedgerStore.create({
+    seed:
+      typeof window !== "undefined" && Array.isArray(window.PAPERLEDGER_SEED)
+        ? window.PAPERLEDGER_SEED
+        : [],
+    storageKey: "paperledger.v1",
+    deletedKey: "paperledger.deleted.v1",
+    storage: window.localStorage,
+  });
+  let papers = store.list();
   let filter = null; // direction name or null
   let showAll = false;
-
-  /* ── storage + migration ────────────────────────────────────────── */
-  function normalize(p) {
-    return {
-      id: p.id,
-      title: p.title || "",
-      authors: p.authors || "",
-      journal: p.journal || "",
-      year: p.year || "",
-      doi: p.doi || "",
-      arxiv: p.arxiv || "",
-      pdf: p.pdf || "",
-      link: p.link || "",
-      direction: p.direction || "",
-      summary: p.summary || p.intro || "",
-      question: p.question || "",
-      method: p.method || "",
-      experiments: p.experiments || "",
-      contribution: p.contribution || "",
-      sample: !!p.sample,
-    };
-  }
-
-  function load() {
-    try {
-      const raw = localStorage.getItem(KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        const deleted = getDeletedIds();
-        if (Array.isArray(parsed)) {
-          const hasUserData = parsed.some((p) => /^(p-|i-)/.test(p.id || ""));
-          if (hasUserData) {
-            /* 用户条目保留；保留的内置条目用 SEED 最新版刷新（方向等字段随数据文件更新）；
-               用户删除过的内置条目不恢复；新增内置条目补上。 */
-            const userEntries = parsed
-              .filter((p) => /^(p-|i-)/.test(p.id || ""))
-              .map(normalize)
-              .filter((p) => !p.sample);
-            const seedById = new Map(SEED.map((s) => [s.id, s]));
-            const keptBuiltin = parsed
-              .filter((p) => /^r-/.test(p.id || ""))
-              .map(normalize)
-              .filter((p) => !p.sample);
-            const merged = [...userEntries];
-            for (const k of keptBuiltin) {
-              merged.push(seedById.has(k.id) ? { ...seedById.get(k.id) } : k);
-            }
-            const known = new Set(merged.map((p) => p.id));
-            for (const s of SEED) {
-              if (!known.has(s.id) && !deleted.includes(s.id)) merged.push({ ...s });
-            }
-            persist(merged);
-            return merged;
-          }
-          /* builtin-only storage (legacy seed / samples) → full upgrade */
-          const available = SEED.filter((s) => !deleted.includes(s.id)).map((p) => ({ ...p }));
-          persist(available);
-          return available;
-        }
-      }
-    } catch (err) {
-      /* storage unavailable or corrupt — fall through to seed */
-    }
-    return SEED.map((p) => ({ ...p }));
-  }
-
-  function getDeletedIds() {
-    try {
-      const raw = localStorage.getItem(DELETED_KEY);
-      return raw ? JSON.parse(raw) : [];
-    } catch (err) {
-      return [];
-    }
-  }
-
-  function persist(papersList) {
-    try {
-      localStorage.setItem(KEY, JSON.stringify(papersList));
-    } catch (err) {
-      /* private mode or quota — ledger keeps working in memory */
-    }
-  }
-
-  function save() {
-    persist(papers);
-  }
 
   /* ── helpers ────────────────────────────────────────────────────── */
   function uniqueDirections() {
@@ -344,29 +260,16 @@ const SEED =
 
   /* ── mutations ──────────────────────────────────────────────────── */
   function removePaper(id) {
-    papers = papers.filter((p) => p.id !== id);
-    if (/^r-/.test(id || "")) {
-      const deleted = getDeletedIds();
-      if (!deleted.includes(id)) {
-        deleted.push(id);
-        try {
-          localStorage.setItem(DELETED_KEY, JSON.stringify(deleted));
-        } catch (err) {
-          /* ignore */
-        }
-      }
-    }
+    papers = store.remove(id);
     if (filter && !papers.some((p) => p.direction === filter)) filter = null;
-    save();
     renderAll();
   }
 
   function addEntry(entry) {
-    papers.unshift(normalize(entry));
+    papers = store.add(entry);
     /* 新文章强制置顶：清除方向筛选，确保它在收录列表最上面可见 */
     filter = null;
     showAll = false;
-    save();
     renderAll();
   }
 
@@ -518,84 +421,6 @@ const SEED =
   const importConfirmBtn = document.querySelector("#import-confirm");
   let parsedEntry = null;
 
-  function sectionize(md) {
-    const sections = {};
-    let current = null;
-    for (const raw of md.split(/\r?\n/)) {
-      const m = raw.match(/^#{1,3}\s*(.+?)\s*$/);
-      if (m) {
-        current = m[1].replace(/[*_`]/g, "").trim();
-        sections[current] = [];
-      } else if (current) {
-        sections[current].push(raw);
-      }
-    }
-    const out = {};
-    for (const [k, v] of Object.entries(sections)) {
-      out[k] = v.join("\n").replace(/\n{2,}/g, "\n").trim();
-    }
-    return out;
-  }
-
-  function pickLine(text, key) {
-    if (!text) return "";
-    for (const raw of text.split("\n")) {
-      const line = raw.replace(/^[-*]\s+/, "").replace(/\*\*/g, "").trim();
-      const m = line.match(new RegExp("^" + key + "\\s*[:：]\\s*(.+)$", "i"));
-      if (m) return m[1].trim();
-    }
-    return "";
-  }
-
-  function splitVenue(venue) {
-    const m = String(venue).match(/^(.*?)\s*[-–—]\s*(\d{4})$|^(.*?)\s*(\d{4})\s*$/);
-    if (!m) return { journal: venue, year: "" };
-    const journal = (m[1] || m[3] || venue).replace(/[·,，:：;；\-—–\s]+$/g, "").trim();
-    const year = (m[2] || m[4] || "").trim();
-    return { journal, year };
-  }
-
-  function parseSummary(md) {
-    const s = sectionize(md);
-    const basicRaw = s["基本信息"] || "";
-    const basic = basicRaw
-      .split("\n")
-      .map((l) => l.replace(/^[-*]\s+/, "").replace(/\*\*/g, "").trim())
-      .join("\n");
-    const venueRaw =
-      pickLine(basic, "期刊\\s*[/／]\\s*会议") ||
-      pickLine(basic, "会议") ||
-      pickLine(basic, "期刊");
-    const { journal, year } = splitVenue(venueRaw);
-
-    const arxiv =
-      (String(basic).match(/arXiv[:：#\s]*(\d{4}\.\d{4,5}(v\d+)?)/i) || [])[1] || "";
-    const doi =
-      (String(basic).match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i) || [])[0] || "";
-    const pdf =
-      (String(basic).match(/\[([^\]]+\.pdf)\]\(\s*([^)\s]+)\s*\)/i) || [])[2] ||
-      (String(basic).match(/https?:\/\/\S+\.pdf/i) || [])[0] ||
-      "";
-
-    return {
-      title: pickLine(basic, "标题"),
-      authors: pickLine(basic, "作者"),
-      journal,
-      year,
-      doi,
-      arxiv,
-      pdf,
-      link: arxiv ? "https://arxiv.org/abs/" + arxiv : doi ? "https://doi.org/" + doi : "",
-      direction: "",
-      summary: s["一句话概括"] || "",
-      question: s["问题与动机"] || "",
-      method: s["方法"] || "",
-      experiments: s["实验与结果"] || "",
-      contribution: s["贡献与局限"] || "",
-      sample: false,
-    };
-  }
-
   function showImportPreview(entry) {
     importFields.textContent = "";
     const rows = [
@@ -636,13 +461,13 @@ const SEED =
     }
     importHelp.textContent = importHelp.dataset.default || importHelp.textContent;
     importHelp.classList.remove("field__helper--error");
-    parsedEntry = parseSummary(md);
+    parsedEntry = Parser.parseSummary(md);
     if (!parsedEntry.title) {
       importHelp.textContent = "没解析到「基本信息」里的标题。请确认粘贴的是六段式总结（含 ## 基本信息 等标题行）。";
       importHelp.classList.add("field__helper--error");
       return;
     }
-    importDirection.value = "";
+    importDirection.value = parsedEntry.direction || "";
     showImportPreview(parsedEntry);
   });
 

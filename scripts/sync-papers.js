@@ -8,99 +8,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const Parser = require(path.join(__dirname, "..", "shared", "paper-parser.js"));
 
 const ROOT = path.resolve(__dirname, "..");
 const SUMMARIES_DIR = path.join(ROOT, "summaries");
 const OUT_DIR = path.join(ROOT, "data");
 const OUT_FILE = path.join(OUT_DIR, "papers.js");
-
-/* ── 六段式解析（与 app.js 保持一致）────────────────────────────── */
-function sectionize(md) {
-  const sections = {};
-  let current = null;
-  for (const raw of md.split(/\r?\n/)) {
-    const m = raw.match(/^#{1,3}\s*(.+?)\s*$/);
-    if (m) {
-      current = m[1].replace(/[*_`]/g, "").trim();
-      sections[current] = [];
-    } else if (current) {
-      sections[current].push(raw);
-    }
-  }
-  const out = {};
-  for (const [k, v] of Object.entries(sections)) {
-    out[k] = v.join("\n").replace(/\n{2,}/g, "\n").trim();
-  }
-  return out;
-}
-
-function pickLine(text, key) {
-  if (!text) return "";
-  for (const raw of text.split("\n")) {
-    const line = raw.replace(/^[-*]\s+/, "").replace(/\*\*/g, "").trim();
-    const m = line.match(new RegExp("^" + key + "\\s*[:：]\\s*(.+)$", "i"));
-    if (m) return m[1].trim();
-  }
-  return "";
-}
-
-function splitVenue(venue) {
-  const m = String(venue).match(/^(.*?)\s*[-–—]\s*(\d{4})$|^(.*?)\s*(\d{4})\s*$/);
-  if (!m) return { journal: venue, year: "" };
-  const journal = (m[1] || m[3] || venue).replace(/[·,，:：;；\-—–\s]+$/g, "").trim();
-  const year = (m[2] || m[4] || "").trim();
-  return { journal, year };
-}
-
-function parseSummary(md) {
-  const s = sectionize(md);
-  const basicRaw = s["基本信息"] || "";
-  const basic = basicRaw
-    .split("\n")
-    .map((l) => l.replace(/^[-*]\s+/, "").replace(/\*\*/g, "").trim())
-    .join("\n");
-  const venueRaw =
-    pickLine(basic, "期刊\\s*[/／]\\s*会议") ||
-    pickLine(basic, "会议") ||
-    pickLine(basic, "期刊");
-  const { journal, year } = splitVenue(venueRaw);
-  const arxiv = (String(basic).match(/arXiv[:：#\s]*(\d{4}\.\d{4,5}(v\d+)?)/i) || [])[1] || "";
-  const doi = (String(basic).match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i) || [])[0] || "";
-  const pdf =
-    (String(basic).match(/\[([^\]]+\.pdf)\]\(\s*([^)\s]+)\s*\)/i) || [])[2] ||
-    (String(basic).match(/https?:\/\/\S+\.pdf/i) || [])[0] ||
-    "";
-  return {
-    title: pickLine(basic, "标题"),
-    authors: pickLine(basic, "作者"),
-    journal,
-    year,
-    doi,
-    arxiv,
-    pdf,
-    link: arxiv ? "https://arxiv.org/abs/" + arxiv : doi ? "https://doi.org/" + doi : "",
-    direction: pickLine(basic, "研究方向"),
-    summary: s["一句话概括"] || "",
-    question: s["问题与动机"] || "",
-    method: s["方法"] || "",
-    experiments: s["实验与结果"] || "",
-    contribution: s["贡献与局限"] || "",
-    sample: false,
-  };
-}
-
-/* ── 稳定 id：由标题哈希生成，同一标题始终同一 id ──────────────── */
-function titleHash(title) {
-  let h = 0;
-  for (let i = 0; i < title.length; i++) {
-    h = (Math.imul(31, h) + title.charCodeAt(i)) | 0;
-  }
-  return (h >>> 0).toString(36);
-}
-
-function entryId(title) {
-  return "r-" + titleHash(title);
-}
 
 /* ── 主流程 ──────────────────────────────────────────────────────── */
 function main() {
@@ -113,12 +26,12 @@ function main() {
   const parsed = [];
   for (const f of files) {
     const md = fs.readFileSync(path.join(SUMMARIES_DIR, f), "utf8");
-    const entry = parseSummary(md);
+    const entry = Parser.parseSummary(md);
     if (!entry.title) {
       console.warn("跳过（无标题）:", f);
       continue;
     }
-    entry.id = entryId(entry.title);
+    entry.id = Parser.entryId(entry.title);
     entry._file = f;
     parsed.push(entry);
   }
