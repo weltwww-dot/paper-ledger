@@ -161,7 +161,7 @@ def probe(rec, outdir=None):
     title = rec.get("title") or ""
     arxiv = rec.get("arxiv_id") or ""
     best = rec.get("best_pdf_url") or ""
-    if not rec.get("is_oa"):
+    if rec.get("is_oa") is False:
         return {"doi": doi, "status": "not-oa", "url": ""}
 
     # 1) arXiv 直链（最可靠）

@@ -7,6 +7,7 @@
 - **期刊 / 会议**: Machine Learning 2026
 - **研究方向**: 信息安全
 - **DOI**: 10.1007/s10994-026-07126-7
+- **PDF**: [ML_2026_ITRM.pdf](papers/ML_2026_ITRM.pdf)
 
 ## 一句话概括
 

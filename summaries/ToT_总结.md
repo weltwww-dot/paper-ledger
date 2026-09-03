@@ -23,13 +23,13 @@
 
 ## 实验与结果
 
-在三个任务上 ToT 显著提升了大语言模型的解题能力。以 Game of 24 为例：GPT-4 配合 chain-of-thought prompting 只解出 4% 的任务，ToT 达到 74% 的成功率（数字来自原文摘要）。Creative Writing 与 Mini Crosswords 的详细指标原文摘要未提供。
+在三个任务上 ToT 显著提升了解题能力：Game of 24 中 GPT-4 + CoT 仅解出 4%，ToT 达 74%（GPT-3.5 上为 19%，GPT-3.5 下仍是 ToT > CoT > IO）；Creative Writing 中 GPT-3.5 + ToT 超过 GPT-4 + IO；扩展到 GSM8K 与 StrategyQA 的 zero-shot ToT 也小幅优于 CoT。成本上，Game of 24 每题 ToT 约 5.5k 生成 token、$0.74，优于 best-of-100 CoT（$0.47、49%）；Creative Writing 的 ToT 约为 IO 的 5 倍 token 与费用（数字来自论文全文）。
 
 ## 贡献与局限
 
 - 贡献一：提出 ToT 框架，首次把「探索 + 自我评估 + 前瞻/回溯」的树搜索机制系统性地用于语言模型推理。
 - 贡献二：ToT 通用化 Chain-of-Thought，证明了在复杂规划类任务上「想得多」比「想得快」更有效。
-- 局限：推理代价高于单路径采样（需要多次生成与评估）；评测集中在三个人工设计的任务，广泛性与成本分析原文未提供。
+- 局限：推理代价显著高于 IO/CoT（约 5× token 与费用），评测集中在少数人工设计的任务；传统 NLP 任务上 GPT-4 + CoT 已很强，ToT 的收益更适用于挑战其推理的难题，实用时需权衡成本与收益。
 
 ---
 

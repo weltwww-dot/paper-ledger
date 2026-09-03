@@ -7,6 +7,7 @@
 - **作者**: D. Tamboli, Vineet Punyamoorty, Atharv Pawar, Vaneeta Aggarwal
 - **期刊 / 会议**: IEEE TAI 2026
 - **DOI**: 10.1109/tai.2026.3671211
+- **PDF**: [TAI_2026_PrivateEdit.pdf](papers/TAI_2026_PrivateEdit.pdf)
 
 ## 一句话概括
 
