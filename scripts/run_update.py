@@ -16,6 +16,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from datetime import date
 from pathlib import Path
 
@@ -176,6 +177,74 @@ def advance():
     log(f"更新基准已推进: date={today}, 已收录 DOI {len(dois)} 个 → {LAST_UPDATE}")
 
 
+def count_papers(js_path):
+    src = Path(js_path).read_text(encoding="utf-8")
+    m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
+    if not m:
+        raise SystemExit(f"解析失败: {js_path}")
+    return len(json.loads(m.group(1)))
+
+
+def publish():
+    """推送 → 等待 GitHub Pages 构建完成 → 验证线上内容已更新。"""
+    repo = "weltwww-dot/paper-ledger"
+    site = "https://weltwww-dot.github.io/paper-ledger"
+
+    # 1 · 确认有待推送的提交
+    r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    pending = [l for l in (r.stdout or "").splitlines() if l.strip()]
+    if not pending:
+        log("本地没有未推送的提交（线上已是最新）。")
+    else:
+        log(f"待推送 {len(pending)} 个提交:")
+        for l in pending:
+            log("  " + l)
+        # 2 · push（github.com 网络不稳定，自动重试）
+        pushed = False
+        for i in range(1, 7):
+            log(f"git push 尝试 {i}/6 …")
+            pr = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, encoding="utf-8", errors="replace")
+            if pr.returncode == 0:
+                pushed = True
+                break
+            log("  push 失败（网络），15s 后重试")
+            time.sleep(15)
+        if not pushed:
+            raise SystemExit("git push 多次失败：github.com 网络被阻断，稍后重跑 publish。")
+
+    # 3 · 等待 Pages 构建完成（最多约 8 分钟）
+    log("等待 GitHub Pages 构建…")
+    built = False
+    for _ in range(32):
+        br = subprocess.run(
+            ["gh", "api", f"repos/{repo}/pages/builds/latest", "--jq", ".status"],
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+        )
+        status = (br.stdout or "").strip()
+        if status == "built":
+            built = True
+            break
+        time.sleep(15)
+    if not built:
+        log("提示: Pages 构建尚未完成（可能仍在排队），稍后可再跑一次 publish 验证。")
+
+    # 4 · 验证线上内容 = 本地内容（带版本参数绕过 CDN 缓存）
+    local_count = count_papers(DATA_FILE)
+    stamp = re.search(r"data/papers\.js\?v=([a-z0-9]+)", (ROOT / "index.html").read_text(encoding="utf-8"))
+    ver = stamp.group(1) if stamp else ""
+    remote_url = f"{site}/data/papers.js" + (f"?v={ver}" if ver else "")
+    cr = subprocess.run(["curl.exe", "-s", "--connect-timeout", "20", remote_url], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    remote_src = cr.stdout or ""
+    remote_count = remote_src.count('"id":')
+    log(f"本地论文数: {local_count} | 线上论文数: {remote_count}")
+    if built and local_count == remote_count:
+        log(f"✅ 发布完成，线上已更新: {site}")
+    elif local_count == remote_count:
+        log(f"⚠️ 线上内容已一致（{local_count} 篇），但 Pages 构建状态未确认完成。")
+    else:
+        raise SystemExit(f"❌ 线上内容未同步（本地 {local_count} / 线上 {remote_count}），等待构建后重试。")
+
+
 def main():
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -183,12 +252,14 @@ def main():
     except Exception:
         pass
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
-    ap.add_argument("mode", choices=["fetch", "advance"], help="fetch=抓取阶段 / advance=完成阶段推进基准")
+    ap.add_argument("mode", choices=["fetch", "advance", "publish"], help="fetch=抓取 / advance=推进基准 / publish=推送并验证线上")
     args = ap.parse_args()
     if args.mode == "fetch":
         fetch()
-    else:
+    elif args.mode == "advance":
         advance()
+    else:
+        publish()
 
 
 if __name__ == "__main__":

@@ -154,7 +154,16 @@ function main() {
   const body = `/* 自动生成: node scripts/sync-papers.js · 请勿手改 */\nwindow.PAPERLEDGER_SEED = ${JSON.stringify(ordered, null, 2)};\n`;
   fs.writeFileSync(OUT_FILE, body, "utf8");
 
+  /* 数据文件版本号：更新 index.html 引用，绕过浏览器/CDN 缓存 */
+  const stamp = Math.floor(Date.now() / 1000).toString(36);
+  const indexFile = path.join(ROOT, "index.html");
+  let indexSrc = fs.readFileSync(indexFile, "utf8");
+  const next = `data/papers.js?v=${stamp}`;
+  indexSrc = indexSrc.replace(/data\/papers\.js(\?v=[a-z0-9]+)?/g, next);
+  fs.writeFileSync(indexFile, indexSrc, "utf8");
+
   console.log(`已同步 ${ordered.length} 篇 → data/papers.js`);
+  console.log(`版本号已更新 → index.html 引用 ${next}`);
   if (fresh.length) {
     console.log("新增:", fresh.map((p) => "  " + p.title.slice(0, 70)).join("\n"));
   } else {
