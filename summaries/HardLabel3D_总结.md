@@ -6,6 +6,7 @@
 - **研究方向**: 信息安全
 - **作者**: Daizong Liu, Yunbo Tao, Junhao Dong, Keke Tang 等 (et al.)
 - **期刊 / 会议**: IEEE TDSC 2026
+- **发表**: 2026-05-19
 - **DOI**: 10.1109/tdsc.2026.3694723
 - **arXiv**: 2412.00404
 - **PDF**: [TDSC_2026_HardLabel3D.pdf](papers/TDSC_2026_HardLabel3D.pdf)

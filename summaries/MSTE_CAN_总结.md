@@ -5,6 +5,7 @@
 - **标题**: MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection
 - **作者**: Luofei Jia, Jian Zhang, Lingxuan Li, LingYun Yan, Dafei Lin, Zhongyi Zhou
 - **期刊 / 会议**: Computers & Security 2026
+- **发表**: 2026-09-01
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105133
 

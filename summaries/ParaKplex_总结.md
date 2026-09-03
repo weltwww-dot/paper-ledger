@@ -5,6 +5,7 @@
 - **标题**: ParaKplex: A parallel local search algorithm for the maximum K-Plex problem
 - **作者**: Jieyu Wu, Rui Sun, Yiyuan Wang, Minghao Yin
 - **期刊 / 会议**: Artificial Intelligence 2026
+- **发表**: 2026-08-20
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104604
 

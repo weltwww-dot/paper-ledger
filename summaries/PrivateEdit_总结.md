@@ -6,6 +6,7 @@
 - **研究方向**: 信息安全
 - **作者**: D. Tamboli, Vineet Punyamoorty, Atharv Pawar, Vaneeta Aggarwal
 - **期刊 / 会议**: IEEE TAI 2026
+- **发表**: 2026-03-06
 - **DOI**: 10.1109/tai.2026.3671211
 - **PDF**: [TAI_2026_PrivateEdit.pdf](papers/TAI_2026_PrivateEdit.pdf)
 

@@ -5,6 +5,7 @@
 - **标题**: Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data
 - **作者**: Daniel Oberhofer, Johannes Grill, Günther Pernul, Stefan Schönig
 - **期刊 / 会议**: IJIS 2026
+- **发表**: 2026-09-01
 - **研究方向**: 信息安全
 - **DOI**: 10.1007/s10207-026-01263-9
 - **PDF**: [IJIS_2026_SecurityPlaybooks.pdf](papers/IJIS_2026_SecurityPlaybooks.pdf)

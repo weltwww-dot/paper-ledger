@@ -32,6 +32,7 @@
       authors: p.authors || "",
       journal: p.journal || "",
       year: p.year || "",
+      published: p.published || "",
       doi: p.doi || "",
       arxiv: p.arxiv || "",
       pdf: p.pdf || "",

@@ -6,6 +6,7 @@
 - **研究方向**: 信息安全
 - **作者**: B. Berens, Sebastian Pape, Melanie Volkamer
 - **期刊 / 会议**: ACM TOPS 2026
+- **发表**: 2026-08-17
 - **DOI**: 10.1145/3833421
 
 ## 一句话概括

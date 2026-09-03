@@ -5,6 +5,7 @@
 - **标题**: Refunded but rewarded: The double dip attack on cashback reward engines
 - **作者**: S M Zia Ur Rashid, Suman Rath
 - **期刊 / 会议**: Computers & Security 2026
+- **发表**: 2026-08-29
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105129
 - **arXiv**: 2604.16427

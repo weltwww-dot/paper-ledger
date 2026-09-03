@@ -5,6 +5,7 @@
 - **标题**: Robust Multi-label Classification via Preference Learning
 - **作者**: Vu-Linh Nguyen, Xuan-Truong Hoang, Sébastien Destercke, Cassio de Campos, Van-Nam Huynh
 - **期刊 / 会议**: Machine Learning 2026
+- **发表**: 2026-09-01
 - **研究方向**: 人工智能
 - **DOI**: 10.1007/s10994-026-07147-2
 - **PDF**: [ML_2026_Multilabel.pdf](papers/ML_2026_Multilabel.pdf)

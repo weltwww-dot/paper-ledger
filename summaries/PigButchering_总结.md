@@ -6,6 +6,7 @@
 - **研究方向**: 信息安全
 - **作者**: Ayse Nur Asyali, M. Frank, Pol Hölzmer
 - **期刊 / 会议**: J. Cybersecurity 2026
+- **发表**: 2026-01-31
 - **DOI**: 10.1093/cybsec/tyag003
 
 ## 一句话概括

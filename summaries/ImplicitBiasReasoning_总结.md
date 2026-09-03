@@ -5,6 +5,7 @@
 - **标题**: Implicit-bias-like patterns in reasoning models
 - **作者**: Messi H. J. Lee, Calvin K. Lai 等 (et al.)
 - **期刊 / 会议**: Nature Machine Intelligence 2026
+- **发表**: 2026-09-01
 - **研究方向**: 人工智能
 - **DOI**: 10.1038/s42256-026-01300-1
 - **arXiv**: 2503.11572

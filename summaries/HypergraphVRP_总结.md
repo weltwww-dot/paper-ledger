@@ -5,6 +5,7 @@
 - **标题**: Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems
 - **作者**: Zhenwei Wang, Tiehua Zhang, Jing Liu, Heng Yu
 - **期刊 / 会议**: Neural Networks 2026
+- **发表**: 2026-09-01
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109565
 

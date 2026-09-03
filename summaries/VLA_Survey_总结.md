@@ -6,6 +6,7 @@
 - **研究方向**: 人工智能
 - **作者**: Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao 等 (et al.)
 - **期刊 / 会议**: IEEE TNNLS 2026
+- **发表**: 2026-04-28
 - **DOI**: 10.1109/tnnls.2025.3650584
 - **arXiv**: 2405.14093
 - **PDF**: [TNNLS_2026_VLA_Survey.pdf](papers/TNNLS_2026_VLA_Survey.pdf)

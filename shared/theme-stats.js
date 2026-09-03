@@ -61,16 +61,26 @@
   }
 
   /*
-   * 趋势：最近 recentK 篇（收录序最前）与此前收录的标签占比对比。
+   * 趋势：按论文「发表时间」（published，YYYY-MM-DD）倒序取最近 recentK 篇，
+   * 与此前发表的论文做标签占比对比。数组本身无需保持任何顺序——
+   * module 内部先按 published 排序（缺失日期的排最后），不再信任调用方顺序。
    * 返回 { recentN, olderN, rows }：
    *   row.state: "new"（此前没有）| "rising" | "falling"
    *   row.delta = 近窗口占比 - 前窗口占比（百分点单位由调用方换算）
    */
   function trend(papers, options) {
     const scope = byDirection(papers, options && options.direction);
-    const recentN = Math.max(1, Math.min(options && options.recentK ? options.recentK : RECENT_DEFAULT, scope.length));
-    const recent = scope.slice(0, recentN);
-    const older = scope.slice(recentN);
+    const ordered = [...scope].sort((a, b) => {
+      const da = a.published || "";
+      const db = b.published || "";
+      if (da && db) return da < db ? 1 : da > db ? -1 : 0;
+      if (da) return -1; // 有日期的在前（倒序），无日期的沉底
+      if (db) return 1;
+      return 0;
+    });
+    const recentN = Math.max(1, Math.min(options && options.recentK ? options.recentK : RECENT_DEFAULT, ordered.length));
+    const recent = ordered.slice(0, recentN);
+    const older = ordered.slice(recentN);
     const olderN = older.length;
 
     function tally(list) {

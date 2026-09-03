@@ -5,6 +5,7 @@
 - **标题**: Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering
 - **作者**: Ying Zhang, Xinying Qian, Yu Zhao, Baohang Zhou
 - **期刊 / 会议**: IEEE TKDE 2026
+- **发表**: 2026-08-14
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tkde.2026.3718295
 - **arXiv**: 2511.04072

@@ -6,6 +6,7 @@
 - **研究方向**: 人工智能
 - **作者**: Mutong Liu, Tiantian He, Yang Liu, Jiming Liu
 - **期刊 / 会议**: Artificial Intelligence 2026
+- **发表**: 2026-08-12
 - **DOI**: 10.1016/j.artint.2026.104603
 
 ## 一句话概括

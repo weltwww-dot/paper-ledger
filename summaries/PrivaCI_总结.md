@@ -5,6 +5,7 @@
 - **标题**: PrivaCI: Privacy as Contextual Integrity
 - **作者**: Kirsten Martin, Helen Nissenbaum, Yan Shvartzshnaider
 - **期刊 / 会议**: IEEE S&P 2026
+- **发表**: 2026-07-01
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/msec.2026.3697946
 

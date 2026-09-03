@@ -330,8 +330,8 @@
     trendList.textContent = "";
     if (trendHint) {
       trendHint.textContent = trend.olderN
-        ? `近 ${trend.recentN} 篇 vs 此前 ${trend.olderN} 篇 · 占比变化`
-        : `近 ${trend.recentN} 篇 · 尚无更早收录可对比`;
+        ? `按发表时间：最新 ${trend.recentN} 篇 vs 此前 ${trend.olderN} 篇 · 占比变化`
+        : `按发表时间：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
     }
     const MIN_DELTA = 0.05; // 5 个百分点以上才算明显变化；「新进」需至少出现 2 次
     const upRows = trend.rows
@@ -347,7 +347,7 @@
       row.dataset.tag = r.tag;
       row.setAttribute(
         "title",
-        `${r.tag}：近 ${trend.recentN} 篇出现 ${r.countR} 次 / 此前${trend.olderN ? ` ${trend.olderN} 篇出现 ${r.countO} 次` : "无收录"}`
+        `${r.tag}：最新发表 ${trend.recentN} 篇出现 ${r.countR} 次 / 此前${trend.olderN ? ` ${trend.olderN} 篇出现 ${r.countO} 次` : "无更早发表"}`
       );
       row.append(
         el("span", "pulse-trend__glyph", r.state === "new" ? "新" : r.state === "rising" ? "↑" : "↓"),
@@ -366,7 +366,7 @@
       trendEmpty.textContent = scopePapers.length < 2
         ? "收录论文还太少，积累几轮更新后这里会自动出现趋势。"
         : !trend.olderN
-          ? "尚无更早收录可对比，下一轮更新后自动出现趋势。"
+          ? "尚无更早发表的论文可对比，下一轮更新后自动出现趋势。"
           : "近前两个窗口的主题占比没有明显变化。";
     }
   }

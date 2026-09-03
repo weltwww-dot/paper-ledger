@@ -6,6 +6,7 @@
 - **研究方向**: 信息安全
 - **作者**: Hiva Assasi, Shahram Etemadi Borujeni
 - **期刊 / 会议**: IJIS 2026
+- **发表**: 2026-08-23
 - **DOI**: 10.1007/s10207-026-01315-0
 - **PDF**: [IJIS_2026_GCMult.pdf](papers/IJIS_2026_GCMult.pdf)
 

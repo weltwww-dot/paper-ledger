@@ -6,6 +6,7 @@
 - **研究方向**: 人工智能
 - **作者**: Shunyu Yao, Dian Yu, Jeffrey Zhao 等 7 人 (et al.)
 - **期刊 / 会议**: NeurIPS 2023
+- **发表**: 2023-05-17
 - **arXiv**: 2305.10601（DOI: 10.48550/arXiv.2305.10601）
 - **PDF**: [NeurIPS_2023_ToT.pdf](papers/NeurIPS_2023_ToT.pdf)
 

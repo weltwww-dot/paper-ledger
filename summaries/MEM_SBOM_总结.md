@@ -5,6 +5,7 @@
 - **标题**: What You See Is Not What You Execute: Memory-Based Runtime SBOM Generation for Supply Chain Security
 - **作者**: Hala Ali, Andrew Case, Irfan Ahmed
 - **期刊 / 会议**: Computers & Security 2026
+- **发表**: 2026-08-25
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105125
 - **arXiv**: 2606.22827

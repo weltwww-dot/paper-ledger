@@ -5,6 +5,7 @@
 - **标题**: Generative Distribution Prediction: A Unified Approach to Multimodal Learning
 - **作者**: Xinyu Tian, Xiaotong Shen
 - **期刊 / 会议**: Machine Learning 2026
+- **发表**: 2026-08-31
 - **研究方向**: 人工智能
 - **DOI**: 10.1007/s10994-026-07148-1
 - **arXiv**: 2502.07090

@@ -71,6 +71,7 @@
       pickLine(basic, "会议") ||
       pickLine(basic, "期刊");
     const { journal, year } = splitVenue(venueRaw);
+    const published = pickLine(basic, "发表");
 
     const arxiv =
       (String(basic).match(/arXiv[:：#\s]*(\d{4}\.\d{4,5}(v\d+)?)/i) || [])[1] || "";
@@ -86,6 +87,7 @@
       authors: pickLine(basic, "作者"),
       journal,
       year,
+      published,
       doi,
       arxiv,
       pdf,

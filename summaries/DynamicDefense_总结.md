@@ -5,6 +5,7 @@
 - **标题**: Dynamic defense model based on bionic mechanism
 - **作者**: Yanyi Zhang, Tao Li
 - **期刊 / 会议**: Computers & Security 2026
+- **发表**: 2026-08-24
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105132
 

@@ -5,6 +5,7 @@
 - **标题**: Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision
 - **作者**: Jinjie Guo, Tao Feng, Yiping Wang, Yanfeng Yang, Guixia Kang, Guoguang Zhao
 - **期刊 / 会议**: Neural Networks 2026
+- **发表**: 2026-08-31
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109538
 
