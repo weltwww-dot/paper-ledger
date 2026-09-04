@@ -12,26 +12,11 @@
 只读检测，不改任何代理配置。最终访问判定仍以 instsci 单 DOI 可见浏览器诊断为准。
 """
 
-import json
 import os
 import re
 import sys
 import urllib.request
 import winreg
-
-PUBLISHER_DOMAINS = [
-    "www.sciencedirect.com",
-    "api.elsevier.com",
-    "auth.elsevier.com",
-    "pdf.sciencedirectassets.com",
-    "*.elsevier.com",
-    "ieeexplore.ieee.org",
-    "doi.org",
-    "api.openalex.org",
-    "api.semanticscholar.org",
-    "api.crossref.org",
-    "export.arxiv.org",
-]
 
 IP_ECHO_URLS = [
     "https://api-ipv4.ip.sb/ip",

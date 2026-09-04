@@ -108,7 +108,7 @@ def fetch():
 
     records = RUNS / "records_inc.json"
     oa = RUNS / "oa_inc.json"
-    abstracts = RUNS / "abstracts_inc.json"
+    content = RUNS / "content_inc.json"
 
     log("Step 1/3 · 增量抓取全部期刊论文…")
     run(
@@ -146,29 +146,33 @@ def fetch():
         ]
     )
 
-    log("Step 3/3 · 抓摘要…")
+    log("Step 3/3 · 多渠道抓摘要（typed）…")
     run(
         [
             sys.executable,
-            SKILL_SCRIPTS / "fetch_abstracts.py",
+            ROOT / "scripts" / "fetch_content.py",
             "-i",
             oa,
             "-o",
-            abstracts,
+            content,
+            "--attempts",
+            RUNS / "content_attempts.json",
         ]
     )
 
     with open(records, encoding="utf-8") as f:
         recs = json.load(f)
-    ab_map = {}
-    if abstracts.exists():
-        with open(abstracts, encoding="utf-8") as f:
-            ab_map = {x.get("doi"): (x.get("abstract") or "") for x in json.load(f)}
+    res_map = {}
+    if content.exists():
+        with open(content, encoding="utf-8") as f:
+            res_map = {x.get("doi"): x for x in json.load(f)}
 
     log(f"\n待处理新增论文: {len(recs)} 篇")
     for r in recs:
-        has_ab = "有摘要" if ab_map.get(r.get("doi")) else "无摘要"
-        log(f"  [{r.get('date')}] {r.get('title')}  · {r.get('source')}  · {has_ab}  · {r.get('doi')}")
+        c = res_map.get(r.get("doi")) or {}
+        kind = c.get("kind") or "无结果"
+        src = c.get("source") or "-"
+        log(f"  [{r.get('date')}] {r.get('title')}  · {r.get('source')}  · {kind}/{src}  · {r.get('doi')}")
 
     if not recs:
         log("无新增论文（区间内没有未收录的新文章）。")

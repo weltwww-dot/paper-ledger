@@ -48,6 +48,21 @@
     return byWindow(byDirection(papers, options && options.direction), options && options.since);
   }
 
+  /* 发表时间倒序（缺失日期沉底，同日并列保持原顺序）——列表展示与趋势共用同一排序 */
+  function sortByPublished(list) {
+    return [...list].sort((a, b) => {
+      const da = a.published || "";
+      const db = b.published || "";
+      if (da && db) {
+        if (da !== db) return da < db ? 1 : -1;
+        return 0;
+      }
+      if (da) return -1;
+      if (db) return 1;
+      return 0;
+    });
+  }
+
   /* 各研究方向的篇数（全部 / 信息安全 / 人工智能），用于统计范围 chips */
   function scopeCounts(papers, directions, since) {
     const out = new Map();
@@ -87,14 +102,7 @@
    */
   function trend(papers, options) {
     const scope = filterScope(papers, options);
-    const ordered = [...scope].sort((a, b) => {
-      const da = a.published || "";
-      const db = b.published || "";
-      if (da && db) return da < db ? 1 : da > db ? -1 : 0;
-      if (da) return -1; // 有日期的在前（倒序），无日期的沉底
-      if (db) return 1;
-      return 0;
-    });
+    const ordered = sortByPublished(scope);
     const recentN = Math.max(1, Math.min(options && options.recentK ? options.recentK : RECENT_DEFAULT, ordered.length));
     const recent = ordered.slice(0, recentN);
     const older = ordered.slice(recentN);
@@ -136,6 +144,7 @@
     byDirection,
     byWindow,
     filterScope,
+    sortByPublished,
     scopeCounts,
     hotTags,
     trend,

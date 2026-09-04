@@ -40,21 +40,6 @@
     return [...seen.entries()].sort((a, b) => b[1] - a[1]);
   }
 
-  /* 显示排序：发表时间倒序（无日期沉底）；同日并列保持收录先后（原顺序稳定） */
-  function sortedPapers(list) {
-    return [...list].sort((a, b) => {
-      const da = a.published || "";
-      const db = b.published || "";
-      if (da && db) {
-        if (da !== db) return da < db ? 1 : -1;
-        return 0; // 同日并列：保留原顺序（收录先后）
-      }
-      if (da) return -1;
-      if (db) return 1;
-      return 0;
-    });
-  }
-
   /* 统计窗口起点：最近 N 天（含今天）对应的 YYYY-MM-DD */
   function statsSince() {
     const d = new Date();
@@ -69,7 +54,7 @@
     let out = papers;
     if (directionFilter) out = out.filter((p) => p.direction === directionFilter);
     if (tagFilter) out = out.filter((p) => (p.tags || []).includes(tagFilter));
-    return sortedPapers(out);
+    return ThemeStats.sortByPublished(out);
   }
 
   function el(tag, className, text) {

@@ -21,7 +21,9 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from functools import partial
 
 UA = {
     "User-Agent": (
@@ -184,12 +186,44 @@ def load_json(path):
         return []
 
 
+def process_record(rec, pause=0.3):
+    """单篇多渠道获取；返回 (out_item, attempts_entry, doi)。"""
+    doi = str(rec.get("doi") or "").strip()
+    if not doi:
+        return (
+            {"doi": "", "title": rec.get("title"), "text": "", "source": None,
+             "kind": "not-found", "channels": []},
+            None,
+            "",
+        )
+    channels = []
+    text, source, kind = "", None, "absent"
+    for fn in CHANNELS:
+        r = fn(rec)
+        channels.append(r)
+        if r.get("kind") == "ok":
+            text, source, kind = r.get("text", ""), r["channel"], "ok"
+            break
+        if r["kind"] in ("blocked", "rate-limited") and kind == "absent":
+            kind = r["kind"]
+        time.sleep(pause)
+    entry = {
+        "at": now_iso(),
+        "final": kind,
+        "channels": [{k: v for k, v in c.items() if k != "text"} for c in channels],
+    }
+    item = {"doi": doi, "title": rec.get("title"), "text": text, "source": source,
+            "kind": kind, "channels": channels}
+    return item, entry, doi
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input", required=True)
     ap.add_argument("-o", "--output", required=True)
     ap.add_argument("--attempts", default=None)
     ap.add_argument("--pause", type=float, default=0.6)
+    ap.add_argument("--workers", type=int, default=4)
     args = ap.parse_args()
 
     records = load_json(args.input)
@@ -202,31 +236,13 @@ def main():
             attempts = {}
 
     out = []
-    for rec in records:
-        doi = (rec.get("doi") or "").strip()
-        if not doi:
-            out.append({"doi": "", "title": rec.get("title"), "text": "", "source": None,
-                        "kind": "not-found", "channels": []})
-            continue
-        channels = []
-        text, source, kind = "", None, "absent"
-        for fn in CHANNELS:
-            r = fn(rec)
-            channels.append(r)
-            if r.get("kind") == "ok":
-                text, source, kind = r.get("text", ""), r["channel"], "ok"
-                break
-            if r["kind"] in ("blocked", "rate-limited") and kind == "absent":
-                kind = r["kind"]
-            time.sleep(args.pause)
-        attempts[doi] = {
-            "at": now_iso(),
-            "final": kind,
-            "channels": [{k: v for k, v in c.items() if k != "text"} for c in channels],
-        }
-        out.append({"doi": doi, "title": rec.get("title"), "text": text, "source": source,
-                    "kind": kind, "channels": channels})
-        print(f"{kind:>13} | {source or '-':<16} | {doi}")
+    with ThreadPoolExecutor(max_workers=max(1, args.workers)) as ex:
+        results = list(ex.map(partial(process_record, pause=args.pause), records))
+    for item, entry, doi in results:
+        out.append(item)
+        if doi and entry is not None:
+            attempts[doi] = entry
+        print(f"{item['kind']:>13} | {item.get('source') or '-':<16} | {doi}")
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
