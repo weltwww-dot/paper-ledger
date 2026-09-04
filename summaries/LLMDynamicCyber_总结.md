@@ -6,6 +6,7 @@
 - **作者**: Hanbo Yu, Shahrear Iqbal, Euclides Carlos Pinto Neto, Scott Buffett, Adrian Taylor
 - **期刊 / 会议**: IJIS 2026
 - **发表**: 2026-08-29
+- **内容状态**: 完整
 - **研究方向**: 信息安全
 - **DOI**: 10.1007/s10207-026-01321-2
 - **PDF**: [IJIS_2026_LLMAgents.pdf](papers/IJIS_2026_LLMAgents.pdf)

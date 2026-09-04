@@ -7,6 +7,7 @@
 - **作者**: Yanwei Ren, Liu Liu, Baosheng Yu, Jiayan Qiu, Quan Chen
 - **期刊 / 会议**: Machine Learning 2026
 - **发表**: 2026-08-22
+- **内容状态**: 完整
 - **DOI**: 10.1007/s10994-026-07137-4
 - **arXiv**: 2506.21573
 - **PDF**: [ML_2026_InstructionLearning.pdf](papers/ML_2026_InstructionLearning.pdf)

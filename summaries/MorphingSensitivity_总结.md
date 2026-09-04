@@ -6,6 +6,7 @@
 - **作者**: Antónia Brito, Duarte Folgado, Carlos Soares, Moisés Santos
 - **期刊 / 会议**: Machine Learning 2026
 - **发表**: 2026-08-28
+- **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1007/s10994-026-07132-9
 - **PDF**: [ML_2026_Morphing.pdf](papers/ML_2026_Morphing.pdf)

@@ -6,6 +6,7 @@
 - **作者**: Peijia Zheng, Jingyi Chen, Zhuoyuan Chen, Huiyu Zhou
 - **期刊 / 会议**: ACM TOPS 2026
 - **发表**: 2026-08-26
+- **内容状态**: 完整
 - **研究方向**: 信息安全
 - **DOI**: 10.1145/3838797
 

@@ -7,6 +7,7 @@
 - **作者**: B. Berens, Sebastian Pape, Melanie Volkamer
 - **期刊 / 会议**: ACM TOPS 2026
 - **发表**: 2026-08-17
+- **内容状态**: 完整
 - **DOI**: 10.1145/3833421
 
 ## 一句话概括

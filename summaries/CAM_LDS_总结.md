@@ -6,6 +6,7 @@
 - **作者**: Max Landauer, Wolfgang Hotwagner, Thorina Boenke, Florian Skopik
 - **期刊 / 会议**: IJIS 2026
 - **发表**: 2026-08-26
+- **内容状态**: 完整
 - **研究方向**: 信息安全
 - **DOI**: 10.1007/s10207-026-01318-x
 - **PDF**: [IJIS_2026_CAM_LDS.pdf](papers/IJIS_2026_CAM_LDS.pdf)

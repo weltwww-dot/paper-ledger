@@ -6,6 +6,7 @@
 - **作者**: Weixin Chen, Simon Yu, Huajie Shao, Lui Sha, Han Zhao
 - **期刊 / 会议**: Machine Learning 2026
 - **发表**: 2026-08-29
+- **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1007/s10994-026-07118-7
 - **arXiv**: 2501.07021

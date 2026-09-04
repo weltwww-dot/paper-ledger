@@ -6,6 +6,7 @@
 - **作者**: Yiqi Zou, Kuo Wang, Jichang Li, Chuan Wang, Shuangyin Liu
 - **期刊 / 会议**: IEEE TNNLS 2026
 - **发表**: 2026-06-15
+- **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3659534
 

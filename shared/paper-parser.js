@@ -72,6 +72,15 @@
       pickLine(basic, "期刊");
     const { journal, year } = splitVenue(venueRaw);
     const published = pickLine(basic, "发表");
+    const contentRaw = pickLine(basic, "内容状态");
+    let contentState = "";
+    let contentNote = "";
+    if (contentRaw) {
+      const m = contentRaw.match(/^(完整|已完整|待补全|部分)\s*[·,，;；:：]?\s*(.*)$/);
+      const state = m ? m[1] : "";
+      contentState = state === "待补全" ? "pending" : state === "部分" ? "partial" : state === "完整" || state === "已完整" ? "complete" : "";
+      contentNote = (m && m[2] ? m[2] : contentRaw).trim();
+    }
 
     const arxiv =
       (String(basic).match(/arXiv[:：#\s]*(\d{4}\.\d{4,5}(v\d+)?)/i) || [])[1] || "";
@@ -88,6 +97,8 @@
       journal,
       year,
       published,
+      contentState,
+      contentNote,
       doi,
       arxiv,
       pdf,

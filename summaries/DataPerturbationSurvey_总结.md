@@ -7,6 +7,7 @@
 - **作者**: Pengfei Zhang, Guangdong Bai, Xinshun Xu, Z. Huang
 - **期刊 / 会议**: IEEE TKDE 2026
 - **发表**: 2026-08-07
+- **内容状态**: 完整
 - **DOI**: 10.1109/tkde.2026.3709786
 
 ## 一句话概括

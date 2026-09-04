@@ -6,6 +6,7 @@
 - **作者**: Zhifeng Lu, Haiying Wang, Yujuan Tian
 - **期刊 / 会议**: Neural Networks 2026
 - **发表**: 2026-08-26
+- **内容状态**: 待补全 · 公开摘要缺失（需全文）
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.neunet.2026.109525
 

@@ -176,6 +176,11 @@
     const summary = el("summary", "paper__summary");
     const metaRow = el("div", "paper__meta-row");
     if (p.direction) metaRow.appendChild(el("span", "tag", p.direction));
+    if (p.contentState === "pending") {
+      const badge = el("span", "tag tag--pending", "待补全");
+      badge.title = p.contentNote || "公开摘要缺失，需获取全文后补全";
+      metaRow.appendChild(badge);
+    }
     if (p.published) metaRow.appendChild(el("span", "tag tag--date", p.published));
     metaRow.appendChild(el("span", "tag", p.journal + " · " + p.year));
     for (const t of p.tags || []) {
@@ -687,6 +692,7 @@
       ["作者", entry.authors],
       ["期刊 / 会议", entry.journal + (entry.year ? " · " + entry.year : "")],
       ["发表日期", entry.published],
+      ["内容状态", entry.contentState === "pending" ? "待补全 · 需全文" : entry.contentState ? "完整" : ""],
       ["DOI", entry.doi],
       ["arXiv", entry.arxiv],
       ["PDF", entry.pdf],

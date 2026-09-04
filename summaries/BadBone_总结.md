@@ -7,6 +7,7 @@
 - **作者**: Ziqing Yang, Rui Wen, Xinlei He, Yun Shen, Michael Backes, Yang Zhang
 - **期刊 / 会议**: IEEE TIFS 2026
 - **发表**: 2026-06-01
+- **内容状态**: 完整
 - **DOI**: 10.1109/TIFS.2026.3698596
 - **arXiv**: 2605.31246
 - **PDF**: [TIFS_2026_BadBone.pdf](papers/TIFS_2026_BadBone.pdf)

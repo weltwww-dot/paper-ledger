@@ -6,6 +6,7 @@
 - **作者**: Zhenwei Wang, Tiehua Zhang, Jing Liu, Heng Yu
 - **期刊 / 会议**: Neural Networks 2026
 - **发表**: 2026-09-01
+- **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109565
 

@@ -6,6 +6,7 @@
 - **作者**: Qunyi Zhang, Songan Zhang, Jiaqi Liu, Jinbao Wang, Xiaoning Lei, Guoyang Xie, Guannan Jiang, Zhichao Lu
 - **期刊 / 会议**: IEEE TAI 2026
 - **发表**: 2026-04-20
+- **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tai.2026.3680823
 - **arXiv**: 2510.07927

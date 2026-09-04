@@ -6,6 +6,7 @@
 - **作者**: Mohammadamin Rakeei, Rosario Giustolisi, Gabriele Lenzini, Dhekra Mahmoud
 - **期刊 / 会议**: J. Cybersecurity 2026
 - **发表**: 2026-01-01
+- **内容状态**: 完整
 - **研究方向**: 信息安全
 - **DOI**: 10.1093/cybsec/tyag022
 

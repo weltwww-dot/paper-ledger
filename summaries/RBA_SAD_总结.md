@@ -7,6 +7,7 @@
 - **作者**: Ziyang Zhuo, Yilun Lyu, Xu Ma, Yuan Ma, Hongwei Zhou, Jiankang Wei
 - **期刊 / 会议**: JCS 2026
 - **发表**: 2026-08-10
+- **内容状态**: 完整
 - **DOI**: 10.1177/0926227x261476666
 
 ## 一句话概括

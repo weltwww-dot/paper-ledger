@@ -7,6 +7,7 @@
 - **作者**: Yuan Ni, Zhantao Chen, Shizhou Xu, Cheng Peng 等 (et al.)
 - **期刊 / 会议**: Nature Machine Intelligence 2026
 - **发表**: 2026-08-24
+- **内容状态**: 完整
 - **DOI**: 10.1038/s42256-026-01287-9
 - **PDF**: [NMI_2026_WIEN_INR.pdf](papers/NMI_2026_WIEN_INR.pdf)
 

@@ -6,6 +6,7 @@
 - **作者**: Ugur Sen, Murat Osmanoglu, Oguz Yayla, Ali Aydin Selcuk, Ali Doganaksoy
 - **期刊 / 会议**: IEEE TDSC 2026
 - **发表**: 2026-09-01
+- **内容状态**: 待补全 · 公开摘要缺失（需全文）
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3716834
 

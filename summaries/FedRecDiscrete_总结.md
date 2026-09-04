@@ -6,6 +6,7 @@
 - **作者**: Yang Li, Weike Pan, Qiang Yang, Zhong Ming
 - **期刊 / 会议**: Artificial Intelligence 2026
 - **发表**: 2026-09-01
+- **内容状态**: 待补全 · 公开摘要缺失（需全文）
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104607
 

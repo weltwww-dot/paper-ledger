@@ -630,6 +630,13 @@ body {
 .tag--date {
   font-variant-numeric: tabular-nums;
 }
+.tag--pending {
+  color: var(--color-ink-2);
+  border-color: var(--color-ink);
+  border-style: dashed;
+  background: transparent;
+  letter-spacing: 0.06em;
+}
 
 /* ── Band 5 · import panel ────────────────────────────────────────── */
 .import-panel {

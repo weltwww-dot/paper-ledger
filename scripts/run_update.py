@@ -262,18 +262,86 @@ def main():
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
     ap.add_argument(
         "mode",
-        choices=["fetch", "advance", "publish", "pdf"],
-        help="fetch=抓取 / pdf=探测 PDF 可下载性 / advance=推进基准 / publish=推送并验证线上",
+        choices=["fetch", "pdf", "abstracts", "instsci", "advance", "publish"],
+        help="fetch=抓取 / pdf=探测 PDF / abstracts=重试待补全摘要 / instsci=生成机构全文队列 / advance=推进基准 / publish=发布",
     )
     args = ap.parse_args()
     if args.mode == "fetch":
         fetch()
     elif args.mode == "pdf":
         probe_pdfs()
+    elif args.mode == "abstracts":
+        retry_abstracts()
+    elif args.mode == "instsci":
+        queue_instsci()
     elif args.mode == "advance":
         advance()
     else:
         publish()
+
+
+def papers_from_data():
+    src = DATA_FILE.read_text(encoding="utf-8")
+    m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
+    if not m:
+        raise SystemExit("data/papers.js 解析失败")
+    return json.loads(m.group(1))
+
+
+def pending_papers():
+    return [p for p in papers_from_data() if (p.get("contentState") or "").lower() == "pending"]
+
+
+def retry_abstracts():
+    """对待补全论文重跑多渠道摘要获取；失败类型写入 attempts 缓存。"""
+    pending = pending_papers()
+    if not pending:
+        log("没有待补全论文（contentState=pending 为 0）。")
+        return
+    recs = RUNS / "records_pending.json"
+    payload = [{"doi": p.get("doi"), "title": p.get("title"), "arxiv": p.get("arxiv")} for p in pending]
+    recs.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    log(f"待补全 {len(payload)} 篇 → 多渠道重试…")
+    run(
+        [
+            sys.executable,
+            ROOT / "scripts" / "fetch_content.py",
+            "-i",
+            recs,
+            "-o",
+            RUNS / "content_retry.json",
+            "--attempts",
+            RUNS / "content_attempts.json",
+        ]
+    )
+    out = []
+    if (RUNS / "content_retry.json").exists():
+        out = json.loads((RUNS / "content_retry.json").read_text(encoding="utf-8"))
+    blocked = [x["doi"] for x in out if x.get("kind") in ("blocked", "rate-limited")]
+    log("重试完成。仍取不到内容（blocked/无摘要）的论文，下一步可走机构全文通道：")
+    log("  python scripts/run_update.py instsci")
+    if blocked:
+        log(f"建议优先走 instsci 的 DOI: {len(blocked)} 篇（详见 fulltext_queue）")
+
+
+def queue_instsci():
+    """生成机构全文补全队列（HITL：需要用户完成 instsci 机构登录）。"""
+    pending = pending_papers()
+    if not pending:
+        log("没有待补全论文。")
+        return
+    queue = RUNS / "fulltext_queue.txt"
+    queue.write_text("\n".join(p.get("doi") or "" for p in pending if p.get("doi")) + "\n", encoding="utf-8")
+    out_dir = ROOT / "papers" / "instsci"
+    log(f"补全队列已写入: {queue}（{len(pending)} 篇）")
+    log("下一步（需要机构权限，由你手动完成一次登录）：")
+    log(
+        "  powershell -ExecutionPolicy Bypass -File "
+        "D:/codex/.codex/skills/paper-summarize-fetch/scripts/instsci_batch.ps1 "
+        f"-DoisFile {queue} -OutputDir {out_dir}"
+    )
+    log("说明：先确保 instsci 已配置机构（instsci setup --school \"你的机构\"）；")
+    log("取回 PDF/页面后告诉我，我会更新对应总结并把这些论文的内容状态从待补全改为完整。")
 
 
 def probe_pdfs():

@@ -6,6 +6,7 @@
 - **作者**: Hala Ali, Andrew Case, Irfan Ahmed
 - **期刊 / 会议**: Computers & Security 2026
 - **发表**: 2026-08-25
+- **内容状态**: 完整
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105125
 - **arXiv**: 2606.22827

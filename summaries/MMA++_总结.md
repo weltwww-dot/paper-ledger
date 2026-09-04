@@ -7,6 +7,7 @@
 - **作者**: Lingxiao Yang, Ru-Yuan Zhang, Yanchen Wang, Xiaohua Xie
 - **期刊 / 会议**: IEEE TPAMI 2026
 - **发表**: 2026-05-25
+- **内容状态**: 完整
 - **DOI**: 10.1109/tpami.2026.3691448
 
 ## 一句话概括
