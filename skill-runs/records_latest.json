@@ -1,5 +1,13 @@
 [
   {
+    "doi": "10.1109/tdsc.2026.3716834",
+    "title": "Collusion-Minimized TLS Attestation Protocol for Decentralized Applications",
+    "year": 2026,
+    "date": "2026-09-01",
+    "type": "article",
+    "source": "IEEE Transactions on Dependable and Secure Computing"
+  },
+  {
     "doi": "10.1016/j.cose.2026.105133",
     "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
     "year": 2026,
@@ -32,8 +40,8 @@
     "source": "Machine Learning"
   },
   {
-    "doi": "10.1016/j.neunet.2026.109565",
-    "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
+    "doi": "10.1016/j.neunet.2026.109568",
+    "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
     "year": 2026,
     "date": "2026-09-01",
     "type": "article",
@@ -80,6 +88,14 @@
     "source": "IEEE Security & Privacy"
   },
   {
+    "doi": "10.1109/tnnls.2026.3659534",
+    "title": "Benefiting From OOD Samples in Open-Set Semi-Supervised Object Detection",
+    "year": 2026,
+    "date": "2026-06-15",
+    "type": "article",
+    "source": "IEEE Transactions on Neural Networks and Learning Systems"
+  },
+  {
     "doi": "10.60882/cispa.32775141",
     "title": "BadBone: Backdoor Attacks Against Backbone Models in Visual Prompt Learning",
     "year": 2026,
@@ -94,22 +110,6 @@
     "date": "2026-05-25",
     "type": "article",
     "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-  },
-  {
-    "doi": "10.1109/tdsc.2026.3694723",
-    "title": "Hard-Label Black-Box Attacks on 3D Point Clouds",
-    "year": 2026,
-    "date": "2026-05-19",
-    "type": "article",
-    "source": "IEEE Transactions on Dependable and Secure Computing"
-  },
-  {
-    "doi": "10.1109/tnnls.2025.3650584",
-    "title": "A Survey on Vision--Language--Action Models for Embodied AI",
-    "year": 2026,
-    "date": "2026-04-28",
-    "type": "article",
-    "source": "IEEE Transactions on Neural Networks and Learning Systems"
   },
   {
     "doi": "10.1109/tai.2026.3680823",

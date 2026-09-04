@@ -90,6 +90,16 @@ def merge_records(records, latest_file, existing, existing_titles=None):
     return merged
 
 
+def titles_from_data():
+    titles = []
+    if DATA_FILE.exists():
+        src = DATA_FILE.read_text(encoding="utf-8")
+        m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
+        if m:
+            titles = [p.get("title") or "" for p in json.loads(m.group(1))]
+    return titles
+
+
 def fetch():
     base = load_last_update()
     last_date = base["date"]
@@ -121,16 +131,6 @@ def fetch():
     run([sys.executable, SKILL_SCRIPTS / "fetch_latest.py", "-o", latest_file])
     recs = merge_records(records, latest_file, dois, titles_from_data())
     log(f"合并后待处理: {len(recs)} 篇")
-
-
-def titles_from_data():
-    titles = []
-    if DATA_FILE.exists():
-        src = DATA_FILE.read_text(encoding="utf-8")
-        m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
-        if m:
-            titles = [p.get("title") or "" for p in json.loads(m.group(1))]
-    return titles
 
     log("Step 2/3 · OA 检查 + arXiv…")
     run(

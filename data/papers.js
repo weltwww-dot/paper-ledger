@@ -1,6 +1,74 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
+    "authors": "Kazi F. Akhter, Ibna Kowsar, Manar D. Samad",
+    "journal": "Neural Networks",
+    "year": "2026",
+    "published": "2026-09-01",
+    "doi": "10.1016/j.neunet.2026.109568",
+    "arxiv": "2608.28209",
+    "pdf": "papers/NN_2026_GeneralizedContext.pdf",
+    "link": "https://arxiv.org/abs/2608.28209",
+    "direction": "人工智能",
+    "summary": "提出广义上下文学习（generalized context learning），去掉表格数据跨域迁移需共享特征的前提，用 Transformer 投影权重实现跨域注意力迁移（CATTLE）。",
+    "question": "与图像和文本不同，表格数据因特征类型、结构与语义在不同领域间异构，迁移学习困难。现有方法假设数据表间存在共享特征以支持知识迁移，这在实践中不现实；需要不依赖共享特征、数据无关的迁移机制。",
+    "method": "Transformer 的 key/value/query 投影权重捕获的广义上下文提供基于规则（rule-based）的泛化，而非传统从 Transformer 激活中学到的领域特定上下文；源域的 key 投影权重与目标域的 query 权重交互，实现跨域注意力迁移（Cross-domain Attention Transfer Learning, CATTLE），以数据无关（data-agnostic）方式完成迁移。",
+    "experiments": "原文以方法提出为主，具体实验数据原文摘要未提供。",
+    "contribution": "- 贡献一：首次移除表格迁移学习对共享特征的依赖，提出广义上下文学习范式。\n- 贡献二：基于投影权重的跨域注意力迁移（CATTLE），数据无关、无需共享特征。\n- 局限：具体性能数字原文摘要未提供；更多异构表格域与真实场景验证待展开。\n---\nDOI: 10.1016/j.neunet.2026.109568",
+    "sample": false,
+    "id": "r-1boytm8",
+    "tags": [
+      "迁移学习"
+    ]
+  },
+  {
+    "title": "Benefiting From OOD Samples in Open-Set Semi-Supervised Object Detection",
+    "authors": "Yiqi Zou, Kuo Wang, Jichang Li, Chuan Wang, Shuangyin Liu",
+    "journal": "IEEE TNNLS",
+    "year": "2026",
+    "published": "2026-06-15",
+    "doi": "10.1109/tnnls.2026.3659534",
+    "arxiv": "",
+    "pdf": "",
+    "link": "https://doi.org/10.1109/tnnls.2026.3659534",
+    "direction": "人工智能",
+    "summary": "针对开放集半监督目标检测（OSSOD），提出\"有效利用而非完全过滤\"未标注数据中的分布外（OOD）样本：以实例级一致性正则 + OOD 感知对比学习 + 原型多度量自适应匹配提升检测性能。",
+    "question": "OSSOD 放宽了半监督目标检测（SSOD）的封闭集假设：未标注数据同时含分布内（ID）与分布外（OOD）样本。现有方法试图从无标注数据中完全滤除 OOD 样本再做常规半监督学习；本文发现有效利用 OOD 样本反而能促进特征学习、提升开放集条件下 ID 类别的检测性能。",
+    "method": "对无标注图像上所有检测实例（含 OOD）做精炼的实例级一致性正则（ICR）；提出 OOD 感知对比学习（OCL），在类内特征空间聚拢 ID 对象、推开 OOD 样本，增强 ID 特征紧致性并拉大 ID/OOD 判别；基于判别特征设计原型多度量自适应匹配（MAM），按类别自适应度量样本与类原型的多尺度特征相似性来识别 ID/OOD，从而从无标注数据挖掘更可靠的 ID/OOD 样本。",
+    "experiments": "原文摘要确认方法在开放集设置下有效提升 ID 检测性能，具体数字未在摘要给出。",
+    "contribution": "- 贡献一：首个论证 OOD 样本可被利用（而非仅过滤）以提升 OSSOD 性能。\n- 贡献二：ICR + OOD 感知对比学习 + 原型多度量自适应匹配的组合框架。\n- 局限：具体性能数字原文摘要未提供；更复杂开放集分布与更大规模评测待展开。\n---\nDOI: 10.1109/tnnls.2026.3659534",
+    "sample": false,
+    "id": "r-1gejhh7",
+    "tags": [
+      "计算机视觉",
+      "对抗与鲁棒性"
+    ]
+  },
+  {
+    "title": "Collusion-Minimized TLS Attestation Protocol for Decentralized Applications",
+    "authors": "Ugur Sen, Murat Osmanoglu, Oguz Yayla, Ali Aydin Selcuk, Ali Doganaksoy",
+    "journal": "IEEE TDSC",
+    "year": "2026",
+    "published": "2026-09-01",
+    "doi": "10.1109/tdsc.2026.3716834",
+    "arxiv": "",
+    "pdf": "",
+    "link": "https://doi.org/10.1109/tdsc.2026.3716834",
+    "direction": "信息安全",
+    "summary": "原文未提供（未能获取摘要；从标题可知：面向去中心化应用、最小化共谋风险的 TLS 认证协议）。",
+    "question": "原文未提供。",
+    "method": "原文未提供。",
+    "experiments": "原文未提供。",
+    "contribution": "- 从公开元数据仅能确认：研究面向去中心化应用的 TLS 认证协议，目标是降低共谋（collusion）风险。\n- 具体贡献、方法与实验结论：原文未提供。\n---\nDOI: 10.1109/tdsc.2026.3716834",
+    "sample": false,
+    "id": "r-ztvwtc",
+    "tags": [
+      "密码学",
+      "去中心化系统"
+    ]
+  },
+  {
     "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
     "authors": "Yang Li, Weike Pan, Qiang Yang, Zhong Ming",
     "journal": "Artificial Intelligence",

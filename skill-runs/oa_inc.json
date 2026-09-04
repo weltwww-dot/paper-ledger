@@ -1,55 +1,19 @@
 [
   {
-    "doi": "10.1016/j.artint.2026.104607",
-    "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
-    "year": 2026,
-    "is_oa": false,
-    "oa_status": "closed",
-    "best_pdf_url": null,
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Artificial Intelligence"
-  },
-  {
-    "doi": "10.1038/s42256-026-01300-1",
-    "title": "Implicit-bias-like patterns in reasoning models",
-    "year": 2026,
-    "is_oa": false,
-    "oa_status": "closed",
-    "best_pdf_url": null,
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Nature Machine Intelligence"
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105133",
-    "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
+    "doi": "10.1016/j.neunet.2026.109568",
+    "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
     "year": 2026,
     "is_oa": true,
     "oa_status": "green",
-    "best_pdf_url": "https://doi.org/10.2139/ssrn.6721325",
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Computers & Security"
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109565",
-    "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
-    "year": 2026,
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "best_pdf_url": "https://www.sciencedirect.com/science/article/pii/S0893608026010221/pdf",
-    "arxiv_id": null,
+    "best_pdf_url": "https://arxiv.org/pdf/2608.28209",
+    "arxiv_id": "2608.28209v1",
     "matched": true,
     "note": null,
     "source": "Neural Networks"
   },
   {
-    "doi": "10.1007/s10994-026-07147-2",
-    "title": "Robust Multi-label Classification via Preference Learning",
+    "doi": "10.1109/tnnls.2026.3659534",
+    "title": "Benefiting From OOD Samples in Open-Set Semi-Supervised Object Detection",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",
@@ -57,30 +21,18 @@
     "arxiv_id": null,
     "matched": true,
     "note": null,
-    "source": "Machine Learning"
+    "source": "IEEE Transactions on Neural Networks and Learning Systems"
   },
   {
-    "doi": "10.1007/s10207-026-01263-9",
-    "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
+    "doi": "10.1109/tdsc.2026.3716834",
+    "title": "Collusion-Minimized TLS Attestation Protocol for Decentralized Applications",
     "year": 2026,
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "best_pdf_url": "https://link.springer.com/content/pdf/10.1007/s10207-026-01263-9.pdf",
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
     "arxiv_id": null,
     "matched": true,
     "note": null,
-    "source": "International Journal of Information Security"
-  },
-  {
-    "doi": "10.1109/tkde.2026.3718295",
-    "title": "Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering",
-    "year": 2026,
-    "is_oa": true,
-    "oa_status": "green",
-    "best_pdf_url": "https://arxiv.org/pdf/2511.04072",
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "IEEE Transactions on Knowledge and Data Engineering"
+    "source": "IEEE Transactions on Dependable and Secure Computing"
   }
 ]

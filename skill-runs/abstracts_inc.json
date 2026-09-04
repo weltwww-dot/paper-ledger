@@ -1,7 +1,7 @@
 [
   {
-    "doi": "10.1016/j.artint.2026.104607",
-    "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
+    "doi": "10.1016/j.neunet.2026.109568",
+    "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
     "abstract": null,
     "authors": [],
     "venue": null,
@@ -9,76 +9,29 @@
     "source": null
   },
   {
-    "doi": "10.1038/s42256-026-01300-1",
-    "title": "Implicit-bias-like patterns in reasoning models",
-    "abstract": null,
-    "authors": [],
-    "venue": null,
-    "year": null,
-    "source": null
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105133",
-    "title": "MSTE-CAN: Multi-channel Spatial-Temporal Encoding and Coordinate Attention-based ResNet for high-efficiency CAN bus intrusion detection",
-    "abstract": null,
-    "authors": [],
-    "venue": null,
-    "year": null,
-    "source": null
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109565",
-    "title": "Learning Constraints-Based Adaptive Hypergraph Neural Networks for Solving Vehicle Routing Problems",
+    "doi": "10.1109/tnnls.2026.3659534",
+    "title": "Benefiting From OOD Samples in Open-Set Semi-Supervised Object Detection",
     "authors": [
-      "Zhenwei Wang",
-      "Tiehua Zhang",
-      "Jing Liu",
-      "Heng Yu",
-      "Kaizhu Huang",
-      "Ruibin Bai"
+      "Yiqi Zou",
+      "Kuo Wang",
+      "Jichang Li",
+      "Chuan Wang",
+      "Shuangyin Liu",
+      "Liang Lin",
+      "Guanbin Li"
     ],
-    "venue": "Neural Networks",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
     "year": 2026,
-    "abstract": "The application of learning-based methods, particularly neural network based methods, to Vehicle Routing Problems (VRP) has emerged as a pivotal area of research within combinatorial optimization. VRPs are characterized by expansive solution spaces and complex constraints, often compounded by uncertainties, which render traditional approaches, such as exact mathematical models or heuristic methods, prone to substantial computational overhead. Although some recent learning-based methods have demonstrated good performance for VRPs with straightforward constraint scenarios, they often struggle to effectively handle the complex, hard constraints commonly encountered in practice. As the first work to incorporate hypergraph learning into routing problems, this study introduces an end-to-end framework that integrates constraint-oriented hypergraph neural networks with reinforcement learning to address these challenges in vehicle routing problems. The central motivation is that routing constraints, such as capacity limits and time-window penalties, are naturally imposed on groups of nodes and partial routes rather than on isolated pairwise edges. Therefore, a representation mechanism capable of preserving such high-order constraint semantics is needed. A key innovation of this work lies in the development of a constraint-oriented dynamic hyperedge reconstruction strategy within the designated encoder, which substantially enhances hypergraph representation learning. Additionally, the decoder leverages a double-pointer attention mechanism to iteratively generate solutions. The proposed model is trained using asynchronous parameter updates guided by hypergraph constraints and optimized through a dual loss function that includes both constraint loss and policy gradient loss. Experimental results on benchmark datasets demonstrate that this approach not only eliminates the need for complex heuristic operators but also achieves state-of-the-art (SOTA) solution quality.",
+    "abstract": "Open-set semi-supervised object detection (OSSOD) is an emerging research area that relaxes the assumption of closed-set in semi-supervised object detection (SSOD), allowing unlabeled data to contain both in-distribution (ID) and out-of-distribution (OOD) samples. In the face of OSSOD, existing approaches expect to completely filter out OOD samples from unlabeled data for conventional semi-supervised learning. Different from it, we find that the effective use of OOD samples in unlabeled data can also facilitate feature learning and thus boost the detection performance of ID categories under open set conditions. Specifically, we perform refined instance-level consistency regularization (ICR) on all the detected instances (including the OOD ones) on unlabeled images, while introducing a novel OOD-aware contrastive learning (OCL) that clusters ID objects and pushes away OOD samples in the intra-class feature space, enhancing the compactness of ID features while emphasizing the discrimination between ID and OOD objects. Based on the distinguished features, we further design a prototype-based multimetric adaptive matching (MAM) approach, which identifies ID/OOD samples by adaptively measuring multiscale feature similarity between samples and class prototypes according to the specific category. With the help of this approach, more reliable ID/OOD samples can be mined from unlabeled data for contrastive learning, while the consistency regularization (CR) can be weighted according to the matching scores, correcting the biasing effects of OOD objects. Extensive experiments demonstrate that our design can effectively utilize OOD samples to optimize feature learning while avoiding their detrimental effects in semi-supervised learning, which ultimately greatly improves the detection capability of the model in open-set scenarios by a large margin over current state-of-the-art works.",
     "source": "openalex"
   },
   {
-    "doi": "10.1007/s10994-026-07147-2",
-    "title": "Robust Multi-label Classification via Preference Learning",
+    "doi": "10.1109/tdsc.2026.3716834",
+    "title": "Collusion-Minimized TLS Attestation Protocol for Decentralized Applications",
     "abstract": null,
     "authors": [],
     "venue": null,
     "year": null,
     "source": null
-  },
-  {
-    "doi": "10.1007/s10207-026-01263-9",
-    "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
-    "authors": [
-      "Daniel Oberhofer",
-      "Johannes Grill",
-      "Günther Pernul",
-      "Stefan Schönig"
-    ],
-    "venue": "International Journal of Information Security",
-    "year": 2026,
-    "abstract": "Abstract Automated security risk management addresses threats by implementing mitigation and remediation strategies described in public security advisories. These advisories, regularly published by independent Cyber Emergency Response Teams (CERTs), are typically presented as unstructured text and supplemented with additional security-relevant information sources. Using a Large Language Model (LLM) orchestration framework, we generate security playbooks in a standardized meta-model, visualize them with Business Process Modeling and Notation (BPMN) diagrams, and classify them into actionable tasks. We present the theoretical foundations of the framework, describe the underlying meta-model, and conduct an experimental study that produces a dataset of 725 security playbooks. Our subsequent content analysis shows that advisory-based playbooks focus on update tasks, but also include defensive themes like disabling vulnerable policies or restricting network access.",
-    "source": "openalex"
-  },
-  {
-    "doi": "10.1109/tkde.2026.3718295",
-    "title": "Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering",
-    "authors": [
-      "Ying Zhang",
-      "Xinying Qian",
-      "Yu Zhao",
-      "Baohang Zhou",
-      "Xuhui Sui",
-      "Xiaojie Yuan"
-    ],
-    "venue": "IEEE Transactions on Knowledge and Data Engineering",
-    "year": 2026,
-    "abstract": "Temporal Knowledge Graph Question Answering (TKGQA) aims to answer time-sensitive questions by leveraging factual information from Temporal Knowledge Graphs (TKGs). While previous studies have employed pre-trained TKG embeddings or graph neural networks to inject temporal knowledge, they fail to fully understand the complex semantic information of time constraints. Recently, Large Language Models (LLMs) have shown remarkable progress, benefiting from their strong semantic understanding and reasoning generalization capabilities. However, their temporal reasoning ability remains limited. LLMs frequently suffer from hallucination and a lack of knowledge. To address these limitations, we propose the Plan of Knowledge framework with a contrastive temporal retriever, which is named PoK. Specifically, the proposed Plan of Knowledge module decomposes a complex temporal question into a sequence of sub-objectives from the pre-defined tools, serving as intermediate guidance for reasoning exploration. In parallel, we construct a Temporal Knowledge Store (TKS) with a contrastive retrieval framework, enabling the model to selectively retrieve semantically and temporally aligned facts from TKGs. By combining structured planning with temporal knowledge retrieval, PoK effectively enhances the interpretability and factual consistency of temporal reasoning. Extensive experiments on four benchmark TKGQA datasets demonstrate that PoK significantly improves the retrieval precision and reasoning accuracy of LLMs, surpassing the performance of the state-of-the-art TKGQA methods by 56.0% at most.",
-    "source": "openalex"
   }
 ]
