@@ -74,6 +74,9 @@ python scripts/run_update.py publish   # 推送 + 等待 Pages 构建 + 验证�
 
 读不到摘要不是“换个请求头”的小修，按下面顺序走，保证缺口可见、可重试、可补全：
 
+0. **开代理了先自检**：`python scripts/run_update.py route-check`
+   - 若判定代理会把出版社域名带走 → 按 `proxy-rules/README.md` 加直连规则（Clash/系统代理两版），
+     或跑 instsci 时关代理；做不到就切机构 SSO
 1. **多渠道自动重试**：`python scripts/run_update.py abstracts`
    - 渠道顺序：OpenAlex → Semantic Scholar → Crossref → arXiv 标题精确匹配 → 出版社落地页
    - 结果分 `ok / absent / blocked / rate-limited / not-found / error`，记入
@@ -103,6 +106,7 @@ papers/                # 已下载的 PDF
 scripts/               # 抓取 / 摘要收口(fetch_content) / PDF / 同步 / 发布脚本
 shared/                # 浏览器与 Node 共用的解析 / 存储 / 统计模块
 skill-runs/            # 更新基准与抓取记录
+proxy-rules/           # 代理分流规则与说明（保住 IP 直连路线）
 CONTEXT.md             # 领域词汇表（研究方向 / 主题 / 内容状态 / 热点与趋势）
 更新工作流.md          # 「更新」完整流程说明
 部署指南.md            # 部署到 GitHub Pages 等平台的说明

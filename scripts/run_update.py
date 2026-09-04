@@ -262,8 +262,8 @@ def main():
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
     ap.add_argument(
         "mode",
-        choices=["fetch", "pdf", "abstracts", "instsci", "advance", "publish"],
-        help="fetch=抓取 / pdf=探测 PDF / abstracts=重试待补全摘要 / instsci=生成机构全文队列 / advance=推进基准 / publish=发布",
+        choices=["fetch", "pdf", "abstracts", "instsci", "route-check", "advance", "publish"],
+        help="fetch=抓取 / pdf=探测 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
     )
     args = ap.parse_args()
     if args.mode == "fetch":
@@ -274,6 +274,8 @@ def main():
         retry_abstracts()
     elif args.mode == "instsci":
         queue_instsci()
+    elif args.mode == "route-check":
+        route_check()
     elif args.mode == "advance":
         advance()
     else:
@@ -342,6 +344,11 @@ def queue_instsci():
     )
     log("说明：先确保 instsci 已配置机构（instsci setup --school \"你的机构\"）；")
     log("取回 PDF/页面后告诉我，我会更新对应总结并把这些论文的内容状态从待补全改为完整。")
+
+
+def route_check():
+    """代理出口自检：判断开了代理后出版社域名是否仍走直连（IP 路线是否可用）。"""
+    run([sys.executable, ROOT / "scripts" / "route_check.py"])
 
 
 def probe_pdfs():
