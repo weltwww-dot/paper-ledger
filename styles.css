@@ -627,6 +627,9 @@ body {
   background: var(--color-paper-2);
   border-style: dashed;
 }
+.tag--date {
+  font-variant-numeric: tabular-nums;
+}
 
 /* ── Band 5 · import panel ────────────────────────────────────────── */
 .import-panel {

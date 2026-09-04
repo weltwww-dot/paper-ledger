@@ -28,6 +28,7 @@
   let pulseHotAll = false;
   let showAll = false;
   const PULSE_HOT_LIMIT = 10;
+  const WINDOW_DAYS = ThemeStats.WINDOW_DAYS_DEFAULT;
 
   /* ── helpers ────────────────────────────────────────────────────── */
   function uniqueDirections() {
@@ -39,11 +40,36 @@
     return [...seen.entries()].sort((a, b) => b[1] - a[1]);
   }
 
+  /* 显示排序：发表时间倒序（无日期沉底）；同日并列保持收录先后（原顺序稳定） */
+  function sortedPapers(list) {
+    return [...list].sort((a, b) => {
+      const da = a.published || "";
+      const db = b.published || "";
+      if (da && db) {
+        if (da !== db) return da < db ? 1 : -1;
+        return 0; // 同日并列：保留原顺序（收录先后）
+      }
+      if (da) return -1;
+      if (db) return 1;
+      return 0;
+    });
+  }
+
+  /* 统计窗口起点：最近 N 天（含今天）对应的 YYYY-MM-DD */
+  function statsSince() {
+    const d = new Date();
+    d.setDate(d.getDate() - (WINDOW_DAYS - 1));
+    const y = d.getFullYear();
+    const mo = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return `${y}-${mo}-${day}`;
+  }
+
   function visiblePapers() {
     let out = papers;
     if (directionFilter) out = out.filter((p) => p.direction === directionFilter);
     if (tagFilter) out = out.filter((p) => (p.tags || []).includes(tagFilter));
-    return out;
+    return sortedPapers(out);
   }
 
   function el(tag, className, text) {
@@ -150,6 +176,7 @@
     const summary = el("summary", "paper__summary");
     const metaRow = el("div", "paper__meta-row");
     if (p.direction) metaRow.appendChild(el("span", "tag", p.direction));
+    if (p.published) metaRow.appendChild(el("span", "tag tag--date", p.published));
     metaRow.appendChild(el("span", "tag", p.journal + " · " + p.year));
     for (const t of p.tags || []) {
       metaRow.appendChild(el("span", "tag tag--theme", t));
@@ -260,8 +287,8 @@
   /* ── render: 研究热点与趋势（#pulse）────────────────────────────── */
   function pulseCounts() {
     const dirs = uniqueDirections().map(([name]) => name);
-    const counts = ThemeStats.scopeCounts(papers, dirs);
-    return dirs.length ? counts : new Map([["全部", papers.length]]);
+    const counts = ThemeStats.scopeCounts(papers, dirs, statsSince());
+    return dirs.length ? counts : new Map([["全部", ThemeStats.filterScope(papers, { since: statsSince() }).length]]);
   }
 
   function renderPulseScopeChips() {
@@ -286,12 +313,13 @@
   function renderPulse() {
     renderPulseScopeChips();
     const count = document.querySelector("#pulse-count");
-    const scopePapers = ThemeStats.byDirection(papers, pulseScope);
-    const hot = ThemeStats.hotTags(papers, { direction: pulseScope });
-    const trend = ThemeStats.trend(papers, { direction: pulseScope });
+    const since = statsSince();
+    const scopePapers = ThemeStats.filterScope(papers, { direction: pulseScope, since });
+    const hot = ThemeStats.hotTags(papers, { direction: pulseScope, since });
+    const trend = ThemeStats.trend(papers, { direction: pulseScope, since });
     if (count) {
       count.textContent = scopePapers.length
-        ? `${scopePapers.length} 篇 · ${hot.length} 个主题`
+        ? `近 ${WINDOW_DAYS} 天 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
         : "";
     }
 
@@ -330,8 +358,8 @@
     trendList.textContent = "";
     if (trendHint) {
       trendHint.textContent = trend.olderN
-        ? `按发表时间：最新 ${trend.recentN} 篇 vs 此前 ${trend.olderN} 篇 · 占比变化`
-        : `按发表时间：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
+        ? `近 ${WINDOW_DAYS} 天内：最新 ${trend.recentN} 篇 vs 其余 ${trend.olderN} 篇 · 占比变化`
+        : `近 ${WINDOW_DAYS} 天内：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
     }
     const MIN_DELTA = 0.05; // 5 个百分点以上才算明显变化；「新进」需至少出现 2 次
     const upRows = trend.rows
@@ -364,10 +392,10 @@
     if (trendEmpty) {
       trendEmpty.hidden = upRows.length + downRows.length !== 0;
       trendEmpty.textContent = scopePapers.length < 2
-        ? "收录论文还太少，积累几轮更新后这里会自动出现趋势。"
+        ? `近 ${WINDOW_DAYS} 天窗口内论文还太少，积累几轮更新后这里会自动出现趋势。`
         : !trend.olderN
-          ? "尚无更早发表的论文可对比，下一轮更新后自动出现趋势。"
-          : "近前两个窗口的主题占比没有明显变化。";
+          ? `近 ${WINDOW_DAYS} 天窗口内不足 13 篇，尚无法切出两个窗口。`
+          : "近 90 天窗口内两个分组的主题占比没有明显变化。";
     }
   }
 
@@ -612,6 +640,7 @@
         pdf: fieldState("f-pdf").input.value.trim(),
         link: "",
         direction: fieldState("f-direction").input.value.trim(),
+        published: fieldState("f-published").input.value.trim(),
         tags: ThemeStats.splitTags(fieldState("f-tags").input.value),
         summary: fieldState("f-summary").input.value.trim(),
         question: fieldState("f-question").input.value.trim(),
@@ -646,6 +675,7 @@
   const importFields = document.querySelector("#import-fields");
   const importDirection = document.querySelector("#import-direction");
   const importTags = document.querySelector("#import-tags");
+  const importPublished = document.querySelector("#import-published");
   const importParseBtn = document.querySelector("#import-parse");
   const importConfirmBtn = document.querySelector("#import-confirm");
   let parsedEntry = null;
@@ -656,6 +686,7 @@
       ["标题", entry.title],
       ["作者", entry.authors],
       ["期刊 / 会议", entry.journal + (entry.year ? " · " + entry.year : "")],
+      ["发表日期", entry.published],
       ["DOI", entry.doi],
       ["arXiv", entry.arxiv],
       ["PDF", entry.pdf],
@@ -699,6 +730,7 @@
     }
     importDirection.value = parsedEntry.direction || "";
     if (importTags) importTags.value = (parsedEntry.tags || []).join("；");
+    if (importPublished) importPublished.value = parsedEntry.published || "";
     showImportPreview(parsedEntry);
   });
 
@@ -706,6 +738,7 @@
     if (!parsedEntry) return;
     parsedEntry.direction = importDirection.value.trim();
     parsedEntry.tags = ThemeStats.splitTags(importTags.value);
+    if (importPublished) parsedEntry.published = importPublished.value.trim() || "";
     importConfirmBtn.dataset.state = "loading";
     importConfirmBtn.disabled = true;
     window.setTimeout(() => {
@@ -720,6 +753,7 @@
       parsedEntry = null;
       importDirection.value = "";
       if (importTags) importTags.value = "";
+      if (importPublished) importPublished.value = "";
       document.querySelector("#latest").scrollIntoView({ behavior: "smooth", block: "start" });
     }, 350);
   });

@@ -96,7 +96,7 @@
           <div class="pulse-panel">
             <div class="pulse-panel__head">
               <h3 class="pulse-panel__title">当前热点</h3>
-              <span class="pulse-panel__hint">按研究主题统计收录论文，点主题可筛台账</span>
+              <span class="pulse-panel__hint">近 90 天发表论文的主题排行，点主题可筛台账</span>
             </div>
             <div class="pulse-rows" id="pulse-hot-list"><!-- rendered by app.js --></div>
             <p class="rail-more">
@@ -179,6 +179,11 @@
                        autocomplete="off" placeholder="如：大模型；隐私保护" />
                 <p class="field__helper">用「；」分隔多个主题，用于研究热点统计。</p>
               </div>
+              <div class="field field--direction">
+                <label class="field__label" for="import-published">发表日期（可选）</label>
+                <input class="field__input" id="import-published" type="date" />
+                <p class="field__helper">用于列表时间排序与近 90 天统计。</p>
+              </div>
               <button class="btn" id="import-confirm" type="button" data-state="default">
                 <span class="btn__label">确认导入</span>
               </button>
@@ -250,12 +255,17 @@
             </div>
           </div>
 
-          <div class="form__row">
-            <div class="field field--wide">
+          <div class="form__row form__row--3">
+            <div class="field">
               <label class="field__label" for="f-tags">主题标签 <span class="field__tag">可选</span></label>
               <input class="field__input" id="f-tags" name="tags" type="text"
                      autocomplete="off" placeholder="如：大模型；隐私保护" />
               <p class="field__helper" id="f-tags-help">用「；」分隔 1–3 个研究主题，用于「研究热点与趋势」统计。</p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="f-published">发表日期 <span class="field__tag">可选</span></label>
+              <input class="field__input" id="f-published" name="published" type="date" />
+              <p class="field__helper" id="f-published-help">用于列表时间排序与近 90 天统计；留空则排在列表末尾。</p>
             </div>
           </div>
 

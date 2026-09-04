@@ -14,6 +14,7 @@
   "use strict";
 
   const RECENT_DEFAULT = 12;
+  const WINDOW_DAYS_DEFAULT = 90;
 
   /* "a；b、c,d" → ["a","b","c","d"] */
   function splitTags(value) {
@@ -33,13 +34,29 @@
     return papers.filter((p) => p.direction === direction);
   }
 
+  /*
+   * 统计窗口：只保留 published >= since 的论文（since = 'YYYY-MM-DD'）。
+   * since 为空时不做时间过滤，保持旧行为（测试/兼容）。
+   */
+  function byWindow(papers, since) {
+    if (!since) return papers;
+    return papers.filter((p) => p.published && p.published >= since);
+  }
+
+  /* 方向 + 时间窗口组合过滤（热点/趋势/统计范围 chips 共用） */
+  function filterScope(papers, options) {
+    return byWindow(byDirection(papers, options && options.direction), options && options.since);
+  }
+
   /* 各研究方向的篇数（全部 / 信息安全 / 人工智能），用于统计范围 chips */
-  function scopeCounts(papers, directions) {
+  function scopeCounts(papers, directions, since) {
     const out = new Map();
-    out.set("全部", papers.length);
+    out.set("全部", filterScope(papers, { since }).length);
     for (const d of directions || []) out.set(d, 0);
     for (const p of papers) {
-      if (p.direction && out.has(p.direction)) out.set(p.direction, out.get(p.direction) + 1);
+      if (p.direction && out.has(p.direction) && (!since || (p.published && p.published >= since))) {
+        out.set(p.direction, out.get(p.direction) + 1);
+      }
     }
     return out;
   }
@@ -49,7 +66,7 @@
    * 返回 [{ tag, count, share }]（share = count / 范围内总篇数），按 count 降序、标签名升序。
    */
   function hotTags(papers, options) {
-    const scope = byDirection(papers, options && options.direction);
+    const scope = filterScope(papers, options);
     const total = scope.length;
     const count = new Map();
     for (const p of scope) {
@@ -69,7 +86,7 @@
    *   row.delta = 近窗口占比 - 前窗口占比（百分点单位由调用方换算）
    */
   function trend(papers, options) {
-    const scope = byDirection(papers, options && options.direction);
+    const scope = filterScope(papers, options);
     const ordered = [...scope].sort((a, b) => {
       const da = a.published || "";
       const db = b.published || "";
@@ -113,5 +130,16 @@
     return { recentN, olderN, rows };
   }
 
-  return { splitTags, tagsOf, byDirection, scopeCounts, hotTags, trend, RECENT_DEFAULT };
+  return {
+    splitTags,
+    tagsOf,
+    byDirection,
+    byWindow,
+    filterScope,
+    scopeCounts,
+    hotTags,
+    trend,
+    RECENT_DEFAULT,
+    WINDOW_DAYS_DEFAULT,
+  };
 });
