@@ -200,6 +200,19 @@ def publish():
     repo = "weltwww-dot/paper-ledger"
     site = "https://weltwww-dot.github.io/paper-ledger"
 
+    # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
+    log("发布前校验 papers/ PDF 有效性…")
+    vr = subprocess.run(
+        [sys.executable, ROOT / "scripts" / "verify_papers.py"],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    for line in (vr.stdout or "").splitlines():
+        log("  " + line)
+    for line in (vr.stderr or "").splitlines():
+        log("  " + line)
+    if vr.returncode != 0:
+        raise SystemExit("papers/ 存在无效 PDF，请先运行 run_update.py verify 清理。")
+
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
     pending = [l for l in (r.stdout or "").splitlines() if l.strip()]
@@ -266,14 +279,16 @@ def main():
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
     ap.add_argument(
         "mode",
-        choices=["fetch", "pdf", "abstracts", "instsci", "route-check", "advance", "publish"],
-        help="fetch=抓取 / pdf=探测 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
+        choices=["fetch", "pdf", "verify", "abstracts", "instsci", "route-check", "advance", "publish"],
+        help="fetch=抓取 / pdf=探测 PDF / verify=校验并清理无效 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
     )
     args = ap.parse_args()
     if args.mode == "fetch":
         fetch()
     elif args.mode == "pdf":
         probe_pdfs()
+    elif args.mode == "verify":
+        verify_pdf_files()
     elif args.mode == "abstracts":
         retry_abstracts()
     elif args.mode == "instsci":
@@ -363,6 +378,11 @@ def probe_pdfs():
     log("PDF 探测（smart_pdf.py）…")
     run([sys.executable, ROOT / "scripts" / "smart_pdf.py", "--probe", oa])
     log("按探测结果：direct/arxiv 直链可直接下载；article-pdf/blocked 需人工判断。")
+
+
+def verify_pdf_files():
+    """校验 papers/ 下 PDF 有效性，删除下载失败的 HTML 残留。"""
+    run([sys.executable, ROOT / "scripts" / "verify_papers.py"])
 
 
 if __name__ == "__main__":
