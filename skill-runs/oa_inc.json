@@ -1,38 +1,14 @@
 [
   {
-    "doi": "10.1007/s10994-026-07143-6",
-    "title": "P$$^{2}$$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations",
+    "doi": "10.1007/s10207-026-01317-y",
+    "title": "Certiguard: a fine-tuned LLM for mastering security certification exams",
     "year": 2026,
     "is_oa": true,
     "oa_status": "hybrid",
-    "best_pdf_url": "https://doi.org/10.1007/s10994-026-07143-6",
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Machine Learning"
-  },
-  {
-    "doi": "10.1007/s10207-026-01322-1",
-    "title": "Conjunctive dynamic searchable symmetric encryption",
-    "year": 2026,
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "best_pdf_url": "https://doi.org/10.1007/s10207-026-01322-1",
+    "best_pdf_url": "https://doi.org/10.1007/s10207-026-01317-y",
     "arxiv_id": null,
     "matched": true,
     "note": null,
     "source": "International Journal of Information Security"
-  },
-  {
-    "doi": "10.1038/s42256-026-01289-7",
-    "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
-    "year": 2026,
-    "is_oa": true,
-    "oa_status": "green",
-    "best_pdf_url": "https://doi.org/10.5281/zenodo.21084057",
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Nature Machine Intelligence"
   }
 ]

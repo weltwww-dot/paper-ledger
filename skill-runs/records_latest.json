@@ -1,9 +1,9 @@
 [
   {
-    "doi": "10.1007/s10207-026-01322-1",
-    "title": "Conjunctive dynamic searchable symmetric encryption",
+    "doi": "10.1007/s10207-026-01317-y",
+    "title": "Certiguard: a fine-tuned LLM for mastering security certification exams",
     "year": 2026,
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "type": "article",
     "source": "International Journal of Information Security"
   },
@@ -33,7 +33,7 @@
   },
   {
     "doi": "10.1016/j.artint.2026.104607",
-    "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
+    "title": "Towards efficient federated recommendation with discrete graph convolutional network",
     "year": 2026,
     "date": "2026-09-01",
     "type": "article",
