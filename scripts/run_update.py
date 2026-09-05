@@ -179,6 +179,19 @@ def fetch():
 
 
 def advance():
+    """推进更新基准前先过 PDF 闸门：无 PDF 且无跳过记录的论文会阻止推进。"""
+    log("PDF 闸门检查（advance 前置）…")
+    gr = subprocess.run(
+        [sys.executable, ROOT / "scripts" / "pdf_gate.py", "--check"],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    for line in (gr.stdout or "").splitlines():
+        log("  " + line)
+    for line in (gr.stderr or "").splitlines():
+        log("  " + line)
+    if gr.returncode != 0:
+        raise SystemExit("PDF 闸门未通过：存在无 PDF 且无跳过记录的论文，先补 PDF 或记录原因再 advance。")
+
     dois = existing_dois_from_data()
     today = date.today().isoformat()
     payload = {"date": today, "dois": dois}
@@ -212,6 +225,19 @@ def publish():
         log("  " + line)
     if vr.returncode != 0:
         raise SystemExit("papers/ 存在无效 PDF，请先运行 run_update.py verify 清理。")
+
+    # 0b · PDF 闸门：无 PDF 且无跳过记录的论文阻止发布
+    log("PDF 闸门检查（publish 前置）…")
+    gr = subprocess.run(
+        [sys.executable, ROOT / "scripts" / "pdf_gate.py", "--check"],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    for line in (gr.stdout or "").splitlines():
+        log("  " + line)
+    for line in (gr.stderr or "").splitlines():
+        log("  " + line)
+    if gr.returncode != 0:
+        raise SystemExit("PDF 闸门未通过：存在无 PDF 且无跳过记录的论文，先补 PDF 或记录原因再 publish。")
 
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
