@@ -9,6 +9,8 @@
 - **内容状态**: 完整
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109565
+- **arXiv**: 2503.10421
+- **PDF**: [NN_2026_HypergraphVRP.pdf](papers/NN_2026_HypergraphVRP.pdf)
 
 ## 一句话概括
 
