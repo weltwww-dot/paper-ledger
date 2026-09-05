@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "doi": "10.1007/s10994-026-07143-6",
+    "title": "P$$^{2}$$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations",
+    "text": "Abstract The increasing use of machine learning algorithms in social applications has raised concerns about fairness and transparency, leading to the development of counterfactual explanations. These explanations support individuals to understand and potentially alter unfavorable decisions in areas such as loan applications, job selections, and more, by providing actionable changes to input features that would lead to a desired outcome. Existing methods often struggle to balance feasibility, plausibility, and computational efficiency. To address this, we introduce P $$^{2}$$ CE, an algorithm for generating plausible Pareto-optimal counterfactual explanations, offering users a diverse set of optimal trade-offs between different notions of feasibility. P $$^{2}$$ CE employs an auxiliary isolation forest outlier detector to ensure that explanations are in accordance with the data distribution and leverages SHAP values to obtain optimal results with short computing times, regardless of the underlying model. Our algorithm was empirically evaluated on three datasets, demonstrating superior performance in terms of both solution quality and computational efficiency compared to related techniques.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Abstract The increasing use of machine learning algorithms in social applications has raised concerns about fairness and transparency, leading to the development of counterfactual explanations. These explanations support individuals to understand and potentially alter unfavorable decisions in areas such as loan applications, job selections, and more, by providing actionable changes to input features that would lead to a desired outcome. Existing methods often struggle to balance feasibility, plausibility, and computational efficiency. To address this, we introduce P $$^{2}$$ CE, an algorithm for generating plausible Pareto-optimal counterfactual explanations, offering users a diverse set of optimal trade-offs between different notions of feasibility. P $$^{2}$$ CE employs an auxiliary isolation forest outlier detector to ensure that explanations are in accordance with the data distribution and leverages SHAP values to obtain optimal results with short computing times, regardless of the underlying model. Our algorithm was empirically evaluated on three datasets, demonstrating superior performance in terms of both solution quality and computational efficiency compared to related techniques."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01322-1",
+    "title": "Conjunctive dynamic searchable symmetric encryption",
+    "text": "Abstract A practical searchable symmetric encryption (SSE) should allow users to privately store documents on untrusted servers with the abilities to (1) search with multiple keywords, and (2) add or delete documents dynamically. The oblivious cross tag () construction from Crypto’13 is the most efficient SSE scheme that allows conjunctive searches, but only for static databases. In NDSS’20, was extended to supporting dynamic updates. However, is not forward private . In this work, we identify a commonly used setting for SSE where a document with its associated keywords can be dynamically added to or deleted from the database as a whole, but the keyword set is not modified in between. We call it the non-modifiable document (NMD) setting. In this NMD setting, we propose a generic framework for designing conjunctive dynamic SSE (CD-SSE), supporting conjunctive queries that allow dynamic updates while being forward and backward private at the same time. Our construction uses a generic dynamic single keyword SSE and the scheme as modular black-boxes. Our scheme generalises . We provide new security definitions of forward and backward privacy for the new NMD setting. Our generic construction (and hence ) achieves forward and backward privacy in the new setting, even when the underlying single keyword SSE scheme is only backward private. We analyse the precise leakages of our scheme to the adversarial server in the NMD setting. We have instantiated our generic construction with three different single keyword schemes. Experiments show that our schemes are very efficient and practical. Our code is publicly available.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Abstract A practical searchable symmetric encryption (SSE) should allow users to privately store documents on untrusted servers with the abilities to (1) search with multiple keywords, and (2) add or delete documents dynamically. The oblivious cross tag () construction from Crypto’13 is the most efficient SSE scheme that allows conjunctive searches, but only for static databases. In NDSS’20, was extended to supporting dynamic updates. However, is not forward private . In this work, we identify a commonly used setting for SSE where a document with its associated keywords can be dynamically added to or deleted from the database as a whole, but the keyword set is not modified in between. We call it the non-modifiable document (NMD) setting. In this NMD setting, we propose a generic framework for designing conjunctive dynamic SSE (CD-SSE), supporting conjunctive queries that allow dynamic updates while being forward and backward private at the same time. Our construction uses a generic dynamic single keyword SSE and the scheme as modular black-boxes. Our scheme generalises . We provide new security definitions of forward and backward privacy for the new NMD setting. Our generic construction (and hence ) achieves forward and backward privacy in the new setting, even when the underlying single keyword SSE scheme is only backward private. We analyse the precise leakages of our scheme to the adversarial server in the NMD setting. We have instantiated our generic construction with three different single keyword schemes. Experiments show that our schemes are very efficient and practical. Our code is publicly available."
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s42256-026-01289-7",
+    "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "text": "Wang et al. introduce a hardware-efficient quantum neural operator that overcomes classical linear capacity limits. Using an implicit quadratic frame, it offers accelerated expressivity for solving differential equations in the noisy intermediate-scale quantum era.",
+    "source": "publisher-page",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "ok",
+        "text": "Wang et al. introduce a hardware-efficient quantum neural operator that overcomes classical linear capacity limits. Using an implicit quadratic frame, it offers accelerated expressivity for solving differential equations in the noisy intermediate-scale quantum era."
+      }
+    ]
+  }
+]

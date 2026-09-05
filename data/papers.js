@@ -1,6 +1,80 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Conjunctive dynamic searchable symmetric encryption",
+    "authors": "Mohamed Ahmed Abdelraheem, Sanjay Bhattacherjee, Théo Henault, Avishek Majumder",
+    "journal": "IJIS",
+    "year": "2026",
+    "published": "2026-09-03",
+    "contentState": "",
+    "contentNote": "",
+    "doi": "10.1007/s10207-026-01322-1",
+    "arxiv": "",
+    "pdf": "",
+    "link": "https://doi.org/10.1007/s10207-026-01322-1",
+    "direction": "信息安全",
+    "summary": "在「不可修改文档」（NMD）场景下提出合取动态可搜索对称加密（CD-SSE）的通用框架，支持多关键词查询与动态增删，同时满足前向与后向隐私。",
+    "question": "实用的可搜索对称加密（SSE）应支持多关键词查询，并允许用户动态增删文档。Crypto'13 的 OXT 构造是最高效的支持合取查询的 SSE，但仅适用于静态数据库；NDSS'20 的扩展支持动态更新却不具备前向隐私。实践中存在一种常见场景：文档连同关键词整体增删、期间关键词集不变（NMD 设置），需要同时保证前向与后向隐私的合取动态方案。",
+    "method": "提出 NMD 设置下的通用 CD-SSE 框架：以通用动态单关键词 SSE 与 OXT 方案为模块化黑盒组合，支持合取查询与动态更新并同时具备前向、后向隐私；为 NMD 设置给出新的前向/后向隐私安全定义，并证明该通用构造（即使底层单关键词方案仅后向隐私）在新设置下仍达成双向隐私；分析方案对恶意服务器的精确泄漏。",
+    "experiments": "原文摘要确认已用多个实例化验证通用构造，具体性能数字未在摘要给出。",
+    "contribution": "- 贡献一：识别 NMD 设置并给出其前向/后向隐私的形式化安全定义。\n- 贡献二：模块化 CD-SSE 通用框架，泛化 OXT，同时支持动态与双向隐私。\n- 局限：具体开销数字原文摘要未提供；更多实际部署场景验证待展开。\n---\nDOI: 10.1007/s10207-026-01322-1",
+    "sample": false,
+    "id": "r-1dme7lb",
+    "tags": [
+      "密码学",
+      "隐私保护"
+    ]
+  },
+  {
+    "title": "P²CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations",
+    "authors": "Arthur Hendricks Mendes de Oliveira, Giovani Valdrighi, Marcos Medeiros Raimundo",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-09-01",
+    "contentState": "",
+    "contentNote": "",
+    "doi": "10.1007/s10994-026-07143-6",
+    "arxiv": "",
+    "pdf": "",
+    "link": "https://doi.org/10.1007/s10994-026-07143-6",
+    "direction": "人工智能",
+    "summary": "提出 P²CE，一个模型无关的算法：生成可行（plausible）且 Pareto 最优的反事实解释，给用户提供不同可行性指标间的多样化最优权衡。",
+    "question": "机器学习在贷款审批、求职等社会应用中日益普及，公平与透明引发关注，反事实解释帮助用户理解并可能改变不利决策。现有方法难以兼顾可行性、合理性（plausibility）与计算效率。",
+    "method": "P²CE 采用辅助隔离森林（isolation forest）异常检测器，确保解释符合数据分布（plausible）；利用 SHAP 值加速优化，使算法与底层模型无关；生成 Pareto 最优反事实集，覆盖不同可行性定义之间的权衡。",
+    "experiments": "在三个数据集上实验，P²CE 在解质量与计算效率上均优于相关方法（原文摘要未给出具体数字）。",
+    "contribution": "- 贡献一：模型无关的可行 Pareto 最优反事实生成算法，兼顾质量与效率。\n- 贡献二：隔离森林保证分布一致性 + SHAP 加速的组合策略。\n- 局限：具体数字原文摘要未提供；更大规模与更多决策场景的验证待展开。\n---\nDOI: 10.1007/s10994-026-07143-6",
+    "sample": false,
+    "id": "r-1wu5ro1",
+    "tags": [
+      "可解释AI",
+      "偏见与公平性"
+    ]
+  },
+  {
+    "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "authors": "Ruocheng Wang, Xiaoqiu Zhong, Zhuo Xia, Junchi Yan",
+    "journal": "Nature Machine Intelligence",
+    "year": "2026",
+    "published": "2026-09-03",
+    "contentState": "",
+    "contentNote": "",
+    "doi": "10.1038/s42256-026-01289-7",
+    "arxiv": "",
+    "pdf": "",
+    "link": "https://doi.org/10.1038/s42256-026-01289-7",
+    "direction": "人工智能",
+    "summary": "引入硬件高效的量子神经算子（quantum neural operator），借助隐式二次框架（implicit quadratic frame）突破经典线性容量限制，在含噪中等规模量子（NISQ）时代加速求解微分方程的表示力。",
+    "question": "神经算子用于学习微分方程的解算子，但经典实现受线性容量限制，难以高效表达复杂解空间；量子计算有望提供超越经典的表达优势，但需在 NISQ 硬件的噪声限制下设计硬件高效、可实现的量子神经算子。",
+    "method": "设计硬件高效的量子神经算子：以隐式二次框架为核心构造，利用量子态的二次相互作用提升表达力；针对 NISQ 设备做硬件友好设计，用于微分方程求解。",
+    "experiments": "原文摘要（Nature 编辑摘要）确认方法提供加速表达力并适用于微分方程求解；具体数值原文摘要未展开。",
+    "contribution": "- 贡献一：首个面向微分方程求解的硬件高效量子神经算子，克服经典线性容量限制。\n- 贡献二：隐式二次框架带来表达力优势，适配 NISQ 时代的硬件约束。\n- 局限：具体性能数字原文摘要未提供；更大规模量子硬件与方程类的验证待后续工作。\n---\nDOI: 10.1038/s42256-026-01289-7",
+    "sample": false,
+    "id": "r-1ra1j39",
+    "tags": [
+      "科学计算AI"
+    ]
+  },
+  {
     "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
     "authors": "Kazi F. Akhter, Ibna Kowsar, Manar D. Samad",
     "journal": "Neural Networks",

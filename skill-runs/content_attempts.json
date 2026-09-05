@@ -1,1 +1,52 @@
-{}
+{
+ "10.1007/s10994-026-07143-6": {
+  "at": "2026-09-05T01:32:55+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1007/s10207-026-01322-1": {
+  "at": "2026-09-05T01:32:56+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1038/s42256-026-01289-7": {
+  "at": "2026-09-05T01:33:14+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "ok"
+   }
+  ]
+ }
+}

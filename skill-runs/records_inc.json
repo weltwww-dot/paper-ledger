@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "doi": "10.1007/s10207-026-01322-1",
+  "title": "Conjunctive dynamic searchable symmetric encryption",
+  "year": 2026,
+  "date": "2026-09-03",
+  "type": "article",
+  "source": "International Journal of Information Security"
+ },
+ {
+  "doi": "10.1038/s42256-026-01289-7",
+  "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+  "year": 2026,
+  "date": "2026-09-03",
+  "type": "article",
+  "source": "Nature Machine Intelligence"
+ },
+ {
+  "doi": "10.1007/s10994-026-07143-6",
+  "title": "P$$^{2}$$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations",
+  "year": 2026,
+  "date": "2026-09-01",
+  "type": "article",
+  "source": "Machine Learning"
+ }
+]

@@ -1,5 +1,21 @@
 [
   {
+    "doi": "10.1007/s10207-026-01322-1",
+    "title": "Conjunctive dynamic searchable symmetric encryption",
+    "year": 2026,
+    "date": "2026-09-03",
+    "type": "article",
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1038/s42256-026-01289-7",
+    "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "year": 2026,
+    "date": "2026-09-03",
+    "type": "article",
+    "source": "Nature Machine Intelligence"
+  },
+  {
     "doi": "10.1109/tdsc.2026.3716834",
     "title": "Collusion-Minimized TLS Attestation Protocol for Decentralized Applications",
     "year": 2026,
@@ -16,14 +32,6 @@
     "source": "Computers & Security"
   },
   {
-    "doi": "10.1007/s10207-026-01263-9",
-    "title": "Generating semi-automated security playbooks for vulnerability mitigation from unstructured advisory data",
-    "year": 2026,
-    "date": "2026-09-01",
-    "type": "article",
-    "source": "International Journal of Information Security"
-  },
-  {
     "doi": "10.1016/j.artint.2026.104607",
     "title": "Towards Efficient Federated Recommendation with Discrete Graph Convolutional Network",
     "year": 2026,
@@ -32,8 +40,8 @@
     "source": "Artificial Intelligence"
   },
   {
-    "doi": "10.1007/s10994-026-07147-2",
-    "title": "Robust Multi-label Classification via Preference Learning",
+    "doi": "10.1007/s10994-026-07143-6",
+    "title": "P$$^{2}$$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations",
     "year": 2026,
     "date": "2026-09-01",
     "type": "article",
@@ -46,14 +54,6 @@
     "date": "2026-09-01",
     "type": "article",
     "source": "Neural Networks"
-  },
-  {
-    "doi": "10.1038/s42256-026-01300-1",
-    "title": "Implicit-bias-like patterns in reasoning models",
-    "year": 2026,
-    "date": "2026-09-01",
-    "type": "article",
-    "source": "Nature Machine Intelligence"
   },
   {
     "doi": "10.1145/3838797",
