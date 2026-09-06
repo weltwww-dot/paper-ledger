@@ -1,0 +1,248 @@
+{
+ "from_date": "2026-09-06",
+ "until_date": "2026-09-06",
+ "journal_count": 17,
+ "new_record_count": 0,
+ "journals": [
+  {
+   "journal": "ACM Transactions on Privacy and Security",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Artificial Intelligence",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Computers & Security",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Security & Privacy",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Artificial Intelligence",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Dependable and Secure Computing",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Information Forensics and Security",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Knowledge and Data Engineering",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "International Journal of Information Security",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 1,
+    "error": null
+   },
+   "union_count": 1,
+   "crossref_only_dois": [
+    "10.1007/s10207-026-01323-0"
+   ],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Journal of Computer Security",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Journal of Cybersecurity",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Journal of Machine Learning Research",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Machine Learning",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Nature Machine Intelligence",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  },
+  {
+   "journal": "Neural Networks",
+   "openalex": {
+    "count": 0,
+    "error": null
+   },
+   "crossref": {
+    "count": 0,
+    "error": null
+   },
+   "union_count": 0,
+   "crossref_only_dois": [],
+   "openalex_only_dois": []
+  }
+ ]
+}

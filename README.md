@@ -53,7 +53,7 @@
 更新由 agent 按固定工作流执行（详见 [`更新工作流.md`](更新工作流.md)）：
 
 ```
-读基准 → 增量抓取（上次更新以来的全部期刊论文，DOI + 标题双重去重）→ OA 检查 → 多渠道抓摘要
+读基准 → OpenAlex + Crossref 双来源增量抓取与逐刊 DOI 对账 → OA 检查 → 多渠道抓摘要
 → 六段式总结（带发表时间与内容状态）→ 打主题标签 → PDF 智能探测并下载 → 同步进 data/papers.js
 → 推进基准 → QA → publish 发布并验证
 ```
@@ -69,6 +69,8 @@ node scripts/sync-papers.js            # 总结同步进网站数据
 python scripts/run_update.py advance   # 推进更新基准
 python scripts/run_update.py publish   # 推送 + 等待 Pages 构建 + 验证线上一致
 ```
+
+每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、来源错误以及仅单来源 DOI。只要任一来源失败，命令会在写出审计后失败，阻止推进基准或发布。
 
 ## 防“读不到摘要”速查
 

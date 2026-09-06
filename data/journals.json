@@ -1,0 +1,19 @@
+[
+  {"journal": "IEEE Transactions on Information Forensics and Security", "openalex_issn": "1556-6013", "crossref_issn": "1556-6013"},
+  {"journal": "IEEE Transactions on Dependable and Secure Computing", "openalex_issn": "1545-5971", "crossref_issn": "1941-0018"},
+  {"journal": "ACM Transactions on Privacy and Security", "openalex_issn": "2471-2566", "crossref_issn": "2471-2566"},
+  {"journal": "Computers & Security", "openalex_issn": "0167-4048", "crossref_issn": "0167-4048"},
+  {"journal": "International Journal of Information Security", "openalex_issn": "1615-5262", "crossref_issn": "1615-5270"},
+  {"journal": "Journal of Computer Security", "openalex_issn": "0926-227X", "crossref_issn": "1875-905X"},
+  {"journal": "IEEE Security & Privacy", "openalex_issn": "1540-7993", "crossref_issn": "1558-4046"},
+  {"journal": "Journal of Cybersecurity", "openalex_issn": "2057-2085", "crossref_issn": "2057-2085"},
+  {"journal": "Journal of Machine Learning Research", "openalex_issn": "1532-4435", "crossref_issn": "1532-4435"},
+  {"journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence", "openalex_issn": "0162-8828", "crossref_issn": "1939-3539"},
+  {"journal": "Artificial Intelligence", "openalex_issn": "0004-3702", "crossref_issn": "0004-3702"},
+  {"journal": "Machine Learning", "openalex_issn": "0885-6125", "crossref_issn": "1573-0565"},
+  {"journal": "Neural Networks", "openalex_issn": "0893-6080", "crossref_issn": "0893-6080"},
+  {"journal": "IEEE Transactions on Neural Networks and Learning Systems", "openalex_issn": "2162-237X", "crossref_issn": "2162-2388"},
+  {"journal": "IEEE Transactions on Knowledge and Data Engineering", "openalex_issn": "1041-4347", "crossref_issn": "1558-2191"},
+  {"journal": "Nature Machine Intelligence", "openalex_issn": "2522-5839", "crossref_issn": "2522-5839"},
+  {"journal": "IEEE Transactions on Artificial Intelligence", "openalex_issn": "2691-4581", "crossref_issn": "2691-4581"}
+]

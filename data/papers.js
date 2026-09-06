@@ -1,6 +1,31 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "PHANTOM: polymorphic honeytoken adaptation with narrative-tailored organisational mimicry contextually convincing cyber deception at scale",
+    "authors": "Abraham Itzhak Weinberg",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-09-06",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10207-026-01323-0",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_PHANTOM.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01323-0",
+    "direction": "信息安全",
+    "summary": "提出 PHANTOM（polymorphic honeytoken adaptation with narrative-tailored organisational mimicry），用组织特定语境生成更逼真的 honeytoken，并以可置信度和检测规避指标衡量其在网络欺骗中的效果。",
+    "question": "Honeytoken 是植入系统、用于发现和归因未授权访问的诱饵数字资产；但现有生成工具多依赖静态模板，缺少组织语境，容易被语法、统计或语义检测识别。论文认为，域名、服务命名方式、技术栈习惯和密钥值分布等组织信息，是让诱饵在真实攻击场景中显得可信的关键。",
+    "method": "PHANTOM 将组织知识编码进多部分生成流程，为不同凭据或数字资产类型生成与环境一致的 honeytoken。作者定义四部分 Believability Score，分别考察语法有效性、语义连贯性、统计合理性与人类接受度代理指标；同时以 detection resistance 衡量不同模拟扫描器识别诱饵的概率。",
+    "experiments": "实验覆盖 8 类 token 与 4 种组织语境，共比较 32 个类型—组织组合，并与模板式基线对照。PHANTOM 的 Believability Score 为 0.778 ± 0.057，基线为 0.576 ± 0.058；在规则式接受度代理和三种模拟扫描器（正则、熵分析、机器学习分类器）下也报告了更高的可信度与检测规避表现。论文明确说明其“人类接受度”来自规则阈值代理，并非真实受试者研究。",
+    "contribution": "- 贡献一：把组织语境作为 honeytoken 生成的显式输入，并提供从语义、统计到可检测性的综合评估框架。\n- 贡献二：在无需外部 API 的条件下完成生成与评测，面向隔离网络中的主动防御部署。\n- 局限：评测样本为每种组合一个实例，规模有限；扫描器均为模拟模型，且尚未进行真实人类接受度测试或独立复现。作者将后续工作指向更大规模样本、受试者研究和对抗性 LLM 扫描器。\n---\nDOI: 10.1007/s10207-026-01323-0",
+    "sample": false,
+    "id": "r-10cewnl",
+    "tags": [
+      "网络欺骗与蜜罐",
+      "主动防御"
+    ]
+  },
+  {
     "title": "Certiguard: a fine-tuned LLM for mastering security certification exams",
     "authors": "Chun-Ming Lai, Lien-Jung Chang, Chun-Chieh Chang, Yi-Chao Wu",
     "journal": "International Journal of Information Security",

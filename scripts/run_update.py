@@ -20,8 +20,6 @@ import time
 from datetime import date
 from pathlib import Path
 
-from dedup import is_known, make_known
-
 ROOT = Path(__file__).resolve().parent.parent
 SKILL_SCRIPTS = Path("D:/codex/.codex/skills/paper-summarize-fetch/scripts")
 RUNS = ROOT / "skill-runs"
@@ -62,34 +60,6 @@ def existing_dois_from_data():
     return [p["doi"] for p in arr if p.get("doi")]
 
 
-def merge_records(records, latest_file, existing, existing_titles=None):
-    """把增量抓取结果与「每刊最新」交叉检查结果合并，按 DOI 去重。
-
-    OpenAlex 收录存在延迟：日期较早但刚入库的文章，仅按日期区间抓取会漏掉。
-    因此用 fetch_latest.py（每刊最新一篇）做兜底交叉检查。
-    去重语义与 fetch_incremental 共用 scripts/dedup.py（DOI 或标题命中即重复）。
-    """
-    recs = json.loads(records.read_text(encoding="utf-8")) if records.exists() else []
-    known = make_known(existing, existing_titles)
-    by_doi = {}
-    for r in recs:
-        k = (r.get("doi") or "").lower()
-        if k:
-            by_doi[k] = r
-    added = 0
-    if latest_file.exists():
-        for r in json.loads(latest_file.read_text(encoding="utf-8")):
-            k = (r.get("doi") or "").lower()
-            if k and k not in by_doi and not is_known(k, r.get("title"), known):
-                by_doi[k] = r
-                added += 1
-    merged = list(by_doi.values())
-    records.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
-    if added:
-        log(f"交叉检查补回 {added} 篇（OpenAlex 延迟收录，日期早于基准）")
-    return merged
-
-
 def titles_from_data():
     titles = []
     if DATA_FILE.exists():
@@ -107,6 +77,7 @@ def fetch():
     log(f"更新基准: 上次日期 {last_date}, 已收录 DOI {len(dois)} 个")
 
     records = RUNS / "records_inc.json"
+    audit = RUNS / "collection_audit.json"
     oa = RUNS / "oa_inc.json"
     content = RUNS / "content_inc.json"
 
@@ -119,18 +90,14 @@ def fetch():
             last_date,
             "--out",
             records,
+            "--audit",
+            audit,
             "--existing-dois",
             ",".join(dois),
             "--existing-titles",
             ",".join(titles_from_data()),
         ]
     )
-
-    log("Step 1.5/3 · 交叉检查每刊最新一篇（兜底 OpenAlex 延迟收录）…")
-    latest_file = RUNS / "records_latest.json"
-    run([sys.executable, SKILL_SCRIPTS / "fetch_latest.py", "-o", latest_file])
-    recs = merge_records(records, latest_file, dois, titles_from_data())
-    log(f"合并后待处理: {len(recs)} 篇")
 
     log("Step 2/3 · OA 检查 + arXiv…")
     run(
