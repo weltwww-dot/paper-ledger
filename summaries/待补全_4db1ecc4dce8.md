@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3685679
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Previous works have shown that increasing the window size for Transformer-based image super-resolution models (e.g., SwinIR) can significantly improve the model performance. Still, the computation overhead is also considerable when the window size gradually increases. In this paper, we present SRFormer, a simple but novel method that can enjoy the benefit of large window self-attention but introduces even less computational burden. The core of our SRFormer is the permuted self-attention (PSA), which strikes an appropriate balance between the channel and spatial information for self-attention. Without any bells and whistles, we show that our SRFormer achieves a 33.86 dB PSNR score on the Urban100 dataset, which is 0.46 dB higher than that of SwinIR but uses fewer parameters and computations. In addition, we also attempt to scale up the model by further enlarging the window size and channel numbers to explore the potential of Transformer-based models. Experiments show that our scaled model, named SRFormerV2, can further improve the results and achieves state-of-the-art. We hope our simple and effective approach could be useful for future research in super-resolution model design.
+之前的作品已经表明,增加基于变形器的图像超分辨率模型(如SwinIR)的窗口大小可以显著改善模型性能. 然而,当窗口规模逐渐扩大时,计算间接费用也相当大。 在本文中,我们介绍了SRFormer,一种简单但又新颖的方法,它可以享受大窗口自觉的好处,但引入的计算负担甚至更少. 我们的SRFormer的核心是穿透的自觉性(PSA),在自觉性的通道和空间信息之间达成适当的平衡. 没有铃声和哨声,我们显示我们的SRFormer在Urban100数据集上实现了33.86 dB PSNR分数,比SwinIR高0.46 dB,但使用参数和计算较少. 此外,我们还试图通过进一步扩大窗口大小和频道号码来扩大模型,以探索基于变形器的模型的潜力.实验显示,我们这个被命名为SRFormerV2的缩放模型可以进一步改善结果,实现最先进的水平. 我们希望,我们的简单有效的方法能够有助于今后对超分辨率模型设计的研究。
 
 ## 问题与动机
 

@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3661083
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Ship automatic target recognition (ATR) in synthetic aperture radar (SAR) images plays a crucial role in maritime domain awareness. However, the sea clutter interference may make the model fail to focus on informative ship target regions for recognition. All existing SAR ship ATR models use the entire SAR ship image as input. But not all regions in SAR ship images contribute positively to recognition. However, the intraclass diversity and interclass similarity make the SAR ship ATR task more challenging. In this study, we propose a novel transformer-based architecture that addresses the two core challenges, named informative token selection former (ITS-ShipFormer). ITS-ShipFormer selects and guides the model's attention to the informative token of the ship target regions. The ITS-ShipFormer consists of the multihead dynamic local convolution (MHDLC) block in the early stages, transformer blocks equipped with a sea clutter suppression module (SCSM) in the latter stages, and a discriminative hybrid loss. SCSM automatically distinguishes the informative ship tokens and useless sea clutter tokens by two carefully designed strategies. In response to the other challenge, MHDLC is designed to enhance the feature extraction ability, and the hybrid discriminative loss is proposed to add constraints on the CLS token and the informative tokens simultaneously. The experimental results on benchmark datasets OpenSARShip and FUSAR-Ship jointly verify the effectiveness of our design. Different from previous works introducing the transformer structure in ITS-ShipFormer utilizes the overlooked innate and unique advantages of the transformer structure to address our challenge.
+船舶在合成孔径雷达(SAR)图像中的自动目标识别(ATR)在海事领域意识中发挥着至关重要的作用. 然而,海扰干扰可能使模型无法专注于信息化的船舶目标区域以获得认可。 所有现有的SAR飞船ATR型号都使用整个SAR飞船图像作为输入. 但搜索和救援舰船图象中的并非所有区域都为识别做出了积极贡献。 然而,班级内的多样性和班级间的相似性使搜索救援船ATR任务更具挑战性. 在这项研究中,我们提出一个基于变压器的新建筑,以解决两个核心挑战,命名为前信息符号选择(ITS-ShipFormer).ITS-ShipFormer选择并引导该模型关注该船目标区域的信息符号.ITS-ShipFormer由早期的多头动态局部电流(MHDLC)区块,后期装有海聚压制舱(SCSM)的变压器区块,以及区别性杂交损失.SCSM通过两个精心设计的策略,自动区分了信息化的船舶代币和无用的海杂代币.为应对另一个挑战,MHDLC旨在增强特征提取能力,并提议混合式歧视损失,以同时增加CLS令牌和信息令牌的限制. 关于基准数据集的实验结果 OpenSARShip 和 FUSAR-Ship 联合验证了我们设计的有效性.与以前在ITS-ShipFormer中引入变压器结构的工程不同,它利用变压器结构被忽略的内在和独特的优势来应对我们的挑战.
 
 ## 问题与动机
 

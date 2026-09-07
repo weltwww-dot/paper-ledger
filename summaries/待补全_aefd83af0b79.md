@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 数据工程
 - **DOI**: 10.1109/tkde.2026.3698793
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-An ideal index advisor needs to effectively manage changes in workload and data, but current approaches fall short in both effectiveness and efficiency because of intrinsic limitations in their frameworks. Heuristic-based methods struggle with efficiency due to their rigid algorithms and lack of adaptive learning capabilities. Reinforcement learning techniques often fail to consistently reach an optimal policy. Classification methods require vast amounts of labeled workloads that include optimal indexes. Additionally, none of the learning-based strategies are equipped to handle shifts in data. To overcome these limitations, this paper presents a new index advisor for dynamic workloads and data, GenIA, which learns to generate a sequence of the recommended index configuration based on historical experience. The generative framework of GenIA avoids erroneous trials to explore bad actions and reliance on high-quality positive and negative examples. Specifically, its novelty exhibits in three aspects. (1) GenIA is empowered with novel attention mechanisms to capture implicit relationships between indexable columns. (2) GenIA combines comprehensive features extracted from workloads, data manipulation statements, and underlying data to effectively capture workload shifts and subtle data shifts. (3) GenIA adopts a novel perturbation-based training strategy to enhance the diversity of training samples and to improve the model parameters' robustness. Extensive experiments on various benchmarks under varying levels of workload and data shifts demonstrate that GenIA outperforms SOTA heuristic-based IA Extend on average by about 7.5%, while utilizing less than 1% of the inference time, and surpasses SOTA learning-based IA SWIRL by 25% − 30% in scenarios with significant workload and data shifts.
+理想的指数顾问需要有效管理工作量和数据的变化,但目前的办法在效力和效率方面都不足,因为其框架的内在局限性。以heuristic为基础的方法因其僵硬的算法和缺乏适应性学习能力而与效率发生斗争.强化学习技术往往无法始终如一地达成最佳政策。分类方法需要大量的标注工作量,其中包括最佳指数。 此外,没有一项基于学习的战略能够应付数据的变化。 为了克服这些局限性,本文提出了一个新的动态工作量和数据指数顾问GenIA,该顾问学习根据历史经验生成推荐的指数配置序列.GenIA的基因框架避免了错误的试验,以探索不良行动和依赖高质量的正反例子.具体来说,它的新颖展品有三个方面。(1) GenIA被赋予新的关注机制,以捕捉可索引列之间的隐含关系.(2) GenIA综合了从工作量,数据操纵说明以及基础数据中提取的综合特征,以有效反映工作量变化和细微的数据变化.(3) GenIA采用一种基于新颖扰动的培训战略,以提高培训样本的多样性,提高模型参数的稳健性. 对不同工作量和数据变化水平下的各种基准进行的广泛试验表明,GenIA在工作量和数据变化较大的情景中平均比SOTA Heuristic的IA扩展约7.5%,同时利用不到1%的推断时间,超过SOTA学习的IA SWIRL25%-30%。
 
 ## 问题与动机
 

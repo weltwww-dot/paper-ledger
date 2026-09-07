@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3671634
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Nonconvex optimization presents significant challenges in many fields, particularly in training deep neural networks (DNNs), where poor local minima can degrade generalization-especially with limited data. High-dimensional nonconvex optimization presents two central challenges: 1) effectively balancing global exploration with rapid local exploitation and 2) establishing convergence guarantees, particularly with sparse individuals under nonsmooth regularizations. To address these limitations, we propose adaptive niching-based gradient-accelerated DE (AdaptiveGDE), an AdaptiveGDE differential evolution (DE) algorithm. It introduces a novel two-step mutation operator that decouples differential mutation and gradient descent, allowing independent control of exploration and exploitation. An adaptive niching strategy dynamically adjusts the number of subpopulations based on population similarity and iteration progress, enabling diverse early exploration and refined late-stage convergence. Under relaxed smoothness assumptions and approximate $\ell _{1}$ regularization, we provide convergence guarantees in expectation to a near-optimal solution within $\mathcal {O}(1/\epsilon ^{4})$ iterations. Extensive experiments show that AdaptiveGDE achieves robust global exploration on complex multimodal functions, strong local exploitation on convex problems, and significantly improves test accuracy and loss in DNN training, especially under limited data scenarios.
+非孔径优化在许多领域提出了重大挑战,特别是在培训深神经网络(DNNs)方面,当地较差的迷你体可以降解通俗化,特别是在数据有限的情况下.高维非曲线优化提出了两个中心挑战:1)有效平衡全球勘探与快速本地开发;2)建立趋同保障,特别是针对处于非稳态正规化状态的稀有个人. 为了克服这些局限性,我们提议采用适应性硝基梯度加速DE(Adaptive GDE),即一种适应性GDE差进化算法。 它引入了一个新的两步突变操作器,它可以解开差异突变和梯度下降,从而可以独立地控制勘探和开发。适应性的硝化战略根据人口相似性和迭代进展,动态地调整亚人口数量,从而能够进行多样化的早期探索和细化晚期趋同. 根据宽松的平滑性假设和大约$\ell\\1}美元规范化,我们提供趋同保障,期望在$\mathcal {O} (1/\epsilon\\4})美元重合范围内找到一个近乎最佳的解决方案。广泛的实验表明,适应性GDE在复杂的多式联运功能上实现了强大的全球探索,在对流问题上进行了强大的局部开发,并且大大提高了DNN培训的测试精度和损失,特别是在有限的数据假想下.
 
 ## 问题与动机
 

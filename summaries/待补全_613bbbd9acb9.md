@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3705579
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-In service computing, video classification has become fundamental to many intelligent applications. While Deep Neural Networks (DNNs) have demonstrated excellent performance in recognizing video content, recent studies have shown that DNNs are highly vulnerable to adversarial examples. Thus, understanding adversarial attacks can better respond to emergency situations. In order to improve attack performance, many style-transfer-based attacks and patch-based attacks have been proposed. However, the global perturbation of the former will bring unnatural global colors, while the latter is difficult to achieve success in targeted attacks due to the limited perturbation space. Moreover, compared to a plethora of methods targeting image classifiers, video adversarial attacks remain relatively underexplored. Therefore, to generate adversarial examples with a low budget and to provide them with a higher verisimilitude, we propose a novel black-box video attack framework, called Stylized Logo Attack (SLA). SLA is conducted through three stages. The first stage involves building a style reference set for logos, which can not only make the generated examples more natural, but also carry more target class features in targeted attacks. Then, Reinforcement Learning is employed to determine the style reference and position parameters of the logo within the video, which ensures that the stylized logo is placed in the video with optimal attributes. Finally, perturbations are optimized in a step-by-step manner so as to improve the fooling rate. Experimental results indicate that SLA can achieve better performance than state-of-the-art methods and still maintain good deception effects when facing various defense methods. We believe SLA can raise awareness among the security community about the reliability and security of video classification systems and serve as a memorandum of possible attack methods.
+在服务计算中,视频分类已成为许多智能应用的基础. 虽然深神经网络(DNNs)在识别视频内容方面表现出了出色的表现,但最近的研究表明,DNNs极易受到对抗性例子的伤害. 因此,了解对抗性攻击可以更好地应对紧急情况。 为了提高攻击性能,提出了许多基于风格的转移式攻击和基于补丁的攻击. 然而,前者的全球扰动将带来非自然的全球色彩,而后者则由于扰动空间有限而难以在定向攻击中取得成功. 此外,与针对图像分类者的大量方法相比,视频对抗攻击仍然相对没有得到充分利用。 因此,为了产生预算低的对抗性例子,并为它们提供更高的威力,我们提出了一个名为Stylized Logo Attattack(SLA)的新黑盒视频攻击框架.苏丹解放军分三个阶段进行。第一阶段涉及为标识构建样式参考集,不仅可以使生成的例子更自然,还可以在定向攻击中搭载更多的目标类特征. 随后,"强化学习"被用于确定视频内标识的样式参考和位置参数,这确保了标定的标识被放置在视频中,具有最佳属性. 最后,逐步优化扰动,以提高骗局率。实验结果表明,解放军比最先进的方法可以取得更好的性能,在面对各种防御方法时仍然保持良好的欺骗效果. 我们认为,苏丹解放军可以提高安全界对视频分类系统的可靠性和安全性的认识,并作为可能的攻击方法的备忘录。
 
 ## 问题与动机
 

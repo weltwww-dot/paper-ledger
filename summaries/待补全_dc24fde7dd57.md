@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3703498
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Recent advancements have led to the widespread adoption of code-oriented large language models (Code LLMs) for programming tasks. Despite their success in deployment, their security research is left far behind. This paper introduces a new attack paradigm: (automatic) external prompt injection against Code LLMs, where attackers generate concise, non-functionalinduced perturbationsand inject them within a victim's code context. These induced perturbations can be disseminated through commonly used dependencies (e.g., packages or RAG's knowledge base), manipulating Code LLMs to achieve malicious objectives during the code completion process. Compared to existing attacks, this method does not necessitate control over the model's training process, unlike backdoor attacks, and can achieve specific malicious objectives that are challenging for adversarial attacks. Furthermore, we proposeShadowCode, a simple yet effective method that automatically generates induced perturbations based on code simulation to achieve effective and stealthy external prompt injection.ShadowCodedesigns its perturbation optimization objectives by simulating the victim's code contexts and employs a greedy optimization approach with two enhancement modules: forward reasoning enhancement and keyword-based perturbation design. We evaluate our method across 13 distinct malicious objectives, generating 31 threat cases spanning three popular programming languages. Our results demonstrate thatShadowCodesuccessfully attacks three representative open-source Code LLMs (achieving up to a 97.9% attack success rate) and two mainstream commercial Code LLM-integrated applications (with over 90% attack success rate) across all threat cases, using only a 12-token non-functional induced perturbation. The code is available athttps://github.com/LianPing-cyber/ShadowCodeEPI.
+最近的进步导致面向代码的大型语言模型(Code LLM)被广泛采用,用于编程任务. 尽管在部署方面取得成功,但他们的安全研究却远远落在后面。本文引入了一个新的攻击范式: (自动)外部快速注射对代码LLMS, 攻击者产生简洁,非功能引起的扰动,并在受害者代码背景中注入. 这些诱导的扰动可以通过常用的依赖关系(如软件包或RAG的知识库)传播,操纵代码LLM,在代码完成过程中实现恶意目标.与现有的攻击相比,这种方法并不需要控制模型的训练过程,与后门攻击不同,可以实现对对抗攻击具有挑战性的特定恶意目标. 此外,我们提议采用ShadowCode,这是一种简单而有效的方法,在代码模拟的基础上自动生成诱导扰动,以实现有效而隐蔽的外部即时注射. ShadowCode通过模拟受害人的代码上下文来设计其扰动优化目标,并采用了一种贪婪的优化方法,有两个增强模块:前向推理增强和基于关键词的扰动设计. 我们评价我们的方法涉及13个不同的恶意目标,产生31个威胁案件,涉及三种流行的编程语言。 我们的结果显示,ShadowCodessuccessly攻击了三个具有代表性的开源代码LLM(达到97.9%的攻击成功率)和两个主流商用代码LLM-集成应用(超过90%的攻击成功率),只使用12个不起作用的诱发扰动。 该代码可在https://github.com/LianPing-cyber/ShadowCodeEPI上查阅.
 
 ## 问题与动机
 

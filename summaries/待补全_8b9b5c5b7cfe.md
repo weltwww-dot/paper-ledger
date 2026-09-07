@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3697494
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Face swapping replaces the identity of a target face with that of a source face while retaining non-identity attributes, and is widely used in privacy protection scenarios. However, removing identity information makes it difficult to support sub sequent recognition tasks. Although active tracing methods can determine content ownership, techniques such as watermarking rely on external data binding, which cannot establish identity associations in the feature space nor support authorization controlled identity verification. To address this issue, we propose a key-driven Identity Protection and Secure Traceability (IPST) framework for face-swapped images, which enables identity bind ing and controlled verification without exposing visual identity. The proposed method operates as a plug-in applied to face swapping results, introducing an implicit identity association in the feature space so that the target identity participates in the generation process while remaining visually imperceptible. Specifically, IPST consists of three stages. First, an identity transfer stage aligns the generated image with the target identity in the recognition space via feature-guided perturbations. Second, an identity hiding stage performs key-controlled latent space editing to map the identity into a concealed state, ensuring that the published image cannot be directly recognized. Finally, an identity recovery stage reconstructs the target identity under authorized conditions through inverse latent manipulation, enabling identity verification using face recognition models. Experimental results demonstrate that the proposed method achieves stable identity binding while preserving visual quality, and shows strong robustness against unauthorized recovery. Moreover, the framework is model-agnostic and can be seamlessly integrated with existing face swapping systems, making it suitable for practical deployment.
+面部互换在保留非身份属性的同时,将目标面部的身份替换为源面部,并被广泛用于隐私保护情景. 然而,删除身份信息很难支持以下的识别任务. 虽然主动追踪方法可以确定内容所有权,但水印等技术依赖于外部数据绑定,这些技术无法在特征空间建立身份关联,也无法支持授权控制的身份验证. 为了解决这一问题,我们提议为面部扫描图像建立一个关键驱动的身份保护和安全可追踪性(IPST)框架,使身份捆绑和有控制的核查能够不暴露视觉身份。 拟议方法作为用于面对互换结果的插件操作,在特征空间中引入了隐含的身份关联,这样目标身份参与生成过程,同时保持视觉不透视.具体来说,IPST由三个阶段组成. 首先,一个身份传递阶段通过特征引导扰动将生成的图像与识别空间中的目标身份相配合. 第二,身份隐藏阶段进行密钥控制的潜在空间编辑,将身份映射到隐藏状态,确保公布的图像不能被直接识别. 最后,身份恢复阶段通过反向潜在操纵,在授权条件下重建目标身份,从而能够使用面部识别模型验证身份。实验结果显示,拟议方法在保持视觉质量的同时,实现了稳定的特性约束,并显示出强烈的抵御未经授权的恢复的能力。 此外,该框架具有模型不可知性,可以与现有面值互换系统无缝结合,使其适合实际部署.
 
 ## 问题与动机
 

@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3697883
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Spatial-temporal data is essential for various applications. Traditional data collection methods often have limited coverage, while Spatial Crowdsourcing, which leverages mobile devices, offers broader data acquisition but also presents challenges with data sparsity. To infer missing data based on observed data, existing data completion techniques often require detailed spatial-temporal information, raising privacy concerns. Some methods attempt to protect privacy by obfuscating locations; however, this can disrupt the original spatial-temporal correlations, leading to increased errors in data completion. To address this, we propose a differential privacy-based obfuscation strategy that safeguards privacy while maintaining data accuracy. Our approach employs a prediction model to extract an importance matrix and a relationship matrix from historical data. These matrices are utilized to map actual user locations to more beneficial locations for data completion, followed by value adjustments to maintain availability and preserve spatial-temporal correlations. We demonstrate that our mechanism satisfies differential privacy that provides effective privacy guarantees. Evaluations of five real-world datasets show that our obfuscation mechanism outperforms other baseline methods at the same level of privacy protection.
+空间时空数据对各种应用至关重要。传统的数据收集方法往往覆盖面有限,而利用移动设备的空间众包则提供更广泛的数据获取,但也在数据充斥方面带来挑战。 根据观测到的数据推断缺失的数据,现有数据完成技术往往需要详细的时空信息,从而引起对隐私的关切. 一些方法试图通过模糊位置来保护隐私;然而,这可能会破坏原始的空间-时空相关性,导致数据完成方面的错误增加. 为了解决这个问题,我们提出了一个基于隐私的差别模糊策略,在保持数据准确性的同时保障隐私. 我们的方法采用了一种预测模型,从历史数据中提取一个重要矩阵和一个关系矩阵。 这些矩阵用于将实际用户地点映射到更有利的地点,以便完成数据,然后进行价值调整,以保持可用性和保持时空关系。 我们表明,我们的机制满足了提供有效隐私保障的不同隐私。 对5个现实世界数据集的评价表明,我们的模糊机制在保护隐私的同等水平上比其他基线方法要好。
 
 ## 问题与动机
 

@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 数据工程
 - **DOI**: 10.1109/tkde.2026.3692662
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-With the rapid proliferation of IoT devices, the volume of generated data is growing at an unprecedented pace. Due to the limited resources of edge devices, a significant portion of this data must be transmitted to the cloud for in-depth processing, large-scale analysis, long-term storage, and archival purposes. Consequently, the performance has become a critical concern. While identifying prevailing challenges and research gaps in this domain requires a systematic review, such efforts remain largely absent from existing survey literature. This article addresses this gap by offering a structured review of recent optimization approaches. It begins by categorizing the literature into three main strategies: lossless transmission, lossy transmission, and hybrid approaches. In the context of lossless transmission, we analyze techniques such as data compression algorithms and incremental versus full synchronization mechanisms. For lossy strategies, we analyze approaches including lossy compression and predictive methods. In addition, we investigate hybrid strategies that integrate both lossless and lossy techniques to leverage their complementary advantages. Finally, we discuss the limitations of existing studies and highlight promising directions for future research in optimizing edge-to-cloud data transmission.
+随着IOT设备的迅速扩散,生成的数据量以前所未有的速度增长. 由于边缘设备的资源有限,此数据有相当一部分必须传送到云中进行深度处理,大规模分析,长期存储,以及存档目的. 因此,业绩已成为一个重大关切问题。 虽然查明这一领域的现有挑战和研究差距需要系统审查,但现有调查文献中仍然基本上没有这种努力。本条通过对近期优化办法进行有条理的审查,弥补了这一差距。 它首先将文献分类为三大策略:无损失传输,无损失传输,以及混合方式. 在无损传输的背景下,我们分析数据压缩算法和增量与全同步机制等技术. 对于损失策略,我们分析包括损失压缩和预测方法在内的方法. 此外,我们调查了混合战略,这些战略结合了无损失和无损失技术,以利用其互补优势。 最后,我们讨论现有研究的局限性,并强调未来研究在优化边缘至云层数据传输方面有希望的方向。
 
 ## 问题与动机
 

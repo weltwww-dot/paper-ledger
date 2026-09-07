@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3698857
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Secure Pattern Matching (SPM) aims to identify all occurrences of a target pattern within a text while preserving data confidentiality and has vital applications in bioinformatics, digital forensics, and cloud-based healthcare. However, existing SPM schemes often suffer from limited scalability on large scale datasets and provide insufficient correctness assurances under outsourced cloud settings. To address these limitations, we propose PSPM, a parallel SPM framework built upon secure multi-party computation (MPC), supporting both single- and multi-pattern queries with comprehensive wildcard functionality. The proposed scheme integrates differentially private Read and Write primitives to obfuscate memory access patterns and enable secure, oblivious data operations. To enhance efficiency, the input text is divided into overlapping sliding windows, each processed in parallel under SIMD-style execution. Each window performs bidirectional scanning to fully leverage parallelism and maximize throughput. For single-pattern queries, local matching is achieved through a border-array–based algorithm, while multi-pattern matching employs an MPC-adapted Aho–Corasick automaton. We design a lightweight cross-consistency checking mechanism that validates outputs via wildcard-augmented variants, thereby enabling detection of inconsistency-inducing single-path computation faults under the standard non-colluding semi-honest setting. Formal security proofs and extensive experimental evaluations on large genomic datasets demonstrate that our framework outperforms prior SPM protocols by up to 1.73× in single-pattern tasks and 10.56× in multi-pattern tasks.
+安全模式匹配(SPM)旨在识别文本中所有目标模式的出现,同时保持数据保密性,并在生物信息学、数字法医学和基于云的医疗保健方面拥有至关重要的应用。 然而,现有的SPM计划往往在大尺度数据集上的可扩展性有限,在外包云层设置下提供的正确性保证不足。 为了克服这些局限性,我们提议利用安全的多方计算(MPC)建立一个并行的SPM框架,支持具有综合通配符功能的单式和多式查询。 拟议方案融合了差别化的私密读写原始语,以混淆内存访问模式,并允许安全,忘却的数据操作. 为了提高效率,输入文本分为重叠的滑动窗口,每个窗口在SIMD风格的执行下平行处理. 每个窗口都进行双向扫描,以充分利用并行性并最大限度地增加吞吐量。 对于单模式查询,本地匹配是通过基于边框阵列的算法实现的,而多模式匹配则使用MPC适应的Aho–Corasick自定义. 我们设计了一种轻量级交叉一致性检查机制,通过通配符增强的变体验证产出,从而能够在标准的无腐蚀半诚实设置下检测出导致不一致的单路径计算断层。 对大型基因组数据集的正式安全证明和广泛的实验性评价表明,我们的框架在单层任务和多层任务中分别达到1.73×和10.56×,超过了先前的SPM协议。
 
 ## 问题与动机
 

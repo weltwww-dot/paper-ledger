@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: Nature Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1038/s42256-026-01302-z
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Representational alignment can reveal similarities between human brain activity and language models. Work now demonstrates that it can also guide learning, improving the reliability of artificial reasoning.
+代表性的配合可以揭示人类大脑活动与语言模型的相似性. 现在的工作表明,它也可以指导学习,提高人工推理的可靠性.
 
 ## 问题与动机
 

@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3683469
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Motion prediction is essential for autonomous vehicles to navigate complex environments and anticipate the behavior of other traffic participants. As new driving scenarios emerge, models must be continually updated without retraining from scratch. We propose DECODE, a continual learning framework that starts from a pre-trained generalized model and incrementally expands specialized models for distinct domains. Unlike existing approaches that pursue a single unified model, DECODE explicitly balances specialization and generalization through dynamic model selection. It employs a hypernetwork for parameter generation, which reduces storage costs, and utilizes a normalizing flow for real-time domain inference via likelihood estimation. Outputs from specialized and generalized models are fused using Bayesian uncertainty estimation. This integration ensures optimal performance in familiar conditions while maintaining robustness in novel scenarios. Extensive experiments show DECODE achieves a low forgetting rate of 0.044 and an average minADE of 0.584 m, outperforming prior methods and generalizing well across diverse driving domains. Furthermore, we demonstrate that DECODE can be extended beyond motion prediction to general continual learning tasks such as image classification, showcasing its broad applicability.
+运动预测对于自主车辆导航复杂环境和预测其他交通参与者的行为至关重要. 随着新的驱动情景的出现,模型必须不断更新,而不必从零开始再培训。 我们提出DECODE,这是一个持续学习的框架,从一个经过预先培训的通用模式开始,并逐步扩大不同领域的专门模式。与追求单一统一模型的现有方法不同,DECODE通过动态模型选择明确平衡专业化和概括化. 它使用一个超网络来生成参数,从而降低存储成本,并通过概率估计利用一个正常流进行实时域推论。专门和通用模型的产出采用巴伊西亚不确定性估计法加以组合。 这种整合确保了在熟悉的条件下取得最佳业绩,同时在新情况中保持稳健性。广泛的实验显示,DECODE实现了0.044的低遗忘率和0.584米的平均微分ADE,比以前的方法表现优于以前,并很好地概括了各种驱动领域。 此外,我们表明,DECODE可以扩展到一般的持续学习任务,如图像分类,显示其广泛适用性。
 
 ## 问题与动机
 

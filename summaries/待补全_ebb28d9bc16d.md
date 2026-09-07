@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3685700
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Continuous monitoring of glacier calving fronts is essential for sea level rise projections. This study benchmarks Deep Learning systems for front delineation in Synthetic Aperture Radar imagery. While Deep Learning systems exhibit errors up to 221 m, human annotators deviate by only 38 m, underscoring the need for further research.
+持续监测冰川断裂面对预测海平面上升至关重要。 本研究为合成孔径雷达图象的前沿划界建立了深层学习系统基准。 虽然深层学习系统显示的误差高达221米,但人类的注释员偏差只有38米,突出了进一步研究的必要性.
 
 ## 问题与动机
 

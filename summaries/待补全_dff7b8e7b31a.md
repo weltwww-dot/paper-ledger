@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3669921
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Due to data scarcity, privacy, and security, it is difficult to obtain sufficient data to support the research and application of data-driven artificial intelligence (AI) technology across various fields. Although current few-shot semantic segmentation (FSS) methods mitigate performance degradation caused by limited same-domain data, they struggle in cross-domain scenarios with significant domain shifts, limiting their practical utility. Building upon FSS, cross-domain FSS (CD-FSS) generalizes the task to segment novel classes across domains using minimal supervision. However, CD-FSS faces persistent challenges in effective feature pattern representation and transmission across domains. This article comprehensively analyzes existing CD-FSS networks and reveals two crucial insights. First, the inherent inductive bias of the convolutional mode restricts the scene-level contextual information capture. Second, reliance on a single attention inadequately supports complex cross-scene information interaction. To address these issues, we propose an attention specialization network, called "focus on your focus" (FOYF). It integrates multiple attention specialization modules based on Swin Transformer, which profoundly mine intraobject attributes and interobject associations within scenes, dynamically activate cross-scene correspondence links, and hierarchically fuse multigranularity feature patterns. Experimental validation demonstrates the superior performance of FOYF on CD-FSS benchmarks by propagating metalearned scene-level priors, effectively overcoming domain shift bottlenecks. This work establishes a novel technological pathway for cost-effective learning, advancing the development of CD-FSS in data-constrained environments.
+由于数据稀缺,隐私和安全,很难获得足够的数据来支持数据驱动的人工智能技术在各个领域的研究和应用. 虽然目前的几发语义分解(FSS)方法缓解了有限同域数据造成的性能退化,但它们在跨域假想中挣扎着有显著的域位变化,限制了其实用性. 在FSS的基础上,跨领域FSS(CD-FSS)将任务概括为利用最低限度的监督将新颖课程分到不同领域。 然而,CD-FSS在有效特征模式的表述和跨领域传输方面面临持续的挑战。 这篇文章全面分析了现有的CD-FSS网络,并揭示了两个关键的见解. 第一,演化模式的内在诱导偏差限制了场景级背景信息捕捉. 第二,对单一关注的依赖不足以支持复杂的交叉场景信息互动。 为了解决这些问题,我们建议建立一个名为“关注你的焦点”(FOYF)的专注网络。 它融合了基于Swin Transformer的多个关注专业模块,这些模块在场景中深刻地挖掘了内对象属性和间对象关联,动态地激活了跨场面的对应链接,以及分级的引信多角度特征模式.实验性验证通过宣传元获取场景级前缀,有效克服域位移瓶颈,证明了FOYF在CD-FSS基准上的优异性能.这项工作为具有成本效益的学习确定了新的技术途径,在数据限制的环境中推动了CD-FSS的开发。
 
 ## 问题与动机
 

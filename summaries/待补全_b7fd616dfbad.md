@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Artificial Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tai.2026.3676747
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Federated Learning (FL), which facilitates collaborative model training and protects users’ privacy, has drawn great interest from the research community. With FL, participants train their models on local data and submit the corresponding updates for aggregation to a server. While concealing the identities of the participants, FL may attract adversaries in order to hamper the underlying model. In this paper, we propose an FL framework, FedDOT, to defend against adversaries performingtargeted attacks. FedDOT incorporates two powerful defense algorithms, Maximum Spanning Tree based attacker detection (MSTAD) and Densest graph based attacker detection (Density-AD), which leverage correlation between weight updates and graph theory concepts, maximum spanning tree, and densest graph. With a goal to withstand an overwhelming number of attackers, our algorithms provide strong solutions to aid an FL server, even in overwhelming scenarios where adversaries constitute more than half of the participants. Along with theoretical bounds in correlation space, a rigorous experimental analysis using image classification datasets is carried out to validate the robustness of the FedDOT framework in non-iid settings, which ascertains the superiority of the models against the state-of-the-art methods using a variety of metrics evaluating the accuracy and attack detection rate. With an attack success rate of < 10% for targeted attacks like single-label flipping, multi-label flipping, and backdoor, FedDOT successfully defends against overwhelming adversaries with a marginal accuracy drop of less than 2%.
+联邦学习(FL)促进了合作模式培训,保护了用户的隐私,引起了研究界的极大兴趣. 通过FL,参与者根据本地数据对其模型进行培训,并将相应的更新提交服务器进行汇总. 在隐瞒参与者身份的同时,FL可能会吸引对手,以阻碍基本模式. 在本文中,我们提出了一个FL框架,即FedDOT,以防御对手进行目标明确的攻击。FedDOT融合了两种强大的防御算法,即基于最大拓扑树的攻击者探测器(MSTAD)和基于Densest图的攻击者探测器(Density-AD),它们利用了重量更新和图表理论概念之间的关联,最大横跨树,以及最密集的图表. 我们的算法为帮助一个FL服务器提供了有力的解决方案,与相对应空间的理论界限一道,利用图像分类数据集进行了严格的实验分析,以验证FedDOT框架在非iid环境中的稳健性,通过使用各种度量衡来评价精度和攻击检测率,确定模型相对于最先进方法的优越性.FedDOT以单标签翻转、多标签翻转和后门等目标攻击成功率 < 10%,成功地防御了压倒性对手,其边际准确度下降不到2%。
 
 ## 问题与动机
 

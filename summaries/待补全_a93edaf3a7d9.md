@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3675368
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Modern natural language processing (NLP) models exhibit extreme sensitivity toward text adversarial examples, while their opposite insensitivity to text rubbish examples is greatly underestimated. Text rubbish examples usually refer to highly modified sentences that appear nonsensical to humans but can keep the model's prediction unchanged, which are significant in model robustness evaluation, improvement, and interpretation. Existing methods usually design a single objective optimization method to simultaneously maximize the modification rate and the model confidence (MC) with some text modification strategies, such as word deletion and preposition substitution. However, the single objective optimization easily falls into local optima due to the conflicting objectives, and the simple text modification strategies greatly limit the diversity of rubbish examples. To address these problems, we propose a multiobjective simulated annealing-based stopword substitution (MOSA-S2) algorithm with three major merits. First, the MOSA-S2 replaces the input words with meaningless stopwords and employs importance-based composite perturbation to simulate word substitution, enhancing the quality and diversity of the rubbish sample generation. Second, we formulate a multiobjective simulated annealing method to adaptively determine the priority of word replacements, which can escape local optima with a controlled probability and balance multiple objectives via Pareto dominance. Third, we design a grammatically constrained variant to enhance the readability of rubbish text, while maximizing its semantic deviation from the original to mislead human judgment. We evaluate the effectiveness and efficiency of our method on six text datasets by attacking seven popular neural models. Extensive experimental results demonstrate the superiority of our MOSA-S2 and reveal the fact that modern NLP models may not fully comprehend the textual semantics, as they make the same prediction with even higher confidence for nonsensical text sequences.
+现代自然语言处理(NLP)模型对文本对抗性实例表现出极端的敏感性,而它们与文本垃圾实例相反的不敏感度则被大大低估.文本垃圾例通常指对人类看似不敏感但可以保持模型预测不变的高度修改的句子,这些句子在模型强性评价,改进,以及解释中都具有重要意义.现有方法通常会设计一种单一的客观优化方法,同时将修改率和模型置信度(MC)最大化,并配以一些文字修改策略,如文字删除和预置替换. 然而,单目标优化由于目标冲突而容易落入本地的opitima,简单的文本修改策略极大地限制了垃圾实例的多样性. 为了解决这些问题,我们提出了一个具有三大优点的多目标模拟反射式止词替代(MOSA-S2)算法。 首先,MOSA-S2将输入词替换为毫无意义的句子,并使用基于重要性的复合扰动来模拟词替换,提高垃圾样本生成的质量和多样性. 第二,我们制定一种多目标模拟反射法,以适应性地确定词替换的优先权,通过Pareto主导,它可以以可控概率逃避局部的Optima,平衡多个目标. 第三,我们设计了语法上受限制的变体,以提高垃圾文本的可读性,同时最大限度地使其语义偏离原物,误导人类的判断. 我们通过攻击7个流行神经模型来评价我们的方法在6个文本数据集上的有效性和效率.广泛的实验结果表明我们的MOSA-S2具有优越性,并揭示了现代NLP模型可能无法完全理解文字语义,因为它们对非感性文本序列作出同样的预测时具有更高的信心.
 
 ## 问题与动机
 

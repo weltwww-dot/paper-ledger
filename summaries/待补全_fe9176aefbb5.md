@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3673760
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Image hazing is crucial for enhancing the image visibility and mitigating the weather degradations. However, most existing approaches rely on the paired hazy and clean images, which are challenging to obtain in real-world scenarios. To this end, we propose an oriented Bayesian-regularized consistent optimal transport (OBCOT) framework, which formulates the unpaired image dehazing task as an optimal transport (OT) problem. Specifically, we introduce a structure-preserving transport cost, incorporating the structural similarity (SSIM) constraint to minimize the duality gap between the primal and dual formulations, while preserving the structural details of reconstructed images. Furthermore, we derive the Bayesian frequency-domain regularization (BFR) to balance the spectral consistency with clean References and repulsion from hazy patterns. In addition, we employ a pretrained one-step stable diffusion model as the restoration network, which is fine-tuned using the low-rank adaptation (LoRA) adapters and zero convolutional layers, while integrating the domain-specific text prompts for both degraded and clean images to guide the generation process. Extensive experiments demonstrate that our method surpasses the existing well-performing unpaired learning approaches, achieving notable improvements in both the fidelity and photo-realism.
+图像欺凌对提高图像能见度和减缓气候退化至关重要。 然而,大多数现有方法都依赖于配对的模糊和干净的图像,这些图像在现实世界的情景中很难获得。 为此,我们提出了一个面向巴伊西亚 -- -- 正规化的一致最佳运输(OBCOT)框架,该框架将未发光的图像解析任务定为最佳运输(OT)问题。具体地说,我们引入了结构保留运输成本,纳入了结构相似性(SSIM)的制约,以最大限度地缩小原始配体和双重配体之间的双重性差距,同时保留重建图像的结构细节. 此外,我们得出巴耶西亚频域规范化(BFR),以平衡光谱一致性与干净的参考文献和来自模糊图案的反感。 此外,我们采用预先训练的单步稳定扩散模型作为恢复网络,使用低档适应器(LORA)适配器和零进化层进行微调,同时整合特定域的文字提示,既要退化,又要清洁的图像来指导生成过程.广泛的实验表明,我们的方法超越了现有的表现良好的不成熟的学习方法,在忠诚和光现实主义两方面都取得了显著的改进。
 
 ## 问题与动机
 

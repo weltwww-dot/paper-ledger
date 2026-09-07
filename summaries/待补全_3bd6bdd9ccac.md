@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 数据工程
 - **DOI**: 10.1109/tkde.2026.3700798
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Anchor graph-based clustering has demonstrated strong potential for uncovering complex latent structures in large-scale scenarios. Nevertheless, existing approaches face two critical limitations: first, most fail to fully exploit the deep structural relationships among samples, resulting in graphs that inadequately capture the intrinsic data topology; second, the conventional two-stage paradigm that separates spectral embedding from label assignment introduces relaxation errors and redundant computations, degrading clustering performance and increasing computational overhead. To address these challenges, we propose an Efficient Structure-Aware Discrete Clustering via Multi-Order Anchor Graphs (ESADC). ESADC adaptively fuses multi-order anchor graphs to model complementary approximations of the underlying continuous manifold, while employing a single-stage, structure-aware framework that jointly learns spectral embeddings and discrete cluster labels, thereby enhancing both clustering effectiveness and computational efficiency. Furthermore, a fast coordinate descent-based optimization algorithm is developed for the discrete ESADC model to accelerate convergence. Extensive experiments on both regular and large-scale real-world datasets demonstrate that ESADC consistently outperforms state-of-the-art methods, highlighting its efficiency and strong structure-aware capability.
+基于Anchor图的集群显示在大规模情景中发现复杂潜在结构的强大潜力。 尽管如此,现有办法面临两个关键限制:第一,大多数办法未能充分利用样品之间的深层结构关系,导致图表无法充分反映内在数据地形;第二,将光谱嵌入与标签分配区分开来的传统两阶段模式引入了放松错误和冗余计算,降低了集群性能,增加了计算间接费用。 为了应对这些挑战,我们提议通过多命令控制图(电子南共体)建立一个高效的结构-智能分层组合。 欧洲南共体适应性地将多顺序锚定图引信成模型,模拟基础连续多面体的互补近似值,同时采用单一阶段、结构意识框架,共同学习光谱嵌入和离散集群标签,从而提高集群效力和计算效率。 此外,还为离散的EDCO模型开发了快速坐标降级优化算法,以加速趋同。 对经常和大规模现实世界数据集的广泛试验表明,东非共同体的业绩始终高于最先进的方法,突出了其效率和强大的结构意识能力。
 
 ## 问题与动机
 

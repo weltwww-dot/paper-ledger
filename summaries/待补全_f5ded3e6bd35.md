@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3670013
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Decentralized federated learning (DFL) has gained significant attention as a framework for analyzing large-scale data distributed across multiple sites, where communication between sites is constrained by a decentralized graph structure. Due to privacy concerns and high communication costs, reducing the number of communication rounds in DFL has become an important area of research. This article investigates the effects of the decentralized graph's topology on the convergence rate of DFL algorithms and introduces a novel tensor-based multiple-gossip-steps (T-MGS) method to optimize communication efficiency from the topology aspect. The core idea of this method is to use gossip tensors to guide the information flow between sites and enable dynamic adjustments to the transmitted content at each communication step without increasing its volume. The proposed method minimizes the second-largest absolute eigenvalue of the equivalent gossip matrix, a key factor influencing convergence speed. Experimental results on both simulated and real datasets demonstrate that the proposed T-MGS outperforms existing strategies in terms of communication efficiency, reducing the number of communication rounds without compromising model accuracy.
+分散式联合学习(DFL)作为分析分布在多个站点的大规模数据的框架,得到了极大的关注,在多个站点之间的交流受到分散式图表结构的限制. 由于隐私问题和通信费用高昂,DFL中通信回合的减少已成为一个重要的研究领域. 本文章调查了分散图的地形学对DFL算法的趋同率的影响,并引入了一种基于新颖的拉诺语的多声道步法(T-MGS)方法,从地形学角度优化通信效率.这种方法的核心理念是使用八卦百合器来指导站点之间的信息流,并且可以在不增加其音量的情况下,在每一个通信步骤上对传输的内容进行动态调整. 拟议方法将等效八卦矩阵的第二大绝对值最小化,这是影响趋同速度的关键因素.模拟和真实数据集的实验结果表明,拟议的T-MGS在通信效率方面超过了现有的战略,在不损害模型准确性的情况下减少了通信回合的数量.
 
 ## 问题与动机
 

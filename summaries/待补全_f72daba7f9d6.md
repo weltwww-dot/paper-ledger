@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: Computers & Security 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.104958
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Two critical aspects in IoT are security and resource consumption. Physically Unclonable Functions (PUFs) are hardware security primitives that exploit the inherent manufacturing variations of integrated circuits to generate unique identifiers. Due to their uniqueness and resistance to cloning, they are widely used for IoT device authentication. In this work, a novel approach to enhance the identifiability of compensated measurement PUFs is introduced. This method involves applying specific weight masks to the parameters extracted from the PUF entropy source before conducting comparisons to determine the output bit. This technique has been tested on several types of PUFs constructed using public datasets. As a result, it has been observed that the Equal Error Rate ( EER ) can be greatly improved, up to two orders of magnitude. The main advantage of this technique is that it does not modify the architecture of the compensated measurement PUF (which is interesting for IoT devices, as it does not require extra resources), while it also has proven to be generalizable, i.e., the optimal mask parameters can be found using a small set of devices and, then, generalized to a different bigger set of devices. This way, this proposal contributes to the development of novel authentication schemes for IoT devices, addressing both security and resource efficiency, critical issues in IoT environments. • A novel optimization technique to improve the identifiability of a compensated measurement PUF and its theoretical justification. • The optimization requires only a small subset of devices as a training dataset, enabling generalization to a larger population of devices. • The implementation of this technique and test using different types of PUFs constructed using public databases. • The implementation of one technique which does not require additional hardware resources based on initializing counters to a certain value.
+信息技术举措的两个关键方面是安全和资源消耗。物理无克隆函数(PUFs)是利用集成电路内在制造变体生成独特识别器的硬件安全原始体. 由于它们的独特性和对克隆的阻力,它们被广泛用于IOT设备认证. 在这项工作中,采用了一种新颖的办法,提高补偿性计量的可识别性。这种方法涉及在进行比较以确定输出位数之前,先对从聚苯乙烯乙烯来源提取的参数使用特定重量罩。 这一技术已在使用公共数据集建造的几种福林中进行了试验。 因此,人们观察到,平均误差率(EER)可以大大提高,最高可达到两个数量级. 这一技术的主要优点是它不会修改补偿测量PUF的架构(这对IOT设备来说是有趣的,因为它不需要额外的资源),同时它也被证明是通用的,即最优的口罩参数可以使用一小组设备找到,然后被泛化到另一组更大的设备. 这样,这一提议有助于开发IOT设备的新认证计划,既解决安全和资源效率问题,又解决IOT环境中的关键问题. • 一种新的优化技术,以提高补偿性计量的可识别性及其理论依据。 • 优化仅需要一小部分设备作为培训数据集,从而能够向更多的设备群进行通用。· 利用利用公共数据库建造的不同类型的福林,实施这一技术和测试。· 采用一种技术,这种技术不需要以初始化计数器为基础而增加硬件资源。
 
 ## 问题与动机
 

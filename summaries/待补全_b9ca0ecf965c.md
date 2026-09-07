@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: Neural Networks 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.108950
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Accurate segmentation of lesion regions in medical images is crucial for early diagnosis and precise treatment of diseases. Existing U-shaped segmentation networks typically employ direct connections between features of the same hierarchical level in the encoder-decoder structure; however, the lack of explicit interaction between different hierarchical features limits the effective integration of shallow structural information and deep semantic features, resulting in challenges when delineating complex boundaries and fine-grained structures. To address these challenges, we propose a Cross-Hierarchical Context-Aware Network (CC-Net). The model comprises four key components: The Cross-Hierarchical Feature Aggregation (CFA) Module aggregates shallow and deep features separately, explicitly modeling semantic relationships across hierarchical levels. The Global Feature Aggregation (GFA) Module integrates features from multiple levels to construct a unified global representation, providing multi-level semantic context during cross-branch feature interactions. The Cross-Branch Semantic Supplement (CSS) Module injects the global semantic information obtained from GFA into the CFA-aggregated shallow and deep features, enhancing overall structural awareness. The Enhanced Feature (EF) Module strengthens the model's discriminative capability for target regions while effectively suppressing background noise. Extensive experiments on six public medical image datasets demonstrate that CC-Net consistently outperforms state-of-the-art segmentation methods across all evaluation metrics. The code is available at https://github.com/zz0226zz/CC-Net.
+医疗图像中准确划分病情地区对于疾病的早期诊断和准确治疗至关重要。现有的U形分割网络一般在编码器-解码器结构中采用同一等级层次特征之间的直接连接;然而,不同等级特征之间缺乏明确的相互作用限制了浅层结构信息和深层语义特征的有效融合,在划定复杂边界和细层结构时产生了挑战. 为了应对这些挑战,我们提议建立一个跨等级背景-了解网络(CC-Net)。 该模型由四个关键组成部分组成: 跨等级地物聚合(CFA)模块分别汇总浅深特征,明确模拟跨等级的语义关系. 全球地物聚合(GFA)模块整合了多层次的特征,构建统一的全球代表,在跨分支特征互动中提供多层次语义上下文.Cross-Branch语义补充(CSS)模块将从GFA获得的全球语义信息注入了CFA综合的浅深特征,提高了整体的结构意识.增强性能(EF)模块在有效抑制背景噪音的同时,加强了该模型对目标区域的歧视性能力. 对6个公共医疗图像数据集的广泛试验表明,CC-Net在所有评价指标中一贯优于最先进的分解方法。 该代码可在https://github.com/zz0226zz/CC-Net上查阅。
 
 ## 问题与动机
 

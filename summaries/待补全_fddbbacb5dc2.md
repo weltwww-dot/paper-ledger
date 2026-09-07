@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3689780
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Vision-language models (VLMs) have shown strong generalization across multimodal tasks, but adapting them to medical report generation (MRG) often demands extensive paired image-text data that are limited due to data privacy and annotation cost. In-context learning (ICL) offers a promising training-free alternative, yet standard ICL approaches rely on long demonstration prompts that are computationally inefficient and often yield inconsistent or clinically inaccurate descriptions. To address these challenges, we propose Principal In-Context Vectors (PCVs), a compact latent-guidance framework that distills multimodal demonstrations into stable semantic representations. By extracting hidden states from auto-regressive VLMs and applying principal component analysis (PCA), we identify robust semantic directions that remain stable under input perturbations. These PCVs are then injected into new queries to steer generation toward accurate and clinically meaningful outputs without any model tuning. Extensive experiments on four MRG benchmark datasets show that our approach can enhance both zero-shot and fully supervised generation quality across diverse settings, including cross-center, cross-disease, and longitudinal scenarios. This work provides a lightweight and scalable approach to adapt pre-trained VLMs for practical clinical deployment.
+视觉语言模型(VLMs)在多模式任务中表现出强烈的概括性,但适应医疗报告生成(MRG)往往需要大量的对映图像文本数据,这些数据由于数据隐私和注释成本而受到限制.内容内学习(ICL)提供了一个有希望的无培训的替代方法,但标准的ICL方法依赖于长时间的演示提示,这些提示在计算上效率低下,往往产生不一致或临床上不准确的描述. 为了应对这些挑战,我们提议采用 " 主要内幕矢量 " (PCVs)这一紧凑的潜在指导框架,将多式联运演示提炼成稳定的语义表述。 通过从自动递归的VLM中提取隐藏状态并应用主要组件分析(PCA),我们确定了在输入扰动下保持稳定的稳健语义方向. 这些PCV随后被注入新的查询中,引导生成到准确和临床有意义的输出,而无需任何模型调试. 对四个MRG基准数据集的广泛实验表明,我们的方法可以提高各种环境的零射和充分监督的生成质量,包括交叉中心、交叉疾病和纵向情况。这项工作提供了一种轻量级和可伸缩性的方法,以调整预先训练的VLM,用于实际的临床部署.
 
 ## 问题与动机
 

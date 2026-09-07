@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3658584
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-In federated learning (FL), heterogeneous and client-specific data distributions cause a domain-shift problem, which leads to divergent local models and degraded global performance. To address this problem, this study proposes a class- and domain-aware FL framework that decouples and collaboratively learns the domain-invariant and domain-specific representations. During client training, a novel cross-gated feature separation (CGFS) module is employed to separate the domain features from the class features. A heterogeneous prototype contrastive learning (HPCL) module is then used to guide the learning of the class features and domain features with good discriminability within each feature space. Finally, during server aggregation, a gradient-reweighted hierarchical aggregation (GHA) strategy is applied to effectively aggregate information from all the clients and build a global model with good robustness to domain variation. The experimental results obtained on two FL datasets with domain shift show that the proposed method consistently outperforms state-of-the-art approaches.
+在联邦学习(FL)中,不同和针对客户的数据分布造成域间转移问题,导致当地模式不同,全球业绩退化。 为了解决这一问题,本研究提出了一个班级和域意识的FL框架,这个框架可以脱钩,合作学习域-不变量和域特异性表述. 在客户端培训期间,采用了一个新颖的交叉特性分离(CGFS)模块,将域特性与类特性区分开来. 然后使用一个多样化的原型对比性学习模块来指导每个特征空间内具有良好区分性的类特征和域特征的学习. 最后,在服务器聚合过程中,采用了梯度加权分级聚合(GHA)策略,以有效汇总所有客户端的信息,并建立一个具有良好的强性的全球模型来进行域变异. 在两个具有域位转移的FL数据集上取得的实验结果显示,拟议方法的效绩始终高于最先进的方法.
 
 ## 问题与动机
 

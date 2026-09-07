@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3690778
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Dataset distillation (DD) aims to synthesize a more compact dataset than the original one and models trained on it are expected to have the same generalization capabilities as on the original dataset. Previous work via a generative model (GM) faces several limitations. First, GM struggles to generate representative samples due to a lack of constraints. Second, it overlooks the relationships between generated samples, limiting its effectiveness. In this paper, a new noise-unconstrained GM-based DD framework is proposed. In the distillation stage, an adaptive matching coefficient is introduced to align generated images with representative class elements and the MiniMax loss function is extended to reduce the optimization difficulty. In the deployment stage, features among each generative image are ensembled by gradient-matching based DD. Theoretical analysis based on McDiarmid's inequality demonstrates that the proposed components can reduce the generalization error of the original baseline method. We also provide insights into the potential of generated images as an effective proxy dataset for DD. For example, on the ImageWoof dataset with 50 distilled images per class using a 6-layer ConvNet for evaluation, generated images outperform 25%, 50%, and 75% original images by 8.4%, 6.3%, and 8.3% in distillation performance. Our method effectively handles both low- and high-resolution datasets, with experiments on 11 benchmarks demonstrating its efficacy.
+数据集蒸馏(DD)旨在合成一个比原始数据集更紧凑的数据集,并且对其培训的模型预计将具有与原始数据集相同的概括化能力.以往通过基因模型(GM)完成的工作面临若干限制. 第一,全球机制由于缺乏限制,难以生成有代表性的样本。 第二,它忽略了生成样品之间的关系,限制了其有效性。 本文件提出了一个新的基于全球机制的不受限制的DD框架。 在蒸馏阶段,引入了适应性匹配系数,将生成的图像与代表性类元素对齐,并扩展了MiniMax损失功能,以减少优化难度. 在部署阶段,每个基因图象的特征通过梯度比对的DD来组合。 基于McDiarmid不平等的理论分析表明,拟议的组件可以减少原始基准方法的概括性错误. 我们还深入了解生成的图像作为DD的有效代用数据集的潜力。 例如,在ImageWof数据集上,每类有50个蒸馏图像,使用6层ConvNet进行评估,生成的图像比原始图像的25%、50%和75%高出8.4%、6.3%,蒸馏性能高出8.3%。 我们的方法有效地处理低分辨率和高分辨率的数据集,对11个基准的实验显示了它的功效。
 
 ## 问题与动机
 

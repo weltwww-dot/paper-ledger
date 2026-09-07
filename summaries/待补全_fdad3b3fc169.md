@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: Neural Networks 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109584
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-A major challenge in neuroscience is to elucidate how the brain processes sensory input to generate behavior, especially given the difficulty of measuring neural activity across the whole brain. To address this limitation, previous studies have used artificial neural networks (ANNs) and modeled decision-making circuits in the brain. Here, we used recorded neural activity from mice as additional inputs to a reservoir computer (RC), together with task-related inputs, enabling the RC to operate in a biologically grounded context. We refer to the RC with this hybrid-input condition as a hybrid-input RC (HRC), and to the RC without neural activity input as an artificial-input RC (ARC). Using spike inputs from cortical or subcortical regions, the HRC predicted body movements of head-fixed mice during a task better than the ARC did. This improvement arose not only from the added mouse neuronal activity, but also from the activity generated within the HRC. The generated activity potentially included unrecorded neuronal activity from mice, which was difficult for the ARC. We suggest that the HRC might generate activity patterns resembling unrecorded neural activity, which may contribute to the prediction of animal movements.
+神经科学的一大挑战是阐明大脑如何处理感官输入来产生行为,特别是考虑到整个大脑的神经活性难以测量.为解决这一局限性,之前的研究在大脑中使用了人工神经网络(ANNs)和模型化的决策电路. 在这里,我们利用小鼠的神经活动记录,作为对储油层计算机(RC)的额外投入,以及与任务有关的投入,使RC能够在生物上的基础操作。 我们把具有这种混合输入条件的驻地协调员称为混合输入驻地协调员(HRC),把没有神经活动输入的驻地协调员称为人工输入驻地协调员(ARC)。利用来自皮质或亚科地区的尖锐投入,人权事务委员会预测头部固定小鼠在任务期间的身体运动情况比ARC好。 这一改进不仅来自增加的老鼠神经活动,也来自人权理事会内产生的活动。生成的活性可能包括小鼠的未记录神经活性,这对ARC来说是困难的. 我们建议人权理事会可以产生类似未经记录的神经活动的活动模式,这可能有助于预测动物的运动。
 
 ## 问题与动机
 

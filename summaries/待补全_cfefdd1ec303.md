@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Pattern Analysis and Machine Intelligence 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3688191
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-Understanding humor, especially when it involves complex and contradictory narratives requiring comparative reasoning ability, remains a significant challenge for large vision-language models (VLMs). This limitation hinders AI's ability to engage in human-like reasoning and cultural expression. In this paper, we investigate this challenge through an in-depth analysis of comics that juxtapose panels to create humor through contradictions. We introduce the YesBut, a novel benchmark with 1,262 comic images from diverse multilingual and multicultural contexts, featuring comprehensive annotations that capture various aspects of narrative understanding. Using this benchmark, we systematically evaluate a wide range of VLMs through four complementary tasks spanning from surface content comprehension to deep narrative reasoning, with particular emphasis on comparative reasoning between contradictory elements. Our extensive experiments reveal that even the most advanced models significantly underperform compared to humans, with common failures in visual perception, key element identification, comparative analysis, and hallucinations. We further investigate text-based training strategies and social knowledge augmentation methods to enhance model performance. Our findings not only highlight critical weaknesses in VLMs' understanding of cultural and creative expressions but also provide pathways toward developing context-aware models capable of deeper narrative understanding through comparative reasoning.
+理解幽默,特别是当它涉及需要比较推理能力的复杂和矛盾的叙事时,仍然是大型视觉语言模型(VLMs)的一大挑战. 这一限制阻碍了AI从事类似人类的推理和文化表达的能力. 在本文中,我们通过对漫画的深入分析来调查这项挑战,这些漫画是将板块并列,通过矛盾创造幽默. 我们介绍了YesBut,这是一个新的基准,包含来自多种语言和多文化背景的1 262幅漫画图像,其内容是综合说明,其中包含叙事理解的各个方面。 我们利用这一基准,通过从表面内容理解到深层叙事推理的四项互补任务,系统地评估了范围广泛的VLM,特别强调相互矛盾要素之间的比较推理。 我们广泛的实验表明,即使最先进的模型与人类相比也明显表现不佳,在视觉感知,关键元素识别,比较分析,以及幻觉等方面都存在常见的故障. 我们进一步调查基于文本的培训战略和社会知识的增强方法,以提高模型性能。 我们的研究结果不仅突出了虚拟语言对文化和创造性表达的理解中的关键弱点,而且还为发展能够通过比较推理加深叙事理解的背景意识模型提供了途径。
 
 ## 问题与动机
 

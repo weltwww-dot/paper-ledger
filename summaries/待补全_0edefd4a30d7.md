@@ -6,7 +6,7 @@
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: IEEE Transactions on Neural Networks and Learning Systems 2026
 - **发表**: 2026-09-01
-- **内容状态**: 部分 · 已获取机器摘要，待人工六段式总结
+- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tnnls.2026.3665811
 - **arXiv**: 无
@@ -14,7 +14,7 @@
 
 ## 一句话概括
 
-The intrinsic memory and nonlocality that allow fractional-order calculus to capture complex dynamical behaviors also pose significant challenges for accurate modeling and stable control. This article presents a unified data-driven framework that simultaneously addresses these challenges through three key innovations. First, we propose a fractional-order deep Lagrangian network (DeLaN) with a Transformer-like structure, fPLCS-DeLaN, to learn system's inherent fractional-order behaviors directly from uniformly sampled data. It not only enforces fractional-order Lagrangian structure by integrating key physical priors, but also enhances capturing ability of memory effects by incorporating long-short-term convolutional self-attention mechanism. Second, we develop a hybrid network-based disturbance observer, T2F-CRNN, which synergizes CNN's temporal feature extraction, hierarchical recurrence, and interval-based fuzzy inference to robustly estimate uncertainties with unknown nonuniform bounds and capture temporal dependencies. Third, we establish a fully fractional-order controller with practical finite-time convergence. It incorporates input saturation compensation and sliding mode constraints to ensure robustness and high performance. Simulations show that fPLCS-DeLaN achieves modeling errors at least one order of magnitude lower with less than a 15% increase in computational time. The proposed fractional-order controller reduces transient and steady-state tracking errors by 23.1% and 87.6% compared to state-of-the-art controllers, respectively. Experiments on a soft manipulator platform further demonstrate consistent superiority in model learning and tracking performance.
+内在的内存和非局部性使得分数序微积分能够捕捉复杂的动态行为,也给准确的建模和稳定的控制带来了巨大的挑战.本条提出了一个统一的数据驱动框架,通过三项关键创新同时应对这些挑战。 首先,我们提出一个分数顺序深拉格朗日网络(DeLAN),其结构类似变形器,fPLCS-DeLAN,直接从统一抽样的数据中学习系统固有的分数顺序行为. 它不仅通过整合关键物理前缀来强制分数-顺序拉格朗吉亚结构,而且通过纳入长期短演化自留机制来增强捕捉记忆效应的能力. 第二,我们开发了一个基于混合网络的扰动观察器T2F-CRNN,它协同CNN的时间特征提取,分级重现,以及基于间隔的模糊推论,以强力地估计未知非统一界限的不确定性并捕捉时间依赖性. 第三,我们建立一个具有实际的有限时间趋同的完全分序控制器。 它包括投入饱和补偿和滑动模式限制,以确保稳健性和高性能。模拟显示fPLCS-DeLAN在计算时间增加不到15%的情况下,至少实现了一个较低的数量级的建模错误.与最先进的控制器相比,拟议的分序控制器将瞬态和稳态跟踪错误分别减少23.1%和87.6%. 在软操纵器平台上的实验进一步显示了模型学习和跟踪性能的一贯优越性.
 
 ## 问题与动机
 

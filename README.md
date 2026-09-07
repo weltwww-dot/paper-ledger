@@ -69,7 +69,16 @@ python scripts/run_update.py instsci   # 生成机构全文补全队列（HITL�
 node scripts/sync-papers.js            # 总结同步进网站数据
 python scripts/run_update.py advance   # 推进更新基准
 python scripts/run_update.py publish   # 推送 + 等待 Pages 构建 + 验证线上一致
+node scripts/translate_summary_abstracts.js # 使用 D 盘本地 Argos 模型英译中
 ```
+
+### 本地翻译模型
+
+项目的英文摘要翻译默认调用 D 盘的开源 Argos Translate 模型：
+`D:\OpenSourceModels\argos-translate\packages\translate-en_zh-1_9`。
+模型和运行环境均在本机，翻译文本不会发送到在线翻译服务。若模型目录不同，可设置
+`PAPER_LEDGER_ARGOS_MODEL_DIR`；若 Python 运行时不同，可设置
+`PAPER_LEDGER_TRANSLATION_PYTHON`。
 
 每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、排除原因、来源错误以及仅单来源 DOI。默认会重查最近 7 天的发表记录，以覆盖元数据延迟；只要任一来源失败，命令会在写出审计后失败，`advance` 和 `publish` 也会拒绝继续。
 
