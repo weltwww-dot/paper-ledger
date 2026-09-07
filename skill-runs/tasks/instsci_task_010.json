@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108878",
+ "title": "M3SPCL: Multi-stage multi-grained multi-view supervised prototypical contrastive learning",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108878.txt",
+ "placeholder": "summaries\\待补全_1194c26222cb.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108878.pdf",
+ "year": "2026"
+}

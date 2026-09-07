@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.109605",
+ "title": "A Modified Artificial Potential Field Approach for Real-Time Robot Path Planning via Adaptive Gradient Neural Network",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.109605.txt",
+ "placeholder": "summaries\\待补全_254298eda0d4.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.109605.pdf",
+ "year": "2026"
+}

@@ -2,7 +2,7 @@
  "from_date": "2026-08-31",
  "until_date": "2026-09-07",
  "journal_count": 17,
- "new_record_count": 540,
+ "new_record_count": 4,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",

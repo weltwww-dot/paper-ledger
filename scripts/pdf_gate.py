@@ -3,12 +3,12 @@
 
 数据：
   - data/papers.js                论文清单（pdf 字段为空 = 无本地 PDF）
-  - skill-runs/pdf_attempts.json  DOI → {"reason": blocked|not-oa|no-file|…, "note": …}
+  - skill-runs/pdf_attempts.json  DOI → {"reason": blocked|not-oa|no-file|non_research_document, "note": …}
 
 用法:
   python scripts/pdf_gate.py --check   # 列出「无 PDF 且无跳过记录」的论文；有则 exit 1（闸门挡住）
   python scripts/pdf_gate.py --list    # 列出所有无 PDF 论文及其状态
-  python scripts/pdf_gate.py --mark <doi> <reason> [--note "…"]   # 记录跳过原因
+  python scripts/pdf_gate.py --mark <doi> <reason> --note "…"   # 记录跳过原因
 """
 
 import argparse
@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "papers.js"
 ATTEMPTS_FILE = ROOT / "skill-runs" / "pdf_attempts.json"
+ALLOWED_REASONS = {"blocked", "not-oa", "no-file", "non_research_document"}
 
 
 def load_papers():
@@ -56,7 +57,7 @@ def check():
         print(f"❌ PDF 闸门未通过：{len(missing)} 篇论文无 PDF 且无跳过记录（共 {total_no_pdf} 篇无 PDF）")
         for p in missing:
             print(f"   - {p.get('title', '')[:70]}  · {p.get('doi')}")
-        print("处理方式：尝试下载；确认不可得后运行 pdf_gate.py --mark <doi> <reason>（blocked/not-oa/no-file）")
+        print("处理方式：尝试下载；确认不可得或确认非研究页面后运行 pdf_gate.py --mark <doi> <reason> --note \"…\"")
         sys.exit(1)
     print(f"✅ PDF 闸门通过：{total_no_pdf} 篇无 PDF 论文全部有记录在案的跳过原因")
 
@@ -74,6 +75,10 @@ def list_state():
 
 
 def mark(doi, reason, note):
+    if reason not in ALLOWED_REASONS:
+        raise SystemExit(f"无效的 PDF 跳过原因：{reason}；允许值：{', '.join(sorted(ALLOWED_REASONS))}")
+    if not note.strip():
+        raise SystemExit("--mark 必须同时提供非空 --note，记录可审计证据。")
     attempts = load_attempts()
     attempts[doi.lower()] = {"reason": reason, "note": note or ""}
     save_attempts(attempts)

@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108877",
+ "title": "BCMDA: Bidirectional correlation maps domain adaptation for mixed domain semi-supervised medical image segmentation",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108877.txt",
+ "placeholder": "summaries\\待补全_eb02b92e3fd5.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\complete\\pdfs\\10.1016_j.neunet.2026.108877.pdf",
+ "year": "2026"
+}

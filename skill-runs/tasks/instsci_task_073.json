@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108885",
+ "title": "TFMPHGNN: Two-Fold multi-perspective heterogeneous graph neural network for sentiment analysis",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108885.txt",
+ "placeholder": "summaries\\待补全_52a3f2de9be5.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108885.pdf",
+ "year": "2026"
+}

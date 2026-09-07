@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108961",
+ "title": "MEDiT: A mask-enhanced diffusion transformer model for fetal heart rate signal generation",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108961.txt",
+ "placeholder": "summaries\\待补全_71e46a1c986a.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108961.pdf",
+ "year": "2026"
+}

@@ -59,8 +59,12 @@ function markdownFor(record, oa, content) {
   const abstract = cleanText(content && content.kind === "ok" ? content.text : "");
   const hasAbstract = Boolean(abstract);
   const state = hasAbstract ? "部分" : "待补全";
-  const note = hasAbstract ? "已获取机器摘要，待人工六段式总结" : "多渠道摘要待补全";
-  const summary = hasAbstract ? abstract : "摘要待补全。";
+  const note = hasAbstract
+    ? "已取得公开摘要；六段式内容将按可核验原文补充"
+    : "公开摘要暂未获取，取得可核验内容后补充";
+  const summary = hasAbstract
+    ? abstract
+    : "当前未获取可核验摘要；取得可核验内容后补充。";
   const arxiv = cleanText(oa && oa.arxiv_id);
   const year = String(record.year || record.date || "").slice(0, 4);
   return `# ${record.title} 总结
@@ -83,19 +87,19 @@ ${summary}
 
 ## 问题与动机
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 方法
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 实验与结果
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 贡献与局限
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ---
 DOI: ${record.doi}

@@ -11,6 +11,9 @@ param(
 $ErrorActionPreference = "Stop"
 $Python = (Get-Command python -ErrorAction Stop).Source
 
+# 预检：清理上一轮残留的 CloakBrowser 进程并设置浏览器缓存目录（见 更新工作流.md 9.4）
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "instsci_preflight.ps1")
+
 # Institution IP access is valid only when publisher traffic stays on the local
 # network exit. This check deliberately refuses a generic proxy/PAC route.
 & $Python (Join-Path $PSScriptRoot "route_check.py") --require-direct

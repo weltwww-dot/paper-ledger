@@ -1,0 +1,12 @@
+{
+ "doi": "10.1109/tdsc.2026.3707872",
+ "title": "Walking a Private Road: Direction-Guided Perturbation for Trajectory Data Under Local Differential Privacy",
+ "journal": "IEEE Transactions on Dependable and Secure Computing",
+ "prefix": "TDSC",
+ "direction": "信息安全",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1109_tdsc.2026.3707872.txt",
+ "placeholder": "summaries\\待补全_3acaffdd4c9f.md",
+ "pdf_src": "papers\\instsci\\ieee_batch\\complete\\pdfs\\10.1109_tdsc.2026.3707872.pdf",
+ "year": "2026"
+}

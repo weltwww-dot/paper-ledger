@@ -1616,16 +1616,16 @@
   "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
  },
  "10.1109/tnnls.2026.3723914": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "机构授权 PDF 核验为 IEEE TNNLS 出版信息页（编委、出版与版权信息），不是研究论文；已排除出研究论文 PDF 库。"
  },
  "10.1109/tnnls.2026.3723916": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "机构授权 PDF 核验为 IEEE Computational Intelligence Society 委员会名单页，不是研究论文；已排除出研究论文 PDF 库。"
  },
  "10.1109/tnnls.2026.3723918": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "机构授权 PDF 核验为 IEEE TNNLS 作者投稿须知页，不是研究论文；已排除出研究论文 PDF 库。"
  },
  "10.1109/tpami.2024.3392013": {
   "reason": "not-oa",

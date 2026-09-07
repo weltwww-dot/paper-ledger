@@ -77,18 +77,33 @@ function main() {
     }
   }
 
-  const existingTitles = new Set(existing.map((p) => p.title));
-  const fresh = parsed.filter((p) => !existingTitles.has(p.title));
-  const known = parsed.filter((p) => existingTitles.has(p.title));
-  const knownOrder = [];
-  for (const ex of existing) {
-    const match = known.find((p) => p.title === ex.title);
-    if (match) knownOrder.push(match);
-  }
-  for (const k of known) {
-    if (!knownOrder.some((p) => p.title === k.title)) knownOrder.push(k);
+  /*
+   * Reconcile by DOI first, then title.  A pending placeholder may be
+   * removed after its replacement summary is written; records without a
+   * replacement must nevertheless remain in the ledger instead of silently
+   * disappearing from data/papers.js.
+   */
+  const existingByDoi = new Map(
+    existing
+      .filter((p) => p.doi)
+      .map((p) => [String(p.doi).trim().toLowerCase(), p]),
+  );
+  const existingByTitle = new Map(existing.map((p) => [p.title, p]));
+  const replacements = new Map();
+  const fresh = [];
+
+  for (const p of parsed) {
+    const key = String(p.doi || "").trim().toLowerCase();
+    const ex = (key && existingByDoi.get(key)) || existingByTitle.get(p.title);
+    if (ex) {
+      p.id = ex.id;
+      replacements.set(ex.id, p);
+    } else {
+      fresh.push(p);
+    }
   }
 
+  const knownOrder = existing.map((ex) => replacements.get(ex.id) || ex);
   const ordered = [...fresh, ...knownOrder].map(({ _file, ...p }) => p);
   attachTags(ordered, loadThemeMap());
 

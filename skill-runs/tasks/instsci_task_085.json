@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.artint.2026.104584",
+ "title": "Towards context-aware graph representation learning: Adaptive node aggregation with LLMs",
+ "journal": "Artificial Intelligence",
+ "prefix": "AIJ",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.artint.2026.104584.txt",
+ "placeholder": "summaries\\待补全_5c3869245c03.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.artint.2026.104584.pdf",
+ "year": "2026"
+}

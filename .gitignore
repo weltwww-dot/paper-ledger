@@ -4,6 +4,9 @@ hallmark/
 # 抓取中间产物的大文本（保留 records/oa/abstracts JSON，排除全文提取）
 skill-runs/txt/
 
+# InstSci 批处理的原始下载目录（规范 PDF 已复制到 papers/ 顶层，原始大文件不入库）
+papers/instsci/
+
 # 临时与系统文件
 *.part
 __pycache__/

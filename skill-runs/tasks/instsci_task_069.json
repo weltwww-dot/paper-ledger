@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108902",
+ "title": "Twin contrastive interventional-cause hashing for unsupervised cross-modal retrieval",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108902.txt",
+ "placeholder": "summaries\\待补全_4fa98683bb98.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108902.pdf",
+ "year": "2026"
+}

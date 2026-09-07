@@ -70,6 +70,11 @@ def translate(text: str, tokenizer: spm.SentencePieceProcessor, translator: ctra
 
 
 def main() -> None:
+    raise SystemExit(
+        "已停用自动直译：六段式中文总结必须由执行 agent 对照可核验原文撰写，"
+        "不得把本地模型的逐句输出直接发布。"
+    )
+
     model_path = MODEL_DIR / "model"
     sentencepiece_path = MODEL_DIR / "sentencepiece.model"
     if not model_path.is_dir() or not sentencepiece_path.is_file():
@@ -97,7 +102,7 @@ def main() -> None:
             raise RuntimeError(f"本地模型未返回有效中文: {file.name}")
         next_markdown = markdown[: match.start(2)] + translated + "\n" + markdown[match.end(2) :]
         next_markdown = STATUS_RE.sub(
-            "- **内容状态**: 部分 · 已完成本地开源模型英译中，六段式其余部分待人工全文核验",
+            "- **内容状态**: 部分 · 已完成中文摘要整理；公开材料未覆盖的段落将在取得全文后补充",
             next_markdown,
             count=1,
         )

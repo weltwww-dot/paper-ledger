@@ -9,7 +9,7 @@ summary_gate = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(summary_gate)
 
 
-def summary(one_line="这是中文摘要。", state="部分 · 已完成本地开源模型英译中"):
+def summary(one_line="这是中文摘要。", state="部分 · 已完成中文摘要整理"):
     return f"""# 示例总结
 
 ## 基本信息
@@ -22,19 +22,19 @@ def summary(one_line="这是中文摘要。", state="部分 · 已完成本地�
 
 ## 问题与动机
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 方法
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 实验与结果
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 
 ## 贡献与局限
 
-待人工补全。
+当前公开材料未覆盖本节；取得全文后补充。
 """
 
 

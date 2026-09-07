@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.cose.2026.104960",
+ "title": "Joint entities and relations extraction method for complex scenarios of APT attack threat intelligence analysis",
+ "journal": "Computers & Security",
+ "prefix": "COSE",
+ "direction": "信息安全",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.cose.2026.104960.txt",
+ "placeholder": "summaries\\待补全_55898db83db3.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.cose.2026.104960.pdf",
+ "year": "2026"
+}

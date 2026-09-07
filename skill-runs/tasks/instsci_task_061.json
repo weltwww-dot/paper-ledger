@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.109583",
+ "title": "SynNeura: Event-driven liquid-spiking dynamics for weakly supervised multimodal temporal alignment",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-02",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.109583.txt",
+ "placeholder": "summaries\\待补全_435ff6671d98.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.109583.pdf",
+ "year": "2026"
+}

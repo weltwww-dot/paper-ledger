@@ -2,21 +2,23 @@
 """「更新」工作流一键执行（机械步骤部分）。
 
 用法:
-  python scripts/run_update.py update    # 完整更新：抓取 → 导入 → 本地中文翻译 → PDF 获取 → 同步 → 双闸门
+  python scripts/run_update.py update    # 完整更新：抓取 → 导入 → 中文总结审校 → PDF 获取 → 同步 → 五道闸门
   python scripts/run_update.py fetch     # 读基准 → 增量抓取 → OA 检查 → 抓摘要 → 打印待处理清单
   python scripts/run_update.py advance   # 双闸门通过后：推进更新基准（date=今天, dois=全部）
 
 说明:
-  - update 是日常更新的唯一完整入口。它强制执行本地中文翻译及 PDF 探测、下载、
+  - update 是日常更新的唯一完整入口。它强制执行中文总结审校及 PDF 探测、下载、
     校验与跳过证据登记；任何一步失败都会停止，不能推进或发布。
   - skill 脚本路径: D:/codex/.codex/skills/paper-summarize-fetch/scripts/
 """
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 from datetime import date
 from pathlib import Path
@@ -87,6 +89,14 @@ def titles_from_data():
     return titles
 
 
+def write_temp_json(items):
+    """Write a JSON list to a temp file; returns its path (caller deletes)."""
+    fd, path = tempfile.mkstemp(prefix="paperledger-", suffix=".json", text=True)
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        json.dump([i for i in items if i], f, ensure_ascii=False)
+    return path
+
+
 def require_successful_collection_audit(expected_from_date=None, require_today=False):
     """Prevent state advancement or publishing when source reconciliation failed."""
     if not COLLECTION_AUDIT.exists():
@@ -117,23 +127,36 @@ def fetch():
     oa = RUNS / "oa_inc.json"
     content = RUNS / "content_inc.json"
 
-    log("Step 1/3 · 增量抓取全部期刊论文…")
-    run(
-        [
-            sys.executable,
-            ROOT / "scripts" / "fetch_incremental.py",
-            "--last-date",
-            last_date,
-            "--out",
-            records,
-            "--audit",
-            audit,
-            "--existing-dois",
-            ",".join(dois),
-            "--existing-titles",
-            ",".join(titles_from_data()),
-        ]
-    )
+    # 已收录清单可能很大（586+ 条），Windows 命令行有长度上限，
+    # 统一写到系统临时 JSON，由 fetch_incremental 从文件读取（用完即删）。
+    tmp_dois = tmp_titles = None
+    try:
+        tmp_dois = write_temp_json(dois)
+        tmp_titles = write_temp_json(titles_from_data())
+        log("Step 1/3 · 增量抓取全部期刊论文…")
+        run(
+            [
+                sys.executable,
+                ROOT / "scripts" / "fetch_incremental.py",
+                "--last-date",
+                last_date,
+                "--out",
+                records,
+                "--audit",
+                audit,
+                "--existing-dois-file",
+                tmp_dois,
+                "--existing-titles-file",
+                tmp_titles,
+            ]
+        )
+    finally:
+        for p in (tmp_dois, tmp_titles):
+            if p:
+                try:
+                    os.unlink(p)
+                except OSError:
+                    pass
 
     log("Step 2/3 · OA 检查 + arXiv…")
     run(
@@ -190,34 +213,43 @@ def update():
         run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
         run(["node", ROOT / "scripts" / "sync-papers.js"])
         run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能继续。")
+        run_gate("summary_quality_gate.py", "中文文案质量闸门检查", "中文文案质量闸门未通过，不能继续。")
         run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能继续。")
         run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能继续。")
+        run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能继续。")
         return
 
-    log("Step 4/8 · 登记新增论文…")
+    log("Step 4/9 · 登记新增论文…")
     run(["node", ROOT / "scripts" / "import_incremental.js"])
-    log("Step 5/8 · 使用本地 Argos 模型完成英文摘要英译中…")
-    run(["node", ROOT / "scripts" / "translate_summary_abstracts.js"])
+    log("Step 5/9 · 新增摘要已保存为可核验草稿，中文六段式须由执行 agent 对照原文撰写…")
     log("Step 6/9 · 按既有主题方案补齐新增论文主题标签…")
     run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
     log("Step 7/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
     acquire_pdfs()
+    raise SystemExit(
+        "新增记录的 PDF 获取已完成。请先由执行 agent 完成中文六段式总结，"
+        "再重新运行 update 收口；自动直译不允许进入发布流程。"
+    )
     log("Step 8/9 · 同步总结、主题与 PDF 链接至网站数据…")
     run(["node", ROOT / "scripts" / "sync-papers.js"])
     log("Step 9/9 · 更新完成性检查…")
     run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能推进或发布。")
+    run_gate("summary_quality_gate.py", "中文文案质量闸门检查", "中文文案质量闸门未通过，不能推进或发布。")
     run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能推进或发布。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能推进或发布。")
-    log("✅ 本轮抓取、中文翻译、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
+    run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能推进或发布。")
+    log("✅ 本轮中文总结、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
 
 
 def advance():
     """推进更新基准前同时验证中文摘要与 PDF 获取闭环。"""
     base = load_last_update()
     require_successful_collection_audit(base["date"], require_today=True)
-    run_gate("summary_gate.py", "中文六段式摘要闸门检查（advance 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 advance。")
+    run_gate("summary_gate.py", "中文六段式摘要闸门检查（advance 前置）", "中文摘要闸门未通过：先完成中文总结或修复结构再 advance。")
+    run_gate("summary_quality_gate.py", "中文文案质量闸门检查（advance 前置）", "中文文案质量闸门未通过：先按原文修复措辞再 advance。")
     run_gate("theme_gate.py", "主题标签闸门检查（advance 前置）", "主题标签闸门未通过：先补齐主题再 advance。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查（advance 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 advance。")
+    run_gate("workflow_gate.py", "论文台账总体验收（advance 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
 
     dois = existing_dois_from_data()
     today = date.today().isoformat()
@@ -242,7 +274,8 @@ def publish():
 
     require_successful_collection_audit()
 
-    run_gate("summary_gate.py", "中文六段式摘要闸门检查（publish 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 publish。")
+    run_gate("summary_gate.py", "中文六段式摘要闸门检查（publish 前置）", "中文摘要闸门未通过：先完成中文总结或修复结构再 publish。")
+    run_gate("summary_quality_gate.py", "中文文案质量闸门检查（publish 前置）", "中文文案质量闸门未通过：先按原文修复措辞再 publish。")
     run_gate("theme_gate.py", "主题标签闸门检查（publish 前置）", "主题标签闸门未通过：先补齐主题再 publish。")
 
     # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
@@ -260,6 +293,7 @@ def publish():
 
     # 0b · PDF 闸门：无 PDF 且无跳过记录的论文阻止发布
     run_gate("pdf_gate.py", "PDF 获取闸门检查（publish 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 publish。")
+    run_gate("workflow_gate.py", "论文台账总体验收（publish 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
 
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")

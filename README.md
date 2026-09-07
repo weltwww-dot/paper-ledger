@@ -54,32 +54,31 @@
 
 ```
 读基准 → OpenAlex + Crossref 双来源增量抓取与逐刊 DOI 对账 → OA 检查 → 多渠道抓摘要
-→ 登记六段式总结 → **本地 Argos 英译中** → **按既有主题方案补齐标签** → **PDF 探测、下载、校验与跳过证据登记** → 同步进 data/papers.js
+→ 登记六段式总结草稿 → **执行 agent 对照原文写中文六段式** → **按既有主题方案补齐标签** → **PDF 探测、下载、校验与跳过证据登记** → 同步进 data/papers.js
 → 推进基准 → QA → publish 发布并验证
 ```
 
 日常更新只使用下面的完整入口；它不会省略翻译或 PDF 获取：
 
 ```bash
-python scripts/run_update.py update    # 抓取 → 导入 → 本地翻译 → 主题 → PDF 获取 → 同步 → 三道闸门
+python scripts/run_update.py update    # 抓取 → 导入 → 中文总结审校 → 主题 → PDF 获取 → 同步 → 五道闸门
 python scripts/run_update.py advance   # 内容与标签复核后推进基准；双闸门不通过会拒绝执行
 python scripts/run_update.py publish   # 双闸门 + PDF 文件校验 → 推送 + Pages 验证
 ```
 
-排障或人工补全时仍可单独运行 `fetch`、`pdf`、`abstracts`、`instsci` 与 `verify`；其中
+排障或内容补全时仍可单独运行 `fetch`、`pdf`、`abstracts`、`instsci` 与 `verify`；其中
 `pdf` 现在会完整执行探测、下载、校验和跳过证据登记，不再只是探测。
 
-### 本地翻译模型
+### 中文总结审校
 
-项目的英文摘要翻译默认调用 D 盘的开源 Argos Translate 模型：
-`D:\OpenSourceModels\argos-translate\packages\translate-en_zh-1_9`。
-模型和运行环境均在本机，翻译文本不会发送到在线翻译服务。若模型目录不同，可设置
-`PAPER_LEDGER_ARGOS_MODEL_DIR`；若 Python 运行时不同，可设置
-`PAPER_LEDGER_TRANSLATION_PYTHON`。
+自动直译已停用，避免将逐句机器翻译直接展示在台账中。新增摘要先作为可核验草稿保存，
+由执行 agent 对照原文撰写中文六段式；无法由公开材料支撑的段落必须如实说明信息边界，
+不能用流程性确认措辞代替内容。`summary_quality_gate.py` 会阻止此类措辞、乱码和未解码
+HTML 实体进入推进或发布流程。
 
 每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、排除原因、来源错误以及仅单来源 DOI。默认会重查最近 7 天的发表记录，以覆盖元数据延迟；只要任一来源失败，命令会在写出审计后失败，`advance` 和 `publish` 也会拒绝继续。
 
-发布和推进前有三道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/theme_gate.py --check` 要求每篇都至少有一个主题；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa` 或 `no-file` 证据。网络错误不会自动标作跳过。
+发布和推进前有五道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/summary_quality_gate.py --check` 禁止流程性确认措辞、乱码和未解码实体；`scripts/theme_gate.py --check` 要求每篇都至少有一个主题；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa`、`no-file` 或 `non_research_document` 证据；`scripts/workflow_gate.py --check` 进一步核对 DOI、总结、状态、主题、PDF 链接和跳过证据的一致性。网络错误不会自动标作跳过。
 
 ## 防“读不到摘要”速查
 

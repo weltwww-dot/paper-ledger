@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108918",
+ "title": "Improving human motion generation based on a head-mounted display and its controllers via noise-augmented motion data and the recurrent inference model",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108918.txt",
+ "placeholder": "summaries\\待补全_03a869e32b37.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108918.pdf",
+ "year": "2026"
+}

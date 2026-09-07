@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108912",
+ "title": "SEA: Hierarchically searching efficient adapters for pre-trained models",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108912.txt",
+ "placeholder": "summaries\\待补全_7ca7dc57ee5c.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108912.pdf",
+ "year": "2026"
+}

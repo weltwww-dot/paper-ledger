@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108946",
+ "title": "SDCA: Towards semantic-guided dual camouflage for deceiving human eyes and object detectors",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108946.txt",
+ "placeholder": "summaries\\待补全_6ae82c78aedd.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108946.pdf",
+ "year": "2026"
+}

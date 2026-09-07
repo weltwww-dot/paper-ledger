@@ -33,18 +33,30 @@ def main():
     parser.add_argument("--out", required=True, help="输出新增 records JSON")
     parser.add_argument("--audit", required=True, help="输出逐刊来源对账 JSON")
     parser.add_argument("--catalog", default=str(ROOT / "data" / "journals.json"))
-    parser.add_argument("--existing-dois", default="", help="逗号分隔的已收录 DOI")
-    parser.add_argument("--existing-titles", default="", help="逗号分隔的已收录标题")
+    parser.add_argument("--existing-dois", default="", help="逗号分隔的已收录 DOI（兼容小清单）")
+    parser.add_argument("--existing-dois-file", default="", help="JSON 数组文件：已收录 DOI（避免命令行超长）")
+    parser.add_argument("--existing-titles", default="", help="逗号分隔的已收录标题（兼容小清单）")
+    parser.add_argument("--existing-titles-file", default="", help="JSON 数组文件：已收录标题（避免命令行超长）")
     parser.add_argument("--lookback-days", type=int, default=7, help="重查近期发表记录的天数（默认 7）")
     args = parser.parse_args()
 
     effective_start = effective_start_date(args.last_date, args.lookback_days)
 
+    def load_json_list(path: str) -> list[str]:
+        if not path:
+            return []
+        return [str(x) for x in json.loads(Path(path).read_text(encoding="utf-8")) if str(x).strip()]
+
+    existing_dois = [doi for doi in args.existing_dois.split(",") if doi.strip()]
+    existing_dois += load_json_list(args.existing_dois_file)
+    existing_titles = [title for title in args.existing_titles.split(",") if title.strip()]
+    existing_titles += load_json_list(args.existing_titles_file)
+
     records, audit = collect_journals(
         load_catalog(Path(args.catalog)),
         effective_start,
-        existing_dois=[doi for doi in args.existing_dois.split(",") if doi.strip()],
-        existing_titles=[title for title in args.existing_titles.split(",") if title.strip()],
+        existing_dois=existing_dois,
+        existing_titles=existing_titles,
     )
     audit["requested_from_date"] = args.last_date
     audit["lookback_days"] = args.lookback_days

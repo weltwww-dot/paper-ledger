@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108923",
+ "title": "A spatiotemporal wind power forecasting method based on dual-view graph fusion and dual-granularity residual learning",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108923.txt",
+ "placeholder": "summaries\\待补全_8b847f3a5392.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108923.pdf",
+ "year": "2026"
+}

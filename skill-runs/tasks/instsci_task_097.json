@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108913",
+ "title": "ST-Align: A time series and text alignment framework for cross-subject multivariate time series classification",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108913.txt",
+ "placeholder": "summaries\\待补全_676173e981ec.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108913.pdf",
+ "year": "2026"
+}

@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.109571",
+ "title": "Robust webly supervised fine-grained recognition via decoupled global-local fusion and geometric-semantic consensus",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-08-31",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.109571.txt",
+ "placeholder": "summaries\\待补全_4774840483c9.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.109571.pdf",
+ "year": "2026"
+}

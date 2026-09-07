@@ -1,0 +1,12 @@
+{
+ "doi": "10.1016/j.neunet.2026.108930",
+ "title": "Multimodal-guided prototype calibration and temporal coherence-aware hybrid matching for few-shot action recognition",
+ "journal": "Neural Networks",
+ "prefix": "NN",
+ "direction": "人工智能",
+ "published": "2026-09-01",
+ "txt": "skill-runs\\txt\\instsci\\10.1016_j.neunet.2026.108930.txt",
+ "placeholder": "summaries\\待补全_6b0c24802f30.md",
+ "pdf_src": "papers\\instsci\\elsevier_batch\\primary\\pdfs\\10.1016_j.neunet.2026.108930.pdf",
+ "year": "2026"
+}
