@@ -70,7 +70,7 @@ python scripts/run_update.py advance   # 推进更新基准
 python scripts/run_update.py publish   # 推送 + 等待 Pages 构建 + 验证线上一致
 ```
 
-每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、来源错误以及仅单来源 DOI。只要任一来源失败，命令会在写出审计后失败，阻止推进基准或发布。
+每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、排除原因、来源错误以及仅单来源 DOI。默认会重查最近 7 天的发表记录，以覆盖元数据延迟；只要任一来源失败，命令会在写出审计后失败，`advance` 和 `publish` 也会拒绝继续。
 
 ## 防“读不到摘要”速查
 

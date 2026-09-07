@@ -25,6 +25,7 @@ SKILL_SCRIPTS = Path("D:/codex/.codex/skills/paper-summarize-fetch/scripts")
 RUNS = ROOT / "skill-runs"
 LAST_UPDATE = RUNS / "last_update.json"
 DATA_FILE = ROOT / "data" / "papers.js"
+COLLECTION_AUDIT = RUNS / "collection_audit.json"
 
 
 def log(msg):
@@ -68,6 +69,25 @@ def titles_from_data():
         if m:
             titles = [p.get("title") or "" for p in json.loads(m.group(1))]
     return titles
+
+
+def require_successful_collection_audit(expected_from_date=None, require_today=False):
+    """Prevent state advancement or publishing when source reconciliation failed."""
+    if not COLLECTION_AUDIT.exists():
+        raise SystemExit("缺少期刊来源审计。请先运行 run_update.py fetch。")
+    audit = json.loads(COLLECTION_AUDIT.read_text(encoding="utf-8"))
+    failures = [
+        f"{journal.get('journal')} ({source})"
+        for journal in audit.get("journals") or []
+        for source in ("openalex", "crossref")
+        if (journal.get(source) or {}).get("error")
+    ]
+    if failures:
+        raise SystemExit("期刊来源审计存在失败，拒绝继续：" + ", ".join(failures))
+    if expected_from_date and audit.get("requested_from_date") != expected_from_date:
+        raise SystemExit("期刊来源审计不对应当前更新基准。请重新运行 run_update.py fetch。")
+    if require_today and audit.get("until_date") != date.today().isoformat():
+        raise SystemExit("期刊来源审计不是今天生成的。请重新运行 run_update.py fetch。")
 
 
 def fetch():
@@ -147,6 +167,8 @@ def fetch():
 
 def advance():
     """推进更新基准前先过 PDF 闸门：无 PDF 且无跳过记录的论文会阻止推进。"""
+    base = load_last_update()
+    require_successful_collection_audit(base["date"], require_today=True)
     log("PDF 闸门检查（advance 前置）…")
     gr = subprocess.run(
         [sys.executable, ROOT / "scripts" / "pdf_gate.py", "--check"],
@@ -179,6 +201,8 @@ def publish():
     """推送 → 等待 GitHub Pages 构建完成 → 验证线上内容已更新。"""
     repo = "weltwww-dot/paper-ledger"
     site = "https://weltwww-dot.github.io/paper-ledger"
+
+    require_successful_collection_audit()
 
     # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
     log("发布前校验 papers/ PDF 有效性…")
