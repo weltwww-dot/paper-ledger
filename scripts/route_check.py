@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import urllib.request
+from urllib.parse import urlsplit
 import winreg
 
 IP_ECHO_URLS = [
@@ -27,7 +28,14 @@ IP_ECHO_URLS = [
 NO_PROXY_SUFFIXES = [
     "sciencedirect.com",
     "elsevier.com",
+    "sciencedirectassets.com",
     "ieee.org",
+    "springer.com",
+    "nature.com",
+    "oxfordacademic.com",
+    "academic.oup.com",
+    "acm.org",
+    "sagepub.com",
     "doi.org",
     "openalex.org",
     "semanticscholar.org",
@@ -99,17 +107,27 @@ def no_proxy_missing(no_proxy):
     ]
 
 
+def redact_proxy(proxy_url):
+    """Show only non-sensitive proxy routing facts in a diagnostic report."""
+    try:
+        parsed = urlsplit(proxy_url)
+        return f"{parsed.scheme or 'proxy'}://{parsed.hostname or '已配置'}" + (f":{parsed.port}" if parsed.port else "")
+    except Exception:
+        return "已配置（地址已隐藏）"
+
+
 def main():
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
+    require_direct = "--require-direct" in sys.argv
     print("instsci IP 路线 · 代理出口自检\n")
 
     env_proxy, no_proxy = read_env_proxy()
     sys_enable, sys_server, sys_pac = read_system_proxy()
 
-    print(f"[环境变量代理] {'有: ' + env_proxy if env_proxy else '无'}")
+    print(f"[环境变量代理] {'有: ' + redact_proxy(env_proxy) if env_proxy else '无'}")
     if no_proxy:
         print(f"[NO_PROXY] {no_proxy}")
     print(f"[系统代理] {'启用: ' + (sys_server or sys_pac) if sys_enable or sys_pac else '未启用'}")
@@ -126,6 +144,7 @@ def main():
     publisher_via_proxy = bool(env_proxy) and bool(missing)
 
     print("\n" + "=" * 64)
+    safe_for_local_ip = not (sys_enable or sys_pac) and (not env_proxy or not publisher_via_proxy)
     if not env_proxy and not sys_enable and not sys_pac:
         print("判定: 无代理直连。出版社看到的是本机出口 IP——"
               "若在校园网内即可走 IP 授权（仍需可见浏览器过一遍 WAF 人机验证）。")
@@ -146,6 +165,11 @@ def main():
     print("=" * 64)
     print("\n最终访问判定以单 DOI 可见浏览器为准：")
     print("  instsci papers <one_doi.txt> --publisher auto --mode diagnose --watch-browser focus")
+    if require_direct and not safe_for_local_ip:
+        print("\n❌ 已拒绝启动机构 IP 批量获取：先关闭代理或为全部出版社域名配置直连规则。")
+        raise SystemExit(2)
+    if require_direct:
+        print("\n✅ 本机出口检查通过：可继续进行机构 IP 的单 DOI 可见浏览器验证。")
 
 
 if __name__ == "__main__":

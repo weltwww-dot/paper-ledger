@@ -405,13 +405,13 @@ def queue_instsci():
     queue.write_text("\n".join(p.get("doi") or "" for p in pending if p.get("doi")) + "\n", encoding="utf-8")
     out_dir = ROOT / "papers" / "instsci"
     log(f"补全队列已写入: {queue}（{len(pending)} 篇）")
-    log("下一步（需要机构权限，由你手动完成一次登录）：")
+    log("下一步（机构 IP 必须是本机直连出口；可见浏览器的人机验证/登录由你手动完成）：")
     log(
         "  powershell -ExecutionPolicy Bypass -File "
-        "D:/codex/.codex/skills/paper-summarize-fetch/scripts/instsci_batch.ps1 "
+        f"{ROOT / 'scripts' / 'instsci_batch_local_ip.ps1'} "
         f"-DoisFile {queue} -OutputDir {out_dir}"
     )
-    log("说明：先确保 instsci 已配置机构（instsci setup --school \"你的机构\"）；")
+    log("说明：该包装器会先拒绝代理/PAC 出口；先确保 instsci 已配置机构（instsci setup --school \"你的机构\"）；")
     log("取回 PDF/页面后告诉我，我会更新对应总结并把这些论文的内容状态从待补全改为完整。")
 
 

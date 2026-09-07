@@ -61,7 +61,7 @@
 日常更新只使用下面的完整入口；它不会省略翻译或 PDF 获取：
 
 ```bash
-python scripts/run_update.py update    # 抓取 → 导入 → 本地翻译 → PDF 获取 → 同步 → 中文/PDF 双闸门
+python scripts/run_update.py update    # 抓取 → 导入 → 本地翻译 → 主题 → PDF 获取 → 同步 → 三道闸门
 python scripts/run_update.py advance   # 内容与标签复核后推进基准；双闸门不通过会拒绝执行
 python scripts/run_update.py publish   # 双闸门 + PDF 文件校验 → 推送 + Pages 验证
 ```
@@ -95,8 +95,10 @@ python scripts/run_update.py publish   # 双闸门 + PDF 文件校验 → 推送
 2. **判定出路**：`absent` = 聚合器与公开页确实无摘要 → 走全文补全；
    `blocked` = 出版社 WAF/Cloudflare → 走可见浏览器或机构通道，不硬刷
 3. **机构/IP 通道**：`python scripts/run_update.py instsci` 生成队列后，
-   运行输出的 `instsci_batch.ps1` 命令（或用 `instsci papers <dois.txt>`）
+   运行输出的 `instsci_batch_local_ip.ps1` 命令（或用 `instsci papers <dois.txt>`）
    - 校园网内优先 **IP 直连**：可见 CloakBrowser 里完成人机验证即直接放行，无需 SSO
+   - 本项目包装器会先运行 `route_check.py --require-direct`；检测到代理/PAC 出口即拒绝启动，
+     确保出版社看到的是本机网络出口，而不是普通代理 IP
    - 不在校内则走 **机构 SSO**（学校统一认证/CARSI），由你手动完成一次登录
    - **环境修复**：broker 联网下载 CloakBrowser 超时（ConnectTimeout）时，先设置
      ```powershell
