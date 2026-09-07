@@ -62,6 +62,7 @@
 
 ```bash
 python scripts/run_update.py fetch     # 抓取 + OA + 摘要
+node scripts/import_incremental.js     # 将本轮记录登记为待补全/部分条目
 python scripts/run_update.py pdf       # 探测新增论文的 PDF 可下载性
 python scripts/run_update.py abstracts # 对「待补全」论文重试多渠道摘要（typed 结果 + attempts 缓存）
 python scripts/run_update.py instsci   # 生成机构全文补全队列（HITL，需一次机构登录）
