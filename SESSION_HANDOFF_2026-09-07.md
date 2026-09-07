@@ -181,7 +181,7 @@ git diff --check
 
 ## 4. 关键路径备忘（供续做 agent）
 
-- 工作目录：`C:\Users\Administrator\Documents\ChatGPT\博客网站`
+- 工作目录：`D:\codex\博客网站`
 - 仓库：weltwww-dot/paper-ledger，main 分支，GitHub Pages: <https://weltwww-dot.github.io/paper-ledger/>
 - 更新入口：`python scripts/run_update.py update`；分步与恢复见 `更新工作流.md`。
 - **InstSci 批量取 PDF 前**：跑 `powershell -ExecutionPolicy Bypass -File scripts\instsci_preflight.ps1`（清理残留+设浏览器缓存）；踩坑与降级策略见 `更新工作流.md` §9.4。
@@ -211,6 +211,8 @@ python -m unittest discover -s tests -v                 # 28 项
 ```
 
 ## 6. 更新日志
+
+- **2026-09-07（项目目录迁移）**：项目全部 4754 个文件（含完整 `.git`）已从 `C:\Users\Administrator\Documents\ChatGPT\博客网站` 迁移到 `D:\codex\博客网站`；新路径 Git 工作区干净，HEAD 与 `origin/main` 一致。旧路径只剩被当前 Codex 任务占用的空目录，任务释放句柄后即可删除；后续 agent 必须使用新路径。
 
 - **2026-09-07（展开正文文字重叠修复）**：根据用户截图建立真实 Edge 三列展开卡片复现；修复前连续英文会把 `.paper__blocks` 撑到约 4100px、脚注链接撑到约 4700px。根因是正文隐式网格列采用内容最小宽度，且正文与链接缺少任意断行约束。`styles.css` 已为正文网格、块、段落和脚注链接补齐 `minmax(0, 1fr)`、`min-width: 0`、`overflow-wrap: anywhere` 与边界约束；新增 `tests/layout-overflow-check.js`，并接入 `run_update.py update / advance / publish`。修复后真实浏览器测试通过，28 项 Python 测试通过；已随本轮提交推送。
 

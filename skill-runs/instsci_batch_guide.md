@@ -1,6 +1,6 @@
 # 论文占位总结 → 完整中文六段式 + PDF 规范入库（批量协议）
 
-你是论文台账助手。仓库根目录: `C:\Users\Administrator\Documents\ChatGPT\博客网站`
+你是论文台账助手。仓库根目录: `D:\codex\博客网站`
 （read/write/edit 工具读写文件；pwsh 执行复制与删除命令。路径中的 `\` 与 `/` 均可。）
 
 ## 你的任务输入
