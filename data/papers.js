@@ -20,7 +20,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104938",
     "sample": false,
     "id": "r-12spv2y",
-    "tags": []
+    "tags": [
+      "安全运营自动化"
+    ]
   },
   {
     "title": "Zero-Shot Neural Network Evaluation With Sample-Wise Activation Patterns",
@@ -42,7 +44,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3691075",
     "sample": false,
     "id": "r-15hs99o",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Fine-Grained Features in Any-Shot Learning: A Survey",
@@ -64,7 +68,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678885",
     "sample": false,
     "id": "r-w1912p",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "PGMNO: A physics-Guided mamba neural operator framework for partial differential equations",
@@ -86,7 +92,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108845",
     "sample": false,
     "id": "r-1g1nbzn",
-    "tags": []
+    "tags": [
+      "科学计算AI"
+    ]
   },
   {
     "title": "(α, β)-Core Query on Structured Encrypted Bipartite Graph",
@@ -108,7 +116,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714883",
     "sample": false,
     "id": "r-xonlk4",
-    "tags": []
+    "tags": [
+      "密码学",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "From Convergence to Generalization: Stability of Stationary-Point Learning Algorithms",
@@ -130,7 +141,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688491",
     "sample": false,
     "id": "r-l3nh0t",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A collaborative audit scheme of IoT data integrity for fog computing",
@@ -152,7 +165,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104935",
     "sample": false,
     "id": "r-f2dg01",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "FreeLens: Revealing Mobile App Feature Differences and Their Security and Privacy Implications Across Geographical Regions",
@@ -174,7 +189,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701655",
     "sample": false,
     "id": "r-nxjhva",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "On Convergence of Adam With Data Dependent Stepsize",
@@ -196,7 +213,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3656866",
     "sample": false,
     "id": "r-1sco4de",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Small-Perturbation Adversarial Example Detection via Proactive Decision Boundary Bending",
@@ -218,7 +237,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707542",
     "sample": false,
     "id": "r-1oz3n50",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Lightweight attention-aware fusion network based on state-space model for V-D-T salient object detection",
@@ -240,7 +261,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109578",
     "sample": false,
     "id": "r-so93q5",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Improving human motion generation based on a head-mounted display and its controllers via noise-augmented motion data and the recurrent inference model",
@@ -262,7 +285,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108918",
     "sample": false,
     "id": "r-1wa571l",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "LSPC-LA: Local Structure Preserving Clustering With Learnable Anchors",
@@ -284,7 +309,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3686800",
     "sample": false,
     "id": "r-1awy8qb",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Local Duality for Sparse Support Vector Machines",
@@ -306,7 +333,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3683057",
     "sample": false,
     "id": "r-sovur6",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Behavior and Sublinear Algorithm for Opinion Disagreement on Noisy Social Networks",
@@ -328,7 +357,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3680940",
     "sample": false,
     "id": "r-1emp0r5",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Effectiveness of static text adversarial methods on continuously updating models",
@@ -350,7 +381,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108959",
     "sample": false,
     "id": "r-1ulrgrf",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "自然语言处理"
+    ]
   },
   {
     "title": "DTSM: Digital Twin-Enabled Secure Multicast Signcryption Protocol for Low-Altitude UAV Networks",
@@ -372,7 +406,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3713051",
     "sample": false,
     "id": "r-17ro2kl",
-    "tags": []
+    "tags": [
+      "密码学",
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Toward Robust End-to-End Delay Prediction: A GNN Approach With Routing-Aware Attention and Masked Subgraph Sampling",
@@ -394,7 +431,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670186",
     "sample": false,
     "id": "r-qgy9gj",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "图神经网络",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Fortifying Robustness in Graph Neural Networks: A Loss Correction Approach to Mitigate Label Noise",
@@ -416,7 +457,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661886",
     "sample": false,
     "id": "r-1e9mm3n",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "图神经网络"
+    ]
   },
   {
     "title": "Tunable Domain Adaptation Using Unfolding",
@@ -438,7 +482,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3679328",
     "sample": false,
     "id": "r-1wsicte",
-    "tags": []
+    "tags": [
+      "迁移学习"
+    ]
   },
   {
     "title": "Seeing What Few-Shot Learners See: Contrastive Cross-Class Attribution for Explainability",
@@ -460,7 +506,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3672242",
     "sample": false,
     "id": "r-e922zv",
-    "tags": []
+    "tags": [
+      "可解释AI"
+    ]
   },
   {
     "title": "ATFA: Topology-aware Aggregation with Laplacian-based Heat Diffusion for Federated Learning",
@@ -482,7 +530,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109555",
     "sample": false,
     "id": "r-mkyg9h",
-    "tags": []
+    "tags": [
+      "联邦学习",
+      "生成模型"
+    ]
   },
   {
     "title": "Federated Unlearning Activated Backdoor Attacks",
@@ -504,7 +555,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3703139",
     "sample": false,
     "id": "r-14ay3q4",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "联邦学习"
+    ]
   },
   {
     "title": "Toward a Generalized Defense Across Sparse, Continuous, and Structured Parameter Attacks",
@@ -526,7 +580,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3713473",
     "sample": false,
     "id": "r-fenz6e",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Novel Meta Mode-Adaptive Multihead Attention for Multimode Industrial Process Soft Sensing",
@@ -548,7 +604,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670848",
     "sample": false,
     "id": "r-1pns382",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Relation-Centric knowledge graph generation for recommendation based on conditional diffusion model",
@@ -570,7 +628,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108849",
     "sample": false,
     "id": "r-1fyf289",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Enhancing Value Decomposition With Target Transformation in Cooperative Multi-Agent Reinforcement Learning",
@@ -592,7 +653,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3683517",
     "sample": false,
     "id": "r-1t24uf9",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Stereo Image Coding for Machines With Joint Visual Feature Compression",
@@ -614,7 +677,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3671761",
     "sample": false,
     "id": "r-132hcwo",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Reliable and Compact Graph Fine-Tuning via Graph Sparse Prompting",
@@ -636,7 +701,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3686463",
     "sample": false,
     "id": "r-16c27k8",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Enhancing Stability of Probabilistic Model-Based Reinforcement Learning by Adaptive Noise Filtering",
@@ -658,7 +725,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3672453",
     "sample": false,
     "id": "r-fqp9ir",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Boosting the Performance of Decentralized Federated Learning via Catalyst Acceleration",
@@ -680,7 +749,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688672",
     "sample": false,
     "id": "r-8nlw50",
-    "tags": []
+    "tags": [
+      "去中心化系统",
+      "联邦学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Causality-Preserving Domain Generalization via Adaptive Fourier Mixup for RUL Prediction",
@@ -702,7 +775,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688520",
     "sample": false,
     "id": "r-1hydrqt",
-    "tags": []
+    "tags": [
+      "迁移学习",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Fractional-Order Dynamics Learning and Control via Data-Driven Approaches: Taking Soft Manipulator as an Example",
@@ -724,7 +800,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3665811",
     "sample": false,
     "id": "r-7gsvfi",
-    "tags": []
+    "tags": [
+      "具身智能"
+    ]
   },
   {
     "title": "PRUNE: A patching based repair framework for certifiable and privacy-robust unlearning of neural networks",
@@ -746,7 +824,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108897",
     "sample": false,
     "id": "r-10zo9pn",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理",
+      "隐私保护",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "6G-PFIP: Privacy-Preserving and Personalized Federated Intelligent Paging for 6G Wireless Networks",
@@ -768,7 +850,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701838",
     "sample": false,
     "id": "r-1xq79ii",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "通信与物联网安全",
+      "联邦学习"
+    ]
   },
   {
     "title": "Utilizing Everyday Textures as Concept-Based Explanations for Deep Learning Model Prediction of Glioma Biomarker Status",
@@ -790,7 +876,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681537",
     "sample": false,
     "id": "r-66vgpp",
-    "tags": []
+    "tags": [
+      "可解释AI",
+      "医学AI",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Bi3D++: Hybrid Bi-Domain Active Learning for Cross-Domain 3D Object Detection",
@@ -812,7 +902,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688543",
     "sample": false,
     "id": "r-1xc4mhr",
-    "tags": []
+    "tags": [
+      "计算机视觉",
+      "迁移学习"
+    ]
   },
   {
     "title": "ABIGX: A Unified Framework for Explainable Fault Detection and Classification",
@@ -834,7 +927,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689327",
     "sample": false,
     "id": "r-s4f1vg",
-    "tags": []
+    "tags": [
+      "可解释AI",
+      "异常检测"
+    ]
   },
   {
     "title": "M3SPCL: Multi-stage multi-grained multi-view supervised prototypical contrastive learning",
@@ -856,7 +952,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108878",
     "sample": false,
     "id": "r-1pxad55",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "DPIU: Dynamic Pedestrian Intention Understanding Through Cognitive Decision-Making",
@@ -878,7 +976,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3665567",
     "sample": false,
     "id": "r-acg5ph",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Hybrid Convolution Reparameterization for Efficient Deep Learning-Based Nonprecipitation Echo Recognition and Removal",
@@ -900,7 +1000,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675666",
     "sample": false,
     "id": "r-1tt4c91",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Similarity of Planning Domain Models via Answer Set Programming",
@@ -922,7 +1024,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104620",
     "sample": false,
     "id": "r-p06xx8",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Bic-DC: Scalable and Privacy-Preserving Multi-Party Collaborative Data Cleaning",
@@ -944,7 +1048,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707938",
     "sample": false,
     "id": "r-15tt0si",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Privacy-preserving for user-uploaded images and text in Vision–Language Models",
@@ -966,7 +1073,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104931",
     "sample": false,
     "id": "r-1fntj89",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "大模型",
+      "多模态学习"
+    ]
   },
   {
     "title": "CSFlow: A Content-Aware Secure Flow Control System for Encrypted Data Sharing in Cloud-Edge",
@@ -988,7 +1099,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714374",
     "sample": false,
     "id": "r-1s5ysol",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Suppressing Gradient Conflict for Generalizable Deepfake Detection",
@@ -1010,7 +1123,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687009",
     "sample": false,
     "id": "r-1ngnse3",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Graph Spectral Client Scheduling for Reliable Federated Learning in Safety-Critical LEO Satellite Networks",
@@ -1032,7 +1147,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1007/s10994-026-07159-y",
     "sample": false,
     "id": "r-1wkq5f1",
-    "tags": []
+    "tags": [
+      "联邦学习",
+      "图神经网络",
+      "组合优化"
+    ]
   },
   {
     "title": "Bipartite and H∞ bipartite synchronization for multiweighted coupled fractional-order delayed reaction-diffusion neural networks",
@@ -1054,7 +1173,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108863",
     "sample": false,
     "id": "r-uc3itv",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "科学计算AI"
+    ]
   },
   {
     "title": "Ppin: Anomaly-Based Intrusion Detection on Provenance Graph via Behavior Pattern Mining",
@@ -1076,7 +1198,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710034",
     "sample": false,
     "id": "r-ta2zhy",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "异常检测"
+    ]
   },
   {
     "title": "Near-perfect Clustering Based on Recursive Binary Splitting Using Max-MMD",
@@ -1098,7 +1223,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3669975",
     "sample": false,
     "id": "r-1y1mdoq",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Dual-Fault Tolerant Control for Connected Vehicular Platoons Based on Extended State Fuzzy Observation",
@@ -1120,7 +1247,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3685962",
     "sample": false,
     "id": "r-1ozgaee",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "An integrated framework for information security risk management: A mixed-methods systematic literature review",
@@ -1142,7 +1271,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104957",
     "sample": false,
     "id": "r-1mm40w3",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Graph Attention Transformer With Multitask Learning for Motion Prediction in Autonomous Driving",
@@ -1164,7 +1295,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3672361",
     "sample": false,
     "id": "r-1ebygb7",
-    "tags": []
+    "tags": [
+      "图神经网络",
+      "具身智能",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "PixOOD: Pixel-Level Out-of-Distribution Detection",
@@ -1186,7 +1321,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688748",
     "sample": false,
     "id": "r-19hub6a",
-    "tags": []
+    "tags": [
+      "计算机视觉",
+      "异常检测"
+    ]
   },
   {
     "title": "Versatile Sketch-Based Attribute Filtering for Hybrid Vector Search",
@@ -1208,7 +1346,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3709125",
     "sample": false,
     "id": "r-jasz3z",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "AI Harmonics: A human-centric and harms severity-adaptive AI risk assessment framework",
@@ -1230,7 +1370,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104587",
     "sample": false,
     "id": "r-1usjgq4",
-    "tags": []
+    "tags": [
+      "偏见与公平性"
+    ]
   },
   {
     "title": "GeNeX: Genetic Network eXperts Framework for Addressing Validation Overfitting",
@@ -1252,7 +1394,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669867",
     "sample": false,
     "id": "r-10bu4f8",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Learning From",
@@ -1274,7 +1418,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673280",
     "sample": false,
     "id": "r-1jomovg",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "NTRU-CLSC: Efficient Quantum-Resistant NTRU Lattice-Based Certificateless Signcryption Scheme for VANETs",
@@ -1296,7 +1442,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707071",
     "sample": false,
     "id": "r-1wda5we",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "D3CNet: Long-term time series prediction based on dual decomposition and dual-channel hybrid network",
@@ -1318,7 +1466,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108893",
     "sample": false,
     "id": "r-bqemrj",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Cross-Corpus Speech Emotion Recognition Based on Dynamically Filtering Multistage Diffusion Model",
@@ -1340,7 +1490,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681265",
     "sample": false,
     "id": "r-1k5t6th",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "计算机视觉",
+      "迁移学习"
+    ]
   },
   {
     "title": "CTISum: A new benchmark dataset for Cyber Threat Intelligence summarization",
@@ -1362,7 +1516,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104928",
     "sample": false,
     "id": "r-h9ect1",
-    "tags": []
+    "tags": [
+      "安全运营自动化",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Backdoor-Based Watermarking in Multi-Client Split Learning",
@@ -1384,7 +1541,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712080",
     "sample": false,
     "id": "r-1w7eorr",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "联邦学习"
+    ]
   },
   {
     "title": "Fractional-order gradient descent learning for Elman neural networks",
@@ -1406,7 +1566,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108880",
     "sample": false,
     "id": "r-1eh47ic",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "ZK-HybridFL: Zero-Knowledge Proof-Enhanced Hybrid Ledger for Federated Learning",
@@ -1428,7 +1590,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3658993",
     "sample": false,
     "id": "r-8yvbxe",
-    "tags": []
+    "tags": [
+      "密码学",
+      "联邦学习"
+    ]
   },
   {
     "title": "Dynamic expandable framework for incremental anomaly detection",
@@ -1450,7 +1615,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108949",
     "sample": false,
     "id": "r-ks7k7y",
-    "tags": []
+    "tags": [
+      "异常检测"
+    ]
   },
   {
     "title": "ITS-ShipFormer: An Informative Token Selection Former for SAR Ship Recognition",
@@ -1472,7 +1639,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661083",
     "sample": false,
     "id": "r-9lz0b",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Learning from heterogeneous structural MRI via collaborative domain adaptation for late-Life depression assessment",
@@ -1494,7 +1663,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108911",
     "sample": false,
     "id": "r-79k4hu",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "迁移学习"
+    ]
   },
   {
     "title": "Cyber Deception for Mission Surveillance via Hypergame-Theoretic Deep Reinforcement Learning",
@@ -1516,7 +1688,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699507",
     "sample": false,
     "id": "r-d3xm7b",
-    "tags": []
+    "tags": [
+      "网络欺骗与蜜罐",
+      "强化学习"
+    ]
   },
   {
     "title": "Cross-Technology Signal Detection and Jamming Attack for Heterogeneous Internet of Things",
@@ -1538,7 +1713,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710528",
     "sample": false,
     "id": "r-4f7pev",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Balanced Multi-View Clustering",
@@ -1560,7 +1737,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688728",
     "sample": false,
     "id": "r-9jm5w7",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Learning Scene-Level Signed Directional Distance Function With Ellipsoidal Priors and Neural Residuals",
@@ -1582,7 +1761,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688658",
     "sample": false,
     "id": "r-13iq921",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "CipherBD: A Backdoor Defense Toward Privacy Preserving Neural Network Training",
@@ -1604,7 +1785,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696814",
     "sample": false,
     "id": "r-1jtiha6",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "密码学",
+      "隐私保护"
+    ]
   },
   {
     "title": "ANN-Cache: Accelerating Approximate Nearest Neighbor Search via Caching",
@@ -1626,7 +1811,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3700562",
     "sample": false,
     "id": "r-5b2vkb",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Resilient Secure Control of Networked Industrial Control Systems Under AI-Driven Feedback Poisoning via ACK Bundling",
@@ -1648,7 +1835,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698054",
     "sample": false,
     "id": "r-154l573",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Neural-Adaptive Finite-Time Consensus Tracking of Singular Multiagent Systems With Actuator Attack",
@@ -1670,7 +1859,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3659079",
     "sample": false,
     "id": "r-1quf0t2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "CTGAD-X: Explainable Contrastive Learning on Temporal Graphs for Advanced Threat Detection",
@@ -1692,7 +1883,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3703460",
     "sample": false,
     "id": "r-1t4tw1z",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "图神经网络",
+      "可解释AI"
+    ]
   },
   {
     "title": "A Modified Artificial Potential Field Approach for Real-Time Robot Path Planning via Adaptive Gradient Neural Network",
@@ -1714,7 +1909,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109605",
     "sample": false,
     "id": "r-czib0g",
-    "tags": []
+    "tags": [
+      "具身智能"
+    ]
   },
   {
     "title": "Decoupled information-guided cross-modal alignment for visible-infrared person re-identification",
@@ -1736,7 +1933,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109561",
     "sample": false,
     "id": "r-2flghf",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Multi-scale pyramid fusion with overlap density attention module for crowd counting",
@@ -1758,7 +1958,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108983",
     "sample": false,
     "id": "r-1nrb2di",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Neural feature alignment between large language models and brain activities: A knowledge-based framework for cross-modal analysis",
@@ -1780,7 +1982,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108916",
     "sample": false,
     "id": "r-dw6w09",
-    "tags": []
+    "tags": [
+      "大模型",
+      "多模态学习"
+    ]
   },
   {
     "title": "EnsDiffAD: Ensemble Diffusion Models for Multivariate Time Series Anomaly Detection",
@@ -1802,7 +2007,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708334",
     "sample": false,
     "id": "r-12kogv0",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "异常检测",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Identity-Based Encryption With Equality Test and Flexible Time-Based Authorization for Cloud Computing",
@@ -1824,7 +2033,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3702092",
     "sample": false,
     "id": "r-1u3ycll",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "How security-related stress and self-efficacy influence actual behavior: An empirical study",
@@ -1846,7 +2057,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104948",
     "sample": false,
     "id": "r-1hm85a9",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Synergistic Authentication in Beam Alignment for Secure mmWave Communications",
@@ -1868,7 +2081,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714802",
     "sample": false,
     "id": "r-tebuwv",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Traceable Registered Functional Encryption for Unbounded Inner Product in Web Service Platforms",
@@ -1890,7 +2105,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3716326",
     "sample": false,
     "id": "r-rmze49",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "BC-TRUST: Blockchain-Assisted Trust Assessment via Auditable End-to-End Latency Evidence in SIoT",
@@ -1912,7 +2129,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707856",
     "sample": false,
     "id": "r-3n4i6q",
-    "tags": []
+    "tags": [
+      "去中心化系统"
+    ]
   },
   {
     "title": "P3RS-MT: Privacy-Preserving Personalized Recommendation Services in Medical Tourism",
@@ -1934,7 +2153,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699451",
     "sample": false,
     "id": "r-1gt9nyo",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "医学AI",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Toward Secure Task Offloading in Vehicular Edge Computing Networks",
@@ -1956,7 +2179,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697937",
     "sample": false,
     "id": "r-pg60vg",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Randomization Mechanism Based on Elliptical Distributions for Location Privacy in Geo-Indistinguishability",
@@ -1978,7 +2203,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698496",
     "sample": false,
     "id": "r-1vznedn",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Logits-Level Balanced Machine Unlearning for LLM-Based Recommendation System",
@@ -2000,7 +2227,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3660137",
     "sample": false,
     "id": "r-10w1w45",
-    "tags": []
+    "tags": [
+      "大模型",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Graph Unlearning for MLaaS: Toward Flexible Privacy Adjustment via Influenced Subgraph",
@@ -2022,7 +2252,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715465",
     "sample": false,
     "id": "r-1terutm",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Unlearning or Not: A Strategic Data Forgetting Scheme for Federated Unlearning With Bounded Rationality",
@@ -2044,7 +2276,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714771",
     "sample": false,
     "id": "r-juwb69",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Beyond Single-Pair Attacks: Disrupting Vision-Language Pre-Training Models With Dual-Semantic Frequency Stealth",
@@ -2066,7 +2300,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3713210",
     "sample": false,
     "id": "r-fmpgod",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Generalized robust loss function driven learning framework for pattern recognition",
@@ -2088,7 +2324,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108945",
     "sample": false,
     "id": "r-xenpli",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "SLIMQ: Secure Lightweight Online/Offline Multi-Dimensional Range Query in Cloud",
@@ -2110,7 +2349,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715456",
     "sample": false,
     "id": "r-183m5o0",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Efficient Minimum $k$-Truss Search: A Decomposition-Based Approach",
@@ -2132,7 +2373,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3701433",
     "sample": false,
     "id": "r-w15hsg",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing",
@@ -2154,7 +2397,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696736",
     "sample": false,
     "id": "r-11w8uvu",
-    "tags": []
+    "tags": [
+      "密码学",
+      "去中心化系统"
+    ]
   },
   {
     "title": "Hierarchical cross-attention guided deformable registration with multi-level feature fusion for medical images",
@@ -2176,7 +2422,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108908",
     "sample": false,
     "id": "r-1e7mzb2",
-    "tags": []
+    "tags": [
+      "反欺诈",
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Mitigating Non-IID Challenges in Federated Learning: A Synthetic Data Augmentation Approach",
@@ -2198,7 +2448,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3708224",
     "sample": false,
     "id": "r-f8txzq",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Predefined-time cluster lag synchronization of inertial neural networks: A dynamic event-triggered control",
@@ -2220,7 +2472,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108940",
     "sample": false,
     "id": "r-tfswii",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Adaptive DBSCAN-Enhanced Oversampling for Imbalanced Network Intrusion Detection: A Boundary-Aware Approach",
@@ -2242,7 +2496,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3703615",
     "sample": false,
     "id": "r-rugzm0",
-    "tags": []
+    "tags": [
+      "入侵检测与防御"
+    ]
   },
   {
     "title": "Rethinking Link Prediction for Directed Graphs",
@@ -2264,7 +2520,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688944",
     "sample": false,
     "id": "r-pupme6",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Training instabilities favor flatter solutions in gradient descent",
@@ -2286,7 +2544,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108874",
     "sample": false,
     "id": "r-ofati9",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Towards formal validation and performance evaluation of TLS 1.3 using Intelligent Transport System certificates",
@@ -2308,7 +2568,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104955",
     "sample": false,
     "id": "r-1dun2ei",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Dual Attention Multi-Instance Learning for Identifying Autism Spectrum Disorder Using Resting-State fMRI",
@@ -2330,7 +2592,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3669876",
     "sample": false,
     "id": "r-134bqsk",
-    "tags": []
+    "tags": [
+      "医学AI"
+    ]
   },
   {
     "title": "Retrieval-augmented and feedback-optimized large language model for recommendation",
@@ -2352,7 +2616,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108954",
     "sample": false,
     "id": "r-ov0t7",
-    "tags": []
+    "tags": [
+      "大模型",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Scam detection between individuals with and without prior victimization",
@@ -2374,7 +2641,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104961",
     "sample": false,
     "id": "r-rsgw20",
-    "tags": []
+    "tags": [
+      "反欺诈"
+    ]
   },
   {
     "title": "Accountable-Authority Identity-Based Matchmaking Encryption and Its Application",
@@ -2396,7 +2665,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714500",
     "sample": false,
     "id": "r-uasebf",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Securing enterprise communications: Human-centric practices and emerging research",
@@ -2418,7 +2689,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104954",
     "sample": false,
     "id": "r-ajpgbs",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Ariadne: Reconstruction of Stateful Web Attacks via Goal-Oriented State Search",
@@ -2440,7 +2713,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3711370",
     "sample": false,
     "id": "r-akhlvf",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Robust Image-Based Visual Servoing Formation Control for Quadrotors Without Communication via Reinforcement Learning",
@@ -2462,7 +2737,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3665724",
     "sample": false,
     "id": "r-n859xv",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "强化学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Tuning Your Privacy on Outsourced Data Through Semi-Trusted Helpers",
@@ -2484,7 +2763,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707948",
     "sample": false,
     "id": "r-153d9ps",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "ImagineNav++: Prompting Vision-Language Models as Embodied Navigator Through Scene Imagination",
@@ -2506,7 +2787,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688692",
     "sample": false,
     "id": "r-xl91z",
-    "tags": []
+    "tags": [
+      "大模型",
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "NPSVC++: A Representation Learning Framework for Nonparallel Classifiers",
@@ -2528,7 +2813,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661343",
     "sample": false,
     "id": "r-abjbff",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Bridging Distribution Gaps in Time Series Foundation Model Pretraining With Prototype-Guided Normalization",
@@ -2550,7 +2837,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673975",
     "sample": false,
     "id": "r-1yppc0j",
-    "tags": []
+    "tags": [
+      "大模型",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "On the Limitations and Capabilities of Position Embeddings for Length Generalization",
@@ -2572,7 +2862,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688702",
     "sample": false,
     "id": "r-3cuvpv",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Fog-assisted data integrity auditing scheme with deduplication function for cloud storage",
@@ -2594,7 +2886,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104951",
     "sample": false,
     "id": "r-qhiqws",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Beyond Subject-Specific Models in Dynamical Human--Machine Interaction: Benchmarking and Optimization Strategies",
@@ -2616,7 +2910,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3662308",
     "sample": false,
     "id": "r-s8vhex",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "M4D: Manifold entanglement for robust decision tree NIDS in medical IoT",
@@ -2638,7 +2934,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104924",
     "sample": false,
     "id": "r-4irlrl",
-    "tags": []
+    "tags": [
+      "通信与物联网安全",
+      "对抗与鲁棒性",
+      "医学AI"
+    ]
   },
   {
     "title": "Privacy-preserving path constrained shortest distance queries on encrypted graphs",
@@ -2660,7 +2960,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104932",
     "sample": false,
     "id": "r-49t95s",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Systematic Evaluation of Dataset Watermarking for Intellectual Protection",
@@ -2682,7 +2984,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710863",
     "sample": false,
     "id": "r-ov9sfl",
-    "tags": []
+    "tags": [
+      "后门与投毒"
+    ]
   },
   {
     "title": "Uncertainty-Aware Dynamic Learning With Fuzzy-Guided Temporal Aggregation for Reliable Anomaly Detection",
@@ -2704,7 +3008,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3706099",
     "sample": false,
     "id": "r-1a363yi",
-    "tags": []
+    "tags": [
+      "异常检测"
+    ]
   },
   {
     "title": "Walking a Private Road: Direction-Guided Perturbation for Trajectory Data Under Local Differential Privacy",
@@ -2726,7 +3032,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707872",
     "sample": false,
     "id": "r-h5qc30",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "A Dual Correction Guarantee Mechanism for Numerical Label Noise",
@@ -2748,7 +3056,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708662",
     "sample": false,
     "id": "r-1j3k9mb",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Dimension- adaptive latent representation learning with normalized hyperbolic tensor rank for multi-view clustering",
@@ -2770,7 +3080,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108905",
     "sample": false,
     "id": "r-1v1dspl",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Casbin: A Graph-Based Approach for Efficient and Verifiable Cloud Authorization",
@@ -2792,7 +3104,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3709803",
     "sample": false,
     "id": "r-xirc4l",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Efficient Structure-Aware Discrete Clustering via Multi-Order Anchor Graphs",
@@ -2814,7 +3128,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3700798",
     "sample": false,
     "id": "r-dg6xzg",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation",
@@ -2836,7 +3152,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3694421",
     "sample": false,
     "id": "r-tazkt0",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
@@ -2858,7 +3176,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690561",
     "sample": false,
     "id": "r-158re7j",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Dynamic-Aware video distillation: Adaptive temporal partitioning based on video semantics for edge device",
@@ -2880,7 +3200,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108871",
     "sample": false,
     "id": "r-1y6uyv1",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "WavInWav: Time-Domain Speech Hiding via Invertible Neural Network",
@@ -2902,7 +3224,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695459",
     "sample": false,
     "id": "r-1upqd9v",
-    "tags": []
+    "tags": [
+      "自然语言处理"
+    ]
   },
   {
     "title": "Editorial Board",
@@ -2924,7 +3248,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/s0004-3702(26)00119-0",
     "sample": false,
     "id": "r-1mi007h",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "NEO: Navigating Entropy in Optimized Closed-Box Video Adversarial Attacks",
@@ -2946,7 +3272,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715804",
     "sample": false,
     "id": "r-18ptwkx",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "NEQRX: A Quantum Image Encryption and Reversible Data Hiding Scheme With Reduced Circuit Complexity",
@@ -2968,7 +3297,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707981",
     "sample": false,
     "id": "r-m0trpx",
-    "tags": []
+    "tags": [
+      "密码学",
+      "计算机视觉"
+    ]
   },
   {
     "title": "When Erasure Fails: Benchmarking Content Removal in Diffusion Models via Vocabulary Substitution Attack",
@@ -2990,7 +3322,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707740",
     "sample": false,
     "id": "r-m3g6rf",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Optimal Connectivity of Multilayer Networks: Enhancing Robustness and Security",
@@ -3012,7 +3346,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712193",
     "sample": false,
     "id": "r-b2nzpz",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "MERA: A Green Edge Resource Control System With Privacy-Preservation via Mean-Field Reinforcement Learning",
@@ -3034,7 +3370,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3705464",
     "sample": false,
     "id": "r-4hycni",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "强化学习"
+    ]
   },
   {
     "title": "Soft Error Rate Evaluation and Silent Data Corruption Detection for Reliable TFHE Computations on GPUs",
@@ -3056,7 +3395,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714766",
     "sample": false,
     "id": "r-f6jmps",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Learning Optimal Policies With Local Observations for Cooperative Multiagent Reinforcement Learning",
@@ -3078,7 +3419,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673692",
     "sample": false,
     "id": "r-zp4umz",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "LARW: Robust Watermarking Framework With Linear Additive Residuals",
@@ -3100,7 +3443,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710057",
     "sample": false,
     "id": "r-ql0ac0",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Vehicle-Side Lightweight Conditional Anonymous Double Authentication Framework With Password Robustness in VANETs",
@@ -3122,7 +3468,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3702678",
     "sample": false,
     "id": "r-9ldbu9",
-    "tags": []
+    "tags": [
+      "通信与物联网安全",
+      "对抗与鲁棒性",
+      "具身智能"
+    ]
   },
   {
     "title": "SynNeura: Event-driven liquid-spiking dynamics for weakly supervised multimodal temporal alignment",
@@ -3144,7 +3494,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109583",
     "sample": false,
     "id": "r-1077925",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "PerC-SimAM-BLSTM: Position Perception Circular Convolution With Simple Attention Mechanism Based on BLSTM for Bundle Branch Block Detection",
@@ -3166,7 +3518,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3665367",
     "sample": false,
     "id": "r-1kzqmxg",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Maximum total correntropy-based broad learning system with robust M-estimator",
@@ -3188,7 +3542,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108917",
     "sample": false,
     "id": "r-4psegd",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Multimodal Transformer-Based Gait Analysis and Deep Learning Model for Slip-Resistant Footwear Evaluation",
@@ -3210,7 +3566,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681277",
     "sample": false,
     "id": "r-1htxxcq",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "ReLU integral probability metric and its applications",
@@ -3232,7 +3590,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109589",
     "sample": false,
     "id": "r-15wciqh",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Improved Residual Learning in Diffusion Models",
@@ -3254,7 +3614,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689939",
     "sample": false,
     "id": "r-1vz35np",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Redundancy Removal and Knowledge Alignment-Based Personalized Federated Learning for Online Condition Monitoring",
@@ -3276,7 +3638,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3663653",
     "sample": false,
     "id": "r-7hwrdg",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Generative binary memory: Pseudo-Replay class-Incremental learning on binarized embeddings",
@@ -3298,7 +3662,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108884",
     "sample": false,
     "id": "r-kn8vmu",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Robust webly supervised fine-grained recognition via decoupled global-local fusion and geometric-semantic consensus",
@@ -3320,7 +3687,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109571",
     "sample": false,
     "id": "r-1urqfaq",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "The evolution of investment cyber scams: vulnerability and victim blaming in the cryptocurrency era",
@@ -3342,7 +3712,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104950",
     "sample": false,
     "id": "r-1brwkhb",
-    "tags": []
+    "tags": [
+      "反欺诈",
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "TrCLIP-VAD : Weak supervised video anomaly detection by improving CLIP training with text rewriting",
@@ -3364,7 +3737,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108951",
     "sample": false,
     "id": "r-1h1adgj",
-    "tags": []
+    "tags": [
+      "大模型",
+      "计算机视觉",
+      "异常检测"
+    ]
   },
   {
     "title": "TSFA: A Two-Stage Feature Alignment Method for Unsupervised Open-Set Domain Adaptation in Time-Series Classification",
@@ -3386,7 +3763,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669519",
     "sample": false,
     "id": "r-1169nv2",
-    "tags": []
+    "tags": [
+      "迁移学习"
+    ]
   },
   {
     "title": "Bellman error centering",
@@ -3408,7 +3787,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108896",
     "sample": false,
     "id": "r-t5i0zw",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Fusion of Supervised Feature Selection and Unsupervised Clustering for Multinuclei Classification of MER Signals in DBS for Parkinson's Disease",
@@ -3430,7 +3811,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675818",
     "sample": false,
     "id": "r-dqhcx9",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Task Graph Maximum Likelihood Estimation for Procedural Activity Understanding in Egocentric Videos",
@@ -3452,7 +3835,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689721",
     "sample": false,
     "id": "r-72goc9",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "CIRCUS: A Causal Intervention-Based Framework for Enhancing Counterfactual Fairness in Trained Classifiers",
@@ -3474,7 +3859,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670269",
     "sample": false,
     "id": "r-3hyaa5",
-    "tags": []
+    "tags": [
+      "偏见与公平性",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Dual Graph Network Hashing for Cross-Modal Retrieval",
@@ -3496,7 +3884,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710651",
     "sample": false,
     "id": "r-1kqztmx",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "SRFormerV2: Taking a Closer Look at Permuted Self-Attention for Image Super-Resolution",
@@ -3518,7 +3909,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3685679",
     "sample": false,
     "id": "r-edigj8",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Dual-Teacher and Dual-Prompt Pool for Few-Shot Dialog State Tracking",
@@ -3540,7 +3933,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3659341",
     "sample": false,
     "id": "r-1s70e2t",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Revealing and Overcoming Fairness Confusion in Out-of-Distribution Detection",
@@ -3562,7 +3957,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109564",
     "sample": false,
     "id": "r-1pdkzm5",
-    "tags": []
+    "tags": [
+      "偏见与公平性",
+      "异常检测"
+    ]
   },
   {
     "title": "Twin contrastive interventional-cause hashing for unsupervised cross-modal retrieval",
@@ -3584,7 +3982,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108902",
     "sample": false,
     "id": "r-florjo",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "No Time to Evade: Context-Aware Conditional Entropy Partitioning and Model Fusion for Robust Multiprocess Malware Detection",
@@ -3606,7 +4007,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678598",
     "sample": false,
     "id": "r-t0wfxh",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "DP-SfM: Dual-Pixel Structure-From-Motion Without Scale Ambiguity",
@@ -3628,7 +4032,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690655",
     "sample": false,
     "id": "r-mrn59u",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Boosting self-supervised multi-frame depth estimation with hybrid geometric-semantic constraints",
@@ -3650,7 +4056,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108943",
     "sample": false,
     "id": "r-1s8zcw7",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Pretrained Model Recommendation for Downstream Fine-Tuning",
@@ -3672,7 +4080,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3701263",
     "sample": false,
     "id": "r-j63unp",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Long-Short-Term Decoupled Residual Learning for High-Resolution Spatio-Temporal Air Quality Inference",
@@ -3694,7 +4104,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109575",
     "sample": false,
     "id": "r-1ustudh",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Fast and Distributed Equivariant Graph Neural Networks by Virtual Node Learning",
@@ -3716,7 +4128,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3684569",
     "sample": false,
     "id": "r-1dvfpin",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "Black-Box Verification for GNN Ownership via Decision Boundary Fingerprints",
@@ -3738,7 +4152,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695130",
     "sample": false,
     "id": "r-gq7yra",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "FastPoS: An efficient Proof of Storage scheme with polynomial commitments for fog–cloud IoT systems",
@@ -3760,7 +4176,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104969",
     "sample": false,
     "id": "r-arhmq2",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "TFMPHGNN: Two-Fold multi-perspective heterogeneous graph neural network for sentiment analysis",
@@ -3782,7 +4200,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108885",
     "sample": false,
     "id": "r-512cl2",
-    "tags": []
+    "tags": [
+      "图神经网络",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Post-Silicon Deception: Evasive Hardware Trojan Through Adversarial Power Trace",
@@ -3804,7 +4225,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696769",
     "sample": false,
     "id": "r-b25vex",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "网络欺骗与蜜罐",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Passivity and synchronization of fractional-order coupled neural networks with multiple weights: A PD approach",
@@ -3826,7 +4251,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108861",
     "sample": false,
     "id": "r-16uxwbm",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Language-Enhanced Supervision-Reduced Analysis Framework for Multibranching Vessels",
@@ -3848,7 +4275,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681535",
     "sample": false,
     "id": "r-feofs1",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Joint entities and relations extraction method for complex scenarios of APT attack threat intelligence analysis",
@@ -3870,7 +4299,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104960",
     "sample": false,
     "id": "r-1coh4c0",
-    "tags": []
+    "tags": [
+      "安全运营自动化"
+    ]
   },
   {
     "title": "Anti-Inpainting: A Proactive Defense Approach Against Malicious Diffusion-Based Inpainters Under Unknown Conditions",
@@ -3892,7 +4323,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3708852",
     "sample": false,
     "id": "r-1238q6x",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Adaptive Graph Convolution With Diffusion Models for Multimodal Recommendation",
@@ -3914,7 +4347,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3706381",
     "sample": false,
     "id": "r-1vw8nih",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "多模态学习",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Multi-agent contrastive exploration via value decomposition discrepancy",
@@ -3936,7 +4373,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108929",
     "sample": false,
     "id": "r-1rukj4t",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Online Learning in Open Data Space",
@@ -3958,7 +4397,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708299",
     "sample": false,
     "id": "r-12i7ekg",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "EchoType: Identity recognition from typing-induced ultrasonic reflections",
@@ -3980,7 +4421,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104947",
     "sample": false,
     "id": "r-1um1nky",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "OmniCharacter++: Toward Comprehensive Benchmark for Realistic Role-Playing Agents",
@@ -4002,7 +4445,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690447",
     "sample": false,
     "id": "r-cbrl1g",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "SVTAgg: Secure, Verifiable, and Traceable Model Aggregation for Edge-Assisted Federated Learning",
@@ -4024,7 +4469,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707153",
     "sample": false,
     "id": "r-1gh3x80",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "SEO-DBSCAN: Securely and Efficiently Outsourcing Density-Based Clustering",
@@ -4046,7 +4493,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3711460",
     "sample": false,
     "id": "r-1wadzq2",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Addressing Structural Distribution Shift in Explanations for Graph Neural Networks",
@@ -4068,7 +4517,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690304",
     "sample": false,
     "id": "r-167sgax",
-    "tags": []
+    "tags": [
+      "图神经网络",
+      "异常检测"
+    ]
   },
   {
     "title": "Threshold Secure Certificateless Subgroup Multi-Signature for Anonymously Consensus Mechanisms",
@@ -4090,7 +4542,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715447",
     "sample": false,
     "id": "r-16g894p",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Coupled Impulsive Control for Multisynchronization of Multistable Stochastic Neural Networks Under Parameter Uncertainties",
@@ -4112,7 +4566,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669910",
     "sample": false,
     "id": "r-dc1nc6",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Using a single actor to output personalized policy for different intersections",
@@ -4134,7 +4590,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108909",
     "sample": false,
     "id": "r-15g446k",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "An Enhanced Low-Computational-Complexity Predefined-Time Convergent Zeroing Neural Network for Constrained Time-Varying Quadratic Programming With Kinematic Control of Robotic Manipulator",
@@ -4156,7 +4614,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3672118",
     "sample": false,
     "id": "r-1y57720",
-    "tags": []
+    "tags": [
+      "具身智能"
+    ]
   },
   {
     "title": "IEEE Transactions on Artificial Intelligence Publication Information",
@@ -4178,7 +4638,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3717078",
     "sample": false,
     "id": "r-5e3b8j",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MISC: Flexible Data Management for Private Smart Contract",
@@ -4200,7 +4662,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701041",
     "sample": false,
     "id": "r-f7ulbb",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "The value of leaked data in online social networks",
@@ -4222,7 +4687,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104937",
     "sample": false,
     "id": "r-st80oz",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Towards context-aware graph representation learning: Adaptive node aggregation with LLMs",
@@ -4244,7 +4711,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104584",
     "sample": false,
     "id": "r-15zs3m5",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MARSNet: A convolutional attention residual shrinkage network for RNA-protein binding site prediction",
@@ -4266,7 +4735,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108922",
     "sample": false,
     "id": "r-1ck7ume",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Reinforcement Learning-Based Active Fault-Tolerant Control of Multi-Agent Systems",
@@ -4288,7 +4759,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678538",
     "sample": false,
     "id": "r-1xkekcu",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Revealing and Defending Against Backdoor Threats in Short-Term Federated Learning",
@@ -4310,7 +4783,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707924",
     "sample": false,
     "id": "r-1k087t9",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "联邦学习"
+    ]
   },
   {
     "title": "Secure and Verifiable Optional-Dimension Data Aggregation for Efficient WBAN Deployment",
@@ -4332,7 +4808,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3706744",
     "sample": false,
     "id": "r-1yshjgf",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Gauss--Newton Temporal Difference Learning With Nonlinear Function Approximation",
@@ -4354,7 +4832,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661291",
     "sample": false,
     "id": "r-d0w298",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Anti-Disturbance Proximal Neural Networks for Composite Resource Allocation",
@@ -4376,7 +4856,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675092",
     "sample": false,
     "id": "r-1y1j6an",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "TAP: Time Series Anomaly Prediction via Adaptive Period Modeling and Dual Representation Learning",
@@ -4398,7 +4880,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3691368",
     "sample": false,
     "id": "r-1ogd6o1",
-    "tags": []
+    "tags": [
+      "异常检测",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Evolution Rather Than Degradation: Structure-Guided Elastic Consensus Learning for Multimodal Knowledge Graph Completion",
@@ -4420,7 +4905,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710321",
     "sample": false,
     "id": "r-1u8phjx",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "An Automated Exploitability Analysis Method Based on State Machines",
@@ -4442,7 +4930,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.105140",
     "sample": false,
     "id": "r-1cgqdw6",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "VGM-UNet: A hybrid visual graph deformable mamba with fourier neural operator U-Net for medical image segmentation",
@@ -4464,7 +4954,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108890",
     "sample": false,
     "id": "r-dw6vn4",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "计算机视觉",
+      "科学计算AI"
+    ]
   },
   {
     "title": "Dataset Distillation via a Noise-Unconstrained Generative Model",
@@ -4486,7 +4980,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690778",
     "sample": false,
     "id": "r-3m4fsu",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Offline constrained policy optimization with safe anchoring",
@@ -4508,7 +5005,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108865",
     "sample": false,
     "id": "r-1jpauco",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Complex-valued proximal neural network method for solving complex-valued mixed variational inequalities",
@@ -4530,7 +5029,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108919",
     "sample": false,
     "id": "r-964yd3",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Gradient Normalization Enables Communication-Efficient Distributed Learning Under Initialization Data Heterogeneity",
@@ -4552,7 +5053,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689520",
     "sample": false,
     "id": "r-lq0xac",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Query-Efficient Video Adversarial Attack With Stylized Logo on Service Computing",
@@ -4574,7 +5077,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3705579",
     "sample": false,
     "id": "r-1h5v95o",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "DNN Obfuscation With Contrastive Learning for Efficient Defense Against Side-Channel Attacks",
@@ -4596,7 +5103,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697449",
     "sample": false,
     "id": "r-xrwohw",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Meta Relation-Aware Metric Learning Framework for Few-Shot Uncertain Knowledge Graph Completion",
@@ -4618,7 +5127,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3692238",
     "sample": false,
     "id": "r-287gz9",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "TFT-GCN: A Time-Frequency Based Model for Time Series Anomaly Detection",
@@ -4640,7 +5151,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3707947",
     "sample": false,
     "id": "r-1k9lqfz",
-    "tags": []
+    "tags": [
+      "异常检测",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "DSTFGCN: A dynamic spatial-temporal fusion graph convolution network for traffic flow forecasting",
@@ -4662,7 +5176,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108989",
     "sample": false,
     "id": "r-2owyh",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Comorbidity-aware transfer learning for neuro-developmental disorder diagnosis",
@@ -4684,7 +5200,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108980",
     "sample": false,
     "id": "r-13jkt6j",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "迁移学习"
+    ]
   },
   {
     "title": "Planning with uncertainty: symmetries, policy inference, and solution compression",
@@ -4706,7 +5225,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104574",
     "sample": false,
     "id": "r-z8vro2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Unified Framework With Capped Tensor Norm Minimization for Multiview Subspace Learning",
@@ -4728,7 +5249,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3694749",
     "sample": false,
     "id": "r-118jciq",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Efficient Out-of-Distribution Generalization for Pretrained GNNs via Prompt Learning",
@@ -4750,7 +5273,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3666523",
     "sample": false,
     "id": "r-b3d4u1",
-    "tags": []
+    "tags": [
+      "异常检测"
+    ]
   },
   {
     "title": "Integrating perceptual cues with mixture-of-experts for low-light image restoration",
@@ -4772,7 +5297,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108915",
     "sample": false,
     "id": "r-g62guy",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Human-in-the-Loop Formation-Containment Safe Control for Multi-agent Systems via Reinforcement Learning",
@@ -4794,7 +5321,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2025.3559040",
     "sample": false,
     "id": "r-e0sut1",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Style Backdoor: A Robust Style-Decoupled Clean-Label Backdoor Attack",
@@ -4816,7 +5345,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696051",
     "sample": false,
     "id": "r-twobb8",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "A robust multi-view support vector machine with the RoBoSS loss function",
@@ -4838,7 +5370,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108937",
     "sample": false,
     "id": "r-14tw94q",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "ST-Align: A time series and text alignment framework for cross-subject multivariate time series classification",
@@ -4860,7 +5394,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108913",
     "sample": false,
     "id": "r-esjs0o",
-    "tags": []
+    "tags": [
+      "时间序列与预测",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Triple Spectral Fusion for Sensor-Based Human Activity Recognition",
@@ -4882,7 +5419,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690949",
     "sample": false,
     "id": "r-1ai2wg0",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "A noise-resilient distributed recurrent neural network for multi-agent consensus control and acoustic source localization",
@@ -4904,7 +5443,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108938",
     "sample": false,
     "id": "r-td8qi3",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Accelerated Reinforcement Learning With Verifiable Excitation for Cubic Convergence",
@@ -4926,7 +5467,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3674477",
     "sample": false,
     "id": "r-438jjv",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Best current practices for privacy-preserving OpenID Connect: A study of their adoption in the wild",
@@ -4948,7 +5491,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104934",
     "sample": false,
     "id": "r-cq71wg",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "TrustTiny-HAR: Selective, Open-Set, and Calibrated Activity Recognition on Microcontrollers",
@@ -4970,7 +5515,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3676723",
     "sample": false,
     "id": "r-tjd4cb",
-    "tags": []
+    "tags": [
+      "计算机视觉",
+      "异常检测"
+    ]
   },
   {
     "title": "Infinite Gaussian Mixture Autoencoder for Adaptive Deep Unsupervised Clustering",
@@ -4992,7 +5540,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3677237",
     "sample": false,
     "id": "r-n21hq",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "NEU: Continuous-time memory evolution for temporal interaction graph networks",
@@ -5014,7 +5564,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108998",
     "sample": false,
     "id": "r-yku7nl",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Caller ID Spoofing Effectiveness: A Socio-Technical Analysis of Trust Propagation and User Behaviour",
@@ -5036,7 +5588,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.105144",
     "sample": false,
     "id": "r-3sexcx",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "MADGCN: A Meteorology-Aware Spatio-Temporal Graph Convolution Network for Long-Term Air Pollution Forecasting",
@@ -5058,7 +5612,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3692204",
     "sample": false,
     "id": "r-g6fyr4",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Parallel Secure Pattern Matching With Differential Privacy and Consistency Checking",
@@ -5080,7 +5637,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698857",
     "sample": false,
     "id": "r-y74dpt",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Toward In-Depth Root Cause Localization for Microservices With Multi-Agent Recursion-of-Thought",
@@ -5102,7 +5661,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3706572",
     "sample": false,
     "id": "r-esy5ec",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "SDCA: Towards semantic-guided dual camouflage for deceiving human eyes and object detectors",
@@ -5124,7 +5685,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108946",
     "sample": false,
     "id": "r-6a8nh5",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Multimodal-guided prototype calibration and temporal coherence-aware hybrid matching for few-shot action recognition",
@@ -5146,7 +5709,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108930",
     "sample": false,
     "id": "r-n55xfv",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Neural network pruning and simultaneous feature and structure selection",
@@ -5168,7 +5734,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108977",
     "sample": false,
     "id": "r-1loqpek",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "FlashShield: Detecting Flash Loan Attacks in DeFi Using Hypergraph Neural Network",
@@ -5190,7 +5758,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698115",
     "sample": false,
     "id": "r-lvtiqh",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "Spatiotemporal Decoupled Learning for Spiking Neural Networks",
@@ -5212,7 +5782,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3671461",
     "sample": false,
     "id": "r-1f83mvp",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "DATCNN: a novel CNN network with all the advantages of KAN while offering greater flexibility",
@@ -5234,7 +5806,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109580",
     "sample": false,
     "id": "r-1gg3dxh",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Verifiable Encrypted Timed Signature Scheme and Its Application in Blockchains",
@@ -5256,7 +5830,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715374",
     "sample": false,
     "id": "r-17efucm",
-    "tags": []
+    "tags": [
+      "密码学",
+      "去中心化系统"
+    ]
   },
   {
     "title": "Mining Congestion Propagation Patterns in Urban Road Networks: A Reinforcement Learning Method",
@@ -5278,7 +5855,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3698929",
     "sample": false,
     "id": "r-1v06w5v",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "K Graph Centers",
@@ -5300,7 +5879,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3701456",
     "sample": false,
     "id": "r-dc1mzb",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Bias Amplification in RAG: Poisoning Knowledge Retrieval to Steer LLMs",
@@ -5322,7 +5903,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3709319",
     "sample": false,
     "id": "r-rrte",
-    "tags": []
+    "tags": [
+      "偏见与公平性",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Fine-Grained Detection and Analysis of Unknown Encrypted Malicious Traffic From Mixed Noisy Labels",
@@ -5344,7 +5928,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697849",
     "sample": false,
     "id": "r-e3rsff",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "PD",
@@ -5366,7 +5952,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699314",
     "sample": false,
     "id": "r-1ys",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "The complexity of envy-free graph cutting",
@@ -5388,7 +5976,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104585",
     "sample": false,
     "id": "r-1ete16d",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Push-Pull Network Mechanism Revealed by Describing Function Analysis for Alzheimer's Pathological Oscillations",
@@ -5410,7 +6000,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3666557",
     "sample": false,
     "id": "r-1vik1uk",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "<i>Perspicio:</i>",
@@ -5432,7 +6024,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3705636",
     "sample": false,
     "id": "r-yz3et5",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Identifying heterophilic neighbors via confidence-based subgraph matching for graph neural networks",
@@ -5454,7 +6048,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104575",
     "sample": false,
     "id": "r-76s75v",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "TCPFMC: Trustworthy Cyclic Progressive Fusion for Multimodal Classification",
@@ -5476,7 +6072,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661974",
     "sample": false,
     "id": "r-1vozjbx",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "State of the Union: Toward Reproducible Performance Evaluations in Federated Learning",
@@ -5498,7 +6096,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3697810",
     "sample": false,
     "id": "r-1qbxmqr",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Learning Without Forgetting for Continual Learning in LLMs Through Adaptive LoRA Ranks",
@@ -5520,7 +6120,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1007/s10994-026-07145-4",
     "sample": false,
     "id": "r-thxig0",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MEDiT: A mask-enhanced diffusion transformer model for fetal heart rate signal generation",
@@ -5542,7 +6144,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108961",
     "sample": false,
     "id": "r-jnmgtb",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Beyond Spatial Privacy: Protecting Trajectories With Spatio-Temporal Differential Privacy",
@@ -5564,7 +6168,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3690781",
     "sample": false,
     "id": "r-ufxyfp",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "PMPSI: Privacy-Preserving Predicate-Supporting Multi-Party Private Set Intersection",
@@ -5586,7 +6192,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704390",
     "sample": false,
     "id": "r-79dmhy",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Discrete bidirectional memristive neural network-based hyperchaotic system and its FPGA implementation",
@@ -5608,7 +6216,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108887",
     "sample": false,
     "id": "r-1ph5eb5",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Rethinking Spectral Graph Neural Networks With Spatially Adaptive Filtering",
@@ -5630,7 +6240,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673098",
     "sample": false,
     "id": "r-12te15q",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "Privacy emotion recognition in artificial intelligence: Research frontiers, key challenges, and prospects",
@@ -5652,7 +6264,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108927",
     "sample": false,
     "id": "r-1j7loum",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "计算机视觉",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Sparse Variational Student-t Processes for Heavy-Tailed Modeling",
@@ -5674,7 +6290,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673350",
     "sample": false,
     "id": "r-axs7nu",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Silent Poisoning: A Stealthy and Unified Dual-Space Framework for VFL Backdoor Attacks",
@@ -5696,7 +6314,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3705642",
     "sample": false,
     "id": "r-4wr0aj",
-    "tags": []
+    "tags": [
+      "后门与投毒"
+    ]
   },
   {
     "title": "Budget-Constrained Online Retrieval-Augmented Generation: The Chunk-as-a-Service Model",
@@ -5718,7 +6338,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3666170",
     "sample": false,
     "id": "r-heqwyw",
-    "tags": []
+    "tags": [
+      "大模型",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "A Post-Quantum Decentralized Threshold Authenticated Key Agreement Scheme for Securing Vehicular Ad-Hoc Networks",
@@ -5740,7 +6363,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696421",
     "sample": false,
     "id": "r-19pczs",
-    "tags": []
+    "tags": [
+      "密码学",
+      "去中心化系统",
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "MS-Workset: A novel worker misbehavior dataset for workers’ behavior tracking in mobile crowdsensing environment",
@@ -5762,7 +6389,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.105136",
     "sample": false,
     "id": "r-4pzhhi",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "PriRAG: Privacy-Preserving Inference for Retrieval-Augmented Large Language Models",
@@ -5784,7 +6413,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698487",
     "sample": false,
     "id": "r-98t6jv",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "大模型",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "An Advanced Persistent Threat Detection Framework Based on Graph Attention Networks With Spectral Feature Refinement",
@@ -5806,7 +6439,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695911",
     "sample": false,
     "id": "r-1aj0tyn",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "图神经网络",
+      "偏见与公平性"
+    ]
   },
   {
     "title": "Adaptive Semi-Supervised Learning-Based Misbehavior Detection in Vehicular Networks",
@@ -5828,7 +6465,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3702025",
     "sample": false,
     "id": "r-xbra6",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "SecureDFL: A Secure Distributed Federated Learning Framework Against Poisoning Attacks",
@@ -5850,7 +6489,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697583",
     "sample": false,
     "id": "r-brzn5q",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "The Last Mile of Fuzzing: An Efficient Fault Localization Framework for ARM Embedded Firmware",
@@ -5872,7 +6513,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712723",
     "sample": false,
     "id": "r-1l6hs3h",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Use Your PIN Securely: Acoustic-Based Second-Factor User Authentication With Enhanced Tap Biometrics",
@@ -5894,7 +6537,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710224",
     "sample": false,
     "id": "r-12au1z5",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "NVC-1B: Scaling up Neural Video Coding Models",
@@ -5916,7 +6561,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689998",
     "sample": false,
     "id": "r-vudu7x",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "ThermalGaussian++: Improving Alignment and Resolution for ThermalGaussian",
@@ -5938,7 +6585,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689388",
     "sample": false,
     "id": "r-1tj1ssw",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Policy-Adjustable Q-Learning for Data-Driven Nonlinear Optimal Tracking Control",
@@ -5960,7 +6609,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3672136",
     "sample": false,
     "id": "r-190qewq",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "SEA: Hierarchically searching efficient adapters for pre-trained models",
@@ -5982,7 +6633,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108912",
     "sample": false,
     "id": "r-1mzoex2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Uncovering Bluetooth vulnerabilities with binary coverage-guided fuzz testing and controller emulation",
@@ -6004,7 +6657,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104929",
     "sample": false,
     "id": "r-lpsv4g",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "KSNet: Advancing autism prediction via KAN-based graph convolution and multi-source data fusion",
@@ -6026,7 +6681,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108892",
     "sample": false,
     "id": "r-brj66o",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Exploiting GANs Against IDSs: A Systematic Review, Meta-Analysis, and Case Study Evaluation",
@@ -6048,7 +6705,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3677234",
     "sample": false,
     "id": "r-q839nf",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Dynamic Anchor-Based One-Step Hypergraph Ensemble Clustering",
@@ -6070,7 +6729,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710223",
     "sample": false,
     "id": "r-qo4u16",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Reentrancy Vulnerability Detection in Smart Contracts Based on Adversarial Examples",
@@ -6092,7 +6753,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696629",
     "sample": false,
     "id": "r-54m5zy",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Structural Knowledge-Guided Complex-Noise Handling for Open Intent Classification",
@@ -6114,7 +6778,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109588",
     "sample": false,
     "id": "r-16fprct",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Psychological drivers of compliance intention–The roles of professionals’ motivational profiles and personality traits in following information systems security policies at work",
@@ -6136,7 +6802,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104952",
     "sample": false,
     "id": "r-1w4nkda",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "VaRiA: Variable-Resolution Image Adaptive Robust Watermarking",
@@ -6158,7 +6826,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707132",
     "sample": false,
     "id": "r-18fue0g",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Fuzzy-driven broad learning system with class probability and density awareness for multi-view data",
@@ -6180,7 +6852,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108914",
     "sample": false,
     "id": "r-1d25j47",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "TAPLIDS: A Temporal-Aware Prototype-based Lightweight and Interpretable Intrusion Detection System for Intelligent Transportation Systems",
@@ -6202,7 +6876,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.105131",
     "sample": false,
     "id": "r-1urpl0o",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "可解释AI"
+    ]
   },
   {
     "title": "Multi-source domain open-set deep transfer adversarial network for operating performance assessment",
@@ -6224,7 +6901,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108981",
     "sample": false,
     "id": "r-1snk8w1",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Order-Based Causal Discovery for Multistage Processes",
@@ -6246,7 +6925,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710776",
     "sample": false,
     "id": "r-16ldhiu",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Contrast sensitivity in multimodal large language models: A psychophysics-inspired evaluation",
@@ -6268,7 +6949,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108903",
     "sample": false,
     "id": "r-27vxbq",
-    "tags": []
+    "tags": [
+      "大模型",
+      "多模态学习"
+    ]
   },
   {
     "title": "Rethinking the Utilization of Individual Rewards in Multiagent Reinforcement Learning With Sparse Team Rewards",
@@ -6290,7 +6974,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3658520",
     "sample": false,
     "id": "r-3tual9",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "INN/ENNS/JNNS - Membership Applic. Form",
@@ -6312,7 +6998,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/s0893-6080(26)00678-7",
     "sample": false,
     "id": "r-3f6ql2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Box-Free Model Watermarks are Prone to Black-Box Removal Attacks",
@@ -6334,7 +7022,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688047",
     "sample": false,
     "id": "r-1d5thlr",
-    "tags": []
+    "tags": [
+      "后门与投毒"
+    ]
   },
   {
     "title": "Hierarchical memory-based deep reinforcement learning in simulated survival environments",
@@ -6356,7 +7046,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108987",
     "sample": false,
     "id": "r-v3gb2g",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "BMTree: Designing, Learning, and Updating Piecewise Space-Filling Curves for Multi-Dimensional Data Indexing",
@@ -6378,7 +7070,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3704959",
     "sample": false,
     "id": "r-w20ubg",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Iasta: An Efficient Cipher for Hybrid Homomorphic Encryption in Cloud-Assisted IoT",
@@ -6400,7 +7094,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715690",
     "sample": false,
     "id": "r-3gasy7",
-    "tags": []
+    "tags": [
+      "密码学",
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "TraceDiff: Anomaly Detection on Microservice Traces Through Frequency-Aware Conditional Diffusion Model",
@@ -6422,7 +7119,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712748",
     "sample": false,
     "id": "r-ei5dvu",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "异常检测"
+    ]
   },
   {
     "title": "Randomized forward mode gradient for spiking neural networks in scientific machine learning",
@@ -6444,7 +7144,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108978",
     "sample": false,
     "id": "r-8xba2k",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Efficient and High Fidelity Multimodal Machine Unlearning for Information With Deep Memory",
@@ -6466,7 +7168,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3706840",
     "sample": false,
     "id": "r-qebtce",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "CAPTR-GTP: Class-aware prompting and token refinement with graph token propagation for few-shot ViTs",
@@ -6488,7 +7192,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108934",
     "sample": false,
     "id": "r-i0r4zp",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Dual Adversarial Adaptation With Dynamic Labeling Mechanism for Semisupervised Cross-Well Lithology Identification",
@@ -6510,7 +7216,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3679484",
     "sample": false,
     "id": "r-bjb8o0",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Beyond pairwise dependence: A multi-filter fusion network for graph representation learning",
@@ -6532,7 +7240,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108906",
     "sample": false,
     "id": "r-15stn5t",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Neural-Network-Assisted Approach to Recursive State Estimation for Energy Harvesting Complex Networks With Unknown Nonlinearities",
@@ -6554,7 +7264,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669864",
     "sample": false,
     "id": "r-1bxsxty",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A spatiotemporal wind power forecasting method based on dual-view graph fusion and dual-granularity residual learning",
@@ -6576,7 +7288,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108923",
     "sample": false,
     "id": "r-1gl3zaf",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Hybrid Action-Based Reinforcement Learning for Multiobjective Compatible Autonomous Driving",
@@ -6598,7 +7312,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3674573",
     "sample": false,
     "id": "r-8kzt9p",
-    "tags": []
+    "tags": [
+      "强化学习",
+      "具身智能"
+    ]
   },
   {
     "title": "Key-Driven Identity Protection and Secure Traceability for Face-Swapping",
@@ -6620,7 +7337,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697494",
     "sample": false,
     "id": "r-1s467ps",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Robustness-Guaranteed Reinforcement Learning Under Uncertainties in Dynamics Modeling and State Estimates",
@@ -6642,7 +7361,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3675539",
     "sample": false,
     "id": "r-gch4el",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "强化学习"
+    ]
   },
   {
     "title": "Policy optimization for CMDPs with bandit feedback: Best-of-both-worlds and beyond",
@@ -6664,7 +7386,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104589",
     "sample": false,
     "id": "r-a02wi0",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "High-resolution image deraining via dual-branch features interaction and fusion",
@@ -6686,7 +7410,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108936",
     "sample": false,
     "id": "r-1j3azby",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "A Low-Rank Perspective on Similarity Matrix Completion",
@@ -6708,7 +7434,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3702548",
     "sample": false,
     "id": "r-1pir0cf",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "STAC-IoT: A secure task-based access control for IoT-edge computing architecture",
@@ -6730,7 +7458,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104915",
     "sample": false,
     "id": "r-17yoyrm",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Fine-Grained Analysis of Nonparametric Estimation for Pairwise Learning",
@@ -6752,7 +7482,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3661550",
     "sample": false,
     "id": "r-m2i1x1",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "CoNR-Miner: Self-Adaptive Co-Occurrence Nonoverlapping Sequential Rule Mining",
@@ -6774,7 +7506,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3705564",
     "sample": false,
     "id": "r-1krniko",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Automatic selection of protections to mitigate risks against software applications",
@@ -6796,7 +7530,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104959",
     "sample": false,
     "id": "r-x07j30",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration",
@@ -6818,7 +7554,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104621",
     "sample": false,
     "id": "r-dtg7yi",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Multiobjective Evolutionary Algorithm Based on Bipopulation With Uniform Sampling for Neural Architecture Search",
@@ -6840,7 +7578,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3659508",
     "sample": false,
     "id": "r-rzc20p",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Equation Discovery for Classification: Finding Interpretable Symbolic Specifications of the Decision Boundary",
@@ -6862,7 +7602,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1007/s10994-026-07156-1",
     "sample": false,
     "id": "r-hyipcf",
-    "tags": []
+    "tags": [
+      "可解释AI"
+    ]
   },
   {
     "title": "Complex AFNet: A Hybrid Complex-Valued Deep Network for Atrial Fibrillation Detection",
@@ -6884,7 +7626,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3671218",
     "sample": false,
     "id": "r-6i87pn",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "IEEE Transactions on Neural Networks and Learning Systems Publication Information",
@@ -6906,7 +7650,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3723914",
     "sample": false,
     "id": "r-vyw87r",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Hierarchical Mesh Representation Learning With Spectral Dictionary Embedding",
@@ -6928,7 +7674,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690051",
     "sample": false,
     "id": "r-1bn655m",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Dual CNN and ViT experts fusion for open set recognition",
@@ -6950,7 +7698,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108910",
     "sample": false,
     "id": "r-1u8q6ye",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "V-Sparse: From temporal-spatial visual semantic compression to coarse-to-fine interaction for text-video retrieval",
@@ -6972,7 +7722,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108982",
     "sample": false,
     "id": "r-nsm4g3",
-    "tags": []
+    "tags": [
+      "计算机视觉",
+      "自然语言处理",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Dual contrastive learning with graph masking: A self-supervised framework for multi-view clustering",
@@ -6994,7 +7748,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108894",
     "sample": false,
     "id": "r-aorxso",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "CEMTNet: a cognitive emotion modulated network for multimodal depression detection",
@@ -7016,7 +7772,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108907",
     "sample": false,
     "id": "r-wqwllh",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Multistage PCA Whitening: A Robust Method to Dimensionality Reduction in Image Retrieval",
@@ -7038,7 +7796,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669538",
     "sample": false,
     "id": "r-1kkppb8",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "ChamVerDB: A Chameleon Hash-Based Secure and Efficient Verifiable Outsourced Database",
@@ -7060,7 +7822,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701191",
     "sample": false,
     "id": "r-u6tm1d",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "A successful strategy for iterated Prisoner’s dilemma with any number of channels",
@@ -7082,7 +7846,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104572",
     "sample": false,
     "id": "r-1ovxnry",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Robust Tensor Decomposition Under Multi-Mode Outlier Corruptions",
@@ -7104,7 +7870,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3687121",
     "sample": false,
     "id": "r-178md0e",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Strength-Adaptive Adversarial Training",
@@ -7126,7 +7894,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3684741",
     "sample": false,
     "id": "r-1qklk7c",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Dual object graph and bisimulation metric for object-goal navigation in unfamiliar environment",
@@ -7148,7 +7918,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108921",
     "sample": false,
     "id": "r-1lsp8p8",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MPDA: Multimodal Prompt Decoupling Attack on the Safety Filters in Text-to-Image Models",
@@ -7170,7 +7942,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696145",
     "sample": false,
     "id": "r-emyqj1",
-    "tags": []
+    "tags": [
+      "大模型",
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Toward Personalized Differentially Private Learning for Decentralized Local Graphs",
@@ -7192,7 +7968,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710808",
     "sample": false,
     "id": "r-1lujlup",
-    "tags": []
+    "tags": [
+      "去中心化系统",
+      "隐私保护"
+    ]
   },
   {
     "title": "NucleicBERT interprets RNA sequence space through self-supervised language modelling",
@@ -7214,7 +7993,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1038/s42256-026-01295-9",
     "sample": false,
     "id": "r-1ilaj19",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "FA-Mamba: frequency attention driven Mamba for multimodal remote sensing classification",
@@ -7236,7 +8017,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108931",
     "sample": false,
     "id": "r-1h57amq",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Joint Power and Location Design for Energy-Efficient Covert UAV Communications",
@@ -7258,7 +8041,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714209",
     "sample": false,
     "id": "r-rf1w56",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Heterophily-Based Dynamic Hypergraph for Semisupervised Classification and Its Application in UAV Fault Diagnosis",
@@ -7280,7 +8065,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3672585",
     "sample": false,
     "id": "r-1sfqmdo",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Hardware-anchored assurance: A trusted resilience framework for critical edge infrastructure",
@@ -7302,7 +8089,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.105137",
     "sample": false,
     "id": "r-1fvy61",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "RENI++: A Rotation-Equivariant, Scale-Invariant, Natural Illumination Prior",
@@ -7324,7 +8113,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3691593",
     "sample": false,
     "id": "r-13qjwbo",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Poisoning-Assisted Membership Inference in Federated Learning",
@@ -7346,7 +8137,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699355",
     "sample": false,
     "id": "r-b39q3t",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "JPEG Compatible Secret Sharing Scheme With Enhanced Performance",
@@ -7368,7 +8161,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714465",
     "sample": false,
     "id": "r-11kkyat",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Sparse Traffic Accident Risk Forecasting With Spatial-Temporal Knowledge Graphs",
@@ -7390,7 +8185,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3706345",
     "sample": false,
     "id": "r-yvev26",
-    "tags": []
+    "tags": [
+      "时间序列与预测",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Enabling Transparent Integrity Auditing and Secure Deduplication Over Encrypted Cloud Storage Based on Blockchain",
@@ -7412,7 +8210,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714758",
     "sample": false,
     "id": "r-nl0b8r",
-    "tags": []
+    "tags": [
+      "去中心化系统"
+    ]
   },
   {
     "title": "Quantum Conflict Measurement in Decision Fusion for Out-of-Distribution Detection",
@@ -7434,7 +8234,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688924",
     "sample": false,
     "id": "r-cqkgpv",
-    "tags": []
+    "tags": [
+      "异常检测"
+    ]
   },
   {
     "title": "Multi-modal contrastive learning based on molecular and textual data for drug response prediction",
@@ -7456,7 +8258,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108882",
     "sample": false,
     "id": "r-1ddm11u",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "FSS-DT: Secure Division-Free Decision Tree Training and Inference via Function Secret Sharing",
@@ -7478,7 +8283,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695949",
     "sample": false,
     "id": "r-nspxca",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "AirMask: Enabling Air-to-Air Masking of Wireless Traffic Fingerprints in WiFi-Based IoT Environments",
@@ -7500,7 +8307,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714400",
     "sample": false,
     "id": "r-36q2yu",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "The Other Side of the Coin: Exploring Fairness in Retrieval-Augmented Generation",
@@ -7522,7 +8331,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3704753",
     "sample": false,
     "id": "r-1kkv1v0",
-    "tags": []
+    "tags": [
+      "偏见与公平性",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "FlowCrypt: Flow-Based Lightweight Encryption With Near-Lossless Recovery for Cloud Photo Privacy",
@@ -7544,7 +8356,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3710932",
     "sample": false,
     "id": "r-1h0xie9",
-    "tags": []
+    "tags": [
+      "密码学",
+      "隐私保护"
+    ]
   },
   {
     "title": "rKAN: Rational Kolmogorov-Arnold networks",
@@ -7566,7 +8381,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108888",
     "sample": false,
     "id": "r-7sz6cb",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "IEEE Computational Intelligence Society",
@@ -7588,7 +8405,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3723916",
     "sample": false,
     "id": "r-19tp0u1",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Redefining Non-IID Data in Federated Learning for Computer Vision Tasks: Migrating From Labels to Embeddings for Task-Specific Data Distributions",
@@ -7610,7 +8429,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3677838",
     "sample": false,
     "id": "r-1c4mliq",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "When Blockchain and Federated Learning Hit it Off: Forging a Novel Proof of Useful Work",
@@ -7632,7 +8453,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707157",
     "sample": false,
     "id": "r-1bk28pd",
-    "tags": []
+    "tags": [
+      "去中心化系统",
+      "联邦学习"
+    ]
   },
   {
     "title": "Adaptive honeypot allocation in multi-attacker networks via Bayesian Stackelberg Games",
@@ -7654,7 +8478,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104949",
     "sample": false,
     "id": "r-wuqwoz",
-    "tags": []
+    "tags": [
+      "网络欺骗与蜜罐"
+    ]
   },
   {
     "title": "Semantic Prompt and Graph-Convolution-Structure Distillation Framework for Semantic Segmentation of Remote Sensing Images",
@@ -7676,7 +8502,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675381",
     "sample": false,
     "id": "r-kpuhp9",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "JSPR-Net: A Jacobian-stabilized physics-informed residual neural network for breast cancer detection and fractional-order disease progression modeling",
@@ -7698,7 +8526,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108944",
     "sample": false,
     "id": "r-13llqif",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Dilated multi-Layer perceptron mixer for faster neural networks",
@@ -7720,7 +8550,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108939",
     "sample": false,
     "id": "r-1h9s9wl",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MuSc-V2: Zero-Shot Multimodal Industrial Anomaly Classification and Segmentation With Mutual Scoring of Unlabeled Samples",
@@ -7742,7 +8574,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688174",
     "sample": false,
     "id": "r-nu6dhk",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉",
+      "异常检测"
+    ]
   },
   {
     "title": "HQT-TI: An Efficient Hilbert Curve Based Index for Spatial Keyword Queries",
@@ -7764,7 +8600,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3699763",
     "sample": false,
     "id": "r-sh69gr",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Simulating the Real World: A Unified Survey of Multimodal Generative Models",
@@ -7786,7 +8624,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690925",
     "sample": false,
     "id": "r-sor5t6",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "多模态学习"
+    ]
   },
   {
     "title": "Quantum-enhanced learning: Leveraging von Neumann entropy for enhanced graph neural network performance",
@@ -7808,7 +8649,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108958",
     "sample": false,
     "id": "r-pqye4o",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "Multiobjective Simulated Annealing-Based Stopwords Substitution for Rubbish Text Attack",
@@ -7830,7 +8673,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675368",
     "sample": false,
     "id": "r-1wcziu4",
-    "tags": []
+    "tags": [
+      "自然语言处理"
+    ]
   },
   {
     "title": "Global Polynomial Synchronization of Uncertain Complex-Valued Reaction--Diffusion T--S Fuzzy Memristive Neural Networks With Proportional Delays Under Adaptive Event-Triggered Control",
@@ -7852,7 +8697,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3668287",
     "sample": false,
     "id": "r-pskbgz",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "MCPXkit: The Unified Toolkit for Analyzing Model Context Protocol Security",
@@ -7874,7 +8721,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695553",
     "sample": false,
     "id": "r-rtdsc5",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Towards continual low-light image enhancement through causal inference",
@@ -7896,7 +8745,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108947",
     "sample": false,
     "id": "r-hh2o1e",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "PSMEKL: Positional and structural multiple empirical kernel learning for node embedding",
@@ -7918,7 +8769,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108898",
     "sample": false,
     "id": "r-1c8gg55",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Evidence-guided Learning against Noisy and Sparse Labels on Graphs",
@@ -7940,7 +8793,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104608",
     "sample": false,
     "id": "r-v8wkuj",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Feature Expansion With Semi-Dynamic Feature Sets (SDFS) and LLM-Powered Explainability: A Novel Approach to Discovering Missing Features",
@@ -7962,7 +8817,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681539",
     "sample": false,
     "id": "r-1ba2xkl",
-    "tags": []
+    "tags": [
+      "可解释AI",
+      "大模型"
+    ]
   },
   {
     "title": "GenIA: Generative Index Advisor for Dynamic Workloads and Data",
@@ -7984,7 +8842,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3698793",
     "sample": false,
     "id": "r-1v2tsuf",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation",
@@ -8006,7 +8866,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687518",
     "sample": false,
     "id": "r-16cdy54",
-    "tags": []
+    "tags": [
+      "自然语言处理"
+    ]
   },
   {
     "title": "YOTO++: Learning Long-Horizon Closed-Loop Bimanual Manipulation From One-Shot Human Video Demonstrations",
@@ -8028,7 +8890,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688078",
     "sample": false,
     "id": "r-1c38fiz",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Multi-Kernelized Fuzzy Granular Outlier Detector",
@@ -8050,7 +8914,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708765",
     "sample": false,
     "id": "r-1p4waqh",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Attack-resilient adaptive distributed neurodynamic approach for solving noncooperative games",
@@ -8072,7 +8938,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108920",
     "sample": false,
     "id": "r-37nvdp",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Similarity-guided state attention for visual reinforcement learning",
@@ -8094,7 +8962,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109560",
     "sample": false,
     "id": "r-12umxmf",
-    "tags": []
+    "tags": [
+      "强化学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "TopoCL: Topological Contrastive Learning for Time Series",
@@ -8116,7 +8987,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3675422",
     "sample": false,
     "id": "r-1gaps45",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Master of Disguise: Toward Reversible and Universal Facial Privacy Protection Service With Natural and Original Visual Semantics",
@@ -8138,7 +9011,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704642",
     "sample": false,
     "id": "r-us3qns",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "计算机视觉"
+    ]
   },
   {
     "title": "IRAW: Novel invisible and robust adversarial watermark perturbations for digital image protection",
@@ -8160,7 +9036,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109011",
     "sample": false,
     "id": "r-pcjr1j",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Multi-modal Interaction Enhanced Segment Anything Model (MIE-SAM) for RGB-T Salient Object Detection",
@@ -8182,7 +9062,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109586",
     "sample": false,
     "id": "r-1wdsh2c",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Causal discovery by continuous optimization with weighted superstructure",
@@ -8204,7 +9087,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108974",
     "sample": false,
     "id": "r-tvkx55",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Self-Supervised Similar Community Search Based on Graph Matching Network",
@@ -8226,7 +9111,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3707934",
     "sample": false,
     "id": "r-fouuow",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Meta-path and context-aware learning for attribute completion in heterogeneous graphs",
@@ -8248,7 +9135,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108895",
     "sample": false,
     "id": "r-17in4xc",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Petra: Enhancing Efficiency in Privacy-Preserving Three-Party Relational Analytics for Private Data",
@@ -8270,7 +9159,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701010",
     "sample": false,
     "id": "r-eepqb",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "DRAW: Deep Robustness-Adjustable Watermarking",
@@ -8292,7 +9183,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714391",
     "sample": false,
     "id": "r-32c2ze",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Fortress: Multi-Level Secure and Efficient Distributed Learning",
@@ -8314,7 +9208,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715844",
     "sample": false,
     "id": "r-199vv7c",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Dynamic Reinforcement Learning Control for Fractional-Order Neural Networks With Higher Order Interactions and Multiple Time Delays",
@@ -8336,7 +9232,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3673682",
     "sample": false,
     "id": "r-1d4osya",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Learning capacity allocation for stable sequential learning in recurrent spiking neural networks",
@@ -8358,7 +9256,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109590",
     "sample": false,
     "id": "r-ix396v",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "DECODE: Domain-Aware Continual Domain Expansion for Motion Prediction",
@@ -8380,7 +9280,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3683469",
     "sample": false,
     "id": "r-1c4614j",
-    "tags": []
+    "tags": [
+      "具身智能",
+      "时间序列与预测"
+    ]
   },
   {
     "title": "FUGEA: Fused unified gradient ensemble for cross-architecture transferable attacks",
@@ -8402,7 +9305,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108926",
     "sample": false,
     "id": "r-1mqleul",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Beyond the automation gap: A survey of continuous audit for IoT security",
@@ -8424,7 +9329,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104953",
     "sample": false,
     "id": "r-gjzjgq",
-    "tags": []
+    "tags": [
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Forgetting Similar Samples: Can Machine Unlearning Do it Better?",
@@ -8446,7 +9353,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714774",
     "sample": false,
     "id": "r-l5ftr8",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "FedDOT: Defending Federated Learning Against Overwhelming Targeted Attacks",
@@ -8468,7 +9377,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3676747",
     "sample": false,
     "id": "r-f56fsj",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Universal Adversarial Watermarking for Text Image Protection via Template-Based Underpainting",
@@ -8490,7 +9401,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3695161",
     "sample": false,
     "id": "r-j13oxd",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "对抗与鲁棒性",
+      "计算机视觉"
+    ]
   },
   {
     "title": "EMM: Plug-and-play memory-bank sampling for contrastive recommendation",
@@ -8512,7 +9427,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108948",
     "sample": false,
     "id": "r-1on4s0p",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "A Deep Learning Approach for Dynamic Modeling of Stimulated Raman Scattering in Chalcogenide Microstructured Optical Fibers",
@@ -8534,7 +9451,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670396",
     "sample": false,
     "id": "r-1cwvu83",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "CC-Net: A cross-hierarchical context-aware network for medical image segmentation",
@@ -8556,7 +9475,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108950",
     "sample": false,
     "id": "r-12llg2c",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Bilateral Sharpness-Aware Minimization for Flatter Minima",
@@ -8578,7 +9500,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3671361",
     "sample": false,
     "id": "r-3blgjy",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "DAG-NAS : An explainable neural architecture search framework for reinforcement learning",
@@ -8600,7 +9524,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108901",
     "sample": false,
     "id": "r-15bpryx",
-    "tags": []
+    "tags": [
+      "强化学习",
+      "可解释AI"
+    ]
   },
   {
     "title": "Biologically-inspired semi-supervised semantic segmentation for biomedical imaging",
@@ -8622,7 +9549,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108925",
     "sample": false,
     "id": "r-rhdfcg",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Measuring network-level internet censorship: DNS and IP-based filtering across Iraqi residential ISPs",
@@ -8644,7 +9574,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104956",
     "sample": false,
     "id": "r-1hdfae4",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Toward the Connection Between Activation Sparsity and Flat Minima",
@@ -8666,7 +9598,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3691379",
     "sample": false,
     "id": "r-124xn6i",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Position-aware Attentional Neural Network for Review-based Recommendation",
@@ -8688,7 +9622,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109585",
     "sample": false,
     "id": "r-xooor2",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Using Class and Domain Information to Address Domain Shift in Federated Learning",
@@ -8710,7 +9646,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3658584",
     "sample": false,
     "id": "r-1vhypxl",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Talk Structurally, Act Hierarchically: A Collaborative Refinement Framework for LLM Multi-Agent Systems",
@@ -8732,7 +9670,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3676025",
     "sample": false,
     "id": "r-1gxxbdm",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "Privacy-Preserving Data Completion With Location and Value Obfuscation in Spatial Crowdsourcing",
@@ -8754,7 +9694,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697883",
     "sample": false,
     "id": "r-1nfh1qs",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Gaussian processes with prior-model-informed kernel for dynamical system modeling",
@@ -8776,7 +9718,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109569",
     "sample": false,
     "id": "r-u7vb4p",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Consistency-Aware Anchor Pyramid Network for Crowd Localization",
@@ -8798,7 +9742,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2024.3392013",
     "sample": false,
     "id": "r-107k7dl",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "GraphTheft: Quantifying Privacy Risks in Graph Prompt Learning",
@@ -8820,7 +9766,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699823",
     "sample": false,
     "id": "r-zhjai7",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "GSPNet: Graph Spectral Projection Network Using Learnable Spectral Transformation",
@@ -8842,7 +9790,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3685759",
     "sample": false,
     "id": "r-orlt7z",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "Position-Sensitive painterly image harmonization",
@@ -8864,7 +9814,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108872",
     "sample": false,
     "id": "r-azso8m",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Discovering Antagonistic Near-Balanced Dense Subgraphs in Signed Networks",
@@ -8886,7 +9838,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3703775",
     "sample": false,
     "id": "r-1hesota",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Federated learning with noisy labels: A comprehensive and concise review of current methodologies and future directions",
@@ -8908,7 +9862,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108889",
     "sample": false,
     "id": "r-5ej7mk",
-    "tags": []
+    "tags": [
+      "联邦学习"
+    ]
   },
   {
     "title": "Behavior-Aware Consistent Distillation for Cold-Start Recommendation",
@@ -8930,7 +9886,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3705082",
     "sample": false,
     "id": "r-1yyunf0",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Snapshot 3D Gaussian Splatting for Miniature Scenes",
@@ -8952,7 +9910,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688999",
     "sample": false,
     "id": "r-1kj16gy",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Threefold Consensus-Driven Anchor Alignment for Efficient Multi-View Clustering",
@@ -8974,7 +9934,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3710572",
     "sample": false,
     "id": "r-1krcdva",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Dynamic event-triggered optimized control for nonlinear multi-agent systems via reinforcement learning",
@@ -8996,7 +9958,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108976",
     "sample": false,
     "id": "r-196il3c",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Multimodal-guided self-distillation for unified person search",
@@ -9018,7 +9982,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109581",
     "sample": false,
     "id": "r-fv281u",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Dual-Tree Complex Wavelet Driven Hierarchical Spatial-Frequency Fusion Learning for Robust Deepfake Detection",
@@ -9040,7 +10006,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712721",
     "sample": false,
     "id": "r-1d0of0x",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "生成模型"
+    ]
   },
   {
     "title": "Matrix Commitment-Based Ownership Verification for Distributed Machine Learning",
@@ -9062,7 +10031,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687640",
     "sample": false,
     "id": "r-vnd7y1",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Parameter-Free Multi-View Clustering Framework With Adaptive Anchors for Large-Scale Data",
@@ -9084,7 +10055,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3700824",
     "sample": false,
     "id": "r-boqx33",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Rate-Distortion Theory of Robust Adaptive Steganographic Coding",
@@ -9106,7 +10079,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704537",
     "sample": false,
     "id": "r-csukqq",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Invisible Barrier: Precise Matchmaking Encryption With Keyword Search From Lattices",
@@ -9128,7 +10103,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715531",
     "sample": false,
     "id": "r-1sinlse",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Symbolic Neural Generation with Applications to Lead Discovery in Drug Design",
@@ -9150,7 +10127,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1007/s10994-026-07136-5",
     "sample": false,
     "id": "r-1p4le5m",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "Differentially Private Accelerated Distributed Algorithm for Aggregative Optimization",
@@ -9172,7 +10151,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3674758",
     "sample": false,
     "id": "r-o3mrke",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "组合优化"
+    ]
   },
   {
     "title": "Acoustic-optical joint underwater object detection with multi-modality correlation features matching network",
@@ -9194,7 +10176,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108975",
     "sample": false,
     "id": "r-1g7c724",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "CONDEN-FI: Consistency and Diversity Learning-Based Multi-View Unsupervised Feature and Instance Co-Selection",
@@ -9216,7 +10201,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3700726",
     "sample": false,
     "id": "r-eeo6vi",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Trusted Multi-View Learning Under Noisy Supervision",
@@ -9238,7 +10225,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690466",
     "sample": false,
     "id": "r-189jc4l",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Neural-network-based robust critic learning control with advanced value iteration for continuous-time dynamical systems",
@@ -9260,7 +10249,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108928",
     "sample": false,
     "id": "r-9r05b2",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Nearest Neighbor Projection Removal Adversarial Training",
@@ -9282,7 +10273,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3681719",
     "sample": false,
     "id": "r-1jq0j6r",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "计算机视觉",
+      "数据管理与检索"
+    ]
   },
   {
     "title": "A Multimodal Feature Distillation With Mamba-Transformer Network for Brain Tumor Segmentation With Incomplete Modalities",
@@ -9304,7 +10299,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678550",
     "sample": false,
     "id": "r-j47ntu",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "A discrete memristive cyclic Hopfield neural network with multi-cavity-like attractors and application in secure communication",
@@ -9326,7 +10325,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108953",
     "sample": false,
     "id": "r-qaa15s",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Enhancing knowledge tracing with multi-level individualized perception and teacher-student semantic distillation",
@@ -9348,7 +10349,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109576",
     "sample": false,
     "id": "r-c9lbtm",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "Rederived Closed-Form Continuous-Time Neural Networks",
@@ -9370,7 +10373,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669345",
     "sample": false,
     "id": "r-owvjc0",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Forward and Backward Private Disjunctive Dynamic Searchable Symmetric Encryption With Leakage Suppression",
@@ -9392,7 +10397,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698827",
     "sample": false,
     "id": "r-1yci5o0",
-    "tags": []
+    "tags": [
+      "密码学",
+      "隐私保护"
+    ]
   },
   {
     "title": "Unsupervised Motion Artifact Purification Guided by Joint Prior from Pixel and K-space Domains",
@@ -9414,7 +10422,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109573",
     "sample": false,
     "id": "r-5l8san",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "VLDUS: Vision-language distillated unseen synthesizer for zero-shot object detection",
@@ -9436,7 +10446,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108899",
     "sample": false,
     "id": "r-xe4q9s",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉"
+    ]
   },
   {
     "title": "MambaTIG: Fast and Robust Encrypted Traffic Detection Leveraging Selective State-Space Masking",
@@ -9458,7 +10471,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712032",
     "sample": false,
     "id": "r-9z87hm",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Deep Learning for Non-Contact Machinery Fault Diagnosis: A Review",
@@ -9480,7 +10495,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109591",
     "sample": false,
     "id": "r-axwjd",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Practical Closed-Box Adversarial Attack on Graph-Learning-Based Models for Malware Detection",
@@ -9502,7 +10519,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3706542",
     "sample": false,
     "id": "r-hwt4th",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "TrustAI: An Expert-Based Methodology for Evaluating and Certifying the Trustworthiness of Artificial Intelligence Systems",
@@ -9524,7 +10544,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3677323",
     "sample": false,
     "id": "r-14agprz",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Prompt Then Refine: Prompt-Free SAM-Enhanced Collaborative Learning Network for Detecting Salient Objects in Underwater Images",
@@ -9546,7 +10568,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673090",
     "sample": false,
     "id": "r-9nr05w",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Flex-Face: Privacy-Protect Face Recognition via Flexible Identity-Consistent Face Anonymization",
@@ -9568,7 +10592,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704001",
     "sample": false,
     "id": "r-4254n8",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Generalized-Hukuhara Subgradient-Based Neurodynamic Approach to Nonsmooth Constrained Distributed Interval-Valued Optimization",
@@ -9590,7 +10617,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3675069",
     "sample": false,
     "id": "r-xddoup",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "An End-to-End Dual-Attention Based Target Speaker Extraction Network for Explicit Optimization of Speaker Confusion",
@@ -9612,7 +10641,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678540",
     "sample": false,
     "id": "r-90s8eb",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Sparse4D: Sparse-Based End-to-End Multi-Sensor Temporal Perception",
@@ -9634,7 +10665,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688545",
     "sample": false,
     "id": "r-zs3jqq",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "The Adversarial Game Between Detection and Evasion: A Survey of Anti-Detection Techniques for Machine-Generated Texts",
@@ -9656,7 +10689,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109562",
     "sample": false,
     "id": "r-1trs3j3",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "The practice of cyber-threat intelligence in organizations: A socio-technical case study of a mature financial organization",
@@ -9678,7 +10713,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104930",
     "sample": false,
     "id": "r-rzqssy",
-    "tags": []
+    "tags": [
+      "安全运营自动化"
+    ]
   },
   {
     "title": "Robust Reinforcement Learning via Leveraging Historically Optimal Policy With Regulation of Performance",
@@ -9700,7 +10737,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670947",
     "sample": false,
     "id": "r-129uohu",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "强化学习"
+    ]
   },
   {
     "title": "Contrastive Mixture Diffusion Models",
@@ -9722,7 +10762,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687180",
     "sample": false,
     "id": "r-1r90htr",
-    "tags": []
+    "tags": [
+      "生成模型"
+    ]
   },
   {
     "title": "Deep Reinforcement Learning With Adaptive Enhanced Attention for CTSPs",
@@ -9744,7 +10786,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3673681",
     "sample": false,
     "id": "r-ymbhip",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "Bi-directional attention network with drop aggregation for microRNA-disease association prediction",
@@ -9766,7 +10810,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108942",
     "sample": false,
     "id": "r-ta7ddu",
-    "tags": []
+    "tags": [
+      "时间序列与预测"
+    ]
   },
   {
     "title": "Fast sparse supervised learning framework with BLinex loss function",
@@ -9788,7 +10834,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108843",
     "sample": false,
     "id": "r-qvh4zx",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "When ‘Yes’ Meets ‘But’: Can AI Comprehend Contradictory Humor in Comics?",
@@ -9810,7 +10858,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688191",
     "sample": false,
     "id": "r-1msi2b",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MRCNet: Motion Reasoning Chain for Cross Modal Video Camouflaged Object Detection",
@@ -9832,7 +10882,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689767",
     "sample": false,
     "id": "r-1p9k3ll",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "PSSA: A Precise Static Analysis Framework for Detecting Vulnerabilities in CMS Plugins",
@@ -9854,7 +10906,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3712242",
     "sample": false,
     "id": "r-1jpf0or",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "Hierarchical fusion and local-aware transformer for occluded person re-identification",
@@ -9876,7 +10930,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108883",
     "sample": false,
     "id": "r-koprwi",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Towards efficient language giants: A comprehensive survey on structural optimizations and compression techniques for large language models",
@@ -9898,7 +10954,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108900",
     "sample": false,
     "id": "r-sh5p3u",
-    "tags": []
+    "tags": [
+      "大模型",
+      "组合优化"
+    ]
   },
   {
     "title": "AICCE: AI-Driven Compliance Checker Engine",
@@ -9920,7 +10979,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3682692",
     "sample": false,
     "id": "r-1w4sa60",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "On the Interplay of Explainability and Fairness in AI: A Survey",
@@ -9942,7 +11003,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3706635",
     "sample": false,
     "id": "r-9ch28a",
-    "tags": []
+    "tags": [
+      "可解释AI",
+      "偏见与公平性"
+    ]
   },
   {
     "title": "Causal explanations of safety property violations in discrete event systems",
@@ -9964,7 +11028,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104588",
     "sample": false,
     "id": "r-q244vt",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Kernel Reboot: Breaking the Boundaries of Neural Tangent Kernels for Neural Fields",
@@ -9986,7 +11052,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3692624",
     "sample": false,
     "id": "r-5keua4",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "EncFormer: Secure and Efficient Transformer Inference Over Encrypted Data",
@@ -10008,7 +11076,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3714715",
     "sample": false,
     "id": "r-pxakys",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "ExMe: Keep Improving With Extrapolation and Merging",
@@ -10030,7 +11100,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708509",
     "sample": false,
     "id": "r-1gt8sbj",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Autonomous Causal Discovery: Evaluating LLMs’ Priors and Constraint Strategies for Reliability",
@@ -10052,7 +11124,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689960",
     "sample": false,
     "id": "r-168gu0x",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Class-Imbalanced Learning via Multitask Multiobjective Feature Selection",
@@ -10074,7 +11148,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3673680",
     "sample": false,
     "id": "r-115udo9",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "BioFast: An Efficient Privacy-Preserving Face Verification Protocol From FHE and Cryptographic Hash Functions",
@@ -10096,7 +11172,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715522",
     "sample": false,
     "id": "r-8aj3z6",
-    "tags": []
+    "tags": [
+      "密码学",
+      "隐私保护"
+    ]
   },
   {
     "title": "Unsupervised Deep Spectral Basis Learning for Generalized Eigendecomposition and Spectral Embedding",
@@ -10118,7 +11197,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3660929",
     "sample": false,
     "id": "r-exsovn",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Deterministic Learning-Based Fault Identification for Nonlinear Sampled-Data Systems: Learning Accuracy Analysis",
@@ -10140,7 +11221,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3671326",
     "sample": false,
     "id": "r-1eypeyb",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Beyond Sparsity: Receptive Field Expansion and Cross-Task Fusion for LiDAR Multi-Task Perception",
@@ -10162,7 +11245,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688337",
     "sample": false,
     "id": "r-su9ar2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Recent Advances of Multimodal Continual Learning: A Comprehensive Survey",
@@ -10184,7 +11269,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3658485",
     "sample": false,
     "id": "r-uimcq5",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "ContractDB: Secure and Efficient Integration of Large Legacy Data With Blockchain DApps",
@@ -10206,7 +11293,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3711164",
     "sample": false,
     "id": "r-rmosla",
-    "tags": []
+    "tags": [
+      "去中心化系统"
+    ]
   },
   {
     "title": "ShadowCode: Toward (Automatic) External Prompt Injection Attack Against Code LLMs",
@@ -10228,7 +11317,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3703498",
     "sample": false,
     "id": "r-l83a82",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "TrojanGPL: Vulnerability Analysis and Mitigation of Backdoor Attacks on Graph Prompt Learning",
@@ -10250,7 +11341,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3702151",
     "sample": false,
     "id": "r-1l25sd5",
-    "tags": []
+    "tags": [
+      "后门与投毒",
+      "供应链与漏洞管理"
+    ]
   },
   {
     "title": "Focus on Your Focus (FOYF): Cross-Domain Few-Shot Semantic Segmentation by Attention Specialization",
@@ -10272,7 +11366,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669921",
     "sample": false,
     "id": "r-235t2b",
-    "tags": []
+    "tags": [
+      "计算机视觉",
+      "迁移学习"
+    ]
   },
   {
     "title": "PolyJailbreak: Cross-Modal Jailbreaking Attacks on Closed-Box Multimodal LLMs",
@@ -10294,7 +11391,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707228",
     "sample": false,
     "id": "r-gjnqg4",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Generalized Holographic Reduced Representations",
@@ -10316,7 +11415,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3678232",
     "sample": false,
     "id": "r-1gr88e2",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Privately Accountable Multi-Signature for Issuer-Hiding Credentials",
@@ -10338,7 +11439,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704353",
     "sample": false,
     "id": "r-1k1r8k3",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "Efficient Prompt Security Detection for LLM Service Deployment in Edge-Cloud Networks",
@@ -10360,7 +11463,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3709894",
     "sample": false,
     "id": "r-14iakvh",
-    "tags": []
+    "tags": [
+      "大模型"
+    ]
   },
   {
     "title": "BIVIP: a competitive neural network for bilateral visuo-haptic processing",
@@ -10382,7 +11487,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108960",
     "sample": false,
     "id": "r-17ibhq3",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "A Comprehensive Survey of Knowledge-Based Visual Question Answering Systems: The Lifecycle of Knowledge in Visual Reasoning Task",
@@ -10404,7 +11511,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3699946",
     "sample": false,
     "id": "r-1czd0y0",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "CM-ARM: Collaborative Model for Privacy-Preserving Association Rule Mining",
@@ -10426,7 +11535,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3707618",
     "sample": false,
     "id": "r-gb9uwr",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "Learning When and How to Update Memory for Video Object Segmentation",
@@ -10448,7 +11559,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3684742",
     "sample": false,
     "id": "r-1ni0qd3",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "LMIRA: Load-Balanced Multi-Indicator Reputation and Authentication Security Blockchain Framework for Cross-Domain Vehicular Data Sharing",
@@ -10470,7 +11583,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715693",
     "sample": false,
     "id": "r-13u6ybu",
-    "tags": []
+    "tags": [
+      "去中心化系统",
+      "迁移学习"
+    ]
   },
   {
     "title": "Utility-Preserving Federated Graph Learning With Dual-Perspective Fairness",
@@ -10492,7 +11608,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689213",
     "sample": false,
     "id": "r-vqardg",
-    "tags": []
+    "tags": [
+      "联邦学习",
+      "偏见与公平性"
+    ]
   },
   {
     "title": "Self-Supervised Multi-modal Imitation Learning under Skewed Trajectory Demonstrations",
@@ -10514,7 +11633,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109582",
     "sample": false,
     "id": "r-1xm5bys",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Learning Evolution via Optimization Knowledge Adaptation",
@@ -10536,7 +11657,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3686919",
     "sample": false,
     "id": "r-18xhzzj",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "On the approximation capability of shallow and deep neural networks having smooth activations with respect to the Sobolev norm",
@@ -10558,7 +11681,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108935",
     "sample": false,
     "id": "r-idnig1",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Query Refinement for Radius-Bounded $k$-Core Queries",
@@ -10580,7 +11705,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3702049",
     "sample": false,
     "id": "r-xdxgf3",
-    "tags": []
+    "tags": [
+      "数据管理与检索"
+    ]
   },
   {
     "title": "Beyond semantics: Exploiting propagation structures with dual-adapter LLMs for fake news detection",
@@ -10602,7 +11729,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108904",
     "sample": false,
     "id": "r-p5j4an",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "From Local to Global to Mechanistic: An iERF-Centered Unified Framework for Interpreting Vision Models",
@@ -10624,7 +11753,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688582",
     "sample": false,
     "id": "r-uswajm",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Beyond the Scope: Security Testing of Permission Management in Team Workspaces",
@@ -10646,7 +11777,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715679",
     "sample": false,
     "id": "r-jghgcl",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "BCMDA: Bidirectional correlation maps domain adaptation for mixed domain semi-supervised medical image segmentation",
@@ -10668,7 +11801,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108877",
     "sample": false,
     "id": "r-35a8qr",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "计算机视觉",
+      "迁移学习"
+    ]
   },
   {
     "title": "Privacy-Aware Task Scheduling in Satellite Edge Computing: A Game-Theoretic Framework",
@@ -10690,7 +11827,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3696118",
     "sample": false,
     "id": "r-ny4vby",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "组合优化"
+    ]
   },
   {
     "title": "Comparison Study: Glacier Calving Front Delineation in Synthetic Aperture Radar Images With Deep Learning",
@@ -10712,7 +11852,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3685700",
     "sample": false,
     "id": "r-1fvwjgm",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "CURRENT EVENTS",
@@ -10734,7 +11876,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/s0893-6080(26)00677-5",
     "sample": false,
     "id": "r-1asbq9s",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Quantification via gaussian latent space representations",
@@ -10756,7 +11900,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108886",
     "sample": false,
     "id": "r-1rxguna",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Incorporating Realistic Margin Constraints: A Data-Driven Deep Reinforcement Learning Framework for Advanced Portfolio Management",
@@ -10778,7 +11924,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3701681",
     "sample": false,
     "id": "r-16u4lpe",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "<i>MirageBeam:</i>",
@@ -10800,7 +11948,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699719",
     "sample": false,
     "id": "r-1ozrbcp",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "An Efficient Regenerated Cross-Modal Hashing: Improving Existing Hash Codes With the Arbitrary Length",
@@ -10822,7 +11972,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688816",
     "sample": false,
     "id": "r-1qgf3ef",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "Proven advantage of multiobjective evolutionary algorithms for problems with different degrees of conflict",
@@ -10844,7 +11996,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104573",
     "sample": false,
     "id": "r-gp7iqb",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Self-expression property theory guided multi-modal brain graph learning",
@@ -10866,7 +12020,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104576",
     "sample": false,
     "id": "r-1bliorm",
-    "tags": []
+    "tags": [
+      "多模态学习"
+    ]
   },
   {
     "title": "How Breakable Is Privacy: Probing and Resisting Model Inversion Attacks in Collaborative Inference",
@@ -10888,7 +12044,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697897",
     "sample": false,
     "id": "r-ol62e7",
-    "tags": []
+    "tags": [
+      "隐私保护"
+    ]
   },
   {
     "title": "IEEE Transactions on Neural Networks and Learning Systems Information for Authors",
@@ -10910,7 +12068,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3723918",
     "sample": false,
     "id": "r-ewfty4",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Malware Patching Strategies in Edge Intelligence IoT Systems: A Differential Games Approach With Spiking Neural Networks",
@@ -10932,7 +12092,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3698145",
     "sample": false,
     "id": "r-n4wh91",
-    "tags": []
+    "tags": [
+      "供应链与漏洞管理",
+      "入侵检测与防御",
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "Learning Disentangled Representations for Generalized Multi-View Clustering",
@@ -10954,7 +12118,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687339",
     "sample": false,
     "id": "r-11yml0m",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "K-Free Dependence Bayesian Classifiers",
@@ -10976,7 +12142,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3664196",
     "sample": false,
     "id": "r-myafqv",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Multiscale Switch for Semi-Supervised and Contrastive Learning in Medical Ultrasound Image Segmentation",
@@ -10998,7 +12166,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3669814",
     "sample": false,
     "id": "r-l1q3vc",
-    "tags": []
+    "tags": [
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Box-enhanced context fusion for citation intent classification",
@@ -11020,7 +12191,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108962",
     "sample": false,
     "id": "r-5h2lor",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Energy-preserving shifted bipartite graph learning for unpaired large-scale multi-view clustering",
@@ -11042,7 +12215,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108952",
     "sample": false,
     "id": "r-kee4v",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "PVCA: Privacy-Preserving and Verifiable Cross-System Authorization for Platoon Communications in VANETs",
@@ -11064,7 +12239,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3697662",
     "sample": false,
     "id": "r-1juh4r4",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "通信与物联网安全"
+    ]
   },
   {
     "title": "CoreKD: A Context-Aware Local Region Structural Contrastive Knowledge Distillation Framework for Object Detection",
@@ -11086,7 +12264,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3672967",
     "sample": false,
     "id": "r-1jcw20m",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "MagStealth: A Stealth Command Injection Attack on Voice Assistants via Magnetic-Driven Inner Loudspeakers",
@@ -11108,7 +12288,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3708889",
     "sample": false,
     "id": "r-1rkksop",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Performance Optimization Strategies for Data Transmission From Edge to Cloud: A Review",
@@ -11130,7 +12312,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3692662",
     "sample": false,
     "id": "r-1euw2eb",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Fractal-Domain Vision Graph Neural Network for Remote Sensing Ground Target Classification",
@@ -11152,7 +12336,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690544",
     "sample": false,
     "id": "r-1qb3lij",
-    "tags": []
+    "tags": [
+      "图神经网络"
+    ]
   },
   {
     "title": "A hierarchical and privacy-preserving intrusion detection framework for SAGIN-enabled IIot using graph neural networks and deep Q-learning",
@@ -11174,7 +12360,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108876",
     "sample": false,
     "id": "r-qpb52m",
-    "tags": []
+    "tags": [
+      "入侵检测与防御",
+      "隐私保护",
+      "图神经网络"
+    ]
   },
   {
     "title": "Interpretable Semantic Medical Image Segmentation With Style and Confidence",
@@ -11196,7 +12386,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689564",
     "sample": false,
     "id": "r-xiix5f",
-    "tags": []
+    "tags": [
+      "可解释AI",
+      "医学AI",
+      "计算机视觉"
+    ]
   },
   {
     "title": "Improving Neural Architecture Search by Minimizing Worst-Case Validation Loss",
@@ -11218,7 +12412,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3670777",
     "sample": false,
     "id": "r-qzj8w9",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "MBDA: A modality-balanced framework with data augmentation and alignment for multimodal emotion recognition",
@@ -11240,7 +12436,11 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108852",
     "sample": false,
     "id": "r-1i2hef2",
-    "tags": []
+    "tags": [
+      "多模态学习",
+      "计算机视觉",
+      "自然语言处理"
+    ]
   },
   {
     "title": "Robust and effective multi-agent path execution with timing uncertainty",
@@ -11262,7 +12462,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.artint.2026.104586",
     "sample": false,
     "id": "r-q993lb",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Topology-Optimal Multiple Gossip Steps for Decentralized Federated Learning via Gossip Tensor",
@@ -11284,7 +12486,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3670013",
     "sample": false,
     "id": "r-i8d77f",
-    "tags": []
+    "tags": [
+      "去中心化系统",
+      "联邦学习"
+    ]
   },
   {
     "title": "Can Vibration Patterns Identify Users? Authentication for Smartphone-Watch Collaboration",
@@ -11306,7 +12511,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3700835",
     "sample": false,
     "id": "r-156mw1j",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "An Anonymous Multi-Authority Key-Policy Attribute-Based Encryption Scheme With Expressive Keyword Search",
@@ -11328,7 +12535,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3699384",
     "sample": false,
     "id": "r-y3ypia",
-    "tags": []
+    "tags": [
+      "密码学"
+    ]
   },
   {
     "title": "A novel dynamic signal Lemma for predefined-time stabilization of high-order nonlinear systems with dynamic uncertainties",
@@ -11350,7 +12559,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108891",
     "sample": false,
     "id": "r-12awitb",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "PUF optimization for IoT device authentication",
@@ -11372,7 +12583,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104958",
     "sample": false,
     "id": "r-evjoed",
-    "tags": []
+    "tags": [
+      "通信与物联网安全",
+      "组合优化"
+    ]
   },
   {
     "title": "Unraveling Responsiveness of Chained BFT Consensus With Network Delay",
@@ -11394,7 +12608,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3708552",
     "sample": false,
     "id": "r-cf55hz",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "When Gossip Meets Flames: A Gossip Learning Framework for Enhancing UAV Swarm Robustness in Forest Fire Detection",
@@ -11416,7 +12632,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3701006",
     "sample": false,
     "id": "r-19f03bu",
-    "tags": []
+    "tags": [
+      "通信与物联网安全",
+      "对抗与鲁棒性"
+    ]
   },
   {
     "title": "Neural Network Optimization Reimagined: Decoupled Techniques for Scratch and Fine-Tuning",
@@ -11438,7 +12657,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3683792",
     "sample": false,
     "id": "r-1avqfe1",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "DPC-Sharding: Adaptive and Byzantine-Resilient Sharding for Dynamic Networks",
@@ -11460,7 +12681,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3713485",
     "sample": false,
     "id": "r-is34m2",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "A provider-agnostic security framework for PKI-based electronic identity systems: A Swedish case study",
@@ -11482,7 +12705,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.cose.2026.104936",
     "sample": false,
     "id": "r-ziq7qd",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "A Clustering Algorithm Based on Dual-Perspective Adaptive Conical Information Granules",
@@ -11504,7 +12729,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tkde.2026.3708513",
     "sample": false,
     "id": "r-1rjvm3t",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "SALSA-RL: stability analysis in the latent space of actions for reinforcement learning",
@@ -11526,7 +12753,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108957",
     "sample": false,
     "id": "r-n4svi8",
-    "tags": []
+    "tags": [
+      "强化学习"
+    ]
   },
   {
     "title": "The Sound of Water: Inferring Physical Properties From Pouring Liquids",
@@ -11548,7 +12777,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3690989",
     "sample": false,
     "id": "r-1mgc21t",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Towards robust deep reinforcement learning-based quantitative trading with neuro-symbolic trend analysis",
@@ -11570,7 +12801,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108924",
     "sample": false,
     "id": "r-158vif9",
-    "tags": []
+    "tags": [
+      "对抗与鲁棒性",
+      "强化学习"
+    ]
   },
   {
     "title": "A semi-analytical fractional order neural network framework for two-dimensional time fractional reaction-diffusion problems",
@@ -11592,7 +12826,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109554",
     "sample": false,
     "id": "r-157o710",
-    "tags": []
+    "tags": [
+      "生成模型",
+      "科学计算AI"
+    ]
   },
   {
     "title": "Incomplete Multimodal Federated Learning via Masking and Contrasting Prototypes",
@@ -11614,7 +12851,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3658522",
     "sample": false,
     "id": "r-pacmq",
-    "tags": []
+    "tags": [
+      "联邦学习",
+      "多模态学习"
+    ]
   },
   {
     "title": "Resilient Distributed Multi-Task Estimation With Network Learning Under Malicious Attacks",
@@ -11636,7 +12876,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3704559",
     "sample": false,
     "id": "r-15ehwql",
-    "tags": []
+    "tags": [
+      "系统与网络安全"
+    ]
   },
   {
     "title": "Adaptive Niching-Based Gradient-Accelerated Differential Evolution for High-Dimensional Nonconvex Optimization",
@@ -11658,7 +12900,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3671634",
     "sample": false,
     "id": "r-eog8w6",
-    "tags": []
+    "tags": [
+      "组合优化"
+    ]
   },
   {
     "title": "Consistency guided multiple plane image construction for novel view synthesis",
@@ -11680,7 +12924,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.108955",
     "sample": false,
     "id": "r-1pcc4pm",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Reservoir computing with neural activity inputs predicts behavior and neural dynamics in mouse decision-making",
@@ -11702,7 +12948,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109584",
     "sample": false,
     "id": "r-k47d1o",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Advancing In-Context Learning for Efficient and Stable Medical Report Generation",
@@ -11724,7 +12972,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3689780",
     "sample": false,
     "id": "r-i66dll",
-    "tags": []
+    "tags": [
+      "医学AI"
+    ]
   },
   {
     "title": "Learned Optimal Visual Time-of-Flight Imaging With Fisher Information Guidance",
@@ -11746,7 +12996,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3688946",
     "sample": false,
     "id": "r-r60sne",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "PrivAnalogy: An Analogy Mechanism-Based Privacy Protection Framework for LLM Prompts",
@@ -11768,7 +13020,10 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tdsc.2026.3715975",
     "sample": false,
     "id": "r-1ajh51b",
-    "tags": []
+    "tags": [
+      "隐私保护",
+      "大模型"
+    ]
   },
   {
     "title": "When Optimal Transport Meets Photo-Realistic Image Dehazing With Unpaired Training",
@@ -11790,7 +13045,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tnnls.2026.3673760",
     "sample": false,
     "id": "r-pmduw3",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Continual Test-Time Training on Graphs via Adaptive Prompts Integration",
@@ -11812,7 +13069,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tpami.2026.3687933",
     "sample": false,
     "id": "r-ysxba4",
-    "tags": []
+    "tags": [
+      "异常检测"
+    ]
   },
   {
     "title": "MSFASA-3DNet: Multi-Scale Feature Aggregation and Spatial Attention for 3-D Object Detection",
@@ -11834,7 +13093,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1109/tai.2026.3674873",
     "sample": false,
     "id": "r-z3o34u",
-    "tags": []
+    "tags": [
+      "计算机视觉"
+    ]
   },
   {
     "title": "Steering machine reasoning with brain signals",
@@ -11856,7 +13117,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1038/s42256-026-01302-z",
     "sample": false,
     "id": "r-bunqsx",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "Orbit-based universal approximation via hypercyclicity on compact–open topology",
@@ -11878,7 +13141,9 @@ window.PAPERLEDGER_SEED = [
     "contribution": "待人工补全。\n---\nDOI: 10.1016/j.neunet.2026.109563",
     "sample": false,
     "id": "r-qww0a3",
-    "tags": []
+    "tags": [
+      "机器学习方法"
+    ]
   },
   {
     "title": "PHANTOM: polymorphic honeytoken adaptation with narrative-tailored organisational mimicry contextually convincing cyber deception at scale",

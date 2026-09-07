@@ -54,7 +54,7 @@
 
 ```
 读基准 → OpenAlex + Crossref 双来源增量抓取与逐刊 DOI 对账 → OA 检查 → 多渠道抓摘要
-→ 登记六段式总结 → **本地 Argos 英译中** → **PDF 探测、下载、校验与跳过证据登记** → 同步进 data/papers.js
+→ 登记六段式总结 → **本地 Argos 英译中** → **按既有主题方案补齐标签** → **PDF 探测、下载、校验与跳过证据登记** → 同步进 data/papers.js
 → 推进基准 → QA → publish 发布并验证
 ```
 
@@ -79,7 +79,7 @@ python scripts/run_update.py publish   # 双闸门 + PDF 文件校验 → 推送
 
 每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、排除原因、来源错误以及仅单来源 DOI。默认会重查最近 7 天的发表记录，以覆盖元数据延迟；只要任一来源失败，命令会在写出审计后失败，`advance` 和 `publish` 也会拒绝继续。
 
-发布和推进前还有两道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa` 或 `no-file` 证据。网络错误不会自动标作跳过。
+发布和推进前有三道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/theme_gate.py --check` 要求每篇都至少有一个主题；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa` 或 `no-file` 证据。网络错误不会自动标作跳过。
 
 ## 防“读不到摘要”速查
 

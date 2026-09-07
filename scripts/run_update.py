@@ -186,8 +186,11 @@ def update():
     """Run the non-optional daily update chain through its publication gates."""
     recs = fetch()
     if not recs:
-        log("本轮没有新增论文；仍检查现有中文摘要与 PDF 记录。")
+        log("本轮没有新增论文；仍补齐并检查现有主题、中文摘要与 PDF 记录。")
+        run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
+        run(["node", ROOT / "scripts" / "sync-papers.js"])
         run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能继续。")
+        run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能继续。")
         run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能继续。")
         return
 
@@ -195,12 +198,15 @@ def update():
     run(["node", ROOT / "scripts" / "import_incremental.js"])
     log("Step 5/8 · 使用本地 Argos 模型完成英文摘要英译中…")
     run(["node", ROOT / "scripts" / "translate_summary_abstracts.js"])
-    log("Step 6/8 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
+    log("Step 6/9 · 按既有主题方案补齐新增论文主题标签…")
+    run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
+    log("Step 7/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
     acquire_pdfs()
-    log("Step 7/8 · 同步总结与 PDF 链接至网站数据…")
+    log("Step 8/9 · 同步总结、主题与 PDF 链接至网站数据…")
     run(["node", ROOT / "scripts" / "sync-papers.js"])
-    log("Step 8/8 · 更新完成性检查…")
+    log("Step 9/9 · 更新完成性检查…")
     run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能推进或发布。")
+    run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能推进或发布。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能推进或发布。")
     log("✅ 本轮抓取、中文翻译、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
 
@@ -210,6 +216,7 @@ def advance():
     base = load_last_update()
     require_successful_collection_audit(base["date"], require_today=True)
     run_gate("summary_gate.py", "中文六段式摘要闸门检查（advance 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 advance。")
+    run_gate("theme_gate.py", "主题标签闸门检查（advance 前置）", "主题标签闸门未通过：先补齐主题再 advance。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查（advance 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 advance。")
 
     dois = existing_dois_from_data()
@@ -236,6 +243,7 @@ def publish():
     require_successful_collection_audit()
 
     run_gate("summary_gate.py", "中文六段式摘要闸门检查（publish 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 publish。")
+    run_gate("theme_gate.py", "主题标签闸门检查（publish 前置）", "主题标签闸门未通过：先补齐主题再 publish。")
 
     # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
     log("发布前校验 papers/ PDF 有效性…")
