@@ -24,6 +24,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 UA = {
@@ -100,12 +101,12 @@ def extract_pdf_links(html_text, base_url):
     return seen
 
 
-def arxiv_search(title):
+def arxiv_search(title, timeout=30):
     """arXiv API 按标题查询，返回第一个 arXiv id（无则 None）。"""
     q = urllib.parse.quote(f'ti:"{title}"')
     url = f"https://export.arxiv.org/api/query?search_query={q}&max_results=3"
     try:
-        _, _, body = http_get(url, timeout=30)
+        _, _, body = http_get(url, timeout=timeout)
         xml = body.decode("utf-8", "replace")
         m = re.search(r"<id>https?://arxiv\.org/abs/([\d.]+(?:v\d+)?)</id>", xml)
         return m.group(1) if m else None
@@ -155,7 +156,7 @@ def try_download(url, outfile, timeout=180):
         return f"error:{type(e).__name__}"
 
 
-def probe(rec, outdir=None):
+def probe(rec, outdir=None, timeout=30):
     """对一条记录做探测，返回状态与建议 URL。"""
     doi = rec.get("doi") or ""
     title = rec.get("title") or ""
@@ -179,7 +180,7 @@ def probe(rec, outdir=None):
         if not url:
             continue
         try:
-            final, ctype, body = http_get(url, timeout=30)
+            final, ctype, body = http_get(url, timeout=timeout)
         except urllib.error.HTTPError as e:
             last_state = "blocked" if e.code != 404 else "not-found"
             continue
@@ -199,7 +200,7 @@ def probe(rec, outdir=None):
 
     # 4) arXiv 按标题兜底（覆盖 arXiv 字段缺失 + 出版社反爬两类情况）
     if title:
-        aid = arxiv_search(title)
+        aid = arxiv_search(title, timeout=timeout)
         if aid:
             return {"doi": doi, "status": "arxiv", "url": f"https://arxiv.org/pdf/{aid}"}
 
@@ -209,10 +210,21 @@ def probe(rec, outdir=None):
 
 def cmd_probe(args):
     recs = json.loads(Path(args.probe).read_text(encoding="utf-8"))
-    results = []
-    for r in recs:
-        res = probe(r)
-        results.append(res)
+    results = [None] * len(recs)
+
+    def probe_one(index, record):
+        try:
+            return index, probe(record, timeout=args.probe_timeout)
+        except Exception as exc:
+            return index, {"doi": record.get("doi") or "", "status": f"error:{type(exc).__name__}", "url": ""}
+
+    with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+        futures = [pool.submit(probe_one, index, record) for index, record in enumerate(recs)]
+        for future in as_completed(futures):
+            index, res = future.result()
+            results[index] = res
+
+    for r, res in zip(recs, results):
         log(f"[{res['status']:<10}] {res['doi']}  ·  {(r.get('title') or '')[:60]}")
         if res["url"]:
             log(f"           → {res['url']}")
@@ -254,6 +266,8 @@ def main():
     ap.add_argument("--url", help="候选 PDF URL（best_pdf_url）")
     ap.add_argument("--out", help="输出 PDF 文件路径")
     ap.add_argument("--timeout", type=int, default=180)
+    ap.add_argument("--workers", type=int, default=12, help="批量探测并发数（默认 12）")
+    ap.add_argument("--probe-timeout", type=int, default=15, help="批量探测单请求超时秒数（默认 15）")
     args = ap.parse_args()
     if not args.probe and not args.out:
         ap.error("需要 --probe 或 --out")

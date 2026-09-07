@@ -426,7 +426,10 @@ def acquire_pdfs():
     if not oa.exists():
         raise SystemExit(f"缺少 {oa}。请先运行 fetch。")
     log("PDF 探测（smart_pdf.py）…")
-    run([sys.executable, ROOT / "scripts" / "smart_pdf.py", "--probe", oa])
+    run([
+        sys.executable, ROOT / "scripts" / "smart_pdf.py", "--probe", oa,
+        "--workers", "12", "--probe-timeout", "15",
+    ])
     log("下载可验证的 PDF 候选…")
     run([sys.executable, ROOT / "scripts" / "download_incremental_pdfs.py"])
     log("记录已确认的不可得原因（不会把网络错误标成已跳过）…")

@@ -2797,8 +2797,11 @@
  },
  {
   "doi": "10.1007/s10994-026-07156-1",
-  "status": "error:RemoteDisconnected",
-  "url": ""
+  "status": "article-pdf",
+  "url": "https://link.springer.com/content/pdf/10.1007/s10994-026-07156-1.pdf",
+  "candidates": [
+   "https://link.springer.com/content/pdf/10.1007/s10994-026-07156-1.pdf"
+  ]
  },
  {
   "doi": "10.1007/s10994-026-07159-y",
