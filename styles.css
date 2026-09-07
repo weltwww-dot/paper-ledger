@@ -287,6 +287,7 @@ body {
   position: relative;
   grid-column: 1 / -1;
   min-width: 0;
+  overflow: hidden;
   border-inline-start: 1px solid var(--color-rule);
   transition: background-color var(--dur-short) var(--ease-out);
 }
@@ -295,6 +296,7 @@ body {
 }
 .paper__summary {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-sm);
   padding: var(--space-lg);
   padding-inline-end: 2.25rem;
@@ -310,16 +312,19 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-2xs);
+  min-width: 0;
 }
 .tag {
   display: inline-block;
+  max-width: 100%;
   padding: 2px 8px;
   border: 1px solid var(--color-rule-2);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--color-muted);
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 .tag--accent {
   border-color: var(--color-accent);
@@ -332,9 +337,11 @@ body {
   font-size: var(--text-md);
   line-height: 1.2;
   letter-spacing: var(--tracking-tight);
+  max-width: 100%;
   overflow-wrap: anywhere;
+  word-break: break-word;
   min-width: 0;
-  transition: transform var(--dur-short) var(--ease-out);
+  transition: color var(--dur-short) var(--ease-out);
 }
 .paper__journal {
   margin: 0;
@@ -372,9 +379,14 @@ body {
 }
 .paper__blocks {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-md);
+  min-width: 0;
   padding: 0 var(--space-lg) var(--space-lg);
   border-top: 1px solid var(--color-rule);
+}
+.paper__block {
+  min-width: 0;
 }
 .paper__block-label {
   display: block;
@@ -389,14 +401,25 @@ body {
   margin: 0;
   font-size: var(--text-sm);
   line-height: var(--lh-relaxed);
-  max-width: var(--measure);
+  max-width: min(100%, var(--measure));
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .paper__foot {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-lg);
+  min-width: 0;
   padding: 0 var(--space-lg) var(--space-lg);
+}
+.paper__foot .link {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .paper__remove {
   border: 0;
@@ -935,7 +958,7 @@ body {
     background: var(--color-paper-2);
   }
   .paper:hover:not([open]) .paper__title {
-    transform: translateX(8px);
+    color: var(--color-accent);
   }
   .paper:hover:not([open]) .paper__arrow {
     transform: rotate(-45deg) translateX(4px);

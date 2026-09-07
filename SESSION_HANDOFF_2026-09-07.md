@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-07，已发布）**：全库 586 份六段式总结已完成中文文案审校：展示内容不再含流程性确认措辞；已重写 4 份检出的失真摘要。新增 `scripts/summary_quality_gate.py`，并接入 `update / advance / publish`；自动直译入口已停用，后续新增记录须由执行 agent 对照可核验原文写中文六段式，且 PDF 获取仍在该环节前完整执行。实测五道闸门均通过、顶层 273 个 PDF 均有效、28 项测试通过。台账状态仍为 complete 222 / partial 304 / pending 60；58 篇 `partial+PDF` 为历史技术债。主要提交 `7b5168a` 已推送至 `origin/main`；本次交接状态更新将随同下一笔小提交推送。
+> **最新状态（2026-09-07，已发布）**：全库 586 份六段式总结已完成中文文案审校：展示内容不再含流程性确认措辞；已重写 4 份检出的失真摘要。新增 `scripts/summary_quality_gate.py`，并接入 `update / advance / publish`；自动直译入口已停用，后续新增记录须由执行 agent 对照可核验原文写中文六段式，且 PDF 获取仍在该环节前完整执行。当前六道闸门均通过（含真实 Edge 文字溢出布局检查）、顶层 273 个 PDF 均有效、28 项 Python 测试通过。台账状态仍为 complete 222 / partial 304 / pending 60；58 篇 `partial+PDF` 为历史技术债。中文翻译权限约定、一级方向归并与文字溢出整改已随本轮提交推送至 `origin/main`。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -9,9 +9,9 @@
 
 ## 0.1 接手时先做什么
 
-1. 先读本文件，再运行四道验收：`python scripts/summary_gate.py --check`、`python scripts/theme_gate.py --check`、`python scripts/pdf_gate.py --check`、`python scripts/workflow_gate.py --check`。
-2. 日常“更新”只用 `python scripts/run_update.py update`；它必须经过本地中文翻译、PDF 探测/下载/校验/证据登记、同步和四道闸门，不能只运行抓取步骤。
-3. 继续补全文时，先处理 `contentState=pending`；有全文后必须“读全文 → 自己写中文六段式 → 复制规范 PDF 到 `papers/` → 删除占位 → sync → 四道闸门”。不要重复处理已完成的 `verified_resume/` 76 个文件。
+1. 先读本文件，再运行六道验收：中文摘要、中文文案质量、主题、PDF、台账总体验收，以及 `node tests/layout-overflow-check.js` 网站文字溢出检查。
+2. 日常“更新”只用 `python scripts/run_update.py update`；它必须经过本地中文翻译、PDF 探测/下载/校验/证据登记、同步和六道闸门，不能只运行抓取步骤。
+3. 继续补全文时，先处理 `contentState=pending`；有全文后必须“读全文 → 自己写中文六段式 → 复制规范 PDF 到 `papers/` → 删除占位 → sync → 六道闸门”。不要重复处理已完成的 `verified_resume/` 76 个文件。
 4. 当前仍有 60 篇 pending、31 篇 Elsevier 续跑 DOI 和 58 篇历史 `partial+PDF` 技术债；后两者分别按 §3.2、§3.4 处理。WAF 续跑必须等用户明确说开始，GitHub 发布必须等用户明确授权。
 5. 完成后只更新本文件对应小节，并在 §6 追加一行；不要创建新的 handoff 快照。
 
@@ -33,7 +33,7 @@
 ### 1.2 完整更新闭环（无新增）
 - `python scripts/run_update.py update` 完整跑通，exit 0。
 - 抓取结果：17 刊双来源审计无失败；候选 4 条（3×IEEE TDSC + 1×TNNLS）**均早已在库**（586 篇内、已有总结），导入层按 DOI 正确去重 → **本轮实际 0 新增**，翻译/主题 0 篇属正常。
-- 四道闸门（summary/theme/pdf/workflow）全绿；25 项单元测试通过。
+- 六道闸门（summary/summary-quality/theme/pdf/workflow/layout）全绿；28 项 Python 单元测试通过。
 
 ### 1.3 InstSci 机构 PDF 获取（成功 129 篇）
 - 队列：`run_update.py instsci` 生成 236 篇 pending 队列（`skill-runs/fulltext_queue.txt`），按出版社拆分 IEEE 103 / Elsevier 133。
@@ -78,9 +78,9 @@
 | **续跑文件（verified_resume/）** | **76 个已完成分类（研究论文 73 个已入库；非研究页面 3 个排除）** |
 | papers/instsci（原始下载） | 已加入 .gitignore，不入库 |
 | pdf_attempts.json | 489 条（blocked 48 / not-oa 437 / no-file 1 / non_research_document 3） |
-| 四道闸门 | summary ✅ / theme ✅ / pdf ✅ / workflow ✅ |
-| 单元测试 | 25 项 OK |
-| git | 变更全部未 commit、未 push |
+| 六道闸门 | summary ✅ / summary-quality ✅ / theme ✅ / pdf ✅ / workflow ✅ / layout ✅ |
+| 单元测试 | 28 项 Python 测试 + 1 项真实浏览器布局回归 OK |
+| git | 本轮翻译权限、一级方向与布局整改已提交并推送至 origin/main |
 
 工作区未提交变更大致分五类：
 1. 脚本修复：`scripts/run_update.py`、`scripts/fetch_incremental.py`、`.gitignore`（新增 `papers/instsci/` 排除）。
@@ -134,7 +134,8 @@ python scripts/summary_gate.py --check           # 六段式 + 中文一句话
 python scripts/theme_gate.py --check             # 主题标签
 python scripts/pdf_gate.py --check               # 无 PDF 论文均有证据
 python scripts/workflow_gate.py --check          # DOI/总结/状态/主题/PDF/证据一致
-python -m unittest discover -s tests -v          # 25 项
+node tests/layout-overflow-check.js              # 展开卡片长文本不得横向溢出
+python -m unittest discover -s tests -v          # 28 项
 git diff --check
 ```
 
@@ -142,7 +143,7 @@ git diff --check
 1. 73 篇研究论文均已由机构授权全文完成中文六段式总结，PDF 已按期刊与标题 slug 复制到 `papers/` 顶层，并删除对应占位总结。
 2. 3 个非研究页面未写成伪论文总结：`10.1109/tnnls.2026.3723914`（出版信息页）、`10.1109/tnnls.2026.3723916`（学会委员会名单页）、`10.1109/tnnls.2026.3723918`（作者投稿须知页）。它们在 `skill-runs/pdf_attempts.json` 中标记为 `non_research_document`，占位文件保留为明确的排除说明，且没有顶层研究 PDF。
 3. `node scripts/sync-papers.js` 已重新生成 `data/papers.js`，台账为 586 篇；同步脚本已按 DOI 优先保留原记录和 ID，避免占位删除导致条目丢失。
-4. `verify_papers`、`summary_gate`、`theme_gate`、`pdf_gate`、`workflow_gate`、25 项单元测试和 `git diff --check` 均已通过。
+4. `verify_papers`、`summary_gate`、`summary_quality_gate`、`theme_gate`、`pdf_gate`、`workflow_gate`、Edge 布局回归、28 项 Python 单元测试和 `git diff --check` 均已通过。
 
 **§3.3.3 后续维护：**
 - 新一轮 PDF 入库或非研究页面排除后，继续只更新本文件 §2 和 §6；不要另建 handoff 快照。
@@ -170,7 +171,7 @@ git diff --check
 
 ### 3.6 项目改进（2026-09-07 已落地）
 - **新增 `scripts/workflow_gate.py`**：全量核对 586 条台账与 586 份总结的 DOI 集合、内容状态、主题、PDF 链接和 `pdf_attempts.json` 跳过证据；完整总结不能留下纯占位段落，非研究页面必须有可审计说明。
-- **接入四道闸门**：`run_update.py update`、`advance`、`publish` 现在都会执行 `summary_gate`、`theme_gate`、`pdf_gate` 和 `workflow_gate`；单独执行 `pdf_gate.py --mark` 也要求合法原因与非空 note。
+- **接入六道闸门**：`run_update.py update`、`advance`、`publish` 现在都会执行摘要、中文文案质量、主题、PDF、台账总体验收和真实浏览器布局检查；单独执行 `pdf_gate.py --mark` 也要求合法原因与非空 note。
 - **清理历史状态**：补齐 3 条旧总结的 `内容状态`，当前 `contentState` 为 complete 222 / partial 304 / pending 60 / 空 0。
 - **记录历史技术债**：当前有 58 篇旧条目已具备 PDF 但仍为 `partial`；总体验收只警告并阻止数量继续扩大，后续应按全文六段式流程逐篇升级。
 - **新增历史债务上限基线**：`skill-runs/workflow_baseline.json` 将 58 设为 `partial+PDF` 最大允许值；后续只允许下降，不允许新流程增加。
@@ -205,10 +206,17 @@ python scripts/theme_gate.py --check
 python scripts/pdf_gate.py --check
 python scripts/workflow_gate.py --check
 python scripts/verify_papers.py --check
-python -m unittest discover -s tests -v                 # 25 项
+node tests/layout-overflow-check.js
+python -m unittest discover -s tests -v                 # 28 项
 ```
 
 ## 6. 更新日志
+
+- **2026-09-07（展开正文文字重叠修复）**：根据用户截图建立真实 Edge 三列展开卡片复现；修复前连续英文会把 `.paper__blocks` 撑到约 4100px、脚注链接撑到约 4700px。根因是正文隐式网格列采用内容最小宽度，且正文与链接缺少任意断行约束。`styles.css` 已为正文网格、块、段落和脚注链接补齐 `minmax(0, 1fr)`、`min-width: 0`、`overflow-wrap: anywhere` 与边界约束；新增 `tests/layout-overflow-check.js`，并接入 `run_update.py update / advance / publish`。修复后真实浏览器测试通过，28 项 Python 测试通过；已随本轮提交推送。
+
+- **2026-09-07（一级方向归并）**：网站展示与统计口径固定为「人工智能／信息安全」两类。`app.js` 新增历史细分 direction 的展示层归并：安全、隐私、密码、区块链等归入信息安全，其余归人工智能；收录筛选、统计范围、卡片与问题清单均使用一级方向，细分内容继续保留在 `tags` 并由「当前热点／收录趋势」呈现。实测 586 篇全部覆盖：人工智能 397、信息安全 189；`node --check app.js`、28 项单元测试与 `git diff --check` 通过；已随本轮提交推送。
+
+- **2026-09-07（翻译权限约定）**：用户要求并确认：今后翻译工作一律由当前执行的 Codex agent 基于可核验原文亲自完成；禁止上传至翻译服务，禁止调用本地翻译模型。历史翻译入口已改为明确拒绝执行，流程与 README 已同步此约定。
 
 - **2026-09-07（中文文案审校）**：全量检查 586 份六段式总结，清除展示层中的流程性确认措辞，并将信息缺口统一改为基于公开材料的客观说明；重写 4 份检出的失真一句话概括。新增 `scripts/summary_quality_gate.py` 与 3 项测试，禁止流程性确认措辞、乱码及未解码 HTML 实体；接入 `run_update.py update / advance / publish`。自动直译入口已停用，新增记录必须由执行 agent 对照可核验原文写中文六段式；PDF 获取仍在该环节之前完整执行。用户已授权本轮提交并推送。
 - **2026-09-07（发布完成）**：主要提交 `7b5168a`（`完善论文总结质量与更新闭环`）已确认推送到 `origin/main`；远端 main 与本地提交一致。

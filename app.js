@@ -29,15 +29,33 @@
   let showAll = false;
   const PULSE_HOT_LIMIT = 10;
   const WINDOW_DAYS = ThemeStats.WINDOW_DAYS_DEFAULT;
+  const PRIMARY_DIRECTIONS = ["人工智能", "信息安全"];
+  const SECURITY_DIRECTION_SIGNALS = /安全|隐私|密码|区块链|信息隐藏|数字水印|安全通信|secure|security|privacy|cyber|cryptography/i;
 
   /* ── helpers ────────────────────────────────────────────────────── */
-  function uniqueDirections() {
-    const seen = new Map();
-    for (const p of papers) {
-      if (!p.direction) continue;
-      seen.set(p.direction, (seen.get(p.direction) || 0) + 1);
+  /*
+   * 方向只作为一级筛选维度。历史条目曾把细分主题写入 direction；这里在
+   * 展示与统计时归并，既不遗漏旧论文，也把细分信息留给 tags 的热点/趋势。
+   */
+  function primaryDirection(paper) {
+    const direction = String(paper.direction || "").trim();
+    if (direction === "人工智能" || direction === "信息安全") return direction;
+    const evidence = `${direction} ${paper.journal || ""}`;
+    return SECURITY_DIRECTION_SIGNALS.test(evidence) ? "信息安全" : "人工智能";
+  }
+
+  function papersInDirection(list, direction) {
+    if (!direction || direction === "全部") return list;
+    return list.filter((paper) => primaryDirection(paper) === direction);
+  }
+
+  function primaryDirectionCounts(list, since) {
+    const scope = ThemeStats.filterScope(list, { since });
+    const counts = new Map([["全部", scope.length]]);
+    for (const direction of PRIMARY_DIRECTIONS) {
+      counts.set(direction, papersInDirection(scope, direction).length);
     }
-    return [...seen.entries()].sort((a, b) => b[1] - a[1]);
+    return counts;
   }
 
   /* 统计窗口起点：最近 N 天（含今天）对应的 YYYY-MM-DD */
@@ -52,7 +70,7 @@
 
   function visiblePapers() {
     let out = papers;
-    if (directionFilter) out = out.filter((p) => p.direction === directionFilter);
+    if (directionFilter) out = papersInDirection(out, directionFilter);
     if (tagFilter) out = out.filter((p) => (p.tags || []).includes(tagFilter));
     return ThemeStats.sortByPublished(out);
   }
@@ -83,10 +101,9 @@
 
   /* ── render: stats ──────────────────────────────────────────────── */
   function renderStats() {
-    const directions = uniqueDirections();
     const questions = papers.filter(hasQuestion).length;
     setNum("#stats-count", papers.length);
-    setNum("#stats-directions", directions.length);
+    setNum("#stats-directions", PRIMARY_DIRECTIONS.length);
     setNum("#stats-questions", questions);
   }
 
@@ -125,14 +142,15 @@
     count.textContent = filtered.length ? `共 ${filtered.length} 篇` : "";
   }
 
-  /* 收录区的方向筛选 chips（全部 + 各研究方向） */
+  /* 收录区只显示两类一级方向；细分主题在热点与趋势中呈现。 */
   function renderFilterChips() {
     const box = document.querySelector("#filter-chips");
     if (!box) return;
     box.textContent = "";
     box.appendChild(filterChip("全部", null, papers.length));
-    for (const [name, n] of uniqueDirections()) {
-      box.appendChild(filterChip(name, name, n));
+    const counts = primaryDirectionCounts(papers);
+    for (const name of PRIMARY_DIRECTIONS) {
+      box.appendChild(filterChip(name, name, counts.get(name)));
     }
     if (tagFilter) {
       const tag = filterChip(`主题 · ${tagFilter}`, "__tag__", null);
@@ -160,7 +178,7 @@
 
     const summary = el("summary", "paper__summary");
     const metaRow = el("div", "paper__meta-row");
-    if (p.direction) metaRow.appendChild(el("span", "tag", p.direction));
+    metaRow.appendChild(el("span", "tag", primaryDirection(p)));
     if (p.contentState === "pending") {
       const badge = el("span", "tag tag--pending", "待补全");
       badge.title = p.contentNote || "公开摘要缺失，需获取全文后补全";
@@ -259,7 +277,7 @@
     row.appendChild(question);
 
     const meta = el("div", "qrow__meta");
-    if (p.direction) meta.appendChild(el("span", "qrow__direction", p.direction));
+    meta.appendChild(el("span", "qrow__direction", primaryDirection(p)));
     const url = paperUrl(p);
     if (url) {
       meta.appendChild(linkEl(url, p.title, "qrow__paper link"));
@@ -276,9 +294,7 @@
 
   /* ── render: 研究热点与趋势（#pulse）────────────────────────────── */
   function pulseCounts() {
-    const dirs = uniqueDirections().map(([name]) => name);
-    const counts = ThemeStats.scopeCounts(papers, dirs, statsSince());
-    return dirs.length ? counts : new Map([["全部", ThemeStats.filterScope(papers, { since: statsSince() }).length]]);
+    return primaryDirectionCounts(papers, statsSince());
   }
 
   function renderPulseScopeChips() {
@@ -286,7 +302,7 @@
     if (!box) return;
     const counts = pulseCounts();
     box.textContent = "";
-    for (const name of ["全部", ...uniqueDirections().map(([n]) => n)]) {
+    for (const name of ["全部", ...PRIMARY_DIRECTIONS]) {
       const btn = el("button", "chip" + (pulseScope === name ? " is-active" : ""));
       btn.type = "button";
       btn.setAttribute("aria-pressed", String(pulseScope === name));
@@ -304,9 +320,9 @@
     renderPulseScopeChips();
     const count = document.querySelector("#pulse-count");
     const since = statsSince();
-    const scopePapers = ThemeStats.filterScope(papers, { direction: pulseScope, since });
-    const hot = ThemeStats.hotTags(papers, { direction: pulseScope, since });
-    const trend = ThemeStats.trend(papers, { direction: pulseScope, since });
+    const scopePapers = ThemeStats.filterScope(papersInDirection(papers, pulseScope), { since });
+    const hot = ThemeStats.hotTags(scopePapers);
+    const trend = ThemeStats.trend(scopePapers);
     if (count) {
       count.textContent = scopePapers.length
         ? `近 ${WINDOW_DAYS} 天 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
@@ -458,7 +474,7 @@
     renderAll();
   }
 
-  /* 从热点/趋势点选主题：限定标签；统计范围非「全部」时同时限定该方向 */
+  /* 从热点/趋势点选主题；统计范围非「全部」时同时限定该一级方向。 */
   function selectFromPulse(tag) {
     tagFilter = tag;
     if (pulseScope !== "全部") directionFilter = pulseScope;

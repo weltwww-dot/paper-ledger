@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-"""Use the local Argos Translate English→Chinese model to translate summaries."""
+"""Retired translation entry point; no translation model may be invoked."""
 
 from __future__ import annotations
+
+raise SystemExit(
+    "翻译入口已停用：请由当前执行 agent 基于可核验原文亲自撰写中文六段式总结；"
+    "不得上传文本，也不得调用本地翻译模型。"
+)
 
 import os
 import re
@@ -71,8 +76,8 @@ def translate(text: str, tokenizer: spm.SentencePieceProcessor, translator: ctra
 
 def main() -> None:
     raise SystemExit(
-        "已停用自动直译：六段式中文总结必须由执行 agent 对照可核验原文撰写，"
-        "不得把本地模型的逐句输出直接发布。"
+        "翻译入口已停用：请由当前执行 agent 基于可核验原文亲自撰写中文六段式总结；"
+        "不得上传文本，也不得调用本地翻译模型。"
     )
 
     model_path = MODEL_DIR / "model"

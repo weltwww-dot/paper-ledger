@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* 兼容入口：统一转交给 D 盘的本地 Argos 英译中模型。 */
+/* 已停用：中文六段式由当前执行 agent 亲自撰写，禁止上传或调用本地翻译模型。 */
 
 const { spawnSync } = require("child_process");
 const path = require("path");

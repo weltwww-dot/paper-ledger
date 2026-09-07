@@ -2,9 +2,9 @@
 """「更新」工作流一键执行（机械步骤部分）。
 
 用法:
-  python scripts/run_update.py update    # 完整更新：抓取 → 导入 → 中文总结审校 → PDF 获取 → 同步 → 五道闸门
+  python scripts/run_update.py update    # 完整更新：抓取 → 导入 → 中文总结审校 → PDF 获取 → 同步 → 六道闸门
   python scripts/run_update.py fetch     # 读基准 → 增量抓取 → OA 检查 → 抓摘要 → 打印待处理清单
-  python scripts/run_update.py advance   # 双闸门通过后：推进更新基准（date=今天, dois=全部）
+  python scripts/run_update.py advance   # 全部闸门通过后：推进更新基准（date=今天, dois=全部）
 
 说明:
   - update 是日常更新的唯一完整入口。它强制执行中文总结审校及 PDF 探测、下载、
@@ -58,6 +58,12 @@ def run_gate(script, label, failure_message):
         log("  " + line)
     if result.returncode != 0:
         raise SystemExit(failure_message)
+
+
+def run_layout_gate(label="网站文字溢出布局检查"):
+    """Render expanded cards in a real browser and reject horizontal text overflow."""
+    log(f"{label}…")
+    run(["node", ROOT / "tests" / "layout-overflow-check.js"])
 
 
 def load_last_update():
@@ -217,6 +223,7 @@ def update():
         run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能继续。")
         run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能继续。")
         run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能继续。")
+        run_layout_gate()
         return
 
     log("Step 4/9 · 登记新增论文…")
@@ -238,6 +245,7 @@ def update():
     run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能推进或发布。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能推进或发布。")
     run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能推进或发布。")
+    run_layout_gate()
     log("✅ 本轮中文总结、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
 
 
@@ -250,6 +258,7 @@ def advance():
     run_gate("theme_gate.py", "主题标签闸门检查（advance 前置）", "主题标签闸门未通过：先补齐主题再 advance。")
     run_gate("pdf_gate.py", "PDF 获取闸门检查（advance 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 advance。")
     run_gate("workflow_gate.py", "论文台账总体验收（advance 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
+    run_layout_gate("网站文字溢出布局检查（advance 前置）")
 
     dois = existing_dois_from_data()
     today = date.today().isoformat()
@@ -294,6 +303,7 @@ def publish():
     # 0b · PDF 闸门：无 PDF 且无跳过记录的论文阻止发布
     run_gate("pdf_gate.py", "PDF 获取闸门检查（publish 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 publish。")
     run_gate("workflow_gate.py", "论文台账总体验收（publish 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
+    run_layout_gate("网站文字溢出布局检查（publish 前置）")
 
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
