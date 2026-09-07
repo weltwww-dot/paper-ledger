@@ -2,12 +2,13 @@
 """「更新」工作流一键执行（机械步骤部分）。
 
 用法:
+  python scripts/run_update.py update    # 完整更新：抓取 → 导入 → 本地中文翻译 → PDF 获取 → 同步 → 双闸门
   python scripts/run_update.py fetch     # 读基准 → 增量抓取 → OA 检查 → 抓摘要 → 打印待处理清单
-  python scripts/run_update.py advance   # 总结与同步完成后：推进更新基准（date=今天, dois=全部）
+  python scripts/run_update.py advance   # 双闸门通过后：推进更新基准（date=今天, dois=全部）
 
 说明:
-  - 抓取/总结/PDF/QA 中的「智能」步骤（写六段式总结、方向归类、判断可下载性）由 agent 完成，
-    本脚本只自动化确定性步骤，保证可重复、不遗漏。
+  - update 是日常更新的唯一完整入口。它强制执行本地中文翻译及 PDF 探测、下载、
+    校验与跳过证据登记；任何一步失败都会停止，不能推进或发布。
   - skill 脚本路径: D:/codex/.codex/skills/paper-summarize-fetch/scripts/
 """
 
@@ -40,6 +41,21 @@ def run(cmd, cwd=ROOT):
     if r.returncode != 0:
         log("[stderr] " + (r.stderr or "").rstrip())
         raise SystemExit(f"命令失败: {' '.join(str(c) for c in cmd)}")
+
+
+def run_gate(script, label, failure_message):
+    """Run a read-only quality gate and present its report consistently."""
+    log(f"{label}…")
+    result = subprocess.run(
+        [sys.executable, ROOT / "scripts" / script, "--check"],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    for line in (result.stdout or "").splitlines():
+        log("  " + line)
+    for line in (result.stderr or "").splitlines():
+        log("  " + line)
+    if result.returncode != 0:
+        raise SystemExit(failure_message)
 
 
 def load_last_update():
@@ -163,23 +179,38 @@ def fetch():
 
     if not recs:
         log("无新增论文（区间内没有未收录的新文章）。")
+    return recs
+
+
+def update():
+    """Run the non-optional daily update chain through its publication gates."""
+    recs = fetch()
+    if not recs:
+        log("本轮没有新增论文；仍检查现有中文摘要与 PDF 记录。")
+        run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能继续。")
+        run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能继续。")
+        return
+
+    log("Step 4/8 · 登记新增论文…")
+    run(["node", ROOT / "scripts" / "import_incremental.js"])
+    log("Step 5/8 · 使用本地 Argos 模型完成英文摘要英译中…")
+    run(["node", ROOT / "scripts" / "translate_summary_abstracts.js"])
+    log("Step 6/8 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
+    acquire_pdfs()
+    log("Step 7/8 · 同步总结与 PDF 链接至网站数据…")
+    run(["node", ROOT / "scripts" / "sync-papers.js"])
+    log("Step 8/8 · 更新完成性检查…")
+    run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能推进或发布。")
+    run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能推进或发布。")
+    log("✅ 本轮抓取、中文翻译、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
 
 
 def advance():
-    """推进更新基准前先过 PDF 闸门：无 PDF 且无跳过记录的论文会阻止推进。"""
+    """推进更新基准前同时验证中文摘要与 PDF 获取闭环。"""
     base = load_last_update()
     require_successful_collection_audit(base["date"], require_today=True)
-    log("PDF 闸门检查（advance 前置）…")
-    gr = subprocess.run(
-        [sys.executable, ROOT / "scripts" / "pdf_gate.py", "--check"],
-        capture_output=True, text=True, encoding="utf-8", errors="replace",
-    )
-    for line in (gr.stdout or "").splitlines():
-        log("  " + line)
-    for line in (gr.stderr or "").splitlines():
-        log("  " + line)
-    if gr.returncode != 0:
-        raise SystemExit("PDF 闸门未通过：存在无 PDF 且无跳过记录的论文，先补 PDF 或记录原因再 advance。")
+    run_gate("summary_gate.py", "中文六段式摘要闸门检查（advance 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 advance。")
+    run_gate("pdf_gate.py", "PDF 获取闸门检查（advance 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 advance。")
 
     dois = existing_dois_from_data()
     today = date.today().isoformat()
@@ -204,6 +235,8 @@ def publish():
 
     require_successful_collection_audit()
 
+    run_gate("summary_gate.py", "中文六段式摘要闸门检查（publish 前置）", "中文摘要闸门未通过：先完成本地翻译或修复结构再 publish。")
+
     # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
     log("发布前校验 papers/ PDF 有效性…")
     vr = subprocess.run(
@@ -218,17 +251,7 @@ def publish():
         raise SystemExit("papers/ 存在无效 PDF，请先运行 run_update.py verify 清理。")
 
     # 0b · PDF 闸门：无 PDF 且无跳过记录的论文阻止发布
-    log("PDF 闸门检查（publish 前置）…")
-    gr = subprocess.run(
-        [sys.executable, ROOT / "scripts" / "pdf_gate.py", "--check"],
-        capture_output=True, text=True, encoding="utf-8", errors="replace",
-    )
-    for line in (gr.stdout or "").splitlines():
-        log("  " + line)
-    for line in (gr.stderr or "").splitlines():
-        log("  " + line)
-    if gr.returncode != 0:
-        raise SystemExit("PDF 闸门未通过：存在无 PDF 且无跳过记录的论文，先补 PDF 或记录原因再 publish。")
+    run_gate("pdf_gate.py", "PDF 获取闸门检查（publish 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 publish。")
 
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -296,11 +319,13 @@ def main():
     ap = argparse.ArgumentParser(description="「更新」工作流一键执行")
     ap.add_argument(
         "mode",
-        choices=["fetch", "pdf", "verify", "abstracts", "instsci", "route-check", "advance", "publish"],
-        help="fetch=抓取 / pdf=探测 PDF / verify=校验并清理无效 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
+        choices=["update", "fetch", "pdf", "verify", "abstracts", "instsci", "route-check", "advance", "publish"],
+        help="update=完整强制流程 / fetch=抓取 / pdf=获取 PDF / verify=校验并清理无效 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
     )
     args = ap.parse_args()
-    if args.mode == "fetch":
+    if args.mode == "update":
+        update()
+    elif args.mode == "fetch":
         fetch()
     elif args.mode == "pdf":
         probe_pdfs()
@@ -387,14 +412,24 @@ def route_check():
     run([sys.executable, ROOT / "scripts" / "route_check.py"])
 
 
-def probe_pdfs():
-    """对最近一次 fetch 的待处理论文做 PDF 可下载性探测（智能获取器）。"""
+def acquire_pdfs():
+    """完整执行本轮 PDF 探测、下载、验证和可追溯跳过登记。"""
     oa = RUNS / "oa_inc.json"
     if not oa.exists():
         raise SystemExit(f"缺少 {oa}。请先运行 fetch。")
     log("PDF 探测（smart_pdf.py）…")
     run([sys.executable, ROOT / "scripts" / "smart_pdf.py", "--probe", oa])
-    log("按探测结果：direct/arxiv 直链可直接下载；article-pdf/blocked 需人工判断。")
+    log("下载可验证的 PDF 候选…")
+    run([sys.executable, ROOT / "scripts" / "download_incremental_pdfs.py"])
+    log("记录已确认的不可得原因（不会把网络错误标成已跳过）…")
+    run([sys.executable, ROOT / "scripts" / "record_incremental_pdf_attempts.py"])
+    log("校验 PDF 文件有效性…")
+    run([sys.executable, ROOT / "scripts" / "verify_papers.py", "--check"])
+
+
+def probe_pdfs():
+    """Backward-compatible alias for the complete PDF acquisition workflow."""
+    acquire_pdfs()
 
 
 def verify_pdf_files():
