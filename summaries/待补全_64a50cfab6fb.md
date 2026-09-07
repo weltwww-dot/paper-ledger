@@ -10,7 +10,7 @@
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104574
 - **arXiv**: 2403.19883v2
-- **PDF**: 待探测
+- **PDF**: [incremental.pdf](papers/incremental_64a50cfab6fb.pdf)
 
 ## 一句话概括
 

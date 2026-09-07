@@ -10,7 +10,7 @@
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tpami.2026.3687339
 - **arXiv**: 无
-- **PDF**: 待探测
+- **PDF**: [incremental.pdf](papers/incremental_f08dfce4c2fb.pdf)
 
 ## 一句话概括
 

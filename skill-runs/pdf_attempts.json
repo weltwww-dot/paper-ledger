@@ -1,1 +1,1958 @@
-{"10.1016/j.neunet.2026.109538": {"reason": "blocked", "note": "ScienceDirect pdfft \u53cd\u722c HTTPError"}, "10.1016/j.artint.2026.104603": {"reason": "blocked", "note": "ScienceDirect pdfft \u53cd\u722c HTTPError"}, "10.1093/cybsec/tyag022": {"reason": "blocked", "note": "OUP article-pdf \u53cd\u722c HTTPError"}, "10.1145/3838797": {"reason": "blocked", "note": "ACM dl.acm.org/pdf \u53cd\u722c HTTPError"}, "10.1145/3833421": {"reason": "blocked", "note": "ACM dl.acm.org/pdf \u53cd\u722c HTTPError"}, "10.1109/tnnls.2026.3659534": {"reason": "not-oa", "note": "IEEE closed\uff0c\u65e0 OA"}, "10.1177/0926227x261476666": {"reason": "not-oa", "note": "JCS closed\uff0c\u65e0 OA"}, "10.1038/s42256-026-01299-5": {"reason": "not-oa", "note": "Nature MI closed\uff0c\u65e0 OA"}, "10.1109/tpami.2026.3691448": {"reason": "not-oa", "note": "IEEE TPAMI closed\uff0c\u65e0 OA"}, "10.1109/tkde.2026.3709786": {"reason": "not-oa", "note": "IEEE TKDE closed\uff0c\u65e0 OA"}, "10.1038/s42256-026-01289-7": {"reason": "no-file", "note": "Zenodo \u4ec5\u4ee3\u7801 zip\uff0cNature \u6587\u7ae0\u9875\u65e0\u5f00\u653e PDF"}, "10.1093/cybsec/tyag003": {"reason": "blocked", "note": "OUP gold OA \u53cd\u722c\uff0cDOI \u8df3\u8f6c\u88ab WAF \u62e6"}}
+{
+ "10.1016/j.neunet.2026.109538": {
+  "reason": "blocked",
+  "note": "ScienceDirect pdfft 反爬 HTTPError"
+ },
+ "10.1016/j.artint.2026.104603": {
+  "reason": "blocked",
+  "note": "ScienceDirect pdfft 反爬 HTTPError"
+ },
+ "10.1093/cybsec/tyag022": {
+  "reason": "blocked",
+  "note": "OUP article-pdf 反爬 HTTPError"
+ },
+ "10.1145/3838797": {
+  "reason": "blocked",
+  "note": "ACM dl.acm.org/pdf 反爬 HTTPError"
+ },
+ "10.1145/3833421": {
+  "reason": "blocked",
+  "note": "ACM dl.acm.org/pdf 反爬 HTTPError"
+ },
+ "10.1109/tnnls.2026.3659534": {
+  "reason": "not-oa",
+  "note": "IEEE closed，无 OA"
+ },
+ "10.1177/0926227x261476666": {
+  "reason": "not-oa",
+  "note": "JCS closed，无 OA"
+ },
+ "10.1038/s42256-026-01299-5": {
+  "reason": "not-oa",
+  "note": "Nature MI closed，无 OA"
+ },
+ "10.1109/tpami.2026.3691448": {
+  "reason": "not-oa",
+  "note": "IEEE TPAMI closed，无 OA"
+ },
+ "10.1109/tkde.2026.3709786": {
+  "reason": "not-oa",
+  "note": "IEEE TKDE closed，无 OA"
+ },
+ "10.1038/s42256-026-01289-7": {
+  "reason": "no-file",
+  "note": "Zenodo 仅代码 zip，Nature 文章页无开放 PDF"
+ },
+ "10.1093/cybsec/tyag003": {
+  "reason": "blocked",
+  "note": "OUP gold OA 反爬，DOI 跳转被 WAF 拦"
+ },
+ "10.1016/j.neunet.2026.109571": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109578": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109563": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109561": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109554": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104572": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104584": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104576": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104586": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104588": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104608": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104915": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104929": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104924": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104931": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104932": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104935": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104947": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104620": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104621": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104951": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104953": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104955": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104956": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104960": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104961": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105131": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.104969": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105136": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105140": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108843": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108845": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108849": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108852": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108861": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108863": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108871": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108865": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108872": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108876": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108878": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108880": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108883": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108882": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108885": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108887": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108888": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108891": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108892": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105137": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108893": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108894": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108895": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108896": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108897": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105144": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108898": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108899": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108900": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108901": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108902": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108904": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108905": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108906": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108907": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108909": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108910": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108911": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108912": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108913": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108914": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108915": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108917": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108916": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108918": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108920": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108919": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108921": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108922": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108923": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108924": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108926": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108927": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108928": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108929": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108930": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108931": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108934": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108935": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108936": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108938": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108937": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108939": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108940": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108942": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108943": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108945": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108944": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108947": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108948": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108949": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108950": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108953": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108952": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108954": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108957": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108959": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108962": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108961": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108974": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108975": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108976": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108981": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108982": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108983": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108987": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.108998": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109555": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109011": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109560": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109562": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109569": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109564": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109573": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109575": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109580": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109582": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109585": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109586": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109588": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109590": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109591": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/s0004-3702(26)00119-0": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/s0893-6080(26)00677-5": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/s0893-6080(26)00678-7": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1038/s42256-026-01302-z": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2025.3559040": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3656866": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3666523": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3669876": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3670777": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3671218": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3671761": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3672361": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3672585": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3673680": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3673681": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3673682": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3674873": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3675069": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3676025": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3675539": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3676723": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3676747": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3677234": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3677237": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3677838": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3677323": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109589": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109605": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3678538": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3678540": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3678550": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3678598": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tai.2026.3678885": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3679484": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3681265": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3681277": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3681535": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3681537": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3681539": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tai.2026.3682692": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3685962": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tai.2026.3717078": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3695130": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3695161": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3695911": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696051": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696118": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696145": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696421": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696629": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696736": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3696814": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697449": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697494": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697583": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697662": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697849": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697883": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3697937": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698054": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698115": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698145": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tdsc.2026.3698487": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698496": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698827": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3698857": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699314": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699384": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699355": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699451": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699507": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3699719": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3700835": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3701006": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3701010": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3701041": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3701191": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3701655": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3702025": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3702092": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3702151": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3702678": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3703139": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3703460": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3703498": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3703615": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704353": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704001": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704390": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704537": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704559": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3704642": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3705636": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3705642": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3706099": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3706542": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3706744": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3706840": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707071": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707132": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707153": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707157": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707542": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707618": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707740": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707856": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707872": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707938": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707948": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707924": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3707981": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3708852": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3708889": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3709894": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3709803": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3710034": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3710057": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3710224": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3710528": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3710863": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3711164": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3711370": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3711460": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712032": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712080": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712193": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712242": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712721": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712723": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3712748": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3713051": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3713210": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3713473": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3713485": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714209": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714374": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714391": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714400": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714500": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714715": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714758": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714766": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714771": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714774": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714802": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3714883": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715374": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715447": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715456": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715465": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715522": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715531": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715679": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715690": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715693": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715804": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715844": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3715975": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tdsc.2026.3716326": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3680940": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3686800": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3687121": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3690781": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3691368": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3692204": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3692238": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3692662": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3694749": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3697810": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3698793": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3698929": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3699763": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3700726": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3700798": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3700824": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3701433": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3701456": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3701681": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3702049": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3702548": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3703775": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3705082": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3705464": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3705564": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3706345": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3706381": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3706635": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3707934": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3707947": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3708299": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tkde.2026.3708334": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3708509": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3708513": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3708662": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3708765": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3709125": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710223": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710321": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710651": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710572": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710776": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tkde.2026.3710808": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3658485": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3658522": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3658520": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3658584": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tnnls.2026.3659079": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3659341": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3660137": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3660929": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661083": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661291": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661550": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661343": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661886": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3661974": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3663653": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3662308": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1109/tnnls.2026.3664196": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3665367": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3665567": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3665724": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3665811": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3666557": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3668287": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669345": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669519": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669538": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669864": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669867": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669921": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3669910": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670186": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670013": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670269": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670396": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670848": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3670947": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3671326": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3671361": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3671461": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3671634": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3672118": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3672136": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3672242": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3672453": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673090": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3672967": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673280": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673098": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673350": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673692": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3673760": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3674477": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3674758": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3675092": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3675368": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3675381": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3675666": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3675818": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3723914": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3723916": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tnnls.2026.3723918": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2024.3392013": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3683057": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3669975": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3683517": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3684569": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3684742": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3685679": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3685759": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3687009": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3687180": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3687518": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3687640": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3687933": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688078": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688191": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688337": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688520": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688543": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688491": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688545": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688692": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688816": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688924": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688946": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689213": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689388": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689520": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689564": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689767": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689939": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689780": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3688999": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689960": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690051": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3689998": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690304": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690544": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690466": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690655": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3690778": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3691075": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1109/tpami.2026.3691379": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10994-026-07145-4": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109581": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109583": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10994-026-07159-y": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.artint.2026.104575": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.artint.2026.104589": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104930": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104934": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104936": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104937": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104938": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104948": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104949": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104952": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104954": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104957": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104958": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104959": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108874": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108884": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108886": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108889": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108903": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108908": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108925": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108951": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108955": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108958": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108960": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108977": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108978": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108989": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1109/tdsc.2026.3695949": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1109/tkde.2026.3700562": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.cose.2026.104950": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108890": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.108946": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.109576": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.109584": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1109/tdsc.2026.3696769": {
+  "reason": "blocked",
+  "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ }
+}
