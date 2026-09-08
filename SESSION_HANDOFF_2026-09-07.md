@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-08，待发布）**：项目位于 `D:\codex\博客网站`。今日双来源全刊更新发现并入库 13 篇真正新增论文，另有 4 篇旧记录被增量源再次检出；17 篇均已取得并校验 PDF，由当前 Codex agent 对照全文亲自重写中文六段式、补齐作者和主题。台账现为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF；六道闸门、真实 Edge 布局回归和 28 项 Python 测试全部通过。自动任务已删除 Argos 指令，明确禁止本地或在线翻译模型。当前变更尚未提交发布。
+> **最新状态（2026-09-08，已发布）**：项目位于 `D:\codex\博客网站`。今日双来源全刊更新发现并入库 13 篇真正新增论文，另有 4 篇旧记录被增量源再次检出；17 篇均已取得并校验 PDF，由当前 Codex agent 对照全文亲自重写中文六段式、补齐作者和主题。台账现为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF；六道闸门、真实 Edge 布局回归和 28 项 Python 测试全部通过。自动任务已删除 Argos 指令，明确禁止本地或在线翻译模型。主体更新提交 `de1900d` 已推送，GitHub Pages 已核验线上为 599 篇。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -167,7 +167,7 @@ git diff --check
   python scripts/run_update.py publish    # git push + 等 Pages 构建 + 线上篇数比对
   ```
 - 发布前检查：`data/papers.js` 已重新生成；提交应同时包含事实来源（summaries、theme-tags、PDF/证据）与生成数据。
-- 当前本地包含 2026-09-08 的 13 篇新增论文、17 篇全文/PDF 整理、流程修复及 handoff 更新，尚未提交或发布。
+- 2026-09-08 主体更新已提交为 `de1900d` 并发布；GitHub Pages 线上篇数核验为 599。
 
 ### 3.6 项目改进（2026-09-07 已落地）
 - **新增 `scripts/workflow_gate.py`**：全量核对 586 条台账与 586 份总结的 DOI 集合、内容状态、主题、PDF 链接和 `pdf_attempts.json` 跳过证据；完整总结不能留下纯占位段落，非研究页面必须有可审计说明。
@@ -212,7 +212,7 @@ python -m unittest discover -s tests -v                 # 28 项
 
 ## 6. 更新日志
 
-- **2026-09-08（每日全量更新，待发布）**：按 9:30 自动任务执行 `python scripts/run_update.py update`，17 本期刊双来源审计无失败；识别 17 条候选，其中 13 篇为台账净新增、4 篇为旧记录再检出。先完成 OA/arXiv 探测，再在清除当前进程代理变量、保留用户智能分流的条件下，通过 InstSci 按 Elsevier、Springer 和 ACM 分组获取机构/出版社全文；ACM 按 capability matrix 要求逐 DOI diagnose。最终 17/17 PDF 均下载且身份校验通过，顶层 PDF 由 273 增至 290。当前 agent 对照全文亲自撰写或重写 17 份中文六段式，未调用 Argos、本地模型或在线翻译服务；4 篇历史 partial 升级为 complete。同步后为 599 篇（complete 239 / partial 300 / pending 60），285 篇带 PDF，主题全部覆盖；六道闸门、Edge 布局回归、28 项测试及 `git diff --check` 全通过。发现并修复 `run_update.py update` 的不可达收口代码与“主题补全早于新记录同步”顺序错误；自动任务提示也已改为当前 agent 亲自翻译。更新基准已推进至 2026-09-08；尚未 commit / publish。
+- **2026-09-08（每日全量更新，已发布）**：按 9:30 自动任务执行 `python scripts/run_update.py update`，17 本期刊双来源审计无失败；识别 17 条候选，其中 13 篇为台账净新增、4 篇为旧记录再检出。先完成 OA/arXiv 探测，再在清除当前进程代理变量、保留用户智能分流的条件下，通过 InstSci 按 Elsevier、Springer 和 ACM 分组获取机构/出版社全文；ACM 按 capability matrix 要求逐 DOI diagnose。最终 17/17 PDF 均下载且身份校验通过，顶层 PDF 由 273 增至 290。当前 agent 对照全文亲自撰写或重写 17 份中文六段式，未调用 Argos、本地模型或在线翻译服务；4 篇历史 partial 升级为 complete。同步后为 599 篇（complete 239 / partial 300 / pending 60），285 篇带 PDF，主题全部覆盖；六道闸门、Edge 布局回归、28 项测试及 `git diff --check` 全通过。发现并修复 `run_update.py update` 的不可达收口代码与“主题补全早于新记录同步”顺序错误；自动任务提示也已改为当前 agent 亲自翻译。更新基准已推进至 2026-09-08；主体提交 `de1900d` 已推送，GitHub Pages 已成功构建并核验线上 599 篇。
 
 - **2026-09-07（项目目录迁移）**：项目全部文件（含完整 `.git`）已从 `C:\Users\Administrator\Documents\ChatGPT\博客网站` 迁移到 `D:\codex\博客网站`；路径说明更新提交 `37a40de` 已推送，HEAD 与 `origin/main` 一致。旧路径只剩被当前 Codex 任务占用的空目录，任务释放句柄后即可删除；后续 agent 必须使用新路径。
 - **2026-09-07（Codex 项目入口修正）**：排查确认侧边栏仍显示 C 盘并非迁移失败，而是 Codex 项目注册数据库及当前窗口缓存仍保留旧根目录。已将 `state_5.sqlite` 中项目 `博客网站` 的根目录改为 `D:\codex\博客网站`，同步修正 `config.toml` 的文件管理器偏好和可信项目路径；数据库完整性检查为 `ok`，修改前备份为 `C:\Users\Administrator\.codex\state_5.before-project-move-20260907.sqlite`。当前运行窗口与本任务仍可能显示旧路径，关闭并重新启动 Codex 后加载新项目根目录；后续任务必须从 D 盘项目入口启动。
