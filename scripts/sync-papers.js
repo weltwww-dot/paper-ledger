@@ -8,6 +8,8 @@
 
 const fs = require("fs");
 const path = require("path");
+const os = require("os");
+const { spawnSync } = require("child_process");
 const Parser = require(path.join(__dirname, "..", "shared", "paper-parser.js"));
 
 const ROOT = path.resolve(__dirname, "..");
@@ -15,6 +17,25 @@ const SUMMARIES_DIR = path.join(ROOT, "summaries");
 const OUT_DIR = path.join(ROOT, "data");
 const OUT_FILE = path.join(OUT_DIR, "papers.js");
 const THEME_FILE = path.join(OUT_DIR, "theme-tags.json");
+const fillThemes = process.argv.includes("--fill-themes");
+const pythonArg = process.argv.indexOf("--python");
+const python = pythonArg >= 0 && process.argv[pythonArg + 1] ? process.argv[pythonArg + 1] : "python";
+
+function fillMissingThemes(papers) {
+  const temporary = path.join(os.tmpdir(), `paper-ledger-themes-${process.pid}-${Date.now()}.json`);
+  try {
+    fs.writeFileSync(temporary, JSON.stringify(papers), "utf8");
+    const result = spawnSync(
+      python,
+      [path.join(__dirname, "fill_theme_tags.py"), "--write", "--input", temporary],
+      { cwd: ROOT, stdio: "inherit" },
+    );
+    if (result.error) throw result.error;
+    if (result.status !== 0) throw new Error(`主题补全失败（exit ${result.status}）`);
+  } finally {
+    fs.rmSync(temporary, { force: true });
+  }
+}
 
 /* 主题标签映射：DOI(小写) → 研究主题数组（data/theme-tags.json，人工维护） */
 function loadThemeMap() {
@@ -105,6 +126,7 @@ function main() {
 
   const knownOrder = existing.map((ex) => replacements.get(ex.id) || ex);
   const ordered = [...fresh, ...knownOrder].map(({ _file, ...p }) => p);
+  if (fillThemes) fillMissingThemes(ordered);
   attachTags(ordered, loadThemeMap());
 
   fs.mkdirSync(OUT_DIR, { recursive: true });

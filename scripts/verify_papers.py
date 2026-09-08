@@ -28,37 +28,38 @@ def is_valid_pdf(path):
         return False
 
 
+def check_pdfs(*, delete_invalid=False):
+    """Validate top-level PDFs and optionally remove invalid download remnants."""
+    if not PAPERS.exists():
+        print("papers/ 不存在，跳过。")
+        return 0
+
+    files = sorted(PAPERS.glob("*.pdf"))
+    bad = [path for path in files if not is_valid_pdf(path)]
+    if not bad:
+        print(f"✅ papers/ 全部 {len(files)} 个 PDF 有效")
+        return 0
+
+    for path in bad:
+        head = path.read_bytes()[:24] if path.exists() else b""
+        print(f"[无效] {path.name}  (头部: {head[:24]!r})")
+        if delete_invalid:
+            path.unlink(missing_ok=True)
+            print("   → 已删除")
+    if delete_invalid:
+        print(f"已清理 {len(bad)} 个无效残留文件。")
+        return 0
+    print(f"发现 {len(bad)} 个无效 PDF（未删除，--check 模式）")
+    return 1
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="只检查不删除")
     args = ap.parse_args()
 
-    if not PAPERS.exists():
-        print("papers/ 不存在，跳过。")
-        return
-
-    bad = []
-    for f in sorted(PAPERS.glob("*.pdf")):
-        if not is_valid_pdf(f):
-            bad.append(f)
-
-    if not bad:
-        total = len(list(PAPERS.glob("*.pdf")))
-        print(f"✅ papers/ 全部 {total} 个 PDF 有效")
-        return
-
-    for f in bad:
-        head = f.read_bytes()[:24] if f.exists() else b""
-        print(f"[无效] {f.name}  (头部: {head[:24]!r})")
-        if not args.check:
-            f.unlink(missing_ok=True)
-            print(f"   → 已删除")
-
-    if args.check:
-        print(f"发现 {len(bad)} 个无效 PDF（未删除，--check 模式）")
-        sys.exit(1)
-    print(f"已清理 {len(bad)} 个无效残留文件。")
+    raise SystemExit(check_pdfs(delete_invalid=not args.check))
 
 
 if __name__ == "__main__":

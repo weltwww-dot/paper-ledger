@@ -443,6 +443,29 @@ body {
   text-align: right;
 }
 
+.latest-collapse-floating {
+  position: fixed;
+  right: max(var(--page-gutter), env(safe-area-inset-right));
+  bottom: max(var(--space-lg), env(safe-area-inset-bottom));
+  z-index: var(--z-sticky);
+  min-height: 2.75rem;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-ink);
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 18%);
+}
+.latest-collapse-floating:hover,
+.latest-collapse-floating:focus-visible {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
 /* ── Empty states ──────────────────────────────────────────────────── */
 .empty {
   grid-column: 1 / -1;

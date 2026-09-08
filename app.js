@@ -119,6 +119,7 @@
     const list = document.querySelector("#latest-list");
     const empty = document.querySelector("#latest-empty");
     const moreBtn = document.querySelector("#latest-more");
+    const floatingCollapse = document.querySelector("#latest-collapse-floating");
     const count = document.querySelector("#latest-count");
     const filtered = visiblePapers();
 
@@ -129,6 +130,7 @@
     const hasMore = filtered.length > LATEST_LIMIT;
     moreBtn.hidden = !hasMore;
     moreBtn.textContent = showAll ? "收起 ↑" : "查看全部 →";
+    if (floatingCollapse) floatingCollapse.hidden = !(hasMore && showAll);
 
     empty.hidden = filtered.length !== 0;
     if (filtered.length === 0) {
@@ -766,9 +768,16 @@
   });
 
   /* ── latest rail expand ─────────────────────────────────────────── */
-  document.querySelector("#latest-more").addEventListener("click", () => {
-    showAll = !showAll;
+  function setLatestExpanded(expanded, returnToTop = false) {
+    showAll = expanded;
     renderLatest();
+    if (returnToTop) document.querySelector("#latest").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  document.querySelector("#latest-more").addEventListener("click", () => {
+    setLatestExpanded(!showAll, showAll);
+  });
+  document.querySelector("#latest-collapse-floating").addEventListener("click", () => {
+    setLatestExpanded(false, true);
   });
   const pulseHotMore = document.querySelector("#pulse-hot-more");
   if (pulseHotMore) {

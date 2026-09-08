@@ -19,6 +19,12 @@ UA = {"User-Agent": "paper-ledger/1.2 (mailto:verify.references.user@gmail.com)"
 ARTICLE_TYPES = {"article", "journal-article"}
 TITLE_EXCLUSION_PATTERNS = (
     ("editorial", re.compile(r"^editorial(?:\s*[:—-]|\s*$)", re.I)),
+    ("editorial-board", re.compile(r"^editorial\s+board$", re.I)),
+    ("membership-form", re.compile(r"^.*membership.*form$", re.I)),
+    ("current-events", re.compile(r"^current\s+events$", re.I)),
+    ("publication-information", re.compile(r"^.*publication\s+information$", re.I)),
+    ("information-for-authors", re.compile(r"^.*information\s+for\s+authors$", re.I)),
+    ("society-information", re.compile(r"^ieee\s+computational\s+intelligence\s+society$", re.I)),
     ("call-for-papers", re.compile(r"^call\s+for\s+papers?\b", re.I)),
     ("announcement", re.compile(r"^announcement(?:\s*[:—-]|\s*$)", re.I)),
     ("front-cover", re.compile(r"^front\s+cover\b", re.I)),

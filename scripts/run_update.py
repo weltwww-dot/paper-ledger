@@ -23,12 +23,26 @@ import time
 from datetime import date
 from pathlib import Path
 
+from update_batch import UpdateBatch
+from workflow_validation import validate_workflow
+
 ROOT = Path(__file__).resolve().parent.parent
 SKILL_SCRIPTS = Path("D:/codex/.codex/skills/paper-summarize-fetch/scripts")
 RUNS = ROOT / "skill-runs"
 LAST_UPDATE = RUNS / "last_update.json"
 DATA_FILE = ROOT / "data" / "papers.js"
 COLLECTION_AUDIT = RUNS / "collection_audit.json"
+BATCH_INPUTS = (
+    ROOT / "data" / "journals.json",
+    ROOT / "scripts" / "fetch_incremental.py",
+    ROOT / "scripts" / "journal_collection.py",
+    ROOT / "scripts" / "fetch_content.py",
+    ROOT / "scripts" / "smart_pdf.py",
+    ROOT / "scripts" / "download_incremental_pdfs.py",
+    ROOT / "scripts" / "record_incremental_pdf_attempts.py",
+    ROOT / "scripts" / "verify_papers.py",
+    SKILL_SCRIPTS / "oa_check.py",
+)
 
 
 def log(msg):
@@ -43,27 +57,6 @@ def run(cmd, cwd=ROOT):
     if r.returncode != 0:
         log("[stderr] " + (r.stderr or "").rstrip())
         raise SystemExit(f"命令失败: {' '.join(str(c) for c in cmd)}")
-
-
-def run_gate(script, label, failure_message):
-    """Run a read-only quality gate and present its report consistently."""
-    log(f"{label}…")
-    result = subprocess.run(
-        [sys.executable, ROOT / "scripts" / script, "--check"],
-        capture_output=True, text=True, encoding="utf-8", errors="replace",
-    )
-    for line in (result.stdout or "").splitlines():
-        log("  " + line)
-    for line in (result.stderr or "").splitlines():
-        log("  " + line)
-    if result.returncode != 0:
-        raise SystemExit(failure_message)
-
-
-def run_layout_gate(label="网站文字溢出布局检查"):
-    """Render expanded cards in a real browser and reject horizontal text overflow."""
-    log(f"{label}…")
-    run(["node", ROOT / "tests" / "layout-overflow-check.js"])
 
 
 def load_last_update():
@@ -85,13 +78,18 @@ def existing_dois_from_data():
     return [p["doi"] for p in arr if p.get("doi")]
 
 
-def titles_from_data():
+def titles_from_data(baseline_dois=None):
+    """Return titles belonging to the baseline, excluding newly staged entries."""
     titles = []
     if DATA_FILE.exists():
         src = DATA_FILE.read_text(encoding="utf-8")
         m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
         if m:
-            titles = [p.get("title") or "" for p in json.loads(m.group(1))]
+            papers = json.loads(m.group(1))
+            if baseline_dois is not None:
+                known = {str(doi).strip().lower() for doi in baseline_dois}
+                papers = [p for p in papers if str(p.get("doi") or "").strip().lower() in known]
+            titles = [p.get("title") or "" for p in papers]
     return titles
 
 
@@ -122,75 +120,93 @@ def require_successful_collection_audit(expected_from_date=None, require_today=F
         raise SystemExit("期刊来源审计不是今天生成的。请重新运行 run_update.py fetch。")
 
 
-def fetch():
+def fetch(*, resume=False, with_batch=False):
     base = load_last_update()
     last_date = base["date"]
     dois = base.get("dois") or []
+    baseline_titles = titles_from_data(dois)
+    batch = UpdateBatch(ROOT, script_inputs=BATCH_INPUTS)
+    batch.begin(base, baseline_titles)
     log(f"更新基准: 上次日期 {last_date}, 已收录 DOI {len(dois)} 个")
 
-    records = RUNS / "records_inc.json"
-    audit = RUNS / "collection_audit.json"
-    oa = RUNS / "oa_inc.json"
-    content = RUNS / "content_inc.json"
+    records = batch.path("records")
+    audit = batch.path("audit")
+    oa = batch.path("oa")
+    content = batch.path("content")
 
-    # 已收录清单可能很大（586+ 条），Windows 命令行有长度上限，
-    # 统一写到系统临时 JSON，由 fetch_incremental 从文件读取（用完即删）。
-    tmp_dois = tmp_titles = None
-    try:
-        tmp_dois = write_temp_json(dois)
-        tmp_titles = write_temp_json(titles_from_data())
-        log("Step 1/3 · 增量抓取全部期刊论文…")
+    if resume and batch.reusable("collection"):
+        log("Step 1/3 · 复用今天已验证的双来源抓取与审计。")
+    else:
+        batch.invalidate_from("collection")
+        # 已收录清单可能很大，Windows 命令行有长度上限，统一写临时 JSON。
+        tmp_dois = tmp_titles = None
+        try:
+            tmp_dois = write_temp_json(dois)
+            tmp_titles = write_temp_json(baseline_titles)
+            log("Step 1/3 · 增量抓取全部期刊论文…")
+            run(
+                [
+                    sys.executable,
+                    ROOT / "scripts" / "fetch_incremental.py",
+                    "--last-date",
+                    last_date,
+                    "--out",
+                    records,
+                    "--audit",
+                    audit,
+                    "--existing-dois-file",
+                    tmp_dois,
+                    "--existing-titles-file",
+                    tmp_titles,
+                ]
+            )
+            require_successful_collection_audit(last_date, require_today=True)
+            batch.complete("collection")
+        finally:
+            for p in (tmp_dois, tmp_titles):
+                if p:
+                    try:
+                        os.unlink(p)
+                    except OSError:
+                        pass
+
+    if resume and batch.reusable("oa"):
+        log("Step 2/3 · 复用今天已验证的 OA/arXiv 结果。")
+    else:
+        batch.invalidate_from("oa")
+        log("Step 2/3 · OA 检查 + arXiv…")
         run(
             [
                 sys.executable,
-                ROOT / "scripts" / "fetch_incremental.py",
-                "--last-date",
-                last_date,
-                "--out",
+                SKILL_SCRIPTS / "oa_check.py",
+                "-i",
                 records,
-                "--audit",
-                audit,
-                "--existing-dois-file",
-                tmp_dois,
-                "--existing-titles-file",
-                tmp_titles,
+                "-o",
+                oa,
+                "--arxiv",
+                "--concurrent",
             ]
         )
-    finally:
-        for p in (tmp_dois, tmp_titles):
-            if p:
-                try:
-                    os.unlink(p)
-                except OSError:
-                    pass
+        batch.complete("oa")
 
-    log("Step 2/3 · OA 检查 + arXiv…")
-    run(
-        [
-            sys.executable,
-            SKILL_SCRIPTS / "oa_check.py",
-            "-i",
-            records,
-            "-o",
-            oa,
-            "--arxiv",
-            "--concurrent",
-        ]
-    )
-
-    log("Step 3/3 · 多渠道抓摘要（typed）…")
-    run(
-        [
-            sys.executable,
-            ROOT / "scripts" / "fetch_content.py",
-            "-i",
-            oa,
-            "-o",
-            content,
-            "--attempts",
-            RUNS / "content_attempts.json",
-        ]
-    )
+    if resume and batch.reusable("content"):
+        log("Step 3/3 · 复用今天已验证的多渠道摘要结果。")
+    else:
+        batch.invalidate_from("content")
+        log("Step 3/3 · 多渠道抓摘要（typed）…")
+        run(
+            [
+                sys.executable,
+                ROOT / "scripts" / "fetch_content.py",
+                "-i",
+                oa,
+                "-o",
+                content,
+                "--attempts",
+                batch.path("content_attempts"),
+            ]
+        )
+        batch.complete("content")
 
     with open(records, encoding="utf-8") as f:
         recs = json.load(f)
@@ -208,41 +224,32 @@ def fetch():
 
     if not recs:
         log("无新增论文（区间内没有未收录的新文章）。")
-    return recs
+    return (recs, batch) if with_batch else recs
 
 
-def update():
+def update(*, refresh=False):
     """Run the non-optional daily update chain through its publication gates."""
-    recs = fetch()
+    recs, batch = fetch(resume=not refresh, with_batch=True)
     if not recs:
         log("本轮没有新增论文；仍补齐并检查现有主题、中文摘要与 PDF 记录。")
-        run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
-        run(["node", ROOT / "scripts" / "sync-papers.js"])
-        run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能继续。")
-        run_gate("summary_quality_gate.py", "中文文案质量闸门检查", "中文文案质量闸门未通过，不能继续。")
-        run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能继续。")
-        run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能继续。")
-        run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能继续。")
-        run_layout_gate()
+        run(["node", ROOT / "scripts" / "sync-papers.js", "--fill-themes", "--python", sys.executable])
+        validate_workflow(log=log)
         return
 
     log("Step 4/9 · 登记新增论文…")
     run(["node", ROOT / "scripts" / "import_incremental.js"])
     log("Step 5/9 · 新增摘要已保存为可核验草稿，中文六段式须由执行 agent 对照原文撰写…")
-    log("Step 6/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
-    acquire_pdfs()
-    log("Step 7/9 · 先同步新增总结，使主题补全能看到新记录…")
-    run(["node", ROOT / "scripts" / "sync-papers.js"])
-    log("Step 8/9 · 按既有主题方案补齐新增论文主题标签并重新同步…")
-    run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
-    run(["node", ROOT / "scripts" / "sync-papers.js"])
+    if not refresh and batch.reusable("pdf"):
+        log("Step 6/9 · 复用今天已验证的 PDF 探测、下载与证据记录。")
+    else:
+        batch.invalidate_from("pdf")
+        log("Step 6/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
+        acquire_pdfs()
+        batch.complete("pdf")
+    log("Step 7–8/9 · 单次协调主题补全与台账同步…")
+    run(["node", ROOT / "scripts" / "sync-papers.js", "--fill-themes", "--python", sys.executable])
     log("Step 9/9 · 更新完成性检查…")
-    run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能推进或发布。")
-    run_gate("summary_quality_gate.py", "中文文案质量闸门检查", "中文文案质量闸门未通过，不能推进或发布。")
-    run_gate("theme_gate.py", "主题标签闸门检查", "主题标签闸门未通过，不能推进或发布。")
-    run_gate("pdf_gate.py", "PDF 获取闸门检查", "PDF 闸门未通过，不能推进或发布。")
-    run_gate("workflow_gate.py", "论文台账总体验收", "台账总体验收未通过，不能推进或发布。")
-    run_layout_gate()
+    validate_workflow(log=log)
     log("✅ 本轮中文总结、PDF 获取及证据登记均已完成；复核内容与标签后可运行 advance。")
 
 
@@ -250,12 +257,7 @@ def advance():
     """推进更新基准前同时验证中文摘要与 PDF 获取闭环。"""
     base = load_last_update()
     require_successful_collection_audit(base["date"], require_today=True)
-    run_gate("summary_gate.py", "中文六段式摘要闸门检查（advance 前置）", "中文摘要闸门未通过：先完成中文总结或修复结构再 advance。")
-    run_gate("summary_quality_gate.py", "中文文案质量闸门检查（advance 前置）", "中文文案质量闸门未通过：先按原文修复措辞再 advance。")
-    run_gate("theme_gate.py", "主题标签闸门检查（advance 前置）", "主题标签闸门未通过：先补齐主题再 advance。")
-    run_gate("pdf_gate.py", "PDF 获取闸门检查（advance 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 advance。")
-    run_gate("workflow_gate.py", "论文台账总体验收（advance 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
-    run_layout_gate("网站文字溢出布局检查（advance 前置）")
+    validate_workflow(context="advance 前置", log=log)
 
     dois = existing_dois_from_data()
     today = date.today().isoformat()
@@ -279,28 +281,7 @@ def publish():
     site = "https://weltwww-dot.github.io/paper-ledger"
 
     require_successful_collection_audit()
-
-    run_gate("summary_gate.py", "中文六段式摘要闸门检查（publish 前置）", "中文摘要闸门未通过：先完成中文总结或修复结构再 publish。")
-    run_gate("summary_quality_gate.py", "中文文案质量闸门检查（publish 前置）", "中文文案质量闸门未通过：先按原文修复措辞再 publish。")
-    run_gate("theme_gate.py", "主题标签闸门检查（publish 前置）", "主题标签闸门未通过：先补齐主题再 publish。")
-
-    # 0 · 发布前校验 papers/ 无无效 PDF（防 HTML 垃圾进仓库）
-    log("发布前校验 papers/ PDF 有效性…")
-    vr = subprocess.run(
-        [sys.executable, ROOT / "scripts" / "verify_papers.py"],
-        capture_output=True, text=True, encoding="utf-8", errors="replace",
-    )
-    for line in (vr.stdout or "").splitlines():
-        log("  " + line)
-    for line in (vr.stderr or "").splitlines():
-        log("  " + line)
-    if vr.returncode != 0:
-        raise SystemExit("papers/ 存在无效 PDF，请先运行 run_update.py verify 清理。")
-
-    # 0b · PDF 闸门：无 PDF 且无跳过记录的论文阻止发布
-    run_gate("pdf_gate.py", "PDF 获取闸门检查（publish 前置）", "PDF 闸门未通过：先补 PDF 或记录确认的不可得原因再 publish。")
-    run_gate("workflow_gate.py", "论文台账总体验收（publish 前置）", "台账总体验收未通过：先修复 DOI、状态、主题、PDF 或跳过证据的一致性。")
-    run_layout_gate("网站文字溢出布局检查（publish 前置）")
+    validate_workflow(context="publish 前置", include_pdf_integrity=True, log=log)
 
     # 1 · 确认有待推送的提交
     r = subprocess.run(["git", "log", "origin/main..HEAD", "--oneline"], capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -371,9 +352,14 @@ def main():
         choices=["update", "fetch", "pdf", "verify", "abstracts", "instsci", "route-check", "advance", "publish"],
         help="update=完整强制流程 / fetch=抓取 / pdf=获取 PDF / verify=校验并清理无效 PDF / abstracts=重试待补全摘要 / instsci=机构全文队列 / route-check=代理出口自检 / advance=推进基准 / publish=发布",
     )
+    ap.add_argument(
+        "--refresh",
+        action="store_true",
+        help="忽略同日更新批次缓存，强制重新执行抓取、OA、摘要和 PDF 阶段（仅 update）",
+    )
     args = ap.parse_args()
     if args.mode == "update":
-        update()
+        update(refresh=args.refresh)
     elif args.mode == "fetch":
         fetch()
     elif args.mode == "pdf":

@@ -64,7 +64,7 @@ def check(summary_dir: Path = SUMMARY_DIR) -> int:
         print(f"❌ 中文摘要闸门未通过：{len(failures)}/{len(files)} 份总结不符合要求")
         for name, errors in failures:
             print(f"   - {name}：{'；'.join(errors)}")
-        print("处理方式：运行 node scripts/translate_summary_abstracts.js；缺摘要的文章保留「待补全」状态。")
+        print("处理方式：由当前执行 agent 对照可核验原文亲自撰写中文六段式；缺摘要的文章保留「待补全」状态。")
         return 1
     print(f"✅ 中文摘要闸门通过：{len(files)} 份总结均具备六段式结构，且「一句话概括」为中文")
     return 0

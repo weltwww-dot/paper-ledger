@@ -55,11 +55,16 @@ TAG_RULES: tuple[tuple[str, str], ...] = (
 )
 
 
-def load_papers() -> list[dict]:
-    source = DATA_FILE.read_text(encoding="utf-8")
+def load_papers(path: Path = DATA_FILE) -> list[dict]:
+    source = path.read_text(encoding="utf-8")
+    if path.suffix.lower() == ".json":
+        payload = json.loads(source)
+        if not isinstance(payload, list):
+            raise SystemExit(f"解析失败（顶层不是数组）: {path}")
+        return payload
     match = re.search(r"=\s*(\[.*\])\s*;?\s*$", source, re.S)
     if not match:
-        raise SystemExit(f"解析失败: {DATA_FILE}")
+        raise SystemExit(f"解析失败: {path}")
     return json.loads(match.group(1))
 
 
@@ -96,11 +101,12 @@ def main() -> None:
         pass
     parser = argparse.ArgumentParser(description="补齐缺失的论文主题标签")
     parser.add_argument("--write", action="store_true", help="写入 data/theme-tags.json（默认只预览）")
+    parser.add_argument("--input", type=Path, default=DATA_FILE, help="待分类论文 JSON 数组或 papers.js")
     args = parser.parse_args()
 
     themes = json.loads(THEME_FILE.read_text(encoding="utf-8")) if THEME_FILE.exists() else {}
     added: dict[str, list[str]] = {}
-    for paper in load_papers():
+    for paper in load_papers(args.input):
         doi = str(paper.get("doi") or "").lower()
         if not doi or themes.get(doi):
             continue

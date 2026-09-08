@@ -25,6 +25,20 @@ def missing_tags() -> list[dict]:
     return [paper for paper in papers if not themes.get(str(paper.get("doi") or "").lower())]
 
 
+def check() -> int:
+    missing = missing_tags()
+    if missing:
+        print(f"❌ 主题标签闸门未通过：{len(missing)} 篇论文没有主题标签")
+        for paper in missing[:20]:
+            print(f"   - {paper.get('title', '')[:70]} · {paper.get('doi')}")
+        if len(missing) > 20:
+            print(f"   …其余 {len(missing) - 20} 篇略")
+        print("处理方式：python scripts/fill_theme_tags.py --write；再人工复核具体主题。")
+        return 1
+    print("✅ 主题标签闸门通过：每篇论文均至少有一个主题标签")
+    return 0
+
+
 def main() -> None:
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -36,16 +50,7 @@ def main() -> None:
     if not args.check:
         parser.print_help()
         return
-    missing = missing_tags()
-    if missing:
-        print(f"❌ 主题标签闸门未通过：{len(missing)} 篇论文没有主题标签")
-        for paper in missing[:20]:
-            print(f"   - {paper.get('title', '')[:70]} · {paper.get('doi')}")
-        if len(missing) > 20:
-            print(f"   …其余 {len(missing) - 20} 篇略")
-        print("处理方式：python scripts/fill_theme_tags.py --write；再人工复核具体主题。")
-        raise SystemExit(1)
-    print("✅ 主题标签闸门通过：每篇论文均至少有一个主题标签")
+    raise SystemExit(check())
 
 
 if __name__ == "__main__":

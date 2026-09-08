@@ -43,6 +43,27 @@ class JournalCollectionTests(unittest.TestCase):
         self.assertEqual(records, [])
         self.assertEqual(audit["journals"][0]["crossref"]["excluded"], {"title:correction": 1})
 
+    def test_journal_housekeeping_pages_are_excluded(self):
+        titles = (
+            "Editorial Board",
+            "CURRENT EVENTS",
+            "INN/ENNS/JNNS - Membership Applic. Form",
+            "IEEE Transactions on Artificial Intelligence Publication Information",
+            "IEEE Transactions on Neural Networks and Learning Systems Information for Authors",
+            "IEEE Computational Intelligence Society",
+        )
+
+        def fake_fetch(url):
+            if "openalex" in url:
+                return {"results": [], "meta": {"next_cursor": None}}
+            items = [{"DOI": f"10.1000/housekeeping-{index}", "title": [title], "type": "journal-article"} for index, title in enumerate(titles)]
+            return {"message": {"items": items, "next-cursor": None}}
+
+        records, audit = collect_journals(CATALOG, "2026-09-06", "2026-09-06", fetch_json=fake_fetch, workers=1)
+
+        self.assertEqual(records, [])
+        self.assertEqual(sum(audit["journals"][0]["crossref"]["excluded"].values()), len(titles))
+
     def test_article_with_society_in_its_title_is_not_filtered(self):
         def fake_fetch(url):
             if "openalex" in url:

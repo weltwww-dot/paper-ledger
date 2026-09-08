@@ -576,16 +576,16 @@
   "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
  },
  "10.1016/s0004-3702(26)00119-0": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "标题与期刊记录表明这是 Editorial Board 编委会页面，不是研究论文；仅保留作来源审计。"
  },
  "10.1016/s0893-6080(26)00677-5": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "标题表明这是 CURRENT EVENTS 期刊动态页面，属于非研究性文档；仅保留作来源审计。"
  },
  "10.1016/s0893-6080(26)00678-7": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "标题表明这是 INN/ENNS/JNNS 会员申请表，属于非研究性文档；仅保留作来源审计。"
  },
  "10.1038/s42256-026-01302-z": {
   "reason": "not-oa",
@@ -740,8 +740,8 @@
   "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
  },
  "10.1109/tai.2026.3717078": {
-  "reason": "not-oa",
-  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+  "reason": "non_research_document",
+  "note": "标题表明这是 IEEE TAI 出版信息页，不是研究论文；仅保留作来源审计。"
  },
  "10.1109/tdsc.2026.3695130": {
   "reason": "not-oa",

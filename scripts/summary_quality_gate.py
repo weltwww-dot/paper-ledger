@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """六段式中文总结的基础文案质量闸门。
 
-该闸门补足结构检查：面向网站展示的总结不得留下要求人工确认的字样，
-也不得含有常见乱码或未解码的 HTML 实体。它不把“尚无公开材料”误判为
-内容完整；信息缺口必须用可核验、面向事实的中文说明表达。
+该闸门补足结构检查：面向网站展示的总结不得留下要求人工确认或“本节未覆盖”式
+无信息占位，也不得含有常见乱码或未解码的 HTML 实体。信息缺口必须用可核验、
+面向事实的中文说明表达。
 """
 
 from __future__ import annotations
@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SUMMARY_DIR = ROOT / "summaries"
 FORBIDDEN_PHRASES = ("待人工", "人工确认", "人工核验", "人工补全")
+EMPTY_SECTION_PHRASES = ("当前公开材料未覆盖本节", "取得全文后补充")
 BROKEN_MARKERS = ("\ufffd", "&#", "&lt;", "&gt;")
 
 
@@ -24,6 +25,9 @@ def validate_markdown(name: str, markdown: str) -> list[str]:
     for phrase in FORBIDDEN_PHRASES:
         if phrase in markdown:
             errors.append(f"含有不应展示的流程措辞：{phrase}")
+    for phrase in EMPTY_SECTION_PHRASES:
+        if phrase in markdown:
+            errors.append(f"含有无信息占位：{phrase}")
     for marker in BROKEN_MARKERS:
         if marker in markdown:
             errors.append(f"含有未清理的乱码或实体：{marker}")
@@ -44,7 +48,7 @@ def check(summary_dir: Path = SUMMARY_DIR) -> int:
         if len(failures) > 80:
             print(f"   …其余 {len(failures) - 80} 项略")
         return 1
-    print(f"✅ 中文文案质量闸门通过：{len(files)} 份总结未含人工确认措辞、乱码或未解码实体")
+    print(f"✅ 中文文案质量闸门通过：{len(files)} 份总结未含无信息占位、人工确认措辞、乱码或未解码实体")
     return 0
 
 

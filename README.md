@@ -62,6 +62,7 @@
 
 ```bash
 python scripts/run_update.py update    # 抓取 → 导入 → 中文总结审校 → 主题 → PDF 获取 → 同步 → 六道闸门
+python scripts/run_update.py update --refresh  # 忽略同日批次成果，强制重跑网络阶段
 python scripts/run_update.py advance   # 内容与标签复核后推进基准；任一闸门不通过会拒绝执行
 python scripts/run_update.py publish   # 六道闸门 + PDF 文件校验 → 推送 + Pages 验证
 ```
@@ -69,16 +70,22 @@ python scripts/run_update.py publish   # 六道闸门 + PDF 文件校验 → 推
 排障或内容补全时仍可单独运行 `fetch`、`pdf`、`abstracts`、`instsci` 与 `verify`；其中
 `pdf` 现在会完整执行探测、下载、校验和跳过证据登记，不再只是探测。
 
+同一更新基准在同一天重复执行 `update` 时，会复用已经成功且仍可核验的双来源审计、
+OA/arXiv、摘要和 PDF 阶段成果，避免人工撰写中文总结期间反复请求相同来源。基准、期刊目录、
+抓取/PDF 实现或基准论文标题发生变化，审计失败、日期变化或 JSON 损坏时会自动失效；
+需要主动重新检查来源时使用 `update --refresh`。复用不跳过导入、主题同步和六道闸门。
+
 ### 中文总结审校
 
 自动直译已停用，避免将逐句机器翻译直接展示在台账中。新增摘要先作为可核验草稿保存，
 由当前执行的 Codex agent 对照原文亲自撰写中文六段式；不得上传到翻译服务，也不得调用本地翻译模型。无法由公开材料支撑的段落必须如实说明信息边界，
-不能用流程性确认措辞代替内容。`summary_quality_gate.py` 会阻止此类措辞、乱码和未解码
-HTML 实体进入推进或发布流程。
+不能用流程性确认措辞或“当前公开材料未覆盖本节”式空段落代替内容。已有摘要时应按语义拆分
+问题、方法、实验和贡献；只有题录时只能作明确标注的题目级推断，不得虚构模型、数据或结果。
+`summary_quality_gate.py` 会阻止无信息占位、流程措辞、乱码和未解码 HTML 实体进入推进或发布流程。
 
 每次 `fetch` 还会生成 `skill-runs/collection_audit.json`：逐刊列出 OpenAlex 与 Crossref 的结果数量、排除原因、来源错误以及仅单来源 DOI。默认会重查最近 7 天的发表记录，以覆盖元数据延迟；只要任一来源失败，命令会在写出审计后失败，`advance` 和 `publish` 也会拒绝继续。
 
-发布和推进前有六道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/summary_quality_gate.py --check` 禁止流程性确认措辞、乱码和未解码实体；`scripts/theme_gate.py --check` 要求每篇都至少有一个主题；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa`、`no-file` 或 `non_research_document` 证据；`scripts/workflow_gate.py --check` 进一步核对 DOI、总结、状态、主题、PDF 链接和跳过证据的一致性；`node tests/layout-overflow-check.js` 使用真实浏览器检查展开卡片中的长公式、连续英文和链接不会越出卡片。网络错误不会自动标作跳过。
+发布和推进前有六道不可绕过的质量门：`scripts/summary_gate.py --check` 要求每份总结具备六段式结构、且「一句话概括」是中文；`scripts/summary_quality_gate.py --check` 禁止无信息占位、流程性确认措辞、乱码和未解码实体；`scripts/theme_gate.py --check` 要求每篇都至少有一个主题；`scripts/pdf_gate.py --check` 要求每篇无本地 PDF 的论文都有可追溯的 `blocked`、`not-oa`、`no-file` 或 `non_research_document` 证据；`scripts/workflow_gate.py --check` 进一步核对 DOI、总结、状态、主题、PDF 链接和跳过证据的一致性；真实 Edge 回归同时检查展开卡片不会横向溢出，以及“查看全部”后滚动到列表中部仍有可见的悬浮收起按钮。网络错误不会自动标作跳过。
 
 ## 防“读不到摘要”速查
 
@@ -117,7 +124,7 @@ summaries/             # 六段式总结（每篇一个 Markdown）
 papers/                # 已下载的 PDF
 scripts/               # 抓取 / 摘要收口(fetch_content) / PDF / 同步 / 发布脚本
 shared/                # 浏览器与 Node 共用的解析 / 存储 / 统计模块
-skill-runs/            # 更新基准与抓取记录
+skill-runs/            # 更新基准、可恢复更新批次与抓取记录
 proxy-rules/           # 代理分流规则与说明（保住 IP 直连路线）
 CONTEXT.md             # 领域词汇表（研究方向 / 主题 / 内容状态 / 热点与趋势）
 更新工作流.md          # 「更新」完整流程说明

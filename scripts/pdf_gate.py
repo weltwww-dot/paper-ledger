@@ -58,8 +58,9 @@ def check():
         for p in missing:
             print(f"   - {p.get('title', '')[:70]}  · {p.get('doi')}")
         print("处理方式：尝试下载；确认不可得或确认非研究页面后运行 pdf_gate.py --mark <doi> <reason> --note \"…\"")
-        sys.exit(1)
+        return 1
     print(f"✅ PDF 闸门通过：{total_no_pdf} 篇无 PDF 论文全部有记录在案的跳过原因")
+    return 0
 
 
 def list_state():
@@ -95,7 +96,7 @@ def main():
     args = ap.parse_args()
 
     if args.check:
-        check()
+        raise SystemExit(check())
     elif args.list:
         list_state()
     elif args.mark:

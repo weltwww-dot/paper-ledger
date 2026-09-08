@@ -55,16 +55,46 @@ function cleanText(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function splitSentences(text) {
+  return cleanText(text).split(/(?<=[.!?。！？])\s+/).filter((part) => part.length >= 8);
+}
+
+function selectSentences(parts, pattern, fallback) {
+  const matched = parts.filter((part) => pattern.test(part));
+  return cleanText((matched.length ? matched : fallback).slice(0, 3).join(" "));
+}
+
+function draftSections(record, abstract) {
+  if (!abstract) {
+    const title = `《${record.title}》`;
+    const direction = directionFor(record.source);
+    return {
+      summary: `该研究围绕${title}所描述的任务展开，所属方向为${direction}。`,
+      question: `从题目可判断，论文关注${title}对应的${direction}问题，研究重点由标题所述任务界定。`,
+      method: `题目表明研究围绕标题中的核心技术路线展开；仅凭现有题录无法可靠确定具体模型结构与实现步骤。`,
+      experiments: "现有题录没有给出可核验的实验数据、对照方法或评价指标，因此这里不补写未经证实的结果。",
+      contribution: `可确认的贡献定位是处理${title}所述任务；具体创新点、适用条件和局限仍需以论文正文为准。`,
+    };
+  }
+  const parts = splitSentences(abstract);
+  const first = parts.slice(0, 2);
+  return {
+    summary: cleanText(first.join(" ") || abstract),
+    question: cleanText(first.join(" ") || abstract),
+    method: selectSentences(parts, /propos|introduc|develop|design|method|model|framework|algorithm|approach/i, parts.slice(1, 3)),
+    experiments: selectSentences(parts, /experiment|result|show|demonstrat|outperform|improv|reduc|evaluat/i, ["The available abstract does not report verifiable experimental settings or numerical results; no unsupported result is added here."]),
+    contribution: selectSentences(parts, /contribut|novel|first|provide|enable|overall|conclu/i, parts.slice(-2)),
+  };
+}
+
 function markdownFor(record, oa, content) {
   const abstract = cleanText(content && content.kind === "ok" ? content.text : "");
   const hasAbstract = Boolean(abstract);
   const state = hasAbstract ? "部分" : "待补全";
   const note = hasAbstract
-    ? "已取得公开摘要；六段式内容将按可核验原文补充"
-    : "公开摘要暂未获取，取得可核验内容后补充";
-  const summary = hasAbstract
-    ? abstract
-    : "当前未获取可核验摘要；取得可核验内容后补充。";
+    ? "已取得公开摘要；当前 agent 须据此完成中文审校"
+    : "当前仅有题录；以下内容明确区分题目推断与未证实细节";
+  const draft = draftSections(record, abstract);
   const arxiv = cleanText(oa && oa.arxiv_id);
   const year = String(record.year || record.date || "").slice(0, 4);
   return `# ${record.title} 总结
@@ -83,23 +113,23 @@ function markdownFor(record, oa, content) {
 
 ## 一句话概括
 
-${summary}
+${draft.summary}
 
 ## 问题与动机
 
-当前公开材料未覆盖本节；取得全文后补充。
+${draft.question}
 
 ## 方法
 
-当前公开材料未覆盖本节；取得全文后补充。
+${draft.method}
 
 ## 实验与结果
 
-当前公开材料未覆盖本节；取得全文后补充。
+${draft.experiments}
 
 ## 贡献与局限
 
-当前公开材料未覆盖本节；取得全文后补充。
+${draft.contribution}
 
 ---
 DOI: ${record.doi}
