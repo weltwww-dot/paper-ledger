@@ -1,6 +1,6 @@
 [
  {
-  "doi": "10.1109/tdsc.2026.3699719",
+  "doi": "10.1109/tnnls.2026.3673280",
   "status": "not-oa",
   "url": ""
  },
@@ -10,12 +10,77 @@
   "url": ""
  },
  {
+  "doi": "10.1109/tdsc.2026.3699719",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
   "doi": "10.1109/tdsc.2026.3705636",
   "status": "not-oa",
   "url": ""
  },
  {
-  "doi": "10.1109/tnnls.2026.3673280",
+  "doi": "10.1016/j.neunet.2026.109604",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109587",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109609",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109602",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1145/3830402",
+  "status": "blocked",
+  "url": ""
+ },
+ {
+  "doi": "10.1145/3833877",
+  "status": "blocked",
+  "url": ""
+ },
+ {
+  "doi": "10.1007/s10207-026-01327-w",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1007/s10207-026-01325-y",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1007/s10994-026-07150-7",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1145/3834769",
+  "status": "arxiv",
+  "url": "https://arxiv.org/pdf/2501.16487"
+ },
+ {
+  "doi": "10.1007/s10994-026-07153-4",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1145/3833382",
+  "status": "not-oa",
+  "url": ""
+ },
+ {
+  "doi": "10.1038/s42256-026-01293-x",
   "status": "not-oa",
   "url": ""
  }

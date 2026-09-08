@@ -1,8 +1,8 @@
 {
- "from_date": "2026-08-31",
- "until_date": "2026-09-07",
+ "from_date": "2026-09-01",
+ "until_date": "2026-09-08",
  "journal_count": 17,
- "new_record_count": 4,
+ "new_record_count": 17,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
@@ -12,18 +12,24 @@
     "error": null
    },
    "crossref": {
-    "count": 0,
+    "count": 5,
     "excluded": {},
     "error": null
    },
-   "union_count": 0,
-   "crossref_only_dois": [],
+   "union_count": 5,
+   "crossref_only_dois": [
+    "10.1145/3830402",
+    "10.1145/3833382",
+    "10.1145/3833421",
+    "10.1145/3833877",
+    "10.1145/3834769"
+   ],
    "openalex_only_dois": []
   },
   {
    "journal": "Artificial Intelligence",
    "openalex": {
-    "count": 2,
+    "count": 4,
     "excluded": {},
     "error": null
    },
@@ -45,8 +51,6 @@
     "10.1016/j.artint.2026.104587",
     "10.1016/j.artint.2026.104588",
     "10.1016/j.artint.2026.104589",
-    "10.1016/j.artint.2026.104620",
-    "10.1016/j.artint.2026.104621",
     "10.1016/s0004-3702(26)00119-0"
    ],
    "openalex_only_dois": [
@@ -56,7 +60,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 4,
+    "count": 6,
     "excluded": {},
     "error": null
    },
@@ -95,8 +99,6 @@
     "10.1016/j.cose.2026.104960",
     "10.1016/j.cose.2026.104961",
     "10.1016/j.cose.2026.104969",
-    "10.1016/j.cose.2026.105137",
-    "10.1016/j.cose.2026.105144",
     "10.1016/s0167-4048(26)00169-0"
    ],
    "openalex_only_dois": [
@@ -591,12 +593,17 @@
     "error": null
    },
    "crossref": {
-    "count": 4,
-    "excluded": {},
+    "count": 6,
+    "excluded": {
+     "title:correction": 1
+    },
     "error": null
    },
-   "union_count": 4,
-   "crossref_only_dois": [],
+   "union_count": 6,
+   "crossref_only_dois": [
+    "10.1007/s10207-026-01325-y",
+    "10.1007/s10207-026-01327-w"
+   ],
    "openalex_only_dois": []
   },
   {
@@ -650,7 +657,7 @@
   {
    "journal": "Machine Learning",
    "openalex": {
-    "count": 5,
+    "count": 4,
     "excluded": {},
     "error": null
    },
@@ -661,8 +668,9 @@
    },
    "union_count": 7,
    "crossref_only_dois": [
-    "10.1007/s10994-026-07136-5",
-    "10.1007/s10994-026-07147-2"
+    "10.1007/s10994-026-07147-2",
+    "10.1007/s10994-026-07150-7",
+    "10.1007/s10994-026-07153-4"
    ],
    "openalex_only_dois": []
   },
@@ -674,29 +682,31 @@
     "error": null
    },
    "crossref": {
-    "count": 4,
+    "count": 5,
     "excluded": {},
     "error": null
    },
-   "union_count": 4,
-   "crossref_only_dois": [],
+   "union_count": 5,
+   "crossref_only_dois": [
+    "10.1038/s42256-026-01293-x"
+   ],
    "openalex_only_dois": []
   },
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 26,
+    "count": 22,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 123,
+    "count": 125,
     "excluded": {
      "title:corrigendum": 1
     },
     "error": null
    },
-   "union_count": 135,
+   "union_count": 133,
    "crossref_only_dois": [
     "10.1016/j.neunet.2026.108843",
     "10.1016/j.neunet.2026.108845",
@@ -802,23 +812,21 @@
     "10.1016/j.neunet.2026.108989",
     "10.1016/j.neunet.2026.108998",
     "10.1016/j.neunet.2026.109011",
-    "10.1016/j.neunet.2026.109589",
-    "10.1016/j.neunet.2026.109605",
+    "10.1016/j.neunet.2026.109587",
+    "10.1016/j.neunet.2026.109602",
+    "10.1016/j.neunet.2026.109604",
+    "10.1016/j.neunet.2026.109609",
     "10.1016/s0893-6080(26)00674-x",
     "10.1016/s0893-6080(26)00677-5",
     "10.1016/s0893-6080(26)00678-7"
    ],
    "openalex_only_dois": [
-    "10.1016/j.neunet.2026.109538",
-    "10.1016/j.neunet.2026.109554",
     "10.1016/j.neunet.2026.109560",
-    "10.1016/j.neunet.2026.109561",
-    "10.1016/j.neunet.2026.109563",
+    "10.1016/j.neunet.2026.109564",
+    "10.1016/j.neunet.2026.109568",
     "10.1016/j.neunet.2026.109569",
-    "10.1016/j.neunet.2026.109571",
     "10.1016/j.neunet.2026.109575",
     "10.1016/j.neunet.2026.109576",
-    "10.1016/j.neunet.2026.109578",
     "10.1016/j.neunet.2026.109581",
     "10.1016/j.neunet.2026.109583"
    ]

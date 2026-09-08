@@ -1,15 +1,15 @@
 [
   {
-    "doi": "10.1109/tdsc.2026.3699719",
-    "title": "MirageBeam: Stealthy Adversarial Beamforming Feedback for Resilient WiFi Sensing Hijacking",
-    "text": "Beamforming feedback information (BFI) sensing is emerging as a promising successor to channel state information (CSI)-based WiFi sensing thanks to its accessibility on commodity hardware without driver hacking. Yet, its security implications have been scarcely studied. Unlike CSI, BFI is broadcast in plaintext, offering adversaries a broader attack surface. We present MirageBeam, the first practical framework for adversar ial attacks on BFI-based sensing. By injecting carefully crafted BFI frames, adversaries can launch both untargeted and tar geted attacks that cause misclassification in behavior recognition systems. The core challenge is to maximize misclassification while remaining indistinguishable from regular behavior samples. We formulate an optimization problem that jointly selects the forged BFI amplitude and injection timing to covertly control the BFI sequence observed by the receiver. Furthermore, real world injections face the challenges of attack asynchrony caused by unpredictable injection delays. We introduce a delayed-BFI injection window and recast the optimization as a weighted formulation over delay units, enabling seamless adaptation to varying delays. Implemented on commodity WiFi hardware across three indoor settings, MirageBeam achieves over 81% attack success while maintaining a detection rate below 30%, revealing critical vulnerabilities in existing BFI sensing systems. Actionable countermeasures are ultimately outlined to safeguard future BFI sensing deployments.",
+    "doi": "10.1109/tnnls.2026.3673280",
+    "title": "Learning From M -Tuple One-vs-All Confidence Comparison Data",
+    "text": "Partial-label learning (PLL) studies classification with ambiguous supervision, where each instance is annotated by a candidate label set that contains the unknown true label. While PLL has been widely investigated, real-world annotation pipelines often provide richer structure than an unordered set: annotators or retrieval systems may implicitly rank candidates, yielding a preferred label that is more likely to be correct, and the mis-selection patterns can be class-dependent rather than uniform. Moreover, practical candidate sets may occasionally miss the true label due to human error or imperfect upstream models. Motivated by these observations, we propose a new weak-supervision paradigm, preferred-label PLL in a one-vs-all view (PLL-OVA), where each training instance is accompanied by a candidate set and a preferred label within the set. We model preferred-label generation through a flexible noisy-channel formulation that subsumes both symmetric and asymmetric mis-selection mechanisms, and we further incorporate the missing-true-label scenario to better reflect realistic annotation noise. Building on this formulation, we develop principled empirical risk minimization (ERM) procedures via risk rewriting, establish identifiability requirements under general channels, and derive practical learning objectives that remain statistically grounded. To improve optimization stability under negative-risk effects inherent to unbiased rewriting, we introduce risk-correction functions (e.g., rectified linear unit (ReLU)/absolute value correction function (ABS)-type corrections) that significantly enhance robustness and empirical performance. Extensive experiments on benchmark datasets demonstrate that PLL-OVA consistently improves upon standard PLL baselines, especially when candidate ambiguity is large or mis-selection is nonuniform, validating the effectiveness and practicality of the proposed framework.",
     "source": "openalex",
     "kind": "ok",
     "channels": [
       {
         "channel": "openalex",
         "kind": "ok",
-        "text": "Beamforming feedback information (BFI) sensing is emerging as a promising successor to channel state information (CSI)-based WiFi sensing thanks to its accessibility on commodity hardware without driver hacking. Yet, its security implications have been scarcely studied. Unlike CSI, BFI is broadcast in plaintext, offering adversaries a broader attack surface. We present MirageBeam, the first practical framework for adversar ial attacks on BFI-based sensing. By injecting carefully crafted BFI frames, adversaries can launch both untargeted and tar geted attacks that cause misclassification in behavior recognition systems. The core challenge is to maximize misclassification while remaining indistinguishable from regular behavior samples. We formulate an optimization problem that jointly selects the forged BFI amplitude and injection timing to covertly control the BFI sequence observed by the receiver. Furthermore, real world injections face the challenges of attack asynchrony caused by unpredictable injection delays. We introduce a delayed-BFI injection window and recast the optimization as a weighted formulation over delay units, enabling seamless adaptation to varying delays. Implemented on commodity WiFi hardware across three indoor settings, MirageBeam achieves over 81% attack success while maintaining a detection rate below 30%, revealing critical vulnerabilities in existing BFI sensing systems. Actionable countermeasures are ultimately outlined to safeguard future BFI sensing deployments."
+        "text": "Partial-label learning (PLL) studies classification with ambiguous supervision, where each instance is annotated by a candidate label set that contains the unknown true label. While PLL has been widely investigated, real-world annotation pipelines often provide richer structure than an unordered set: annotators or retrieval systems may implicitly rank candidates, yielding a preferred label that is more likely to be correct, and the mis-selection patterns can be class-dependent rather than uniform. Moreover, practical candidate sets may occasionally miss the true label due to human error or imperfect upstream models. Motivated by these observations, we propose a new weak-supervision paradigm, preferred-label PLL in a one-vs-all view (PLL-OVA), where each training instance is accompanied by a candidate set and a preferred label within the set. We model preferred-label generation through a flexible noisy-channel formulation that subsumes both symmetric and asymmetric mis-selection mechanisms, and we further incorporate the missing-true-label scenario to better reflect realistic annotation noise. Building on this formulation, we develop principled empirical risk minimization (ERM) procedures via risk rewriting, establish identifiability requirements under general channels, and derive practical learning objectives that remain statistically grounded. To improve optimization stability under negative-risk effects inherent to unbiased rewriting, we introduce risk-correction functions (e.g., rectified linear unit (ReLU)/absolute value correction function (ABS)-type corrections) that significantly enhance robustness and empirical performance. Extensive experiments on benchmark datasets demonstrate that PLL-OVA consistently improves upon standard PLL baselines, especially when candidate ambiguity is large or mis-selection is nonuniform, validating the effectiveness and practicality of the proposed framework."
       }
     ]
   },
@@ -28,6 +28,20 @@
     ]
   },
   {
+    "doi": "10.1109/tdsc.2026.3699719",
+    "title": "MirageBeam: Stealthy Adversarial Beamforming Feedback for Resilient WiFi Sensing Hijacking",
+    "text": "Beamforming feedback information (BFI) sensing is emerging as a promising successor to channel state information (CSI)-based WiFi sensing thanks to its accessibility on commodity hardware without driver hacking. Yet, its security implications have been scarcely studied. Unlike CSI, BFI is broadcast in plaintext, offering adversaries a broader attack surface. We present MirageBeam, the first practical framework for adversar ial attacks on BFI-based sensing. By injecting carefully crafted BFI frames, adversaries can launch both untargeted and tar geted attacks that cause misclassification in behavior recognition systems. The core challenge is to maximize misclassification while remaining indistinguishable from regular behavior samples. We formulate an optimization problem that jointly selects the forged BFI amplitude and injection timing to covertly control the BFI sequence observed by the receiver. Furthermore, real world injections face the challenges of attack asynchrony caused by unpredictable injection delays. We introduce a delayed-BFI injection window and recast the optimization as a weighted formulation over delay units, enabling seamless adaptation to varying delays. Implemented on commodity WiFi hardware across three indoor settings, MirageBeam achieves over 81% attack success while maintaining a detection rate below 30%, revealing critical vulnerabilities in existing BFI sensing systems. Actionable countermeasures are ultimately outlined to safeguard future BFI sensing deployments.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Beamforming feedback information (BFI) sensing is emerging as a promising successor to channel state information (CSI)-based WiFi sensing thanks to its accessibility on commodity hardware without driver hacking. Yet, its security implications have been scarcely studied. Unlike CSI, BFI is broadcast in plaintext, offering adversaries a broader attack surface. We present MirageBeam, the first practical framework for adversar ial attacks on BFI-based sensing. By injecting carefully crafted BFI frames, adversaries can launch both untargeted and tar geted attacks that cause misclassification in behavior recognition systems. The core challenge is to maximize misclassification while remaining indistinguishable from regular behavior samples. We formulate an optimization problem that jointly selects the forged BFI amplitude and injection timing to covertly control the BFI sequence observed by the receiver. Furthermore, real world injections face the challenges of attack asynchrony caused by unpredictable injection delays. We introduce a delayed-BFI injection window and recast the optimization as a weighted formulation over delay units, enabling seamless adaptation to varying delays. Implemented on commodity WiFi hardware across three indoor settings, MirageBeam achieves over 81% attack success while maintaining a detection rate below 30%, revealing critical vulnerabilities in existing BFI sensing systems. Actionable countermeasures are ultimately outlined to safeguard future BFI sensing deployments."
+      }
+    ]
+  },
+  {
     "doi": "10.1109/tdsc.2026.3705636",
     "title": "Perspicio: Safeguarding Against Non-Consensual Photo Sharing Over Social Networks",
     "text": "Photo sharing over social networks has become part of daily life. However, such practices can inadvertently lead to privacy breaches, particularly when done without the consent of unaware individuals in photos, known as the non-consensual photo sharing issue. Existing strategies, such as interactive schemes and access policy-based mechanisms, often fail to effectively determine if individuals in a photo are knowingly captured. To address this, we propose Perspicio, a new system to protect users' privacy when their images are captured unintentionally. Perspicio not only ensures heightened privacy but also accurately detect the unawareness of individuals captured in photos. This is achieved by first integrating more specific features for personal identification and introduces a dynamic weighting approach to adjust the significance of these features based on different scenarios and individual characteristics. Second, it leverages a new protocol that enhances both authorization and sharing with a higher privacy level. Finally, we conduct extensive evaluations and demonstrate that it achieves outstanding performance. Compared with the state-of-the-art in identifying unaware individuals in photos, Perspicio boosts the prediction accuracy by up to 13.2%, while speeding up the processing by 862× and 1,425× at online and offline phases, respectively.",
@@ -42,16 +56,339 @@
     ]
   },
   {
-    "doi": "10.1109/tnnls.2026.3673280",
-    "title": "Learning From M -Tuple One-vs-All Confidence Comparison Data",
-    "text": "Partial-label learning (PLL) studies classification with ambiguous supervision, where each instance is annotated by a candidate label set that contains the unknown true label. While PLL has been widely investigated, real-world annotation pipelines often provide richer structure than an unordered set: annotators or retrieval systems may implicitly rank candidates, yielding a preferred label that is more likely to be correct, and the mis-selection patterns can be class-dependent rather than uniform. Moreover, practical candidate sets may occasionally miss the true label due to human error or imperfect upstream models. Motivated by these observations, we propose a new weak-supervision paradigm, preferred-label PLL in a one-vs-all view (PLL-OVA), where each training instance is accompanied by a candidate set and a preferred label within the set. We model preferred-label generation through a flexible noisy-channel formulation that subsumes both symmetric and asymmetric mis-selection mechanisms, and we further incorporate the missing-true-label scenario to better reflect realistic annotation noise. Building on this formulation, we develop principled empirical risk minimization (ERM) procedures via risk rewriting, establish identifiability requirements under general channels, and derive practical learning objectives that remain statistically grounded. To improve optimization stability under negative-risk effects inherent to unbiased rewriting, we introduce risk-correction functions (e.g., rectified linear unit (ReLU)/absolute value correction function (ABS)-type corrections) that significantly enhance robustness and empirical performance. Extensive experiments on benchmark datasets demonstrate that PLL-OVA consistently improves upon standard PLL baselines, especially when candidate ambiguity is large or mis-selection is nonuniform, validating the effectiveness and practicality of the proposed framework.",
+    "doi": "10.1016/j.neunet.2026.109604",
+    "title": "FreqFLD: Towards All-in-One Facial Landmark Detection via Frequency Modulation",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109587",
+    "title": "KD-GAG: Knowledge-Distilled Graph-Augmented Generation via Preference-Aware Subgraph Pruning",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109609",
+    "title": "An Efficient and Accurate YOLO-Based Framework for Air-to-Air UAV Detection",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109602",
+    "title": "DeepJSCC for Video Semantic Communication with General Semantic Preservation",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3830402",
+    "title": "DRAWNAPART: A Device Identification and Spoofing Detection Technique Based on Remote GPU Fingerprinting",
+    "text": "Browser fingerprinting aims to identify users or their devices, through scripts that execute in the users’ browser and collect information on software or hardware characteristics. It is used to track users or as an additional means of identification to improve security. Fingerprinting techniques have one significant limitation: they are unable to track individual users for an extended duration. This happens because browser fingerprints evolve over time, and these evolutions ultimately cause a fingerprint to be confused with those from other devices sharing similar hardware and software. Our technique, DrawnApart , advances the field of browser fingerprinting in three significant ways. First, it is the pioneering work that investigates and exploits manufacturing variances in identical GPUs in the context of privacy protection. Second, it provides a robust method for differentiating between devices with identical hardware and software configurations, achieving practical accuracy improvements in real-world scenarios. In a setting with diverse hardware and software configurations, DrawnApart is most effective when combined with traditional fingerprinting techniques such as FP-Stalker [74]. Third, DrawnApart introduces a capability to verify the GPU renderer string, enabling the detection of spoofing attempts aimed at bypassing two-factor authentication by mimicking the victim’s device attributes.",
     "source": "openalex",
     "kind": "ok",
     "channels": [
       {
         "channel": "openalex",
         "kind": "ok",
-        "text": "Partial-label learning (PLL) studies classification with ambiguous supervision, where each instance is annotated by a candidate label set that contains the unknown true label. While PLL has been widely investigated, real-world annotation pipelines often provide richer structure than an unordered set: annotators or retrieval systems may implicitly rank candidates, yielding a preferred label that is more likely to be correct, and the mis-selection patterns can be class-dependent rather than uniform. Moreover, practical candidate sets may occasionally miss the true label due to human error or imperfect upstream models. Motivated by these observations, we propose a new weak-supervision paradigm, preferred-label PLL in a one-vs-all view (PLL-OVA), where each training instance is accompanied by a candidate set and a preferred label within the set. We model preferred-label generation through a flexible noisy-channel formulation that subsumes both symmetric and asymmetric mis-selection mechanisms, and we further incorporate the missing-true-label scenario to better reflect realistic annotation noise. Building on this formulation, we develop principled empirical risk minimization (ERM) procedures via risk rewriting, establish identifiability requirements under general channels, and derive practical learning objectives that remain statistically grounded. To improve optimization stability under negative-risk effects inherent to unbiased rewriting, we introduce risk-correction functions (e.g., rectified linear unit (ReLU)/absolute value correction function (ABS)-type corrections) that significantly enhance robustness and empirical performance. Extensive experiments on benchmark datasets demonstrate that PLL-OVA consistently improves upon standard PLL baselines, especially when candidate ambiguity is large or mis-selection is nonuniform, validating the effectiveness and practicality of the proposed framework."
+        "text": "Browser fingerprinting aims to identify users or their devices, through scripts that execute in the users’ browser and collect information on software or hardware characteristics. It is used to track users or as an additional means of identification to improve security. Fingerprinting techniques have one significant limitation: they are unable to track individual users for an extended duration. This happens because browser fingerprints evolve over time, and these evolutions ultimately cause a fingerprint to be confused with those from other devices sharing similar hardware and software. Our technique, DrawnApart , advances the field of browser fingerprinting in three significant ways. First, it is the pioneering work that investigates and exploits manufacturing variances in identical GPUs in the context of privacy protection. Second, it provides a robust method for differentiating between devices with identical hardware and software configurations, achieving practical accuracy improvements in real-world scenarios. In a setting with diverse hardware and software configurations, DrawnApart is most effective when combined with traditional fingerprinting techniques such as FP-Stalker [74]. Third, DrawnApart introduces a capability to verify the GPU renderer string, enabling the detection of spoofing attempts aimed at bypassing two-factor authentication by mimicking the victim’s device attributes."
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3833877",
+    "title": "DeckerPlus: Whole Program Attack Surface Reduction via Compiler Analysis and Transformations",
+    "text": "Modern code reuse attacks take full advantage of bloated software. Attackers piece together short sequences of instructions in otherwise benign code to carry out malicious actions. Mitigating these reusable code snippets, known as gadgets, has become one of the prime focuses of attack surface reduction research. While some debloating techniques remove parts of software that contain such gadgets, other methods focus on making them unusable by breaking up chains of them, thereby substantially diminishing the possibility of code reuse attacks. Due to a high number of vulnerabilities, third-party libraries (such as glibc ) used to be the main focus of this research but recently the scope of such attacks have enlarged to whole programs and thus, the techniques have emerged that deal with whole applications. Attack surface reduction efforts have typically tried to eliminate such attacks by subsetting (debloating) the application, e.g. via user-specified inputs, configurations, However, such techniques suffer from limitations in soundness, i.e., the software might crash during normal executions on valid inputs, or they may be conservative and leave a large amount of attack surface untackled. In this work, we present a general, whole-program attack surface reduction technique called DeckerPlus that significantly reduces gadgets that are accessible to an attacker during an execution phase (called a deck) and has minor performance degradation. DeckerPlus requires no user inputs and leaves all features intact. It uses static analysis to determine key function sets that should be enabled/disabled at runtime. The runtime system enables these function sets at the specified program points during execution. We implement two extensions to improve the baseline technique utilizing function cloning and inlining. As a result, our baseline framework achieves 70.3% average total gadget reduction on SPEC CPU 2017, 88.5% on GNU coreutils, and 89.0% across the application workloads ( nginx , Redis, lighttpd, and xpdf). Function cloning improves these reductions to 75.5%, 89.6%, and 94.2%, respectively, and inlining improves them further to 77.6%, 94.7%, and 97.8%. Overall, the baseline and extensions achieve these reductions with modest runtime overhead: average slowdown is 6.5% on SPEC CPU 2017, nginx averages 1.062x slowdown with baseline DeckerPlus and 1.011x with inlining, Redis throughput is essentially unchanged, lighttpd remains close to baseline throughput, and GNU coreutils overhead is negligible. In addition, we provide a gadget chain-breaking case study, including detailed JOP gadget metrics on both Linux and Windows, and show that our framework breaks the shell-spawning chain in all cases.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Modern code reuse attacks take full advantage of bloated software. Attackers piece together short sequences of instructions in otherwise benign code to carry out malicious actions. Mitigating these reusable code snippets, known as gadgets, has become one of the prime focuses of attack surface reduction research. While some debloating techniques remove parts of software that contain such gadgets, other methods focus on making them unusable by breaking up chains of them, thereby substantially diminishing the possibility of code reuse attacks. Due to a high number of vulnerabilities, third-party libraries (such as glibc ) used to be the main focus of this research but recently the scope of such attacks have enlarged to whole programs and thus, the techniques have emerged that deal with whole applications. Attack surface reduction efforts have typically tried to eliminate such attacks by subsetting (debloating) the application, e.g. via user-specified inputs, configurations, However, such techniques suffer from limitations in soundness, i.e., the software might crash during normal executions on valid inputs, or they may be conservative and leave a large amount of attack surface untackled. In this work, we present a general, whole-program attack surface reduction technique called DeckerPlus that significantly reduces gadgets that are accessible to an attacker during an execution phase (called a deck) and has minor performance degradation. DeckerPlus requires no user inputs and leaves all features intact. It uses static analysis to determine key function sets that should be enabled/disabled at runtime. The runtime system enables these function sets at the specified program points during execution. We implement two extensions to improve the baseline technique utilizing function cloning and inlining. As a result, our baseline framework achieves 70.3% average total gadget reduction on SPEC CPU 2017, 88.5% on GNU coreutils, and 89.0% across the application workloads ( nginx , Redis, lighttpd, and xpdf). Function cloning improves these reductions to 75.5%, 89.6%, and 94.2%, respectively, and inlining improves them further to 77.6%, 94.7%, and 97.8%. Overall, the baseline and extensions achieve these reductions with modest runtime overhead: average slowdown is 6.5% on SPEC CPU 2017, nginx averages 1.062x slowdown with baseline DeckerPlus and 1.011x with inlining, Redis throughput is essentially unchanged, lighttpd remains close to baseline throughput, and GNU coreutils overhead is negligible. In addition, we provide a gadget chain-breaking case study, including detailed JOP gadget metrics on both Linux and Windows, and show that our framework breaks the shell-spawning chain in all cases."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01327-w",
+    "title": "From perception to reaction: an RLCC-engine-driven cybersecurity framework for smart agricultural ecosystems",
+    "text": "Abstract Agriculture 4.0 makes significant use of interconnected sensors, autonomous farm equipment, cloud-based farm management systems, and data-driven decision-making. Even though these tools make farm operations more productive and sustainable, they also expose farm equipment, Internet of Things (IoT) devices, supply-chain management systems, and farm data to Cybersecurity attacks. Cybersecurity incidents in the agricultural sector may result in operational disruption, financial loss, and the compromise of data sovereignty. To address these risks, this study adopts a three-stage analytical approach consisting of challenge identification through literature and infrastructure analysis, prioritisation of the identified challenges, and systematic mapping onto a four-layer Agricultural Data-sharing Ecosystem (ADE) architecture comprising perception, network, edge, and cloud/application layers. The analysis identifies six structural challenges driving Cybersecurity risks in agriculture: data management, data governance, integration and interoperability, data privacy and security, knowledge gaps, and infrastructure limitations. Based on these findings, a conceptual multi-layer Cybersecurity framework is proposed that introduces a dedicated Reaction Layer enabling coordinated prevention, detection, and mitigation across ADE layers. The operational logic of the Reaction Layer is formalised through the Reaction Layer Cross-Layer Coordination (RLCC) algorithm, which specifies the sequential coordination of prevention, detection, mitigation, and audit actions across the ADE infrastructure layers, and links each response action to the identified challenges. To support the transition from conceptual design to practical deployment, an initial prototype architecture is outlined. It identifies which components can use existing technologies and which require new development. It also defines the scenarios and metrics that will be used to evaluate the framework.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Abstract Agriculture 4.0 makes significant use of interconnected sensors, autonomous farm equipment, cloud-based farm management systems, and data-driven decision-making. Even though these tools make farm operations more productive and sustainable, they also expose farm equipment, Internet of Things (IoT) devices, supply-chain management systems, and farm data to Cybersecurity attacks. Cybersecurity incidents in the agricultural sector may result in operational disruption, financial loss, and the compromise of data sovereignty. To address these risks, this study adopts a three-stage analytical approach consisting of challenge identification through literature and infrastructure analysis, prioritisation of the identified challenges, and systematic mapping onto a four-layer Agricultural Data-sharing Ecosystem (ADE) architecture comprising perception, network, edge, and cloud/application layers. The analysis identifies six structural challenges driving Cybersecurity risks in agriculture: data management, data governance, integration and interoperability, data privacy and security, knowledge gaps, and infrastructure limitations. Based on these findings, a conceptual multi-layer Cybersecurity framework is proposed that introduces a dedicated Reaction Layer enabling coordinated prevention, detection, and mitigation across ADE layers. The operational logic of the Reaction Layer is formalised through the Reaction Layer Cross-Layer Coordination (RLCC) algorithm, which specifies the sequential coordination of prevention, detection, mitigation, and audit actions across the ADE infrastructure layers, and links each response action to the identified challenges. To support the transition from conceptual design to practical deployment, an initial prototype architecture is outlined. It identifies which components can use existing technologies and which require new development. It also defines the scenarios and metrics that will be used to evaluate the framework."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01325-y",
+    "title": "Seeing only what we can see: why cyber strategy may be built on illusion",
+    "text": "Abstract Debates about cyber strategy lean on a handful of high-profile operations—Stuxnet, NotPetya, SolarWinds—as if they were clean tests of competing theories. But the evidence we get to see is filtered by actors with their own reasons for revealing or concealing, and that filtering is not neutral. We call the result a “visibility trap”: paradigms whose claims happen to predict the kind of evidence the public record produces look well supported, while paradigms whose claims turn on what stays hidden—coercion above all—struggle to find a clean test even where they may be right. We develop two concepts, the “visibility pipeline” and “epistemic congruence,” to trace how clandestine operations become public knowledge and to show why some theories are advantaged at the point of evidence rather than at the point of truth. The argument is epistemic, not empirical: we do not claim the dominant paradigms are wrong, only that we cannot tell from public evidence whether they dominate because they are correct or merely because they are visible. Recognising the trap is a first step toward a more honest, and more useful, account of cyber strategy.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Abstract Debates about cyber strategy lean on a handful of high-profile operations—Stuxnet, NotPetya, SolarWinds—as if they were clean tests of competing theories. But the evidence we get to see is filtered by actors with their own reasons for revealing or concealing, and that filtering is not neutral. We call the result a “visibility trap”: paradigms whose claims happen to predict the kind of evidence the public record produces look well supported, while paradigms whose claims turn on what stays hidden—coercion above all—struggle to find a clean test even where they may be right. We develop two concepts, the “visibility pipeline” and “epistemic congruence,” to trace how clandestine operations become public knowledge and to show why some theories are advantaged at the point of evidence rather than at the point of truth. The argument is epistemic, not empirical: we do not claim the dominant paradigms are wrong, only that we cannot tell from public evidence whether they dominate because they are correct or merely because they are visible. Recognising the trap is a first step toward a more honest, and more useful, account of cyber strategy."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07150-7",
+    "title": "Distribution-Free Deviation Bounds and the Role of Domain Knowledge in Learning via Model Selection with Cross-Validation Risk Estimation",
+    "text": "Cross-validation is one of the most widely used tools for risk estimation and model selection in statistics and machine learning, yet its theoretical properties when embedded in a learning procedure remain insufficiently understood. This paper develops a general, distribution-free framework for learning via model selection with cross -validation risk estimation within classical statistical learning theory. We establish VC dimension-based deviation bounds for the entire learning pipeline, providing detailed proofs for both bounded and unbounded loss functions, the latter requiring a novel extension of existing results. A central focus of the analysis is how the structure of the collection of candidate models influences generalization. To this end, we introduce Learning Spaces as collections of candidate models equipped with a partial order whose inclusion structure reflects increasing model complexity. We show how Learning Spaces can be constructed from domain knowledge and analyze how such structural information increases generalization. The framework is illustrated through case studies and a simulation study in high-dimensional linear regression, comparing learning via model selection in two distinct Learning Spaces against ordinary least squares, LASSO, and ridge regression across scenarios of varying alignment between prior knowledge and the true target. The results demonstrate that, when the Learning Space is well-adapted to the target and an efficient search algorithm is employed, learning via model selection can outperform standard methods by orders of magnitude. Through theoretical insights and concrete examples, we provide guidance on selecting the family of candidate models based on domain knowledge to enhance the performance of model selection with cross-validation.",
+    "source": "semanticscholar",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "ok",
+        "text": "Cross-validation is one of the most widely used tools for risk estimation and model selection in statistics and machine learning, yet its theoretical properties when embedded in a learning procedure remain insufficiently understood. This paper develops a general, distribution-free framework for learning via model selection with cross -validation risk estimation within classical statistical learning theory. We establish VC dimension-based deviation bounds for the entire learning pipeline, providing detailed proofs for both bounded and unbounded loss functions, the latter requiring a novel extension of existing results. A central focus of the analysis is how the structure of the collection of candidate models influences generalization. To this end, we introduce Learning Spaces as collections of candidate models equipped with a partial order whose inclusion structure reflects increasing model complexity. We show how Learning Spaces can be constructed from domain knowledge and analyze how such structural information increases generalization. The framework is illustrated through case studies and a simulation study in high-dimensional linear regression, comparing learning via model selection in two distinct Learning Spaces against ordinary least squares, LASSO, and ridge regression across scenarios of varying alignment between prior knowledge and the true target. The results demonstrate that, when the Learning Space is well-adapted to the target and an efficient search algorithm is employed, learning via model selection can outperform standard methods by orders of magnitude. Through theoretical insights and concrete examples, we provide guidance on selecting the family of candidate models based on domain knowledge to enhance the performance of model selection with cross-validation."
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3834769",
+    "title": "Network Risk Estimation: A Risk Estimation Paradigm for Cyber Networks",
+    "text": "Cyber networks are fundamental to many organizations’ infrastructure, and the size of cyber networks is increasing rapidly. Risk measurement of the entities/endpoints that make up the network via available knowledge about possible threats has been the primary tool in cyber network security. However, the dynamic behavior of the entities and the sparsity of risk-measurable points are limiting factors for risk measurement strategies, which results in poor network visibility considering the volatility of cyber networks. This work proposes a Bayesian approach to network security, called Network Risk Estimation (NRE), which operates on top of existing risk measurements. NRE extracts relationships among system components from the network connection data, models risk propagation based on the learned relationships, and refines the estimates whenever risk measurements are provided. In this work, (i) the risk estimation scheme is proposed, (ii) an application of quantitative risk estimates is devised, (iii) descriptiveness of the risk estimates are compared to a pure risk measurement alternative and (iv) low computational complexity of the proposed method is illustrated capable of real-time deployment. NRE is ultimately a quantitative data-driven tool that can be used to add security aspects to existing network functions, such as routing, and it provides a robust description of the network state in the presence of threats, capable of running in real-time.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Cyber networks are fundamental to many organizations’ infrastructure, and the size of cyber networks is increasing rapidly. Risk measurement of the entities/endpoints that make up the network via available knowledge about possible threats has been the primary tool in cyber network security. However, the dynamic behavior of the entities and the sparsity of risk-measurable points are limiting factors for risk measurement strategies, which results in poor network visibility considering the volatility of cyber networks. This work proposes a Bayesian approach to network security, called Network Risk Estimation (NRE), which operates on top of existing risk measurements. NRE extracts relationships among system components from the network connection data, models risk propagation based on the learned relationships, and refines the estimates whenever risk measurements are provided. In this work, (i) the risk estimation scheme is proposed, (ii) an application of quantitative risk estimates is devised, (iii) descriptiveness of the risk estimates are compared to a pure risk measurement alternative and (iv) low computational complexity of the proposed method is illustrated capable of real-time deployment. NRE is ultimately a quantitative data-driven tool that can be used to add security aspects to existing network functions, such as routing, and it provides a robust description of the network state in the presence of threats, capable of running in real-time."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07153-4",
+    "title": "SWIFT-KD: Sliding Window Intelligent Federated Transformer Learning with Knowledge Distillation for Building Energy Prediction",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "error",
+        "detail": "http None"
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3833382",
+    "title": "The Danger of Convenience: Unveiling the Explosively Amplified Security Risks Posed by Third-Party JavaScript Inclusion and Caching",
+    "text": "Today’s web applications feature the proliferation of third-party JavaScript inclusion, which incurs a range of security risks. Although attack strategies by manipulating third-party JavaScript files have been widely investigated, the adverse impact caused by third-party JavaScript inclusion and caching does not receive much attention. Specifically, when a malicious script is cached, it can revive and bite every time when a user visits any website that includes it, leading to a much worse effect of the attack. In this article, we present the first comprehensive study on Alexa top-1 million websites to investigate how likely third-party JavaScript inclusion and caching can make an attack large-scale and long-lasting, and further uncover insecure practices that carelessly or inadvertently exacerbate the attack impact. We develop a customized toolkit on top of Chromium and build three tree structures to capture the complex inclusion relationships between websites and third-party JavaScript files. Meanwhile, we propose a time bounding technique to accurately estimate the caching duration of a JavaScript file. The results of our study reveal that a large number of websites overlook the adverse impact and are careless about the third-party JavaScript inclusion and caching control settings. We also discuss potential solutions to improve the current practices to minimize the security risk associated with third-party JavaScript inclusion and caching.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Today’s web applications feature the proliferation of third-party JavaScript inclusion, which incurs a range of security risks. Although attack strategies by manipulating third-party JavaScript files have been widely investigated, the adverse impact caused by third-party JavaScript inclusion and caching does not receive much attention. Specifically, when a malicious script is cached, it can revive and bite every time when a user visits any website that includes it, leading to a much worse effect of the attack. In this article, we present the first comprehensive study on Alexa top-1 million websites to investigate how likely third-party JavaScript inclusion and caching can make an attack large-scale and long-lasting, and further uncover insecure practices that carelessly or inadvertently exacerbate the attack impact. We develop a customized toolkit on top of Chromium and build three tree structures to capture the complex inclusion relationships between websites and third-party JavaScript files. Meanwhile, we propose a time bounding technique to accurately estimate the caching duration of a JavaScript file. The results of our study reveal that a large number of websites overlook the adverse impact and are careless about the third-party JavaScript inclusion and caching control settings. We also discuss potential solutions to improve the current practices to minimize the security risk associated with third-party JavaScript inclusion and caching."
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s42256-026-01293-x",
+    "title": "Causal evidence that language models use confidence to drive behaviour",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "error",
+        "detail": "http None"
       }
     ]
   }

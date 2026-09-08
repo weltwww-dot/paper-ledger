@@ -229,15 +229,12 @@ def update():
     log("Step 4/9 · 登记新增论文…")
     run(["node", ROOT / "scripts" / "import_incremental.js"])
     log("Step 5/9 · 新增摘要已保存为可核验草稿，中文六段式须由执行 agent 对照原文撰写…")
-    log("Step 6/9 · 按既有主题方案补齐新增论文主题标签…")
-    run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
-    log("Step 7/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
+    log("Step 6/9 · 获取 PDF：探测 → 下载 → 校验 → 跳过证据登记…")
     acquire_pdfs()
-    raise SystemExit(
-        "新增记录的 PDF 获取已完成。请先由执行 agent 完成中文六段式总结，"
-        "再重新运行 update 收口；自动直译不允许进入发布流程。"
-    )
-    log("Step 8/9 · 同步总结、主题与 PDF 链接至网站数据…")
+    log("Step 7/9 · 先同步新增总结，使主题补全能看到新记录…")
+    run(["node", ROOT / "scripts" / "sync-papers.js"])
+    log("Step 8/9 · 按既有主题方案补齐新增论文主题标签并重新同步…")
+    run([sys.executable, ROOT / "scripts" / "fill_theme_tags.py", "--write"])
     run(["node", ROOT / "scripts" / "sync-papers.js"])
     log("Step 9/9 · 更新完成性检查…")
     run_gate("summary_gate.py", "中文六段式摘要闸门检查", "中文摘要闸门未通过，不能推进或发布。")

@@ -1954,5 +1954,53 @@
  "10.1109/tdsc.2026.3696769": {
   "reason": "blocked",
   "note": "探测到候选 PDF，但下载请求被 HTTP 错误拒绝。"
+ },
+ "10.1016/j.neunet.2026.109604": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109587": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109602": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10207-026-01327-w": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10207-026-01325-y": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10994-026-07153-4": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1145/3833877": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1016/j.neunet.2026.109609": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1038/s42256-026-01293-x": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1007/s10994-026-07150-7": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1145/3833382": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1145/3830402": {
+  "reason": "blocked",
+  "note": "PDF 探测时被出版社页面或反爬拦截。"
  }
 }

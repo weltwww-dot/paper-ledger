@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-07，已发布）**：全库 586 份六段式总结已完成中文文案审校：展示内容不再含流程性确认措辞；已重写 4 份检出的失真摘要。新增 `scripts/summary_quality_gate.py`，并接入 `update / advance / publish`；自动直译入口已停用，后续新增记录须由执行 agent 对照可核验原文写中文六段式，且 PDF 获取仍在该环节前完整执行。当前六道闸门均通过（含真实 Edge 文字溢出布局检查）、顶层 273 个 PDF 均有效、28 项 Python 测试通过。台账状态仍为 complete 222 / partial 304 / pending 60；58 篇 `partial+PDF` 为历史技术债。中文翻译权限约定、一级方向归并与文字溢出整改已随本轮提交推送至 `origin/main`。
+> **最新状态（2026-09-08，待发布）**：项目位于 `D:\codex\博客网站`。今日双来源全刊更新发现并入库 13 篇真正新增论文，另有 4 篇旧记录被增量源再次检出；17 篇均已取得并校验 PDF，由当前 Codex agent 对照全文亲自重写中文六段式、补齐作者和主题。台账现为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF；六道闸门、真实 Edge 布局回归和 28 项 Python 测试全部通过。自动任务已删除 Argos 指令，明确禁止本地或在线翻译模型。当前变更尚未提交发布。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -17,7 +17,7 @@
 
 ## 0. 一句话概述
 
-执行了一次「更新」闭环（无真正新增论文），用 InstSci（中国农业大学 CARSI 机构通道）完成待补全 PDF 的获取与整理。前一批 129 篇加上续跑目录中的 76 个文件已完成核验：其中 73 篇研究论文已全部规范化入库（中文六段式总结 + 规范 PDF + 内容状态更新 + 同步 + 闸门通过），另有 3 个 TNNLS 文件核验为非研究性期刊页面并明确排除。当前台账保持 586 篇，顶层有效 PDF 为 273 个。**未执行 advance / publish / git push（用户当前仍未要求发布）**。
+执行了一次「更新」闭环（无真正新增论文），用 InstSci（中国农业大学 CARSI 机构通道）完成待补全 PDF 的获取与整理。前一批 129 篇加上续跑目录中的 76 个文件已完成核验：其中 73 篇研究论文已全部规范化入库（中文六段式总结 + 规范 PDF + 内容状态更新 + 同步 + 闸门通过），另有 3 个 TNNLS 文件核验为非研究性期刊页面并明确排除。当前台账保持 586 篇，顶层有效 PDF 为 273 个。网站分类、翻译权限、文字溢出修复及路径迁移记录均已提交并推送；GitHub Pages 已构建成功并核验包含新版代码。
 
 > 注：原文件名带日期 `SESSION_HANDOFF_2026-09-07.md`，作为长期维护文档保留该文件名即可，内容按「更新日志」持续追加。
 
@@ -70,10 +70,10 @@
 
 | 项 | 值 |
 | --- | --- |
-| 台账论文总数 | 586 篇（未变） |
-| contentState 分布 | complete 222、partial 304、pending 60、空 '' 0 |
-| data/papers.js 带 PDF 字段 | 268 篇 |
-| papers/ 顶层有效 PDF | 273 个 |
+| 台账论文总数 | 599 篇（今日净增 13） |
+| contentState 分布 | complete 239、partial 300、pending 60、空 '' 0 |
+| data/papers.js 带 PDF 字段 | 285 篇 |
+| papers/ 顶层有效 PDF | 290 个 |
 | 历史技术债：有 PDF 但 contentState=partial | 58 篇（后续全文补全时升级为 complete） |
 | **续跑文件（verified_resume/）** | **76 个已完成分类（研究论文 73 个已入库；非研究页面 3 个排除）** |
 | papers/instsci（原始下载） | 已加入 .gitignore，不入库 |
@@ -150,24 +150,24 @@ git diff --check
 - 不在其他文档复制或维护这些实时数字。
 
 **§3.3.4 提交与发布（仅当用户说可以更新 GitHub 时）：**
-- 用户当前要求：只整理本地。**不要 push**；commit 与否听用户指示。
+- 本轮网站分类、翻译权限、文字溢出与路径说明已获用户授权并推送；当前远端提交为 `37a40de`。
 - 如需 commit：分逻辑组（脚本修复 / InstSci 产物 / 总结+PDF / 生成数据），或按用户习惯整体提交。
-- 发布（用户许可后）：`python scripts/run_update.py advance` → `python scripts/run_update.py publish`（push + 等 Pages 构建 + 线上篇数比对，以线上数量一致为准）。
+- 后续新一轮发布仍须先取得用户明确许可，再执行 `python scripts/run_update.py advance` → `python scripts/run_update.py publish`（push + 等 Pages 构建 + 线上篇数比对，以线上数量一致为准）。
 
 ### 3.4 内容状态收尾
-- 当前 60 篇 pending（主要是剩余无 PDF 或非研究页面记录）与 304 篇 partial（已有部分内容）仍需后续按证据推进；已处理的 76 个续跑文件不再重复入库。
+- 当前 60 篇 pending 与 300 篇 partial 仍需后续按证据推进；2026-09-08 新获取全文的 17 篇均已升级为 complete，其中 4 篇旧 partial 已完成全文重写，因此 partial 由 304 降至 300。
 - 3 条历史空状态已补为 `完整 · 已基于公开摘要完成中文六段式总结`，重新同步后当前无空状态；以后 `workflow_gate.py` 会阻止空状态进入 advance/publish。
 - 其中 58 篇是历史遗留的“已有 PDF 但 partial”条目，来源于早期只完成摘要翻译的流程；总体验收会显式警告，后续新增论文不得复制这种状态，补全时必须读全文并升级为 `complete`。
 
-### 3.5 发布相关（用户暂缓，等指示）
-- 用户明确：**先整理本地，暂不更新 GitHub**。
-- 待用户说「可以了」后再执行：
+### 3.5 发布相关（本轮已完成）
+- 本轮整改已推送至 `origin/main`，路径说明提交为 `37a40de`；GitHub Pages 已构建成功并核验包含新版分类和布局代码。
+- 后续有新变更且用户再次许可发布时执行：
   ```powershell
-  python scripts/run_update.py advance    # 推进 last_update.json 基准（前置：四道闸门过）
+  python scripts/run_update.py advance    # 推进 last_update.json 基准（前置：六道闸门过）
   python scripts/run_update.py publish    # git push + 等 Pages 构建 + 线上篇数比对
   ```
 - 发布前检查：`data/papers.js` 已重新生成；提交应同时包含事实来源（summaries、theme-tags、PDF/证据）与生成数据。
-- commit 提示：把 411 个变更分逻辑组提交更清晰（脚本修复 / InstSci 产物 / 总结+PDF），或按用户习惯整体提交。
+- 当前本地包含 2026-09-08 的 13 篇新增论文、17 篇全文/PDF 整理、流程修复及 handoff 更新，尚未提交或发布。
 
 ### 3.6 项目改进（2026-09-07 已落地）
 - **新增 `scripts/workflow_gate.py`**：全量核对 586 条台账与 586 份总结的 DOI 集合、内容状态、主题、PDF 链接和 `pdf_attempts.json` 跳过证据；完整总结不能留下纯占位段落，非研究页面必须有可审计说明。
@@ -212,7 +212,10 @@ python -m unittest discover -s tests -v                 # 28 项
 
 ## 6. 更新日志
 
-- **2026-09-07（项目目录迁移）**：项目全部 4754 个文件（含完整 `.git`）已从 `C:\Users\Administrator\Documents\ChatGPT\博客网站` 迁移到 `D:\codex\博客网站`；新路径 Git 工作区干净，HEAD 与 `origin/main` 一致。旧路径只剩被当前 Codex 任务占用的空目录，任务释放句柄后即可删除；后续 agent 必须使用新路径。
+- **2026-09-08（每日全量更新，待发布）**：按 9:30 自动任务执行 `python scripts/run_update.py update`，17 本期刊双来源审计无失败；识别 17 条候选，其中 13 篇为台账净新增、4 篇为旧记录再检出。先完成 OA/arXiv 探测，再在清除当前进程代理变量、保留用户智能分流的条件下，通过 InstSci 按 Elsevier、Springer 和 ACM 分组获取机构/出版社全文；ACM 按 capability matrix 要求逐 DOI diagnose。最终 17/17 PDF 均下载且身份校验通过，顶层 PDF 由 273 增至 290。当前 agent 对照全文亲自撰写或重写 17 份中文六段式，未调用 Argos、本地模型或在线翻译服务；4 篇历史 partial 升级为 complete。同步后为 599 篇（complete 239 / partial 300 / pending 60），285 篇带 PDF，主题全部覆盖；六道闸门、Edge 布局回归、28 项测试及 `git diff --check` 全通过。发现并修复 `run_update.py update` 的不可达收口代码与“主题补全早于新记录同步”顺序错误；自动任务提示也已改为当前 agent 亲自翻译。更新基准已推进至 2026-09-08；尚未 commit / publish。
+
+- **2026-09-07（项目目录迁移）**：项目全部文件（含完整 `.git`）已从 `C:\Users\Administrator\Documents\ChatGPT\博客网站` 迁移到 `D:\codex\博客网站`；路径说明更新提交 `37a40de` 已推送，HEAD 与 `origin/main` 一致。旧路径只剩被当前 Codex 任务占用的空目录，任务释放句柄后即可删除；后续 agent 必须使用新路径。
+- **2026-09-07（Codex 项目入口修正）**：排查确认侧边栏仍显示 C 盘并非迁移失败，而是 Codex 项目注册数据库及当前窗口缓存仍保留旧根目录。已将 `state_5.sqlite` 中项目 `博客网站` 的根目录改为 `D:\codex\博客网站`，同步修正 `config.toml` 的文件管理器偏好和可信项目路径；数据库完整性检查为 `ok`，修改前备份为 `C:\Users\Administrator\.codex\state_5.before-project-move-20260907.sqlite`。当前运行窗口与本任务仍可能显示旧路径，关闭并重新启动 Codex 后加载新项目根目录；后续任务必须从 D 盘项目入口启动。
 
 - **2026-09-07（展开正文文字重叠修复）**：根据用户截图建立真实 Edge 三列展开卡片复现；修复前连续英文会把 `.paper__blocks` 撑到约 4100px、脚注链接撑到约 4700px。根因是正文隐式网格列采用内容最小宽度，且正文与链接缺少任意断行约束。`styles.css` 已为正文网格、块、段落和脚注链接补齐 `minmax(0, 1fr)`、`min-width: 0`、`overflow-wrap: anywhere` 与边界约束；新增 `tests/layout-overflow-check.js`，并接入 `run_update.py update / advance / publish`。修复后真实浏览器测试通过，28 项 Python 测试通过；已随本轮提交推送。
 

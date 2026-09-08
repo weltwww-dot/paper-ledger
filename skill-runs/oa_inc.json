@@ -1,7 +1,19 @@
 [
   {
-    "doi": "10.1109/tdsc.2026.3699719",
-    "title": "MirageBeam: Stealthy Adversarial Beamforming Feedback for Resilient WiFi Sensing Hijacking",
+    "doi": "10.1109/tnnls.2026.3673280",
+    "title": "Learning From M -Tuple One-vs-All Confidence Comparison Data",
+    "year": 2026,
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "IEEE Transactions on Neural Networks and Learning Systems"
+  },
+  {
+    "doi": "10.1109/tdsc.2026.3699314",
+    "title": "PD 2 Net: A Prototype-Guided Generative Copy-Move Forgery Image Detection and Distinguishment Framework",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",
@@ -12,8 +24,8 @@
     "source": "IEEE Transactions on Dependable and Secure Computing"
   },
   {
-    "doi": "10.1109/tdsc.2026.3699314",
-    "title": "PD 2 Net: A Prototype-Guided Generative Copy-Move Forgery Image Detection and Distinguishment Framework",
+    "doi": "10.1109/tdsc.2026.3699719",
+    "title": "MirageBeam: Stealthy Adversarial Beamforming Feedback for Resilient WiFi Sensing Hijacking",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",
@@ -36,15 +48,159 @@
     "source": "IEEE Transactions on Dependable and Secure Computing"
   },
   {
-    "doi": "10.1109/tnnls.2026.3673280",
-    "title": "Learning From M -Tuple One-vs-All Confidence Comparison Data",
-    "year": 2026,
+    "doi": "10.1016/j.neunet.2026.109604",
+    "title": "FreqFLD: Towards All-in-One Facial Landmark Detection via Frequency Modulation",
+    "year": null,
     "is_oa": false,
-    "oa_status": "closed",
+    "oa_status": null,
     "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109587",
+    "title": "KD-GAG: Knowledge-Distilled Graph-Augmented Generation via Preference-Aware Subgraph Pruning",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109609",
+    "title": "An Efficient and Accurate YOLO-Based Framework for Air-to-Air UAV Detection",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109602",
+    "title": "DeepJSCC for Video Semantic Communication with General Semantic Preservation",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1145/3830402",
+    "title": "DRAWNAPART: A Device Identification and Spoofing Detection Technique Based on Remote GPU Fingerprinting",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1145/3830402",
     "arxiv_id": null,
     "matched": true,
     "note": null,
-    "source": "IEEE Transactions on Neural Networks and Learning Systems"
+    "source": "ACM Transactions on Privacy and Security"
+  },
+  {
+    "doi": "10.1145/3833877",
+    "title": "DeckerPlus: Whole Program Attack Surface Reduction via Compiler Analysis and Transformations",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1145/3833877",
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "ACM Transactions on Privacy and Security"
+  },
+  {
+    "doi": "10.1007/s10207-026-01327-w",
+    "title": "From perception to reaction: an RLCC-engine-driven cybersecurity framework for smart agricultural ecosystems",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1007/s10207-026-01325-y",
+    "title": "Seeing only what we can see: why cyber strategy may be built on illusion",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1007/s10994-026-07150-7",
+    "title": "Distribution-Free Deviation Bounds and the Role of Domain Knowledge in Learning via Model Selection with Cross-Validation Risk Estimation",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": "2303.08777v3",
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Machine Learning"
+  },
+  {
+    "doi": "10.1145/3834769",
+    "title": "Network Risk Estimation: A Risk Estimation Paradigm for Cyber Networks",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1145/3834769",
+    "arxiv_id": "2501.16487v1",
+    "matched": true,
+    "note": null,
+    "source": "ACM Transactions on Privacy and Security"
+  },
+  {
+    "doi": "10.1007/s10994-026-07153-4",
+    "title": "SWIFT-KD: Sliding Window Intelligent Federated Transformer Learning with Knowledge Distillation for Building Energy Prediction",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Machine Learning"
+  },
+  {
+    "doi": "10.1145/3833382",
+    "title": "The Danger of Convenience: Unveiling the Explosively Amplified Security Risks Posed by Third-Party JavaScript Inclusion and Caching",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "ACM Transactions on Privacy and Security"
+  },
+  {
+    "doi": "10.1038/s42256-026-01293-x",
+    "title": "Causal evidence that language models use confidence to drive behaviour",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Nature Machine Intelligence"
   }
 ]
