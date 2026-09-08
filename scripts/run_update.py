@@ -13,6 +13,7 @@
 """
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -47,6 +48,21 @@ BATCH_INPUTS = (
 
 def log(msg):
     print(msg, flush=True)
+
+
+class PublishVerificationError(RuntimeError):
+    """Raised when GitHub Pages has not published the current local release."""
+
+
+def verify_pages_release(*, build_status, build_commit, head_sha, local_fingerprint, remote_fingerprint):
+    """Require a built Pages deployment for HEAD and byte-equivalent online content."""
+    if build_status != "built":
+        raise PublishVerificationError("Pages 构建尚未完成")
+    if build_commit != head_sha:
+        raise PublishVerificationError("Pages 尚未针对当前提交完成构建")
+    if local_fingerprint != remote_fingerprint:
+        raise PublishVerificationError("线上内容与本地内容不一致")
+    return True
 
 
 def run(cmd, cwd=ROOT):
@@ -310,18 +326,26 @@ def publish():
     head_sha = (hr.stdout or "").strip()
     log(f"等待 GitHub Pages 构建 {head_sha[:7]} …")
     built = False
+    build_status = "unknown"
+    build_commit = ""
     for _ in range(40):
         br = subprocess.run(
-            ["gh", "api", f"repos/{repo}/pages/builds/latest", "--jq", "{status: .status, commit: .commit[0:7]}"],
+            ["gh", "api", f"repos/{repo}/pages/builds/latest", "--jq", "{status: .status, commit: .commit}"],
             capture_output=True, text=True, encoding="utf-8", errors="replace",
         )
         info = (br.stdout or "").strip()
-        if info and head_sha[:7] in info and '"built"' in info:
+        try:
+            pages_build = json.loads(info) if info else {}
+        except json.JSONDecodeError:
+            pages_build = {}
+        build_status = pages_build.get("status", "unknown")
+        build_commit = pages_build.get("commit", "") or ""
+        if build_status == "built" and build_commit == head_sha:
             built = True
             break
         time.sleep(15)
     if not built:
-        log(f"提示: 本次提交 {head_sha[:7]} 的 Pages 构建尚未完成，稍后可再跑 publish 验证。")
+        log(f"提示: 本次提交 {head_sha[:7]} 的 Pages 构建尚未完成，仍会进行线上指纹校验；未满足全部条件时 publish 将失败。")
 
     # 4 · 验证线上内容 = 本地内容（带版本参数绕过 CDN 缓存）
     local_count = count_papers(DATA_FILE)
@@ -332,12 +356,20 @@ def publish():
     remote_src = cr.stdout or ""
     remote_count = remote_src.count('"id":')
     log(f"本地论文数: {local_count} | 线上论文数: {remote_count}")
-    if built and local_count == remote_count:
-        log(f"✅ 发布完成，线上已更新: {site}")
-    elif local_count == remote_count:
-        log(f"⚠️ 线上内容已一致（{local_count} 篇），但 Pages 构建状态未确认完成。")
-    else:
-        raise SystemExit(f"❌ 线上内容未同步（本地 {local_count} / 线上 {remote_count}），等待构建后重试。")
+    local_src = DATA_FILE.read_text(encoding="utf-8")
+    local_fingerprint = hashlib.sha256(local_src.encode("utf-8")).hexdigest()
+    remote_fingerprint = hashlib.sha256(remote_src.encode("utf-8")).hexdigest() if remote_src else ""
+    try:
+        verify_pages_release(
+            build_status=build_status,
+            build_commit=build_commit,
+            head_sha=head_sha,
+            local_fingerprint=local_fingerprint,
+            remote_fingerprint=remote_fingerprint,
+        )
+    except PublishVerificationError as exc:
+        raise SystemExit(f"❌ 发布未完成：{exc}（本地 {local_count} / 线上 {remote_count}），稍后重试 publish。") from exc
+    log(f"✅ 发布完成，线上已更新: {site}")
 
 
 def main():

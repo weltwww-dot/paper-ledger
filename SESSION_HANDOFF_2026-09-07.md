@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-08，已推送）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。轻量化架构整改已经完成；另已清除 357 份总结中的 1428 处“当前公开材料未覆盖本节”空段落，300 篇依据已有摘要重组，57 篇仅作有边界的题目/主题推断，7 个非研究事务页面改为审计说明；截图所示 GCPS 论文已由当前 agent 单独润色。网站“查看全部”后新增始终可见的悬浮收起按钮，收起会返回收录区顶部。45 项 Python 测试、六道闸门、两项真实 Edge 回归、290 个 PDF 校验和 `git diff --check` 均通过。本轮整改提交 `c1635df` 已推送至 `origin/main`；GitHub Pages 构建状态需按发布脚本另行核验。
+> **最新状态（2026-09-08，发布标准整改待推送）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。轻量化架构整改已经完成；另已清除 357 份总结中的 1428 处“当前公开材料未覆盖本节”空段落，300 篇依据已有摘要重组，57 篇仅作有边界的题目/主题推断，7 个非研究事务页面改为审计说明；截图所示 GCPS 论文已由当前 agent 单独润色。网站“查看全部”后新增始终可见的悬浮收起按钮，收起会返回收录区顶部。49 项 Python 测试、六道闸门、两项真实 Edge 回归、290 个 PDF 校验和 `git diff --check` 均通过。新增规则要求涉及网站的更新必须以 GitHub Pages 针对当前提交构建成功且线上 `data/papers.js` 指纹一致作为收尾标准，不能只以 `git push` 成功为准。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -152,7 +152,7 @@ git diff --check
 **§3.3.4 提交与发布：**
 - 本轮网站分类、翻译权限、文字溢出与路径说明已获用户授权并推送；当前远端提交为 `37a40de`。
 - 本次摘要内容、更新流程轻量化、PDF 证据、主题同步和“查看全部”收起交互整改已整体提交为 `c1635df`，并推送至 `origin/main`。
-- 后续新一轮发布仍须先取得用户明确许可，再执行 `python scripts/run_update.py advance` → `python scripts/run_update.py publish`（push + 等 Pages 构建 + 线上篇数比对，以线上数量一致为准）。
+- 后续新一轮发布仍须先取得用户明确许可，再执行 `python scripts/run_update.py advance` → `python scripts/run_update.py publish`；`publish` 必须确认当前提交的 Pages 构建和线上 `data/papers.js` 指纹，不再只看 push 或篇数。
 
 ### 3.4 内容状态收尾
 - 当前 60 篇 pending 与 300 篇 partial 仍需后续按证据推进；2026-09-08 新获取全文的 17 篇均已升级为 complete，其中 4 篇旧 partial 已完成全文重写，因此 partial 由 304 降至 300。
@@ -160,7 +160,7 @@ git diff --check
 - 其中 58 篇是历史遗留的“已有 PDF 但 partial”条目，来源于早期只完成摘要翻译的流程；总体验收会显式警告，后续新增论文不得复制这种状态，补全时必须读全文并升级为 `complete`。
 
 ### 3.5 发布相关（本轮已完成）
-- 前一轮路径说明提交 `37a40de` 已推送；本轮整改提交 `c1635df` 已推送至 `origin/main`。GitHub Pages 构建状态需按发布脚本另行核验。
+- 前一轮路径说明提交 `37a40de` 已推送；本轮整改提交 `c1635df` 已推送至 `origin/main`。本次新增的发布收尾判定会要求 Pages 针对当前提交构建完成并通过线上文件指纹校验。
 - 后续有新变更且用户再次许可发布时执行：
   ```powershell
   python scripts/run_update.py advance    # 推进 last_update.json 基准（前置：六道闸门过）
@@ -192,6 +192,11 @@ git diff --check
 - **防复发**：`import_incremental.js` 不再生成空四段；`summary_quality_gate.py` 将上述占位句列为发布阻断项；`journal_collection.py` 新增事务页面标题过滤及测试。
 - **交互修复**：全量展开时显示固定在视口右下角的“收起列表 ↑”，任意滚动位置均可点击；收起后平滑返回收录区顶部。新增 `tests/latest-collapse-check.js`，并接入统一验证模块。
 - **验证**：空段落残留 0，台账仍为 599；45 项 Python 测试及两项真实 Edge 回归通过。已随提交 `c1635df` 推送。
+
+### 3.9 GitHub Pages 发布收尾标准（2026-09-08）
+- 只要变更涉及网站页面、`data/papers.js`、样式或交互，`git push` 成功不代表任务完成。
+- 必须运行 `python scripts/run_update.py publish`，并同时满足：Pages 状态为 `built`、Pages 构建提交等于本地 `HEAD`、线上 `data/papers.js` 与本地文件 SHA-256 指纹一致。
+- “线上篇数一致但 Pages 尚未确认”现在会失败退出；后续 agent 必须等待构建完成后重新执行 `publish`，再更新本文件的完成状态。
 
 ## 4. 关键路径备忘（供续做 agent）
 

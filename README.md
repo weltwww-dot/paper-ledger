@@ -64,7 +64,7 @@
 python scripts/run_update.py update    # 抓取 → 导入 → 中文总结审校 → 主题 → PDF 获取 → 同步 → 六道闸门
 python scripts/run_update.py update --refresh  # 忽略同日批次成果，强制重跑网络阶段
 python scripts/run_update.py advance   # 内容与标签复核后推进基准；任一闸门不通过会拒绝执行
-python scripts/run_update.py publish   # 六道闸门 + PDF 文件校验 → 推送 + Pages 验证
+python scripts/run_update.py publish   # 六道闸门 + PDF 文件校验 → 推送 + 当前提交 Pages 构建 + 线上指纹验证
 ```
 
 排障或内容补全时仍可单独运行 `fetch`、`pdf`、`abstracts`、`instsci` 与 `verify`；其中
