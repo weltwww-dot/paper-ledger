@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-08，整改待提交）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。轻量化架构整改已经完成；另已清除 357 份总结中的 1428 处“当前公开材料未覆盖本节”空段落，300 篇依据已有摘要重组，57 篇仅作有边界的题目/主题推断，7 个非研究事务页面改为审计说明；截图所示 GCPS 论文已由当前 agent 单独润色。网站“查看全部”后新增始终可见的悬浮收起按钮，收起会返回收录区顶部。45 项 Python 测试、六道闸门、两项真实 Edge 回归、290 个 PDF 校验和 `git diff --check` 均通过。上述整改尚未 commit / push；当前线上仍是提交 `de1900d` 对应版本。
+> **最新状态（2026-09-08，已推送）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。轻量化架构整改已经完成；另已清除 357 份总结中的 1428 处“当前公开材料未覆盖本节”空段落，300 篇依据已有摘要重组，57 篇仅作有边界的题目/主题推断，7 个非研究事务页面改为审计说明；截图所示 GCPS 论文已由当前 agent 单独润色。网站“查看全部”后新增始终可见的悬浮收起按钮，收起会返回收录区顶部。45 项 Python 测试、六道闸门、两项真实 Edge 回归、290 个 PDF 校验和 `git diff --check` 均通过。本轮整改提交 `c1635df` 已推送至 `origin/main`；GitHub Pages 构建状态需按发布脚本另行核验。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -79,10 +79,10 @@
 | papers/instsci（原始下载） | 已加入 .gitignore，不入库 |
 | pdf_attempts.json | 489 条（blocked 48 / not-oa 437 / no-file 1 / non_research_document 3） |
 | 六道闸门 | summary ✅ / summary-quality ✅ / theme ✅ / pdf ✅ / workflow ✅ / layout ✅ |
-| 单元测试 | 28 项 Python 测试 + 1 项真实浏览器布局回归 OK |
-| git | 本轮翻译权限、一级方向与布局整改已提交并推送至 origin/main |
+| 单元测试 | 45 项 Python 测试 + 2 项真实浏览器回归 OK |
+| git | 本轮整改提交 `c1635df` 已推送至 origin/main |
 
-工作区未提交变更大致分五类：
+本轮已推送提交 `c1635df` 主要包含以下五类变更：
 1. 脚本修复：`scripts/run_update.py`、`scripts/fetch_incremental.py`、`.gitignore`（新增 `papers/instsci/` 排除）。
 2. 生成数据：`data/papers.js`、`data/theme-tags.json`、`index.html`、`skill-runs/*.json`（collection_audit/records_inc/oa_inc/content_inc/pdf_probe/pdf_downloads/content_attempts）。
 3. 新增 129 份总结 `summaries/<slug>_总结.md` + 129 个 `papers/<前缀>_<年>_<slug>.pdf`。
@@ -102,7 +102,7 @@
 | 续跑结果记录 | 本会话 agent（我） | ✅ 已写入 §6 更新日志 + 本节 |
 | 已下载 PDF 的本地入库（76 个续跑文件） | 本会话 agent | ✅ 已完成：73 篇研究论文入库，3 篇非研究页面排除 |
 | 内容状态收尾（空状态 3 条等） | 本会话 agent | ✅ 已补齐，当前无空状态；剩余 60 篇 pending 按补全队列推进 |
-| advance / publish / git push | 待用户指示 | ⏸ 用户要求先只整理本地 |
+| advance / publish / git push | 本轮 git push 已完成 | ✅ `c1635df` 已推送；后续新一轮 advance/publish 仍需用户授权 |
 
 ### 3.2 WAF 续跑（第一轮结果 · 2026-09-07）
 
@@ -149,9 +149,9 @@ git diff --check
 - 新一轮 PDF 入库或非研究页面排除后，继续只更新本文件 §2 和 §6；不要另建 handoff 快照。
 - 不在其他文档复制或维护这些实时数字。
 
-**§3.3.4 提交与发布（仅当用户说可以更新 GitHub 时）：**
+**§3.3.4 提交与发布：**
 - 本轮网站分类、翻译权限、文字溢出与路径说明已获用户授权并推送；当前远端提交为 `37a40de`。
-- 如需 commit：分逻辑组（脚本修复 / InstSci 产物 / 总结+PDF / 生成数据），或按用户习惯整体提交。
+- 本次摘要内容、更新流程轻量化、PDF 证据、主题同步和“查看全部”收起交互整改已整体提交为 `c1635df`，并推送至 `origin/main`。
 - 后续新一轮发布仍须先取得用户明确许可，再执行 `python scripts/run_update.py advance` → `python scripts/run_update.py publish`（push + 等 Pages 构建 + 线上篇数比对，以线上数量一致为准）。
 
 ### 3.4 内容状态收尾
@@ -160,7 +160,7 @@ git diff --check
 - 其中 58 篇是历史遗留的“已有 PDF 但 partial”条目，来源于早期只完成摘要翻译的流程；总体验收会显式警告，后续新增论文不得复制这种状态，补全时必须读全文并升级为 `complete`。
 
 ### 3.5 发布相关（本轮已完成）
-- 本轮整改已推送至 `origin/main`，路径说明提交为 `37a40de`；GitHub Pages 已构建成功并核验包含新版分类和布局代码。
+- 前一轮路径说明提交 `37a40de` 已推送；本轮整改提交 `c1635df` 已推送至 `origin/main`。GitHub Pages 构建状态需按发布脚本另行核验。
 - 后续有新变更且用户再次许可发布时执行：
   ```powershell
   python scripts/run_update.py advance    # 推进 last_update.json 基准（前置：六道闸门过）
@@ -179,19 +179,19 @@ git diff --check
 - **`更新工作流.md` 新增 §9.4**「InstSci 机构 PDF 获取踩坑记录」：沉淀 2026-09-07 实测症状/根因/修复（残留进程、批量过大、SD WAF 风控、非论文页误入库、输出目录重复计数等）。
 - **`更新工作流.md` §9.3 缓存路径修正**：`CLOAKBROWSER_CACHE_DIR` 示例统一为实测有效路径 `C:\Users\Administrator\.cloakbrowser`。
 
-### 3.7 轻量化架构整改（2026-09-08，待提交）
+### 3.7 轻量化架构整改（2026-09-08，已推送）
 - **可恢复更新批次**：新增 `scripts/update_batch.py`，以日期、更新基准、基准论文标题、期刊目录和抓取/PDF 脚本内容生成指纹；双来源、OA/arXiv、摘要、PDF 四阶段分别验证 JSON 后记录完成凭据。日期/输入变化、审计失败或产物损坏会从最早阶段级联失效；`update --refresh` 强制全量重跑。
 - **统一验证模块**：新增 `scripts/workflow_validation.py`，由一个深模块拥有六道闸门顺序；`update / advance / publish` 不再分别维护重复列表，publish 仍额外执行 PDF 文件完整性校验。
 - **单次目录协调**：`sync-papers.js --fill-themes` 将解析后的内存目录传给 `fill_theme_tags.py --input`，主题补全后直接生成网站数据；新增路径不再执行 `sync → fill → sync` 两次全量解析。实测 599 篇同步前后 papers/theme 哈希不变。
 - **清理翻译遗留**：删除 `translate_summary_abstracts_local.py` 中约 110 行不可达 Argos 实现，Node/Python 旧入口只保留兼容拒绝；摘要闸门不再提示运行机器翻译。
-- **验证**：新增 14 项批次恢复、编排和停用入口测试，总测试数由 28 增至 42；六道闸门、Edge 布局、290 个 PDF、Python 编译与 `git diff --check` 均通过。当前尚未 commit / push。
+- **验证**：新增 14 项批次恢复、编排和停用入口测试，总测试数为 45；六道闸门、两项 Edge 回归、290 个 PDF、Python 编译与 `git diff --check` 均通过。已随提交 `c1635df` 推送。
 
-### 3.8 空段落与全量收起交互整改（2026-09-08，待提交）
+### 3.8 空段落与全量收起交互整改（2026-09-08，已推送）
 - **内容根因**：旧导入模板把抓到的摘要全部塞入“一句话概括”，其余四段固定写“当前公开材料未覆盖本节”；质量闸门此前还明确接受该句。全库共命中 357 份总结、1428 处。
 - **内容修复**：新增 `scripts/enrich_incomplete_summaries.py`，300 篇依据现有中文摘要的语义线索重组问题/方法/实验/贡献，57 篇只有题录的条目仅根据题目、方向和主题作明确标注的有限推断，绝不生成未获支持的实验数字；截图 DOI `10.1007/s10994-026-07159-y` 已由当前 agent 单独润色。7 个编委会、学会信息、会员表、Current Events、出版信息或投稿须知页面改为非研究审计说明，其中 4 条旧 `pdf_attempts` 原因修正为 `non_research_document`。
 - **防复发**：`import_incremental.js` 不再生成空四段；`summary_quality_gate.py` 将上述占位句列为发布阻断项；`journal_collection.py` 新增事务页面标题过滤及测试。
 - **交互修复**：全量展开时显示固定在视口右下角的“收起列表 ↑”，任意滚动位置均可点击；收起后平滑返回收录区顶部。新增 `tests/latest-collapse-check.js`，并接入统一验证模块。
-- **验证**：空段落残留 0，台账仍为 599；45 项 Python 测试及两项真实 Edge 回归通过。尚未 commit / push。
+- **验证**：空段落残留 0，台账仍为 599；45 项 Python 测试及两项真实 Edge 回归通过。已随提交 `c1635df` 推送。
 
 ## 4. 关键路径备忘（供续做 agent）
 
@@ -226,9 +226,9 @@ python -m unittest discover -s tests -v                 # 45 项
 
 ## 6. 更新日志
 
-- **2026-09-08（空段落与收起交互整改，待提交）**：清除 357 份总结中的 1428 处无信息占位，按已有摘要或题录证据重建六段式内容，单独润色用户截图中的 GCPS 论文；修正 7 个非研究事务页面并扩充抓取过滤。全量展开新增始终可见的悬浮收起按钮及滚动位置恢复，真实 Edge 回归纳入发布闸门。台账仍为 599，45 项测试通过，尚未 commit / push。
+- **2026-09-08（空段落与收起交互整改，已推送）**：清除 357 份总结中的 1428 处无信息占位，按已有摘要或题录证据重建六段式内容，单独润色用户截图中的 GCPS 论文；修正 7 个非研究事务页面并扩充抓取过滤。全量展开新增始终可见的悬浮收起按钮及滚动位置恢复，真实 Edge 回归纳入发布闸门。台账仍为 599，45 项测试通过，提交 `c1635df` 已推送。
 
-- **2026-09-08（轻量化架构整改，待提交）**：在不删减双来源审计、PDF 获取、当前 agent 亲自撰写中文六段式、主题与发布复验的前提下，落地四项架构改进：可恢复更新批次（含 `--refresh` 与级联失效）、统一六道闸门模块、主题与目录单次协调、删除不可达 Argos 实现并保留拒绝兼容壳；更新 `CONTEXT.md`、README、工作流和本交接文件。实测 599 篇同步结果不变，42 项测试、六道闸门、Edge 布局、290 个 PDF 及差异格式检查通过。尚未 commit / push。
+- **2026-09-08（轻量化架构整改，已推送）**：在不删减双来源审计、PDF 获取、当前 agent 亲自撰写中文六段式、主题与发布复验的前提下，落地四项架构改进：可恢复更新批次（含 `--refresh` 与级联失效）、统一六道闸门模块、主题与目录单次协调、删除不可达 Argos 实现并保留拒绝兼容壳；更新 `CONTEXT.md`、README、工作流和本交接文件。实测 599 篇同步结果不变，45 项测试、六道闸门、两项 Edge 回归、290 个 PDF 及差异格式检查通过。提交 `c1635df` 已推送。
 
 - **2026-09-08（每日全量更新，已发布）**：按 9:30 自动任务执行 `python scripts/run_update.py update`，17 本期刊双来源审计无失败；识别 17 条候选，其中 13 篇为台账净新增、4 篇为旧记录再检出。先完成 OA/arXiv 探测，再在清除当前进程代理变量、保留用户智能分流的条件下，通过 InstSci 按 Elsevier、Springer 和 ACM 分组获取机构/出版社全文；ACM 按 capability matrix 要求逐 DOI diagnose。最终 17/17 PDF 均下载且身份校验通过，顶层 PDF 由 273 增至 290。当前 agent 对照全文亲自撰写或重写 17 份中文六段式，未调用 Argos、本地模型或在线翻译服务；4 篇历史 partial 升级为 complete。同步后为 599 篇（complete 239 / partial 300 / pending 60），285 篇带 PDF，主题全部覆盖；六道闸门、Edge 布局回归、28 项测试及 `git diff --check` 全通过。发现并修复 `run_update.py update` 的不可达收口代码与“主题补全早于新记录同步”顺序错误；自动任务提示也已改为当前 agent 亲自翻译。更新基准已推进至 2026-09-08；主体提交 `de1900d` 已推送，GitHub Pages 已成功构建并核验线上 599 篇。
 
