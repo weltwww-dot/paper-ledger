@@ -33,8 +33,8 @@ def _run_checks(checks: Iterable[Check], context: str, log: Callable[[str], None
 
 def _layout_check(log: Callable[[str], None], context: str) -> None:
     suffix = f"（{context}）" if context else ""
-    log(f"网站布局与收起交互检查{suffix}…")
-    for script in ("layout-overflow-check.js", "latest-collapse-check.js"):
+    log(f"网站布局、收起与 PDF 导航检查{suffix}…")
+    for script in ("layout-overflow-check.js", "latest-collapse-check.js", "pdf-navigation-check.js"):
         result = subprocess.run(
             ["node", ROOT / "tests" / script],
             cwd=str(ROOT),
@@ -48,7 +48,7 @@ def _layout_check(log: Callable[[str], None], context: str) -> None:
         if result.stderr:
             log(result.stderr.rstrip())
         if result.returncode != 0:
-            raise SystemExit("网站布局或收起交互检查未通过，不能继续。")
+            raise SystemExit("网站布局、收起或 PDF 导航检查未通过，不能继续。")
 
 
 def validate_workflow(

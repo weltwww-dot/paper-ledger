@@ -1,12 +1,13 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 
-from workflow_validation import _run_checks  # noqa: E402
+from workflow_validation import _layout_check, _run_checks  # noqa: E402
 
 
 class WorkflowValidationTests(unittest.TestCase):
@@ -39,6 +40,20 @@ class WorkflowValidationTests(unittest.TestCase):
 
         with self.assertRaisesRegex(SystemExit, "legacy failed"):
             _run_checks([("legacy", legacy_check, "legacy failed")], "", lambda _message: None)
+
+    @patch("workflow_validation.subprocess.run")
+    def test_browser_gate_runs_pdf_navigation_regression(self, run):
+        run.return_value.returncode = 0
+        run.return_value.stdout = ""
+        run.return_value.stderr = ""
+
+        _layout_check(lambda _message: None, "publish 前置")
+
+        scripts = [Path(call.args[0][1]).name for call in run.call_args_list]
+        self.assertEqual(
+            scripts,
+            ["layout-overflow-check.js", "latest-collapse-check.js", "pdf-navigation-check.js"],
+        )
 
 
 if __name__ == "__main__":

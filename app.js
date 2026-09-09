@@ -82,10 +82,10 @@
     return node;
   }
 
-  function linkEl(href, text, className) {
+  function linkEl(href, text, className, openInNewTab = false) {
     const a = el("a", className, text);
     a.href = href;
-    if (/^https?:/i.test(href)) {
+    if (openInNewTab || /^https?:/i.test(href)) {
       a.target = "_blank";
       a.rel = "noopener noreferrer";
     }
@@ -214,7 +214,7 @@
     const foot = el("div", "paper__foot");
     const url = paperUrl(p);
     if (url) foot.appendChild(linkEl(url, "原文 ↗", "link"));
-    if (p.pdf) foot.appendChild(linkEl(p.pdf, "PDF ↗", "link"));
+    if (p.pdf) foot.appendChild(linkEl(p.pdf, "PDF ↗", "link", true));
     const removeBtn = el("button", "paper__remove", "移除");
     removeBtn.type = "button";
     removeBtn.addEventListener("click", () => removePaper(p.id));
