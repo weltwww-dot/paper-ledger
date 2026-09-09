@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-/* “查看全部”后，无论滚动到列表何处，都必须有可见的就近收起控制。 */
+/* 收起长列表时，先平滑返回收录区顶部，再缩短列表，避免页面高度骤减造成跳动。 */
 
 const fs = require("fs");
 const os = require("os");
@@ -26,11 +26,13 @@ let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 html = html.replace("</body>", `<output id="collapse-test"></output>
   <script>
-    let scrollIntoViewCalls = 0;
-    const nativeScrollIntoView = Element.prototype.scrollIntoView;
-    Element.prototype.scrollIntoView = function(...args) {
-      scrollIntoViewCalls += 1;
-      return nativeScrollIntoView.apply(this, args);
+    let scrollRequest = null;
+    Element.prototype.scrollIntoView = function(options) {
+      scrollRequest = {
+        target: this.id,
+        behavior: options && options.behavior,
+        block: options && options.block,
+      };
     };
     window.addEventListener('load', () => {
       const more = document.querySelector('#latest-more');
@@ -40,38 +42,40 @@ html = html.replace("</body>", `<output id="collapse-test"></output>
       document.documentElement.style.scrollBehavior = 'auto';
       document.documentElement.scrollTop = scrollTarget;
       document.body.scrollTop = scrollTarget;
-      requestAnimationFrame(() => requestAnimationFrame(() => {
+      window.setTimeout(() => {
         const control = document.querySelector('#latest-collapse-floating');
         const rect = control && control.getBoundingClientRect();
         const style = control && getComputedStyle(control);
         const visible = Boolean(control && !control.hidden && style.display !== 'none' &&
           rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth);
-        const beforeCollapse = window.scrollY;
-        scrollIntoViewCalls = 0;
+        const expandedCardCount = document.querySelectorAll('.paper').length;
+        scrollRequest = null;
         if (control) control.click();
+        const stayedExpandedDuringScroll = more.textContent.includes('收起') &&
+          document.querySelectorAll('.paper').length === expandedCardCount;
+        const smoothRequested = Boolean(scrollRequest && scrollRequest.target === 'latest' &&
+          scrollRequest.behavior === 'smooth' && scrollRequest.block === 'start');
+        window.dispatchEvent(new Event('scrollend'));
         window.setTimeout(() => {
-          const afterCollapse = window.scrollY;
-          const preservedScroll = Math.abs(afterCollapse - beforeCollapse) <= 40;
           const collapsed = !more.hidden && more.textContent.includes('查看全部');
-          const noForcedScroll = scrollIntoViewCalls === 0;
-          const pass = visible && preservedScroll && collapsed && noForcedScroll;
+          const collapsedCardCount = document.querySelectorAll('.paper').length;
+          const pass = visible && smoothRequested && stayedExpandedDuringScroll && collapsed &&
+            collapsedCardCount < expandedCardCount;
           document.documentElement.dataset.collapseTest = pass ? 'pass' : 'fail';
           document.querySelector('#collapse-test').textContent = pass ? '' : JSON.stringify({
             reason: !visible ? '滚动后没有可见的收起控制' :
-              !preservedScroll ? '收起时滚动位置发生跳转' :
-              !noForcedScroll ? '收起时调用了强制滚动' : '列表没有收起',
+              !smoothRequested ? '没有平滑返回收录区顶部' :
+              !stayedExpandedDuringScroll ? '滚动完成前列表已收起' : '滚动完成后列表没有收起',
             visible,
-            preservedScroll,
+            smoothRequested,
+            stayedExpandedDuringScroll,
             collapsed,
-            noForcedScroll,
-            scrollIntoViewCalls,
-            beforeCollapse,
-            afterCollapse,
-            latestTop: latest.offsetTop,
-            pageHeight: document.documentElement.scrollHeight,
+            scrollRequest,
+            expandedCardCount,
+            collapsedCardCount,
           });
-        }, 600);
-      }));
+        }, 0);
+      }, 0);
     });
   </script></body>`);
 
@@ -81,24 +85,26 @@ try {
     stdio: "ignore",
     windowsHide: true,
   });
-  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 300);
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 1000);
   const run = spawnSync(edge, [
     "--headless=new",
     "--disable-gpu",
     "--allow-file-access-from-files",
     `--user-data-dir=${profileDir}`,
     "--window-size=1280,900",
-    "--virtual-time-budget=2000",
+    "--virtual-time-budget=5000",
     "--dump-dom",
     `http://127.0.0.1:${port}/${path.basename(fixtureFile)}`,
   ], { encoding: "utf8", timeout: 15000, maxBuffer: 64 * 1024 * 1024 });
   if (run.error) throw run.error;
   if (run.status !== 0 || !/data-collapse-test="pass"/.test(run.stdout)) {
-    const detail = (run.stdout.match(/<output id="collapse-test">([^<]*)<\/output>/) || [])[1] || run.stderr || "检测失败";
-    console.error(`FAIL: ${detail}`);
+    const state = (run.stdout.match(/data-collapse-test="([^"]+)"/) || [])[1] || "未执行";
+    const detail = (run.stdout.match(/<output id="collapse-test">([^<]*)<\/output>/) || [])[1] ||
+      run.stdout.slice(0, 500).replace(/\s+/g, " ") || "未返回诊断详情";
+    console.error(`FAIL: state=${state}; ${detail}; browserStatus=${run.status}`);
     process.exitCode = 1;
   } else {
-    console.log("PASS: 展开全部并滚动后，收起控件可见且不会强制滚动页面。");
+    console.log("PASS: 收起控件先平滑返回收录区顶部，再缩短列表。");
   }
 } finally {
   if (server) server.kill();

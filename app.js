@@ -772,11 +772,37 @@
     showAll = expanded;
     renderLatest();
   }
+  let latestCollapsePending = false;
+  function collapseLatestSmoothly() {
+    if (!showAll || latestCollapsePending) return;
+    const latest = document.querySelector("#latest");
+    if (!latest || Math.abs(latest.getBoundingClientRect().top) <= 2) {
+      setLatestExpanded(false);
+      return;
+    }
+
+    latestCollapsePending = true;
+    let finished = false;
+    let fallbackTimer;
+    const finishCollapse = () => {
+      if (finished) return;
+      finished = true;
+      latestCollapsePending = false;
+      window.removeEventListener("scrollend", finishCollapse);
+      window.clearTimeout(fallbackTimer);
+      setLatestExpanded(false);
+    };
+
+    window.addEventListener("scrollend", finishCollapse, { once: true });
+    fallbackTimer = window.setTimeout(finishCollapse, 1500);
+    latest.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   document.querySelector("#latest-more").addEventListener("click", () => {
-    setLatestExpanded(!showAll);
+    if (showAll) collapseLatestSmoothly();
+    else setLatestExpanded(true);
   });
   document.querySelector("#latest-collapse-floating").addEventListener("click", () => {
-    setLatestExpanded(false);
+    collapseLatestSmoothly();
   });
   const pulseHotMore = document.querySelector("#pulse-hot-more");
   if (pulseHotMore) {
