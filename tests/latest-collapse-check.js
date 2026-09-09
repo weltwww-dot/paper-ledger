@@ -26,27 +26,51 @@ let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 html = html.replace("</body>", `<output id="collapse-test"></output>
   <script>
+    let scrollIntoViewCalls = 0;
+    const nativeScrollIntoView = Element.prototype.scrollIntoView;
+    Element.prototype.scrollIntoView = function(...args) {
+      scrollIntoViewCalls += 1;
+      return nativeScrollIntoView.apply(this, args);
+    };
     window.addEventListener('load', () => {
       const more = document.querySelector('#latest-more');
+      const latest = document.querySelector('#latest');
       more.click();
-      window.scrollTo(0, Math.floor(document.documentElement.scrollHeight / 2));
+      const scrollTarget = latest.offsetTop + 600;
+      document.documentElement.style.scrollBehavior = 'auto';
+      document.documentElement.scrollTop = scrollTarget;
+      document.body.scrollTop = scrollTarget;
       requestAnimationFrame(() => requestAnimationFrame(() => {
         const control = document.querySelector('#latest-collapse-floating');
         const rect = control && control.getBoundingClientRect();
         const style = control && getComputedStyle(control);
         const visible = Boolean(control && !control.hidden && style.display !== 'none' &&
           rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth);
-        document.documentElement.dataset.collapseTest = visible ? 'pass' : 'fail';
-        document.querySelector('#collapse-test').textContent = visible ? '' : JSON.stringify({
-          reason: '滚动后没有可见的收起控制',
-          moreHidden: more.hidden,
-          cards: document.querySelectorAll('.paper').length,
-          controlFound: Boolean(control),
-          controlHidden: control ? control.hidden : null,
-          display: style ? style.display : null,
-          rect: rect ? [rect.left, rect.top, rect.right, rect.bottom] : null,
-          viewport: [innerWidth, innerHeight],
-        });
+        const beforeCollapse = window.scrollY;
+        scrollIntoViewCalls = 0;
+        if (control) control.click();
+        window.setTimeout(() => {
+          const afterCollapse = window.scrollY;
+          const preservedScroll = Math.abs(afterCollapse - beforeCollapse) <= 40;
+          const collapsed = !more.hidden && more.textContent.includes('查看全部');
+          const noForcedScroll = scrollIntoViewCalls === 0;
+          const pass = visible && preservedScroll && collapsed && noForcedScroll;
+          document.documentElement.dataset.collapseTest = pass ? 'pass' : 'fail';
+          document.querySelector('#collapse-test').textContent = pass ? '' : JSON.stringify({
+            reason: !visible ? '滚动后没有可见的收起控制' :
+              !preservedScroll ? '收起时滚动位置发生跳转' :
+              !noForcedScroll ? '收起时调用了强制滚动' : '列表没有收起',
+            visible,
+            preservedScroll,
+            collapsed,
+            noForcedScroll,
+            scrollIntoViewCalls,
+            beforeCollapse,
+            afterCollapse,
+            latestTop: latest.offsetTop,
+            pageHeight: document.documentElement.scrollHeight,
+          });
+        }, 600);
       }));
     });
   </script></body>`);
@@ -74,7 +98,7 @@ try {
     console.error(`FAIL: ${detail}`);
     process.exitCode = 1;
   } else {
-    console.log("PASS: 展开全部并滚动后仍有可见的收起控制。");
+    console.log("PASS: 展开全部并滚动后，收起控件可见且不会强制滚动页面。");
   }
 } finally {
   if (server) server.kill();

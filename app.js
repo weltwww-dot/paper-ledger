@@ -768,16 +768,15 @@
   });
 
   /* ── latest rail expand ─────────────────────────────────────────── */
-  function setLatestExpanded(expanded, returnToTop = false) {
+  function setLatestExpanded(expanded) {
     showAll = expanded;
     renderLatest();
-    if (returnToTop) document.querySelector("#latest").scrollIntoView({ behavior: "smooth", block: "start" });
   }
   document.querySelector("#latest-more").addEventListener("click", () => {
-    setLatestExpanded(!showAll, showAll);
+    setLatestExpanded(!showAll);
   });
   document.querySelector("#latest-collapse-floating").addEventListener("click", () => {
-    setLatestExpanded(false, true);
+    setLatestExpanded(false);
   });
   const pulseHotMore = document.querySelector("#pulse-hot-more");
   if (pulseHotMore) {
