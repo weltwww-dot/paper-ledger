@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-08，已按 Pages 收尾）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。轻量化架构整改已经完成；另已清除 357 份总结中的 1428 处“当前公开材料未覆盖本节”空段落，300 篇依据已有摘要重组，57 篇仅作有边界的题目/主题推断，7 个非研究事务页面改为审计说明；截图所示 GCPS 论文已由当前 agent 单独润色。网站“查看全部”后新增始终可见的悬浮收起按钮，收起会返回收录区顶部。49 项 Python 测试、六道闸门、两项真实 Edge 回归、290 个 PDF 校验和 `git diff --check` 均通过。发布收尾规则已落地：提交 `ba30bd2` 已推送，GitHub Pages 已针对该提交构建完成，线上 599 篇与本地一致且 `data/papers.js` 指纹校验通过。
+> **最新状态（2026-09-09，本轮更新无新增，待发布）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。本次对 17 本期刊执行双来源增量审计，OpenAlex/Crossref 未产生新收录论文；Neural Networks 的 4 条单来源结果已记录审计但均未形成新增。摘要、主题、PDF 证据、台账一致性和两项 Edge 回归均通过；本轮写入了新的 `collection_audit.json`、`records_inc.json`、`oa_inc.json`、`content_inc.json`、`update_batch.json`，网站缓存版本更新为 `tl2oc6`。当前变更待提交并按 Pages 收尾标准发布。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -64,7 +64,7 @@
 - 本轮新增两篇 TKDE 的完整总结与 PDF：`TCAAAnchorAlignment_总结.md` / `TKDE_2026_TCAAAnchorAlignment.pdf`，`OCDMMultistageCausalDiscovery_总结.md` / `TKDE_2026_OCDMMultistageCausalDiscovery.pdf`。
 - 修复 `scripts/sync-papers.js` 的 DOI 优先对账逻辑：删除占位文件后，已有记录若暂时没有替代总结也不会从 `data/papers.js` 静默丢失；已通过 586 篇台账和全部闸门校验。
 
-## 2. 当前仓库状态（2026-09-07，76 个续跑文件已整理后）
+## 2. 当前仓库状态（2026-09-09，本轮更新无新增）
 
 > 注：本表为当前工作区实测口径。`verified_resume/` 中的 76 个文件已完成分类：73 篇研究论文已入库，3 篇非研究性页面只保留审计证据，没有复制到顶层研究论文库。
 
@@ -80,7 +80,7 @@
 | pdf_attempts.json | 489 条（blocked 48 / not-oa 437 / no-file 1 / non_research_document 3） |
 | 六道闸门 | summary ✅ / summary-quality ✅ / theme ✅ / pdf ✅ / workflow ✅ / layout ✅ |
 | 单元测试 | 45 项 Python 测试 + 2 项真实浏览器回归 OK |
-| git | 本轮整改提交 `c1635df` 已推送至 origin/main |
+| git | 本轮更新产生审计快照与缓存版本变更，待提交并按 Pages 标准发布 |
 
 本轮已推送提交 `c1635df` 主要包含以下五类变更：
 1. 脚本修复：`scripts/run_update.py`、`scripts/fetch_incremental.py`、`.gitignore`（新增 `papers/instsci/` 排除）。
@@ -231,6 +231,8 @@ python -m unittest discover -s tests -v                 # 45 项
 ```
 
 ## 6. 更新日志
+
+- **2026-09-09（每日更新，0 新增，待发布）**：按标准 `python scripts/run_update.py update` 执行 17 本期刊双来源增量审计；ACM TPS、IJIS、Nature Machine Intelligence、Neural Networks 等来源均完成记录，最终 0 篇新论文进入台账，当前仍为 599 篇。OA 检查、摘要抓取、主题同步、中文六段式、PDF 证据、台账总体验收和网站布局/收起回归均通过；写入本轮审计快照、可恢复批次状态并更新 `data/papers.js` 缓存版本为 `tl2oc6`。待提交并执行 `publish`，以 GitHub Pages 实际部署和线上指纹作为收尾标准。
 
 - **2026-09-08（空段落与收起交互整改，已推送）**：清除 357 份总结中的 1428 处无信息占位，按已有摘要或题录证据重建六段式内容，单独润色用户截图中的 GCPS 论文；修正 7 个非研究事务页面并扩充抓取过滤。全量展开新增始终可见的悬浮收起按钮及滚动位置恢复，真实 Edge 回归纳入发布闸门。台账仍为 599，45 项测试通过，提交 `c1635df` 已推送。
 
