@@ -1,6 +1,6 @@
 # 工作交接：论文台账更新 + InstSci 批量获取 + 129 篇本地入库
 
-> **最新状态（2026-09-09，本轮更新无新增，待发布）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。本次对 17 本期刊执行双来源增量审计，OpenAlex/Crossref 未产生新收录论文；Neural Networks 的 4 条单来源结果已记录审计但均未形成新增。摘要、主题、PDF 证据、台账一致性和两项 Edge 回归均通过；本轮写入了新的 `collection_audit.json`、`records_inc.json`、`oa_inc.json`、`content_inc.json`、`update_batch.json`，网站缓存版本更新为 `tl2oc6`。当前变更待提交并按 Pages 收尾标准发布。
+> **最新状态（2026-09-09，本轮更新无新增，已按 Pages 收尾）**：项目位于 `D:\codex\博客网站`。台账仍为 599 篇，complete 239 / partial 300 / pending 60，顶层有效 PDF 290 个、数据中 285 篇带 PDF。本次对 17 本期刊执行双来源增量审计，OpenAlex/Crossref 未产生新收录论文；Neural Networks 的 4 条单来源结果已记录审计但均未形成新增。摘要、主题、PDF 证据、台账一致性和两项 Edge 回归均通过；本轮写入了新的 `collection_audit.json`、`records_inc.json`、`oa_inc.json`、`content_inc.json`、`update_batch.json`，网站缓存版本更新为 `tl2oc6`。提交 `8dab52b` 已推送，GitHub Pages 已针对该提交构建完成，线上 599 篇与本地一致。
 
 > **维护约定（2026-09-07 用户指示）**：本文件是**持续更新的交接文档**——今后每个 agent 接手工作时都先读本文件；每次工作进展、状态变化、未完成事项的更新**直接改这一个文件**（更新对应小节 + 在文末「更新日志」追加一行），不要再新建一次性快照。
 >
@@ -80,7 +80,7 @@
 | pdf_attempts.json | 489 条（blocked 48 / not-oa 437 / no-file 1 / non_research_document 3） |
 | 六道闸门 | summary ✅ / summary-quality ✅ / theme ✅ / pdf ✅ / workflow ✅ / layout ✅ |
 | 单元测试 | 45 项 Python 测试 + 2 项真实浏览器回归 OK |
-| git | 本轮更新产生审计快照与缓存版本变更，待提交并按 Pages 标准发布 |
+| git | 本轮更新提交 `8dab52b` 已推送，并通过 Pages 收尾核验 |
 
 本轮已推送提交 `c1635df` 主要包含以下五类变更：
 1. 脚本修复：`scripts/run_update.py`、`scripts/fetch_incremental.py`、`.gitignore`（新增 `papers/instsci/` 排除）。
@@ -232,7 +232,7 @@ python -m unittest discover -s tests -v                 # 45 项
 
 ## 6. 更新日志
 
-- **2026-09-09（每日更新，0 新增，待发布）**：按标准 `python scripts/run_update.py update` 执行 17 本期刊双来源增量审计；ACM TPS、IJIS、Nature Machine Intelligence、Neural Networks 等来源均完成记录，最终 0 篇新论文进入台账，当前仍为 599 篇。OA 检查、摘要抓取、主题同步、中文六段式、PDF 证据、台账总体验收和网站布局/收起回归均通过；写入本轮审计快照、可恢复批次状态并更新 `data/papers.js` 缓存版本为 `tl2oc6`。待提交并执行 `publish`，以 GitHub Pages 实际部署和线上指纹作为收尾标准。
+- **2026-09-09（每日更新，0 新增，已发布）**：按标准 `python scripts/run_update.py update` 执行 17 本期刊双来源增量审计；ACM TPS、IJIS、Nature Machine Intelligence、Neural Networks 等来源均完成记录，最终 0 篇新论文进入台账，当前仍为 599 篇。OA 检查、摘要抓取、主题同步、中文六段式、PDF 证据、台账总体验收和网站布局/收起回归均通过；写入本轮审计快照、可恢复批次状态并更新 `data/papers.js` 缓存版本为 `tl2oc6`。提交 `8dab52b` 已推送，`publish` 已确认 GitHub Pages 针对当前提交构建完成，线上 599 篇与本地指纹一致。
 
 - **2026-09-08（空段落与收起交互整改，已推送）**：清除 357 份总结中的 1428 处无信息占位，按已有摘要或题录证据重建六段式内容，单独润色用户截图中的 GCPS 论文；修正 7 个非研究事务页面并扩充抓取过滤。全量展开新增始终可见的悬浮收起按钮及滚动位置恢复，真实 Edge 回归纳入发布闸门。台账仍为 599，45 项测试通过，提交 `c1635df` 已推送。
 
