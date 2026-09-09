@@ -13,3 +13,6 @@ __pycache__/
 *.pyc
 Thumbs.db
 .DS_Store
+
+# 本地交接记录：保留在本机供后续 agent 读取，不上传到 GitHub
+SESSION_HANDOFF_*.md
