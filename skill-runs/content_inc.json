@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "doi": "10.1007/s10207-026-01307-0",
+    "title": "Hive-AI: a defended multi-service honeypot framework for generative AI APIs",
+    "text": "Public Large Language Model (LLM) APIs draw attacker traffic that defenders cannot see. Probes hit at the semantic layer—past TLS, past Web Application Firewall rules—and conventional intrusion detection picks up almost none of it. No open-source honeypot framework today captures this traffic at scale, and the few LLM-honeypot prototypes that exist push captured logs straight into a downstream LLM analyzer, exposing the analysis pipeline to indirect prompt injection through attacker-controlled inputs. We address both gaps with HIVE-AI, a 47,578-LoC honeypot framework deployed continuously on a single 4-vCPU/4-GB Virtual Private Server since 6 April 2026. Five protocol-faithful facades feed an eight-stage classification cascade with sub-5-ms p99 synchronous latency. The LLM threat-hunter is protected by a five-layer defense-in-depth architecture against indirect prompt injection, characterized theoretically and through operational field evidence; controlled per-layer validation is deferred to a follow-up deployment. We report these findings as a single-site, single-window case study: twenty days of operation captured 16,683 attacks from 1229 unique source IPs across 50 countries. The triangulation defense reduces mean adversarial evasion from 54.8 to 9.3% (paired test, $$p<0.001$$ ). Blind human validation on 100 events yields Cohen’s $$\\kappa = 0.74$$ between the LLM and analyst majority—statistically indistinguishable from human-on-human $$\\kappa = 0.71$$ . A local Ollama+Qwen2.5–1.5B backend reproduces the cloud severity verdict on 71% of events ( $$\\kappa = 0.59$$ , moderate agreement), a promising low-cost alternative rather than a full substitute. Code and dataset are released under MIT License and CC BY 4.0; the source code is archived at Zenodo HIVE-AI: A Honeypot Source Code ( https://doi.org/10.5281/zenodo.19853664 ) and the live attack map at https://honeypot.ttpsec.cl:4443/livemap .",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Public Large Language Model (LLM) APIs draw attacker traffic that defenders cannot see. Probes hit at the semantic layer—past TLS, past Web Application Firewall rules—and conventional intrusion detection picks up almost none of it. No open-source honeypot framework today captures this traffic at scale, and the few LLM-honeypot prototypes that exist push captured logs straight into a downstream LLM analyzer, exposing the analysis pipeline to indirect prompt injection through attacker-controlled inputs. We address both gaps with HIVE-AI, a 47,578-LoC honeypot framework deployed continuously on a single 4-vCPU/4-GB Virtual Private Server since 6 April 2026. Five protocol-faithful facades feed an eight-stage classification cascade with sub-5-ms p99 synchronous latency. The LLM threat-hunter is protected by a five-layer defense-in-depth architecture against indirect prompt injection, characterized theoretically and through operational field evidence; controlled per-layer validation is deferred to a follow-up deployment. We report these findings as a single-site, single-window case study: twenty days of operation captured 16,683 attacks from 1229 unique source IPs across 50 countries. The triangulation defense reduces mean adversarial evasion from 54.8 to 9.3% (paired test, $$p<0.001$$ ). Blind human validation on 100 events yields Cohen’s $$\\kappa = 0.74$$ between the LLM and analyst majority—statistically indistinguishable from human-on-human $$\\kappa = 0.71$$ . A local Ollama+Qwen2.5–1.5B backend reproduces the cloud severity verdict on 71% of events ( $$\\kappa = 0.59$$ , moderate agreement), a promising low-cost alternative rather than a full substitute. Code and dataset are released under MIT License and CC BY 4.0; the source code is archived at Zenodo HIVE-AI: A Honeypot Source Code ( https://doi.org/10.5281/zenodo.19853664 ) and the live attack map at https://honeypot.ttpsec.cl:4443/livemap ."
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s42256-026-01298-6",
+    "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+    "text": "Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. Here, we present MatBrain, a lightweight collaborative agent system with two synergistic models specialization for crystal materials research. MatBrain employs a dual-model architecture: Mat-R1 (30B parameters) as the analytical model providing expert-level domain reasoning, and Mat-T1 (14B parameters) as the executive model orchestrating tool-based actions. Entropy analysis confirms that this architecture resolves the conflict between tool planning and analytical reasoning by decoupling their distinct entropy dynamics. Enabled by this dual-model architecture and structural efficiency, MatBrain significantly outperforms larger general-purpose models while reducing the hardware deployment barrier by over 95%. MatBrain exhibits versatility across structure generation, property prediction, and synthesis planning tasks. Applied to catalyst design, MatBrain generated 30,000 candidate structures and identified 38 promising materials within 48 hours, achieving approximately 100-fold acceleration over traditional approaches. These results demonstrate the potential of lightweight collaborative intelligence for advancing materials research capabilities.",
+    "source": "arxiv",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "ok",
+        "text": "Current large language models require hundreds of billions of parameters yet struggle with domain-specific reasoning and tool coordination in materials science. Here, we present MatBrain, a lightweight collaborative agent system with two synergistic models specialization for crystal materials research. MatBrain employs a dual-model architecture: Mat-R1 (30B parameters) as the analytical model providing expert-level domain reasoning, and Mat-T1 (14B parameters) as the executive model orchestrating tool-based actions. Entropy analysis confirms that this architecture resolves the conflict between tool planning and analytical reasoning by decoupling their distinct entropy dynamics. Enabled by this dual-model architecture and structural efficiency, MatBrain significantly outperforms larger general-purpose models while reducing the hardware deployment barrier by over 95%. MatBrain exhibits versatility across structure generation, property prediction, and synthesis planning tasks. Applied to catalyst design, MatBrain generated 30,000 candidate structures and identified 38 promising materials within 48 hours, achieving approximately 100-fold acceleration over traditional approaches. These results demonstrate the potential of lightweight collaborative intelligence for advancing materials research capabilities."
+      }
+    ]
+  }
+]

@@ -1,6 +1,56 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Hive-AI: a defended multi-service honeypot framework for generative AI APIs",
+    "authors": "Sebastián Vargas Yáñez；Sergio Tobón",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-09-09",
+    "contentState": "complete",
+    "contentNote": "已依据 Springer 正式全文完成中文六段式总结",
+    "doi": "10.1007/s10207-026-01307-0",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_HiveAI_DefendedMultiServiceHoneypot.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01307-0",
+    "direction": "信息安全",
+    "summary": "论文提出 HIVE-AI 防御型多服务蜜罐框架，在应用语义层捕获生成式 AI API 攻击，并用具备纵深防御的威胁分析流水线进行分类与研判。",
+    "question": "面向公开大语言模型 API 的探测通常使用格式正确的 HTTPS 请求，攻击载荷位于请求语义层，因此传统网络入侵检测和 Web 应用防火墙难以发现。已有 LLM 蜜罐多聚焦单一接口，且把攻击者可控日志直接交给下游 LLM 分析器，容易形成间接提示注入通道。论文因此要同时解决多接口攻击观测不足、规模化采集与分析，以及保护分析模型免受攻击日志反向操纵这三个问题。",
+    "method": "HIVE-AI 在三分区 Docker 架构中模拟 OpenAI、Anthropic Claude、Ollama、HuggingFace Inference 和 ClawBot 五类协议接口，以 Redis 发布/订阅连接采集服务和分析流水线。每个事件依次经过捕获、IP 丰富化、提示注入检测、快速分类、攻击分类法映射和会话关联六个同步阶段，再异步执行基于五维熵与延迟特征的三成分全协方差高斯混合模型，以及 LLM 威胁分析器。分析器通过网络隔离、输入清洗、防御性分隔符、反服从提示和主机注入时间元数据五层机制处理攻击者可控日志；规则分类器与 GMM 的低置信度分歧被用作三角校验和规避告警。",
+    "experiments": "单个 4 vCPU、4 GB 内存的 VPS 连续运行 20 天，记录了来自 50 个国家、1229 个来源 IP 的 16,683 个攻击事件；其中 Ollama 和 OpenAI 接口分别占 39.8% 和 29.9%。在固定随机种子的五类对抗实验中，启用三角防御后 E1–E4 的平均规避率由 54.8% 降至 9.3%，漂移检测真阳性率为 92%，留出窗口误报率为 4.6%。100 个事件的盲法人工验证中，LLM 与分析师多数标签的 Cohen κ 为 0.74，宏平均 F1 为 0.83；4182 个事件的消融实验显示完整流水线检测率为 94.2%、误报率为 4.6%，去掉 GMM 后检测率降至 81.4%。本地 Ollama 加 Qwen2.5-1.5B 后端与云端严重度判定的一致率为 71%，κ 为 0.59，但中位延迟升至 4.40 秒。",
+    "contribution": "论文的主要贡献是把五种协议级 LLM API 蜜罐、八阶段分析级联、面向分析器的五层纵深防御和可复现的软件数据发布整合为一个生产部署框架；代码以 MIT 许可发布，数据以 CC BY 4.0 发布。局限包括：实证数据来自法兰克福单一 VPS 的单个 20 天窗口，存在部署选择偏差；GMM 需要至少 30 个会话才能完成冷启动；人工基线来自单一高校实验室；五层防御目前主要由理论覆盖分析和四类现场载荷支持，尚未完成针对每一层的受控消融；三角防御对攻击者无法同时规避规则与统计分类器的假设较为关键。因此，自动判定仍应由分析人员复核，不能把本地模型或威胁分数视为人工判断的替代品。\n---\nDOI: 10.1007/s10207-026-01307-0",
+    "sample": false,
+    "id": "r-1hvpd4o",
+    "tags": [
+      "网络欺骗与蜜罐",
+      "入侵检测与防御",
+      "生成模型"
+    ]
+  },
+  {
+    "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+    "authors": "Tongyu Shi；Yutang Li；Zhanyuan Li；Qian Liu；Jie Zhou；Wenhe Xu；Yang Li；Dawei Dai；Rui He；Wenhua Zhou；Jiahong Wang；Xue-Feng Yu",
+    "journal": "Nature Machine Intelligence",
+    "year": "2026",
+    "published": "2026-09-10",
+    "contentState": "complete",
+    "contentNote": "已依据公开 arXiv 预印本全文完成中文六段式总结",
+    "doi": "10.1038/s42256-026-01298-6",
+    "arxiv": "2604.11540v1",
+    "pdf": "papers/NMI_2026_MatBrain_CrystalMaterials.pdf",
+    "link": "https://arxiv.org/abs/2604.11540v1",
+    "direction": "人工智能",
+    "summary": "MatBrain 将负责材料学分析的 Mat-R1 与负责工具规划的 Mat-T1 解耦协作，在降低硬件门槛的同时完成晶体结构、性质、合成路径和催化剂发现任务。",
+    "question": "晶体材料发现需要同时连接结构、性质和合成路径，但现有工作流依赖专家在多个数据库、计算程序和实验环节之间手工传递信息，难以扩展。通用大语言模型又缺少晶体三维几何、量子化学约束和严格 CIF 语法方面的知识，简单增加参数会带来很高的训练与部署成本。论文关注的核心矛盾是：可靠的材料学分析需要低熵、确定性的推理，而多步工具规划需要高熵、可探索的策略；让一个轻量模型同时承担两者容易出现熵塌缩、幻觉或工具调用失败。",
+    "method": "系统采用双模型与工具生态协作的架构。Mat-R1 基于 Qwen3-30B-A3B，通过包含 252,000 条指令对的 Mat-252K-SFT 数据集和 173,000 条通用科学推理轨迹进行全参数监督微调，负责晶体学推理、结果解释与有效性判断。Mat-T1 基于 Qwen3-14B，在 Mat-MCP 工具平台上使用 DAPO 强化学习训练，负责检索、结构生成、结构弛豫、性质预测、相图分析和合成规划等工具的多轮编排；其奖励同时约束交互轮数、思考深度、输出格式和工具调用语法。两者通过 LangGraph 构成带条件回路的“生成—验证—反馈”状态机：Mat-R1 判断证据是否充分，不足时向 Mat-T1 生成下一步指令，最多迭代六轮。",
+    "experiments": "在结构生成、分类和回归任务上，MatBrain 超过 GPT-5、DeepSeek-R1 和 Gemini 2.5 Pro 等通用模型；形成能、凸包上方能和费米能级回归的决定系数分别达到 0.97、0.99 和 0.84。双模型协作将 Mat-R1 的结论区平均熵从 0.12 降到 0.05，同时保留 Mat-T1 的高熵探索特征；作者报告硬件部署门槛降低超过 95%，可在双 RTX 4090 工作站上运行。六类材料研究案例覆盖结构生成、热力学稳定性、电子性质、合成路径和 XRD 表征：例如预测 Li₂ZrCl₆ 的凸包上方能为 0.028 eV/atom、预测 Cs₂ErAgBr₆ 带隙为 1.37 eV。氮还原催化剂案例中，系统生成 30,000 个候选结构，经七步筛选得到 42 个稳定候选和 38 个数据库中未记录的结构；研究者选择 CoV₄S₈ 实验验证，氨产率最高为 34.6 μg·h⁻¹·mgcat.⁻¹，法拉第效率最高为 4.3%，未检测到肼副产物，并在五个循环和 20 小时测试中保持稳定。",
+    "contribution": "论文贡献了面向晶体材料研究的 Mat-MCP 标准化工具生态、把知识推理与工具执行分离的轻量双模型范式，以及从计算筛选到实验验证的端到端示范。该方案说明专门化的小模型可以通过工具调用获得比超大通用模型更好的材料学任务表现，并把高性能部署扩展到普通实验室工作站。局限在于结果依赖晶体数据库覆盖范围和标准 DFT/材料计算器的准确性，当前案例仍包含研究者对最终候选的选择与实验决策；训练 Mat-R1 和 Mat-T1 仍使用 8 张 H800 GPU，所谓低门槛主要针对推理部署而非训练阶段。论文还未覆盖显微图像、光谱等多模态输入，也未实现机器人驱动的全自动合成闭环，这些属于后续扩展方向。\n---\nDOI: 10.1038/s42256-026-01298-6",
+    "sample": false,
+    "id": "r-x6hxt1",
+    "tags": [
+      "大模型"
+    ]
+  },
+  {
     "title": "DeepJSCC for Video Semantic Communication with General Semantic Preservation",
     "authors": "Junting Li、Xuechen Chen、Xiaoheng Deng",
     "journal": "Neural Networks",

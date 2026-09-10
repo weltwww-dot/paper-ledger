@@ -1,1 +1,23 @@
-[]
+[
+ {
+  "doi": "10.1007/s10207-026-01307-0",
+  "title": "Hive-AI: a defended multi-service honeypot framework for generative AI APIs",
+  "year": 2026,
+  "date": "2026-09-09",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1038/s42256-026-01298-6",
+  "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+  "year": 2026,
+  "date": "2026-09-10",
+  "source": "Nature Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ }
+]

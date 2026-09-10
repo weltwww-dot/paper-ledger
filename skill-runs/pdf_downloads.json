@@ -1,8 +1,14 @@
 [
  {
-  "doi": "10.1145/3834769",
-  "status": "exists",
-  "url": "https://arxiv.org/pdf/2501.16487",
-  "path": "papers/incremental_dc326670345d.pdf"
+  "doi": "10.1007/s10207-026-01307-0",
+  "status": "ok",
+  "url": "https://link.springer.com/content/pdf/10.1007/s10207-026-01307-0.pdf",
+  "path": "papers/IJIS_2026_HiveAI_DefendedMultiServiceHoneypot.pdf"
+ },
+ {
+  "doi": "10.1038/s42256-026-01298-6",
+  "status": "ok",
+  "url": "https://arxiv.org/pdf/2604.11540v1",
+  "path": "papers/NMI_2026_MatBrain_CrystalMaterials.pdf"
  }
 ]

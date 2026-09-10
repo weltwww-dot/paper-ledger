@@ -10900,5 +10900,40 @@
     "kind": "ok"
    }
   ]
+ },
+ "10.1007/s10207-026-01307-0": {
+  "at": "2026-09-10T11:36:29+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1038/s42256-026-01298-6": {
+  "at": "2026-09-10T11:36:35+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "error",
+    "detail": "404"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "ok"
+   }
+  ]
  }
 }

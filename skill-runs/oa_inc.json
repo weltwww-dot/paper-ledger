@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "doi": "10.1007/s10207-026-01307-0",
+    "title": "Hive-AI: a defended multi-service honeypot framework for generative AI APIs",
+    "year": 2026,
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "best_pdf_url": "https://doi.org/10.1007/s10207-026-01307-0",
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1038/s42256-026-01298-6",
+    "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": "https://arxiv.org/pdf/2604.11540v1",
+    "arxiv_id": "2604.11540v1",
+    "matched": false,
+    "note": "期刊 DOI 未发现公开版本；已通过 arXiv 2604.11540v1 获取公开预印本 PDF。",
+    "source": "Nature Machine Intelligence"
+  }
+]
