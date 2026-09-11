@@ -2002,5 +2002,9 @@
  "10.1145/3830402": {
   "reason": "blocked",
   "note": "PDF 探测时被出版社页面或反爬拦截。"
+ },
+ "10.1038/s42256-026-01298-6": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
  }
 }

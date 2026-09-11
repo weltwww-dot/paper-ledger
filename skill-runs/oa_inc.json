@@ -17,10 +17,10 @@
     "year": null,
     "is_oa": false,
     "oa_status": null,
-    "best_pdf_url": "https://arxiv.org/pdf/2604.11540v1",
+    "best_pdf_url": null,
     "arxiv_id": "2604.11540v1",
     "matched": false,
-    "note": "期刊 DOI 未发现公开版本；已通过 arXiv 2604.11540v1 获取公开预印本 PDF。",
+    "note": "openalex:HTTP Error 404: Not Found",
     "source": "Nature Machine Intelligence"
   }
 ]
