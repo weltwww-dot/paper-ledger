@@ -1,40 +1,44 @@
-# A Survey on Vision-Language-Action Models for Embodied AI 总结
+# A Survey on Vision–Language–Action Models for Embodied AI
 
 ## 基本信息
 
-- **标题**: A Survey on Vision–Language–Action Models for Embodied AI
-- **研究方向**: 人工智能
-- **作者**: Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao 等 (et al.)
-- **期刊 / 会议**: IEEE TNNLS 2026
-- **发表**: 2026-04-28
-- **内容状态**: 完整
-- **DOI**: 10.1109/tnnls.2025.3650584
-- **arXiv**: 2405.14093
-- **PDF**: [TNNLS_2026_VLA_Survey.pdf](papers/TNNLS_2026_VLA_Survey.pdf)
-- **资源仓库**: https://github.com/yueen-ma/Awesome-VLA
+- 标题: A Survey on Vision–Language–Action Models for Embodied AI
+- 作者: Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao, Irwin King
+- 期刊 / 会议: IEEE Transactions on Neural Networks and Learning Systems 2026
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+- DOI: 10.1109/tnnls.2025.3650584
+- PDF: [TNNLS_2026_VLA_Survey.pdf](papers/TNNLS_2026_VLA_Survey.pdf)
 
+- 标题: A Survey on Vision–Language–Action Models for Embodied AI
+- 作者: Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao, Irwin King
+- 期刊 / 会议: IEEE Transactions on Neural Networks and Learning Systems 2026
+- 内容状态: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+
+- **标题**：A Survey on Vision–Language–Action Models for Embodied AI
+- **作者**：Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao, Irwin King
+- **期刊**：IEEE Transactions on Neural Networks and Learning Systems, Vol. 37, No. 7, July 2026
+- **研究方向**：具身人工智能、视觉语言动作模型、机器人学习
 ## 一句话概括
 
-第一篇系统梳理 vision-language-action (VLA) 模型的综述：提出「组件 → 低级控制策略 → 高级任务规划器」三线分类法，并汇总数据集、仿真器与基准资源。
+论文系统综述 VLA 的组件、低层控制策略和高层任务规划器，进一步整理数据集、仿真器与基准，并总结安全、泛化和真实部署方向的挑战。
 
 ## 问题与动机
 
-具身 AI 被视为通向 AGI 的基石，需要控制智能体在物理世界中完成语言条件化任务。LLM 与 VLM 的成功催生了能直接生成动作的 VLA 模型，但该领域发展极快、文献分散，缺少一份能帮助研究者把握全貌的系统梳理。
+VLA 模型要把视觉观测、语言指令转化为机器人动作，连接了 VLM/LLM、强化学习、模仿学习和机器人控制。该领域发展很快，模型定义、架构和资源分散，研究者难以比较低层动作策略与高层长时程规划，也缺乏对数据稀缺、仿真到现实差距和安全问题的统一整理。
 
 ## 方法
 
-三线分类法：第一条线聚焦 VLA 的个体组件（backbone、表征与动作 token 化等）；第二条线是能预测低级动作的 VLA 控制策略；第三条线是能把 long-horizon 任务分解为子任务序列的高级任务规划器。综述同时整理相关数据集、仿真器与基准，并维护公开资源仓库 Awesome-VLA。
+作者先给出广义 VLA 定义，并以三条研究线组织文献：VLA 的关键组件（视觉表征、动力学、世界模型、推理等）；接收多模态输入并输出低层动作的控制策略；把长时程指令分解为子任务的高层任务规划器。综述进一步按 Transformer、扩散、三维视觉、LVLA、语言/代码式规划等维度比较技术细节，并归纳真实数据集、模拟器、任务规划和具身问答基准。
 
 ## 实验与结果
 
-综述性论文，无新实验。其「结果」体现为结构化的分类体系与资源清单：覆盖三条研究线的代表性方法，以及数据集、仿真器、基准的整理（原文以资源梳理为主，未给出量化对比）。
+这是综述论文，没有新的统一训练实验。其结果是一个覆盖代表性方法、训练目标、动作类型、资源和评测基准的分类地图。文章归纳出低层控制与高层规划的互补关系，同时指出数据集规模与多样性、模型大小和环境泛化对 VLA 性能的重要影响，并以 Awesome-VLA 仓库持续汇总资源。
 
 ## 贡献与局限
 
-- 贡献一：首个 VLA 综合综述与三线分类框架，为快速演进的领域提供地图。
-- 贡献二：持续维护的 Awesome-VLA 资源仓库，降低入门与对比成本。
-- 局限：领域变化极快，覆盖内容会迅速过时；数据稀缺与不一致是当前主要挑战，未来方向包括世界模型（预测未来状态）与模型自我改进等（原文列举）。
+论文贡献是给出较完整的 VLA 三线分类、对组件和控制/规划架构做技术层比较，并集中整理数据集、仿真器和基准。局限是领域迭代极快，任何静态综述都可能迅速过时；不同论文的成功率、任务和硬件设置并不完全可比。作者指出的后续重点包括安全护栏、细粒度基准、跨具身泛化、多模态融合、实时响应、多智能体协作和伦理治理。
 
 ---
-
 DOI: 10.1109/tnnls.2025.3650584

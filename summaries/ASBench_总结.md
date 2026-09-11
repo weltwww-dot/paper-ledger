@@ -1,40 +1,44 @@
-# ASBench 总结
+# ASBench：图像异常合成基准
 
 ## 基本信息
 
-- **标题**: ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection
-- **作者**: Qunyi Zhang, Songan Zhang, Jiaqi Liu, Jinbao Wang, Xiaoning Lei, Guoyang Xie, Guannan Jiang, Zhichao Lu
-- **期刊 / 会议**: IEEE TAI 2026
-- **发表**: 2026-04-20
-- **内容状态**: 完整
-- **研究方向**: 人工智能
-- **DOI**: 10.1109/tai.2026.3680823
-- **arXiv**: 2510.07927
-- **PDF**: [TAI_2026_ASBench.pdf](papers/TAI_2026_ASBench.pdf)
-- **代码**: https://github.com/M-3LAB/ASBench
+- 标题: ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection
+- 作者: Qunyi Zhang, Songan Zhang, Jiaqi Liu, Jinbao Wang, Xiaoning Lei, Guoyang Xie, Guannan Jiang, Zhichao Lu
+- 期刊 / 会议: IEEE Transactions on Artificial Intelligence 2026
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+- DOI: 10.1109/tai.2026.3680823
+- PDF: [TAI_2026_ASBench.pdf](papers/TAI_2026_ASBench.pdf)
 
+- 标题: ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection
+- 作者: Qunyi Zhang, Songan Zhang, Jiaqi Liu, Jinbao Wang, Xiaoning Lei, Guoyang Xie, Guannan Jiang, Zhichao Lu
+- 期刊 / 会议: IEEE Transactions on Artificial Intelligence 2026
+- 内容状态: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+
+- **标题**：ASBench: Image Anomalies Synthesis Benchmark for Anomaly Detection
+- **作者**：Qunyi Zhang, Songan Zhang, Jiaqi Liu, Jinbao Wang, Xiaoning Lei, Guoyang Xie, Guannan Jiang, Zhichao Lu
+- **期刊**：IEEE Transactions on Artificial Intelligence, Vol. 7, No. 9, September 2026
+- **研究方向**：工业异常检测、异常合成、视觉基准
 ## 一句话概括
 
-提出 ASBench，首个专门评估图像异常合成方法的综合基准框架，从跨数据集泛化、合成/真实数据比例、合成图像内在指标与检测性能相关性、混合合成策略四个维度系统评测。
+ASBench 将异常图像合成从检测系统的附属步骤中独立出来，用 12 种合成方法、4 条检测流水线和 5 个数据集，系统评估合成质量与检测效用之间的关系。
 
 ## 问题与动机
 
-异常检测在工业质检中至关重要，但受限于异常样本稀缺与人工标注成本高。异常合成是可行方案，但现有研究多把异常合成当作检测框架的辅助组件，缺乏对合成算法本身的系统评估；也忽略了合成方法特有因素（与检测解耦、合成数据定量分析、跨场景适应性）。
+工业异常检测常受异常样本稀缺和标注成本高限制，异常合成因此成为重要的数据扩充手段。但已有工作通常只报告“合成后检测器变好多少”，缺乏对合成方法本身的可复现实验规范，也较少分析跨数据集泛化、合成/真实数据配比和合成图像指标是否真的预测检测性能。
 
 ## 方法
 
-提出四个关键评测维度：跨不同数据集与流水线的泛化性能；合成与真实数据的比例；合成图像内在指标与异常检测性能指标的相关性；混合异常合成方法的策略。通过大规模实验揭示现有合成方法的局限，并给出可操作的未来研究方向。
+论文建立 ASBench 评测协议，把合成算法与下游检测器解耦，并从四个维度组织实验：跨数据集和检测流水线的泛化、合成样本与真实样本的比例、合成图像内在质量指标与异常检测性能的相关性、不同合成器混合使用的策略。基准覆盖 12 种异常合成方法、4 条检测流程和 5 个数据集，配套公开代码以便复验。
 
 ## 实验与结果
 
-ASBench 不仅揭示了当前异常合成方法的不足，还提供了对未来异常合成研究方向的可操作洞见（原文摘要未给出具体数字）。
+系统实验揭示了当前异常合成方法在跨场景迁移、数据配比和质量指标解释方面的局限：合成图像的单一视觉质量分数并不总能代表检测收益，混合不同合成器也需要考虑互补性而非简单堆叠。四维结果为选择合成方法和设计未来检测流水线提供了可操作的经验。
 
 ## 贡献与局限
 
-- 贡献一：首个专用于异常合成评估的基准框架，把合成环节与检测环节解耦评测。
-- 贡献二：四维评测体系 + 公开代码库，为异常合成研究提供标准。
-- 局限：具体数字原文摘要未提供；评测覆盖面随社区扩展待持续更新。
+论文贡献是提出专门评估异常合成的基准框架，提供多数据集、多流水线和多方法的统一比较，并把合成质量与检测结果联系起来。局限是基准结论受所选数据集、合成器和检测器覆盖范围影响；真实工业缺陷、三维/视频异常及持续扩展的新型生成方法仍需要纳入后续版本。
 
 ---
-
 DOI: 10.1109/tai.2026.3680823

@@ -1,39 +1,44 @@
-# Neural Probabilistic Circuits 总结
+# Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning 总结
 
 ## 基本信息
 
-- **标题**: Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning
-- **作者**: Weixin Chen, Simon Yu, Huajie Shao, Lui Sha, Han Zhao
-- **期刊 / 会议**: Machine Learning 2026
-- **发表**: 2026-08-29
-- **内容状态**: 完整
-- **研究方向**: 人工智能
-- **DOI**: 10.1007/s10994-026-07118-7
-- **arXiv**: 2501.07021
-- **PDF**: [ML_2026_NeuralProbCircuits.pdf](papers/ML_2026_NeuralProbCircuits.pdf)
+- 标题: Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning
+- 作者: Weixin Chen、Simon Yu、Huajie Shao et al.
+- 期刊 / 会议: Machine Learning 2026
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+- DOI: 10.1007/s10994-026-07118-7
+- PDF: [ML_2026_NeuralProbCircuits.pdf](papers/ML_2026_NeuralProbCircuits.pdf)
 
+- 标题: Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning
+- 作者: Weixin Chen、Simon Yu、Huajie Shao et al.
+- 期刊 / 会议: Machine Learning 2026
+- 内容状态: 完整 · 已依据出版社正式版全文整理
+- 研究方向: 人工智能
+
+- **标题**: Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning
+- **作者**: Weixin Chen、Simon Yu、Huajie Shao et al.
+- **期刊 / 卷号文章号**: Machine Learning, 115:207 (2026)
+- **正式版 PDF**: [ML_2026_NeuralProbCircuits.pdf](papers/ML_2026_NeuralProbCircuits.pdf)
 ## 一句话概括
 
-提出神经概率电路（NPC）：一种天然透明的模型架构，通过属性识别模型加概率电路上的逻辑推理实现组合式、可解释的分类预测。
+论文提出 Neural Probabilistic Circuits（NPC），把神经属性识别器与可进行精确概率推理的 probabilistic circuit 组合起来，让分类模型能通过属性和逻辑关系作出预测，同时输出最可能解释与反事实解释。
 
 ## 问题与动机
 
-端到端深度网络性能出色但常被诟病缺乏可解释性；事后解释方法（post hoc）往往无法准确表征黑盒模型，产生误导或不完整的解释。需要从架构层面提供固有的透明性，同时保持与黑盒模型相当的性能。
+端到端深度网络性能强但通常是黑盒，post hoc 解释可能与真实决策依据不一致；概念瓶颈模型虽然引入可理解概念，使用高维 embedding 或无监督神经元又会损失语义透明性，线性任务头也难表达属性之间的逻辑关系。已有逻辑规则方法通常不能同时使用数据学习规则和人类预定义知识，也缺少整体误差与各模块误差之间的理论联系。
 
 ## 方法
 
-NPC 由两个模块组成：属性识别模型预测各属性的概率，任务预测器基于概率电路对识别出的属性做逻辑推理以得到类别预测；提出三阶段训练算法（属性识别 → 电路构建 → 联合优化）；理论上证明 NPC 的误差由各模块误差的线性组合上界约束；并给出最可能解释与反事实解释两种可解释性输出。
+NPC 的 attribute recognition model 输出颜色、形状、符号等属性的概率向量，task predictor 则用满足 smoothness 和 decomposability 的 probabilistic circuit 建模属性与类别的联合分布，并通过条件概率完成逻辑式分类。训练分为属性多任务学习、数据驱动或 knowledge-injected 的电路构建、端到端 joint optimization 三阶段；作者证明整体误差受模块误差线性组合上界约束，并用 brute-force MPE 找主要属性组合、用 projected gradient ascent 生成能纠正错误预测的 counterfactual explanation。
 
 ## 实验与结果
 
-在四个基准数据集上，NPC 在可解释性与性能之间取得平衡，性能可与端到端黑盒模型竞争，同时提供增强的可解释性（原文摘要未给出具体数字）。
+实验覆盖 MNIST-Addition（35,000 个样本）、GTSRB（39,209 张交通标志图像）、CelebA（202,599 张人脸图像）和 AwA2（37,322 张动物图像），按 8:1:1 划分，并与 CBM、Hybrid CBM、CEM、DCR 和端到端 DNN 比较。NPC(Data) 与 NPC(Knowledge) 在可解释模型中保持竞争力，在 MNIST-Addition、GTSRB 上可超过黑盒基线，复杂 CelebA/AwA2 上与 DNN 仍有小差距；数据驱动电路在 AwA2 的准确率为 68.52%，knowledge-injected 电路为 23.47%，说明复杂多值属性下结构表达能力很关键。属性干预通常改善预测，MPE 多数场景与真实属性对齐，但复杂数据集的 CE correction rate 较低。
 
 ## 贡献与局限
 
-- 贡献一：首个将概率电路与属性识别结合的天然透明分类架构，支持逻辑推理式预测。
-- 贡献二：误差上界的理论保证 + 最可能/反事实解释，兼顾性能与可解释性。
-- 局限：具体性能数字原文摘要未提供；更大规模数据与任务的验证待展开。
+贡献是提出同时支持数据规则、人类规则和理论保证的透明概率电路架构，并将属性干预、MPE 与 CE 纳入可解释预测。局限包括属性识别器本身仍可能学习背景捷径，LearnSPN 电路可能过大而推理慢，手工电路又可能表达力不足；“属性足以决定类别”和“给定输入属性相互独立”假设会限制真实场景适用性，joint optimization 还可能降低概念准确率。密集概念标注、属性数增多导致的指数复杂度和大规模部署仍需解决。
 
 ---
-
 DOI: 10.1007/s10994-026-07118-7
