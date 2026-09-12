@@ -1,8 +1,25 @@
 # 嵌套的技能源码仓库（hallmark 是独立 git 仓库，不纳入本站）
 hallmark/
+.hallmark/
 
-# 抓取中间产物的大文本（保留 records/oa/abstracts JSON，排除全文提取）
-skill-runs/txt/
+# Agent/浏览器诊断临时目录
+.workbuddy/
+browser_doctor_*/
+
+# 只版本化更新流水线所需的最小状态；批次、任务、日志和旧快照均为可再生产物
+skill-runs/*
+!skill-runs/last_update.json
+!skill-runs/update_batch.json
+!skill-runs/workflow_baseline.json
+!skill-runs/collection_audit.json
+!skill-runs/records_inc.json
+!skill-runs/oa_inc.json
+!skill-runs/content_inc.json
+!skill-runs/content_attempts.json
+!skill-runs/pdf_probe.json
+!skill-runs/pdf_downloads.json
+!skill-runs/pdf_attempts.json
+!skill-runs/fulltext_queue.txt
 
 # InstSci 批处理的原始下载目录（规范 PDF 已复制到 papers/ 顶层，原始大文件不入库）
 papers/instsci/

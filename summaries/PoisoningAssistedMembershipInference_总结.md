@@ -8,6 +8,7 @@
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3699355
+- **PDF**: [TDSC_2026_PoisoningAssistedMembershipInference.pdf](papers/TDSC_2026_PoisoningAssistedMembershipInference.pdf)
 
 ## 一句话概括
 

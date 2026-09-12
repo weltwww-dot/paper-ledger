@@ -248,6 +248,13 @@ def update(*, refresh=False):
     recs, batch = fetch(resume=not refresh, with_batch=True)
     if not recs:
         log("本轮没有新增论文；仍补齐并检查现有主题、中文摘要与 PDF 记录。")
+        if not refresh and batch.reusable("pdf"):
+            log("PDF 阶段复用今天已验证的探测、下载与证据记录。")
+        else:
+            batch.invalidate_from("pdf")
+            log("PDF 阶段：探测 → 下载 → 校验 → 跳过证据登记…")
+            acquire_pdfs()
+            batch.complete("pdf")
         run(["node", ROOT / "scripts" / "sync-papers.js", "--fill-themes", "--python", sys.executable])
         validate_workflow(log=log)
         return

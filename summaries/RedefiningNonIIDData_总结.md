@@ -8,6 +8,7 @@
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tai.2026.3677838
+- **PDF**: [TAI_2026_RedefiningNonIIDData.pdf](papers/TAI_2026_RedefiningNonIIDData.pdf)
 
 ## 一句话概括
 

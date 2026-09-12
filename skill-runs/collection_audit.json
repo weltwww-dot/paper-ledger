@@ -1,8 +1,8 @@
 {
- "from_date": "2026-09-04",
- "until_date": "2026-09-11",
+ "from_date": "2026-09-05",
+ "until_date": "2026-09-12",
  "journal_count": 17,
- "new_record_count": 2,
+ "new_record_count": 0,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
@@ -44,7 +44,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 0,
+    "count": 1,
     "excluded": {},
     "error": null
    },
@@ -53,9 +53,11 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 0,
+   "union_count": 1,
    "crossref_only_dois": [],
-   "openalex_only_dois": []
+   "openalex_only_dois": [
+    "10.1016/j.cose.2026.105144"
+   ]
   },
   {
    "journal": "IEEE Security & Privacy",
@@ -172,18 +174,18 @@
   {
    "journal": "International Journal of Information Security",
    "openalex": {
-    "count": 5,
+    "count": 4,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 5,
+    "count": 4,
     "excluded": {
      "title:correction": 1
     },
     "error": null
    },
-   "union_count": 5,
+   "union_count": 4,
    "crossref_only_dois": [],
    "openalex_only_dois": []
   },
@@ -254,7 +256,7 @@
   {
    "journal": "Nature Machine Intelligence",
    "openalex": {
-    "count": 1,
+    "count": 2,
     "excluded": {},
     "error": null
    },
@@ -264,16 +266,17 @@
     "error": null
    },
    "union_count": 2,
-   "crossref_only_dois": [
-    "10.1038/s42256-026-01298-6"
-   ],
+   "crossref_only_dois": [],
    "openalex_only_dois": []
   },
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 5,
-    "excluded": {},
+    "count": 4,
+    "excluded": {
+     "title:membership-form": 1,
+     "title:current-events": 1
+    },
     "error": null
    },
    "crossref": {
@@ -281,17 +284,16 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 5,
+   "union_count": 4,
    "crossref_only_dois": [],
    "openalex_only_dois": [
-    "10.1016/j.neunet.2026.109562",
     "10.1016/j.neunet.2026.109573",
     "10.1016/j.neunet.2026.109585",
-    "10.1016/j.neunet.2026.109586",
+    "10.1016/j.neunet.2026.109590",
     "10.1016/j.neunet.2026.109591"
    ]
   }
  ],
- "requested_from_date": "2026-09-08",
+ "requested_from_date": "2026-09-11",
  "lookback_days": 7
 }

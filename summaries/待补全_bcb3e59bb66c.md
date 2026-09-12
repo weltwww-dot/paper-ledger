@@ -4,10 +4,10 @@
 
 - **标题**：Using Class and Domain Information to Address Domain Shift in Federated Learning
 - **作者**：Chien-Yu Chiou，Chun-Rong Huang，Lawrence L. Latour，Yang C. Fann，Pau-Choo Chung
-- **期刊与年份**：IEEE Transactions on Neural Networks and Learning Systems，2026
+- **期刊 / 会议**：IEEE Transactions on Neural Networks and Learning Systems，2026
 - **研究方向**：联邦学习、域偏移与原型对比学习
 - **DOI**: 10.1109/TNNLS.2026.3658584
-- **PDF**: [PDF](papers/NN_2026_ClassDomainInformationAddress.pdf
+- **PDF**: [NN_2026_ClassDomainInformationAddress.pdf](papers/NN_2026_ClassDomainInformationAddress.pdf)
 
 - **内容状态**: 完整 · 已依据全文完成中文六段式总结
 

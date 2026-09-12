@@ -124,7 +124,7 @@ summaries/             # 六段式总结（每篇一个 Markdown）
 papers/                # 已下载的 PDF
 scripts/               # 抓取 / 摘要收口(fetch_content) / PDF / 同步 / 发布脚本
 shared/                # 浏览器与 Node 共用的解析 / 存储 / 统计模块
-skill-runs/            # 更新基准、可恢复更新批次与抓取记录
+skill-runs/            # 最小更新状态；批次任务、日志和旧快照仅保留在本地
 proxy-rules/           # 代理分流规则与说明（保住 IP 直连路线）
 CONTEXT.md             # 领域词汇表（研究方向 / 主题 / 内容状态 / 热点与趋势）
 更新工作流.md          # 「更新」完整流程说明

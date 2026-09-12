@@ -326,10 +326,6 @@ body {
   overflow-wrap: anywhere;
   white-space: normal;
 }
-.tag--accent {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-}
 .paper__title {
   margin: 0;
   font-family: var(--font-display);

@@ -30,6 +30,20 @@ class RunUpdateOrchestrationTests(unittest.TestCase):
         fetch = self.run_no_new(refresh=True)
         fetch.assert_called_once_with(resume=False, with_batch=True)
 
+    def test_update_runs_pdf_stage_when_no_new_papers(self):
+        batch = Mock()
+        batch.reusable.return_value = False
+        with (
+            patch.object(run_update, "fetch", return_value=([], batch)),
+            patch.object(run_update, "run"),
+            patch.object(run_update, "acquire_pdfs") as acquire,
+            patch.object(run_update, "validate_workflow"),
+            patch.object(run_update, "log"),
+        ):
+            run_update.update(refresh=False)
+
+        acquire.assert_called_once_with()
+
     def test_pdf_stage_is_reused_only_when_valid(self):
         batch = Mock()
         batch.reusable.return_value = True

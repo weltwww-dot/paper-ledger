@@ -84,6 +84,7 @@ try {
   fs.writeFileSync(fixtureFile, html, "utf8");
   const run = spawnSync(edge, [
     "--headless=new",
+    "--edge-skip-compat-layer-relaunch",
     "--disable-gpu",
     "--allow-file-access-from-files",
     `--user-data-dir=${profileDir}`,

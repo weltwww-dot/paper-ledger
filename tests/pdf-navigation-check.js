@@ -53,6 +53,7 @@ try {
   Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 1000);
   const run = spawnSync(edge, [
     "--headless=new",
+    "--edge-skip-compat-layer-relaunch",
     "--disable-gpu",
     `--user-data-dir=${profileDir}`,
     "--window-size=1280,900",
