@@ -42,7 +42,7 @@ class WorkflowValidationTests(unittest.TestCase):
             _run_checks([("legacy", legacy_check, "legacy failed")], "", lambda _message: None)
 
     @patch("workflow_validation.subprocess.run")
-    def test_browser_gate_runs_pdf_navigation_regression(self, run):
+    def test_browser_gate_runs_all_browser_regressions(self, run):
         run.return_value.returncode = 0
         run.return_value.stdout = ""
         run.return_value.stderr = ""
@@ -52,7 +52,12 @@ class WorkflowValidationTests(unittest.TestCase):
         scripts = [Path(call.args[0][1]).name for call in run.call_args_list]
         self.assertEqual(
             scripts,
-            ["layout-overflow-check.js", "latest-collapse-check.js", "pdf-navigation-check.js"],
+            [
+                "layout-overflow-check.js",
+                "latest-collapse-check.js",
+                "pdf-navigation-check.js",
+                "publication-order-check.js",
+            ],
         )
 
 
