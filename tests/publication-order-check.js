@@ -24,14 +24,14 @@ let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 html = html.replace('<script src="data/papers.js?v=tladzu" defer></script>', `<script>
 window.PAPERLEDGER_SEED = [
-  { id: "same-iso", title: "Same-day ISO", published: "2026-09-10", direction: "人工智能" },
-  { id: "same-zh", title: "Same-day Chinese", published: "2026年9月10日", direction: "人工智能" },
-  { id: "older-iso", title: "Older ISO", published: "2026-09-09", direction: "人工智能" },
-  { id: "year-only", title: "Year only", published: "2026年", direction: "人工智能" },
-  { id: "prior-year", title: "Prior year", published: "2025-12-31", direction: "人工智能" },
   { id: "invalid-day", title: "Invalid day", published: "2026-02-30", direction: "人工智能" },
+  { id: "same-iso", title: "Same-day ISO", published: "2026-09-10", direction: "人工智能" },
   { id: "invalid-text", title: "Invalid text", published: "日期未知", direction: "人工智能" },
+  { id: "year-only", title: "Year only", published: "2026年", direction: "人工智能" },
+  { id: "same-zh", title: "Same-day Chinese", published: "2026年9月10日", direction: "人工智能" },
   { id: "missing", title: "Missing date", published: "", direction: "人工智能" },
+  { id: "older-iso", title: "Older ISO", published: "2026-09-09", direction: "人工智能" },
+  { id: "prior-year", title: "Prior year", published: "2025-12-31", direction: "人工智能" },
 ];
 </script>`);
 html = html.replace("</body>", `<output id="publication-order-test"></output>
