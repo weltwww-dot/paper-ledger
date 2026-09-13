@@ -4,6 +4,7 @@ hallmark/
 
 # Agent/浏览器诊断临时目录
 .workbuddy/
+.worktrees/
 browser_doctor_*/
 
 # 只版本化更新流水线所需的最小状态；批次、任务、日志和旧快照均为可再生产物
