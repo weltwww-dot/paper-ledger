@@ -1,6 +1,6 @@
 {
- "from_date": "2026-09-05",
- "until_date": "2026-09-12",
+ "from_date": "2026-09-06",
+ "until_date": "2026-09-13",
  "journal_count": 17,
  "new_record_count": 0,
  "journals": [
@@ -272,7 +272,7 @@
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 4,
+    "count": 0,
     "excluded": {
      "title:membership-form": 1,
      "title:current-events": 1
@@ -284,14 +284,9 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 4,
+   "union_count": 0,
    "crossref_only_dois": [],
-   "openalex_only_dois": [
-    "10.1016/j.neunet.2026.109573",
-    "10.1016/j.neunet.2026.109585",
-    "10.1016/j.neunet.2026.109590",
-    "10.1016/j.neunet.2026.109591"
-   ]
+   "openalex_only_dois": []
   }
  ],
  "requested_from_date": "2026-09-11",
