@@ -49,18 +49,38 @@
   }
 
   /* 发表时间倒序（缺失日期沉底，同日并列保持原顺序）——列表展示与趋势共用同一排序 */
-  function sortByPublished(list) {
-    return [...list].sort((a, b) => {
-      const da = a.published || "";
-      const db = b.published || "";
-      if (da && db) {
-        if (da !== db) return da < db ? 1 : -1;
-        return 0;
+  function publicationKey(value) {
+    const text = String(value || "").trim();
+    let match = text.match(/^(\d{4})-(\d{1,2})-(\d{1,2})(?:$|[\s（(])/);
+    if (!match) match = text.match(/^(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if (match) {
+      const year = Number(match[1]);
+      const month = Number(match[2]);
+      const day = Number(match[3]);
+      const stamp = Date.UTC(year, month - 1, day);
+      const date = new Date(stamp);
+      if (date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 && date.getUTCDate() === day) {
+        return { recognized: 1, year, precision: 1, stamp };
       }
-      if (da) return -1;
-      if (db) return 1;
-      return 0;
-    });
+      return { recognized: 0, year: 0, precision: 0, stamp: 0 };
+    }
+    match = text.match(/^(\d{4})(?:年)?$/);
+    return match
+      ? { recognized: 1, year: Number(match[1]), precision: 0, stamp: 0 }
+      : { recognized: 0, year: 0, precision: 0, stamp: 0 };
+  }
+
+  function comparePublicationKeys(a, b) {
+    return (
+      b.recognized - a.recognized ||
+      b.year - a.year ||
+      b.precision - a.precision ||
+      b.stamp - a.stamp
+    );
+  }
+
+  function sortByPublished(list) {
+    return [...list].sort((a, b) => comparePublicationKeys(publicationKey(a.published), publicationKey(b.published)));
   }
 
   /* 各研究方向的篇数（全部 / 信息安全 / 人工智能），用于统计范围 chips */
