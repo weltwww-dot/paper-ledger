@@ -5,8 +5,8 @@
 - **标题**: KD-GAG: Knowledge-Distilled Graph-Augmented Generation via Preference-Aware Subgraph Pruning
 - **作者**: Long Zhao、Yin Xu、Yanyan Wang et al.
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-09-01
-- **内容状态**: 完整 · 已基于机构获取全文完成中文六段式总结
+- **发表**: 2026-09-07
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109587
 - **arXiv**: 无

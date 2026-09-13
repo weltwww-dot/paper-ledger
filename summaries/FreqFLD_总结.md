@@ -5,8 +5,8 @@
 - **标题**: FreqFLD: Towards All-in-One Facial Landmark Detection via Frequency Modulation
 - **作者**: Shun Ren、Kaijie Jin、Shengkai Hu et al.
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-09-01
-- **内容状态**: 完整 · 已基于机构获取全文完成中文六段式总结
+- **发表**: 2026-09-07
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109604
 - **arXiv**: 无

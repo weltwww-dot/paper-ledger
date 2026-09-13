@@ -2,13 +2,14 @@
 
 ## 基本信息
 
-- **内容状态**: 完整 · 已基于全文完成中文六段式总结
-- 标题：Reservoir computing with neural activity inputs predicts behavior and neural dynamics in mouse decision-making
-- 作者：Yutaro Ueoka, Hayato Maeda, Shuo Wang, et al.
-- 期刊 / 年份：Neural Networks / 2026
-- 研究方向：人工智能
-- DOI：10.1016/j.neunet.2026.109584
-- PDF：[HybridInputReservoirMouse.pdf](papers/HybridInputReservoirMouse.pdf)
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
+- **标题**: Reservoir computing with neural activity inputs predicts behavior and neural dynamics in mouse decision-making
+- **作者**: Yutaro Ueoka、Hayato Maeda、Shuo Wang et al.
+- **期刊 / 会议**: Neural Networks 2026
+- **发表**: 2026-09-02
+- **研究方向**: 人工智能
+- **DOI**: 10.1016/j.neunet.2026.109584
+- **PDF**: [HybridInputReservoirMouse.pdf](papers/HybridInputReservoirMouse.pdf)
 
 ## 一句话概括
 

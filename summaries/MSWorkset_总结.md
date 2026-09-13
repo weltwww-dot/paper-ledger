@@ -5,8 +5,8 @@
 - **标题**: MS-Workset: A novel worker misbehavior dataset for workers’ behavior tracking in mobile crowdsensing environment
 - **作者**: Ahmed Abduljawad, Hanane Lamaazi, Muhusina Ismail, Omar EL Harrouss, Saed Alrabaee, Elarbi Badidi
 - **期刊 / 会议**: Computers & Security 2026
-- **发表**: 2026-09-01
-- **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
+- **发表**: 2026-09-05
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105136
 - **arXiv**: 无

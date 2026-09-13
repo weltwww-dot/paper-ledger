@@ -5,8 +5,8 @@
 - **标题**: Structural Knowledge-Guided Complex-Noise Handling for Open Intent Classification
 - **作者**: Yanhua Li, Xiaocao Ouyang, Jie Zhang, Chaofan Pan, Lingfei Ren, Xin Yang
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-09-01（2026 年 9 月 2 日接收）
-- **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
+- **发表**: 2026-09-05
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109588
 - **arXiv**: 无

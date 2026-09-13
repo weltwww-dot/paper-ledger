@@ -5,8 +5,8 @@
 - **标题**: Similarity of Planning Domain Models via Answer Set Programming
 - **作者**: Lukáš Chrpa, Carmine Dodaro, Marco Maratea, Marco Mochi, Mauro Vallati
 - **期刊 / 会议**: Artificial Intelligence 2026
-- **发表**: 2026-09-01（Journal Pre-proof；2024-07-25 投稿，2026-08-26 修回，2026-08-31 录用）
-- **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
+- **发表**: 2026-09-06
+- **内容状态**: 完整 · 已依据出版社正式版全文整理
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104620
 - **arXiv**: 无

@@ -22,7 +22,7 @@ const fixtureFile = path.join(ROOT, `.publication-order-${process.pid}.html`);
 const port = 20000 + (process.pid % 10000);
 let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-html = html.replace('<script src="data/papers.js?v=tladzu" defer></script>', `<script>
+html = html.replace(/<script src="data\/papers\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script>
 window.PAPERLEDGER_SEED = [
   { id: "invalid-day", title: "Invalid day", published: "2026-02-30", direction: "人工智能" },
   { id: "same-iso", title: "Same-day ISO", published: "2026-09-10", direction: "人工智能" },
