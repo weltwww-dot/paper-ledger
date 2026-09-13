@@ -22,51 +22,31 @@ const fixtureFile = path.join(ROOT, `.publication-order-${process.pid}.html`);
 const port = 20000 + (process.pid % 10000);
 let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+html = html.replace('<script src="data/papers.js?v=tladzu" defer></script>', `<script>
+window.PAPERLEDGER_SEED = [
+  { id: "same-iso", title: "Same-day ISO", published: "2026-09-10", direction: "人工智能" },
+  { id: "same-zh", title: "Same-day Chinese", published: "2026年9月10日", direction: "人工智能" },
+  { id: "older-iso", title: "Older ISO", published: "2026-09-09", direction: "人工智能" },
+  { id: "year-only", title: "Year only", published: "2026年", direction: "人工智能" },
+  { id: "prior-year", title: "Prior year", published: "2025-12-31", direction: "人工智能" },
+  { id: "invalid-day", title: "Invalid day", published: "2026-02-30", direction: "人工智能" },
+  { id: "invalid-text", title: "Invalid text", published: "日期未知", direction: "人工智能" },
+  { id: "missing", title: "Missing date", published: "", direction: "人工智能" },
+];
+</script>`);
 html = html.replace("</body>", `<output id="publication-order-test"></output>
 <script>
-function keyOf(text) {
-  const value = String(text || "").trim();
-  let match = value.match(/^(\\d{4})-(\\d{1,2})-(\\d{1,2})(?:$|[\\s（(])/);
-  if (!match) match = value.match(/^(\\d{4})年(\\d{1,2})月(\\d{1,2})日/);
-  if (match) {
-    const year = Number(match[1]);
-    const month = Number(match[2]);
-    const day = Number(match[3]);
-    const stamp = Date.UTC(year, month - 1, day);
-    const roundTrip = new Date(stamp);
-    if (roundTrip.getUTCFullYear() === year && roundTrip.getUTCMonth() === month - 1 && roundTrip.getUTCDate() === day) {
-      return [1, year, 1, stamp];
-    }
-    return [0, 0, 0, 0];
-  }
-  match = value.match(/^(\\d{4})(?:年)?$/);
-  return match ? [1, Number(match[1]), 0, 0] : [0, 0, 0, 0];
-}
-
-function beforeOrEqual(left, right) {
-  for (let index = 0; index < left.length; index += 1) {
-    if (left[index] !== right[index]) return left[index] > right[index];
-  }
-  return true;
-}
-
 window.addEventListener("load", () => {
   window.setTimeout(() => {
     const more = document.querySelector("#latest-more");
     if (more && !more.hidden && /查看全部/.test(more.textContent)) more.click();
-    const cards = [...document.querySelectorAll("#latest-list .paper")];
-    const keys = cards.map((card) => {
-      const tag = card.querySelector(".tag--date");
-      return keyOf(tag ? tag.textContent : "");
-    });
-    const badIndex = keys.findIndex((key, index) => index > 0 && !beforeOrEqual(keys[index - 1], key));
-    const pass = cards.length > 4 && keys[0] && keys[0][0] === 1 && badIndex === -1;
+    const actual = [...document.querySelectorAll("#latest-list .paper")].map((card) => card.dataset.id);
+    const expected = ["same-iso", "same-zh", "older-iso", "year-only", "prior-year", "invalid-day", "invalid-text", "missing"];
+    const pass = JSON.stringify(actual) === JSON.stringify(expected);
     document.documentElement.dataset.publicationOrderTest = pass ? "pass" : "fail";
     document.querySelector("#publication-order-test").textContent = pass ? "" : JSON.stringify({
-      count: cards.length,
-      badIndex,
-      previous: badIndex > 0 ? keys[badIndex - 1] : null,
-      current: badIndex >= 0 ? keys[badIndex] : null,
+      expected,
+      actual,
     });
   }, 0);
 });
