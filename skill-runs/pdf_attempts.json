@@ -2006,5 +2006,29 @@
  "10.1038/s42256-026-01298-6": {
   "reason": "not-oa",
   "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109610": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109611": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105143": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.cose.2026.105134": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109615": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1016/j.neunet.2026.109577": {
+  "reason": "not-oa",
+  "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
  }
 }

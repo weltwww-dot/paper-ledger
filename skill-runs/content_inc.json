@@ -1,1 +1,206 @@
-[]
+[
+  {
+    "doi": "10.1016/j.neunet.2026.109610",
+    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "absent",
+        "detail": "abstract is null"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "error",
+        "detail": "None"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109611",
+    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105143",
+    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105134",
+    "title": "Detecting and mitigating IMSI catcher attacks: A formalized framework for secure mobile networks",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109615",
+    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109577",
+    "title": "Neural computation as operator-theoretic learning on measures",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "absent",
+        "detail": "abstract is null"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  }
+]

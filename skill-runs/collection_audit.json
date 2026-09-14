@@ -1,8 +1,8 @@
 {
- "from_date": "2026-09-06",
- "until_date": "2026-09-13",
+ "from_date": "2026-09-07",
+ "until_date": "2026-09-14",
  "journal_count": 17,
- "new_record_count": 0,
+ "new_record_count": 6,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
@@ -44,7 +44,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 1,
+    "count": 2,
     "excluded": {},
     "error": null
    },
@@ -53,10 +53,11 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 1,
+   "union_count": 2,
    "crossref_only_dois": [],
    "openalex_only_dois": [
-    "10.1016/j.cose.2026.105144"
+    "10.1016/j.cose.2026.105134",
+    "10.1016/j.cose.2026.105143"
    ]
   },
   {
@@ -174,18 +175,18 @@
   {
    "journal": "International Journal of Information Security",
    "openalex": {
-    "count": 4,
+    "count": 3,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 4,
+    "count": 3,
     "excluded": {
      "title:correction": 1
     },
     "error": null
    },
-   "union_count": 4,
+   "union_count": 3,
    "crossref_only_dois": [],
    "openalex_only_dois": []
   },
@@ -272,7 +273,7 @@
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 0,
+    "count": 7,
     "excluded": {
      "title:membership-form": 1,
      "title:current-events": 1
@@ -284,11 +285,19 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 0,
+   "union_count": 7,
    "crossref_only_dois": [],
-   "openalex_only_dois": []
+   "openalex_only_dois": [
+    "10.1016/j.neunet.2026.109577",
+    "10.1016/j.neunet.2026.109587",
+    "10.1016/j.neunet.2026.109602",
+    "10.1016/j.neunet.2026.109604",
+    "10.1016/j.neunet.2026.109610",
+    "10.1016/j.neunet.2026.109611",
+    "10.1016/j.neunet.2026.109615"
+   ]
   }
  ],
- "requested_from_date": "2026-09-11",
+ "requested_from_date": "2026-09-13",
  "lookback_days": 7
 }
