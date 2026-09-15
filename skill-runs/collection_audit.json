@@ -1,28 +1,23 @@
 {
- "from_date": "2026-09-07",
- "until_date": "2026-09-14",
+ "from_date": "2026-09-08",
+ "until_date": "2026-09-15",
  "journal_count": 17,
- "new_record_count": 6,
+ "new_record_count": 10,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
    "openalex": {
-    "count": 1,
+    "count": 0,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 5,
+    "count": 0,
     "excluded": {},
     "error": null
    },
-   "union_count": 5,
-   "crossref_only_dois": [
-    "10.1145/3830402",
-    "10.1145/3833421",
-    "10.1145/3833877",
-    "10.1145/3834769"
-   ],
+   "union_count": 0,
+   "crossref_only_dois": [],
    "openalex_only_dois": []
   },
   {
@@ -44,7 +39,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 2,
+    "count": 3,
     "excluded": {},
     "error": null
    },
@@ -53,10 +48,11 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 2,
+   "union_count": 3,
    "crossref_only_dois": [],
    "openalex_only_dois": [
     "10.1016/j.cose.2026.105134",
+    "10.1016/j.cose.2026.105141",
     "10.1016/j.cose.2026.105143"
    ]
   },
@@ -175,19 +171,19 @@
   {
    "journal": "International Journal of Information Security",
    "openalex": {
-    "count": 3,
+    "count": 1,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 3,
-    "excluded": {
-     "title:correction": 1
-    },
+    "count": 2,
+    "excluded": {},
     "error": null
    },
-   "union_count": 3,
-   "crossref_only_dois": [],
+   "union_count": 2,
+   "crossref_only_dois": [
+    "10.1007/s10207-026-01333-y"
+   ],
    "openalex_only_dois": []
   },
   {
@@ -257,7 +253,7 @@
   {
    "journal": "Nature Machine Intelligence",
    "openalex": {
-    "count": 2,
+    "count": 1,
     "excluded": {},
     "error": null
    },
@@ -267,13 +263,15 @@
     "error": null
    },
    "union_count": 2,
-   "crossref_only_dois": [],
+   "crossref_only_dois": [
+    "10.1038/s42256-026-01314-9"
+   ],
    "openalex_only_dois": []
   },
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 7,
+    "count": 5,
     "excluded": {
      "title:membership-form": 1,
      "title:current-events": 1
@@ -285,15 +283,13 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 7,
+   "union_count": 5,
    "crossref_only_dois": [],
    "openalex_only_dois": [
     "10.1016/j.neunet.2026.109577",
-    "10.1016/j.neunet.2026.109587",
-    "10.1016/j.neunet.2026.109602",
-    "10.1016/j.neunet.2026.109604",
     "10.1016/j.neunet.2026.109610",
     "10.1016/j.neunet.2026.109611",
+    "10.1016/j.neunet.2026.109614",
     "10.1016/j.neunet.2026.109615"
    ]
   }

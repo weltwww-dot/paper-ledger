@@ -1,31 +1,7 @@
 [
   {
-    "doi": "10.1016/j.neunet.2026.109610",
-    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
-    "year": 2026,
-    "is_oa": false,
-    "oa_status": "closed",
-    "best_pdf_url": null,
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Neural Networks"
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109611",
-    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
-    "year": 2026,
-    "is_oa": false,
-    "oa_status": "closed",
-    "best_pdf_url": null,
-    "arxiv_id": null,
-    "matched": true,
-    "note": null,
-    "source": "Neural Networks"
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105143",
-    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
+    "doi": "10.1016/j.cose.2026.105141",
+    "title": "Packet-syscall coordinated fuzzing for linux kernel network stack",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",
@@ -48,8 +24,8 @@
     "source": "Computers & Security"
   },
   {
-    "doi": "10.1016/j.neunet.2026.109615",
-    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
+    "doi": "10.1016/j.neunet.2026.109610",
+    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",
@@ -60,8 +36,80 @@
     "source": "Neural Networks"
   },
   {
+    "doi": "10.1016/j.neunet.2026.109614",
+    "title": "PDMark: Plausibly deniable watermarking for diffusion models",
+    "year": 2026,
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1007/s10207-026-01333-y",
+    "title": "Estimating adversarial transferability from feature-importance similarity in explainable intrusion detection systems",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "International Journal of Information Security"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105143",
+    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
+    "year": 2026,
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "Computers & Security"
+  },
+  {
     "doi": "10.1016/j.neunet.2026.109577",
     "title": "Neural computation as operator-theoretic learning on measures",
+    "year": 2026,
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1038/s42256-026-01314-9",
+    "title": "Publisher Correction: Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "year": null,
+    "is_oa": false,
+    "oa_status": null,
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": false,
+    "note": "openalex:HTTP Error 404: Not Found",
+    "source": "Nature Machine Intelligence"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109611",
+    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
+    "year": 2026,
+    "is_oa": false,
+    "oa_status": "closed",
+    "best_pdf_url": null,
+    "arxiv_id": null,
+    "matched": true,
+    "note": null,
+    "source": "Neural Networks"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109615",
+    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
     "year": 2026,
     "is_oa": false,
     "oa_status": "closed",

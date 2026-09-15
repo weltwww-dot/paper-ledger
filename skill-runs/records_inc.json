@@ -1,5 +1,15 @@
 [
  {
+  "doi": "10.1016/j.neunet.2026.109614",
+  "title": "PDMark: Plausibly deniable watermarking for diffusion models",
+  "year": 2026,
+  "date": "2026-09-08",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
   "doi": "10.1016/j.cose.2026.105143",
   "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
   "year": 2026,
@@ -57,6 +67,36 @@
   "source": "Neural Networks",
   "collection_sources": [
    "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105141",
+  "title": "Packet-syscall coordinated fuzzing for linux kernel network stack",
+  "year": 2026,
+  "date": "2026-09-11",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10207-026-01333-y",
+  "title": "Estimating adversarial transferability from feature-importance similarity in explainable intrusion detection systems",
+  "year": 2026,
+  "date": "2026-09-14",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1038/s42256-026-01314-9",
+  "title": "Publisher Correction: Quantum neural operators with implicit quadratic frame and expressivity advantages",
+  "year": 2026,
+  "date": "2026-09-14",
+  "source": "Nature Machine Intelligence",
+  "collection_sources": [
+   "crossref"
   ]
  }
 ]

@@ -1,10 +1,10 @@
 [
   {
-    "doi": "10.1016/j.neunet.2026.109610",
-    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
+    "doi": "10.1016/j.cose.2026.105141",
+    "title": "Packet-syscall coordinated fuzzing for linux kernel network stack",
     "text": "",
     "source": null,
-    "kind": "absent",
+    "kind": "rate-limited",
     "channels": [
       {
         "channel": "openalex",
@@ -15,74 +15,6 @@
         "channel": "semanticscholar",
         "kind": "absent",
         "detail": "abstract is null"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "error",
-        "detail": "None"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109611",
-    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105143",
-    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
       },
       {
         "channel": "crossref",
@@ -136,8 +68,95 @@
     ]
   },
   {
-    "doi": "10.1016/j.neunet.2026.109615",
-    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
+    "doi": "10.1016/j.neunet.2026.109610",
+    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
+    "text": "This paper investigates the safe optimal control (SOC) for input-constrained unknown stochastic systems via adaptive dynamic programming (ADP) and generalized fuzzy hyperbolic model (GFHM). Firstly, a GFHM is employed to approximate the unknown nonlinear terms of the stochastic system, thereby eliminating the need for exact system modeling. Secondly, a modified nonquadratic value function is developed to address the problem of asymmetric input constraints (AICs), where a control barrier function (CBF) with a damping factor is incorporated to penalize unsafe behaviors. Thirdly, based on ADP, the optimal control policy is obtained by solving the modified Hamilton-Jacobi-Bellman (HJB) equation. Furthermore, a dynamic event-triggered mechanism (DETM) is proposed to alleviate the computational burden and conserve communication resources. In addition, the Lyapunov method is utilized to guarantee the uniform ultimate boundedness (UUB) of the system states and the weight estimation errors of the critic neural networks (CNNs). Finally, two simulation examples are provided to demonstrate the effectiveness of the proposed control strategy.",
+    "source": "semanticscholar",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "ok",
+        "text": "This paper investigates the safe optimal control (SOC) for input-constrained unknown stochastic systems via adaptive dynamic programming (ADP) and generalized fuzzy hyperbolic model (GFHM). Firstly, a GFHM is employed to approximate the unknown nonlinear terms of the stochastic system, thereby eliminating the need for exact system modeling. Secondly, a modified nonquadratic value function is developed to address the problem of asymmetric input constraints (AICs), where a control barrier function (CBF) with a damping factor is incorporated to penalize unsafe behaviors. Thirdly, based on ADP, the optimal control policy is obtained by solving the modified Hamilton-Jacobi-Bellman (HJB) equation. Furthermore, a dynamic event-triggered mechanism (DETM) is proposed to alleviate the computational burden and conserve communication resources. In addition, the Lyapunov method is utilized to guarantee the uniform ultimate boundedness (UUB) of the system states and the weight estimation errors of the critic neural networks (CNNs). Finally, two simulation examples are provided to demonstrate the effectiveness of the proposed control strategy."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109614",
+    "title": "PDMark: Plausibly deniable watermarking for diffusion models",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01333-y",
+    "title": "Estimating adversarial transferability from feature-importance similarity in explainable intrusion detection systems",
+    "text": "Machine Learning (ML)-based Intrusion Detection Systems (IDS) are critical for defending against cyber threats but remain vulnerable to adversarial attacks, posing risks to system reliability and security. This study investigates the transferability of adversarial attacks across XGBoost and LightGBM models in IDS and uses Explainable AI (XAI) techniques to identify features that influence model decisions. Experiments on the CICIDS-2017 and NSL-KDD datasets demonstrate cross-model adversarial transferability, with accuracy reductions of 8.75% and 10.59% for XGBoost and LightGBM, respectively. The XAI-informed analysis further shows that feature-importance patterns can be used to examine model vulnerability under adversarial perturbations. Under direct adversarial testing, XGBoost exhibited a 6.18% reduction in accuracy, illustrating the vulnerability associated with perturbations targeting highly ranked features. Building on prior research linking feature importance to adversarial transferability, this study operationalizes that relationship in the IDS domain through a heuristic formulation based on correlations between model-specific feature-importance vectors. The proposed formulation is intended as a practical approximation for assessing cross-model vulnerability rather than as a deterministic predictor.",
+    "source": "publisher-page",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "error",
+        "detail": "None"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "ok",
+        "text": "Machine Learning (ML)-based Intrusion Detection Systems (IDS) are critical for defending against cyber threats but remain vulnerable to adversarial attacks, posing risks to system reliability and security. This study investigates the transferability of adversarial attacks across XGBoost and LightGBM models in IDS and uses Explainable AI (XAI) techniques to identify features that influence model decisions. Experiments on the CICIDS-2017 and NSL-KDD datasets demonstrate cross-model adversarial transferability, with accuracy reductions of 8.75% and 10.59% for XGBoost and LightGBM, respectively. The XAI-informed analysis further shows that feature-importance patterns can be used to examine model vulnerability under adversarial perturbations. Under direct adversarial testing, XGBoost exhibited a 6.18% reduction in accuracy, illustrating the vulnerability associated with perturbations targeting highly ranked features. Building on prior research linking feature importance to adversarial transferability, this study operationalizes that relationship in the IDS domain through a heuristic formulation based on correlations between model-specific feature-importance vectors. The proposed formulation is intended as a practical approximation for assessing cross-model vulnerability rather than as a deterministic predictor."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105143",
+    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
     "text": "",
     "source": null,
     "kind": "rate-limited",
@@ -172,6 +191,59 @@
   {
     "doi": "10.1016/j.neunet.2026.109577",
     "title": "Neural computation as operator-theoretic learning on measures",
+    "text": "This paper formulates neural computation as the finite-dimensional representation of operators acting on functions and measures. Dense layers, convolutions, attention mechanisms, graph networks, neural fields, and neural operators are treated as instances of kernel-based transformations evaluated through sampling, projection, quadrature, or basis truncation. The aim is to separate the operator being learned from the particular array representation used to compute it. This separation makes architecture design an approximation problem: one must choose a measure space, function space, kernel class, topology, and discretization scheme suited to the target operator. Numerical analysis provides stability and quadrature tools; approximation theory gives representation rates; harmonic analysis identifies bases and transforms adapted to structure; signal processing supplies efficient finite representations; measure theory treats empirical data, weak convergence, transport, and distributional functionals. The result is a unified account of neural architectures as computable approximations of operators over structured domains.",
+    "source": "semanticscholar",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "ok",
+        "text": "This paper formulates neural computation as the finite-dimensional representation of operators acting on functions and measures. Dense layers, convolutions, attention mechanisms, graph networks, neural fields, and neural operators are treated as instances of kernel-based transformations evaluated through sampling, projection, quadrature, or basis truncation. The aim is to separate the operator being learned from the particular array representation used to compute it. This separation makes architecture design an approximation problem: one must choose a measure space, function space, kernel class, topology, and discretization scheme suited to the target operator. Numerical analysis provides stability and quadrature tools; approximation theory gives representation rates; harmonic analysis identifies bases and transforms adapted to structure; signal processing supplies efficient finite representations; measure theory treats empirical data, weak convergence, transport, and distributional functionals. The result is a unified account of neural architectures as computable approximations of operators over structured domains."
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s42256-026-01314-9",
+    "title": "Publisher Correction: Quantum neural operators with implicit quadratic frame and expressivity advantages",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109611",
+    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
     "text": "",
     "source": null,
     "kind": "rate-limited",
@@ -183,8 +255,8 @@
       },
       {
         "channel": "semanticscholar",
-        "kind": "absent",
-        "detail": "abstract is null"
+        "kind": "error",
+        "detail": "429"
       },
       {
         "channel": "crossref",
@@ -195,6 +267,40 @@
         "channel": "arxiv",
         "kind": "rate-limited",
         "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109615",
+    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "error",
+        "detail": "None"
       },
       {
         "channel": "publisher-page",

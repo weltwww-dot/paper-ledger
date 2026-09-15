@@ -32,6 +32,7 @@ SKILL_SCRIPTS = Path("D:/codex/.codex/skills/paper-summarize-fetch/scripts")
 RUNS = ROOT / "skill-runs"
 LAST_UPDATE = RUNS / "last_update.json"
 DATA_FILE = ROOT / "data" / "papers.js"
+SUMMARIES = ROOT / "summaries"
 COLLECTION_AUDIT = RUNS / "collection_audit.json"
 BATCH_INPUTS = (
     ROOT / "data" / "journals.json",
@@ -85,28 +86,78 @@ def load_last_update():
         return json.load(f)
 
 
-def existing_dois_from_data():
+def papers_from_data():
     src = DATA_FILE.read_text(encoding="utf-8")
     m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
     if not m:
         raise SystemExit("data/papers.js 解析失败")
-    arr = json.loads(m.group(1))
-    return [p["doi"] for p in arr if p.get("doi")]
+    return json.loads(m.group(1))
+
+
+def existing_dois_from_data():
+    return [paper["doi"] for paper in papers_from_data() if paper.get("doi")]
 
 
 def titles_from_data(baseline_dois=None):
     """Return titles belonging to the baseline, excluding newly staged entries."""
     titles = []
     if DATA_FILE.exists():
-        src = DATA_FILE.read_text(encoding="utf-8")
-        m = re.search(r"=\s*(\[.*\])\s*;?\s*$", src, re.S)
-        if m:
-            papers = json.loads(m.group(1))
-            if baseline_dois is not None:
-                known = {str(doi).strip().lower() for doi in baseline_dois}
-                papers = [p for p in papers if str(p.get("doi") or "").strip().lower() in known]
-            titles = [p.get("title") or "" for p in papers]
+        papers = papers_from_data()
+        if baseline_dois is not None:
+            known = {str(doi).strip().lower() for doi in baseline_dois}
+            papers = [p for p in papers if str(p.get("doi") or "").strip().lower() in known]
+        titles = [p.get("title") or "" for p in papers]
     return titles
+
+
+def _unique_normalized(values):
+    """Preserve first spelling while removing blank and case-only duplicates."""
+    unique = []
+    seen = set()
+    for value in values:
+        clean = str(value or "").strip()
+        key = clean.lower()
+        if not clean or key in seen:
+            continue
+        seen.add(key)
+        unique.append(clean)
+    return unique
+
+
+def inventory_from_summaries():
+    """Read canonical DOI/title fields from staged summaries not yet in papers.js."""
+    dois, titles = [], []
+    if not SUMMARIES.exists():
+        return dois, titles
+    doi_pattern = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.I)
+    doi_field = re.compile(r"^\s*-\s*\*\*DOI\*\*\s*:\s*(.+?)\s*$", re.I | re.M)
+    title_field = re.compile(r"^\s*-\s*\*\*标题\*\*\s*:\s*(.+?)\s*$", re.M)
+    for path in SUMMARIES.glob("*.md"):
+        text = path.read_text(encoding="utf-8")
+        title_match = title_field.search(text)
+        if title_match:
+            titles.append(title_match.group(1))
+        doi_line = doi_field.search(text)
+        doi_match = doi_pattern.search(doi_line.group(1)) if doi_line else None
+        if doi_match:
+            dois.append(doi_match.group(0).rstrip("),.;"))
+    return dois, titles
+
+
+def local_known_inventory(baseline_dois):
+    """Return every locally known paper, including work staged after the baseline."""
+    papers = papers_from_data() if DATA_FILE.exists() else []
+    summary_dois, summary_titles = inventory_from_summaries()
+    dois = _unique_normalized(
+        list(baseline_dois or [])
+        + [paper.get("doi") for paper in papers]
+        + summary_dois
+    )
+    titles = _unique_normalized(
+        [paper.get("title") for paper in papers]
+        + summary_titles
+    )
+    return dois, titles
 
 
 def write_temp_json(items):
@@ -139,11 +190,14 @@ def require_successful_collection_audit(expected_from_date=None, require_today=F
 def fetch(*, resume=False, with_batch=False):
     base = load_last_update()
     last_date = base["date"]
-    dois = base.get("dois") or []
-    baseline_titles = titles_from_data(dois)
+    baseline_dois = base.get("dois") or []
+    known_dois, known_titles = local_known_inventory(baseline_dois)
     batch = UpdateBatch(ROOT, script_inputs=BATCH_INPUTS)
-    batch.begin(base, baseline_titles)
-    log(f"更新基准: 上次日期 {last_date}, 已收录 DOI {len(dois)} 个")
+    batch.begin({**base, "dois": known_dois}, known_titles)
+    log(
+        f"更新基准: 上次日期 {last_date}, 基准 DOI {len(baseline_dois)} 个, "
+        f"本地去重库存 DOI {len(known_dois)} 个"
+    )
 
     records = batch.path("records")
     audit = batch.path("audit")
@@ -157,8 +211,8 @@ def fetch(*, resume=False, with_batch=False):
         # 已收录清单可能很大，Windows 命令行有长度上限，统一写临时 JSON。
         tmp_dois = tmp_titles = None
         try:
-            tmp_dois = write_temp_json(dois)
-            tmp_titles = write_temp_json(baseline_titles)
+            tmp_dois = write_temp_json(known_dois)
+            tmp_titles = write_temp_json(known_titles)
             log("Step 1/3 · 增量抓取全部期刊论文…")
             run(
                 [
