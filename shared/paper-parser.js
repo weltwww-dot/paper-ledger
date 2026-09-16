@@ -49,12 +49,28 @@
     return "";
   }
 
-  /* "期刊 2026" / "期刊-2026" → { journal, year } */
+  /*
+   * "期刊 2026" / "期刊-2026" / "期刊 201 (2026)" → { journal, year }
+   *
+   * 早期总结曾使用“期刊 / 年份”“期刊 / 卷号文章号”等字段，值中还可能带
+   * 卷期、文章号或日期说明。年份不必恰好位于行尾；保留卷期，剥离年份后的
+   * 说明文字，避免台账因旧模板而显示为空。
+   */
   function splitVenue(venue) {
-    const m = String(venue).match(/^(.*?)\s*[-–—]\s*(\d{4})$|^(.*?)\s*(\d{4})\s*$/);
-    if (!m) return { journal: venue, year: "" };
-    const journal = (m[1] || m[3] || venue).replace(/[·,，:：;；\-—–\s]+$/g, "").trim();
-    const year = (m[2] || m[4] || "").trim();
+    const original = String(venue || "").trim();
+    if (!original) return { journal: "", year: "" };
+
+    /* “日期语义”字段以分号附带来源说明；期刊名只取第一个分号前的部分。 */
+    const source = original.split(/[；;]/, 1)[0].trim();
+    const year = ((original.match(/\b(?:19|20)\d{2}\b/) || [])[0] || "").trim();
+    if (!year) return { journal: source, year: "" };
+
+    let journal = source
+      .replace(new RegExp("\\s*[（(]\\s*" + year + "\\s*[）)].*$"), "")
+      .replace(new RegExp("[\\s,，:：;；\\-—–]+" + year + ".*$"), "")
+      .replace(/[·,，:：;；\-—–\s]+$/g, "")
+      .trim();
+    if (!journal) journal = source;
     return { journal, year };
   }
 
@@ -68,10 +84,16 @@
       .join("\n");
     const venueRaw =
       pickLine(basic, "期刊\\s*[/／]\\s*会议") ||
+      pickLine(basic, "期刊\\s*[/／]\\s*年份") ||
+      pickLine(basic, "期刊\\s*[/／]\\s*卷号文章号") ||
+      pickLine(basic, "期刊\\s*[/／]\\s*日期语义") ||
+      pickLine(basic, "会议与年份") ||
       pickLine(basic, "会议") ||
       pickLine(basic, "期刊");
     const { journal, year } = splitVenue(venueRaw);
-    const published = pickLine(basic, "发表");
+    const semanticDate = (String(venueRaw).match(/\b(?:19|20)\d{2}-\d{2}-\d{2}\b/) || [])[0] || "";
+    /* 未提供精确发表日时，只展示来源中明确给出的年份，不能凭空补日期。 */
+    const published = pickLine(basic, "发表") || pickLine(basic, "发表年份") || semanticDate || pickLine(basic, "年份") || year;
     const contentRaw = pickLine(basic, "内容状态");
     let contentState = "";
     let contentNote = "";
