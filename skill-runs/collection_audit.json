@@ -1,8 +1,8 @@
 {
- "from_date": "2026-09-08",
- "until_date": "2026-09-15",
+ "from_date": "2026-09-09",
+ "until_date": "2026-09-16",
  "journal_count": 17,
- "new_record_count": 10,
+ "new_record_count": 7,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
@@ -12,12 +12,14 @@
     "error": null
    },
    "crossref": {
-    "count": 0,
+    "count": 1,
     "excluded": {},
     "error": null
    },
-   "union_count": 0,
-   "crossref_only_dois": [],
+   "union_count": 1,
+   "crossref_only_dois": [
+    "10.1145/3848128"
+   ],
    "openalex_only_dois": []
   },
   {
@@ -39,7 +41,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 3,
+    "count": 4,
     "excluded": {},
     "error": null
    },
@@ -48,12 +50,13 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 3,
+   "union_count": 4,
    "crossref_only_dois": [],
    "openalex_only_dois": [
     "10.1016/j.cose.2026.105134",
     "10.1016/j.cose.2026.105141",
-    "10.1016/j.cose.2026.105143"
+    "10.1016/j.cose.2026.105143",
+    "10.1016/j.cose.2026.105160"
    ]
   },
   {
@@ -171,7 +174,7 @@
   {
    "journal": "International Journal of Information Security",
    "openalex": {
-    "count": 1,
+    "count": 2,
     "excluded": {},
     "error": null
    },
@@ -181,9 +184,7 @@
     "error": null
    },
    "union_count": 2,
-   "crossref_only_dois": [
-    "10.1007/s10207-026-01333-y"
-   ],
+   "crossref_only_dois": [],
    "openalex_only_dois": []
   },
   {
@@ -194,12 +195,14 @@
     "error": null
    },
    "crossref": {
-    "count": 0,
+    "count": 1,
     "excluded": {},
     "error": null
    },
-   "union_count": 0,
-   "crossref_only_dois": [],
+   "union_count": 1,
+   "crossref_only_dois": [
+    "10.1177/0926227x261487917"
+   ],
    "openalex_only_dois": []
   },
   {
@@ -271,7 +274,7 @@
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 5,
+    "count": 8,
     "excluded": {
      "title:membership-form": 1,
      "title:current-events": 1
@@ -283,14 +286,17 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 5,
+   "union_count": 8,
    "crossref_only_dois": [],
    "openalex_only_dois": [
     "10.1016/j.neunet.2026.109577",
     "10.1016/j.neunet.2026.109610",
     "10.1016/j.neunet.2026.109611",
-    "10.1016/j.neunet.2026.109614",
-    "10.1016/j.neunet.2026.109615"
+    "10.1016/j.neunet.2026.109613",
+    "10.1016/j.neunet.2026.109615",
+    "10.1016/j.neunet.2026.109618",
+    "10.1016/j.neunet.2026.109623",
+    "10.1016/j.neunet.2026.109627"
    ]
   }
  ],

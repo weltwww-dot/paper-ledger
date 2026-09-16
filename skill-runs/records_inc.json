@@ -1,67 +1,7 @@
 [
  {
-  "doi": "10.1016/j.neunet.2026.109614",
-  "title": "PDMark: Plausibly deniable watermarking for diffusion models",
-  "year": 2026,
-  "date": "2026-09-08",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.cose.2026.105143",
-  "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
-  "year": 2026,
-  "date": "2026-09-09",
-  "source": "Computers & Security",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109577",
-  "title": "Neural computation as operator-theoretic learning on measures",
-  "year": 2026,
-  "date": "2026-09-09",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109610",
-  "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
-  "year": 2026,
-  "date": "2026-09-09",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109615",
-  "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
-  "year": 2026,
-  "date": "2026-09-09",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.cose.2026.105134",
-  "title": "Detecting and mitigating IMSI catcher attacks: A formalized framework for secure mobile networks",
-  "year": 2026,
-  "date": "2026-09-10",
-  "source": "Computers & Security",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109611",
-  "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
+  "doi": "10.1016/j.neunet.2026.109613",
+  "title": "LRSP-Fusion: A general image fusion network based on low-rank and sparse priors",
   "year": 2026,
   "date": "2026-09-10",
   "source": "Neural Networks",
@@ -70,8 +10,28 @@
   ]
  },
  {
-  "doi": "10.1016/j.cose.2026.105141",
-  "title": "Packet-syscall coordinated fuzzing for linux kernel network stack",
+  "doi": "10.1016/j.neunet.2026.109618",
+  "title": "Single-phase incomplete multi-view clustering via joint anchor refactoring and tensorial bipartite graph learning",
+  "year": 2026,
+  "date": "2026-09-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109627",
+  "title": "QiVC-Net: Quantum-inspired variational convolutional network, with application to biosignal classification",
+  "year": 2026,
+  "date": "2026-09-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105160",
+  "title": "An adaptive defense generation method for mimic honeypots based on Minimax-Q game theory",
   "year": 2026,
   "date": "2026-09-11",
   "source": "Computers & Security",
@@ -80,21 +40,31 @@
   ]
  },
  {
-  "doi": "10.1007/s10207-026-01333-y",
-  "title": "Estimating adversarial transferability from feature-importance similarity in explainable intrusion detection systems",
+  "doi": "10.1016/j.neunet.2026.109623",
+  "title": "Cross-group bidirectional fusion network for 3D model classification",
+  "year": 2026,
+  "date": "2026-09-11",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1177/0926227x261487917",
+  "title": "MaskAug: Architecture-agnostic corruption-aware training for robust network intrusion detection",
   "year": 2026,
   "date": "2026-09-14",
-  "source": "International Journal of Information Security",
+  "source": "Journal of Computer Security",
   "collection_sources": [
    "crossref"
   ]
  },
  {
-  "doi": "10.1038/s42256-026-01314-9",
-  "title": "Publisher Correction: Quantum neural operators with implicit quadratic frame and expressivity advantages",
+  "doi": "10.1145/3848128",
+  "title": "Privacy Risks and Leakage Pathways in Agentic and Multi-Agent AI Systems",
   "year": 2026,
-  "date": "2026-09-14",
-  "source": "Nature Machine Intelligence",
+  "date": "2026-09-15",
+  "source": "ACM Transactions on Privacy and Security",
   "collection_sources": [
    "crossref"
   ]

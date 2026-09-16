@@ -1,283 +1,7 @@
 [
   {
-    "doi": "10.1016/j.cose.2026.105141",
-    "title": "Packet-syscall coordinated fuzzing for linux kernel network stack",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "absent",
-        "detail": "abstract is null"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105134",
-    "title": "Detecting and mitigating IMSI catcher attacks: A formalized framework for secure mobile networks",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109610",
-    "title": "Event-triggered reinforcement learning-based safe control for stochastic systems subject to asymmetric input constraints and unknown dynamics",
-    "text": "This paper investigates the safe optimal control (SOC) for input-constrained unknown stochastic systems via adaptive dynamic programming (ADP) and generalized fuzzy hyperbolic model (GFHM). Firstly, a GFHM is employed to approximate the unknown nonlinear terms of the stochastic system, thereby eliminating the need for exact system modeling. Secondly, a modified nonquadratic value function is developed to address the problem of asymmetric input constraints (AICs), where a control barrier function (CBF) with a damping factor is incorporated to penalize unsafe behaviors. Thirdly, based on ADP, the optimal control policy is obtained by solving the modified Hamilton-Jacobi-Bellman (HJB) equation. Furthermore, a dynamic event-triggered mechanism (DETM) is proposed to alleviate the computational burden and conserve communication resources. In addition, the Lyapunov method is utilized to guarantee the uniform ultimate boundedness (UUB) of the system states and the weight estimation errors of the critic neural networks (CNNs). Finally, two simulation examples are provided to demonstrate the effectiveness of the proposed control strategy.",
-    "source": "semanticscholar",
-    "kind": "ok",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "ok",
-        "text": "This paper investigates the safe optimal control (SOC) for input-constrained unknown stochastic systems via adaptive dynamic programming (ADP) and generalized fuzzy hyperbolic model (GFHM). Firstly, a GFHM is employed to approximate the unknown nonlinear terms of the stochastic system, thereby eliminating the need for exact system modeling. Secondly, a modified nonquadratic value function is developed to address the problem of asymmetric input constraints (AICs), where a control barrier function (CBF) with a damping factor is incorporated to penalize unsafe behaviors. Thirdly, based on ADP, the optimal control policy is obtained by solving the modified Hamilton-Jacobi-Bellman (HJB) equation. Furthermore, a dynamic event-triggered mechanism (DETM) is proposed to alleviate the computational burden and conserve communication resources. In addition, the Lyapunov method is utilized to guarantee the uniform ultimate boundedness (UUB) of the system states and the weight estimation errors of the critic neural networks (CNNs). Finally, two simulation examples are provided to demonstrate the effectiveness of the proposed control strategy."
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109614",
-    "title": "PDMark: Plausibly deniable watermarking for diffusion models",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1007/s10207-026-01333-y",
-    "title": "Estimating adversarial transferability from feature-importance similarity in explainable intrusion detection systems",
-    "text": "Machine Learning (ML)-based Intrusion Detection Systems (IDS) are critical for defending against cyber threats but remain vulnerable to adversarial attacks, posing risks to system reliability and security. This study investigates the transferability of adversarial attacks across XGBoost and LightGBM models in IDS and uses Explainable AI (XAI) techniques to identify features that influence model decisions. Experiments on the CICIDS-2017 and NSL-KDD datasets demonstrate cross-model adversarial transferability, with accuracy reductions of 8.75% and 10.59% for XGBoost and LightGBM, respectively. The XAI-informed analysis further shows that feature-importance patterns can be used to examine model vulnerability under adversarial perturbations. Under direct adversarial testing, XGBoost exhibited a 6.18% reduction in accuracy, illustrating the vulnerability associated with perturbations targeting highly ranked features. Building on prior research linking feature importance to adversarial transferability, this study operationalizes that relationship in the IDS domain through a heuristic formulation based on correlations between model-specific feature-importance vectors. The proposed formulation is intended as a practical approximation for assessing cross-model vulnerability rather than as a deterministic predictor.",
-    "source": "publisher-page",
-    "kind": "ok",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "error",
-        "detail": "404"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "error",
-        "detail": "None"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "ok",
-        "text": "Machine Learning (ML)-based Intrusion Detection Systems (IDS) are critical for defending against cyber threats but remain vulnerable to adversarial attacks, posing risks to system reliability and security. This study investigates the transferability of adversarial attacks across XGBoost and LightGBM models in IDS and uses Explainable AI (XAI) techniques to identify features that influence model decisions. Experiments on the CICIDS-2017 and NSL-KDD datasets demonstrate cross-model adversarial transferability, with accuracy reductions of 8.75% and 10.59% for XGBoost and LightGBM, respectively. The XAI-informed analysis further shows that feature-importance patterns can be used to examine model vulnerability under adversarial perturbations. Under direct adversarial testing, XGBoost exhibited a 6.18% reduction in accuracy, illustrating the vulnerability associated with perturbations targeting highly ranked features. Building on prior research linking feature importance to adversarial transferability, this study operationalizes that relationship in the IDS domain through a heuristic formulation based on correlations between model-specific feature-importance vectors. The proposed formulation is intended as a practical approximation for assessing cross-model vulnerability rather than as a deterministic predictor."
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105143",
-    "title": "IDORacle: Template-guided data-access mediation for object-level authorization in database-backed applications",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109577",
-    "title": "Neural computation as operator-theoretic learning on measures",
-    "text": "This paper formulates neural computation as the finite-dimensional representation of operators acting on functions and measures. Dense layers, convolutions, attention mechanisms, graph networks, neural fields, and neural operators are treated as instances of kernel-based transformations evaluated through sampling, projection, quadrature, or basis truncation. The aim is to separate the operator being learned from the particular array representation used to compute it. This separation makes architecture design an approximation problem: one must choose a measure space, function space, kernel class, topology, and discretization scheme suited to the target operator. Numerical analysis provides stability and quadrature tools; approximation theory gives representation rates; harmonic analysis identifies bases and transforms adapted to structure; signal processing supplies efficient finite representations; measure theory treats empirical data, weak convergence, transport, and distributional functionals. The result is a unified account of neural architectures as computable approximations of operators over structured domains.",
-    "source": "semanticscholar",
-    "kind": "ok",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "ok",
-        "text": "This paper formulates neural computation as the finite-dimensional representation of operators acting on functions and measures. Dense layers, convolutions, attention mechanisms, graph networks, neural fields, and neural operators are treated as instances of kernel-based transformations evaluated through sampling, projection, quadrature, or basis truncation. The aim is to separate the operator being learned from the particular array representation used to compute it. This separation makes architecture design an approximation problem: one must choose a measure space, function space, kernel class, topology, and discretization scheme suited to the target operator. Numerical analysis provides stability and quadrature tools; approximation theory gives representation rates; harmonic analysis identifies bases and transforms adapted to structure; signal processing supplies efficient finite representations; measure theory treats empirical data, weak convergence, transport, and distributional functionals. The result is a unified account of neural architectures as computable approximations of operators over structured domains."
-      }
-    ]
-  },
-  {
-    "doi": "10.1038/s42256-026-01314-9",
-    "title": "Publisher Correction: Quantum neural operators with implicit quadratic frame and expressivity advantages",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "error",
-        "detail": "404"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109611",
-    "title": "Carleman approximation based adaptive optimal control design of nonlinear systems: A three-phase policy iteration approach",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
-    "channels": [
-      {
-        "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
-      }
-    ]
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109615",
-    "title": "VLG-RMOT: Calibration-before-control for end-to-end referring multi-object tracking",
+    "doi": "10.1016/j.neunet.2026.109613",
+    "title": "LRSP-Fusion: A general image fusion network based on low-rank and sparse priors",
     "text": "",
     "source": null,
     "kind": "absent",
@@ -299,13 +23,192 @@
       },
       {
         "channel": "arxiv",
-        "kind": "error",
-        "detail": "None"
+        "kind": "absent",
+        "detail": "no exact title match"
       },
       {
         "channel": "publisher-page",
         "kind": "absent",
         "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109623",
+    "title": "Cross-group bidirectional fusion network for 3D model classification",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105160",
+    "title": "An adaptive defense generation method for mimic honeypots based on Minimax-Q game theory",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109618",
+    "title": "Single-phase incomplete multi-view clustering via joint anchor refactoring and tensorial bipartite graph learning",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "absent",
+        "detail": "no exact title match"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109627",
+    "title": "QiVC-Net: Quantum-inspired variational convolutional network, with application to biosignal classification",
+    "text": "In this paper, a learning framework is introduced which incorporates principles of probabilistic inference, variational optimization, and geometry-preserving operations inspired by quantum transformations. The central innovation of this quantum-inspired variational convolution (QiVC) lies in its quantum-inspired rotated ensemble (QiRE) mechanism. QiRE performs differentiable low-dimensional subspace rotations of convolutional weights. By drawing a mathematical analogy from unitary evolution, this approach enables structured uncertainty modeling that respects the intrinsic geometry of the parameter space. To demonstrate its practical potential, the concept is instantiated in a QiVC-based convolutional network (QiVC-Net) and evaluated in the context of biosignal classification, focusing on phonocardiogram (PCG) recordings. The proposed QiVC-Net integrates an architecture in which the QiVC layer does not introduce additional parameters, instead performing an ensemble rotation of the convolutional weights through a structured mechanism ensuring robustness without added highly computational burden. Experiments on two benchmark datasets, PhysioNet CinC 2016 and PhysioNet CirCor DigiScope 2022, show that QiVC-Net achieves state-of-the-art performance, reaching accuracies of 97.84% and 97.89%, respectively. These findings highlight the versatility of the QiVC framework and its promise for advancing uncertainty-aware modeling in real-world biomedical signal analysis. The implementation of the QiVConv layer is available in GitHub for public use.",
+    "source": "arxiv",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "ok",
+        "text": "In this paper, a learning framework is introduced which incorporates principles of probabilistic inference, variational optimization, and geometry-preserving operations inspired by quantum transformations. The central innovation of this quantum-inspired variational convolution (QiVC) lies in its quantum-inspired rotated ensemble (QiRE) mechanism. QiRE performs differentiable low-dimensional subspace rotations of convolutional weights. By drawing a mathematical analogy from unitary evolution, this approach enables structured uncertainty modeling that respects the intrinsic geometry of the parameter space. To demonstrate its practical potential, the concept is instantiated in a QiVC-based convolutional network (QiVC-Net) and evaluated in the context of biosignal classification, focusing on phonocardiogram (PCG) recordings. The proposed QiVC-Net integrates an architecture in which the QiVC layer does not introduce additional parameters, instead performing an ensemble rotation of the convolutional weights through a structured mechanism ensuring robustness without added highly computational burden. Experiments on two benchmark datasets, PhysioNet CinC 2016 and PhysioNet CirCor DigiScope 2022, show that QiVC-Net achieves state-of-the-art performance, reaching accuracies of 97.84% and 97.89%, respectively. These findings highlight the versatility of the QiVC framework and its promise for advancing uncertainty-aware modeling in real-world biomedical signal analysis. The implementation of the QiVConv layer is available in GitHub for public use."
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3848128",
+    "title": "Privacy Risks and Leakage Pathways in Agentic and Multi-Agent AI Systems",
+    "text": "Agentic and multi-agent AI systems are increasingly deployed as part of operational systems, introducing autonomous planning, delegation, persistent memory, tool use, and inter-agent coordination into data-driven decision making. These architectural properties challenge prevailing privacy assumptions because leakage may arise structurally from autonomy, coordination, persistence, and composition rather than only from isolated model outputs. This paper provides a structured synthesis of privacy risks and leakage pathways for agentic and multi-agent AI systems. We introduce a unifying abstraction that combines decentralized decision making with trace-based information-flow semantics, enabling reasoning about autonomy, coordination, persistent state, observability, and adversarial trace projections. Using this abstraction, we organize recurring privacy risks into five leakage pathways: autonomy-induced overexposure, coordination-driven information propagation, memory and persistent-state leakage, emergent and compositional inference, and observability and audit leakage. We further analyze why established privacy-enhancing technologies provide incomplete coverage in agentic settings, where static computation boundaries, single-agent assumptions, ephemeral state, and non-emergent behavior often fail. To ground the analysis, we implement a controlled multi-agent privacy sandbox with privacy-aware agents, tool-mediated workflows, adversarial trace projections, and LLM-backed validation. The results show that policy-checked privacy-aware execution reduces direct disclosure and adversarial inference advantage, while residual tool-mediated and semantic-hint leakage remains. The paper concludes by proposing new privacy requirements for agentic and multi-agent AI systems.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Agentic and multi-agent AI systems are increasingly deployed as part of operational systems, introducing autonomous planning, delegation, persistent memory, tool use, and inter-agent coordination into data-driven decision making. These architectural properties challenge prevailing privacy assumptions because leakage may arise structurally from autonomy, coordination, persistence, and composition rather than only from isolated model outputs. This paper provides a structured synthesis of privacy risks and leakage pathways for agentic and multi-agent AI systems. We introduce a unifying abstraction that combines decentralized decision making with trace-based information-flow semantics, enabling reasoning about autonomy, coordination, persistent state, observability, and adversarial trace projections. Using this abstraction, we organize recurring privacy risks into five leakage pathways: autonomy-induced overexposure, coordination-driven information propagation, memory and persistent-state leakage, emergent and compositional inference, and observability and audit leakage. We further analyze why established privacy-enhancing technologies provide incomplete coverage in agentic settings, where static computation boundaries, single-agent assumptions, ephemeral state, and non-emergent behavior often fail. To ground the analysis, we implement a controlled multi-agent privacy sandbox with privacy-aware agents, tool-mediated workflows, adversarial trace projections, and LLM-backed validation. The results show that policy-checked privacy-aware execution reduces direct disclosure and adversarial inference advantage, while residual tool-mediated and semantic-hint leakage remains. The paper concludes by proposing new privacy requirements for agentic and multi-agent AI systems."
+      }
+    ]
+  },
+  {
+    "doi": "10.1177/0926227x261487917",
+    "title": "MaskAug: Architecture-agnostic corruption-aware training for robust network intrusion detection",
+    "text": "Deployed network intrusion detection systems frequently encounter corrupted or missing features due to sensor failures, network disruptions, and resource constraints: conditions that laboratory benchmarks rarely capture. Existing approaches typically assume complete feature availability and couple robustness improvements to specific architectures. We propose mask augmentation ( MaskAug ), a data-level corruption-aware training strategy that simulates deployment-time feature degradation through three complementary operators: random masking, block masking, and proportional noise injection. Because MaskAug operates on the input before the classifier, it integrates with any differentiable neural backbone as a drop-in augmentation, without modifying the inference pipeline. We evaluate MaskAug on leakage-audited benchmarks rebuilt directly from the official UNSW-NB15 and CICIDS2017 corpora, using 10 independent train/evaluation splits with three model seeds each. Across multilayer perceptron (MLP), one-dimensional convolutional neural network, and Feature Tokenizer + Transformer, MaskAug improves corruption-averaged Macro-F1 by + 0.043 / + 0.060 / + 0.072 on UNSW-NB15 and + 0.087 / + 0.150 / + 0.057 on CICIDS2017 over clean-trained baselines, and the gains persist against a budget-matched control trained on replicated clean samples (equalizing optimizer updates): all 12 pre-specified split-level one-sided Wilcoxon comparisons remain significant after Holm correction (adjusted p = 0.012 ), with effect sizes reported via cluster-bootstrap confidence intervals. A lexical term frequency-inverse document frequency baseline remains competitive on UNSW-NB15 yet collapses under masking on CICIDS2017 (Macro-F1 0.33 vs. 0.92 for MLP+MaskAug). Corruption-aware training thus delivers architecture-agnostic, cross-dataset-consistent robustness at zero inference-time cost.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Deployed network intrusion detection systems frequently encounter corrupted or missing features due to sensor failures, network disruptions, and resource constraints: conditions that laboratory benchmarks rarely capture. Existing approaches typically assume complete feature availability and couple robustness improvements to specific architectures. We propose mask augmentation ( MaskAug ), a data-level corruption-aware training strategy that simulates deployment-time feature degradation through three complementary operators: random masking, block masking, and proportional noise injection. Because MaskAug operates on the input before the classifier, it integrates with any differentiable neural backbone as a drop-in augmentation, without modifying the inference pipeline. We evaluate MaskAug on leakage-audited benchmarks rebuilt directly from the official UNSW-NB15 and CICIDS2017 corpora, using 10 independent train/evaluation splits with three model seeds each. Across multilayer perceptron (MLP), one-dimensional convolutional neural network, and Feature Tokenizer + Transformer, MaskAug improves corruption-averaged Macro-F1 by + 0.043 / + 0.060 / + 0.072 on UNSW-NB15 and + 0.087 / + 0.150 / + 0.057 on CICIDS2017 over clean-trained baselines, and the gains persist against a budget-matched control trained on replicated clean samples (equalizing optimizer updates): all 12 pre-specified split-level one-sided Wilcoxon comparisons remain significant after Holm correction (adjusted p = 0.012 ), with effect sizes reported via cluster-bootstrap confidence intervals. A lexical term frequency-inverse document frequency baseline remains competitive on UNSW-NB15 yet collapses under masking on CICIDS2017 (Macro-F1 0.33 vs. 0.92 for MLP+MaskAug). Corruption-aware training thus delivers architecture-agnostic, cross-dataset-consistent robustness at zero inference-time cost."
       }
     ]
   }

@@ -2030,5 +2030,9 @@
  "10.1016/j.neunet.2026.109577": {
   "reason": "not-oa",
   "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+ },
+ "10.1177/0926227x261487917": {
+  "reason": "blocked",
+  "note": "2026-09-16 PDF agent 已尝试：journals.sagepub.com 直连连接超时；CARSI 会话 cookie 已过期且无可用 WebVPN 基址。等待本机网络恢复可达并由用户完成合法机构 SSO 后重试。"
  }
 }
