@@ -7,7 +7,7 @@ from unittest.mock import patch
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 
-from workflow_validation import _layout_check, _run_checks  # noqa: E402
+from workflow_validation import _layout_check, _run_checks, _standard_checks  # noqa: E402
 
 
 class WorkflowValidationTests(unittest.TestCase):
@@ -42,7 +42,7 @@ class WorkflowValidationTests(unittest.TestCase):
             _run_checks([("legacy", legacy_check, "legacy failed")], "", lambda _message: None)
 
     @patch("workflow_validation.subprocess.run")
-    def test_browser_gate_runs_all_browser_regressions(self, run):
+    def test_browser_gate_uses_one_regression_session(self, run):
         run.return_value.returncode = 0
         run.return_value.stdout = ""
         run.return_value.stderr = ""
@@ -50,15 +50,13 @@ class WorkflowValidationTests(unittest.TestCase):
         _layout_check(lambda _message: None, "publish 前置")
 
         scripts = [Path(call.args[0][1]).name for call in run.call_args_list]
-        self.assertEqual(
-            scripts,
-            [
-                "layout-overflow-check.js",
-                "latest-collapse-check.js",
-                "pdf-navigation-check.js",
-                "publication-order-check.js",
-            ],
-        )
+        self.assertEqual(scripts, ["site-regressions-check.js"])
+
+    def test_standard_checks_leave_pdf_coverage_to_workflow_gate(self):
+        labels = [label for label, _check, _message in _standard_checks(False)]
+
+        self.assertNotIn("PDF 获取闸门检查", labels)
+        self.assertIn("论文台账总体验收", labels)
 
 
 if __name__ == "__main__":

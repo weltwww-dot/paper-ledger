@@ -7,7 +7,6 @@ import subprocess
 from collections.abc import Callable, Iterable
 from pathlib import Path
 
-import pdf_gate
 import summary_gate
 import summary_quality_gate
 import theme_gate
@@ -34,35 +33,24 @@ def _run_checks(checks: Iterable[Check], context: str, log: Callable[[str], None
 def _layout_check(log: Callable[[str], None], context: str) -> None:
     suffix = f"（{context}）" if context else ""
     log(f"网站布局、收起、PDF 导航与论文时间顺序检查{suffix}…")
-    for script in (
-        "layout-overflow-check.js",
-        "latest-collapse-check.js",
-        "pdf-navigation-check.js",
-        "publication-order-check.js",
-    ):
-        result = subprocess.run(
-            ["node", ROOT / "tests" / script],
-            cwd=str(ROOT),
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        )
-        if result.stdout:
-            log(result.stdout.rstrip())
-        if result.stderr:
-            log(result.stderr.rstrip())
-        if result.returncode != 0:
-            raise SystemExit("网站布局、收起、PDF 导航或论文时间顺序检查未通过，不能继续。")
+    result = subprocess.run(
+        ["node", ROOT / "tests" / "site-regressions-check.js"],
+        cwd=str(ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if result.stdout:
+        log(result.stdout.rstrip())
+    if result.stderr:
+        log(result.stderr.rstrip())
+    if result.returncode != 0:
+        raise SystemExit("网站布局、收起、PDF 导航或论文时间顺序检查未通过，不能继续。")
 
 
-def validate_workflow(
-    *,
-    context: str = "",
-    include_pdf_integrity: bool = False,
-    log: Callable[[str], None] = print,
-) -> None:
-    """Run every required gate through one stable orchestration interface."""
+def _standard_checks(include_pdf_integrity: bool) -> list[Check]:
+    """Return the non-browser gates without running a weaker duplicate PDF check."""
     checks: list[Check] = [
         ("中文六段式摘要闸门检查", summary_gate.check, "中文摘要闸门未通过，不能继续。"),
         ("中文文案质量闸门检查", summary_quality_gate.check, "中文文案质量闸门未通过，不能继续。"),
@@ -76,11 +64,19 @@ def validate_workflow(
                 "papers/ 存在无法清理的无效 PDF，不能继续。",
             )
         )
-    checks.extend(
-        [
-            ("PDF 获取闸门检查", pdf_gate.check, "PDF 闸门未通过，不能继续。"),
-            ("论文台账总体验收", workflow_gate.check, "台账总体验收未通过，不能继续。"),
-        ]
-    )
-    _run_checks(checks, context, log)
+    # workflow_gate validates PDF existence/header/tail and the stronger
+    # no-PDF attempt reason/note contract, so pdf_gate.check would only
+    # repeat a weaker subset here. Keep pdf_gate.py --list for human triage.
+    checks.append(("论文台账总体验收", workflow_gate.check, "台账总体验收未通过，不能继续。"))
+    return checks
+
+
+def validate_workflow(
+    *,
+    context: str = "",
+    include_pdf_integrity: bool = False,
+    log: Callable[[str], None] = print,
+) -> None:
+    """Run every required gate through one stable orchestration interface."""
+    _run_checks(_standard_checks(include_pdf_integrity), context, log)
     _layout_check(log, context)
