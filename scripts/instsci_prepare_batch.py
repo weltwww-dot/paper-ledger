@@ -100,6 +100,26 @@ def load_ledger() -> dict:
     return out
 
 
+def load_incremental_records() -> dict:
+    """Read the current discovery batch for PDFs that are not in the ledger yet."""
+    path = os.path.join(ROOT, "skill-runs", "records_inc.json")
+    if not os.path.isfile(path):
+        return {}
+    try:
+        rows = json.load(open(path, encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {
+        str(row.get("doi") or "").strip().lower(): {
+            "title": str(row.get("title") or "").strip(),
+            "journal": str(row.get("source") or "").strip(),
+            "year": str(row.get("year") or row.get("date") or "")[:4],
+        }
+        for row in rows
+        if str(row.get("doi") or "").strip()
+    }
+
+
 def find_placeholder(doi: str) -> str:
     if not doi:
         return ""
@@ -152,6 +172,7 @@ def main() -> int:
 
     taken = set(os.listdir(os.path.join(ROOT, "papers")))
     ledger = load_ledger()
+    incremental = load_incremental_records()
     tasks = []
     txt_dir = os.path.join(ROOT, "skill-runs", "txt", batch_name)
     os.makedirs(txt_dir, exist_ok=True)
@@ -168,10 +189,11 @@ def main() -> int:
             fail += 1
             continue
         doi = (row.get("doi") or "").strip()
-        title = (row.get("title") or "").strip()
+        discovered = incremental.get(doi.lower(), {})
+        title = (row.get("title") or discovered.get("title") or "").strip()
         meta = ledger.get(doi.lower(), {})
-        journal = meta.get("journal") or ""
-        year = meta.get("year") or ((row.get("published") or "")[:4]) or "2026"
+        journal = meta.get("journal") or discovered.get("journal") or ""
+        year = meta.get("year") or discovered.get("year") or ((row.get("published") or "")[:4]) or "2026"
         prefix = prefix_of(journal)
         slug = unique_slug(slugify(title), prefix, year, taken)
         txt_path = os.path.join(txt_dir, slug + ".txt")

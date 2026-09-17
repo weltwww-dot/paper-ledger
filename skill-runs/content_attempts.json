@@ -11401,5 +11401,384 @@
     "kind": "ok"
    }
   ]
+ },
+ "10.1016/j.neunet.2026.109626": {
+  "at": "2026-09-17T14:00:36+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109616": {
+  "at": "2026-09-17T14:00:36+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109629": {
+  "at": "2026-09-17T14:00:36+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109606": {
+  "at": "2026-09-17T14:00:36+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109603": {
+  "at": "2026-09-17T14:00:43+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109617": {
+  "at": "2026-09-17T14:00:44+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "absent",
+    "detail": "abstract is null"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.cose.2026.105161": {
+  "at": "2026-09-17T14:00:44+00:00",
+  "final": "absent",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "404"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "absent",
+    "detail": "no exact title match"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1016/j.neunet.2026.109630": {
+  "at": "2026-09-17T14:00:54+00:00",
+  "final": "rate-limited",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "rate-limited",
+    "detail": "429"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1007/s10207-026-01335-w": {
+  "at": "2026-09-17T14:00:44+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1007/s10994-026-07162-3": {
+  "at": "2026-09-17T14:00:57+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "absent",
+    "detail": "abstract is null"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "rate-limited",
+    "detail": "429"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1007/s10994-026-07163-2": {
+  "at": "2026-09-17T14:00:58+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "rate-limited",
+    "detail": "429"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1007/s10207-026-01308-z": {
+  "at": "2026-09-17T14:00:45+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "ok"
+   }
+  ]
+ },
+ "10.1016/j.cose.2026.105163": {
+  "at": "2026-09-17T14:00:51+00:00",
+  "final": "rate-limited",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "absent",
+    "detail": "no abstract_inverted_index"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "404"
+   },
+   {
+    "channel": "crossref",
+    "kind": "absent",
+    "detail": "no abstract field"
+   },
+   {
+    "channel": "arxiv",
+    "kind": "rate-limited",
+    "detail": "429"
+   },
+   {
+    "channel": "publisher-page",
+    "kind": "absent",
+    "detail": "landing page has no abstract meta"
+   }
+  ]
+ },
+ "10.1007/s10207-026-01328-9": {
+  "at": "2026-09-17T14:00:54+00:00",
+  "final": "ok",
+  "channels": [
+   {
+    "channel": "openalex",
+    "kind": "error",
+    "detail": "404"
+   },
+   {
+    "channel": "semanticscholar",
+    "kind": "error",
+    "detail": "429"
+   },
+   {
+    "channel": "crossref",
+    "kind": "ok"
+   }
+  ]
  }
 }

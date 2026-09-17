@@ -1,7 +1,7 @@
 [
  {
-  "doi": "10.1016/j.neunet.2026.109613",
-  "title": "LRSP-Fusion: A general image fusion network based on low-rank and sparse priors",
+  "doi": "10.1016/j.neunet.2026.109629",
+  "title": "Causality-aware LLM-agent framework for document-level news event extraction with heterogeneous arguments",
   "year": 2026,
   "date": "2026-09-10",
   "source": "Neural Networks",
@@ -10,61 +10,134 @@
   ]
  },
  {
-  "doi": "10.1016/j.neunet.2026.109618",
-  "title": "Single-phase incomplete multi-view clustering via joint anchor refactoring and tensorial bipartite graph learning",
-  "year": 2026,
-  "date": "2026-09-10",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109627",
-  "title": "QiVC-Net: Quantum-inspired variational convolutional network, with application to biosignal classification",
-  "year": 2026,
-  "date": "2026-09-10",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.cose.2026.105160",
-  "title": "An adaptive defense generation method for mimic honeypots based on Minimax-Q game theory",
+  "doi": "10.1016/j.neunet.2026.109603",
+  "title": "Dynamic graph representation learning based on multi-scale attention",
   "year": 2026,
   "date": "2026-09-11",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109606",
+  "title": "Adaptive distributed observer-based cooperative control for noncanonical nonlinear multi-agent systems modeled by RHONNs",
+  "year": 2026,
+  "date": "2026-09-11",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109617",
+  "title": "MoEP: Compact and efficient sparsity with modular expert paths",
+  "year": 2026,
+  "date": "2026-09-11",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109616",
+  "title": "DPGR-Net: A disentangled population-guided graph neural network for major depressive disorder identification",
+  "year": 2026,
+  "date": "2026-09-12",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109626",
+  "title": "GCA-ODN: A global context-aware dropout network for joint facial landmark detection and emotion recognition under occlusion",
+  "year": 2026,
+  "date": "2026-09-12",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105161",
+  "title": "Patronus: Statistical decision-making for detecting volumetric application-layer DoS attacks",
+  "year": 2026,
+  "date": "2026-09-14",
   "source": "Computers & Security",
   "collection_sources": [
    "openalex"
   ]
  },
  {
-  "doi": "10.1016/j.neunet.2026.109623",
-  "title": "Cross-group bidirectional fusion network for 3D model classification",
+  "doi": "10.1016/j.cose.2026.105163",
+  "title": "Multi-source trust model with uncertainty and context-temporal in cloud–edge–end systems",
   "year": 2026,
-  "date": "2026-09-11",
+  "date": "2026-09-14",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109630",
+  "title": "Basis sharing and coefficient pruning for efficient neural network compression",
+  "year": 2026,
+  "date": "2026-09-14",
   "source": "Neural Networks",
   "collection_sources": [
    "openalex"
   ]
  },
  {
-  "doi": "10.1177/0926227x261487917",
-  "title": "MaskAug: Architecture-agnostic corruption-aware training for robust network intrusion detection",
+  "doi": "10.1007/s10207-026-01308-z",
+  "title": "Towards distinguishing cybersecurity attacks and safety faults in distributed energy resources-rich smart grids: a systematic literature review",
   "year": 2026,
-  "date": "2026-09-14",
-  "source": "Journal of Computer Security",
+  "date": "2026-09-16",
+  "source": "International Journal of Information Security",
   "collection_sources": [
    "crossref"
   ]
  },
  {
-  "doi": "10.1145/3848128",
-  "title": "Privacy Risks and Leakage Pathways in Agentic and Multi-Agent AI Systems",
+  "doi": "10.1007/s10207-026-01335-w",
+  "title": "Beaconing detection via timing-based flow metadata analysis: implications for SCADA/ICS",
   "year": 2026,
-  "date": "2026-09-15",
-  "source": "ACM Transactions on Privacy and Security",
+  "date": "2026-09-16",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07162-3",
+  "title": "Similarity-Promoting Resilient Adaptive Aggregation in Peer-to-Peer Machine Learning",
+  "year": 2026,
+  "date": "2026-09-16",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07163-2",
+  "title": "Stay Rational, Resist Illusions: De-biasing Source-Free Domain Adaptation with CLIP-Verified Pseudo-Source Domain",
+  "year": 2026,
+  "date": "2026-09-16",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10207-026-01328-9",
+  "title": "Dynamic defense strategies for cyber-physical systems using Stackelberg games and deep reinforcement learning in discrete and continuous time",
+  "year": 2026,
+  "date": "2026-09-17",
+  "source": "International Journal of Information Security",
   "collection_sources": [
    "crossref"
   ]
