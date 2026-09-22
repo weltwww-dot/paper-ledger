@@ -1,8 +1,8 @@
 {
- "from_date": "2026-09-13",
- "until_date": "2026-09-20",
+ "from_date": "2026-09-15",
+ "until_date": "2026-09-22",
  "journal_count": 17,
- "new_record_count": 1,
+ "new_record_count": 5,
  "journals": [
   {
    "journal": "ACM Transactions on Privacy and Security",
@@ -41,7 +41,7 @@
   {
    "journal": "Computers & Security",
    "openalex": {
-    "count": 4,
+    "count": 3,
     "excluded": {},
     "error": null
    },
@@ -50,13 +50,12 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 4,
+   "union_count": 3,
    "crossref_only_dois": [],
    "openalex_only_dois": [
     "10.1016/j.cose.2026.105138",
-    "10.1016/j.cose.2026.105161",
-    "10.1016/j.cose.2026.105163",
-    "10.1016/j.cose.2026.105169"
+    "10.1016/j.cose.2026.105167",
+    "10.1016/j.cose.2026.105173"
    ]
   },
   {
@@ -174,16 +173,16 @@
   {
    "journal": "International Journal of Information Security",
    "openalex": {
-    "count": 6,
+    "count": 5,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 7,
+    "count": 6,
     "excluded": {},
     "error": null
    },
-   "union_count": 7,
+   "union_count": 6,
    "crossref_only_dois": [
     "10.1007/s10207-026-01308-z"
    ],
@@ -192,16 +191,16 @@
   {
    "journal": "Journal of Computer Security",
    "openalex": {
-    "count": 1,
+    "count": 0,
     "excluded": {},
     "error": null
    },
    "crossref": {
-    "count": 1,
+    "count": 0,
     "excluded": {},
     "error": null
    },
-   "union_count": 1,
+   "union_count": 0,
    "crossref_only_dois": [],
    "openalex_only_dois": []
   },
@@ -240,7 +239,7 @@
   {
    "journal": "Machine Learning",
    "openalex": {
-    "count": 2,
+    "count": 4,
     "excluded": {},
     "error": null
    },
@@ -250,10 +249,7 @@
     "error": null
    },
    "union_count": 4,
-   "crossref_only_dois": [
-    "10.1007/s10994-026-07157-0",
-    "10.1007/s10994-026-07162-3"
-   ],
+   "crossref_only_dois": [],
    "openalex_only_dois": []
   },
   {
@@ -264,20 +260,18 @@
     "error": null
    },
    "crossref": {
-    "count": 2,
+    "count": 1,
     "excluded": {},
     "error": null
    },
-   "union_count": 2,
-   "crossref_only_dois": [
-    "10.1038/s42256-026-01314-9"
-   ],
+   "union_count": 1,
+   "crossref_only_dois": [],
    "openalex_only_dois": []
   },
   {
    "journal": "Neural Networks",
    "openalex": {
-    "count": 9,
+    "count": 7,
     "excluded": {},
     "error": null
    },
@@ -286,21 +280,19 @@
     "excluded": {},
     "error": null
    },
-   "union_count": 9,
+   "union_count": 7,
    "crossref_only_dois": [],
    "openalex_only_dois": [
-    "10.1016/j.neunet.2026.109620",
-    "10.1016/j.neunet.2026.109621",
-    "10.1016/j.neunet.2026.109630",
     "10.1016/j.neunet.2026.109632",
+    "10.1016/j.neunet.2026.109633",
     "10.1016/j.neunet.2026.109634",
     "10.1016/j.neunet.2026.109636",
-    "10.1016/j.neunet.2026.109637",
     "10.1016/j.neunet.2026.109639",
+    "10.1016/j.neunet.2026.109641",
     "10.1016/j.neunet.2026.109643"
    ]
   }
  ],
- "requested_from_date": "2026-09-17",
+ "requested_from_date": "2026-09-20",
  "lookback_days": 7
 }

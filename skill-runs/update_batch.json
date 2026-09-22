@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "run_date": "2026-09-20",
-  "baseline_date": "2026-09-17",
-  "fingerprint": "132d5bc157294177786a243f543f6230fcea27d60d89da278f019a4d83c91cdf",
+  "run_date": "2026-09-22",
+  "baseline_date": "2026-09-20",
+  "fingerprint": "d675181e047ca92162e47abf7b106bf2c4d9d55619e06be86954fde0870101fa",
   "stages": {
     "collection": {
       "complete": true,
-      "completed_at": "2026-09-20"
+      "completed_at": "2026-09-22"
     },
     "oa": {
       "complete": true,
-      "completed_at": "2026-09-20"
+      "completed_at": "2026-09-22"
     },
     "content": {
       "complete": true,
-      "completed_at": "2026-09-20"
+      "completed_at": "2026-09-22"
     }
   }
 }

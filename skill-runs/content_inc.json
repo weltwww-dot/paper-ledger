@@ -1,10 +1,112 @@
 [
   {
+    "doi": "10.1016/j.neunet.2026.109633",
+    "title": "D3-KD: Breast cancer segmentation via data diffusion–enhanced knowledge distillation under source-free domain conditions",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
     "doi": "10.1038/s42256-026-01312-x",
     "title": "Cybernetics, interoception, and the art of embodiment",
     "text": "Living organisms continuously monitor their internal physiological states while interacting with complex environments and adapt their actions in response to changes in these internal signals. New work combines such biological principles with cybernetics, reinforcement learning and neuroscience to develop a framework for autonomous and adaptive artificial embodied agents.",
     "source": "publisher-page",
     "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "ok",
+        "text": "Living organisms continuously monitor their internal physiological states while interacting with complex environments and adapt their actions in response to changes in these internal signals. New work combines such biological principles with cybernetics, reinforcement learning and neuroscience to develop a framework for autonomous and adaptive artificial embodied agents."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105167",
+    "title": "GAN-based Tor obfuscated traffic identification on imbalanced datasets",
+    "text": "",
+    "source": null,
+    "kind": "absent",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "error",
+        "detail": "None"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105173",
+    "title": "CPDetector: Automated detection of excessive permissions in Chrome extensions",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
     "channels": [
       {
         "channel": "openalex",
@@ -23,13 +125,32 @@
       },
       {
         "channel": "arxiv",
-        "kind": "absent",
-        "detail": "no exact title match"
+        "kind": "rate-limited",
+        "detail": "429"
       },
       {
         "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109641",
+    "title": "A real-time infrared small target detector based on an illumination-aware degradation filtering network",
+    "text": "Infrared small-target detection remains challenging due to the extremely small size of targets, low target-background contrast, and severe interference from complex backgrounds and noise. To address these issues, this paper proposes an efficient real-time detection framework, termed IADF-YOLO, based on the YOLO paradigm. During training, a dual-backbone collaborative learning strategy is introduced to learn complementary feature representations. In addition, an illumination-aware degradation filtering network (IADF-Net) is designed to suppress illumination-induced degradation and noise-contaminated responses, while a content-aware cross-scale feature pyramid network (CACSFPN) is developed to enable efficient multi-scale feature fusion. Together, these components improve feature quality and multi-scale information utilization while preserving a lightweight architecture and real-time inference capability. Experiments on the ISA-TD and ISAD-6 datasets show that IADF-YOLO achieves a favorable balance among accuracy, model complexity, and inference speed. On ISA-TD, it achieves an mAP50 of 0.936 and an mAP50-95 of 0.740; on ISAD-6, it attains an mAP50 of 0.949 with an F1 score of 0.92. With only 5.8M parameters and 11.9 GFLOPs, the proposed method consistently outperforms multiple state-of-the-art YOLO variants and other representative detectors. Further visualizations and qualitative comparisons show that IADF-YOLO maintains stable and reliable detection performance in practical scenarios involving complex backgrounds, long-range observation, and low-SNR conditions.",
+    "source": "semanticscholar",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
         "kind": "ok",
-        "text": "Living organisms continuously monitor their internal physiological states while interacting with complex environments and adapt their actions in response to changes in these internal signals. New work combines such biological principles with cybernetics, reinforcement learning and neuroscience to develop a framework for autonomous and adaptive artificial embodied agents."
+        "text": "Infrared small-target detection remains challenging due to the extremely small size of targets, low target-background contrast, and severe interference from complex backgrounds and noise. To address these issues, this paper proposes an efficient real-time detection framework, termed IADF-YOLO, based on the YOLO paradigm. During training, a dual-backbone collaborative learning strategy is introduced to learn complementary feature representations. In addition, an illumination-aware degradation filtering network (IADF-Net) is designed to suppress illumination-induced degradation and noise-contaminated responses, while a content-aware cross-scale feature pyramid network (CACSFPN) is developed to enable efficient multi-scale feature fusion. Together, these components improve feature quality and multi-scale information utilization while preserving a lightweight architecture and real-time inference capability. Experiments on the ISA-TD and ISAD-6 datasets show that IADF-YOLO achieves a favorable balance among accuracy, model complexity, and inference speed. On ISA-TD, it achieves an mAP50 of 0.936 and an mAP50-95 of 0.740; on ISAD-6, it attains an mAP50 of 0.949 with an F1 score of 0.92. With only 5.8M parameters and 11.9 GFLOPs, the proposed method consistently outperforms multiple state-of-the-art YOLO variants and other representative detectors. Further visualizations and qualitative comparisons show that IADF-YOLO maintains stable and reliable detection performance in practical scenarios involving complex backgrounds, long-range observation, and low-SNR conditions."
       }
     ]
   }

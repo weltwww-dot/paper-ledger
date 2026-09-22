@@ -1,5 +1,45 @@
 [
  {
+  "doi": "10.1016/j.neunet.2026.109633",
+  "title": "D3-KD: Breast cancer segmentation via data diffusion–enhanced knowledge distillation under source-free domain conditions",
+  "year": 2026,
+  "date": "2026-09-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109641",
+  "title": "A real-time infrared small target detector based on an illumination-aware degradation filtering network",
+  "year": 2026,
+  "date": "2026-09-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105167",
+  "title": "GAN-based Tor obfuscated traffic identification on imbalanced datasets",
+  "year": 2026,
+  "date": "2026-09-17",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105173",
+  "title": "CPDetector: Automated detection of excessive permissions in Chrome extensions",
+  "year": 2026,
+  "date": "2026-09-18",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
   "doi": "10.1038/s42256-026-01312-x",
   "title": "Cybernetics, interoception, and the art of embodiment",
   "year": 2026,
