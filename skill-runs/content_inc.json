@@ -1,42 +1,22 @@
 [
   {
-    "doi": "10.1016/j.neunet.2026.109633",
-    "title": "D3-KD: Breast cancer segmentation via data diffusion–enhanced knowledge distillation under source-free domain conditions",
-    "text": "",
-    "source": null,
-    "kind": "rate-limited",
+    "doi": "10.1016/j.neunet.2026.109667",
+    "title": "Scaled projection neural network for quasi-variational inequalities",
+    "text": "We propose a scaled projection neural network for solving quasi-variational inequalities in which the constraint set S(x)=m(x)+S depends on the state through a contraction mapping m that translates a fixed closed convex set S, while the projection is performed with respect to a fixed symmetric positive definite matrix M. The matrix M acts as a continuous-time preconditioner, reshaping the geometry of the projected flow without altering the solution set. We establish that equilibria of the proposed dynamics coincide exactly with solutions of the quasi-variational inequality, and prove well-posedness under Lipschitz regularity of the operator and the translation mapping. A stability analysis based on a weighted Lyapunov function induced by the inverse of M yields an explicit contraction parameter that captures the interplay between the matrix bounds and the contraction properties of the translation, generalizing classical step-size conditions for both fixed-set variational inequalities and quasi-variational inequalities. Under an explicit dominance condition relating the monotonicity modulus, the Lipschitz constants, and the matrix bounds, we prove global exponential convergence on a computable step-size window, and a forward-Euler discretization preserves the certified rate. Numerical experiments across five application domains illustrate the role of M as a preconditioner and exhibit convergence in regimes where the certificate is silent. The framework connects and extends two lines of research that have not been previously combined: Euclidean projected dynamical systems for quasi-variational inequalities and state-dependent matrix projection neural networks for variational inequalities with fixed constraint sets.",
+    "source": "openalex",
+    "kind": "ok",
     "channels": [
       {
         "channel": "openalex",
-        "kind": "absent",
-        "detail": "no abstract_inverted_index"
-      },
-      {
-        "channel": "semanticscholar",
-        "kind": "error",
-        "detail": "429"
-      },
-      {
-        "channel": "crossref",
-        "kind": "absent",
-        "detail": "no abstract field"
-      },
-      {
-        "channel": "arxiv",
-        "kind": "rate-limited",
-        "detail": "429"
-      },
-      {
-        "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
+        "kind": "ok",
+        "text": "We propose a scaled projection neural network for solving quasi-variational inequalities in which the constraint set S(x)=m(x)+S depends on the state through a contraction mapping m that translates a fixed closed convex set S, while the projection is performed with respect to a fixed symmetric positive definite matrix M. The matrix M acts as a continuous-time preconditioner, reshaping the geometry of the projected flow without altering the solution set. We establish that equilibria of the proposed dynamics coincide exactly with solutions of the quasi-variational inequality, and prove well-posedness under Lipschitz regularity of the operator and the translation mapping. A stability analysis based on a weighted Lyapunov function induced by the inverse of M yields an explicit contraction parameter that captures the interplay between the matrix bounds and the contraction properties of the translation, generalizing classical step-size conditions for both fixed-set variational inequalities and quasi-variational inequalities. Under an explicit dominance condition relating the monotonicity modulus, the Lipschitz constants, and the matrix bounds, we prove global exponential convergence on a computable step-size window, and a forward-Euler discretization preserves the certified rate. Numerical experiments across five application domains illustrate the role of M as a preconditioner and exhibit convergence in regimes where the certificate is silent. The framework connects and extends two lines of research that have not been previously combined: Euclidean projected dynamical systems for quasi-variational inequalities and state-dependent matrix projection neural networks for variational inequalities with fixed constraint sets."
       }
     ]
   },
   {
-    "doi": "10.1038/s42256-026-01312-x",
-    "title": "Cybernetics, interoception, and the art of embodiment",
-    "text": "Living organisms continuously monitor their internal physiological states while interacting with complex environments and adapt their actions in response to changes in these internal signals. New work combines such biological principles with cybernetics, reinforcement learning and neuroscience to develop a framework for autonomous and adaptive artificial embodied agents.",
+    "doi": "10.1007/s10994-026-07152-5",
+    "title": "Sequential Estimation of Remaining Useful Life Through VAE-Based Deep Reinforcement Learning With Reward Shaping",
+    "text": "In industrial operations, reducing unscheduled machinery downtime, extending equipment life, and ensuring economical operations are crucial for reliability. Furthermore, to improve sequential Remaining Useful Life (RUL) estimation through latent-space policy optimization, the current study introduces a novel framework that integrates Variational Autoencoders (VAE) as surrogate environments with actor-critic Deep Reinforcement Learning (DRL). The VAE enhances representation quality by reducing sensor data to compact latent features that maintain the underlying degradation dynamics. Two actor-critic DRL algorithms, Twin Delayed Deep Deterministic Policy Gradient (TD3) and Proximal Policy Optimization (PPO), are employed to learn sequential latent-space optimization policies that iteratively refine degradation trajectories within the learned surrogate environment. The comparative evaluation shows that optimization strategy meaningfully shapes learning stability and downstream prediction accuracy across reward formulations, with the on-policy approach yielding more consistent convergence in 11 of 12 configurations. However, the Weighted Cosine Similarity reward produced comparable RUL prediction accuracy, with large Cohen&#8217;s d effect sizes ( $$|d| &gt; 0.8$$ ) in 10 configurations. The best-performing variant achieved an RMSE of 0.1262, thereby outperforming conventional supervised sequence-learning baselines, including LSTM and MLP, by 26.7&#8211;40.3%. The proposed architecture is computationally scalable, data efficient, and adaptable to a variety of degradation patterns. These results demonstrate the potential of combining sequential latent-space policy optimization with generative representation learning to provide a modular and efficient sequential RUL estimation method for challenging industrial scenarios.",
     "source": "publisher-page",
     "kind": "ok",
     "channels": [
@@ -63,16 +43,30 @@
       {
         "channel": "publisher-page",
         "kind": "ok",
-        "text": "Living organisms continuously monitor their internal physiological states while interacting with complex environments and adapt their actions in response to changes in these internal signals. New work combines such biological principles with cybernetics, reinforcement learning and neuroscience to develop a framework for autonomous and adaptive artificial embodied agents."
+        "text": "In industrial operations, reducing unscheduled machinery downtime, extending equipment life, and ensuring economical operations are crucial for reliability. Furthermore, to improve sequential Remaining Useful Life (RUL) estimation through latent-space policy optimization, the current study introduces a novel framework that integrates Variational Autoencoders (VAE) as surrogate environments with actor-critic Deep Reinforcement Learning (DRL). The VAE enhances representation quality by reducing sensor data to compact latent features that maintain the underlying degradation dynamics. Two actor-critic DRL algorithms, Twin Delayed Deep Deterministic Policy Gradient (TD3) and Proximal Policy Optimization (PPO), are employed to learn sequential latent-space optimization policies that iteratively refine degradation trajectories within the learned surrogate environment. The comparative evaluation shows that optimization strategy meaningfully shapes learning stability and downstream prediction accuracy across reward formulations, with the on-policy approach yielding more consistent convergence in 11 of 12 configurations. However, the Weighted Cosine Similarity reward produced comparable RUL prediction accuracy, with large Cohen&#8217;s d effect sizes ( $$|d| &gt; 0.8$$ ) in 10 configurations. The best-performing variant achieved an RMSE of 0.1262, thereby outperforming conventional supervised sequence-learning baselines, including LSTM and MLP, by 26.7&#8211;40.3%. The proposed architecture is computationally scalable, data efficient, and adaptable to a variety of degradation patterns. These results demonstrate the potential of combining sequential latent-space policy optimization with generative representation learning to provide a modular and efficient sequential RUL estimation method for challenging industrial scenarios."
       }
     ]
   },
   {
-    "doi": "10.1016/j.cose.2026.105167",
-    "title": "GAN-based Tor obfuscated traffic identification on imbalanced datasets",
-    "text": "",
-    "source": null,
-    "kind": "absent",
+    "doi": "10.1016/j.cose.2026.105156",
+    "title": "Situational awareness through security-based analysis of controllability and observability in power grids",
+    "text": "The integration of cyber and physical components in modern power grids has introduced vulnerabilities that challenge operators’ situational awareness during cyber attacks. Adversarial actions can compromise the grid’s controllability, defined as the ability to steer system states through control inputs, and observability, the ability to infer those states from sensor data. This paper addresses the lack of quantitative tools for assessing how Indicators of Compromise (IoCs) affect these key properties. We propose a comprehensive framework that evaluates the operational impact of cyber–physical attacks by quantifying how IoCs degrade system controllability and observability. Using a co-simulation environment, we simulate three coordinated attack scenarios: False Command Injection (FCI), Load Redistribution (LR), and False Data Injection (FDI). The framework introduces novel quantitative indices that capture both structural and operational degradation in controllability and observability capabilities. Our results reveal that coordinated attacks systematically exploit the interdependencies between cyber and physical layers, causing cascading effects that compromise both controllability and observability simultaneously. In the FCI case, the system experiences a 25.8% drop in controllability and a 32.6% reduction in observability redundancy, with cascading effects on voltage stability and power flow regulation. The LR scenario causes a 13.4% decline in controllability, primarily through operational stress redistribution, while preserving structural connectivity. The false data injection attack conceals physical disruptions, leading to a 33.5% drop in observability margin and masking critical state changes. The proposed indexes successfully quantify system degradation patterns that remain undetected by conventional security mechanisms, revealing compound vulnerabilities where the loss of control coincides with diminished situational awareness.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "The integration of cyber and physical components in modern power grids has introduced vulnerabilities that challenge operators’ situational awareness during cyber attacks. Adversarial actions can compromise the grid’s controllability, defined as the ability to steer system states through control inputs, and observability, the ability to infer those states from sensor data. This paper addresses the lack of quantitative tools for assessing how Indicators of Compromise (IoCs) affect these key properties. We propose a comprehensive framework that evaluates the operational impact of cyber–physical attacks by quantifying how IoCs degrade system controllability and observability. Using a co-simulation environment, we simulate three coordinated attack scenarios: False Command Injection (FCI), Load Redistribution (LR), and False Data Injection (FDI). The framework introduces novel quantitative indices that capture both structural and operational degradation in controllability and observability capabilities. Our results reveal that coordinated attacks systematically exploit the interdependencies between cyber and physical layers, causing cascading effects that compromise both controllability and observability simultaneously. In the FCI case, the system experiences a 25.8% drop in controllability and a 32.6% reduction in observability redundancy, with cascading effects on voltage stability and power flow regulation. The LR scenario causes a 13.4% decline in controllability, primarily through operational stress redistribution, while preserving structural connectivity. The false data injection attack conceals physical disruptions, leading to a 33.5% drop in observability margin and masking critical state changes. The proposed indexes successfully quantify system degradation patterns that remain undetected by conventional security mechanisms, revealing compound vulnerabilities where the loss of control coincides with diminished situational awareness."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07160-5",
+    "title": "Cortex: A Retrieval-Augmented Framework for Career-Aligned Learning Paths",
+    "text": "In an era of rapidly evolving professional development, many learners and individuals transitioning careers find it challenging to align their existing skills with the demands of their desired professions. Conventional career guidance systems often rely on rigid keyword matching, which overlooks the semantic nuances of users&#8217; intentions. For instance, a user interested in &#8220;interpreting big data&#8221; may not explicitly mention &#8220;Data Scientist,&#8221; causing traditional systems to miss this connection. Furthermore, once a career path is identified, determining an optimal sequence for skill acquisition&#8211;while considering prerequisites and dependencies&#8211;remains a significant pedagogical challenge that is rarely automated effectively at scale. To address these challenges, this paper proposes Cortex, an AI-based career-aligned learning system that combines retrieval-augmented generation (RAG), large language models (LLMs), knowledge graphs, and sentence embeddings to semantically match user interests with occupations and generate prerequisite-consistent upskilling paths with inter-skill dependencies and scaffolding. The primary scientific contribution is a novel end-to-end architecture connecting semantic intent understanding, prerequisite-aware skill sequencing via ESCO dependency graphs, and taxonomy-constrained LLM generation. The system leverages the ESCO dataset to map career goals to relevant skills and produce structured learning paths. Experimental results demonstrate that integrating LLMs with a constrained RAG framework and knowledge graph-based dependency modeling can effectively generate prerequisite-aware learning paths for diverse career goals.",
+    "source": "publisher-page",
+    "kind": "ok",
     "channels": [
       {
         "channel": "openalex",
@@ -91,19 +85,19 @@
       },
       {
         "channel": "arxiv",
-        "kind": "error",
-        "detail": "None"
+        "kind": "rate-limited",
+        "detail": "429"
       },
       {
         "channel": "publisher-page",
-        "kind": "absent",
-        "detail": "landing page has no abstract meta"
+        "kind": "ok",
+        "text": "In an era of rapidly evolving professional development, many learners and individuals transitioning careers find it challenging to align their existing skills with the demands of their desired professions. Conventional career guidance systems often rely on rigid keyword matching, which overlooks the semantic nuances of users&#8217; intentions. For instance, a user interested in &#8220;interpreting big data&#8221; may not explicitly mention &#8220;Data Scientist,&#8221; causing traditional systems to miss this connection. Furthermore, once a career path is identified, determining an optimal sequence for skill acquisition&#8211;while considering prerequisites and dependencies&#8211;remains a significant pedagogical challenge that is rarely automated effectively at scale. To address these challenges, this paper proposes Cortex, an AI-based career-aligned learning system that combines retrieval-augmented generation (RAG), large language models (LLMs), knowledge graphs, and sentence embeddings to semantically match user interests with occupations and generate prerequisite-consistent upskilling paths with inter-skill dependencies and scaffolding. The primary scientific contribution is a novel end-to-end architecture connecting semantic intent understanding, prerequisite-aware skill sequencing via ESCO dependency graphs, and taxonomy-constrained LLM generation. The system leverages the ESCO dataset to map career goals to relevant skills and produce structured learning paths. Experimental results demonstrate that integrating LLMs with a constrained RAG framework and knowledge graph-based dependency modeling can effectively generate prerequisite-aware learning paths for diverse career goals."
       }
     ]
   },
   {
-    "doi": "10.1016/j.cose.2026.105173",
-    "title": "CPDetector: Automated detection of excessive permissions in Chrome extensions",
+    "doi": "10.1016/j.neunet.2026.109662",
+    "title": "Parameter-efficient prompt tuning based on adaptive fused pre-trained models for 3D scene understanding",
     "text": "",
     "source": null,
     "kind": "rate-limited",
@@ -115,8 +109,8 @@
       },
       {
         "channel": "semanticscholar",
-        "kind": "absent",
-        "detail": "abstract is null"
+        "kind": "error",
+        "detail": "429"
       },
       {
         "channel": "crossref",
@@ -136,10 +130,114 @@
     ]
   },
   {
-    "doi": "10.1016/j.neunet.2026.109641",
-    "title": "A real-time infrared small target detector based on an illumination-aware degradation filtering network",
-    "text": "Infrared small-target detection remains challenging due to the extremely small size of targets, low target-background contrast, and severe interference from complex backgrounds and noise. To address these issues, this paper proposes an efficient real-time detection framework, termed IADF-YOLO, based on the YOLO paradigm. During training, a dual-backbone collaborative learning strategy is introduced to learn complementary feature representations. In addition, an illumination-aware degradation filtering network (IADF-Net) is designed to suppress illumination-induced degradation and noise-contaminated responses, while a content-aware cross-scale feature pyramid network (CACSFPN) is developed to enable efficient multi-scale feature fusion. Together, these components improve feature quality and multi-scale information utilization while preserving a lightweight architecture and real-time inference capability. Experiments on the ISA-TD and ISAD-6 datasets show that IADF-YOLO achieves a favorable balance among accuracy, model complexity, and inference speed. On ISA-TD, it achieves an mAP50 of 0.936 and an mAP50-95 of 0.740; on ISAD-6, it attains an mAP50 of 0.949 with an F1 score of 0.92. With only 5.8M parameters and 11.9 GFLOPs, the proposed method consistently outperforms multiple state-of-the-art YOLO variants and other representative detectors. Further visualizations and qualitative comparisons show that IADF-YOLO maintains stable and reliable detection performance in practical scenarios involving complex backgrounds, long-range observation, and low-SNR conditions.",
-    "source": "semanticscholar",
+    "doi": "10.1007/s10207-026-01297-z",
+    "title": "Class-based Obfuscation with Multi-objective Evolutionary Algorithms on Source Code",
+    "text": "Abstract With the proliferation of software, protecting intellectual property from reverse engineering has become a paramount concern. Malicious actors who successfully decipher program logic can replicate applications, inject malicious code, and compromise user security. Code obfuscation serves as a critical defense mechanism by transforming a program’s structure to impede analysis while preserving its original functionality. This process inherently involves a trade-off between maximizing the confusion introduced (potency) and minimizing performance degradation (cost), which defines a multi-objective optimization problem. In this study, we propose MOCCO (Multi-Objective Class-based Code Obfuscation), a novel framework that leverages Multi-Objective Evolutionary Algorithms (MOEAs) to automate and optimize the source code obfuscation process. Our primary contribution is the introduction and integration of class-based obfuscation techniques, which manipulate object-oriented constructs—an aspect often neglected by existing tools. We model obfuscation as a search for optimal solutions on a Pareto front, balancing metrics such as cyclomatic complexity, nesting level, code similarity, and execution time. We implement and compare three distinct MOEAs within our framework, including a global-update adaptation of MOEA/D. Our experimental evaluation, conducted on a set of benchmark programs, demonstrates that our approach, particularly when incorporating class-based techniques, generates code that scores substantially higher on structural-complexity (potency) proxies, with comparable or, in most cases, substantially lower performance overhead, relative to code produced by existing open-source obfuscators under comparable conditions.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Abstract With the proliferation of software, protecting intellectual property from reverse engineering has become a paramount concern. Malicious actors who successfully decipher program logic can replicate applications, inject malicious code, and compromise user security. Code obfuscation serves as a critical defense mechanism by transforming a program’s structure to impede analysis while preserving its original functionality. This process inherently involves a trade-off between maximizing the confusion introduced (potency) and minimizing performance degradation (cost), which defines a multi-objective optimization problem. In this study, we propose MOCCO (Multi-Objective Class-based Code Obfuscation), a novel framework that leverages Multi-Objective Evolutionary Algorithms (MOEAs) to automate and optimize the source code obfuscation process. Our primary contribution is the introduction and integration of class-based obfuscation techniques, which manipulate object-oriented constructs—an aspect often neglected by existing tools. We model obfuscation as a search for optimal solutions on a Pareto front, balancing metrics such as cyclomatic complexity, nesting level, code similarity, and execution time. We implement and compare three distinct MOEAs within our framework, including a global-update adaptation of MOEA/D. Our experimental evaluation, conducted on a set of benchmark programs, demonstrates that our approach, particularly when incorporating class-based techniques, generates code that scores substantially higher on structural-complexity (potency) proxies, with comparable or, in most cases, substantially lower performance overhead, relative to code produced by existing open-source obfuscators under comparable conditions."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109648",
+    "title": "Hybrid feature-based collaborative disambiguation for multi-instance partial-label learning",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01334-x",
+    "title": "A novel attribute-based searchable encryption scheme with attribute revocation",
+    "text": "In this paper, a searchable attribute-based encryption scheme with attribute revocation is proposed to solve the problem of secure data sharing and efficient retrieval in cloud storage. Based on the bilinear pairings construction, the scheme includes five algorithms: system initialization, key generation, data encryption, search and decryption, and attribute revocation, which realizes fine-grained access control and keyword ciphertext search. Through the attribute update key mechanism, the key and ciphertext can bes updated without re-encryption when the user attribute changes. Security analysis proves that the scheme satisfies adaptive security in the standard model, and performance evaluation shows that the efficiency of attribute revocation is superior to the existing schemes, especially suitable for large-scale cloud storage environment.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "In this paper, a searchable attribute-based encryption scheme with attribute revocation is proposed to solve the problem of secure data sharing and efficient retrieval in cloud storage. Based on the bilinear pairings construction, the scheme includes five algorithms: system initialization, key generation, data encryption, search and decryption, and attribute revocation, which realizes fine-grained access control and keyword ciphertext search. Through the attribute update key mechanism, the key and ciphertext can bes updated without re-encryption when the user attribute changes. Security analysis proves that the scheme satisfies adaptive security in the standard model, and performance evaluation shows that the efficiency of attribute revocation is superior to the existing schemes, especially suitable for large-scale cloud storage environment."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109674",
+    "title": "HAD-MSF: Multi-domain neural fusion with state-space and graph modeling for hyperspectral anomaly detection",
+    "text": "Hyperspectral anomaly detection (HAD) remains challenging because spatial, spectral, and frequency dependencies coexist and exhibit heterogeneous characteristics. Existing CNN-, Transformer-, and GCN-based approaches often rely on a single modeling paradigm, which may limit their ability to fully exploit these complementary structures. In this work, we propose HAD-MSF, a neural reconstruction framework that integrates multiple domain-specific representations within a unified architecture. An Adaptive Wavelet Approximation Transform (AdaWAT) separates hyperspectral cubes into low- and high-frequency components, which are processed by a state-space-driven Spatial-Frequency Mamba module to capture long-range dependencies with linear complexity. In parallel, a Spatial-Spectral Graph Convolution branch models pixel topology together with inter-band correlations, enhancing spectral discrimination. A lightweight gating mechanism adaptively fuses the two representations into a compact reconstruction network, where anomalies are identified from residuals. Experiments on three remote sensing and two medical hyperspectral datasets show that HAD-MSF achieves consistently competitive detection performance with relatively low arithmetic complexity. Additional analyses on component design, threshold selection, robustness, cross-scene transfer, and full-band settings further characterize the effectiveness and practical properties of the proposed framework. These results demonstrate the effectiveness of integrating wavelet, state-space, and graph modeling for hyperspectral anomaly detection.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Hyperspectral anomaly detection (HAD) remains challenging because spatial, spectral, and frequency dependencies coexist and exhibit heterogeneous characteristics. Existing CNN-, Transformer-, and GCN-based approaches often rely on a single modeling paradigm, which may limit their ability to fully exploit these complementary structures. In this work, we propose HAD-MSF, a neural reconstruction framework that integrates multiple domain-specific representations within a unified architecture. An Adaptive Wavelet Approximation Transform (AdaWAT) separates hyperspectral cubes into low- and high-frequency components, which are processed by a state-space-driven Spatial-Frequency Mamba module to capture long-range dependencies with linear complexity. In parallel, a Spatial-Spectral Graph Convolution branch models pixel topology together with inter-band correlations, enhancing spectral discrimination. A lightweight gating mechanism adaptively fuses the two representations into a compact reconstruction network, where anomalies are identified from residuals. Experiments on three remote sensing and two medical hyperspectral datasets show that HAD-MSF achieves consistently competitive detection performance with relatively low arithmetic complexity. Additional analyses on component design, threshold selection, robustness, cross-scene transfer, and full-band settings further characterize the effectiveness and practical properties of the proposed framework. These results demonstrate the effectiveness of integrating wavelet, state-space, and graph modeling for hyperspectral anomaly detection."
+      }
+    ]
+  },
+  {
+    "doi": "10.1177/0926227x261470417",
+    "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
+    "text": "Code obfuscation is a fundamental technique for software protection and intellectual property defense, yet its effectiveness has been increasingly undermined by advances in symbolic execution and automated deobfuscation. Existing countermeasures based on path explosion, path divergence, or complex constraints suffer from high overhead, environment dependence, or vulnerability to algebraic simplification. To address these limitations, this article proposes a novel anti-symbolic execution obfuscation scheme built upon formally proven mixed Boolean-arithmetic (MBA) permutations on BA [ n ] . By combining polynomial, xor-shift, and cyclic-shift permutations, we construct non-linear MBA expressions that generate highly intricate constraints while preserving semantic equivalence and low runtime cost. A comprehensive evaluation under the automated Man-At-The-End attack model demonstrates that the proposed scheme (i) exponentially scales analysis complexity, consistently exceeding a 24-hour timeout against both isolated state-of-the-art Satisfiability Modulo Theories solvers and Dynamic Symbolic Execution frameworks (e.g., KLEE), (ii) achieves substantial runtime efficiency gains ranging from about 57 × (vs. MD5) and 66 × (vs. SHA1/SHA256) to over 2.2 × 10 4 (vs. CKKS), and (iii) attains 0% simplification on parseable instances while causing parser failures for full sequential expressions in the tested SiMBA/GAMBA versions. These results confirm that permutation-based MBA obfuscation offers a practical, composite, and resilient defense against symbolic execution, balancing strong protection with lightweight performance overhead. We further validated the scheme on coreutils, increasing symbolic-execution difficulty with only 0.40% binary-size overhead and no observable runtime penalty.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Code obfuscation is a fundamental technique for software protection and intellectual property defense, yet its effectiveness has been increasingly undermined by advances in symbolic execution and automated deobfuscation. Existing countermeasures based on path explosion, path divergence, or complex constraints suffer from high overhead, environment dependence, or vulnerability to algebraic simplification. To address these limitations, this article proposes a novel anti-symbolic execution obfuscation scheme built upon formally proven mixed Boolean-arithmetic (MBA) permutations on BA [ n ] . By combining polynomial, xor-shift, and cyclic-shift permutations, we construct non-linear MBA expressions that generate highly intricate constraints while preserving semantic equivalence and low runtime cost. A comprehensive evaluation under the automated Man-At-The-End attack model demonstrates that the proposed scheme (i) exponentially scales analysis complexity, consistently exceeding a 24-hour timeout against both isolated state-of-the-art Satisfiability Modulo Theories solvers and Dynamic Symbolic Execution frameworks (e.g., KLEE), (ii) achieves substantial runtime efficiency gains ranging from about 57 × (vs. MD5) and 66 × (vs. SHA1/SHA256) to over 2.2 × 10 4 (vs. CKKS), and (iii) attains 0% simplification on parseable instances while causing parser failures for full sequential expressions in the tested SiMBA/GAMBA versions. These results confirm that permutation-based MBA obfuscation offers a practical, composite, and resilient defense against symbolic execution, balancing strong protection with lightweight performance overhead. We further validated the scheme on coreutils, increasing symbolic-execution difficulty with only 0.40% binary-size overhead and no observable runtime penalty."
+      }
+    ]
+  },
+  {
+    "doi": "10.1177/0926227x261486952",
+    "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
+    "text": "We revisit shuffle protocols for Shamir secret sharing. Existing constructions either produce non-uniform shuffles or incur high communication and round complexity, sometimes exponential in the number of parties. We propose two new shuffle protocols that achieve uniform shuffling with communication complexity O ( k + l log k n 2 m log m ) for an m × l matrix shared among n parties, where k ≤ m is a tunable parameter. The first protocol is concretely efficient, while the second achieves the best-known O ( n m l ) online communication and O ( n ) rounds. Experiments show significant improvements in online efficiency and total cost over prior work. Our key technical ingredient is a novel permutation sharing technique that represents permutations via smaller permutation matrices, making their application significantly more efficient. The first protocol applies independent secret permutations sequentially, while the second builds on shuffle correlation to achieve optimal online complexity. We further extend shuffle correlation to support guaranteed output delivery with linear online communication, yielding SLIDE (shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery), the first protocol achieving both O ( n m l ) online communication and guaranteed output delivery. Our constructions rely only on basic Shamir secret sharing over any field F with | F | > n . As shuffling is a fundamental primitive for multiparty computation tasks such as sorting and oblivious data structures, our results enable more efficient and scalable secure computation in practice.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "We revisit shuffle protocols for Shamir secret sharing. Existing constructions either produce non-uniform shuffles or incur high communication and round complexity, sometimes exponential in the number of parties. We propose two new shuffle protocols that achieve uniform shuffling with communication complexity O ( k + l log k n 2 m log m ) for an m × l matrix shared among n parties, where k ≤ m is a tunable parameter. The first protocol is concretely efficient, while the second achieves the best-known O ( n m l ) online communication and O ( n ) rounds. Experiments show significant improvements in online efficiency and total cost over prior work. Our key technical ingredient is a novel permutation sharing technique that represents permutations via smaller permutation matrices, making their application significantly more efficient. The first protocol applies independent secret permutations sequentially, while the second builds on shuffle correlation to achieve optimal online complexity. We further extend shuffle correlation to support guaranteed output delivery with linear online communication, yielding SLIDE (shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery), the first protocol achieving both O ( n m l ) online communication and guaranteed output delivery. Our constructions rely only on basic Shamir secret sharing over any field F with | F | > n . As shuffling is a fundamental primitive for multiparty computation tasks such as sorting and oblivious data structures, our results enable more efficient and scalable secure computation in practice."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07174-z",
+    "title": "Explainable Federated Learning for Trustworthy Thoracic Disease Detection Under Non-IID Data Distributions",
+    "text": "Privacy regulations prevent hospitals from sharing patient chest radiographs for collaborative AI training, limiting diagnostic model generalisability. This paper proposes FedXAI-Health, an explainable federated learning framework for multi-label thoracic disease classification across five Non-IID hospital clients using the NIH Chest X-ray 14 dataset with patient-level train/test splits ensuring zero data leakage. Under identical experimental conditions (EfficientNetB0, batch size 512, Adam with weight decay $$10^{-4}$$ ), FedAvg achieves Macro-AUC of $$0.8060 \\pm 0.0048$$ , surpassing the centralised EfficientNetB0 baseline of $$0.7859 \\pm 0.0142$$ by 2.0% while preserving complete patient data privacy. FedProx achieves $$0.7879 \\pm 0.0020$$ . Comparison of SHAP and Grad-CAM attribution maps confirms clinically coherent disease-specific localisation. Ablation across five proximal parameter values ( $$\\mu \\in \\{0, 0.001, 0.01, 0.1, 1.0\\}$$ ) reveals monotonic performance degradation, identifying minimal regularisation as optimal for multi-label medical imaging. Robustness to Non-IID heterogeneity is validated across Dirichlet $$\\alpha \\in \\{0.1, 0.5, 1.0, 5.0\\}$$ . All results report mean &#177; std across 3 independent runs. Code: https://github.com/itsuresha/fedxai-health .",
+    "source": "publisher-page",
     "kind": "ok",
     "channels": [
       {
@@ -149,8 +247,229 @@
       },
       {
         "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
         "kind": "ok",
-        "text": "Infrared small-target detection remains challenging due to the extremely small size of targets, low target-background contrast, and severe interference from complex backgrounds and noise. To address these issues, this paper proposes an efficient real-time detection framework, termed IADF-YOLO, based on the YOLO paradigm. During training, a dual-backbone collaborative learning strategy is introduced to learn complementary feature representations. In addition, an illumination-aware degradation filtering network (IADF-Net) is designed to suppress illumination-induced degradation and noise-contaminated responses, while a content-aware cross-scale feature pyramid network (CACSFPN) is developed to enable efficient multi-scale feature fusion. Together, these components improve feature quality and multi-scale information utilization while preserving a lightweight architecture and real-time inference capability. Experiments on the ISA-TD and ISAD-6 datasets show that IADF-YOLO achieves a favorable balance among accuracy, model complexity, and inference speed. On ISA-TD, it achieves an mAP50 of 0.936 and an mAP50-95 of 0.740; on ISAD-6, it attains an mAP50 of 0.949 with an F1 score of 0.92. With only 5.8M parameters and 11.9 GFLOPs, the proposed method consistently outperforms multiple state-of-the-art YOLO variants and other representative detectors. Further visualizations and qualitative comparisons show that IADF-YOLO maintains stable and reliable detection performance in practical scenarios involving complex backgrounds, long-range observation, and low-SNR conditions."
+        "text": "Privacy regulations prevent hospitals from sharing patient chest radiographs for collaborative AI training, limiting diagnostic model generalisability. This paper proposes FedXAI-Health, an explainable federated learning framework for multi-label thoracic disease classification across five Non-IID hospital clients using the NIH Chest X-ray 14 dataset with patient-level train/test splits ensuring zero data leakage. Under identical experimental conditions (EfficientNetB0, batch size 512, Adam with weight decay $$10^{-4}$$ ), FedAvg achieves Macro-AUC of $$0.8060 \\pm 0.0048$$ , surpassing the centralised EfficientNetB0 baseline of $$0.7859 \\pm 0.0142$$ by 2.0% while preserving complete patient data privacy. FedProx achieves $$0.7879 \\pm 0.0020$$ . Comparison of SHAP and Grad-CAM attribution maps confirms clinically coherent disease-specific localisation. Ablation across five proximal parameter values ( $$\\mu \\in \\{0, 0.001, 0.01, 0.1, 1.0\\}$$ ) reveals monotonic performance degradation, identifying minimal regularisation as optimal for multi-label medical imaging. Robustness to Non-IID heterogeneity is validated across Dirichlet $$\\alpha \\in \\{0.1, 0.5, 1.0, 5.0\\}$$ . All results report mean &#177; std across 3 independent runs. Code: https://github.com/itsuresha/fedxai-health ."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07161-4",
+    "title": "SentiMatrix: Parameter-Efficient Fine-Tuning of Encoder-Based Transformers for Multidimensional Sentiment Analysis",
+    "text": "Abstract Transformer-based architectures have established state-of-the-art benchmarks across Natural Language Processing (NLP) tasks; however, the computational overhead of full fine-tuning remains a significant barrier to scalable deployment. This paper presents SentiMatrix, a systematic evaluation of Low-Rank Adaptation (LoRA)-based Parameter-Efficient Fine-Tuning (PEFT) across four sentiment analysis paradigms: Intent-based, Aspect-based, Fine-grained, and Emotion detection, spanning seven benchmark datasets under a consistent three-stage protocol: inference using task-specific pretrained baseline models (i.e., HuggingFace checkpoints previously fine-tuned on the corresponding benchmarks, serving as informed upper-bound references rather than cold-start zero-shot baselines), Full Fine-Tuning (FFT) as a performance upper bound, and LoRA-based adaptation to quantify the efficiency-performance trade-off. Adaptive Low-Rank Adaptation (AdaLoRA) is benchmarked as a direct comparator. LoRA achieves competitive performance while reducing trainable parameters by up to 99.8%, with lower GPU memory usage and training time in most evaluated settings. It achieves 93.28% accuracy on SST-2, 80.74% on combined Laptop+Restaurant ABSA, 67.63% on E-Commerce 5-class, and 93.22% on emotion detection, while closely approaching FFT on E-Commerce 5-class (68.47%). The results demonstrate an effective efficiency-performance trade-off across diverse sentiment analysis tasks. Ablation experiments examine the effects of adaptation strategy, model capacity, and label granularity. The source code and datasets are available at https://github.com/ELTE-DSED/senti-matrix .",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Abstract Transformer-based architectures have established state-of-the-art benchmarks across Natural Language Processing (NLP) tasks; however, the computational overhead of full fine-tuning remains a significant barrier to scalable deployment. This paper presents SentiMatrix, a systematic evaluation of Low-Rank Adaptation (LoRA)-based Parameter-Efficient Fine-Tuning (PEFT) across four sentiment analysis paradigms: Intent-based, Aspect-based, Fine-grained, and Emotion detection, spanning seven benchmark datasets under a consistent three-stage protocol: inference using task-specific pretrained baseline models (i.e., HuggingFace checkpoints previously fine-tuned on the corresponding benchmarks, serving as informed upper-bound references rather than cold-start zero-shot baselines), Full Fine-Tuning (FFT) as a performance upper bound, and LoRA-based adaptation to quantify the efficiency-performance trade-off. Adaptive Low-Rank Adaptation (AdaLoRA) is benchmarked as a direct comparator. LoRA achieves competitive performance while reducing trainable parameters by up to 99.8%, with lower GPU memory usage and training time in most evaluated settings. It achieves 93.28% accuracy on SST-2, 80.74% on combined Laptop+Restaurant ABSA, 67.63% on E-Commerce 5-class, and 93.22% on emotion detection, while closely approaching FFT on E-Commerce 5-class (68.47%). The results demonstrate an effective efficiency-performance trade-off across diverse sentiment analysis tasks. Ablation experiments examine the effects of adaptation strategy, model capacity, and label granularity. The source code and datasets are available at https://github.com/ELTE-DSED/senti-matrix ."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105176",
+    "title": "A data-driven analysis of infostealer malware victims",
+    "text": "Infostealer malware infects devices worldwide and harvests their most sensitive contents: credentials, browser sessions, private keys, and access certificates. Yet its impact on victims remains difficult to study without an ethical, legal, and curated research dataset. To close this gap, we build a privacy-preserving pipeline that turns illicitly sourced infostealer logs into a reproducible research artifact, minimizing sensitive data while preserving measurement utility, and use it to construct a dataset of 170,298 victims from logs of multiple infostealer families. Analyzing these victims, we find that the most compromised services mirror the world’s most popular platforms, with gaming and entertainment services strongly overrepresented. Within the sample we identify compromised credentials for high-value organizations, including law-enforcement domains, government and military services, and all eight Ivy League universities, as well as substantial exposure of security-critical infrastructure and of financial, remote-access, and development platforms. Victims also show widespread credential reuse and significant revictimization risk, overlapping with phishing and ransomware victim populations. We release the first anonymized victim-level infostealer dataset under controlled access to enable ethical, privacy-preserving, and reproducible research on information security and victim behavior.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Infostealer malware infects devices worldwide and harvests their most sensitive contents: credentials, browser sessions, private keys, and access certificates. Yet its impact on victims remains difficult to study without an ethical, legal, and curated research dataset. To close this gap, we build a privacy-preserving pipeline that turns illicitly sourced infostealer logs into a reproducible research artifact, minimizing sensitive data while preserving measurement utility, and use it to construct a dataset of 170,298 victims from logs of multiple infostealer families. Analyzing these victims, we find that the most compromised services mirror the world’s most popular platforms, with gaming and entertainment services strongly overrepresented. Within the sample we identify compromised credentials for high-value organizations, including law-enforcement domains, government and military services, and all eight Ivy League universities, as well as substantial exposure of security-critical infrastructure and of financial, remote-access, and development platforms. Victims also show widespread credential reuse and significant revictimization risk, overlapping with phishing and ransomware victim populations. We release the first anonymized victim-level infostealer dataset under controlled access to enable ethical, privacy-preserving, and reproducible research on information security and victim behavior."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105172",
+    "title": "Towards an integrated security decision-making framework",
+    "text": "Security decision-making in socio-technical systems can often be limited by fragmented analytical approaches that may struggle to address the complexities of modern threats. This article proposes an integrated multidisciplinary framework that synthesises five key pillars: Goal-Oriented Requirements Engineering (GORE), Risk Assessment (RA), Crime Scripting (CSA), Quantitative Decision Analysis (QDA), and Attack-Graph Modelling (AGM). By incorporating attack graphs as a fifth layer, the framework seeks to provide a dual-view of the adversary, bridging the gap between human procedural behaviour (the script) and technical exploit dependencies (the graph). This integrated approach is designed to assist decision-makers in systematically identifying stakeholder goals, characterising multi-path attack trajectories, and evaluating resolution actions using explicit uncertainty ranges. The framework generates a Unified Conceptual Model —a visual, auditable artefact intended to reveal underlying trade-offs between security, usability, and profitability. Illustrated through a demonstrative case study, this research offers practitioners a structured decision-support model with potential applicability to finance, critical infrastructure, and cloud environments.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Security decision-making in socio-technical systems can often be limited by fragmented analytical approaches that may struggle to address the complexities of modern threats. This article proposes an integrated multidisciplinary framework that synthesises five key pillars: Goal-Oriented Requirements Engineering (GORE), Risk Assessment (RA), Crime Scripting (CSA), Quantitative Decision Analysis (QDA), and Attack-Graph Modelling (AGM). By incorporating attack graphs as a fifth layer, the framework seeks to provide a dual-view of the adversary, bridging the gap between human procedural behaviour (the script) and technical exploit dependencies (the graph). This integrated approach is designed to assist decision-makers in systematically identifying stakeholder goals, characterising multi-path attack trajectories, and evaluating resolution actions using explicit uncertainty ranges. The framework generates a Unified Conceptual Model —a visual, auditable artefact intended to reveal underlying trade-offs between security, usability, and profitability. Illustrated through a demonstrative case study, this research offers practitioners a structured decision-support model with potential applicability to finance, critical infrastructure, and cloud environments."
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105178",
+    "title": "When global gating is enough: Admission-time hubness control in anisotropic vector retrieval systems",
+    "text": "",
+    "source": null,
+    "kind": "rate-limited",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "absent",
+        "detail": "landing page has no abstract meta"
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07169-w",
+    "title": "CASE: Contrastive Activation for Class-Sensitive Explanations",
+    "text": "Abstract Saliency methods are widely used to visualize which input features are deemed relevant to a model’s prediction. However, their visual plausibility can obscure critical limitations. In this work, we propose a diagnostic test for class sensitivity: a method’s ability to distinguish between competing class labels on the same input. Through experiments on single-label natural-image classification, we show that many widely used saliency methods produce nearly identical explanations regardless of the class label, calling into question their reliability. We find that class-insensitive behavior persists across multiple convolutional architectures and datasets, suggesting that the failure mode is not tied to a single model family or benchmark. Motivated by these findings, we introduce CASE, a contrastive explanation method that isolates features for the predicted class. We evaluate CASE using the proposed diagnostic and a perturbation-based fidelity test, and show that it produces consistently more class-specific explanations while maintaining competitive fidelity.",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Abstract Saliency methods are widely used to visualize which input features are deemed relevant to a model’s prediction. However, their visual plausibility can obscure critical limitations. In this work, we propose a diagnostic test for class sensitivity: a method’s ability to distinguish between competing class labels on the same input. Through experiments on single-label natural-image classification, we show that many widely used saliency methods produce nearly identical explanations regardless of the class label, calling into question their reliability. We find that class-insensitive behavior persists across multiple convolutional architectures and datasets, suggesting that the failure mode is not tied to a single model family or benchmark. Motivated by these findings, we introduce CASE, a contrastive explanation method that isolates features for the predicted class. We evaluate CASE using the proposed diagnostic and a perturbation-based fidelity test, and show that it produces consistently more class-specific explanations while maintaining competitive fidelity."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10994-026-07134-7",
+    "title": "SPIRAL: A Novel Time Series to Image (TS2I) Transformation Method for Vision-Based Anomaly Detection",
+    "text": "Abstract Time series anomaly detection (TSAD) underpins critical applications in manufacturing, healthcare, finance, and cloud computing. Recently, time series to image (TS2I) transformations have emerged as a promising approach that enables leveraging pretrained vision models for time series analysis. However, the majority of existing TS2I methods were designed for forecasting and classification, and suffer from parameter sensitivity, symmetric redundancy, and quadratic computational complexity. In this study, we introduce SPIRAL, a novel TS2I transformation designed for TSAD. SPIRAL maps time series windows onto a two-arm Archimedean spiral, producing asymmetric representations that preserve temporal locality while eliminating redundancy with linear time complexity with respect to window length. We additionally propose a standardized workflow with ACF-based window selection and point-wise scoring. Extensive evaluation (24,430 experiments) on 23 datasets from the TSB-AD benchmark, comparing SPIRAL against 9 TS2I transformations, 3 vision backbones, and 32 time-domain baselines across 9 metrics, shows that SPIRAL achieves the best average rank among 102 configurations in challenging metrics such as VUS-PR while exhibiting 40% lower training instability than its closest TS2I competitor. Our code is publicly available at: https://github.com/Smendowski/SPIRAL .",
+    "source": "crossref",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "absent",
+        "detail": "abstract is null"
+      },
+      {
+        "channel": "crossref",
+        "kind": "ok",
+        "text": "Abstract Time series anomaly detection (TSAD) underpins critical applications in manufacturing, healthcare, finance, and cloud computing. Recently, time series to image (TS2I) transformations have emerged as a promising approach that enables leveraging pretrained vision models for time series analysis. However, the majority of existing TS2I methods were designed for forecasting and classification, and suffer from parameter sensitivity, symmetric redundancy, and quadratic computational complexity. In this study, we introduce SPIRAL, a novel TS2I transformation designed for TSAD. SPIRAL maps time series windows onto a two-arm Archimedean spiral, producing asymmetric representations that preserve temporal locality while eliminating redundancy with linear time complexity with respect to window length. We additionally propose a standardized workflow with ACF-based window selection and point-wise scoring. Extensive evaluation (24,430 experiments) on 23 datasets from the TSB-AD benchmark, comparing SPIRAL against 9 TS2I transformations, 3 vision backbones, and 32 time-domain baselines across 9 metrics, shows that SPIRAL achieves the best average rank among 102 configurations in challenging metrics such as VUS-PR while exhibiting 40% lower training instability than its closest TS2I competitor. Our code is publicly available at: https://github.com/Smendowski/SPIRAL ."
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s10207-026-01330-1",
+    "title": "Towards Deployable Anomaly Detection in industrial CPS/ICS: A Survey and Deployability Assessment",
+    "text": "Anomaly detection is widely used as an early-warning mechanism in CPS/ICS environments, yet detection accuracy alone does not determine whether a detector can be trusted, deployed, and operated under realistic conditions. This survey examines how recent anomaly detection approaches address these practical deployment requirements in CPS/ICS, where detectors face unique operational challenges. Following the PRISMA guidelines, a structured search and multi-stage screening across four academic databases (ACM Digital Library, IEEE Xplore, Scopus, and ScienceDirect) yielded a corpus of 26 peer-reviewed, implementation-based studies. From each study, information on method family, data modality, and datasets was extracted. Furthermore, a set of nine deployability criteria was derived from safety, security, and AI-governance standards and frameworks. Each study was then systematically assessed against these criteria using an evidence-based labeling scheme, with each criterion classified as fully, partially, or not considered based on the evidence reported in the study. The analysis shows that while detection accuracy is consistently reported, evidence for the remaining criteria is often limited or absent. These findings highlight significant gaps between reported performance and deployment readiness.",
+    "source": "publisher-page",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "error",
+        "detail": "404"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "absent",
+        "detail": "abstract is null"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "ok",
+        "text": "Anomaly detection is widely used as an early-warning mechanism in CPS/ICS environments, yet detection accuracy alone does not determine whether a detector can be trusted, deployed, and operated under realistic conditions. This survey examines how recent anomaly detection approaches address these practical deployment requirements in CPS/ICS, where detectors face unique operational challenges. Following the PRISMA guidelines, a structured search and multi-stage screening across four academic databases (ACM Digital Library, IEEE Xplore, Scopus, and ScienceDirect) yielded a corpus of 26 peer-reviewed, implementation-based studies. From each study, information on method family, data modality, and datasets was extracted. Furthermore, a set of nine deployability criteria was derived from safety, security, and AI-governance standards and frameworks. Each study was then systematically assessed against these criteria using an evidence-based labeling scheme, with each criterion classified as fully, partially, or not considered based on the evidence reported in the study. The analysis shows that while detection accuracy is consistently reported, evidence for the remaining criteria is often limited or absent. These findings highlight significant gaps between reported performance and deployment readiness."
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s42256-026-01304-x",
+    "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
+    "text": "Computational drug design often generates molecules that cannot be synthesized. Li and Lai show how large language models can predict precise structural edits to fix these molecules, outperforming traditional methods and preserving key features.",
+    "source": "publisher-page",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "absent",
+        "detail": "no abstract_inverted_index"
+      },
+      {
+        "channel": "semanticscholar",
+        "kind": "error",
+        "detail": "429"
+      },
+      {
+        "channel": "crossref",
+        "kind": "absent",
+        "detail": "no abstract field"
+      },
+      {
+        "channel": "arxiv",
+        "kind": "rate-limited",
+        "detail": "429"
+      },
+      {
+        "channel": "publisher-page",
+        "kind": "ok",
+        "text": "Computational drug design often generates molecules that cannot be synthesized. Li and Lai show how large language models can predict precise structural edits to fix these molecules, outperforming traditional methods and preserving key features."
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/3839358",
+    "title": "Insights on Mitigating Privacy Concerns in Gamification through LLM-Assisted Qualitative Analysis with Minimal Hallucination",
+    "text": "Gamification improves employee engagement and productivity, but raises concerns about how data is collected, processed, stored, and used. Consequently, analyzing privacy concerns in gamification is complex and time-consuming. Large Language Models (LLMs) are promising because they can understand natural language. However, prompt sensitivity and hallucination affect analytical reliability. Also, data protection risk makes commercial LLMs unsuitable for sensitive contexts. This study examines privacy concerns and mitigation strategies in gamified organizational settings using local LLMs, ensuring in-house data processing while addressing prompt sensitivity and hallucinations. It introduces practical techniques accessible to non-AI experts such as top-k sampling, temperature tuning, prompt optimization, noise reduction, and small-batch processing. The approach was evaluated using interview responses from 82 participants (33 privacy and 49 non-privacy experts) from diverse organizations. Manual analysis with NVivo was compared to LLM-assisted analysis (LLaMA, Gemma, and Phi) for themes, sub-themes, frequency, and impact analysis. Results show that LLM analysis aligns closely with manual results, especially for expert transcripts. However, minor discrepancies appeared in non-expert transcripts due to inconsistent terminology that did not affect the overall strategic outcomes. Ablation studies and larger model tests demonstrate that the proposed strategies generalize and significantly reduce hallucinations. Five main concerns emerged: data collection, usage, security, user awareness, and fairness/trust. Experts prioritized data minimization, anonymization, encryption, and fair algorithms, while non-experts feared surveillance, data misuse, and organizational distrust. The study demonstrates the usefulness of LLMs for early-stage qualitative analysis, proposing a seven-dimensional evaluation framework to assess each model’s performance, strengths, and limitations.",
+    "source": "openalex",
+    "kind": "ok",
+    "channels": [
+      {
+        "channel": "openalex",
+        "kind": "ok",
+        "text": "Gamification improves employee engagement and productivity, but raises concerns about how data is collected, processed, stored, and used. Consequently, analyzing privacy concerns in gamification is complex and time-consuming. Large Language Models (LLMs) are promising because they can understand natural language. However, prompt sensitivity and hallucination affect analytical reliability. Also, data protection risk makes commercial LLMs unsuitable for sensitive contexts. This study examines privacy concerns and mitigation strategies in gamified organizational settings using local LLMs, ensuring in-house data processing while addressing prompt sensitivity and hallucinations. It introduces practical techniques accessible to non-AI experts such as top-k sampling, temperature tuning, prompt optimization, noise reduction, and small-batch processing. The approach was evaluated using interview responses from 82 participants (33 privacy and 49 non-privacy experts) from diverse organizations. Manual analysis with NVivo was compared to LLM-assisted analysis (LLaMA, Gemma, and Phi) for themes, sub-themes, frequency, and impact analysis. Results show that LLM analysis aligns closely with manual results, especially for expert transcripts. However, minor discrepancies appeared in non-expert transcripts due to inconsistent terminology that did not affect the overall strategic outcomes. Ablation studies and larger model tests demonstrate that the proposed strategies generalize and significantly reduce hallucinations. Five main concerns emerged: data collection, usage, security, user awareness, and fairness/trust. Experts prioritized data minimization, anonymization, encryption, and fair algorithms, while non-experts feared surveillance, data misuse, and organizational distrust. The study demonstrates the usefulness of LLMs for early-stage qualitative analysis, proposing a seven-dimensional evaluation framework to assess each model’s performance, strengths, and limitations."
       }
     ]
   }

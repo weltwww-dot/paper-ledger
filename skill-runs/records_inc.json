@@ -1,53 +1,221 @@
 [
  {
-  "doi": "10.1016/j.neunet.2026.109633",
-  "title": "D3-KD: Breast cancer segmentation via data diffusion–enhanced knowledge distillation under source-free domain conditions",
+  "doi": "10.1016/j.cose.2026.105178",
+  "title": "When global gating is enough: Admission-time hubness control in anisotropic vector retrieval systems",
   "year": 2026,
-  "date": "2026-09-15",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109641",
-  "title": "A real-time infrared small target detector based on an illumination-aware degradation filtering network",
-  "year": 2026,
-  "date": "2026-09-15",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.cose.2026.105167",
-  "title": "GAN-based Tor obfuscated traffic identification on imbalanced datasets",
-  "year": 2026,
-  "date": "2026-09-17",
+  "date": "2026-09-20",
   "source": "Computers & Security",
   "collection_sources": [
    "openalex"
   ]
  },
  {
-  "doi": "10.1016/j.cose.2026.105173",
-  "title": "CPDetector: Automated detection of excessive permissions in Chrome extensions",
+  "doi": "10.1016/j.neunet.2026.109648",
+  "title": "Hybrid feature-based collaborative disambiguation for multi-instance partial-label learning",
   "year": 2026,
-  "date": "2026-09-18",
+  "date": "2026-09-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109662",
+  "title": "Parameter-efficient prompt tuning based on adaptive fused pre-trained models for 3D scene understanding",
+  "year": 2026,
+  "date": "2026-09-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109667",
+  "title": "Scaled projection neural network for quasi-variational inequalities",
+  "year": 2026,
+  "date": "2026-09-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07152-5",
+  "title": "Sequential Estimation of Remaining Useful Life Through VAE-Based Deep Reinforcement Learning With Reward Shaping",
+  "year": 2026,
+  "date": "2026-09-22",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07160-5",
+  "title": "Cortex: A Retrieval-Augmented Framework for Career-Aligned Learning Paths",
+  "year": 2026,
+  "date": "2026-09-22",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105156",
+  "title": "Situational awareness through security-based analysis of controllability and observability in power grids",
+  "year": 2026,
+  "date": "2026-09-22",
   "source": "Computers & Security",
   "collection_sources": [
    "openalex"
   ]
  },
  {
-  "doi": "10.1038/s42256-026-01312-x",
-  "title": "Cybernetics, interoception, and the art of embodiment",
+  "doi": "10.1007/s10207-026-01297-z",
+  "title": "Class-based Obfuscation with Multi-objective Evolutionary Algorithms on Source Code",
   "year": 2026,
-  "date": "2026-09-18",
+  "date": "2026-09-23",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10207-026-01334-x",
+  "title": "A novel attribute-based searchable encryption scheme with attribute revocation",
+  "year": 2026,
+  "date": "2026-09-23",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109674",
+  "title": "HAD-MSF: Multi-domain neural fusion with state-space and graph modeling for hyperspectral anomaly detection",
+  "year": 2026,
+  "date": "2026-09-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1038/s42256-026-01304-x",
+  "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
+  "year": 2026,
+  "date": "2026-09-23",
   "source": "Nature Machine Intelligence",
   "collection_sources": [
    "crossref",
    "openalex"
+  ]
+ },
+ {
+  "doi": "10.1145/3839358",
+  "title": "Insights on Mitigating Privacy Concerns in Gamification through LLM-Assisted Qualitative Analysis with Minimal Hallucination",
+  "year": 2026,
+  "date": "2026-09-23",
+  "source": "ACM Transactions on Privacy and Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1177/0926227x261470417",
+  "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
+  "year": 2026,
+  "date": "2026-09-23",
+  "source": "Journal of Computer Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1177/0926227x261486952",
+  "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
+  "year": 2026,
+  "date": "2026-09-23",
+  "source": "Journal of Computer Security",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07161-4",
+  "title": "SentiMatrix: Parameter-Efficient Fine-Tuning of Encoder-Based Transformers for Multidimensional Sentiment Analysis",
+  "year": 2026,
+  "date": "2026-09-24",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07174-z",
+  "title": "Explainable Federated Learning for Trustworthy Thoracic Disease Detection Under Non-IID Data Distributions",
+  "year": 2026,
+  "date": "2026-09-24",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105172",
+  "title": "Towards an integrated security decision-making framework",
+  "year": 2026,
+  "date": "2026-09-24",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.105176",
+  "title": "A data-driven analysis of infostealer malware victims",
+  "year": 2026,
+  "date": "2026-09-24",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1007/s10207-026-01330-1",
+  "title": "Towards Deployable Anomaly Detection in industrial CPS/ICS: A Survey and Deployability Assessment",
+  "year": 2026,
+  "date": "2026-09-26",
+  "source": "International Journal of Information Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07134-7",
+  "title": "SPIRAL: A Novel Time Series to Image (TS2I) Transformation Method for Vision-Based Anomaly Detection",
+  "year": 2026,
+  "date": "2026-09-26",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1007/s10994-026-07169-w",
+  "title": "CASE: Contrastive Activation for Class-Sensitive Explanations",
+  "year": 2026,
+  "date": "2026-09-26",
+  "source": "Machine Learning",
+  "collection_sources": [
+   "crossref"
   ]
  }
 ]
