@@ -5,7 +5,7 @@
 - **标题**: Anti-Inpainting: A Proactive Defense Approach Against Malicious Diffusion-Based Inpainters Under Unknown Conditions
 - **作者**: Yimao Guo, Zuomin Qu, Wei Lu, Xiangyang Luo
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-01
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3708852

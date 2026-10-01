@@ -5,7 +5,7 @@
 - **标题**: Order-Based Causal Discovery for Multistage Processes
 - **作者**: Eun-Yeol Ma, Junsub Jung, Heeyoung Kim
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-07
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 因果发现与工业多阶段过程分析
 - **DOI**: 10.1109/TKDE.2026.3710776

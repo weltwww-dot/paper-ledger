@@ -5,7 +5,7 @@
 - **标题**: Evolution Rather Than Degradation: Structure-Guided Elastic Consensus Learning for Multimodal Knowledge Graph Completion
 - **作者**: Yameng Liu, Shuai Zheng, Zhenfeng Zhu, Yunhui Xu, Yan Zhuang, Yao Zhao, Kunlun He
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-06
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tkde.2026.3710321

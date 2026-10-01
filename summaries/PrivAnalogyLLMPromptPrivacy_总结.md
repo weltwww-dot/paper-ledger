@@ -1,6 +1,7 @@
 # PrivAnalogy：基于类比机制的 LLM 提示隐私保护框架
 
 ## 基本信息
+- **发表**: 2026-07-22
 
 - 标题: PrivAnalogy: An Analogy Mechanism-Based Privacy Protection Framework for LLM Prompts
 - 作者: Yixuan Song, Chundong Wang, Xumeng Wang, Yongxin Zhao, Zheli Liu, Qingbo Hao, Hao Lin, Yuhan Tian

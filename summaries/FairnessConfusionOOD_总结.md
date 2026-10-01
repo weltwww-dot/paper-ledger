@@ -5,7 +5,7 @@
 - **标题**: Revealing and Overcoming Fairness Confusion in Out-of-Distribution Detection
 - **作者**: Zhaohui Hu, Haotian Wang, Jialu Zhou, Chuan Li, Da Huang, Long Lan
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-09-03
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109564

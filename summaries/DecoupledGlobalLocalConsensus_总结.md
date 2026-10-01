@@ -5,7 +5,7 @@
 - **标题**: Robust webly supervised fine-grained recognition via decoupled global-local fusion and geometric-semantic consensus
 - **作者**: Xinyi Guo, Yiwei Lu, Tao Yan
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-08-31（在线发表，期刊卷期 Neural Networks 205 (2027) 109571）
+- **发表**: 2026-08-31
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109571

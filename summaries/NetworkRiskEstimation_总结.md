@@ -1,6 +1,7 @@
 # Network Risk Estimation: A Risk Estimation Paradigm for Cyber Networks 总结
 
 ## 基本信息
+- **发表**: 2026-09-07
 
 - 标题: Network Risk Estimation: A Risk Estimation Paradigm for Cyber Networks
 - 作者: Arda Bayer、David Maluf、Behnaam Aazhang

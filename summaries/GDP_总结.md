@@ -1,6 +1,7 @@
 # Generative Distribution Prediction: A Unified Approach to Multimodal Learning 总结
 
 ## 基本信息
+- **发表**: 2026-08-31
 
 - 标题: Generative Distribution Prediction: A Unified Approach to Multimodal Learning
 - 作者: Xinyu Tian、Xiaotong Shen

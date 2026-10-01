@@ -5,7 +5,7 @@
 - **标题**: Dual Graph Network Hashing for Cross-Modal Retrieval
 - **作者**: Shuang Zhang, Yue Wu, Lei Shi, Feifei Kou, Huilong Jin, Pengfei Zhang, Weiping Ding, Mingying Xu, Muhammet Deveci
 - **期刊 / 会议**: IEEE Transactions on Knowledge and Data Engineering 2026
-- **发表**: 2026-09-01（2026年9月第38卷第9期；论文2025年11月26日投稿，2026年6月25日录用，2026年7月6日在线发表）
+- **发表**: 2026-07-06
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1109/tkde.2026.3710651

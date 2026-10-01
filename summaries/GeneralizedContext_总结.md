@@ -1,6 +1,7 @@
 # Generalized context in cross attention for transfer learning of disjoint tabular data
 
 ## 基本信息
+- **发表**: 2026-09-02
 
 - 标题: Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data
 - 作者: Kazi F. Akhter, Ibna Kowsar, Manar D. Samad

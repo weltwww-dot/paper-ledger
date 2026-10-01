@@ -1,6 +1,7 @@
 # Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning 总结
 
 ## 基本信息
+- **发表**: 2026-08-29
 
 - 标题: Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning
 - 作者: Weixin Chen、Simon Yu、Huajie Shao et al.

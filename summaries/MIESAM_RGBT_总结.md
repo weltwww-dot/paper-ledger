@@ -5,7 +5,7 @@
 - **标题**: Multi-modal Interaction Enhanced Segment Anything Model (MIE-SAM) for RGB-T Salient Object Detection
 - **作者**: Ze Li, Ying Ying Zhang, Shuai Zhang, Zhi Peng Wang
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026
+- **发表**: 2026-09-04
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109586

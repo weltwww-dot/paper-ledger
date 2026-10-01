@@ -1,6 +1,7 @@
 # Probing diametric coordination graphs for multi-agent reinforcement learning 总结
 
 ## 基本信息
+- **发表**: 2026-08-12
 - **内容状态**: 完整 · 已基于全文完成中文六段式总结
 - **标题**: Probing diametric coordination graphs for multi-agent reinforcement learning
 - **作者**: Mutong Liu, Tiantian He, Yang Liu, Jiming Liu, Yew-Soon Ong

@@ -14,6 +14,30 @@ import run_update  # noqa: E402
 
 
 class RunUpdateInventoryTests(unittest.TestCase):
+    def test_date_unverified_summaries_remain_known_while_hidden(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            (root/'data').mkdir()
+            (root/'summaries/date-unverified').mkdir(parents=True)
+            (root/'data/papers.js').write_text('window.PAPERLEDGER_SEED = [];',encoding='utf-8')
+            (root/'summaries/date-unverified/held.md').write_text('- **标题**: Held paper\n- **DOI**: 10.1000/held\n',encoding='utf-8')
+            with patch.object(run_update,'ROOT',root),patch.object(run_update,'DATA_FILE',root/'data/papers.js'),patch.object(run_update,'SUMMARIES',root/'summaries'):
+                dois,titles=run_update.local_known_inventory([])
+            self.assertEqual(dois,['10.1000/held'])
+            self.assertEqual(titles,['Held paper'])
+
+    def test_retired_dois_remain_known_without_keeping_paper_content(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            (root/'data').mkdir()
+            (root/'summaries').mkdir()
+            (root/'data/papers.js').write_text('window.PAPERLEDGER_SEED = [];',encoding='utf-8')
+            (root/'data/retired-papers.json').write_text(json.dumps({'retired':[{'doi':'10.1000/retired','online_date':'2026-06-30'}]}),encoding='utf-8')
+            with patch.object(run_update,'ROOT',root),patch.object(run_update,'DATA_FILE',root/'data/papers.js'),patch.object(run_update,'SUMMARIES',root/'summaries'):
+                dois,titles=run_update.local_known_inventory([])
+            self.assertEqual(dois,['10.1000/retired'])
+            self.assertEqual(titles,[])
+
     def test_fetch_excludes_entries_staged_after_the_last_update_baseline(self):
         """A stale baseline must not rediscover papers already present locally."""
         with tempfile.TemporaryDirectory() as temporary:

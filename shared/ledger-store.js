@@ -17,11 +17,11 @@
  */
 (function (root, factory) {
   if (typeof module === "object" && module.exports) {
-    module.exports = factory();
+    module.exports = factory(require('./publication-window.js'));
   } else {
-    root.LedgerStore = factory();
+    root.LedgerStore = factory(root.PublicationWindow);
   }
-})(typeof self !== "undefined" ? self : this, function () {
+})(typeof self !== "undefined" ? self : this, function (PublicationWindow) {
   "use strict";
 
   /* 旧版/不完整条目 → 统一数据模型 */
@@ -51,7 +51,12 @@
   }
 
   function createLedgerStore(options) {
-    const seed = (options.seed || []).map((p) => ({ ...p }));
+    const recent = (list) => PublicationWindow.filterRecent(list, options.asOf);
+    const seed = recent(options.seed || []).map((p) => ({ ...p }));
+    const seedById = new Map(seed.map(p => [p.id, p]));
+    function currentEntries(entries) {
+      return recent(entries.map(p => /^r-/.test(p.id || '') ? seedById.get(p.id) : p).filter(Boolean));
+    }
     const storageKey = options.storageKey;
     const deletedKey = options.deletedKey;
     const storage = options.storage;
@@ -83,7 +88,7 @@
     }
 
     function persist(papersList) {
-      writeStorage(storageKey, JSON.stringify(papersList));
+      writeStorage(storageKey, JSON.stringify(recent(papersList)));
     }
 
     /* 加载 + 迁移 + 合并：
@@ -109,9 +114,9 @@
                 .filter((p) => /^r-/.test(p.id || ""))
                 .map(normalize)
                 .filter((p) => !p.sample);
-              const merged = [...userEntries];
+              const merged = [...recent(userEntries)];
               for (const k of keptBuiltin) {
-                merged.push(seedById.has(k.id) ? { ...seedById.get(k.id) } : k);
+                if (seedById.has(k.id)) merged.push({ ...seedById.get(k.id) });
               }
               const known = new Set(merged.map((p) => p.id));
               for (const s of seed) {
@@ -135,10 +140,13 @@
 
     return {
       list() {
+        const active = recent(papers);
+        if (active.length !== papers.length) persist(active);
+        papers = active;
         return papers;
       },
       add(entry) {
-        papers = [normalize(entry), ...papers];
+        papers = recent([normalize(entry), ...papers]);
         persist(papers);
         return papers;
       },
@@ -156,9 +164,10 @@
       },
       /* 撤销删除：插回原位置；内置条目同时移出删除记忆 */
       restore(entry, index) {
-        const normalized = normalize(entry);
+        const normalized = currentEntries([normalize(entry)])[0];
+        if (!normalized) return this.list();
         const idx = Math.max(0, Math.min(index == null ? papers.length : index, papers.length));
-        papers.splice(idx, 0, normalized);
+        if (recent([normalized]).length) papers.splice(idx, 0, normalized);
         if (/^r-/.test(normalized.id || "")) {
           const deleted = getDeletedIds().filter((d) => d !== normalized.id);
           writeStorage(deletedKey, JSON.stringify(deleted));
@@ -168,6 +177,8 @@
       },
       /* 备份：导出全部论文与删除记忆 */
       exportData() {
+        papers = recent(papers);
+        persist(papers);
         return {
           papers: papers.map((p) => ({ ...p })),
           deleted: getDeletedIds(),
@@ -175,7 +186,7 @@
       },
       /* 备份：整体替换（导入前由调用方确认覆盖） */
       importData(data) {
-        papers = (data.papers || []).map(normalize).filter((p) => !p.sample);
+        papers = currentEntries((data.papers || []).map(normalize).filter((p) => !p.sample));
         writeStorage(deletedKey, JSON.stringify(data.deleted || []));
         persist(papers);
         return papers;

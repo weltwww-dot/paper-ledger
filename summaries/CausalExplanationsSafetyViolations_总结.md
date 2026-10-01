@@ -1,6 +1,7 @@
 # Causal explanations of safety property violations in discrete event systems 总结
 
 ## 基本信息
+- **发表**: 2026-07-13
 - **内容状态**: 完整 · 已基于全文完成中文六段式总结
 - **标题**: Causal explanations of safety property violations in discrete event systems
 - **作者**: Gregor Gössler, Thomas Mari, Yannick Pencolé, Louise Travé-Massuyès

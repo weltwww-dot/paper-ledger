@@ -5,7 +5,7 @@
 - **标题**: Caller ID Spoofing Effectiveness: A Socio-Technical Analysis of Trust Propagation and User Behaviour
 - **作者**: L.A. Oliveira Rodríguez, I. Benítez Zapico, D. Melendi Palacio, R. García Fernández
 - **期刊 / 会议**: Computers & Security 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-09-06
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1016/j.cose.2026.105144

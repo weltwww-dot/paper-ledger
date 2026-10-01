@@ -5,7 +5,7 @@
 - **标题**: Secure and verifiable coercion-resistant electronic exam
 - **作者**: Mohammadamin Rakeei, Rosario Giustolisi, Gabriele Lenzini, Dhekra Mahmoud, Jannik Dreier, Pascal Lafourcade
 - **期刊 / 会议**: J. Cybersecurity 2026
-- **发表**: 2026-01-01
+- **发表**: 2026-08-27
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1093/cybsec/tyag022

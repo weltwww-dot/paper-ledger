@@ -1,6 +1,7 @@
 # Plan of Knowledge：面向时序知识图谱问答的检索增强大语言模型
 
 ## 基本信息
+- **发表**: 2026-08-14
 
 - 标题: Plan of Knowledge: Retrieval-Augmented Large Language Models for Temporal Knowledge Graph Question Answering
 - 作者: Ying Zhang, Xinying Qian, Yu Zhao, Baohang Zhou, Xuhui Sui, Xiaojie Yuan

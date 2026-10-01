@@ -1,7 +1,17 @@
 [
  {
-  "doi": "10.1016/j.neunet.2026.109677",
-  "title": "A broad learning model with dual-path feature encoding for robust and expedient incremental fault diagnosis",
+  "doi": "10.1016/j.cose.2026.105184",
+  "title": "Ship–shore drill-based training for GNSS spoofing response",
+  "year": 2026,
+  "date": "2026-09-22",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109683",
+  "title": "Nonlinear dynamics of a corticothalamic coupled neural mass model reproduce the mechanism of 40 Hz ASSR generation",
   "year": 2026,
   "date": "2026-09-22",
   "source": "Neural Networks",
@@ -10,31 +20,11 @@
   ]
  },
  {
-  "doi": "10.1016/j.neunet.2026.109673",
-  "title": "Context-aware causal reasoning for explanatory visual question answering",
+  "doi": "10.1016/j.cose.2026.105155",
+  "title": "AdaCap-IIoT: A reference architecture for adaptive blockchain-enabled CapBAC",
   "year": 2026,
   "date": "2026-09-23",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109675",
-  "title": "HieFormer: Leveraging hyperbolic geometry to overcome the hierarchical expressiveness limitation of transformers",
-  "year": 2026,
-  "date": "2026-09-23",
-  "source": "Neural Networks",
-  "collection_sources": [
-   "openalex"
-  ]
- },
- {
-  "doi": "10.1016/j.neunet.2026.109687",
-  "title": "Foreground guided dual branch learning for sparse 4D radar 3D object detection",
-  "year": 2026,
-  "date": "2026-09-23",
-  "source": "Neural Networks",
+  "source": "Computers & Security",
   "collection_sources": [
    "openalex"
   ]
@@ -73,33 +63,23 @@
   ]
  },
  {
-  "doi": "10.1007/s10994-026-07155-2",
-  "title": "CausalCACTUS: A Causally Consistent and Context-Aware Framework for Counterfactual Explanations",
+  "doi": "10.1016/j.neunet.2026.109679",
+  "title": "Multi-source geospatial fusion for enhanced visual geo-localization of unmanned aerial vehicles",
   "year": 2026,
-  "date": "2026-09-28",
-  "source": "Machine Learning",
+  "date": "2026-09-24",
+  "source": "Neural Networks",
   "collection_sources": [
-   "crossref"
+   "openalex"
   ]
  },
  {
-  "doi": "10.1007/s10994-026-07166-z",
-  "title": "Joint Representation Learning for Expert Discovery",
+  "doi": "10.1016/j.cose.2026.105166",
+  "title": "Benchmarking post-processing methods in local differential privacy for utility and adversarial robustness",
   "year": 2026,
-  "date": "2026-09-28",
-  "source": "Machine Learning",
+  "date": "2026-09-25",
+  "source": "Computers & Security",
   "collection_sources": [
-   "crossref"
-  ]
- },
- {
-  "doi": "10.1007/s10994-026-07168-x",
-  "title": "Differentially Private Stochastic Gradient Descent for Outcome Weighted Learning",
-  "year": 2026,
-  "date": "2026-09-28",
-  "source": "Machine Learning",
-  "collection_sources": [
-   "crossref"
+   "openalex"
   ]
  },
  {
@@ -109,7 +89,8 @@
   "date": "2026-09-28",
   "source": "Nature Machine Intelligence",
   "collection_sources": [
-   "crossref"
+   "crossref",
+   "openalex"
   ]
  },
  {
@@ -119,15 +100,3406 @@
   "date": "2026-09-28",
   "source": "Nature Machine Intelligence",
   "collection_sources": [
+   "crossref",
+   "openalex"
+  ]
+ },
+ {
+  "doi": "10.1038/s42256-026-01309-6",
+  "title": "Towards foundation-style models for energy-frontier heterogeneous neutrino detectors via self-supervised pretraining",
+  "year": 2026,
+  "date": "2026-09-30",
+  "source": "Nature Machine Intelligence",
+  "collection_sources": [
    "crossref"
   ]
  },
  {
-  "doi": "10.1038/s42256-026-01308-7",
-  "title": "Regional climate risk assessment from climate models using probabilistic machine learning",
+  "doi": "10.1145/3850236",
+  "title": "Attack Tree Distance: A Practical Examination of Tree Similarity Measurement within Cybersecurity",
   "year": 2026,
-  "date": "2026-09-28",
-  "source": "Nature Machine Intelligence",
+  "date": "2026-09-30",
+  "source": "ACM Transactions on Privacy and Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.artint.2026.104599",
+    "title": "Fast concept-based counterfactual explanations for image classification",
+    "year": 2026,
+    "date": "2026-08-06",
+  "source": "Artificial Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.artint.2026.104600",
+    "title": "Body-decoupled grounding via reduction: A novel approach on the Asp bottleneck",
+    "year": 2026,
+    "date": "2026-08-11",
+  "source": "Artificial Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.artint.2026.104601",
+    "title": "Escaping graphical causal priors: Multi-generator cooperation for rationalization",
+    "year": 2026,
+    "date": "2026-08-09",
+  "source": "Artificial Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.artint.2026.104602",
+    "title": "ResiDual: Transformer with dual residual connections",
+    "year": 2026,
+    "date": "2026-08-08",
+  "source": "Artificial Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104933",
+    "title": "The power of persuasive messaging on improving password-change behavior in university information systems: Evidence from a large-scale field experiment",
+    "year": 2026,
+    "date": "2026-04-21",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104962",
+    "title": "E2E-PP: End-to-End Privacy Protection via compressive sensing and personalized differential privacy for mobile crowdsensing",
+    "year": 2026,
+    "date": "2026-05-20",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104970",
+    "title": "Hardening memory-safe languages: An empirical study of attack mitigations in rust and go binaries",
+    "year": 2026,
+    "date": "2026-05-14",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104971",
+    "title": "Adaptive Trust-Aware SOC Human–AI Teaming for resilient operations",
+    "year": 2026,
+    "date": "2026-05-21",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104972",
+    "title": "Cyber incident prevention and response for small and medium sized enterprises: A scoping review",
+    "year": 2026,
+    "date": "2026-05-18",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.cose.2026.104973",
+  "title": "Crisis-driven cyber risk: Evaluating the cybercrime landscape in the face of pandemic uncertainty",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104974",
+    "title": "An analysis of IoT device update mechanisms",
+    "year": 2026,
+    "date": "2026-05-21",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104975",
+    "title": "Applying gamification to promote privacy and information security awareness in the public sector",
+    "year": 2026,
+    "date": "2026-05-28",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104976",
+    "title": "An integrated cyber offence–defence framework for unmanned ground vehicles",
+    "year": 2026,
+    "date": "2026-05-23",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104977",
+    "title": "Empirical validation of a data security risks model for implementing mobile cloud computing in higher education",
+    "year": 2026,
+    "date": "2026-05-21",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104978",
+    "title": "Fragmentation of CVSS scores in the NVD: A quantitative analysis of inconsistency across vulnerability scoring standards",
+    "year": 2026,
+    "date": "2026-05-23",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104979",
+    "title": "An evidence-driven analysis of threat information sharing challenges for industrial control systems",
+    "year": 2026,
+    "date": "2026-05-30",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104980",
+    "title": "Defensive cybersecurity behavior in hospitals: The role of leadership, human-centric capabilities, and compliance",
+    "year": 2026,
+    "date": "2026-05-19",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104982",
+    "title": "Scalable logical attack graph generation for enterprise networks through endpoint data",
+    "year": 2026,
+    "date": "2026-05-27",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104983",
+    "title": "PLC-Defuser: Detecting hidden Ladder Logic Bombs in PLCs via Control Flow Graph and model checking",
+    "year": 2026,
+    "date": "2026-05-28",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104984",
+    "title": "The knowing-doing gap in generative AI security: Unpacking the divergent roles of two-dimensional FoMO",
+    "year": 2026,
+    "date": "2026-05-23",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104985",
+    "title": "A digital-driven operations management framework with risk assessment and cyber security employing an integrated fuzzy decision-making",
+    "year": 2026,
+    "date": "2026-05-30",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.cose.2026.104987",
+    "title": "PacketPatch: Practical generation and deployment of adversarial packets for byte-feature-based encrypted traffic classification",
+    "year": 2026,
+    "date": "2026-05-26",
+  "source": "Computers & Security",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108932",
+    "title": "MultiTabPFN: Codebook-based extensions of TabPFN for high-class-count tabular classification",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108933",
+    "title": "UDD: Unsupervised denoising diffusion for noisy multi-focus image fusion",
+    "year": 2026,
+    "date": "2026-04-12",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108941",
+    "title": "Multi-neurotransmitter synergistically regulated basal ganglia reinforcement learning model",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108956",
+    "title": "Dual-center RAPID-LSSVM: Radius-adaptive, probability and imbalance driven weighting for Alzheimer’s diagnosis",
+    "year": 2026,
+    "date": "2026-04-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108973",
+    "title": "Self-supervised semantic graph propagation for multi-view clustering",
+    "year": 2026,
+    "date": "2026-04-17",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108979",
+    "title": "PeriodPatch: A frequency-aware modular framework with patch-based embedding and periodic bias for multivariate time series forecasting",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108986",
+    "title": "GeoMAE : Masking representation learning for spatio-temporal graph forecasting with missing values",
+    "year": 2026,
+    "date": "2026-04-18",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108988",
+    "title": "MDM: Modality decoupling for visible and infrared Mamba-based object detection",
+    "year": 2026,
+    "date": "2026-04-17",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108990",
+    "title": "Urban scene reconstruction using Geometry-aware Gaussian primitives",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108991",
+    "title": "Closed-loop correction reprogramming for fine-grained visual prompting",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108992",
+    "title": "DeCAF: Decentralized consensus-and-factorization for low-rank adaptation of foundation models",
+    "year": 2026,
+    "date": "2026-04-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108993",
+    "title": "Quaternion-based CNN for heart rate prediction from PPG",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108994",
+    "title": "FDPMambaFuse: A frequency-domain and parallel Mamba-based model for multimodal medical image fusion",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108995",
+    "title": "A text-guided cross-hierarchical fusion and multi-task learning framework for multimodal sentiment analysis",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108996",
+    "title": "Aligning large language models across the lifecycle: A survey on safety-usability trade-offs from pre-training to post-training",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108997",
+    "title": "Cross-modal transformer fusion via local sampling for drone RGB-infrared object detection",
+    "year": 2026,
+    "date": "2026-04-18",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.108999",
+    "title": "Attribute affinity coordination debiasing for generalized zero-shot learning",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109000",
+    "title": "FIT: Enhancing multimodal knowledge graph completion via fine-grained interaction and TriConvTransformer",
+    "year": 2026,
+    "date": "2026-04-18",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109001",
+    "title": "Discriminative region learning for point cloud-based place recognition",
+    "year": 2026,
+    "date": "2026-04-18",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109003",
+    "title": "Task-driven infrared and visible image fusion via detail and semantic dual injection",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109004",
+    "title": "Topology structure optimization of reservoirs using GLMY homology",
+    "year": 2026,
+    "date": "2026-04-17",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109005",
+    "title": "Deep generative framework for modeling single-cell drug perturbation response",
+    "year": 2026,
+    "date": "2026-04-15",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109006",
+    "title": "KG -augmented executable CoT for mathematical coding",
+    "year": 2026,
+    "date": "2026-04-19",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109007",
+    "title": "Discriminative and noise-robust embedding for zero-shot learning",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109008",
+    "title": "Cognitive prototype learning: Towards self-supervised and semantic-aware few-shot open-set sound recognition",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109009",
+    "title": "HC-GLAD: Dual hyperbolic contrastive learning for unsupervised graph-level anomaly detection",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109010",
+    "title": "A predefined-time neurodynamic model for solving absolute value equation",
+    "year": 2026,
+    "date": "2026-04-17",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109012",
+    "title": "Graph contrastive learning with virtual nodes for few-shot semi-supervised classification",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109013",
+    "title": "Revisiting deep information propagation: Fractal frontier and finite-size effects",
+    "year": 2026,
+    "date": "2026-04-16",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109014",
+    "title": "Optimizing speculative decoding via dynamic multi-path and dual-stream networks",
+    "year": 2026,
+    "date": "2026-04-25",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109015",
+    "title": "SACI framework-based fixed-time learning control for nonlinear systems with asymmetric constraints",
+    "year": 2026,
+    "date": "2026-04-18",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109016",
+    "title": "PDGCN: A progressive dual-branch graph convolution network for EEG emotion recognition",
+    "year": 2026,
+    "date": "2026-04-17",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109017",
+    "title": "ViSymRe: Vision multimodal symbolic regression",
+    "year": 2026,
+    "date": "2026-04-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109018",
+    "title": "A quantifier-reversal approximation paradigm for recurrent neural networks",
+    "year": 2026,
+    "date": "2026-04-26",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109019",
+    "title": "Curriculum reinforcement learning with measurable task representation learning",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109020",
+  "title": "Delving into the adversarial robustness of semantic segmentation with decision-based black-box attacks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109021",
+    "title": "Semantic clustering under resource constraints via Bayesian low-rank adaptation",
+    "year": 2026,
+    "date": "2026-04-29",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109022",
+    "title": "Spike-hammer: An efficient spike-driven hybrid architecture for multi-modal emotion recognition with physiological signals",
+    "year": 2026,
+    "date": "2026-04-21",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109023",
+    "title": "Toward theoretical insights into diffusion trajectory distillation via operator merging",
+    "year": 2026,
+    "date": "2026-04-19",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109024",
+    "title": "SynerNet: Broad-to-precise CAM synergy for weakly supervised semantic segmentation",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109025",
+    "title": "Hybrid graph attention learning with pseudo-label guided adaptive evolution",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109026",
+    "title": "Handling uncertainty in portfolio optimization: A neutrosophic logic adaptive neural network solver for quadratic programming",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109027",
+    "title": "Towards few-shot deepfake detection with an enhanced CLIP model",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109028",
+    "title": "Differential feature guidance and compressed cost volume for large disparity stereo network",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109029",
+    "title": "A multi-scale patch transformer for cross-sequence forecasting: Application to EMG-respiration prediction",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109030",
+    "title": "Knowledge-enhanced multi-task learning via prompt LLM for financial news recommendation",
+    "year": 2026,
+    "date": "2026-04-22",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109031",
+    "title": "Reservoir computing for system identification and model predictive control",
+    "year": 2026,
+    "date": "2026-05-09",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109032",
+    "title": "AIIT: An adjustable integration adversarial attack based on image transformation",
+    "year": 2026,
+    "date": "2026-04-27",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109033",
+    "title": "Sinc Kolmogorov-Arnold network and its application for solving PDEs with singularities",
+    "year": 2026,
+    "date": "2026-04-24",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109034",
+    "title": "Self-supervised multi-scale cloud workload prediction with time series data augmentation",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109035",
+    "title": "TWT: Textual white-box transformer for natural language understanding",
+    "year": 2026,
+    "date": "2026-04-25",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109036",
+    "title": "Weighted neural network and weighted least square estimators under censorship",
+    "year": 2026,
+    "date": "2026-04-30",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109037",
+    "title": "Tool retrieval bridge: Aligning vague instructions with retriever preferences via bridge model",
+    "year": 2026,
+    "date": "2026-04-23",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109038",
+    "title": "Finite/fixed-time synchronization of complex-valued switched coupled neural networks via unified control strategy",
+    "year": 2026,
+    "date": "2026-04-24",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109039",
+    "title": "Integrating orthogonal supervision for sparse semi-supervised 3D medical image segmentation",
+    "year": 2026,
+    "date": "2026-04-26",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109040",
+    "title": "Multi-particle neural operator transformer for solving partial differential equations",
+    "year": 2026,
+    "date": "2026-04-25",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109041",
+    "title": "Contrastive diffusion model for exploring mathematical expressions from data",
+    "year": 2026,
+    "date": "2026-04-27",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109042",
+    "title": "ProMA-Net: MR–TRUS prostate registration via a dual-stream Swin Transformer-based network with mixed attention",
+    "year": 2026,
+    "date": "2026-04-29",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109043",
+    "title": "Coupled gradient-evolutionary learning in sparse memristive neuromorphic networks for robust edge intelligence",
+    "year": 2026,
+    "date": "2026-04-27",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109044",
+    "title": "FRE-GAN : Full-resolution efficient convolutional generative adversarial network for retinal vessel segmentation",
+    "year": 2026,
+    "date": "2026-04-28",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109045",
+    "title": "Biologically inspired spiking diffusion model with adaptive lateral selection mechanism",
+    "year": 2026,
+    "date": "2026-04-29",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109046",
+    "title": "Global-local uncertainty-contrastive physics-guided inversion network for unsupervised cloud removal",
+    "year": 2026,
+    "date": "2026-05-05",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109047",
+    "title": "Coverage-constrained multi-objective evolutionary recommendation algorithm for balancing accuracy, diversity, and novelty",
+    "year": 2026,
+    "date": "2026-05-02",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109048",
+    "title": "WA-SAND: Wavelet attention diffusion with spatially adaptive noising for multi-view face generation",
+    "year": 2026,
+    "date": "2026-05-11",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109049",
+    "title": "VGLD: Visually-guided language disambiguation for monocular depth scale recovery",
+    "year": 2026,
+    "date": "2026-05-08",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109050",
+    "title": "Non-target divergence hypothesis: Toward understanding modality differences in cross-modal knowledge distillation",
+    "year": 2026,
+    "date": "2026-04-30",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109051",
+    "title": "Real-time soybean pest detection system integrating UAV and Jetson based on improved YOLO",
+    "year": 2026,
+    "date": "2026-04-29",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+    "doi": "10.1016/j.neunet.2026.109052",
+    "title": "Not all regions are equal: Spatially adaptive representation learning for efficient visual object tracking",
+    "year": 2026,
+    "date": "2026-04-30",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109053",
+  "title": "Quantum-inspired interpretable deep learning architecture for text sentiment analysis",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109054",
+  "title": "MB-GLOM: An attentive GLOM with multi-head projection and bottleneck residual",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109055",
+  "title": "LLM-driven human-AI collaborative decision support system for complex industrial processes: A case study in metallurgy",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109056",
+  "title": "Contrastive graph clustering with Structure-Robust learning and stable prototype guidance",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109057",
+  "title": "Hypergraph multi-modal learning for EEG-based emotion recognition in conversation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109058",
+  "title": "Object-centric image editing via position-structure guided diffusion",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109059",
+  "title": "Probingformer: Modeling cross-dimension dependencies via pretraining–probing for long-term time series forecasting",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109060",
+  "title": "GTGCN: A gated temporal-graph coupling network model based on contrastive learning for traffic prediction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109062",
+  "title": "The role of hyperedge overlap in reshaping dynamics of neural networks with higher-order interactions",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109063",
+  "title": "TDP-DETR: Temporal dynamics perception framework for video moment retrieval and highlight detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109064",
+  "title": "Evolving classifiers with background suppression transformer for open-set long-tailed class-incremental remote sensing scene classification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109065",
+  "title": "SecReEvalBench: A real-world scenario-based security resilience benchmark for large language models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109066",
+  "title": "MedSAM-guided geometry-aware 2D-3D feature fusion for medical image registration",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109068",
+  "title": "Stability analysis of impulsive systems with impulse-dependent varying delay: A MDI-based looped functional approach",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109069",
+  "title": "Transfer learning strategies for vulnerability detection in software binaries",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109070",
+  "title": "Learning forward-compatible and domain-invariant representations for cross-domain few-shot class-incremental learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109071",
+  "title": "CogniSNN: Enabling neuron-expandability, pathway-reusability, and dynamic-configurability in spiking neural networks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109072",
+  "title": "Real-time emotion recognition based on EEG signals using a hybrid batch-stream architecture",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109073",
+  "title": "A comprehensive review of use cases, misuses, and potential mitigation techniques in generative artificial intelligence",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109075",
+  "title": "Curiosity-driven cooperation for long-tailed multi-label learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109076",
+  "title": "SPD-DANN: An SPD manifold unsupervised domain adaptation method for cross subject motor imagery EEG decoding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109077",
+  "title": "Are LLMs qualified evaluators and generators of one-liner jokes",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109078",
+  "title": "fastSeizureNet: Accurate and efficient knowledge-data fusion for semi-supervised seizure detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109079",
+  "title": "Unsupervised utility evaluation of text anonymization methods via neural language models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109080",
+  "title": "Fed-DiTTab: Diffusion transformer for tabular data generation in federated learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109084",
+  "title": "Dual-view diffusion for pedestrian trajectory imputation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109086",
+  "title": "C2F-LGNet: A coarse-to-fine framework with local-global differential modeling for traffic prediction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109087",
+  "title": "STMamba-GC: Spatiotemporal Mamba with graph contrastive learning for next POI recommendation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109088",
+  "title": "WEANet: Bridging wavelet inductive bias with network parameter initialization for time series modeling",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109089",
+  "title": "A simultaneous dual watermarking scheme for deep learning models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109090",
+  "title": "MIRA: Multi-scale invertible dual-attention redundancy-aware network for high-capacity video steganography",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1016/j.neunet.2026.109092",
+  "title": "ProPy : Building interactive and efficient prompt pyramids upon CLIP for partially relevant video retrieval",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "Neural Networks",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3701661",
+  "title": "Efficient Maximal Directed Plex Enumeration With Worst-Case Time Guarantee",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3704763",
+  "title": "Online Learning From Capricious Feature Data Streams",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3705259",
+  "title": "Dual-Granularity Labeling for Multi-Instance Multi-Label Data With Skewed Annotation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3705635",
+  "title": "FastTrick: Socially-Engineered Phishing E-mail Detection Using Hashing Trick",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3708608",
+  "title": "Capturing Context-Aware Route Choice Semantics for Trajectory Representation Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3708751",
+  "title": "IFCDR: A Cross-Domain Information Fusion-Based Architecture for Cross Domain Recommendation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3708861",
+  "title": "A Robustness Enhancement Strategy for Structure-Sensitive Tasks via Diverse Adversarial Perturbations",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3710602",
+  "title": "Incomplete Multi-View Clustering via Cross-View Diversity Enhanced Fine-Grained Tensor Completion",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3710993",
+  "title": "MVDG++: A Unified Multi-View Framework for Domain Generalization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3712877",
+  "title": "KGFR: A Foundation Retriever for Generalized Knowledge Graph Question Answering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3715213",
+  "title": "DyG-Pred: Spatial-Temporal Dynamic Graph Replay for Event Prediction With Gated Explicit-Implicit Graph Dependency Fusion",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3715402",
+  "title": "Stochastic Process Mining: Characteristics and Challenges",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3715453",
+  "title": "Why is Repeated Padding Effective for Sequential Recommendation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716345",
+  "title": "An Efficient Feature Selection Method Using the Granular-Ball Divergence-Based Fuzzy Rough Hypergraph",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716452",
+  "title": "CAA-TDI: Confidence-Aware Attention for Trustworthy Data Inference in Sparse Mobile Crowdsensing",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716656",
+  "title": "Rethinking Activation Function: A Simple Path to Efficient and Accurate Time Series Forecasting",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716682",
+  "title": "FedCAMD: Cross-Attention Driven Misleading Knowledge Filtering via Proxy Outlier Detection in Federated Distillation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716724",
+  "title": "Text-to-SQL via Model Context Protocol: Structured Context Orchestration for Reliable Database Query Generation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3716977",
+  "title": "Tabular Data Wrangling in the Era of Large Language Model: A Survey",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717059",
+  "title": "Large Language Model Empowered Recommendation Meets All-Domain Continual Pre-Training",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717198",
+  "title": "A Survey on Foundation Models for Structured Data: Tabular, Time Series, and Graphs",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717266",
+  "title": "IntComplex for High-Order Interactions",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717285",
+  "title": "DSCAN: Structural Clustering on Directed Graphs",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717305",
+  "title": "RWKV-TS+: Adaptive Long-Range Prompt for Multiple Time Series Tasks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717320",
+  "title": "ReG-Net: Retrieval-Enhanced Graph Networks for Robust Multimodal Missing Data Recovery",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717344",
+  "title": "Counterfactual Fairness Prediction on Missing Data",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717641",
+  "title": "Beyond Time as Context: Joint Item-Time Prediction for Sequential Recommendation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717759",
+  "title": "SimCFT: Trajectory Similarity Computation via Dynamic Status Features and Noisy Point Mining",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717792",
+  "title": "Impute On-Demand: Adaptive Correlated Time Series Imputation for Changing Environments",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717808",
+  "title": "Auction-Aware Crowdsourced Parcel Assignment for Cooperative Urban Logistics",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717828",
+  "title": "TOE: Tackling Distribution Shifts in Time Series via Three-Perspective Online Ensemble",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717880",
+  "title": "Enhancing Graph Neural Network Explainers Using a Distribution Shift Consistency-Guided Generator",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717911",
+  "title": "Multiplex Network Unsupervised Representation With Adaptive Multi-View Tensor Graph Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3717987",
+  "title": "BPO: Backdoor Purification via Overwriting",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718023",
+  "title": "Investigating Mask-Aware Prototype Learning for Tabular Anomaly Detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718033",
+  "title": "Privacy Budgeting for Spatio-Temporal Trajectories",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718049",
+  "title": "Pandora: Leveraging Code-Driven Knowledge Transfer for Unified Structured Knowledge Reasoning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718061",
+  "title": "LFAMLedger: Account Migration Across Blockchain Shards Using a Lock-Free Mechanism",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718204",
+  "title": "PGMiner: A Load-Aware Dynamic Graph Pattern Matching Approach on GPUs",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718207",
+  "title": "Robustly Grounding LLM-Derived Meta-Causality for Causal Discovery",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718313",
+  "title": "Robust Variance-Gradient Subsampling for Logistic Regression With Corrupted Large-Scale Data",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718370",
+  "title": "Forecasting Realized Volatility of Stock Market: A Novel Model Based on VMD and Local-Global Fusion Mechanism",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718528",
+  "title": "Graph Convolutional Networks Combining Dynamic Aggregation of Adjacency Information for Traffic Flow Prediction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718697",
+  "title": "Adaptive Progressive Optimization Ensemble Approach for High-Dimensional Imbalanced Data Classification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718737",
+  "title": "PMatch: A Secure Framework for Querying Private Localized Graph Patterns",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718935",
+  "title": "Learning Transaction Embedding From Multi-Level High Utility ItemSets",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3718940",
+  "title": "LLM-Powered KG Utility Evaluation Framework",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3719286",
+  "title": "FOND: Fine-Grained Boundary Mining With Dual Bridging for Fair Graph Anomaly Detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3719432",
+  "title": "Consistency-Enhanced Multi-Granularity Knowledge Modeling for Semi-Supervised Feature Selection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3719932",
+  "title": "Fairness in Augmented Graph Learning: A Survey",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3720785",
+  "title": "Resolving Knowledge Conflicts in Domain-Specific Data Selection: A Case Study on Medical Instruction-Tuning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3720825",
+  "title": "Doubly Constrained Fair Clustering for General $p$-Norms",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3721243",
+  "title": "Coalition-Based Knowledge Graph Learning for Actual Controller Disclosure",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3721883",
+  "title": "Data and Knowledge Dual-Driven Text Embedding Approaches: A Survey",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3722236",
+  "title": "GEM-Distill: Graph Ensemble Multi-Level Distillation for MLP-Based Graph Classification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tkde.2026.3722256",
+  "title": "CausalDX: Diagnosing Long-Tail and Cascading Cloud Incidents With LLM-Guided Causal Reasoning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Knowledge and Data Engineering",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3598330",
+  "title": "Dark Noise Diffusion: Noise Synthesis for Low-Light Image Denoising",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3598340",
+  "title": "Learned Off-Aperture Encoding for Wide Field-of-View RGBD Imaging",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3598593",
+  "title": "Depth Dynamics via One-Bit Frequency Probing in Embedded Direct Time-of-Flight Sensing",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3598767",
+  "title": "Predicting Important Photons for Energy-Efficient Single-Photon Videography",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3599073",
+  "title": "Hardware-Aware Coding Function Design for Compressive Single-Photon 3D Cameras",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3599143",
+  "title": "Structured Light With a Million Light Planes Per Second",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3599775",
+  "title": "Single-Step Latent Diffusion for Underwater Image Restoration",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3599949",
+  "title": "Reconstructing Satellites in 3D From Amateur Telescope Images",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3600072",
+  "title": "Tomographic Sparse View Selection Using the View Covariance Loss",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2025.3604385",
+  "title": "Centroiding Point-Objects With Event Cameras",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3679048",
+  "title": "Instance-Level Cost-Sensitive Hypergraph Learning With Quality-Aware Structure Judgement for Anomaly Detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3688650",
+  "title": "A Survey on Autonomy-Induced Security Risks in Large Model-Based Agents",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3688698",
+  "title": "A Minimal Solution to the Perspective-3-Point Problem for the Camera With Unknown Focal Length and Two Degrees-of-Freedom Rotation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3689529",
+  "title": "MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3690085",
+  "title": "Elastic Multi-Gradient Descent for Parallel Continual Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3690455",
+  "title": "Spectral-Adaptive Modulation Networks for Visual Perception",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3690497",
+  "title": "Image Fusion Based on Prior Information",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3690676",
+  "title": "InfBA: Interference-Free Bottleneck Adaptation for Continual Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3690845",
+  "title": "Deep Time Series Models: A Comprehensive Survey and Benchmark",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3691480",
+  "title": "MVHumanNet++: A Large-Scale Dataset of Multi-View Daily Dressing Human Captures With Richer Annotations for 3D Human Digitization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3691530",
+  "title": "From Zero to Detail: A Progressive Spectral Decoupling Paradigm for UHD Image Restoration With New Benchmark",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692132",
+  "title": "MAGIC: Meta-Ability Guided Interactive Chain-of-Distillation for Effective-and-Efficient Vision-and-Language Navigation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692227",
+  "title": "Parallel Diffusion Solver via Residual Dirichlet Policy Optimization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692279",
+  "title": "A Stationary (and Therefore Compatible) Representation is All You Need",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692302",
+  "title": "SpaceEra++: A Unified Framework Toward 3D Spatial Reasoning in Video",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692504",
+  "title": "Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692528",
+  "title": "Instruction-Guided Distribution Maximization for General Few-Shot Intent Recognition",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692653",
+  "title": "Multi-Domain Feature Integration Based Trusted Partial Multi-View Incomplete Multi-Label Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692682",
+  "title": "A Holistic Method for Superquadric Fitting Using Unsupervised Clustering Analysis",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692711",
+  "title": "SDPT: Synchronous Dual Prompt Tuning for Visual-Language Pre-Trained Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692791",
+  "title": "MFVLR: Multi-Domain Fine-Grained Vision-Language Reconstruction for Generalizable Diffusion Face Forgery Detection and Localization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692903",
+  "title": "Heteroscedastic Diffusion for Multi-Agent Trajectory Modeling",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692914",
+  "title": "Mask-Guided Self-Supervised Video Object Segmentation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692923",
+  "title": "RAW-Adapter: Adapting Pre-Trained Visual Model to Camera RAW Images and a Benchmark",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3692948",
+  "title": "S$^{2}$VG: 3D Stereoscopic and Spatial Video Generation via Denoising Frame Matrix",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693108",
+  "title": "Instance-Dependent Early Stopping for Adaptive Data Pruning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693305",
+  "title": "Synthetic Priors for Real-World Detection: A Label-Free Framework for Identifying Ultra-Rare Objects",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693334",
+  "title": "IB2MC: Information Bottleneck Inspired Balanced Multiview Clustering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693362",
+  "title": "FreeKD+: A Frequency Knowledge Distillation Framework for Dense Prediction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693381",
+  "title": "Long&amp;short Exposures Guided Diffusion Model for Realistic Local Motion Deblurring",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693569",
+  "title": "Gaussian Adaptive Patching Powered Fully-Connected Spatial-Temporal Graph for Multivariate Time-Series Data",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3693671",
+  "title": "Mitigate Catastrophic Remembering via Continual Self-Paced Dual-Knowledge Purification for Noisy Lifelong Person Re-Identification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694051",
+  "title": "Decouple Then Converge: Handling Unknown Unlabeled Distributions in Long-Tailed Semi-Supervised Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694088",
+  "title": "dcFCI: Robust Causal Discovery Under Latent Confounding, Unfaithfulness, and Mixed Data",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694189",
+  "title": "EVA: Editing for Versatile Alignment Against Jailbreaks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694223",
+  "title": "Knowledge Diffusion-Based Adaptive Alignment With Hierarchical Context for Video Temporal Grounding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694266",
+  "title": "Decomposed Multi-Modality Fusion: Integrating Frames and Events for Efficient Visuomotor Policies",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694367",
+  "title": "Evolving Diverse Red-Team Language Models in Multi-Round Multi-Agent Games",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694889",
+  "title": "ColorPCR++: Unleash the Power of Color for Point Cloud Registration Using Hypergraph Computation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3694999",
+  "title": "Partial Contrastive Learning for Partially View-Aligned Multi-View Clustering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3695011",
+  "title": "BrushEdit: All-in-One Image Inpainting and Editing",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3695094",
+  "title": "SeqPE: Transformer With Sequential Position Encoding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3695885",
+  "title": "FocalClick-XL: Toward Unified and High-Quality Interactive Segmentation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696126",
+  "title": "Scaling up Occupancy-Centric Driving Scene Generation: Dataset and Method",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696154",
+  "title": "A Variational Mean-Field Control Framework for Graph Representation Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696225",
+  "title": "A Bayesian Hierarchical Framework for Non-Linear and Iterative Transfer Learning of Gaussian Process",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696331",
+  "title": "Scanpath Prediction in Panoramic Videos via Expected Code Length Minimization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696385",
+  "title": "Learning From Crowds With Multiple Feature Dynamic Fusion-Based Annotation Generation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696399",
+  "title": "CoDA: Color Distribution Probing for Efficient and Generalizable AI-Generated Image Detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696458",
+  "title": "Moment-Reenacting: Inverse Motion Degradation With Cross-Shutter Guidance",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696678",
+  "title": "How Far are We From Generating Missing Modalities With Foundation Models?",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3696843",
+  "title": "Decoupled Seg Tokens Make Stronger Reasoning Video Segmenter and Grounder",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697127",
+  "title": "DisenTS: Disentangled Channel Evolving Pattern Modeling for Multivariate Time Series Forecasting",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697145",
+  "title": "Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697332",
+  "title": "Privacy-Preserving Online Federated Learning for Massive Infinite Streams",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697367",
+  "title": "Ego-R1: Agentic Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697442",
+  "title": "Adaptive Point-Prompt Tuning: Fine-Tuning Heterogeneous Foundation Models for 3D Point Cloud Analysis",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697508",
+  "title": "Multi-Source Fusion Positioning Revisited by Drawing on Human Thinking Process",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697632",
+  "title": "Task-Tailored Pre-Processing: Fair Downstream Supervised Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697634",
+  "title": "AeroVerse: UAV-Agent Benchmark Suite for Simulating, Pre-Training, Finetuning, and Evaluating Aerospace Embodied Foundation Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697683",
+  "title": "QuantSR+: Pushing the Limit of Quantized Image Super-Resolution Networks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697759",
+  "title": "EVDI++: Event-Based Video Deblurring and Interpolation via Self-Supervised Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697815",
+  "title": "RPCANet$^{++}$: Deep Interpretable Robust PCA for Sparse Object Segmentation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697828",
+  "title": "Paving the Way for Point Cloud Video Representation Learning Using a PDE Model",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697912",
+  "title": "Wisdom is Knowledge Combined With Intellect: Knowledge-Embedded Hypergraph-of-Thought Reasoning for Visual Abductive Ratiocination",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697944",
+  "title": "SGFormer: Simplifying and Scaling Graph Transformers With Single-Layer Attention and Approximation-Free Linear Complexity",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3697976",
+  "title": "FiNE: Fine-Grained Neuron-Level Model Editing for Reliable and Safe LLMs",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3698087",
+  "title": "DBHN-Net: Dual-Branch Hybrid Neural Network for Low-Complexity Monaural Speech Enhancement",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3698232",
+  "title": "High-Quality Entity Segmentation and Grounding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3698334",
+  "title": "SignMoD: Sign Language Video Generation via Mixture of Diffusion",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3698451",
+  "title": "Promoting Generalization for Exact Combinatorial Solvers via Adversarial Instance Augmentation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3698837",
+  "title": "Robustness of SAM: Segment Anything Under Corruptions and Beyond",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3699626",
+  "title": "Federated Learning via Variational Bayesian Inference: Personalization, Sparsity and Clustering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3699758",
+  "title": "GVHMR: Gravity-View Coordinates for Global Human Motion Recovery From Monocular Videos",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3699945",
+  "title": "Optimizing Trust and Safety Regions for Text-to-Image Generation in High-Dimensional Manifold Spaces",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3699990",
+  "title": "3-D Moiré Projection Model for Super-Resolution Point Localization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700146",
+  "title": "LaVIDE: Language-Prompted Satellite Change Detection via Map-Image Alignment",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700151",
+  "title": "A Unified Framework for Pseudo-Supervised Clustering via Weighted Sample Aggregation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700158",
+  "title": "Deciphering Object Concepts: Hierarchical Cross-Modal Relational Reasoning for Mining Object-Attribute-Affordance Associations",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700227",
+  "title": "SJD++: Improved Speculative Jacobi Decoding for Training-Free Acceleration of Discrete Auto-Regressive Text-to-Image Generation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700402",
+  "title": "UniMM: A Unified Mixture Model Framework for Multi-Agent Simulation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700583",
+  "title": "MPQ-DMv2: Flexible Residual Mixed Precision Quantization for Low-Bit Diffusion Models With Temporal Distillation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700787",
+  "title": "Crafting Your Evolving Dreams: Concept-Incremental Versatile Customization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700822",
+  "title": "CuDi: Curve Distillation for Efficient and Controllable Exposure Adjustment",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700851",
+  "title": "Selecting and Distilling Cross-Label Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3700887",
+  "title": "DroneSplat+: Semantics-Enhanced 3D Gaussian Splatting for Robust 3D Reconstruction From In-the-Wild Drone Imagery",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701032",
+  "title": "Person-in-WiFi 3D: Unified Model for 3D WiFi Perception",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701079",
+  "title": "Federated Clustering: An Overview of Algorithm Evolution and Research Prospects",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701287",
+  "title": "LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701328",
+  "title": "Single-Stage Instance Segmentation Survey: A “1+2+3” Technical Framework",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701408",
+  "title": "Transformers With Joint Tokens and Local-Global Attention for Efficient Human Pose Estimation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701743",
+  "title": "Complete Fuzzy Knowledge Representation With Knowledge Graph Embedding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3701928",
+  "title": "Efficient Inference for Large Reasoning Models: A Survey",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3702168",
+  "title": "Revisiting InternVL: A Systematic Technical Framework for Building Powerful Open-Source Vision-Language Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3702239",
+  "title": "A Theoretical Characterization of the Good Properties of Extremely Randomized Trees for Random Forest-Distance Computation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3702798",
+  "title": "LIFT+: Lightweight Fine-Tuning for Long-Tail Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3702808",
+  "title": "iPathWS: An Integrated Scalable System for Explainable Pathology Diagnosis With Spectral Heterogeneity Engine Networks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703017",
+  "title": "Negation-Aware Test-Time Adaptation for Vision-Language Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703038",
+  "title": "Aligning Perception, Reasoning, Modeling and Interaction: A Survey on Physical AI",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703395",
+  "title": "Dataset Pruning: Reducing Training Data by Examining SGD-Influence",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703439",
+  "title": "Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703554",
+  "title": "Stochastic Approximation Approaches to Group Distributionally Robust Optimization and Beyond",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703828",
+  "title": "Generalized Kullback–Leibler Divergence Loss",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3703974",
+  "title": "Feature-Space Planes Searcher: A Universal Domain Adaptation Framework for Interpretability and Computational Efficiency",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704202",
+  "title": "No One-Size-Fits-All Neurons: Task-Based Neurons for Artificial Neural Networks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704304",
+  "title": "Multi-View Causal Feature Selection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704314",
+  "title": "A Survey of Direct Preference Optimization: Datasets, Theories, Variants, and Applications",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704447",
+  "title": "A Non-Local Convergence Analysis of Gradient Flow for Deep Linear Networks",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704481",
+  "title": "Decomposition for Bayesian Networks: Local and Parallel Inference",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704538",
+  "title": "Exploring the Stochastic Regularisation in Normalisation Layers for Semi-Supervised Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704589",
+  "title": "XOV-Action: Toward Generalizable Open-Vocabulary Action Recognition",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704679",
+  "title": "Enhancing X-Ray Image Classification Through Heterogeneous Federated Learning With Natural Image-Augmented Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704719",
+  "title": "Adaptive Variational Inference: Beyond Bethe, Tree-Reweighted, and Convex Free Energies",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704741",
+  "title": "Looking Broader for Knowledge Distillation via Receptive-Field Alignment",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704810",
+  "title": "Breathing New Life Into Small Object Detection With Detection-Oriented Rectification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3704972",
+  "title": "DiRIC: Diffusion Prior Refinement for Efficient Low-Rate Image Compression",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705184",
+  "title": "From Global to Granular: Revealing IQA Model Performance via Correlation Surface",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705213",
+  "title": "RAC-Net: Interpretable Medical Small Target Segmentation Network With X-Ray Radiation Attenuation Characterization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705256",
+  "title": "Improving Viewpoint Robustness for Visual Recognition via Adversarial Training",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705535",
+  "title": "Robust Model Fitting via Motion-Aware Pyramid Transformer-Guided Preference Filtering and Consensus Smoothing",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705778",
+  "title": "Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3705888",
+  "title": "MoE-Enhanced Explainable Deep Manifold Transformation for Complex Data Embedding and Visualization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3706097",
+  "title": "Bridging Information Asymmetry: A Hierarchical Framework for Deterministic Blind Face Restoration",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3706492",
+  "title": "Forensics Adapter: Unleashing CLIP for Generalizable Face Forgery Detection",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3706734",
+  "title": "Adapting Dense Vision-Language Relationships for Multi-Label Classification With Partial Label",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3707470",
+  "title": "Linearly Solving Robust Rotation Estimation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3707616",
+  "title": "LoRASculpt: Harmonious Low-Rank Adaptation for Multimodal Large Language Models",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3707682",
+  "title": "Raising the Bar in Graph OOD Generalization: Invariant Learning Beyond Explicit Environment Modeling",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708125",
+  "title": "Learning Shape Anchors for Holistic Indoor Scene Understanding",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708185",
+  "title": "MonSter++: Unified Stereo Matching, Multi-View Stereo, and Real-Time Stereo With Monodepth Priors",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708244",
+  "title": "EAR-Net: Pursuing End-to-End Absolute Rotations From Multi-View Images",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708265",
+  "title": "Relation DETR+: Exploring Explicit Position Relation Prior for Dense Prediction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708284",
+  "title": "CAFE: Cross-View Adaptive Fusion and Cluster Center Enhancement for Robust Multi-View Clustering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708405",
+  "title": "Ethics-Aware Safe Reinforcement Learning for Rare-Event Risk Control in Interactive Urban Driving",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708591",
+  "title": "Industrial Brain: Self-Evolving Neuro-Symbolic Autonomy With Causal Resilience for Cyber-Physical Systems",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708691",
+  "title": "Mixture of Global and Local Experts With Diffusion Transformer for Controllable Face Generation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708708",
+  "title": "Task-KV: Task-Aware KV Cache Optimization via Semantic Differentiation of Attention Heads",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708762",
+  "title": "Achieving Text-Based Person Retrieval With Any Granularity",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708824",
+  "title": "HardFlow: Hard-Constrained Sampling for Flow-Matching Models via Trajectory Optimization",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3708904",
+  "title": "Adaptive Hardness-Driven Dictionary Distillation for Incomplete Streaming View Clustering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3709368",
+  "title": "TraGraph-GS: Trajectory Graph-based Gaussian Splatting for Arbitrary Large-Scale Scene Rendering",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3709672",
+  "title": "SWIFT: A Small-World Interaction Framework for Flow-Aware Trajectory Prediction in Autonomous Driving",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3710189",
+  "title": "Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3710196",
+  "title": "Learning Topology-Aware Representations via Test-Time Adaptation for Anomaly Segmentation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3710409",
+  "title": "Image Restoration via Multi-Domain Learning",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3710585",
+  "title": "A Comprehensive Survey on Multimodal Recommender Systems: Taxonomy, Evaluation, and Future Directions",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3710841",
+  "title": "Robust 3D Semantic Occupancy Prediction With Calibration-Free Spatial Transformation",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3711593",
+  "title": "Language-4D Cross-Boosting for Generalized Zero-Shot 6DoF Tracking and 3D Reconstruction",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3711750",
+  "title": "PCBClip: Vision-Language Defect Detection Model for Low-Sample Inspection Systems",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "collection_sources": [
+   "crossref"
+  ]
+ },
+ {
+  "doi": "10.1109/tpami.2026.3712710",
+  "title": "Reliable Uncertainty Estimation via Discriminative Feature Learning for Evidential Deep Classification",
+  "year": 2026,
+  "date": "2026-10",
+  "source": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
   "collection_sources": [
    "crossref"
   ]

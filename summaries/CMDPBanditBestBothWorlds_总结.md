@@ -5,7 +5,7 @@
 - **标题**: Policy optimization for CMDPs with bandit feedback: Best-of-both-worlds and beyond
 - **作者**: Francesco Emanuele Stradi, Anna Lunghi, Matteo Castiglioni, Alberto Marchesi, Nicola Gatti
 - **期刊 / 会议**: Artificial Intelligence 2026
-- **发表**: 2026-09-01（2026-07-19 在线发布）
+- **发表**: 2026-07-19
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104589

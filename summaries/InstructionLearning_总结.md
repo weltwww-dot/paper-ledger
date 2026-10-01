@@ -1,6 +1,7 @@
 # Instruction Learning Paradigms: A Dual Perspective on White-Box and Black-Box LLMs 总结
 
 ## 基本信息
+- **发表**: 2026-08-22
 
 - 标题: Instruction Learning Paradigms: A Dual Perspective on White-Box and Black-Box LLMs
 - 作者: Yanwei Ren、Liu Liu、Baosheng Yu et al.

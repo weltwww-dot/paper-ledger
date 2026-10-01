@@ -5,7 +5,7 @@
 - **标题**: (α, β)-Core Query on Structured Encrypted Bipartite Graph
 - **作者**: Yulin Wu, Lanxiang Chen, Yi Mu, Robert H. Deng
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-20
 - **内容状态**: 完整 · 已基于机构授权全文（中国农业大学订阅通道）完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3714883

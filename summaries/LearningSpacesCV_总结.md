@@ -1,6 +1,7 @@
 # Distribution-Free Deviation Bounds and the Role of Domain Knowledge in Learning via Model Selection with Cross-Validation Risk Estimation 总结
 
 ## 基本信息
+- **发表**: 2026-09-07
 
 - 标题: Distribution-Free Deviation Bounds and the Role of Domain Knowledge in Learning via Model Selection with Cross-Validation Risk Estimation
 - 作者: Diego Marcondes、Claudia Peixoto

@@ -12,6 +12,7 @@
   /* 共享模块：解析器 + 存储引擎（index.html 在 app.js 之前加载） */
   const Parser = window.PaperParser;
   const ThemeStats = window.ThemeStats;
+  const PublicationWindow = window.PublicationWindow;
   const store = window.LedgerStore.create({
     seed:
       typeof window !== "undefined" && Array.isArray(window.PAPERLEDGER_SEED)
@@ -28,7 +29,6 @@
   let pulseHotAll = false;
   let showAll = false;
   const PULSE_HOT_LIMIT = 10;
-  const WINDOW_DAYS = ThemeStats.WINDOW_DAYS_DEFAULT;
   const PRIMARY_DIRECTIONS = ["人工智能", "信息安全"];
   const SECURITY_DIRECTION_SIGNALS = /安全|隐私|密码|区块链|信息隐藏|数字水印|安全通信|secure|security|privacy|cyber|cryptography/i;
 
@@ -60,12 +60,7 @@
 
   /* 统计窗口起点：最近 N 天（含今天）对应的 YYYY-MM-DD */
   function statsSince() {
-    const d = new Date();
-    d.setDate(d.getDate() - (WINDOW_DAYS - 1));
-    const y = d.getFullYear();
-    const mo = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}-${mo}-${day}`;
+    return PublicationWindow.windowStart();
   }
 
   function visiblePapers() {
@@ -327,7 +322,7 @@
     const trend = ThemeStats.trend(scopePapers);
     if (count) {
       count.textContent = scopePapers.length
-        ? `近 ${WINDOW_DAYS} 天 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
+        ? `近三个月 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
         : "";
     }
 
@@ -366,8 +361,8 @@
     trendList.textContent = "";
     if (trendHint) {
       trendHint.textContent = trend.olderN
-        ? `近 ${WINDOW_DAYS} 天内：最新 ${trend.recentN} 篇 vs 其余 ${trend.olderN} 篇 · 占比变化`
-        : `近 ${WINDOW_DAYS} 天内：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
+        ? `近三个月内：最新 ${trend.recentN} 篇 vs 其余 ${trend.olderN} 篇 · 占比变化`
+        : `近三个月内：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
     }
     const MIN_DELTA = 0.05; // 5 个百分点以上才算明显变化；「新进」需至少出现 2 次
     const upRows = trend.rows
@@ -400,10 +395,10 @@
     if (trendEmpty) {
       trendEmpty.hidden = upRows.length + downRows.length !== 0;
       trendEmpty.textContent = scopePapers.length < 2
-        ? `近 ${WINDOW_DAYS} 天窗口内论文还太少，积累几轮更新后这里会自动出现趋势。`
+        ? `近三个月内论文还太少，积累几轮更新后这里会自动出现趋势。`
         : !trend.olderN
-          ? `近 ${WINDOW_DAYS} 天窗口内不足 13 篇，尚无法切出两个窗口。`
-          : "近 90 天窗口内两个分组的主题占比没有明显变化。";
+          ? `近三个月内不足 13 篇，尚无法切出两个窗口。`
+          : "近三个月内两个分组的主题占比没有明显变化。";
     }
   }
 
@@ -541,6 +536,10 @@
   const submitBtn = document.querySelector("#f-submit");
 
   const rules = {
+    "f-published": {
+      validate: (v) => PublicationWindow.classify(v) === 'recent',
+      error: '仅可录入最近三个月的论文，请填写有效的在线发表日期。',
+    },
     "f-title": {
       validate: (v) => v.trim().length >= 2,
       error: "缺少论文标题。填上正式标题后再录入。",
@@ -748,6 +747,11 @@
     parsedEntry.direction = importDirection.value.trim();
     parsedEntry.tags = ThemeStats.splitTags(importTags.value);
     if (importPublished) parsedEntry.published = importPublished.value.trim() || "";
+    if (PublicationWindow.classify(parsedEntry.published) !== 'recent') {
+      importHelp.textContent = '仅可录入最近三个月的论文，请补齐并核实在线发表日期。';
+      importHelp.classList.add('field__helper--error');
+      return;
+    }
     importConfirmBtn.dataset.state = "loading";
     importConfirmBtn.disabled = true;
     window.setTimeout(() => {

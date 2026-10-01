@@ -132,7 +132,7 @@ def inventory_from_summaries():
     doi_pattern = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.I)
     doi_field = re.compile(r"^\s*-\s*\*\*DOI\*\*\s*:\s*(.+?)\s*$", re.I | re.M)
     title_field = re.compile(r"^\s*-\s*\*\*标题\*\*\s*:\s*(.+?)\s*$", re.M)
-    for path in SUMMARIES.glob("*.md"):
+    for path in list(SUMMARIES.glob("*.md")) + list((SUMMARIES / 'date-unverified').glob('*.md')):
         text = path.read_text(encoding="utf-8")
         title_match = title_field.search(text)
         if title_match:
@@ -148,10 +148,15 @@ def local_known_inventory(baseline_dois):
     """Return every locally known paper, including work staged after the baseline."""
     papers = papers_from_data() if DATA_FILE.exists() else []
     summary_dois, summary_titles = inventory_from_summaries()
+    retired_file = ROOT / 'data' / 'retired-papers.json'
+    retired_dois = []
+    if retired_file.exists():
+        retired_dois = [item['doi'] for item in json.loads(retired_file.read_text(encoding='utf-8'))['retired']]
     dois = _unique_normalized(
         list(baseline_dois or [])
         + [paper.get("doi") for paper in papers]
         + summary_dois
+        + retired_dois
     )
     titles = _unique_normalized(
         [paper.get("title") for paper in papers]

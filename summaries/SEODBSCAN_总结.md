@@ -5,7 +5,7 @@
 - **标题**: SEO-DBSCAN: Securely and Efficiently Outsourcing Density-Based Clustering
 - **作者**: Ke Cheng, Xinghui Zhu, Jiaxuan Fu, Zhiwei Zhang, Jian Yang, Aijing Sun, Haichang Gao, Yulong Shen
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-08
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3711460

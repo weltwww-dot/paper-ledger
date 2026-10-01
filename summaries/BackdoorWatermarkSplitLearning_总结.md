@@ -5,7 +5,7 @@
 - **标题**: Backdoor-Based Watermarking in Multi-Client Split Learning
 - **作者**: Yao Zhao, Juan Zhao, Zahir Tari, Nasrin Sohrabi, Fu Xiao
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-09
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3712080

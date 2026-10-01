@@ -32,8 +32,12 @@ const dates = [
   ["missing", ""],
   ["older-iso", "2026-09-09"],
   ["prior-year", "2025-12-31"],
+  ["august", "2026-08-01"],
+  ["boundary", "2026-07-01"],
+  ["expired", "2026-06-30"],
+  ["future", "2026-10-02"],
 ];
-const expectedOrder = ["same-iso", "same-zh", "older-iso", "year-only", "prior-year", "invalid-day", "invalid-text", "missing"];
+const expectedOrder = ["same-iso", "same-zh", "older-iso", "august", "boundary"];
 const seed = dates.map(([id, published]) => ({
   id,
   title: id === "same-iso" ? longToken : `Regression ${id}`,
@@ -52,7 +56,14 @@ const seed = dates.map(([id, published]) => ({
 
 let server;
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-html = html.replace(/<script src="data\/papers\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script>window.PAPERLEDGER_SEED = ${JSON.stringify(seed)};</script>`);
+html = html.replace(/<script src="data\/papers\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script>
+  const NativeDate = Date;
+  window.Date = class extends NativeDate {
+    constructor(...args) { super(...(args.length ? args : ['2026-10-01T04:00:00Z'])); }
+    static now() { return NativeDate.parse('2026-10-01T04:00:00Z'); }
+  };
+  window.PAPERLEDGER_SEED = ${JSON.stringify(seed)};
+</script>`);
 html = html.replace("</body>", `<output id="site-regressions-test"></output>
   <script>
     const expectedOrder = ${JSON.stringify(expectedOrder)};

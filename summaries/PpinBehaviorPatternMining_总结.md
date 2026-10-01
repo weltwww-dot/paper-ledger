@@ -5,7 +5,7 @@
 - **标题**: PPIN: Anomaly-Based Intrusion Detection on Provenance Graph via Behavior Pattern Mining
 - **作者**: Dingwei Liu, Zhenyu Li, Zhibin Zhang, Zhaohua Wang, Jin Yan
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-03
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3710034

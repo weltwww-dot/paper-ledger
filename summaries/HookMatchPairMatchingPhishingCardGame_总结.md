@@ -5,7 +5,7 @@
 - **标题**: Hook & Match - Development and Evaluation of a Pair Matching Phishing Card Game
 - **作者**: B. Berens, Sebastian Pape, Melanie Volkamer
 - **期刊 / 会议**: ACM TOPS 2026
-- **发表**: 2026-08-17
+- **发表**: 2026-09-07
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1145/3833421

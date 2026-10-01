@@ -52,6 +52,7 @@ def _layout_check(log: Callable[[str], None], context: str) -> None:
 def _standard_checks(include_pdf_integrity: bool) -> list[Check]:
     """Return the non-browser gates without running a weaker duplicate PDF check."""
     checks: list[Check] = [
+        ("近三个月收录范围检查", lambda: subprocess.run(["node", ROOT / "scripts" / "retention-check.js"],cwd=str(ROOT)).returncode,"收录范围未通过，不能继续。"),
         ("中文六段式摘要闸门检查", summary_gate.check, "中文摘要闸门未通过，不能继续。"),
         ("中文文案质量闸门检查", summary_quality_gate.check, "中文文案质量闸门未通过，不能继续。"),
         ("主题标签闸门检查", theme_gate.check, "主题标签闸门未通过，不能继续。"),

@@ -5,7 +5,7 @@
 - **标题**: APKOS: Accurate and Privacy-Preserving Keyword Spotting for Intelligent Voice Assistant Systems
 - **作者**: Peijia Zheng, Jingyi Chen, Zhuoyuan Chen, Huiyu Zhou
 - **期刊 / 会议**: ACM TOPS 2026
-- **发表**: 2026-08-26
+- **发表**: 2026-09-24
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1145/3838797

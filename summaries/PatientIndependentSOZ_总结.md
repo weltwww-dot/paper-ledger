@@ -1,6 +1,7 @@
 # Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision 总结
 
 ## 基本信息
+- **发表**: 2026-08-31
 
 - **内容状态**: 完整 · 已基于全文完成中文六段式总结
 - **标题**: Patient-independent seizure onset zone localization with generalizable feature learning and multi-task supervision

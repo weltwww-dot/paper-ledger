@@ -11,6 +11,7 @@ const path = require("path");
 const os = require("os");
 const { spawnSync } = require("child_process");
 const Parser = require(path.join(__dirname, "..", "shared", "paper-parser.js"));
+const PublicationWindow = require(path.join(__dirname, "..", "shared", "publication-window.js"));
 
 const ROOT = path.resolve(__dirname, "..");
 const SUMMARIES_DIR = path.join(ROOT, "summaries");
@@ -20,6 +21,8 @@ const THEME_FILE = path.join(OUT_DIR, "theme-tags.json");
 const fillThemes = process.argv.includes("--fill-themes");
 const pythonArg = process.argv.indexOf("--python");
 const python = pythonArg >= 0 && process.argv[pythonArg + 1] ? process.argv[pythonArg + 1] : "python";
+const dateArg = process.argv.indexOf('--as-of');
+const asOf = dateArg >= 0 ? process.argv[dateArg + 1] : PublicationWindow.today();
 
 function fillMissingThemes(papers) {
   const temporary = path.join(os.tmpdir(), `paper-ledger-themes-${process.pid}-${Date.now()}.json`);
@@ -125,7 +128,19 @@ function main() {
   }
 
   const knownOrder = existing.map((ex) => replacements.get(ex.id) || ex);
-  const ordered = [...fresh, ...knownOrder].map(({ _file, ...p }) => p);
+  const retiredPath = path.join(OUT_DIR, 'retired-papers.json');
+  const retired = new Set(fs.existsSync(retiredPath)
+    ? JSON.parse(fs.readFileSync(retiredPath,'utf8')).retired.map(p => String(p.doi).trim().toLowerCase()) : []);
+  const heldDir = path.join(SUMMARIES_DIR, 'date-unverified');
+  if (fs.existsSync(heldDir)) {
+    for (const file of fs.readdirSync(heldDir).filter(name => name.endsWith('.md'))) {
+      const entry = Parser.parseSummary(fs.readFileSync(path.join(heldDir, file), 'utf8'));
+      if (entry.doi) retired.add(String(entry.doi).trim().toLowerCase());
+    }
+  }
+  const ordered = PublicationWindow.filterRecent([...fresh, ...knownOrder], asOf)
+    .filter(p => !retired.has(String(p.doi || '').trim().toLowerCase()))
+    .map(({ _file, ...p }) => p);
   if (fillThemes) fillMissingThemes(ordered);
   attachTags(ordered, loadThemeMap());
 
@@ -139,12 +154,14 @@ function main() {
   let indexSrc = fs.readFileSync(indexFile, "utf8");
   const next = `data/papers.js?v=${stamp}`;
   indexSrc = indexSrc.replace(/data\/papers\.js(\?v=[a-z0-9]+)?/g, next);
+  indexSrc = indexSrc.replace(/(shared\/publication-window\.js|shared\/ledger-store\.js|app\.js)(\?v=[a-z0-9]+)?/g, `$1?v=${stamp}`);
   fs.writeFileSync(indexFile, indexSrc, "utf8");
 
   console.log(`已同步 ${ordered.length} 篇 → data/papers.js`);
   console.log(`版本号已更新 → index.html 引用 ${next}`);
-  if (fresh.length) {
-    console.log("新增:", fresh.map((p) => "  " + p.title.slice(0, 70)).join("\n"));
+  const added = ordered.filter(p => !existingByDoi.has(String(p.doi || '').trim().toLowerCase()));
+  if (added.length) {
+    console.log("新增:", added.map((p) => "  " + p.title.slice(0, 70)).join("\n"));
   } else {
     console.log("无新增总结。");
   }

@@ -5,7 +5,7 @@
 - **标题**: SLIMQ: Secure Lightweight Online/Offline Multi-Dimensional Range Query in Cloud
 - **作者**: Tianyu Wei, Yandong Zheng, Hui Zhu, Xue Yang, Songnian Zhang
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-20
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3715456

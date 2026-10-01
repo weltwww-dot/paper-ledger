@@ -142,6 +142,18 @@ function main() {
   const content = new Map(readJson(CONTENT_FILE).map((item) => [String(item.doi).toLowerCase(), item]));
   const known = new Set(existingPapers().map((paper) => String(paper.doi || "").toLowerCase()));
   for (const doi of existingSummaryDois()) known.add(doi);
+  const retiredFile = path.join(ROOT, 'data', 'retired-papers.json');
+  if (fs.existsSync(retiredFile)) {
+    for (const item of readJson(retiredFile).retired) known.add(String(item.doi).toLowerCase());
+  }
+  const heldDir = path.join(SUMMARIES, 'date-unverified');
+  if (fs.existsSync(heldDir)) {
+    for (const file of fs.readdirSync(heldDir).filter(name => name.endsWith('.md'))) {
+      const text = fs.readFileSync(path.join(heldDir, file), 'utf8');
+      const match = text.match(/^\s*(?:-\s*)?\*?\*?DOI\*?\*?\s*:\s*([^\s]+)/im);
+      if (match) known.add(match[1].toLowerCase().replace(/[),.;]+$/, ''));
+    }
+  }
 
   const fresh = records.filter((record) => !known.has(String(record.doi).toLowerCase()));
   if (dryRun) {

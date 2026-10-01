@@ -5,7 +5,7 @@
 - **标题**: Learning capacity allocation for stable sequential learning in recurrent spiking neural networks
 - **作者**: Yingchao Yu, Yaochu Jin, Kuangrong Hao, Yuchen Xiao, Yuping Yan, Hengjie Yu, Zeqi Zheng, Wenxuan Pan
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026
+- **发表**: 2026-09-05
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109590

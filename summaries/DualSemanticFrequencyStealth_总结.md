@@ -5,7 +5,7 @@
 - **标题**: Beyond Single-Pair Attacks: Disrupting Vision-Language Pre-Training Models With Dual-Semantic Frequency Stealth
 - **作者**: Haiqi Zhang, Ziqiang Li, Hao Tang, Zechao Li
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01（电子版发布 2026-07-14，录用 2026-07-11，刊于 Vol. 23, No. 5, 2026 年 9–10 月期）
+- **发表**: 2026-07-14
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3713210

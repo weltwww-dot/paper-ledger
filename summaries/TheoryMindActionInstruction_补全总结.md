@@ -4,7 +4,7 @@
 - **标题**: Theory of Mind in Action: The Instruction Inference Task in Dynamic Human-Agent Collaboration
 - **作者**: Fardin Saada, Pradeep K. Murukannaiah, Munindar P. Singh
 - **期刊 / 会议**: Artificial Intelligence 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-09-06
 - **内容状态**: 完整 · 已基于核验 PDF 全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.artint.2026.104621

@@ -5,7 +5,7 @@
 - **标题**: Traceable Registered Functional Encryption for Unbounded Inner Product in Web Service Platforms
 - **作者**: Jinmei Tian, Jianting Ning, Jian Shen, Kai Zhang, Weijing You, Lefeng Zhang
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-07-23
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3716326

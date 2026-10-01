@@ -5,7 +5,7 @@
 - **标题**: Systematic Evaluation of Dataset Watermarking for Intellectual Protection
 - **作者**: Zhen Lu, Boyu Kuang, Peng Wang, Yifeng Zheng, Anmin Fu, Yansong Gao
 - **期刊 / 会议**: IEEE Transactions on Dependable and Secure Computing 2026
-- **发表**: 2026-09-01（Vol. 23, No. 5, September/October 2026；全文标注 2026-07-07 在线发表）
+- **发表**: 2026-07-07
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 信息安全
 - **DOI**: 10.1109/tdsc.2026.3710863

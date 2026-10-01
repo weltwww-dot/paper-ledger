@@ -5,7 +5,7 @@
 - **标题**: Unsupervised Motion Artifact Purification Guided by Joint Prior from Pixel and K-space Domains
 - **作者**: Jiahua Xu、Dawei Zhou、Lei Hu、Jianfeng Guo、Feng Yang、Zaiyi Liu、Nannan Wang、Xinbo Gao
 - **期刊 / 会议**: Neural Networks 2026
-- **发表**: 2026-09-01
+- **发表**: 2026-09-05
 - **内容状态**: 完整 · 已基于机构授权全文完成中文六段式总结
 - **研究方向**: 人工智能
 - **DOI**: 10.1016/j.neunet.2026.109573

@@ -1,6 +1,7 @@
 # Self-supervised multi-modal imitation learning under skewed trajectory demonstrations 总结
 
 ## 基本信息
+- **发表**: 2026-09-02
 
 - **内容状态**: 完整 · 已基于全文完成中文六段式总结
 - **标题**: Self-supervised multi-modal imitation learning under skewed trajectory demonstrations

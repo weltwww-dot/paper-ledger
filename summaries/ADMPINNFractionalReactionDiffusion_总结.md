@@ -1,6 +1,7 @@
 # A semi-analytical fractional order neural network framework for two-dimensional time fractional reaction-diffusion problems 总结
 
 ## 基本信息
+- **发表**: 2026-08-31
 - **内容状态**: 完整 · 已基于全文完成中文六段式总结
 - **标题**: A semi-analytical fractional order neural network framework for two-dimensional time fractional reaction-diffusion problems
 - **作者**: Arihant Patawari, Pratibhamoy Das, Subrata Rana
