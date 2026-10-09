@@ -1,5 +1,5 @@
 {
- "captured_on": "2026-10-01",
- "legacy_partial_pdf_max": 2,
- "note": "历史遗留：已有顶层 PDF 但只完成摘要级内容的条目上限。后续只能下降，不得增加。"
+ "captured_on": "2026-10-09",
+ "legacy_partial_pdf_max": 0,
+ "note": "两条历史正文债已据完整PDF重写总结；已有PDF却只完成摘要级总结的允许数量归零。后续必须读全文完成中文六段式后入库，不得增加此类partial条目。"
 }

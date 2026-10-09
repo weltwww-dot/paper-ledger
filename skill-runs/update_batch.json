@@ -1,20 +1,12 @@
 {
   "schema": 1,
-  "run_date": "2026-10-01",
+  "run_date": "2026-10-09",
   "baseline_date": "2026-09-22",
-  "fingerprint": "f47a68f6703564c6c1c0296399df25014615c73bc1026e9192c28fdb36bddf0f",
+  "fingerprint": "fc1f133f6f7499574ac27fbb75bd01f35ef5421c882f7320da055654cddfa9f0",
   "stages": {
     "collection": {
       "complete": true,
-      "completed_at": "2026-10-01"
-    },
-    "oa": {
-      "complete": true,
-      "completed_at": "2026-10-01"
-    },
-    "content": {
-      "complete": true,
-      "completed_at": "2026-10-01"
+      "completed_at": "2026-10-09"
     }
   }
 }
