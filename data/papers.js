@@ -1,6 +1,105 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Exploratory empirical evaluation of the cyber-resistivity maturity and scoring framework (CRMSF): a multi-sector pilot study",
+    "authors": "Konstantinos Papachristofis、Georgios Vardoulias、Konstantinos Vavousis、Costas Iordanou、Yianna Danidou",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-10-09",
+    "contentState": "complete",
+    "contentNote": "已依据出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10207-026-01329-8",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_CRMSFMultiSectorPilot.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01329-8",
+    "direction": "信息安全",
+    "summary": "论文通过跨行业从业者试点，评估 CRMSF 网络安全成熟度与韧性框架的结构完整性、可用性和决策支持价值；获得的是参与者认可度的初步证据，并非组织安全成效或评分算法有效性的验证。",
+    "question": "传统成熟度模型偏重合规与静态控制，难以结合组织规模、资源约束和业务风险安排改进优先级。CRMSF 将预防、检测、响应和恢复纳入统一结构，本研究检验实际从业者是否认为这种结构清晰、相关且可用。",
+    "method": "框架包含七个领域、24 类安全能力，并结合成熟度、权重、复杂度、关键性及可选风险调整机制。研究邀请从业者使用自评工具约两个月，再以55项问卷、开放式反馈和专家讨论开展混合方法评估；分析单位是参与者对框架的评价，未收集组织实际评分或改进成效。",
+    "experiments": "34名受邀者中26人完成研究，其中23人进入李克特量表分析。七个领域的平均认可评分为4.30—4.54分（满分5分）；方法部分报告的 Cronbach’s α 为0.722—0.945，支持量表的初步内部一致性。定性反馈认可其清晰度与优先级支持，但这些结果不能解释为实际安全能力提升，也没有证明它优于 ISO/IEC 27001 或 NIST 等框架。",
+    "contribution": "贡献在于将统一安全与韧性评估框架交给实际从业者试用，并区分“感知价值”和“已验证效果”。样本小且采用目的抽样，26人中24人的组织总部位于希腊；自选择、社会期许和评分天花板效应限制了外推。评分计算、跨规模适用性、长期改进效果及严格对照比较仍待独立验证。\n---\nDOI: 10.1007/s10207-026-01329-8 | 📄 [PDF](papers/IJIS_2026_CRMSFMultiSectorPilot.pdf)",
+    "sample": false,
+    "id": "r-3xjmzj",
+    "tags": [
+      "系统与网络安全"
+    ]
+  },
+  {
+    "title": "KARAMEL: Knowledge-Aware Ranking for Multimodal Entity Linking in the Arts via Heterogeneous Graphs",
+    "authors": "Raffaele Scaringi、Alejandro Sierra-Múnera、Gennaro Vessio、Giovanna Castellano、Ralf Krestel",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-10",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10994-026-07172-1",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_KARAMELMultimodalEntityLinking.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07172-1",
+    "direction": "人工智能",
+    "summary": "KARAMEL 融合图像、文本和艺术领域知识图谱，从作品及其描述中识别并链接显式或隐式描绘的实体。",
+    "question": "艺术作品中的实体可能未被文字点名，或只占画面一小部分；风格差异也会妨碍视觉匹配。既有方法较少利用社会历史关系，而大型通用知识图谱又带来计算和筛选难题（PDF第2–5页）。",
+    "method": "作者构建 WikiMuSA（Wikidata-based Multimodal Semantic data for Art），纳入作品图像、Wikipedia 描述及 Wikidata 关系。模型用 CLIP 编码图文、GraphSAGE 编码异构图，再综合视觉、文本、跨模态和图谱四类分数排序，并以对比损失训练。数据含13,482件作品；正文列12,177个被描绘实体，表1列17,177个候选实体（PDF第1、6–12页）。",
+    "experiments": "在 WikiMuSA 和 MELArt 上，作者比较 BERT、CLIP、MIMIC 等基线，并以五个随机种子重复实验。WikiMuSA 上 KARAMEL 的 R@1 和 MAP 分别为29.67%和50.56%，MIMIC 为27.50%和47.24%；除 R@100 外，提升达到统计显著。MELArt 上差异不显著，收益主要见于隐式提及及抽象实体（PDF第13–17页）。",
+    "contribution": "论文提供含隐式提及和关系图谱的艺术领域基准，并展示结构化上下文在该任务中的作用。作者提出改进自动子图抽取和图谱与跨模态解释，并由领域专家评估译文与摘要质量。实验限于艺术领域两个数据集，跨领域效果尚未验证；MELArt 上也未证实优于 MIMIC（PDF第16、26页）。\n---\nDOI: 10.1007/s10994-026-07172-1 · PDF: [ML_2026_KARAMELMultimodalEntityLinking.pdf](papers/ML_2026_KARAMELMultimodalEntityLinking.pdf)",
+    "sample": false,
+    "id": "r-2niiow",
+    "tags": [
+      "多模态学习",
+      "图神经网络"
+    ]
+  },
+  {
+    "title": "A Survey on Loss-based Regularization for Model Generalization",
+    "authors": "Yaxing Huang、Chenhe Zhang、Renjun Xu、Qinghai Zhang",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-10",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10994-026-07139-2",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_LossBasedRegularizationSurvey.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07139-2",
+    "direction": "人工智能",
+    "summary": "本文先从适定性、稳定性与一致性建立正则化的理论视角，再按惩罚对象系统梳理 loss-based 正则化方法，并以小规模基准示例展示其效果。",
+    "question": "机器学习正则化方法虽多，但其数学基础、有效条件及方法间关系缺乏连贯解释；仅拟合有限且含噪的训练数据也容易过拟合。作者因此将正则化联系到病态问题与经验风险最小化，试图统一理论分析和方法分类（PDF第2–6页）。",
+    "method": "文章分析奇异值截断与 Tikhonov 正则化，说明后者等价于带二范数惩罚的最小二乘，并在适当条件下证明其可降低线性回归的均方误差；进而提出正则化模型应在惩罚趋零时收敛回原模型的一致性原则及一组充分条件（PDF第11–19页）。综述部分依惩罚对象分为权重（范数、稀疏、低秩）、输出、输入梯度和经验风险损失函数，归纳各类方法的机制、适用情境与选择因素（PDF第23–25、37–42页）。",
+    "experiments": "作者以 ERM 为基线，在 VGG16、VGG16-BN 及 CIFAR-10、CIFAR-100 上比较 SAM、AMP、gradient norm 和 GMP。表中最高准确率分别为 93.48%、72.72%、95.12% 和 75.96%，对应 AMP、GMP、gradient norm、gradient norm；ERM 对应值为 92.93%、71.14%、94.19%、74.49%（PDF第43页）。作者说明该比较仅作示例，各方法均使用基础数据增强，不能视为全面基准。",
+    "contribution": "贡献在于将线性正则化理论与现代 loss-based 方法衔接，提出可用于设计线性及非线性正则器的一致性准则，并提供按惩罚对象组织的分类与选择参考。作者指出不存在适用于所有任务的最佳正则器，现有方法多针对特定任务，面对跨模型或流式等复杂数据时仍不足（PDF第43页）。另从证据范围看，文中定量对比仅涉及四种方法、两种模型和两个数据集，结果适合说明示例情境，不足以支持广泛的性能排序。\n---\nDOI: 10.1007/s10994-026-07139-2 · PDF: [ML_2026_LossBasedRegularizationSurvey.pdf](papers/ML_2026_LossBasedRegularizationSurvey.pdf)",
+    "sample": false,
+    "id": "r-67zshx",
+    "tags": [
+      "机器学习方法"
+    ]
+  },
+  {
+    "title": "WSymBERT: a weighted neuro-symbolic model for interpretable CVSS prediction",
+    "authors": "Seyedeh Leili Mirtaheri、Amirhossein Majd、Reza Shahbazian、Georgios Spathoulas、Aida Akbarzadeh、Andrea Pugliese",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-10-11",
+    "contentState": "complete",
+    "contentNote": "已依据出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10207-026-01342-x",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_WSymBERTCVSSPrediction.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01342-x",
+    "direction": "信息安全",
+    "summary": "WSymBERT 将语言模型表示与安全专家知识结合，从漏洞描述预测 CVSS v3.1 的八项基本指标，再用标准公式计算严重性分数，同时单独分析预测所依赖的文本证据。",
+    "question": "人工漏洞评分难以跟上漏洞披露速度，延误补丁优先级判断。纯文本模型虽能自动预测，却可能依赖表面词语关联，且事后高亮词语不等于其决策符合安全领域逻辑。",
+    "method": "作者为八项指标分别训练独立 SBERT 模型，将专家决策树衍生词表与 KeyBERT 关键词转成符号权重，与学习得到的词元池化权重融合。没有符号命中时保留神经表示；模型之间不共享编码器，也不是一个联合多任务模型。解释性通过 Integrated Gradients 及扰动指标另行评估，不把池化权重当成因果解释。",
+    "experiments": "在 NVD 与 Combine 两个漏洞语料上，采用去重后的随机分层80%/10%/10%划分，八项基本指标的平均准确率分别为96.2%和94.7%，报告值高于文中所评估基线。归因分析在指定协议下更关注安全相关词语；这些是单次运行的观察结果，不构成统计显著性或未来漏洞泛化的证明。",
+    "contribution": "论文提供了可追溯的领域知识注入机制，并将预测性能与解释质量分开检验。局限包括未采用时间划分，缺少多随机种子、配对显著性检验和组件消融；固定词表及权重对版本变化和恶意描述的适应性尚未验证。八个独立模型的训练成本也未系统比较，不能据此宣称效率优势。\n---\nDOI: 10.1007/s10207-026-01342-x | 📄 [PDF](papers/IJIS_2026_WSymBERTCVSSPrediction.pdf)",
+    "sample": false,
+    "id": "r-1aeelgo",
+    "tags": [
+      "供应链与漏洞管理",
+      "自然语言处理",
+      "可解释AI"
+    ]
+  },
+  {
     "title": "Attack Tree Distance: A Practical Examination of Tree Similarity Measurement within Cybersecurity",
     "authors": "Nathan Schiele、Olga Gadyatskaya",
     "journal": "ACM Transactions on Privacy and Security",
@@ -3055,31 +3154,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "Backdoor-Based Watermarking in Multi-Client Split Learning",
-    "authors": "Yao Zhao, Juan Zhao, Zahir Tari, Nasrin Sohrabi, Fu Xiao",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-09",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/tdsc.2026.3712080",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_BackdoorWatermarkSplitLearning.pdf",
-    "link": "https://doi.org/10.1109/tdsc.2026.3712080",
-    "direction": "信息安全",
-    "summary": "本文提出 MarkSplit 与 MarkSplit+，首次为多客户端分割学习中的后门式模型水印提供可行方案，实现约 98% 水印检测率且主任务精度仅下降约 3%。",
-    "question": "分割学习（Split Learning, SL）将深度神经网络划分为客户端模型与服务器端模型，客户端轮流训练客户端侧部分以降低本地计算开销，其在医疗、车联网边缘智能等场景日益普及，随之而来的是模型知识产权（IP）保护问题。已有模型水印方法主要面向集中式训练或联邦学习，因 SL 的顺序训练特性而无法直接适用；仅有的 SL 水印研究也局限于单客户端。多客户端 SL 中存在三大独特挑战：C1 服务器端训练可能擦除客户端嵌入的水印；C2 共享客户端模型使后序客户端覆盖先前客户端的水印；C3 恶意客户端可通过水印洪泛（watermark flooding）故意抹除他人水印。为在争议中证明多客户端的联合所有权，需要专门面向多客户端 SL 的后门式水印方法。",
-    "method": "作者提出两种方案：面向良性环境的 MarkSplit 与面向含恶意客户端对抗场景的 MarkSplit+，并设计新型水印样本生成机制 Color-Shape-ID（CSI）。CSI 将每个客户端的水印编码为颜色、形状与客户端 ID 的三元组（c, s, i），经渲染与噪声增强生成水印样本，兼具可识别性、难度、可扩展性、鲁棒性与隐蔽性。MarkSplit 通过 mini-local、local、global 三层训练结构，在主任务与个性化水印样本的联合批次中训练，使模型反复接触所有客户端水印以防被后续训练覆盖；MarkSplit+ 由服务器依据各客户端当前水印检测精度 acci(m) 动态调整下一轮分配的水印样本数 ki(m+1)（实验中阈值 Acc=90%、缩放因子 h=0.2），以应对水印洪泛。两类方法均支持同质与非同质（Dirichlet 非 IID）数据分布，并给出通信复杂度（MarkSplit 为 T×M×n×δ）与收敛性的理论分析（Theorem 1）。",
-    "experiments": "实验采用 Ubuntu 22.04 与 2×24GB RTX 4090，覆盖 MNIST、CIFAR10、CIFAR100、FMNIST、GTSRB 五个数据集及 LeNet、AlexNet、ResNet-18、SqueezeNet、VGG13 五种模型，客户端数在 5/10/20/30 间变化，对抗场景默认随机选取 20% 恶意客户端。平均而言两种方法达到约 98% 的水印检测率，主任务精度仅下降约 3%。基线对比中，直接扩展集中式（CenB）、联邦（FLB）及单客户端 SL（SLB）基线到多客户端均失效：CenB 精度低于 23%，FLB 低于 38%，n=20 时 SLB 低于 11.25%，而 MarkSplit 均接近 100%。非同质数据下两者在全部数据集达到 100% 水印检测率；n 增至 20 时精度略有下降（如 MarkSplit+SqueezeNet 最低 86.66%）。保真度方面以 LeNet 为例，MNIST 主任务精度由 98.19% 降至 97.02%（MarkSplit）与 97.12%（MarkSplit+）。抗攻击测试（微调、剪枝、量化、后门、投毒）中 MarkSplit+ 更稳健，如 MNIST 投毒 20000 样本时仍保持 100% 水印检测率，而 MarkSplit 由 100% 降至 97.4%；洁净模型上误报率恒为 0.00%，归因于主任务与水印标签空间的显式分离。",
-    "contribution": "- 首次系统研究多客户端 SL 中的 DNN 水印问题，厘清服务器端训练擦除、客户端相互覆盖与恶意水印洪泛三类挑战。\n- 提出后门式中期嵌入方法 MarkSplit（良性场景）与 MarkSplit+（对抗场景，通过动态水印分配增强鲁棒性但资源开销更高），并配套新型水印样本生成机制 CSI。\n- 在五数据集、五模型、同质/非同质与多客户端规模下全面验证有效性、保真度与对五类攻击的鲁棒性，并提供通信复杂度与收敛性理论分析。\n- 局限：目前仅针对图像 DNN 模型，扩展至文本、音频、视频等模态或更复杂架构仍是开放问题；MarkSplit+ 依赖经验选择的参数（阈值 Acc 与缩放因子 h），未来可结合置信度与梯度统计实现自适应微调，并给出鲁棒性与动态分配对收敛影响的更严格理论分析。\n---\nDOI: 10.1109/tdsc.2026.3712080",
-    "sample": false,
-    "id": "r-1w7eorr",
-    "tags": [
-      "后门与投毒",
-      "联邦学习"
-    ]
-  },
-  {
     "title": "Decoupled information-guided cross-modal alignment for visible-infrared person re-identification",
     "authors": "Qingsong Deng, Guangqian Kong, Xun Duan, Huiyun Long",
     "journal": "Neural Networks",
@@ -3295,30 +3369,6 @@ window.PAPERLEDGER_SEED = [
     "tags": [
       "对抗与鲁棒性",
       "计算机视觉"
-    ]
-  },
-  {
-    "title": "Optimal Connectivity of Multilayer Networks: Enhancing Robustness and Security",
-    "authors": "Antônio Carlos Bastos de Godoi, Cristiane Mileo Batistela Gouvêa, José Roberto Castilho Piqueira",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-10",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/tdsc.2026.3712193",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_OptimalConnectivityMultilayerNetworks.pdf",
-    "link": "https://doi.org/10.1109/tdsc.2026.3712193",
-    "direction": "信息安全",
-    "summary": "针对双层网络中\"增加层间连边既增强鲁棒性又扩大恶意软件跨层传播路径\"的权衡，本文基于图元胞自动机与 SIR 模型证明存在最大化\"保持跨层连通且本地层不被感染\"联合概率的最优层间边数，并提出考虑个人偏好的加权评分选边方法。",
-    "question": "现代通信系统（物联网、信息物理系统等）普遍采用多层网络拓扑，多层化提升了网络能力与性能，但多条层间连接也会成为恶意软件跨层传播的通道，带来额外安全风险。减少层间连接可以抑制传播，却会增大网络因攻击断连而被完全隔离的风险，鲁棒性与安全性相互对立。已有工作（如按预算计算最优设计、随机节点攻击下最优跨层分配等）多不涉及攻击机制或恶意软件行为，也少显式研究这种权衡。本文在两层面框架中采用 SIR 流行病模型研究该问题，探讨是否存在最优层间边数，使网络在阻止恶意软件层间传播的同时最大化保持连通的可能性。",
-    "method": "- 定义两个概率测度：安全测度 PI(N)，即流行病过程达到稳态后本地层保持未感染的概率，随层间边数 N 严格递减；鲁棒性测度 PL(N)，即至少一条层间边保持未感染（两层保持连通）的概率，随 N 严格递增；并构造联合概率 PR(N) = P(I∩L)，刻画\"保持跨层连通且阻止恶意软件从外部层传至本地层\"。\n- 论证 PR 的定义域为有限整数集（1 ≤ N ≤ |E1|·|E2|），故必存在最优边数 N* 最大化 PR，且该存在性不依赖网络的具体拓扑。\n- 将双层系统行为刻画为相变：设临界阈值 k 使 PL(k) ≤ PI(k) 而 PL(k+1) ≥ PI(k+1)，系统在稀疏连接的连通受限区（PR 受 PL 制约）与高度连接的安全受限区（PR 受 PI 制约）之间发生离散切换。\n- 建模采用图元胞自动机（GCA）：外部层与本地层各为 32×32（1024 节点）网格、Moore 邻域（8 邻居），层间边为连接两层不同节点的简单无向边；传播遵循经典 SIR 模型（易感者以概率 β 被感染、感染者以概率 γ 被移除，移除节点使相连层间边永久失效），感染起源于外部层并经层间边入侵本地层。\n- 仿真用纯 Python 面向对象实现、运行于 PyPy v7.3.17 并并行化；对 N 从 1 到 7 各执行 15000 次 Monte Carlo 运行，每次 300 时间步以保证 S/I/R 均值收敛（绝对容差 0.01），且每次运行随机重连层间边以消除选择偏差。\n- 提出加权评分方法选择最优边数：f(N) = x·PR(N) + (1−x)·PI(N)，偏好参数 x∈[0,1] 表达对鲁棒性或安全性的侧重。",
-    "experiments": "- 解析基准验证（β=0、γ=0.1、I0=0.9）：PR(N) = 1 − C(I,N)/C(n,N)（n=1024，I = I0·n ≈ 922）的理论值与 Monte Carlo 结果在误差 Δ 内一致（Wald 公式 95% 置信区间，R=15000），确认仿真可靠性。\n- γ=0.1、I0∈{0.1, 0.2, 0.4, 0.6} 下扫描 β：β=0.005 时最优值在 N=4（I0=0.1、0.2）且最优 N 随 I0 增大；β=0.01 时最大 PR 分别出现在 N=3（I0=0.1）与 N=4（I0=0.2），增大 β 显著压低 PR 与 PI，尤其 I0≥0.2 时最大值明显下降；β=0.02 时曲线进一步拉长、PR/PI 继续降低。\n- β=0.01、γ=0.05 与 β=0.02、γ=0.1 的 S(t)/I(t)/R(t) 曲线与最优 N 高度吻合，γ=0.2 则与 β=0.005、γ=0.1 情形一致，说明 γ 减半等效于 β 加倍、γ 加倍等效于 β 减半。\n- 汇总表显示 β、γ、I0 的大幅变化对最优 N 影响很小，方法对现实场景中难以精确估计的参数具有稳健性；尽管每层有 1024 个节点，最优层间边数却很少，即大型多层网络的鲁棒性与安全性仅需少量层间边即可优化。\n- 应用示例（智能电网）：WSN（传感器与汇聚节点）与 SCADA 构成两层网络，初始感染 I0=2%、γ=1%、β∈{0.45%, 0.50%}，15000 次 Monte Carlo 下两种 β 的 PR(N) 最大值均出现在 N=3，即随机分布时部署 3 个汇聚节点为最优配置。\n- 加权评分法示例（β=0.02、γ=0.1、I0=0.2，15 万次运行）：仅看 PR 时 N=4（43.98±0.25%）仅略高于 N=3（43.09±0.25%），但 PI 从 66.6±0.24% 降到 58.60±0.25%；取 x=0.5 时 f(N) 在 N=2 处取最大值，说明纳入 PI 与偏好可避免次优决策。",
-    "contribution": "- 提出外部层+本地层两层面框架，量化刻画\"增加层间边同时提升鲁棒性并拓宽入侵通道\"的矛盾。\n- 通过大规模 Monte Carlo 仿真表征鲁棒性与脆弱性随连边数的变化，证明存在最优层间边数 N* 最大化\"保持连通且不感染本地层\"的概率，并证明其存在性不依赖具体拓扑。\n- 提出基于加权评分、融合 PI、PR 与个人偏好（参数 x）的最优边数选择方法，比只优化 PR 的决策更准确。\n- 将双层网络动态刻画为临界阈值处的受限区相变，验证 SIR 流行病模型能有效囊括多层网络中的鲁棒性与安全性对立关系。\n- 局限：仿真限定为两层同拓扑、同规模（32×32）且 β/γ 相同的网络，层间边随机均匀连接，未覆盖多层、异构或真实复杂几何拓扑；最优边数仅对应随机分布场景，空间分布差异仍影响鲁棒性；对鲁棒性与脆弱性只给出数值刻画，未推导相变的解析阈值与分岔条件（列为未来工作）。\n---\nDOI: 10.1109/tdsc.2026.3712193",
-    "sample": false,
-    "id": "r-b2nzpz",
-    "tags": [
-      "对抗与鲁棒性"
     ]
   },
   {
@@ -4267,30 +4317,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "MambaTIG: Fast and Robust Encrypted Traffic Detection Leveraging Selective State-Space Masking",
-    "authors": "Junbo Jia, Ao Wang, Li Yang, Lu Zhou, Anyuan Sang, Huipeng Yang",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-10",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/TDSC.2026.3712032",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_MambaTIGEncryptedTraffic.pdf",
-    "link": "https://doi.org/10.1109/TDSC.2026.3712032",
-    "direction": "系统与网络安全",
-    "summary": "MambaTIG 只用良性加密流量进行自监督预训练，把节点重要性驱动的掩码图学习与选择性状态空间模型结合起来，以较低推理开销提升跨分布加密流量检测的鲁棒性。",
-    "question": "TLS、DoH 和 VPN 等加密技术隐藏了应用层载荷，使深度包检测和基于签名的入侵检测难以工作。已有学习方法往往依赖大量标注攻击数据和大模型，面对新攻击类型、协议组合或部署环境变化时会失效，也不适合高吞吐或边缘设备。论文希望在缺少攻击标签的情况下学习通用流量表示，并减少模型推理成本。",
-    "method": "MambaTIG 首先在良性流量上进行自监督掩码图学习，以节点重要性决定掩码位置，增强模型在分布变化下对关键结构的关注。随后用 Mamba 选择性状态空间模块替代注意力机制，在图表示阶段建模长距离依赖，获得近似线性且更高效的序列处理。整体框架面向跨任务、跨域、跨场景和对抗设置进行检测。",
-    "experiments": "作者在四个公开数据集上进行标准检测和分布偏移实验。标准设置下，MambaTIG 的平均 F1 达到有竞争力或并列最优水平；在跨任务、跨域和跨场景设置中，平均相对 F1 提升 56.29%，在对抗设置中平均提升 37.63%。与其余方法相比，平均推理时间减少 66.7%，说明该框架同时改善了泛化鲁棒性和检测效率。",
-    "contribution": "论文把良性数据自监督学习、重要性掩码和选择性状态空间建模结合起来，降低了对攻击标注和大模型的依赖，并系统评估了多类分布变化。局限在于良性流量分布若本身不完整，可能导致表示偏差；图构建、节点重要性估计和对抗场景仍依赖具体网络设置，对加密协议演化、极少见攻击和真实在线流量的长期适应还需验证。\n---\nDOI: 10.1109/TDSC.2026.3712032",
-    "sample": false,
-    "id": "r-9z87hm",
-    "tags": [
-      "对抗与鲁棒性"
-    ]
-  },
-  {
     "title": "Deep Learning for Non-Contact Machinery Fault Diagnosis: A Review",
     "authors": "Dan Zhang、Yongyi Chen、Zhong Liu",
     "journal": "Neural Networks",
@@ -4604,30 +4630,6 @@ window.PAPERLEDGER_SEED = [
     "tags": [
       "隐私保护",
       "大模型"
-    ]
-  },
-  {
-    "title": "Steering machine reasoning with brain signals",
-    "authors": "待补全（本轮目录抓取未请求作者字段）",
-    "journal": "Nature Machine Intelligence",
-    "year": "2026",
-    "published": "2026-09-01",
-    "contentState": "partial",
-    "contentNote": "已依据现有摘要完成中文结构化整理；具体细节以全文为准",
-    "doi": "10.1038/s42256-026-01302-z",
-    "arxiv": "",
-    "pdf": "",
-    "link": "https://doi.org/10.1038/s42256-026-01302-z",
-    "direction": "人工智能",
-    "summary": "代表性的配合可以揭示人类大脑活动与语言模型的相似性.现在的工作表明,它也可以指导学习,提高人工推理的可靠性.",
-    "question": "代表性的配合可以揭示人类大脑活动与语言模型的相似性.现在的工作表明,它也可以指导学习,提高人工推理的可靠性.",
-    "method": "代表性的配合可以揭示人类大脑活动与语言模型的相似性.",
-    "experiments": "现在的工作表明,它也可以指导学习,提高人工推理的可靠性.",
-    "contribution": "代表性的配合可以揭示人类大脑活动与语言模型的相似性.\n---\nDOI: 10.1038/s42256-026-01302-z",
-    "sample": false,
-    "id": "r-bunqsx",
-    "tags": [
-      "机器学习方法"
     ]
   },
   {
@@ -5276,8 +5278,8 @@ window.PAPERLEDGER_SEED = [
     "journal": "Nature Machine Intelligence",
     "year": "2026",
     "published": "2026-08-28",
-    "contentState": "complete",
-    "contentNote": "完整",
+    "contentState": "partial",
+    "contentNote": "未取得出版社正式正文，现有观点框架总结尚未经全文复核",
     "doi": "10.1038/s42256-026-01299-5",
     "arxiv": "",
     "pdf": "",
@@ -5468,8 +5470,8 @@ window.PAPERLEDGER_SEED = [
     "journal": "JCS",
     "year": "2026",
     "published": "2026-08-10",
-    "contentState": "complete",
-    "contentNote": "完整",
+    "contentState": "partial",
+    "contentNote": "未取得出版社正式正文，现有总结尚未经全文复核；实验数字来自原文摘要",
     "doi": "10.1177/0926227x261476666",
     "arxiv": "",
     "pdf": "",

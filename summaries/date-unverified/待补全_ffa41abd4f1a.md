@@ -2,6 +2,8 @@
 
 ## 基本信息
 
+- **收录裁定**: 排除研究台账；出版社页面 citation_article_type、文章分类及结构化 contentType 均为 News & Views，属于非研究评论。保留本文件仅供审计，不继续派取研究正文。
+
 - **标题**: Steering machine reasoning with brain signals
 - **作者**: 待补全（本轮目录抓取未请求作者字段）
 - **期刊 / 会议**: Nature Machine Intelligence 2026

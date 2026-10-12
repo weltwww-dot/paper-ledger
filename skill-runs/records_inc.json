@@ -1,339 +1,5 @@
 [
   {
-    "doi": "10.1038/s42256-026-01304-x",
-    "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
-    "year": 2026,
-    "date": "2026-09-23",
-    "source": "Nature Machine Intelligence",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://www.nature.com/articles/s42256-026-01304-x",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-23",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://www.nature.com/articles/s42256-026-01304-x.pdf",
-      "https://www.nature.com/articles/s42256-026-01304-x.pdf"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "prior_pdf_issue": "supplementary_information_only",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)"
-  },
-  {
-    "doi": "10.1177/0926227x261470417",
-    "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
-    "year": 2026,
-    "date": "2026-09-23",
-    "source": "Journal of Computer Security",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261470417",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-23",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261470417"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "prior_pdf_issue": "institutional_session_and_intermittent_network",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)"
-  },
-  {
-    "doi": "10.1177/0926227x261486952",
-    "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
-    "year": 2026,
-    "date": "2026-09-23",
-    "source": "Journal of Computer Security",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261486952",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-23",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261486952"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "prior_pdf_issue": "institutional_session_and_intermittent_network",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)"
-  },
-  {
-    "doi": "10.1038/s42256-026-01305-w",
-    "title": "Minute-scale training for microrobot navigation",
-    "year": 2026,
-    "date": "2026-09-28",
-    "source": "Nature Machine Intelligence",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://www.nature.com/articles/s42256-026-01305-w",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-28",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://www.nature.com/articles/s42256-026-01305-w.pdf",
-      "https://www.nature.com/articles/s42256-026-01305-w.pdf"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "prior_pdf_issue": "supplementary_information_only",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)"
-  },
-  {
-    "doi": "10.1038/s42256-026-01306-9",
-    "title": "Task-structured modularity emerges in artificial networks and aligns with brain architecture",
-    "year": 2026,
-    "date": "2026-09-28",
-    "source": "Nature Machine Intelligence",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://www.nature.com/articles/s42256-026-01306-9",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-28",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            28
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://www.nature.com/articles/s42256-026-01306-9.pdf",
-      "https://www.nature.com/articles/s42256-026-01306-9.pdf"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "prior_pdf_issue": "wrong_article_glorot2011",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)"
-  },
-  {
-    "doi": "10.1038/s42256-026-01307-8",
-    "title": "Large language models discover complementary heuristics for combinatorial optimization",
-    "year": 2026,
-    "date": "2026-10-01",
-    "source": "Nature Machine Intelligence",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://www.nature.com/articles/s42256-026-01307-8",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-10-01",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            1
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            1
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            1
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://www.nature.com/articles/s42256-026-01307-8.pdf",
-      "https://www.nature.com/articles/s42256-026-01307-8.pdf"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)",
-    "prior_pdf_issue": "auth_required"
-  },
-  {
     "doi": "10.1038/s42256-026-01303-y",
     "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
     "year": 2026,
@@ -387,10 +53,351 @@
     "type_evidence": "https://www.nature.com/articles/s42256-026-01303-y",
     "genre_note": "学术观点/概念框架，按既有综述类学术文献范围交付候选；不是原创实验论文，整理时不得编造实验结果。",
     "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)",
-    "prior_pdf_issue": "pdf_not_captured"
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "prior_pdf_issue": "pdf_not_captured",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1038/s42256-026-01304-x",
+    "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
+    "year": 2026,
+    "date": "2026-09-23",
+    "source": "Nature Machine Intelligence",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01304-x",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-23",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://www.nature.com/articles/s42256-026-01304-x.pdf",
+      "https://www.nature.com/articles/s42256-026-01304-x.pdf"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "prior_pdf_issue": "supplementary_information_only",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1038/s42256-026-01305-w",
+    "title": "Minute-scale training for microrobot navigation",
+    "year": 2026,
+    "date": "2026-09-28",
+    "source": "Nature Machine Intelligence",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01305-w",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-28",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://www.nature.com/articles/s42256-026-01305-w.pdf",
+      "https://www.nature.com/articles/s42256-026-01305-w.pdf"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "prior_pdf_issue": "supplementary_information_only",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1038/s42256-026-01306-9",
+    "title": "Task-structured modularity emerges in artificial networks and aligns with brain architecture",
+    "year": 2026,
+    "date": "2026-09-28",
+    "source": "Nature Machine Intelligence",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01306-9",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-28",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://www.nature.com/articles/s42256-026-01306-9.pdf",
+      "https://www.nature.com/articles/s42256-026-01306-9.pdf"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "prior_pdf_issue": "wrong_article_glorot2011",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1038/s42256-026-01307-8",
+    "title": "Large language models discover complementary heuristics for combinatorial optimization",
+    "year": 2026,
+    "date": "2026-10-01",
+    "source": "Nature Machine Intelligence",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01307-8",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-10-01",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://www.nature.com/articles/s42256-026-01307-8.pdf",
+      "https://www.nature.com/articles/s42256-026-01307-8.pdf"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "prior_pdf_issue": "auth_required",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1177/0926227x261470417",
+    "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
+    "year": 2026,
+    "date": "2026-09-23",
+    "source": "Journal of Computer Security",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261470417",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-23",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261470417"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "prior_pdf_issue": "institutional_session_and_intermittent_network",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "source_seen_this_run": true
+  },
+  {
+    "doi": "10.1177/0926227x261486952",
+    "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
+    "year": 2026,
+    "date": "2026-09-23",
+    "source": "Journal of Computer Security",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261486952",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-23",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261486952"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "prior_pdf_issue": "institutional_session_and_intermittent_network",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "source_seen_this_run": true
   },
   {
     "doi": "10.1177/0926227x261496870",
@@ -399,7 +406,8 @@
     "date": "2026-10-08",
     "source": "Journal of Computer Security",
     "collection_sources": [
-      "crossref"
+      "crossref",
+      "openalex"
     ],
     "new_since_previous_collection": false,
     "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261496870",
@@ -441,9 +449,10 @@
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
-    "queue_group": "carried_forward_verified",
-    "next_action": "当前尚未交付合格正式正文；核查机构会话、授权及网络后取VoR，停止无增益重复路线，交付后由整理agent入库。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-09/ (inventory and retry logs)",
-    "prior_pdf_issue": "institutional_session_and_intermittent_network"
+    "queue_group": "uncollected_verified",
+    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "prior_pdf_issue": "institutional_session_and_intermittent_network",
+    "source_seen_this_run": true
   }
 ]

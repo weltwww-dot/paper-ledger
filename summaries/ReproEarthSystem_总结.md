@@ -6,7 +6,7 @@
 - **作者**: Min Chen, Zhiyi Zhu, Thorsten Wagener, Niklas Boers
 - **期刊 / 会议**: Nature Machine Intelligence 2026
 - **发表**: 2026-08-28
-- **内容状态**: 完整
+- **内容状态**: 部分 · 未取得出版社正式正文，现有观点框架总结尚未经全文复核
 - **研究方向**: 人工智能
 - **DOI**: 10.1038/s42256-026-01299-5
 

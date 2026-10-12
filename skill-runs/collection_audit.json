@@ -1,20 +1,10 @@
 {
   "from_date": "2026-09-22",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-10-09",
+  "until_date": "2026-10-11",
   "lookback_days": 7,
   "lookback_policy": "min(baseline_date,as_of-minus-7-days)",
   "journal_count": 17,
-  "source_candidates_before_ingestion": 450,
-  "raw_candidate_count": 436,
-  "new_record_count": 8,
-  "date_pending_count": 425,
-  "publisher_excluded_count": 3,
-  "new_vs_previous_raw": 1,
-  "new_verified_count": 0,
-  "new_date_pending_count": 1,
-  "ingested_candidates_removed_from_queue": 14,
-  "note": "14 delivered candidates ingested and removed from pending inventory; 1 newly seen Neural Networks DOI has only issue month, not a verified first-online date. JMLR publisher volume remains 205 URLs, no newly seen URLs. PDF/content pipeline is not globally complete; remaining tasks explicitly retained.",
   "journals": [
     {
       "journal": "ACM Transactions on Privacy and Security",
@@ -24,23 +14,24 @@
         "error": null
       },
       "crossref": {
-        "count": 3,
+        "count": 4,
         "excluded": {},
         "error": null
       },
-      "union_count": 3,
+      "union_count": 4,
       "crossref_only_dois": [
         "10.1145/3838797",
-        "10.1145/3839358"
+        "10.1145/3839358",
+        "10.1145/3848128"
       ],
       "openalex_only_dois": []
     },
     {
       "journal": "Artificial Intelligence",
       "openalex": {
-        "count": 6,
+        "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 11,
@@ -49,34 +40,37 @@
         },
         "error": null
       },
-      "union_count": 12,
+      "union_count": 11,
       "crossref_only_dois": [
         "10.1016/j.artint.2026.104599",
         "10.1016/j.artint.2026.104600",
         "10.1016/j.artint.2026.104601",
         "10.1016/j.artint.2026.104602",
         "10.1016/j.artint.2026.104603",
+        "10.1016/j.artint.2026.104630",
+        "10.1016/j.artint.2026.104638",
+        "10.1016/j.artint.2026.104639",
+        "10.1016/j.artint.2026.104640",
+        "10.1016/j.artint.2026.104641",
         "10.1016/j.artint.2026.104642"
       ],
-      "openalex_only_dois": [
-        "10.1016/j.artint.2026.104626"
-      ]
+      "openalex_only_dois": []
     },
     {
       "journal": "Computers & Security",
       "openalex": {
-        "count": 20,
+        "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
-        "count": 26,
+        "count": 23,
         "excluded": {
           "title:editorial-board": 1
         },
         "error": null
       },
-      "union_count": 44,
+      "union_count": 23,
       "crossref_only_dois": [
         "10.1016/j.cose.2026.104933",
         "10.1016/j.cose.2026.104962",
@@ -96,40 +90,20 @@
         "10.1016/j.cose.2026.104984",
         "10.1016/j.cose.2026.104985",
         "10.1016/j.cose.2026.104987",
-        "10.1016/j.cose.2026.105182",
-        "10.1016/j.cose.2026.105190",
         "10.1016/j.cose.2026.105191",
-        "10.1016/j.cose.2026.105195",
+        "10.1016/j.cose.2026.105193",
         "10.1016/j.cose.2026.105198",
-        "10.1016/j.cose.2026.105200"
+        "10.1016/j.cose.2026.105200",
+        "10.1016/j.cose.2026.105204"
       ],
-      "openalex_only_dois": [
-        "10.1016/j.cose.2026.105155",
-        "10.1016/j.cose.2026.105156",
-        "10.1016/j.cose.2026.105164",
-        "10.1016/j.cose.2026.105165",
-        "10.1016/j.cose.2026.105166",
-        "10.1016/j.cose.2026.105172",
-        "10.1016/j.cose.2026.105174",
-        "10.1016/j.cose.2026.105175",
-        "10.1016/j.cose.2026.105176",
-        "10.1016/j.cose.2026.105177",
-        "10.1016/j.cose.2026.105179",
-        "10.1016/j.cose.2026.105184",
-        "10.1016/j.cose.2026.105185",
-        "10.1016/j.cose.2026.105186",
-        "10.1016/j.cose.2026.105187",
-        "10.1016/j.cose.2026.105189",
-        "10.1016/j.cose.2026.105192",
-        "10.1016/j.cose.2026.105197"
-      ]
+      "openalex_only_dois": []
     },
     {
       "journal": "IEEE Security & Privacy",
       "openalex": {
         "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 0,
@@ -145,7 +119,7 @@
       "openalex": {
         "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 40,
@@ -206,7 +180,7 @@
       "openalex": {
         "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 0,
@@ -222,7 +196,7 @@
       "openalex": {
         "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 0,
@@ -238,7 +212,7 @@
       "openalex": {
         "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 57,
@@ -310,9 +284,9 @@
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "openalex": {
-        "count": 1,
+        "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 66,
@@ -344,6 +318,7 @@
         "10.1109/tnnls.2026.3678350",
         "10.1109/tnnls.2026.3678516",
         "10.1109/tnnls.2026.3678565",
+        "10.1109/tnnls.2026.3678945",
         "10.1109/tnnls.2026.3679129",
         "10.1109/tnnls.2026.3679517",
         "10.1109/tnnls.2026.3679557",
@@ -396,16 +371,16 @@
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "openalex": {
-        "count": 1,
+        "count": 0,
         "excluded": {},
-        "error": null
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
         "count": 161,
         "excluded": {},
         "error": null
       },
-      "union_count": 162,
+      "union_count": 161,
       "crossref_only_dois": [
         "10.1109/tpami.2025.3598330",
         "10.1109/tpami.2025.3598340",
@@ -569,32 +544,31 @@
         "10.1109/tpami.2026.3712710",
         "10.1109/tpami.2026.3719568"
       ],
-      "openalex_only_dois": [
-        "10.1109/tpami.2026.3741360"
-      ]
+      "openalex_only_dois": []
     },
     {
       "journal": "International Journal of Information Security",
       "openalex": {
-        "count": 6,
-        "excluded": {},
-        "error": null
-      },
-      "crossref": {
         "count": 7,
         "excluded": {},
         "error": null
       },
-      "union_count": 7,
+      "crossref": {
+        "count": 9,
+        "excluded": {},
+        "error": null
+      },
+      "union_count": 9,
       "crossref_only_dois": [
-        "10.1007/s10207-026-01339-6"
+        "10.1007/s10207-026-01339-6",
+        "10.1007/s10207-026-01342-x"
       ],
       "openalex_only_dois": []
     },
     {
       "journal": "Journal of Computer Security",
       "openalex": {
-        "count": 2,
+        "count": 3,
         "excluded": {},
         "error": null
       },
@@ -604,9 +578,7 @@
         "error": null
       },
       "union_count": 3,
-      "crossref_only_dois": [
-        "10.1177/0926227x261496870"
-      ],
+      "crossref_only_dois": [],
       "openalex_only_dois": []
     },
     {
@@ -644,19 +616,17 @@
     {
       "journal": "Machine Learning",
       "openalex": {
-        "count": 16,
+        "count": 19,
         "excluded": {},
         "error": null
       },
       "crossref": {
-        "count": 17,
+        "count": 19,
         "excluded": {},
         "error": null
       },
-      "union_count": 17,
-      "crossref_only_dois": [
-        "10.1007/s10994-026-07165-0"
-      ],
+      "union_count": 19,
+      "crossref_only_dois": [],
       "openalex_only_dois": []
     },
     {
@@ -678,15 +648,12 @@
     {
       "journal": "Neural Networks",
       "openalex": {
-        "count": 40,
-        "excluded": {
-          "title:membership-form": 1,
-          "title:current-events": 1
-        },
-        "error": null
+        "count": 0,
+        "excluded": {},
+        "error": "HTTP Error 429: Too Many Requests"
       },
       "crossref": {
-        "count": 120,
+        "count": 123,
         "excluded": {
           "title:editorial-board": 1,
           "title:current-events": 1,
@@ -694,7 +661,7 @@
         },
         "error": null
       },
-      "union_count": 148,
+      "union_count": 123,
       "crossref_only_dois": [
         "10.1016/j.neunet.2026.108932",
         "10.1016/j.neunet.2026.108933",
@@ -796,45 +763,100 @@
         "10.1016/j.neunet.2026.109089",
         "10.1016/j.neunet.2026.109090",
         "10.1016/j.neunet.2026.109092",
+        "10.1016/j.neunet.2026.109681",
+        "10.1016/j.neunet.2026.109702",
+        "10.1016/j.neunet.2026.109704",
+        "10.1016/j.neunet.2026.109705",
         "10.1016/j.neunet.2026.109718",
-        "10.1016/j.neunet.2026.109720",
         "10.1016/j.neunet.2026.109721",
+        "10.1016/j.neunet.2026.109722",
+        "10.1016/j.neunet.2026.109723",
         "10.1016/j.neunet.2026.109724",
         "10.1016/j.neunet.2026.109725",
         "10.1016/j.neunet.2026.109726",
+        "10.1016/j.neunet.2026.109727",
+        "10.1016/j.neunet.2026.109728",
         "10.1016/j.neunet.2026.109729",
-        "10.1016/j.neunet.2026.109732"
+        "10.1016/j.neunet.2026.109730",
+        "10.1016/j.neunet.2026.109731",
+        "10.1016/j.neunet.2026.109732",
+        "10.1016/j.neunet.2026.109733",
+        "10.1016/j.neunet.2026.109734",
+        "10.1016/j.neunet.2026.109739",
+        "10.1016/j.neunet.2026.109742",
+        "10.1016/j.neunet.2026.109747",
+        "10.1016/j.neunet.2026.109751"
       ],
-      "openalex_only_dois": [
-        "10.1016/j.neunet.2026.109651",
-        "10.1016/j.neunet.2026.109652",
-        "10.1016/j.neunet.2026.109672",
-        "10.1016/j.neunet.2026.109673",
-        "10.1016/j.neunet.2026.109674",
-        "10.1016/j.neunet.2026.109675",
-        "10.1016/j.neunet.2026.109676",
-        "10.1016/j.neunet.2026.109677",
-        "10.1016/j.neunet.2026.109678",
-        "10.1016/j.neunet.2026.109679",
-        "10.1016/j.neunet.2026.109680",
-        "10.1016/j.neunet.2026.109682",
-        "10.1016/j.neunet.2026.109683",
-        "10.1016/j.neunet.2026.109684",
-        "10.1016/j.neunet.2026.109685",
-        "10.1016/j.neunet.2026.109686",
-        "10.1016/j.neunet.2026.109687",
-        "10.1016/j.neunet.2026.109688",
-        "10.1016/j.neunet.2026.109691",
-        "10.1016/j.neunet.2026.109692",
-        "10.1016/j.neunet.2026.109694",
-        "10.1016/j.neunet.2026.109695",
-        "10.1016/j.neunet.2026.109697",
-        "10.1016/j.neunet.2026.109698",
-        "10.1016/j.neunet.2026.109699",
-        "10.1016/j.neunet.2026.109700",
-        "10.1016/j.neunet.2026.109701",
-        "10.1016/j.neunet.2026.109703"
-      ]
+      "openalex_only_dois": []
     }
-  ]
+  ],
+  "raw_candidate_count": 444,
+  "live_source_candidate_count": 401,
+  "carried_forward_count": 43,
+  "new_record_count": 8,
+  "date_pending_count": 433,
+  "publisher_excluded_count": 3,
+  "new_vs_previous_raw": 12,
+  "new_verified_count": 4,
+  "new_date_pending_count": 8,
+  "source_error_count": 10,
+  "source_errors": [
+    {
+      "journal": "IEEE Security & Privacy",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Artificial Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Dependable and Secure Computing",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Information Forensics and Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "Artificial Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "Computers & Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "journal": "Neural Networks",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "collection_complete": false,
+  "note": "Source requests are 2026-10-11 results, not a new2026-10-12 collection. 4 verified delivered candidates ingested; one active News & Views isolated. 10 OpenAlex429 remain unresolved, collection_complete=false. Keep43 carried candidates and433 date tasks; no baseline advance.",
+  "post_ingestion_as_of": "2026-10-12",
+  "source_candidates_before_organization": 405,
+  "raw_candidates_before_organization": 448,
+  "ingested_candidates_removed_from_queue": 4,
+  "active_nonresearch_excluded": 1
 }

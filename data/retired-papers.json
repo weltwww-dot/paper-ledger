@@ -1,8 +1,11 @@
 {
   "policy": "rolling-three-calendar-months",
-  "as_of": "2026-10-09",
-  "cutoff": "2026-07-09",
+  "as_of": "2026-10-12",
+  "cutoff": "2026-07-12",
   "retired": [
+    {"doi": "10.1109/TDSC.2026.3712032", "published": "2026-07-10", "reason": "expired"},
+    {"doi": "10.1109/tdsc.2026.3712193", "published": "2026-07-10", "reason": "expired"},
+    {"doi": "10.1109/tdsc.2026.3712080", "published": "2026-07-09", "reason": "expired"},
     {"doi": "10.1016/j.artint.2026.104587", "published": "2026-07-06", "reason": "expired"},
     {"doi": "10.1109/tdsc.2026.3710528", "published": "2026-07-06", "reason": "expired"},
     {"doi": "10.1109/tdsc.2026.3711370", "published": "2026-07-08", "reason": "expired"},
