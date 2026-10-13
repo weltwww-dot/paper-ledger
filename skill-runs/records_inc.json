@@ -57,7 +57,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
     "prior_pdf_issue": "pdf_not_captured",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1038/s42256-026-01304-x",
@@ -114,7 +117,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "prior_pdf_issue": "supplementary_information_only",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1038/s42256-026-01305-w",
@@ -171,7 +177,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "prior_pdf_issue": "supplementary_information_only",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1038/s42256-026-01306-9",
@@ -228,7 +237,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "prior_pdf_issue": "wrong_article_glorot2011",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1038/s42256-026-01307-8",
@@ -285,7 +297,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
     "prior_pdf_issue": "auth_required",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1177/0926227x261470417",
@@ -341,7 +356,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "prior_pdf_issue": "institutional_session_and_intermittent_network",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1177/0926227x261486952",
@@ -397,7 +415,10 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "prior_pdf_issue": "institutional_session_and_intermittent_network",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   },
   {
     "doi": "10.1177/0926227x261496870",
@@ -453,6 +474,9 @@
     "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
     "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
     "prior_pdf_issue": "institutional_session_and_intermittent_network",
-    "source_seen_this_run": true
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-13",
+    "pdf_attempted_this_update": false,
+    "latest_pdf_attempt_date": "2026-10-11"
   }
 ]
