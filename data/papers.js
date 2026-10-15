@@ -1,6 +1,84 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Product Manifold Flow Matching for Mixed-Type Tabular Data Generation",
+    "authors": "Shikun Chen、Yangguang Liu",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-14",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10994-026-07178-9",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_ProductManifoldFlowMatching.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07178-9",
+    "direction": "人工智能",
+    "summary": "论文提出PMFM，让连续、类别和有序变量分别在适合自身结构的几何空间中进行流匹配，再以几何一致的聚合连接跨类型依赖，用于生成混合类型表格数据。",
+    "question": "把不同类型变量统一作连续松弛，可能扭曲类别分布及有序关系；但完全独立生成各列，又无法保留真实数据中的关联。作者希望同时维护变量自身的几何结构、跨列统计依赖和大规模生成效率（PDF第2—5页）。",
+    "method": "连续变量使用欧氏空间，类别变量使用带Fisher–Rao几何的概率单纯形；单调有序变量映射到不首尾相接的半圆弧，真正周期变量才使用完整圆周。模型分解各类型的速度场，以训练数据构建依赖图，通过固定基点切空间中的几何聚合形成共享上下文，再积分生成样本。分量几何运算可以并行，但各列并非互不相关（PDF第8—18页）。",
+    "experiments": "在12个基准、5个随机种子上比较CTGAN、TabDDPM、TABSYN等7个基线。Mushroom的JS散度较TABSYN下降20.4%；约1.01亿条记录的Riiid数据上，合成训练、真实测试的效用分数为0.97，对比TABSYN的0.95。论文所用硬件与配置下，Riiid训练时间为52.9小时，对比118.3小时；小型或连续变量占主导的数据上并不始终领先（PDF第19、21—25、32页）。",
+    "contribution": "贡献在于整合各类型几何表示与低参数量的跨流形依赖聚合，而非重新发现乘积流形分解。隐私优势仅由近邻距离和成员推断实验支持，不构成差分隐私保证；与强基线的成员推断AUC差异多数不显著。聚合收敛结论有收缩条件，还需预先区分变量的单调或周期性质；与MLP拼接、交叉注意力的差异也未达到统计显著，不能概括为全面优于非几何条件建模（PDF第3、31、35—36、41—42页）。\n---\nDOI: 10.1007/s10994-026-07178-9 · PDF: [ML_2026_ProductManifoldFlowMatching.pdf](papers/ML_2026_ProductManifoldFlowMatching.pdf)",
+    "sample": false,
+    "id": "r-1x95o1q",
+    "tags": [
+      "生成模型",
+      "机器学习方法",
+      "隐私保护"
+    ]
+  },
+  {
+    "title": "RLAX: A Reinforcement Learning-Based Framework for Explaining Anomalous Data",
+    "authors": "Simone Amirato、Fabrizio Angiulli、Fabio Fassetti",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-13",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10994-026-07182-z",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_RLAXAnomalyExplanation.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07182-z",
+    "direction": "人工智能",
+    "summary": "RLAX把异常解释转化为强化学习驱动的特征子集搜索，寻找能区分给定异常样本与正常数据的小型特征组合，兼顾解释的区分能力与简洁性。",
+    "question": "发现异常并不等于解释异常：分析者还需要知道哪些原始特征体现了偏离。逐一搜索所有特征组合成本过高，而投影到新的低维空间又可能损失可解释性，因此作者直接在原始特征子空间中寻找紧凑解释（PDF第2—4页）。",
+    "method": "输入包括正常参考数据以及少量已标记的正常、异常样本；用近邻距离构造异常得分，以正常与异常样本的子空间间隔变化作为奖励，通过PPO学习特征选择策略。在只添加特征的基本版本上，引入删除与停止动作，允许修正早期选择并提前终止；最终依据特征排序，在区分能力与子空间大小之间选择折中方案（PDF第5—9页）。",
+    "experiments": "实验覆盖9个ODDS数据集，并与Genetic、HiCS、SOD、V-GAN及随机选特征比较。表3中，Swarm Behaviour的解释平均使用6个特征，AUC为0.915；Internet Advertisements平均使用9.5个特征，AUC为0.873。结果支持其以较少特征获得较强区分能力，但不意味着其在所有设置下都取得最高AUC（PDF第8、12—15页）。",
+    "contribution": "贡献是将异常解释建模为可回退、可停止的强化学习搜索，直接输出具有原始语义的特征组合。方法依赖代表性的正常与异常样本，PPO训练成本较高，单特征动作也可能难以发现强非加性交互。实验未采用常规独立训练/测试划分，并从多次运行中选择最优结果，因而应将指标理解为给定异常样本的解释质量，而非独立测试集的泛化保证；特征区分能力也不是因果证明（PDF第7—9、12、16页）。\n---\nDOI: 10.1007/s10994-026-07182-z · PDF: [ML_2026_RLAXAnomalyExplanation.pdf](papers/ML_2026_RLAXAnomalyExplanation.pdf)",
+    "sample": false,
+    "id": "r-1a4rwfs",
+    "tags": [
+      "强化学习",
+      "异常检测",
+      "可解释AI"
+    ]
+  },
+  {
+    "title": "Addressing Methodological Challenges in Time Series Anomaly Detection",
+    "authors": "Nancy Xu、Henrik Boström",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-13",
+    "contentState": "complete",
+    "contentNote": "完整",
+    "doi": "10.1007/s10994-026-07183-y",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_TimeSeriesAnomalyMethodology.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07183-y",
+    "direction": "人工智能",
+    "summary": "论文通过审查18篇高影响力文献并开展复现实验，指出数据泄漏、未披露的数据集改动和基线配置不清，会削弱“深度学习显著优于传统时间序列异常检测方法”的证据。",
+    "question": "时间序列异常检测常以基线比较衡量进展，但在测试集上选择阈值、按真实异常区间修正预测，以及拼接本不连续的独立序列，都可能扭曲结果。即使更换数据集或评价指标，若预处理和基线实现不透明，仍难判断性能差异来自模型还是实验流程（PDF第2、7—10页）。",
+    "method": "作者检查18篇论文及可获得的官方代码，归纳泄漏、数据改动和实验设定缺失三类问题。随后在SWaT、WaDi、SMAP、MSL、SMD和UCR上统一预处理，按12、48、128三个窗口长度比较k-NN、PCA与6种重建式深度模型；采用AUC-ROC、AUC-PRC，并对多实体数据实施Friedman及Nemenyi检验（PDF第6—13页）。",
+    "experiments": "审查发现，18篇中11篇存在阈值选择或point-adjust引起的泄漏，7篇存在未充分披露的数据改动，11篇的基线设定不充分，这些类别可重叠。复现实验没有显示模型复杂度带来稳定优势：表4中k-NN共11次进入统计比较的最优组；SWaT窗口12下，其AUC-ROC为0.824，基本自编码器为0.826。未检出显著差异不等于证明模型等效（PDF第15—16页）。",
+    "contribution": "贡献是把可复现性要求扩展到基线、预处理和评价全流程，而不是另提一个检测模型或单一排名标准。文献样本按影响力筛选，并非对整个领域的穷尽审查；复现实验主要覆盖重建式深度模型和两类传统基线，部分参数还刻意保持非最优。结论应限定在所测数据、实现与协议内，不能推广为“深度学习无效”或“传统方法始终更好”（PDF第6、11—13、16—17、23页）。\n---\nDOI: 10.1007/s10994-026-07183-y · PDF: [ML_2026_TimeSeriesAnomalyMethodology.pdf](papers/ML_2026_TimeSeriesAnomalyMethodology.pdf)",
+    "sample": false,
+    "id": "r-v7lewk",
+    "tags": [
+      "时间序列与预测",
+      "异常检测",
+      "机器学习方法"
+    ]
+  },
+  {
     "title": "MMT: Achieving Exact Federated Unlearning with Improved Post-unlearning Performance",
     "authors": "Ze Yu Zhang、Nhung Bui、Arun Verma、Bolin Ding、Bryan Kian Hsiang Low",
     "journal": "Machine Learning",
@@ -3031,31 +3109,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "DTSM: Digital Twin-Enabled Secure Multicast Signcryption Protocol for Low-Altitude UAV Networks",
-    "authors": "Luyao Liu, Jin Cao, Ruhui Ma, Boyu Deng, Guanjie Li, Yinghui Zhang, Hui Li",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/tdsc.2026.3713051",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_DTMulticastSigncryption.pdf",
-    "link": "https://doi.org/10.1109/tdsc.2026.3713051",
-    "direction": "信息安全",
-    "summary": "本文提出数字孪生驱动的安全组播签密协议 DTSM，通过拉格朗日插值分发组密钥，使同一指令只签密一次即可安全送达多个指定无人机，大幅降低发送端开销。",
-    "question": "在低空经济与大规模 UAV 集群应用中，指挥节点常需通过不安全的无线链路，将同一条控制指令以组播形式发送给执行同一任务的多个指定无人机，并同时保证机密性与认证，签密（signcryption）因此成为常用手段。然而，现有主流签密方案大多通过聚合或批量验证来优化接收端，而发送端向多个接收者发送同一指令的开销仍随群规模快速增长，形成\"接收端友好、发送端昂贵\"（receiver-friendly but sender-costly）的结构性失衡，成为大规模集群指挥控制的可扩展性瓶颈。作者因此引入数字孪生（DT）的分组编排能力，目标是从协议层面显式降低发送端在多次多接收者组播中的通信与计算负担。",
-    "method": "论文提出数字孪生使能的安全组播签密协议 DTSM，整体包含两阶段。先构建分层三层数字孪生架构：低空信息物理执行层（含 KGC、HAP 高空平台、MUAV/RMUAV 区域管理与中继节点、SUAV 任务无人机等实体）、数字孪生网络层（物理实体的一对一虚拟映射与状态对齐）、数字孪生协调层（TMM 孪生镜像、PAM 预测分析、SGM 策略生成、SIM 安全交互四个模块），形成虚实闭环。其次设计基于多项式插值的组密钥分发机制与组播签密协议：发送端 HAP 将组密钥 GK 作为多项式常数项 f(0)，结合每个接收者的隐藏锚点 (αj,γj) 用拉格朗日插值构造多项式并广播辅助点集 A，只有指定接收者能本地恢复 GK 并解密 AEAD（AES-GCM）密文，接收者还需验证类 Schnorr 一次性标签 δi；MUAV 解密后可聚合多条任务并为 SUAV 子群生成新组密钥再分发；协议还支持成员加入/撤销时的动态组更新与组密钥刷新（仅需一条组播消息），并支持 RMUAV 中继转发。安全性基于 ECDLP/ECDHP 困难假设与随机预言机模型（ROM），并用 Scyther 在 Dolev–Yao 模型下做形式化验证。",
-    "experiments": "性能评估将明文与密文设为 128 位安全强度（对应约 256 位椭圆曲线阶），|Zq|=256 bit、|G|=512 bit、nonce 96 bit、认证标签 128 bit，与多篇无证书签密方案对比发送端开销。通信开销（Table II、Fig. 4）与计算开销（Table III、Fig. 5）均显示：接收者数量 m 增大时，DTSM 发送端开销显著低于多数对比方案。计算开销测试在 Windows 10 上使用 ECDSA 与 cryptography 库、Intel 64 Family 6 Model 183 处理器完成，每操作执行十万次取均值（如椭圆曲线标量乘 Tpm≈0.9954 ms、点加 Tpa≈0.0259 ms、对称加密 TE≈0.0112 ms、域求逆 Tinv≈0.1895 ms），并采用批量求逆重心式拉格朗日多值求值 TLag(m)≈0.002m²+0.381m+0.1897 ms。链路不可靠性分析（m=10，BER 取 1e-5、5e-5、1e-4）表明较短报文带来更高直达成功率；抖动分析（R=1 Mbps，J=0/5/10 ms）显示完成延迟近似线性增加，DTSM 与文献[28][30]接近且优于多数方案。文献[31]在成功率与延迟上略优，但 DTSM 提供 AEAD 直接 IND-CCA 证明、AD 上下文绑定、可信中继转发、动态组更新与多任务聚合等更强、更全的安全属性。",
-    "contribution": "贡献：一是提出包含执行层、网络层、协调层的三层数字孪生架构，实现虚实映射与闭环协同；二是设计数字孪生使能的组播签密协议，组密钥经拉格朗日插值嵌入多项式常数项，仅指定接收者可本地恢复并解密执行；三是对同一任务只生成一次签密，显著降低发送端通信与计算开销，适合大规模接收场景；四是在随机预言机模型下给出机密性（IND-CCA）、不可伪造性（EUF-CMA）与抗重放的形式化证明，Scyther 验证互认证、消息同步与密钥机密性，并支持条件匿名与可追踪性。局限：安全分析采用 Dolev–Yao 威胁模型，未覆盖无线链路物理层攻击（如无线电干扰）与实现级侧信道泄露，且依赖随机预言机的理想化假设；未来工作将探索量子安全原语、跨域异构网络扩展以及包含物理层攻击与实现级安全的更强威胁模型。\n---\nDOI: 10.1109/tdsc.2026.3713051",
-    "sample": false,
-    "id": "r-17ro2kl",
-    "tags": [
-      "密码学",
-      "通信与物联网安全"
-    ]
-  },
-  {
     "title": "ATFA: Topology-aware Aggregation with Laplacian-based Heat Diffusion for Federated Learning",
     "authors": "Xianqiu Meng, Gaochao Xu, Xu Xu, Long Li, Jiaqi Ge, Jianhua Jiang",
     "journal": "Neural Networks",
@@ -3297,30 +3350,6 @@ window.PAPERLEDGER_SEED = [
     "id": "r-juwb69",
     "tags": [
       "联邦学习"
-    ]
-  },
-  {
-    "title": "Beyond Single-Pair Attacks: Disrupting Vision-Language Pre-Training Models With Dual-Semantic Frequency Stealth",
-    "authors": "Haiqi Zhang, Ziqiang Li, Hao Tang, Zechao Li",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-14",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/tdsc.2026.3713210",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_DualSemanticFrequencyStealth.pdf",
-    "link": "https://doi.org/10.1109/tdsc.2026.3713210",
-    "direction": "信息安全",
-    "summary": "提出 DSFG-Attack：以\"双语义引导（排斥对抗文本＋吸引非相似图像锚点）＋频域约束（限制低频扰动）\"两阶段生成隐蔽且可迁移的多模态对抗样本，显著提升黑盒攻击成功率，并能跨任务、跨模型迁移到 GPT-4o 与 Qwen 2 等大模型。",
-    "question": "Vision-Language Pre-training（VLP）模型（融合型如 ALBEF/TCL，对齐型如 CLIP）在图文检索等任务上表现优异，但与单模态模型一样对对抗扰动高度脆弱，构成实际安全威胁。现有方法（Co-Attack、SGA、DRA 等）大多只在孤立的单图像—文本对上最大化语义分歧，扰动易过拟合源模型，跨模型黑盒迁移性差；同时大多忽视对抗样本的隐蔽性（stealth），生成的可检测扰动在真实场景中一触即穿。作者提出需同时解决两个核心挑战：如何在未知目标模型上保持可泛化的语义错位（可迁移性），以及如何在扰动时保持视觉与文本的感知自然度（隐蔽性）。",
-    "method": "本文提出 Dual-Semantic Frequency-Guided Transferable Attack（DSFG-Attack），分两阶段进行：(1) 图像引导文本攻击（Image-Guided Text Attack）：对每条 caption 逐 token 掩码并计算与固定图像嵌入的跨模态重要性，选出最关键的词；在 GloVe 词嵌入空间中按余弦相似度阈值 γ=0.7 生成语义相近的候选集合，替换为最小化与配对图像相似度的候选词（扰动预算 εt=1，即仅改一个词），保持语法与语义通顺；(2) 文本引导图像攻击（Text-Guided Image Attack）：先在 mini-batch 内选出与原图像余弦相似度最低的非相似图像作为语义锚点 ins，然后联合优化双语义目标 Lsem=[λDT−(1−λ)AI]+（DT 为对抗文本—图像散度使二者相互排斥，AI 为图像—锚点吸引度），并用二维离散小波变换（DWT）把图像分解为低频近似与三个高频细节子带，惩罚对抗图像与原始图像低频重建差的 L1 范数 Lfreq=‖īm−ī′m‖₁，把扰动约束在人类视觉不敏感的高频纹理区；最终以 L=Lsem+βLfreq 联合优化，默认 λ=0.9、β=1.2、batch M=8、Adam 学习率 0.001、迭代 100 次。方法还依据\"跨模型语义关系保持\"的几何性质（非相似点对间距跨模型有界保持），论证以非相似锚点引导可使错位在目标模型上仍成立。",
-    "experiments": "实验在 Flickr30K（31,783 个图文对，每图 5 条 caption；抽取 1,000 对）与 MSCOCO（123,287 对；抽取 5,000 对）上进行，以图文检索 R@1 的攻击成功率（ASR）为指标，源/目标模型覆盖融合型（ALBEF、TCL，ViT-B/16 图像编码器）与对齐型（CLIPViT、CLIPCNN，ResNet-101）。主要结果：摘要报告的典型黑盒设置（源 TCL→目标 CLIPViT，Flickr30K）ASR 平均提升 5.08%；白盒方面攻击 ALBEF 时 TR 平均 +2.59%、IR 平均 +2.43%；跨类型迁移 ALBEF→CLIPViT 比 DRA 平均高 3.42%、TCL→CLIPCNN 平均高 6.31%，同类型 TCL→ALBEF 平均高 2.2%；按架构看 ViT→CNN 迁移强于反向：CLIPViT→CLIPCNN 达 TR 50.88%、IR 58.33%，而 CLIPCNN→CLIPViT 仅 40.40%、52.20%。隐蔽性四指标（ℓ2、SSIM、CIEDE2000、低频 LF 失真，对照 SGA 在 2/255、8/255、16/255 像素预算下）：λ=0.9 时 ℓ2 范数比强基线低 4.32、CIEDE2000 低 125.98、SSIM 保持 0.99、LF 失真显著更低；λ=0.1 时 ℓ2 仅 0.01（对照像素法 16/255 预算为 779.19）。跨任务：以 ALBEF 在 MSCOCO 上生成对抗图像攻击做 captioning 的 BLIP（β=0.2），BLEU-4 下降 0.7%、CIDEr 下降 2.4%。跨模型：ALBEF 生成的对抗图像（β=0）成功使 GPT-4o 把三人场景误判为一人、把鳄鱼误认为恐龙，使 Qwen 2 把手持物误认为麦克风、把搏斗场景误判为普通互动。消融：λ 在 0.1–1.0 扫描选 0.9；β 在 {0,0.2,…,5.0} 扫描选 1.2；六种交互策略（t-i、i-t、i-t-i、t-i-t、t-i-t-i、t-i-t-i-t）中两阶段 t-i 以最低成本取得强迁移；频域约束相比像素级仅黑盒 ASR 略降而隐蔽性大幅提升；双语义引导较单对引导进一步降低匹配分数（示例对 0.1623→0.1502）；非相似锚点优于随机目标（TR 44.44% vs 44.03%，IR 53.96% vs 53.90%，ALBEF→CLIPCNN）。",
-    "contribution": "贡献：(1) 提出双语义引导攻击框架，利用非相似样本作为语义锚点制造\"合理但错误\"的语义漂移，缩小白盒与黑盒攻击成功率差距并提升迁移性；(2) 引入频域（DWT 低频惩罚）约束，将图像扰动限制在高频不可感知区，兼顾强攻击与高视觉保真度；(3) 提出嵌入空间的语义保持文本扰动（GloVe 近邻、单词替换），避免 BERT-Attack 等词级方法产生的标点错位、下划线、重复等可检测伪影；(4) 以多指标（ASR 与 ℓ2/SSIM/CIEDE2000/LF）在多 VLP 模型、跨任务（检索→captioning）与跨模型（VLP→MLLM）场景验证，暴露了可传播至 GPT-4o、Qwen 2 的真实可迁移风险。局限与未来方向：(1) 跨任务迁移性仍有限，面向检索优化的扰动迁移到 visual grounding 等其他任务时效果下降，作者归因于检索特定损失导致的任务过拟合，以及不同任务模型依赖的特征对频域扰动敏感度不一致；(2) 作为 VLP 频域扰动领域的开创性工作，缺少直接可比的频域基线，只能与像素级方法对照（本文扰动强度显著更低）；(3) 未来需探索任务无关、可泛化到多样多模态系统的对抗扰动公式。\n---\nDOI: 10.1109/tdsc.2026.3713210",
-    "sample": false,
-    "id": "r-fmpgod",
-    "tags": [
-      "多模态学习"
     ]
   },
   {
@@ -3712,30 +3741,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "The Last Mile of Fuzzing: An Efficient Fault Localization Framework for ARM Embedded Firmware",
-    "authors": "Boyu Chang, Binbin Zhao, Bo Xu, Qiao Zhang, Peiyu Liu, Qinge Xie, Guozhu Meng, Shouling Ji",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/tdsc.2026.3712723",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_LastMileFirmwareFaultLocalization.pdf",
-    "link": "https://doi.org/10.1109/tdsc.2026.3712723",
-    "direction": "信息安全",
-    "summary": "针对模糊测试（fuzzing）发现的 ARM 嵌入式固件崩溃，提出基于事件驱动足迹收集与历史驱动逆向执行的自动化故障定位框架 FIRMLOCATOR，将根因候选指令定位在 Top-10 内，成功率达 98.3%。",
-    "question": "模糊测试已被广泛用于发现嵌入式固件漏洞，但崩溃后的故障定位作为漏洞发现流水线的\"最后一公里\"仍极具挑战，当前高度依赖人工调试。嵌入式环境普遍缺少 sanitizer 等调试机制，且固件二进制通常被 strip 掉符号，导致分析人员面对大量过度污染、嘈杂的可疑指令，逐条人工审查控制流与数据流极其耗时且易错。此外，内存别名问题（多个指针指向同一内存）给崩溃用例的数据流跟踪带来不确定性，进一步妨碍自动化根因分析。",
-    "method": "FIRMLOCATOR 是一个面向崩溃后（postmortem）固件分析的故障定位框架，由三大组件构成。第一，事件驱动足迹收集机制：基于固件重宿主（rehosting）在崩溃复现时捕获数据事件与动作事件——数据事件记录每次成功内存读/写的访问类型、指令地址、实际读写数据与内存地址，动作事件在每个指令执行时记录 PC 值，从而重建完整执行轨迹与具体内存访问。第二，历史驱动逆向执行：由动作事件迭代重建执行轨迹并构造细粒度 use-define 链，依据 ARMv7-M 规范实现 43 类 ARM Cortex-M 指令的逆处理器反向恢复寄存器旧值，并利用数据事件直接恢复被内存别名遮蔽的具体数据，避免昂贵的别名推断开销。第三，根因分析流水线：先以崩溃指令涉及的寄存器/内存地址为污点源做后向污点分析得到初始可疑指令集，再用两条互补启发式打分排序——冗余循环污点抑制（压低 memcpy 式紧循环中重复指令的分数）与历史写污点优先（提高远离崩溃点却向崩溃相关地址写入的指令分数），最终保守输出至多 5 条根因候选指令。评估上采用语义化 ground truth：对每个崩溃用例人工标注至多 5 条关键指令，任一命中 Top-k 即视为定位成功。",
-    "experiments": "实验基于 Fuzzware 及 GDMA、Hoedur 等公开基准，覆盖 19 个 ARM 固件镜像与 59 个可复现崩溃用例（C1–C59），在 56 核 Xeon E5-2680 v4、256 GB 内存、Ubuntu 22.04 环境下与移植到 ARM Cortex-M 的 POMP、POMP++ 对比。RQ1：完整执行轨迹下 FIRMLOCATOR 在 59 例中成功定位 58 例（98.3%），而 POMP 与 POMP++ 分别仅 5.1% 与 35.6%，且二者仅能完成 13.6% 与 79.7% 的用例（大量超时）；限制在崩溃前最后 50% 轨迹时 FIRMLOCATOR 仍有 84.7%（POMP 10.2%、POMP++ 54.2%）；深度根因（ΔRoot>50%）11 例全部成功，仅 C32（中断上下文恢复中数据段已被破坏）失败。RQ2：事件足迹收集平均额外耗时 10.68 s（约 0.73 倍）、日志增大 23.58 MB，根因分析阶段平均仅 7.22 s；随分析深度线性增加时 POMP 呈指数级耗时增长、POMP++ 为多项式级，FIRMLOCATOR 增幅平缓。RQ3 消融：历史写优先策略在 15 例（25.4%）显著改善，其 Top-1 命中率达 81.4%，高于完整版 FIRMLOCATOR 的 66.1%。RQ4：在最后 10,000 条指令的固定深度下，FIRMLOCATOR 的别名解析平均耗时小于 0.01 s，而 POMP 为 766.59 s、POMP++ 为 8.08 s。灵敏度分析显示 n=5 与 Top-10 组合可完全覆盖随机抽样的 18 个用例，且 88.1%（52/59）用例的人工标注 ground truth 不超过 5 条指令。",
-    "contribution": "贡献：一是重新设计并平衡多条启发式打分策略，使排名结果比会议版更稳定、更具普适性；二是将逆向执行引擎支持的 ARM Cortex-M 指令类别从 29 类扩展至 43 类，提升对高度优化真实固件的适用性；三是引入至多 5 条指令的规范化根因标注协议，显式处理指令级歧义；四是把评估扩展到 GDMA、Hoedur 等更丰富的数据集，相对 SOTA 在全轨迹分析能力上提升 20.3%、整体效率达多项式级加速、Top-10 成功率提高 62.7%，并开源（https://github.com/NESA-Lab/FirmLocator）。局限：作为 fuzzing 后分析框架，其适用性受底层 fuzzer 覆盖与平台支持限制；针对 stripped 裸固件仍只能给出排序指令而非消除人工研判；两条启发式与 43 条指令支持基于常见模式设计，泛化性有限；遇到 C32 这类中断上下文恢复崩溃时足迹收集可能失效。未来工作拟结合大语言模型生成更全面的根因自然语言描述。\n---\nDOI: 10.1109/tdsc.2026.3712723",
-    "sample": false,
-    "id": "r-1l6hs3h",
-    "tags": [
-      "系统与网络安全"
-    ]
-  },
-  {
     "title": "Structural Knowledge-Guided Complex-Noise Handling for Open Intent Classification",
     "authors": "Yanhua Li, Xiaocao Ouyang, Jie Zhang, Chaofan Pan, Lingfei Ren, Xin Yang",
     "journal": "Neural Networks",
@@ -3782,31 +3787,6 @@ window.PAPERLEDGER_SEED = [
     "tags": [
       "入侵检测与防御",
       "可解释AI"
-    ]
-  },
-  {
-    "title": "TraceDiff: Anomaly Detection on Microservice Traces Through Frequency-Aware Conditional Diffusion Model",
-    "authors": "Kaiqi Ding, Dezhi Ran, Yuanmu Ma, Zijian Song, Kaigui Bian, Tao Xie",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/TDSC.2026.3712748",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_TraceDiffMicroserviceAnomaly.pdf",
-    "link": "https://doi.org/10.1109/TDSC.2026.3712748",
-    "direction": "软件与系统安全",
-    "summary": "TraceDiff 将轨迹结构与延迟特征组织成轨迹特征矩阵，结合全局—局部频率编码和条件扩散预测模型，从微服务调用轨迹中检测异常并定位根因。",
-    "question": "微服务系统由大量相互调用的服务组成，延迟异常往往具有时间依赖、跨 Span 关联和明显稀疏性。仅按粗粒度延迟分布检测容易漏掉短暂或组合型异常，也难以准确定位根因；微服务性能异常还可能是可用性攻击的早期信号。论文希望同时提升组件级、轨迹级检测和根因定位能力。",
-    "method": "TraceDiff 先构造轨迹特征矩阵，融合调用结构、Span 延迟等细粒度信息。随后通过双编码器提取全局与局部频率特征，并用注意力机制融合多尺度动态模式。最后，条件去噪扩散模型以自回归方式进行多步延迟预测，用预测与实际轨迹之间的差异识别异常；论文还设计加速采样以降低扩散模型的推理开销。",
-    "experiments": "作者在两个公开数据集和一个真实生产系统上评估 TraceDiff。与表现最好的基线相比，组件级异常的 F1 提升 3.22%–3.42%，轨迹级异常的 F1 提升 0.52%–4.12%，Top-1 根因识别准确率提升 10.84%–16.00%。实验还显示，在缩短扩散过程后，轨迹级 F1 仅有很小下降，说明方法能够在检测效果和响应速度之间取得较好平衡。",
-    "contribution": "论文把时域、频域和扩散生成建模引入微服务轨迹异常检测，同时覆盖异常识别和根因分析，并验证了对延迟注入等异常情境的适应性。局限在于扩散模型仍比传统预测模型复杂，生产系统的服务拓扑、采样稀疏性和新型故障分布可能影响迁移效果；在线部署还需进一步控制推理成本和误报。\n---\nDOI: 10.1109/TDSC.2026.3712748",
-    "sample": false,
-    "id": "r-ei5dvu",
-    "tags": [
-      "生成模型",
-      "异常检测"
     ]
   },
   {
@@ -4221,31 +4201,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "Dual-Tree Complex Wavelet Driven Hierarchical Spatial-Frequency Fusion Learning for Robust Deepfake Detection",
-    "authors": "Rui Sun, Yifan Zhang, Xiaolu Yu, Meng Li, Jun Gao",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/TDSC.2026.3712721",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_HSFFDeepfakeDetection.pdf",
-    "link": "https://doi.org/10.1109/TDSC.2026.3712721",
-    "direction": "计算机视觉",
-    "summary": "论文将层次化空间—频率融合与双树复小波的多子带增强结合，学习不同尺度和方向上的伪造痕迹，以提升深度伪造检测在跨数据集场景中的鲁棒性。",
-    "question": "生成模型不断提高伪造图像的逼真度，传统依赖明显纹理或边界的检测特征容易消失；不同生成器还会留下不同频率和方向的隐式痕迹。仅使用空间特征难以稳定识别跨域伪造，单独使用频率特征又可能缺少语义和方向信息。论文因此希望同时建模多尺度空间线索、频率异常和方向性伪造模式。",
-    "method": "作者提出层次化空间—频率融合模块 HSFF，通过多尺度特征提取和频率注意力，自适应融合不同层次的频率信息，突出跨尺度异常。进一步提出协同多子带增强 CMSE，将双树复小波变换与预训练视觉特征结合，显式建模六个方向子带之间的关系。两个模块共同形成空间—频率—方向联合表示，用于分类深度伪造内容。",
-    "experiments": "论文在多个基准数据集上与多种先进方法比较，并开展消融实验。跨数据集测试中，在具有挑战性的 Celeb-DFv2 和 DFDC 上，方法分别取得 97.2% 和 89.1% 的 AUROC；结果表明，融合层次频率信息和方向子带后，模型对生成器变化和跨数据集分布差异更稳健。",
-    "contribution": "论文贡献了结合 HSFF 与 DTCWT 的联合空间—频率—方向检测架构，并将预训练视觉特征用于多子带协同建模，重点改善跨域泛化。局限在于模型仍依赖训练数据中的伪造分布和预训练视觉表示，对新型生成器、压缩和社交平台处理的迁移能力仍需更广泛验证；真实场景中的开放集检测和计算成本也值得进一步研究。\n---\nDOI: 10.1109/TDSC.2026.3712721",
-    "sample": false,
-    "id": "r-1d0of0x",
-    "tags": [
-      "对抗与鲁棒性",
-      "生成模型"
-    ]
-  },
-  {
     "title": "Invisible Barrier: Precise Matchmaking Encryption With Keyword Search From Lattices",
     "authors": "Xin Gao, Hua Dai, Huaqun Wang, Mengxue Yang, Xun Yi, Debiao He",
     "journal": "IEEE Transactions on Dependable and Secure Computing",
@@ -4390,54 +4345,6 @@ window.PAPERLEDGER_SEED = [
     ]
   },
   {
-    "title": "PSSA: A Precise Static Analysis Framework for Detecting Vulnerabilities in CMS Plugins",
-    "authors": "Zhongfu Su, Cong Wu, Xi Tan, Jing Chen, Ruiying Du, Yang Liu, Yang Xiang",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/TDSC.2026.3712242",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_PSSA_CMSPluginSecurity.pdf",
-    "link": "https://doi.org/10.1109/TDSC.2026.3712242",
-    "direction": "软件与系统安全",
-    "summary": "PSSA 面向 PHP CMS 插件的框架上下文、动态调用和面向对象代码进行精确静态分析，在降低误报的同时发现真实漏洞，并用于大规模 WordPress 插件调查。",
-    "question": "CMS 插件运行在框架提供的全局资源和辅助函数环境中，动态调用、反射及插件生命周期使普通 Web 应用静态分析难以正确理解其上下文，容易漏报或误报。插件生态规模巨大，一处漏洞可能影响大量网站。论文希望设计更贴合 CMS 插件执行语义的分析框架，并验证其在真实生态中的发现能力。",
-    "method": "PSSA 在 PHP 代码分析中显式建模 CMS 框架上下文，跟踪插件与框架之间的调用、数据流和全局资源使用，并强化 PHP 面向对象代码的静态分析。作者将该分析器与已有漏洞检测工具比较，再对流行 WordPress 插件进行系统扫描，以评估检测精度、误报控制和实际影响。",
-    "experiments": "在既有漏洞数据集上，PSSA 检测出的漏洞数量最多且误报更少。随后作者调查了 980 个广泛使用的 WordPress 插件，报告发现 178 个新漏洞，其中 124 个位于下载量超过 100 万的插件中；研究工作还促成 82 个 CVE 标识的确认。上述数字是论文报告的发现结果，不等同于所有插件的漏洞总数。",
-    "contribution": "论文贡献了面向 CMS 插件语义的精确静态分析框架，并把方法从基准数据集推进到大规模真实插件生态。局限在于分析结果依赖框架建模、代码可达性和插件版本，动态生成代码、第三方服务和运行时配置仍可能造成遗漏；漏洞确认、修复和长期版本跟踪也需要研究者与维护者持续协作。\n---\nDOI: 10.1109/TDSC.2026.3712242",
-    "sample": false,
-    "id": "r-1jpf0or",
-    "tags": [
-      "供应链与漏洞管理"
-    ]
-  },
-  {
-    "title": "Causal explanations of safety property violations in discrete event systems",
-    "authors": "Gregor Gössler, Thomas Mari, Yannick Pencolé, Louise Travé-Massuyès",
-    "journal": "Artificial Intelligence",
-    "year": "2026",
-    "published": "2026-07-13",
-    "contentState": "complete",
-    "contentNote": "已基于全文完成中文六段式总结",
-    "doi": "10.1016/j.artint.2026.104588",
-    "arxiv": "",
-    "pdf": "papers/CausalExplanationsSafetyViolations.pdf",
-    "link": "https://doi.org/10.1016/j.artint.2026.104588",
-    "direction": "人工智能",
-    "summary": "论文为离散事件系统中的安全性质违例建立因果解释理论，在部分可观测、含事件和变量的动态系统中说明“为什么”观测轨迹导致失败。",
-    "question": "传统故障诊断通常回答发生了什么，却未必说明为何观测轨迹违反安全性质。嵌入式系统具有并发、部分观测、变量约束和复杂事件序列，简单截取日志会保留大量无关行为，因此需要同时表达相关事件、变量状态、因果顺序以及相对于预期行为的对比信息。",
-    "method": "作者用带隐式状态和变量的自动机表示离散事件系统，先定义 soundness、completeness、causality 等解释要求，再研究基于轨迹最小子序列的解释。核心是 choice explanation：按系统逐层作出的选择构造解释，突出把系统推向违例的关键选择，并保留可避免该结果的替代事件；框架也支持 contrastive explanation。",
-    "experiments": "论文以形式化定义、定理和示例验证框架性质，而非数据集统计实验。示例中，包含 7 个转换的 choice explanation 可用含 246 个状态和 415 个转换的自动机表达，展示在压缩完整行为的同时保留因果信息；作者还给出了可计算 choice explanation 的高效算法及实现。",
-    "contribution": "贡献是形式化安全违例解释语义与期望性质，统一事件和变量状态信息，并提出兼顾轨迹压缩和关键选择识别的 choice explanation 算法。局限是目前主要针对已有行为模型，在线构造、抽象模型、日志观测选择以及如何利用解释预防后续违例仍是开放问题。\n---\nDOI: 10.1016/j.artint.2026.104588",
-    "sample": false,
-    "id": "r-q244vt",
-    "tags": [
-      "机器学习方法"
-    ]
-  },
-  {
     "title": "EncFormer: Secure and Efficient Transformer Inference Over Encrypted Data",
     "authors": "Yufan Zhu, Chao Jin, Khin Mi Mi Aung, Xiaokui Xiao",
     "journal": "IEEE Transactions on Dependable and Secure Computing",
@@ -4555,30 +4462,6 @@ window.PAPERLEDGER_SEED = [
     "contribution": "论文贡献了面向团队工作区插件权限的风险分类、自动化测试工具 TAI 和生态级实证结果，补充了传统单用户权限测试的盲区。局限在于不同平台 API、版本和租户配置可能影响可复现性，已发现交互也不等同于所有真实攻击路径；后续需要研究权限策略修复、跨平台泛化、插件更新后的持续测试和真实影响验证。\n---\nDOI: 10.1109/TDSC.2026.3715679",
     "sample": false,
     "id": "r-jghgcl",
-    "tags": [
-      "系统与网络安全"
-    ]
-  },
-  {
-    "title": "DPC-Sharding: Adaptive and Byzantine-Resilient Sharding for Dynamic Networks",
-    "authors": "Zhujun Zhang, Wei Fan, Zhiquan Liu",
-    "journal": "IEEE Transactions on Dependable and Secure Computing",
-    "year": "2026",
-    "published": "2026-07-14",
-    "contentState": "complete",
-    "contentNote": "已基于机构授权全文完成中文六段式总结",
-    "doi": "10.1109/TDSC.2026.3713485",
-    "arxiv": "",
-    "pdf": "papers/TDSC_2026_DPCShardingDynamicBlockchain.pdf",
-    "link": "https://doi.org/10.1109/TDSC.2026.3713485",
-    "direction": "区块链与分布式系统",
-    "summary": "DPC-Sharding 面向节点频繁加入退出、网络间歇分区的物联网和边缘网络，以受证明安全区间约束的多阈值 BFT 和拓扑感知执行机制实现自适应分片。",
-    "question": "区块链分片通常假设网络稳定、连接充分，并采用固定 CAP 取舍和固定 BFT 门限；这些假设在动态物联网和边缘网络中容易失效，导致吞吐下降、活性受损、跨分片交易不一致甚至安全风险。已有自适应方法多依赖简单二元切换或启发式调阈值，难以同时保证性能和可证明安全性。",
-    "method": "DPC-Sharding 通过延迟敏感状态机感知网络波动，用带截断的 Sigmoid 控制器在统一可证明安全区间内调整多个共识阈值。三阶段执行栈包含波动感知的拓扑裁剪 BBA，以及原子状态恢复机制，以减少分区和节点 churn 带来的协调成本，并保证跨分片交易在连续网络变化期间保持原子性。",
-    "experiments": "作者将 DPC-Sharding 与 OmniLedger、DynaShard 比较。稳定网络下，其性能与先进同步分片协议相当；在高节点 churn 和间歇网络分区下，吞吐保持更稳定，状态转移与共识延迟增长较缓，跨分片交易原子性也得到保持。消融实验表明，拓扑裁剪、阈值控制和状态恢复的额外开销可以在共识轮次中摊销，但极端持续分区仍会累积辅助任务成本。",
-    "contribution": "论文把网络波动感知、自适应多阈值 BFT 和原子状态恢复统一到一个分片框架中，并把实际门限限制在形式化安全区间内。局限在于实验受测试环境、故障模型和节点规模约束，结论依赖设定的 Byzantine 故障边界；更大规模、长期分区、复杂协同攻击及真实异构无线网络下的开销仍需验证。\n---\nDOI: 10.1109/TDSC.2026.3713485",
-    "sample": false,
-    "id": "r-is34m2",
     "tags": [
       "系统与网络安全"
     ]

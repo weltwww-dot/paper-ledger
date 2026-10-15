@@ -1,7 +1,12 @@
 {
   "schema": 1,
-  "run_date": "2026-10-13",
+  "run_date": "2026-10-15",
   "baseline_date": "2026-09-22",
-  "fingerprint": "e1b4197013dc2bf76f485ac3d3fa4f79c0f18e03d5231428b37294e7bb23ebe1",
-  "stages": {}
+  "fingerprint": "146a026cf5e69ce9c253694991930a26c13074a3c5b6bf55f62d4c1f9fa5d175",
+  "stages": {
+    "collection": {
+      "complete": true,
+      "completed_at": "2026-10-15"
+    }
+  }
 }

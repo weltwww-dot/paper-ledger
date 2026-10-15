@@ -1,68 +1,5 @@
 [
   {
-    "doi": "10.1038/s42256-026-01303-y",
-    "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
-    "year": 2026,
-    "date": "2026-10-07",
-    "source": "Nature Machine Intelligence",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://www.nature.com/articles/s42256-026-01303-y",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-10-07",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            7
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            7
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            7
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://www.nature.com/articles/s42256-026-01303-y.pdf",
-      "https://www.nature.com/articles/s42256-026-01303-y.pdf"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "document_type": "Perspective",
-    "type_evidence": "https://www.nature.com/articles/s42256-026-01303-y",
-    "genre_note": "学术观点/概念框架，按既有综述类学术文献范围交付候选；不是原创实验论文，整理时不得编造实验结果。",
-    "date_source": "crossref-published-online",
-    "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "prior_pdf_issue": "pdf_not_captured",
-    "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
-  },
-  {
     "doi": "10.1038/s42256-026-01304-x",
     "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
     "year": 2026,
@@ -108,19 +45,166 @@
     },
     "pdf_url_candidates": [
       "https://www.nature.com/articles/s42256-026-01304-x.pdf",
-      "https://www.nature.com/articles/s42256-026-01304-x.pdf"
+      "https://www.nature.com/articles/s42256-026-01304-x"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
     "prior_pdf_issue": "supplementary_information_only",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt; skill-runs/gap_2026-10-15/nmi_oa_status.txt",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15"
+  },
+  {
+    "doi": "10.1177/0926227x261470417",
+    "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
+    "year": 2026,
+    "date": "2026-09-23",
+    "source": "Journal of Computer Security",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261470417",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-23",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261470417",
+      "https://journals.sagepub.com/doi/full-xml/10.1177/0926227X261470417"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先诊断合法获取进程的Sage连接可达性；本轮连接层超时，不等于HTTP403/付费墙/无订阅。再由PDFagent获取正式正文。",
+    "prior_pdf_issue": "institutional_session_and_intermittent_network",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt",
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_direct_probe_date": "2026-10-15",
+    "latest_pdf_issue": "connection_timeout_before_http_response"
+  },
+  {
+    "doi": "10.1177/0926227x261486952",
+    "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
+    "year": 2026,
+    "date": "2026-09-23",
+    "source": "Journal of Computer Security",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "new_since_previous_collection": false,
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261486952",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-09-23",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "pdf_url_candidates": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261486952",
+      "https://journals.sagepub.com/doi/full-xml/10.1177/0926227X261486952"
+    ],
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "date_verified": true,
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "先诊断合法获取进程的Sage连接可达性；本轮连接层超时，不等于HTTP403/付费墙/无订阅。再由PDFagent获取正式正文。",
+    "prior_pdf_issue": "institutional_session_and_intermittent_network",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt",
+    "source_seen_this_run": true,
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_direct_probe_date": "2026-10-15",
+    "latest_pdf_issue": "connection_timeout_before_http_response"
   },
   {
     "doi": "10.1038/s42256-026-01305-w",
@@ -168,19 +252,28 @@
     },
     "pdf_url_candidates": [
       "https://www.nature.com/articles/s42256-026-01305-w.pdf",
-      "https://www.nature.com/articles/s42256-026-01305-w.pdf"
+      "https://www.nature.com/articles/s42256-026-01305-w"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
     "prior_pdf_issue": "supplementary_information_only",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt; skill-runs/gap_2026-10-15/nmi_oa_status.txt",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15"
   },
   {
     "doi": "10.1038/s42256-026-01306-9",
@@ -228,19 +321,28 @@
     },
     "pdf_url_candidates": [
       "https://www.nature.com/articles/s42256-026-01306-9.pdf",
-      "https://www.nature.com/articles/s42256-026-01306-9.pdf"
+      "https://www.nature.com/articles/s42256-026-01306-9"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
     "prior_pdf_issue": "wrong_article_glorot2011",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt; skill-runs/gap_2026-10-15/nmi_oa_status.txt",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15"
   },
   {
     "doi": "10.1038/s42256-026-01307-8",
@@ -288,41 +390,50 @@
     },
     "pdf_url_candidates": [
       "https://www.nature.com/articles/s42256-026-01307-8.pdf",
-      "https://www.nature.com/articles/s42256-026-01307-8.pdf"
+      "https://www.nature.com/articles/s42256-026-01307-8"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt; skill-runs/gap_2026-10-15/nmi_oa_status.txt",
     "prior_pdf_issue": "auth_required",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15"
   },
   {
-    "doi": "10.1177/0926227x261470417",
-    "title": "Code obfuscation against symbolic execution with mixed Boolean-arithmetic permutation",
+    "doi": "10.1038/s42256-026-01303-y",
+    "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
     "year": 2026,
-    "date": "2026-09-23",
-    "source": "Journal of Computer Security",
+    "date": "2026-10-07",
+    "source": "Nature Machine Intelligence",
     "collection_sources": [
       "crossref",
       "openalex"
     ],
     "new_since_previous_collection": false,
-    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261470417",
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01303-y",
     "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-23",
+    "published_online": "2026-10-07",
     "date_evidence": {
       "published-online": {
         "date-parts": [
           [
             2026,
-            9,
-            23
+            10,
+            7
           ]
         ]
       },
@@ -331,8 +442,8 @@
         "date-parts": [
           [
             2026,
-            9,
-            23
+            10,
+            7
           ]
         ]
       },
@@ -340,85 +451,39 @@
         "date-parts": [
           [
             2026,
-            9,
-            23
+            10,
+            7
           ]
         ]
       }
     },
     "pdf_url_candidates": [
-      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261470417"
+      "https://www.nature.com/articles/s42256-026-01303-y.pdf",
+      "https://www.nature.com/articles/s42256-026-01303-y"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
+    "document_type": "Perspective",
+    "type_evidence": "https://www.nature.com/articles/s42256-026-01303-y",
+    "genre_note": "学术观点/概念框架，按既有综述类学术文献范围交付候选；不是原创实验论文，整理时不得编造实验结果。",
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
-    "prior_pdf_issue": "institutional_session_and_intermittent_network",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt; skill-runs/gap_2026-10-15/nmi_oa_status.txt",
+    "prior_pdf_issue": "pdf_not_captured",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
-  },
-  {
-    "doi": "10.1177/0926227x261486952",
-    "title": "SLIDE: Shuffle Shamir secret shares uniformly with linear online communication and guaranteed output delivery",
-    "year": 2026,
-    "date": "2026-09-23",
-    "source": "Journal of Computer Security",
-    "collection_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "new_since_previous_collection": false,
-    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261486952",
-    "required_pdf_version": "publisher_version_of_record",
-    "published_online": "2026-09-23",
-    "date_evidence": {
-      "published-online": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "published-print": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            9,
-            23
-          ]
-        ]
-      }
-    },
-    "pdf_url_candidates": [
-      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261486952"
-    ],
-    "pdf_status": "not_delivered_as_verified_VoR",
-    "date_verified": true,
-    "date_source": "crossref-published-online",
-    "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
-    "prior_pdf_issue": "institutional_session_and_intermittent_network",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
-    "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15"
   },
   {
     "doi": "10.1177/0926227x261496870",
@@ -465,18 +530,99 @@
       }
     },
     "pdf_url_candidates": [
-      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261496870"
+      "https://journals.sagepub.com/doi/pdf/10.1177/0926227X261496870",
+      "https://journals.sagepub.com/doi/full-xml/10.1177/0926227X261496870"
     ],
     "pdf_status": "not_delivered_as_verified_VoR",
     "date_verified": true,
     "date_source": "crossref-published-online",
     "queue_group": "uncollected_verified",
-    "next_action": "先核合法访问条件和正确解析路线；只交匹配的出版社正式正文，交付后整理agent审校；停止重复SI/错文/作者稿路线。",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "next_action": "先诊断合法获取进程的Sage连接可达性；本轮连接层超时，不等于HTTP403/付费墙/无订阅。再由PDFagent获取正式正文。",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt",
     "prior_pdf_issue": "institutional_session_and_intermittent_network",
     "source_seen_this_run": true,
-    "last_metadata_collection_date": "2026-10-13",
-    "pdf_attempted_this_update": false,
-    "latest_pdf_attempt_date": "2026-10-11"
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "last_seen": "2026-10-15",
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "organizer_requested_pdf": false,
+    "latest_full_retrieval_attempt_date": "2026-10-11",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_direct_probe",
+    "previous_attempt_evidence": "skill-runs/gap_2026-10-11/log_nature7.txt; skill-runs/gap_2026-10-11/log_sage5.txt; papers/instsci/batch20261011_nature/",
+    "latest_direct_probe_date": "2026-10-15",
+    "latest_pdf_issue": "connection_timeout_before_http_response"
+  },
+  {
+    "doi": "10.1038/s42256-026-01310-z",
+    "title": "An all-in-one foundation model for multimodal medical image restoration and enhancement",
+    "year": 2026,
+    "date": "2026-10-13",
+    "source": "Nature Machine Intelligence",
+    "collection_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "source_seen_this_run": true,
+    "last_seen": "2026-10-15",
+    "new_since_previous_collection": true,
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01310-z",
+    "required_pdf_version": "publisher_version_of_record",
+    "published_online": "2026-10-13",
+    "date_verified": true,
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ]
+      },
+      "published-print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ]
+      }
+    },
+    "pdf_status": "not_delivered_as_verified_VoR",
+    "last_metadata_collection_date": "2026-10-15",
+    "pdf_attempted_this_update": true,
+    "date_evidence_source": "skill-runs/update_2026-10-15/crossref_evidence.json",
+    "date_source": "crossref-published-online",
+    "queue_group": "uncollected_verified",
+    "next_action": "核实合法出版社会话/授权与正确正文路线；本轮直链仅返回HTML，不重复SI、错文或以预印本代替VoR。",
+    "pdf_url_candidates": [
+      "https://www.nature.com/articles/s42256-026-01310-z.pdf"
+    ],
+    "document_type": "Article",
+    "type_evidence": "https://www.nature.com/articles/s42256-026-01310-z",
+    "type_checked_this_run": true,
+    "organizer_requested_pdf": false,
+    "latest_pdf_attempt_date": "2026-10-15",
+    "latest_full_retrieval_attempt_date": "2026-10-15",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "instsci_wrong_article_rejected_and_direct_link_html",
+    "previous_attempt_evidence": null,
+    "latest_pdf_issue": "publisher_direct_link_returned_html_not_pdf",
+    "latest_direct_probe_date": "2026-10-15",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-15/log_nature1.txt; skill-runs/gap_2026-10-15/probe_2026-10-15.txt; skill-runs/organize_2026-10-15/ingestion_tasks.json",
+    "rejected_pdf_sha256": "01bb228766a0b674872d6539c95a0f918240540181cc015fd05e73a692a4ff10"
   }
 ]
