@@ -154,7 +154,7 @@ function main() {
   let indexSrc = fs.readFileSync(indexFile, "utf8");
   const next = `data/papers.js?v=${stamp}`;
   indexSrc = indexSrc.replace(/data\/papers\.js(\?v=[a-z0-9]+)?/g, next);
-  indexSrc = indexSrc.replace(/(shared\/publication-window\.js|shared\/ledger-store\.js|app\.js)(\?v=[a-z0-9]+)?/g, `$1?v=${stamp}`);
+  indexSrc = indexSrc.replace(/(shared\/publication-window\.js|shared\/ledger-store\.js|shared\/theme-stats\.js|app\.js)(\?v=[a-z0-9]+)?/g, `$1?v=${stamp}`);
   fs.writeFileSync(indexFile, indexSrc, "utf8");
 
   console.log(`已同步 ${ordered.length} 篇 → data/papers.js`);

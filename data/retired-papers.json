@@ -1,42 +1,8 @@
 {
-  "policy": "rolling-three-calendar-months",
-  "as_of": "2026-10-15",
-  "cutoff": "2026-07-15",
+  "policy": "current-month-and-three-previous-months",
+  "as_of": "2026-10-18",
+  "cutoff": "2026-07-01",
   "retired": [
-    {"doi": "10.1109/tdsc.2026.3713051", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3713210", "published": "2026-07-14", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3712723", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1109/TDSC.2026.3712748", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1109/TDSC.2026.3712721", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1109/TDSC.2026.3712242", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1016/j.artint.2026.104588", "published": "2026-07-13", "reason": "expired"},
-    {"doi": "10.1109/TDSC.2026.3713485", "published": "2026-07-14", "reason": "expired"},
-    {"doi": "10.1109/TDSC.2026.3712032", "published": "2026-07-10", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3712193", "published": "2026-07-10", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3712080", "published": "2026-07-09", "reason": "expired"},
-    {"doi": "10.1016/j.artint.2026.104587", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3710528", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3711370", "published": "2026-07-08", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3710863", "published": "2026-07-07", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3710057", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710651", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3711460", "published": "2026-07-08", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710321", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3710224", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710223", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710808", "published": "2026-07-07", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710572", "published": "2026-07-06", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3711164", "published": "2026-07-08", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3708513", "published": "2026-07-08", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3710776", "published": "2026-07-07", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3710034", "published": "2026-07-03", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3709125", "published": "2026-07-01", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3708662", "published": "2026-07-01", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3709803", "published": "2026-07-02", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3708852", "published": "2026-07-01", "reason": "expired"},
-    {"doi": "10.1109/tkde.2026.3708765", "published": "2026-07-01", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3709894", "published": "2026-07-03", "reason": "expired"},
-    {"doi": "10.1109/tdsc.2026.3708889", "published": "2026-07-01", "reason": "expired"},
     {
       "doi": "10.1016/j.neunet.2026.108956",
       "published": "2026-04-10",
@@ -2446,6 +2412,279 @@
       "doi": "10.1016/j.neunet.2026.108904",
       "published": "2026-04-02",
       "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3679328",
+      "published": "2026-03-31",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/01.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688672",
+      "published": "2026-04-29",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/02.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3701838",
+      "published": "2026-06-09",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/03.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688748",
+      "published": "2026-04-30",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/04.json"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3658993",
+      "published": "2026-02-18",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/05.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688728",
+      "published": "2026-04-29",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/06.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688658",
+      "published": "2026-04-30",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/07.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3708224",
+      "published": "2026-06-29",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/08.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688944",
+      "published": "2026-04-29",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/09.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688702",
+      "published": "2026-04-29",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/10.json"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3694421",
+      "published": "2026-05-18",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/12.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3690561",
+      "published": "2026-05-05",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/13.json"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3701263",
+      "published": "2026-06-08",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/14.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3690447",
+      "published": "2026-05-05",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/15.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3705579",
+      "published": "2026-06-19",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/16.json"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108980",
+      "published": "2026-04-12",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/17.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3690949",
+      "published": "2026-05-06",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/18.json"
+    },
+    {
+      "doi": "10.1109/tai.2026.3666170",
+      "published": "2026-02-19",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/20.json"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3704959",
+      "published": "2026-06-18",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/21.json"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108978",
+      "published": "2026-04-10",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/22.json"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3659508",
+      "published": "2026-02-10",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/23.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3684741",
+      "published": "2026-04-16",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/24.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3691593",
+      "published": "2026-05-18",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/26.json"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3704753",
+      "published": "2026-06-17",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/28.json"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104949",
+      "published": "2026-05-12",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/30.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3688174",
+      "published": "2026-04-28",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/31.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3690925",
+      "published": "2026-05-05",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/32.json"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3675422",
+      "published": "2026-04-07",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/33.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3683469",
+      "published": "2026-04-13",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/34.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3699823",
+      "published": "2026-06-02",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/35.json"
+    },
+    {
+      "doi": "10.1109/tai.2026.3681719",
+      "published": "2026-04-07",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/36.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3692624",
+      "published": "2026-05-13",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/37.json"
+    },
+    {
+      "doi": "10.1109/tai.2026.3678232",
+      "published": "2026-03-27",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/38.json"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3699946",
+      "published": "2026-06-03",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/39.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3686919",
+      "published": "2026-04-23",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/40.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3685700",
+      "published": "2026-04-20",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/41.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3697897",
+      "published": "2026-06-01",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/42.json"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3687339",
+      "published": "2026-04-23",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/43.json"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3669814",
+      "published": "2026-03-10",
+      "reason": "expired",
+      "date_source": "publisher-PDF-first-online",
+      "evidence": "skill-runs/organize_2026-10-18/reviews/44.json"
     }
   ]
 }

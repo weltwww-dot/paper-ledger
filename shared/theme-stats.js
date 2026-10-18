@@ -40,7 +40,7 @@
    */
   function byWindow(papers, since) {
     if (!since) return papers;
-    return papers.filter((p) => p.published && p.published >= since);
+    return papers.filter((p) => p.published && (/^\d{4}-\d{2}$/.test(p.published) ? p.published + '-01' : p.published) >= since);
   }
 
   /* 方向 + 时间窗口组合过滤（热点/趋势/统计范围 chips 共用） */
@@ -64,6 +64,10 @@
       }
       return { recognized: 0, year: 0, precision: 0, stamp: 0 };
     }
+    match = text.match(/^(\d{4})-(\d{2})$/);
+    if (match && Number(match[2]) >= 1 && Number(match[2]) <= 12) {
+      return { recognized: 1, year: Number(match[1]), precision: 0.5, stamp: Date.UTC(Number(match[1]), Number(match[2]) - 1, 1) };
+    }
     match = text.match(/^(\d{4})(?:年)?$/);
     return match
       ? { recognized: 1, year: Number(match[1]), precision: 0, stamp: 0 }
@@ -74,8 +78,8 @@
     return (
       b.recognized - a.recognized ||
       b.year - a.year ||
-      b.precision - a.precision ||
-      b.stamp - a.stamp
+      b.stamp - a.stamp ||
+      b.precision - a.precision
     );
   }
 
@@ -88,8 +92,8 @@
     const out = new Map();
     out.set("全部", filterScope(papers, { since }).length);
     for (const d of directions || []) out.set(d, 0);
-    for (const p of papers) {
-      if (p.direction && out.has(p.direction) && (!since || (p.published && p.published >= since))) {
+    for (const p of byWindow(papers, since)) {
+      if (p.direction && out.has(p.direction)) {
         out.set(p.direction, out.get(p.direction) + 1);
       }
     }

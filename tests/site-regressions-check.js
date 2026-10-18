@@ -34,10 +34,12 @@ const dates = [
   ["prior-year", "2025-12-31"],
   ["august", "2026-08-01"],
   ["boundary", "2026-07-01"],
+  ["month-july", "2026-07"],
+  ["month-current", "2026-10"],
   ["expired", "2026-06-30"],
   ["future", "2026-10-02"],
 ];
-const expectedOrder = ["same-iso", "same-zh", "older-iso", "august", "boundary"];
+const expectedOrder = ["month-current", "same-iso", "same-zh", "older-iso", "august", "boundary", "month-july"];
 const seed = dates.map(([id, published]) => ({
   id,
   title: id === "same-iso" ? longToken : `Regression ${id}`,
@@ -113,8 +115,16 @@ html = html.replace("</body>", `<output id="site-regressions-test"></output>
         if (!floatingVisible || !smoothRequested || !stayedExpandedDuringScroll || !collapsed) {
           failures.push('收起交互:' + JSON.stringify({ floatingVisible, smoothRequested, stayedExpandedDuringScroll, collapsed, scrollRequest, latestTop: latest && latest.getBoundingClientRect().top }));
         }
-        document.documentElement.dataset.siteRegressionsTest = failures.length ? 'fail' : 'pass';
-        document.querySelector('#site-regressions-test').textContent = failures.join('|');
+        document.querySelector('#import-text').value = ${JSON.stringify('## 基本信息\n- **标题**: Month import regression\n- **发表**: 2026-10\n- **期刊/会议**: Regression Journal\n- **DOI**: 10.1000/month-import\n## 一句话概括\n月份精度导入测试。')};
+        document.querySelector('#import-parse').click();
+        if (document.querySelector('#import-published').value !== '2026-10') failures.push('月份导入:解析后丢失年月');
+        document.querySelector('#import-confirm').click();
+        window.setTimeout(() => {
+          const imported = [...document.querySelectorAll('#latest-list .paper')].some(card => card.textContent.includes('Month import regression') && card.textContent.includes('2026-10'));
+          if (!imported) failures.push('月份导入:未成功收录');
+          document.documentElement.dataset.siteRegressionsTest = failures.length ? 'fail' : 'pass';
+          document.querySelector('#site-regressions-test').textContent = failures.join('|');
+        }, 400);
       }, 0);
     }
     window.addEventListener('load', () => window.setTimeout(report, 0));

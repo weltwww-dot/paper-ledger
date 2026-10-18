@@ -8,6 +8,7 @@ try {
     return cp.spawnSync(process.execPath,[path.join(__dirname,'../scripts/retention-check.js'),'--data',target,'--as-of','2026-10-01'],{encoding:'utf8'});
   };
   assert.equal(run([{doi:'10.1/within',published:'2026-07-01'}]).status,0);
+  assert.equal(run([{doi:'10.1/month',published:'2026-10'}]).status,0);
   for(const date of ['2026-06-30','2026-10-02','2026','bad-date']) {
     const result=run([{doi:'10.1/invalid',published:date}]);
     assert.equal(result.status,1,date);

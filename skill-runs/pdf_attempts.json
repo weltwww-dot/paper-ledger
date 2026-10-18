@@ -245,7 +245,11 @@
   },
   "10.1016/j.cose.2026.105137": {
     "reason": "not-oa",
-    "note": "OpenAlex 标记为 closed，未发现公开 PDF。"
+    "note": "OpenAlex 标记为 closed，未发现公开 PDF。",
+    "resolved": true,
+    "resolved_date": "2026-10-18",
+    "resolution": "PDFagent已交付正式版16页，整理agent核验并绑定papers/COSE_2026_HardwareAnchoredAssurance.pdf；原not-oa仅为历史OA探测结果，不是当前缺PDF。",
+    "resolution_evidence": "skill-runs/organize_2026-10-18/reviews/25.json"
   },
   "10.1016/j.neunet.2026.108893": {
     "reason": "not-oa",

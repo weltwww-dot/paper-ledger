@@ -1,4 +1,4 @@
-/* One rolling three-calendar-month policy for sync, browser caches and validation. */
+/* Keep the current month and three preceding months across sync, caches and validation. */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) module.exports = factory();
   else root.PublicationWindow = factory();
@@ -30,17 +30,16 @@
     const date = asOf || today();
     const v = interval(date);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !v || v.first !== v.last) throw new Error('asOf must be a valid YYYY-MM-DD date');
-    const [y,m,d] = date.split('-').map(Number);
+    const [y,m] = date.split('-').map(Number);
     const first = new Date(Date.UTC(y,m-4,1));
-    const lastDay = new Date(Date.UTC(first.getUTCFullYear(),first.getUTCMonth()+1,0)).getUTCDate();
-    return day(first.getUTCFullYear(),first.getUTCMonth()+1,Math.min(d,lastDay));
+    return day(first.getUTCFullYear(),first.getUTCMonth()+1,1);
   }
   function classify(value, asOf) {
     const now = asOf || today(), start = windowStart(now), span = interval(value);
     if (!span) return 'unknown';
     if (span.last < start) return 'expired';
     if (span.first > now) return 'future';
-    if (span.first >= start && span.last <= now) return 'recent';
+    if (span.first >= start && span.last.slice(0,7) <= now.slice(0,7)) return 'recent';
     return 'unknown';
   }
   function filterRecent(papers, asOf) {

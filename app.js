@@ -58,7 +58,7 @@
     return counts;
   }
 
-  /* 统计窗口起点：最近 N 天（含今天）对应的 YYYY-MM-DD */
+  /* 统计窗口起点：当月往前3个月的1日。 */
   function statsSince() {
     return PublicationWindow.windowStart();
   }
@@ -322,7 +322,7 @@
     const trend = ThemeStats.trend(scopePapers);
     if (count) {
       count.textContent = scopePapers.length
-        ? `近三个月 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
+        ? `当月及前3个月 · ${scopePapers.length} 篇 · ${hot.length} 个主题`
         : "";
     }
 
@@ -361,8 +361,8 @@
     trendList.textContent = "";
     if (trendHint) {
       trendHint.textContent = trend.olderN
-        ? `近三个月内：最新 ${trend.recentN} 篇 vs 其余 ${trend.olderN} 篇 · 占比变化`
-        : `近三个月内：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
+        ? `当月及前3个月：最新 ${trend.recentN} 篇 vs 其余 ${trend.olderN} 篇 · 占比变化`
+        : `当月及前3个月：最新 ${trend.recentN} 篇 · 尚无更早发表可对比`;
     }
     const MIN_DELTA = 0.05; // 5 个百分点以上才算明显变化；「新进」需至少出现 2 次
     const upRows = trend.rows
@@ -395,10 +395,10 @@
     if (trendEmpty) {
       trendEmpty.hidden = upRows.length + downRows.length !== 0;
       trendEmpty.textContent = scopePapers.length < 2
-        ? `近三个月内论文还太少，积累几轮更新后这里会自动出现趋势。`
+        ? `收录窗口内论文还太少，积累几轮更新后这里会自动出现趋势。`
         : !trend.olderN
-          ? `近三个月内不足 13 篇，尚无法切出两个窗口。`
-          : "近三个月内两个分组的主题占比没有明显变化。";
+          ? `收录窗口内不足 13 篇，尚无法切出两个窗口。`
+          : "收录窗口内两个分组的主题占比没有明显变化。";
     }
   }
 
@@ -538,7 +538,7 @@
   const rules = {
     "f-published": {
       validate: (v) => PublicationWindow.classify(v) === 'recent',
-      error: '仅可录入最近三个月的论文，请填写有效的在线发表日期。',
+      error: '仅可录入当月及前3个月的论文，可填写 YYYY-MM 或 YYYY-MM-DD。',
     },
     "f-title": {
       validate: (v) => v.trim().length >= 2,
@@ -748,7 +748,7 @@
     parsedEntry.tags = ThemeStats.splitTags(importTags.value);
     if (importPublished) parsedEntry.published = importPublished.value.trim() || "";
     if (PublicationWindow.classify(parsedEntry.published) !== 'recent') {
-      importHelp.textContent = '仅可录入最近三个月的论文，请补齐并核实在线发表日期。';
+      importHelp.textContent = '仅可录入当月及前3个月的论文，发表时间明确到月份即可。';
       importHelp.classList.add('field__helper--error');
       return;
     }
