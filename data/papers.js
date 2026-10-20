@@ -1,6 +1,81 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Prioritizing selected ISO/IEC 27001 implementation investment items using multi-criteria decision analysis",
+    "authors": "Sadrettin Çodur、Fatih Tiryaki",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-10-18",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10207-026-01347-6",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_ISO27001InvestmentPrioritization.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01347-6",
+    "direction": "信息安全",
+    "summary": "用专家排序和多准则决策分析，为资源受限组织筛选ISO/IEC 27001实施初期应优先关注的投资事项。",
+    "question": "组织往往无法同时投入所有安全建设事项，需要把有限资源分配给更紧迫的项目。论文研究的是选定投资项的规划优先级，不是对标准全部控制措施作普遍排序。",
+    "method": "邀请10位信息安全与IT专业人士，对10个投资领域及适用性声明（SoA）共11项排序，允许并列。RANCOM将序位判断转为比较矩阵并归一化权重，再用Copeland、PageRank交叉核对，并逐次剔除一位专家检验排序稳定性。",
+    "experiments": "三种方法均把服务器机房、系统冗余与备份、灾难恢复中心排在前三；RANCOM权重分别为0.1669、0.1554、0.1372。留一专家分析中，排序与基线的Spearman相关系数为0.9269—0.9977，前三项及前五名总体稳定，中低位则存在方法差异与接近的权重（PDF第8—10页，表3—5）。这些结果衡量专家偏好及排序稳定性，不是安全效能实测。",
+    "contribution": "提供可复核的专家决策流程，并用不同聚合方法及敏感性分析降低单一排序方法的影响。样本仅10位专家，未直接测量成本、风险降低或实施后绩效，也未建模项目依赖；具体投入顺序仍须结合行业、基础设施和组织风险调整，不能将稳定排序等同于更高安全收益（PDF第11—12页）。\n---\nDOI: 10.1007/s10207-026-01347-6 | PDF: [IJIS_2026_ISO27001InvestmentPrioritization.pdf](papers/IJIS_2026_ISO27001InvestmentPrioritization.pdf)",
+    "sample": false,
+    "id": "r-1hsug86",
+    "tags": [
+      "系统与网络安全"
+    ]
+  },
+  {
+    "title": "Reusability report: multi-sample omics network inference operates in distinct robustness regimes defined by prior knowledge and data availability",
+    "authors": "Xabier Martínez-de-Morentin、Sumeer A. Khan、Itziar Cenzano 等",
+    "journal": "Nature Machine Intelligence",
+    "year": "2026",
+    "published": "2026-10-19",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1038/s42256-026-01311-y",
+    "arxiv": "",
+    "pdf": "papers/NMI_2026_OmicsNetworkReusability.pdf",
+    "link": "https://doi.org/10.1038/s42256-026-01311-y",
+    "direction": "人工智能",
+    "summary": "复现并扩展CORNETO，说明多样本组学网络联合推断的稳定性收益取决于先验完整度、数据量与生物异质性，并检验两种稳健化策略。",
+    "question": "不同调控网络可能解释同一组观测数据，预测准确并不保证找到了真实调控机制。作者关注何时联合推断更稳定，以及过强正则化和剪枝何时损失细胞特异信息，而非宣称发现新的因果网络。",
+    "method": "复现原框架，并在造血分化与成人皮层单细胞数据上评估iMAT、KPNN、Steiner tree及CARNIVAL，各自沿用适合该任务的指标而不混成统一排名。系统改变正则化、先验网络完整度与条件数，再引入bootstrap聚合和选择性重新扩展，以恢复稳定结构及被过度剪枝丢失的信息。",
+    "experiments": "联合推断主要改善稳定性，未在所有任务和生物情境下一致提高预测表现。造血KPNN剪枝后重新加入被排除的100个高信息量基因，准确率从0.576升至0.906、macro F1从0.424升至0.848，边数也从267增至11,924；先验网络仅保留20%时，iMAT各次运行均未产生活跃反应（PDF第6页）。这些指标不是对真实因果相互作用的独立验证。",
+    "contribution": "将复现、受控扰动和结果级修正结合，给出按数据条件选择联合推断与正则化的实践依据。动态和相对稳定情境各仅一个数据集，结论是案例支持的假设而非所有组织的普遍规律；缺少完整实验真值，重采样重复也不是生物重复，大规模混合整数优化仍有计算瓶颈（PDF第7—8、13—14页）。\n---\nDOI: 10.1038/s42256-026-01311-y | PDF: [NMI_2026_OmicsNetworkReusability.pdf](papers/NMI_2026_OmicsNetworkReusability.pdf)",
+    "sample": false,
+    "id": "r-gfe3sl",
+    "tags": [
+      "机器学习方法",
+      "科学计算AI",
+      "可解释AI"
+    ]
+  },
+  {
+    "title": "A unified drift-adaptive and robust residual autoencoder with attention and few-shot learning for zero-day intrusion detection",
+    "authors": "Salman Shehzad、Nouman Ijaz、Chunsheng Yang、Sana Ullah Jan",
+    "journal": "International Journal of Information Security",
+    "year": "2026",
+    "published": "2026-10-20",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10207-026-01349-4",
+    "arxiv": "",
+    "pdf": "papers/IJIS_2026_DriftAdaptiveZeroDayIntrusion.pdf",
+    "link": "https://doi.org/10.1007/s10207-026-01349-4",
+    "direction": "信息安全",
+    "summary": "ASRAE将注意力、漂移适应和对抗训练融入残差自编码器，并在发现新攻击后用少量标注样本更新，改善基准上的入侵检测。",
+    "question": "正常流量会随时间变化，固定重构误差阈值可能失效；检测器也易受对抗扰动和未见攻击影响。论文希望协调表示学习、在线适应与后续少样本更新，而非把任何单个模块当作全新方法。",
+    "method": "初始阶段只用正常样本学习带注意力的残差自编码器，并加入正常样本对抗训练；结合在线概念漂移检测、自适应阈值与受约束重训练。攻击识别并获得标注后，以元学习方式局部更新注意力投影和末层解码器，另用集成梯度解释；这个少样本阶段并非全程无监督。",
+    "experiments": "常规冻结模型在UNSW-NB15、CIC-IDS2017、CSE-CIC-IDS2018上的ROC-AUC分别为0.952、0.940、0.931。对留出的Worms、Shellcode、Reconnaissance攻击家族，取得5个标注样本后，检测率分别从0.72、0.71、0.70升至0.87、0.88、0.86；所测环境的平均单样本推理时间从7.1增至9.2毫秒（PDF第10、12—14页，表1、7、10）。这些基准结果不能直接代表真实网络部署表现。",
+    "contribution": "贡献在于统一多个稳健性与适应机制，并通过对照和消融检验其作用。漂移来自受控特征扰动，攻击在特征空间生成；在线重训练采用模型判定的正常样本，可能混入漏检攻击，参数约束不能消除该风险。少样本采用攻击家族留出而非严格时间留出，仍需自然漂移、可实现网络攻击及真实时序评估（PDF第14—15页）。\n---\nDOI: 10.1007/s10207-026-01349-4 | PDF: [IJIS_2026_DriftAdaptiveZeroDayIntrusion.pdf](papers/IJIS_2026_DriftAdaptiveZeroDayIntrusion.pdf)",
+    "sample": false,
+    "id": "r-1uwg73j",
+    "tags": [
+      "入侵检测与防御",
+      "对抗与鲁棒性"
+    ]
+  },
+  {
     "title": "Bias Amplification in RAG: Poisoning Knowledge Retrieval to Steer LLMs",
     "authors": "Linlin Wang, Tianqing Zhu, Laiqiao Qin et al.",
     "journal": "IEEE Transactions on Dependable and Secure Computing",
