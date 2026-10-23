@@ -2038,5 +2038,9 @@
   "10.1177/0926227x261487917": {
     "reason": "blocked",
     "note": "2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+  },
+  "10.1038/s42256-026-01316-7": {
+    "reason": "no-file",
+    "note": "2026-10-23读取PDFagent交付：直链/落地页均HTTP200 text/html384977字节，instsci主/重试capture_failed、0字节，观察仅有Supplementary Information PDF入口，未取得正式正文。证据skill-runs/gap_2026-10-23/probe_016-7.txt、log_nature1.txt及batch20261023_nature诊断。不能把SI当正文或证明所有机构路径均不可用；整理agent未自行获取。"
   }
 }
