@@ -1,22 +1,13 @@
 {
-  "from_date": "2026-10-16",
+  "from_date": "2026-10-18",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-10-23",
+  "until_date": "2026-10-25",
   "retention_cutoff": "2026-07-01",
   "journal_count": 17,
   "scope": "7-day-overlap metadata refresh; not a full July-October recollection",
   "collection_complete": false,
   "current_overlap_source_comparison_complete": true,
   "current_overlap_unresolved_source_errors": 0,
-  "resolved_transport_errors": [
-    {
-      "journal": "Artificial Intelligence",
-      "source": "crossref",
-      "initial_error": "TLS UNEXPECTED_EOF_WHILE_READING",
-      "retry_http_status": 200,
-      "evidence": "crossref_transport_retry.json"
-    }
-  ],
   "historical_coverage_gaps": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -26,7 +17,10 @@
       "source_total": 111,
       "raw_retrieved": 100,
       "complete": false,
-      "error": "HTTP 401"
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -36,17 +30,22 @@
       "source_total": 132,
       "raw_retrieved": 100,
       "complete": false,
-      "error": "HTTP 401"
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     },
     {
       "journal": "Computers & Security",
       "source": "openalex",
       "from_date": "2026-07-01",
-      "until_date": "2026-10-23",
-      "source_total": null,
-      "raw_retrieved": 0,
+      "until_date": "2026-10-25",
+      "source_total": 146,
+      "raw_retrieved": 100,
       "complete": false,
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+      "error": "HTTP Error 401: Unauthorized",
+      "last_checked": "2026-10-25",
+      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json"
     },
     {
       "journal": "Neural Networks",
@@ -56,34 +55,63 @@
       "source_total": 423,
       "raw_retrieved": 100,
       "complete": false,
-      "error": "HTTP 401"
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     }
   ],
-  "historical_coverage_evidence": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
   "errors": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
-      "scope": "historical_full_window",
-      "error": "HTTP 401"
+      "from_date": "2026-07-01",
+      "until_date": "2026-10-23",
+      "source_total": 111,
+      "raw_retrieved": 100,
+      "complete": false,
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "source": "openalex",
-      "scope": "historical_full_window",
-      "error": "HTTP 401"
+      "from_date": "2026-07-01",
+      "until_date": "2026-10-23",
+      "source_total": 132,
+      "raw_retrieved": 100,
+      "complete": false,
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     },
     {
       "journal": "Computers & Security",
       "source": "openalex",
-      "scope": "historical_full_window",
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+      "from_date": "2026-07-01",
+      "until_date": "2026-10-25",
+      "source_total": 146,
+      "raw_retrieved": 100,
+      "complete": false,
+      "error": "HTTP Error 401: Unauthorized",
+      "last_checked": "2026-10-25",
+      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json"
     },
     {
       "journal": "Neural Networks",
       "source": "openalex",
-      "scope": "historical_full_window",
-      "error": "HTTP 401"
+      "from_date": "2026-07-01",
+      "until_date": "2026-10-23",
+      "source_total": 423,
+      "raw_retrieved": 100,
+      "complete": false,
+      "error": "HTTP 401",
+      "last_checked": "2026-10-23",
+      "rechecked_this_update": false,
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
     }
   ],
   "journals": [
@@ -94,22 +122,18 @@
         "raw_retrieved": 1,
         "source_total": 1,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 1,
         "raw_retrieved": 1,
         "source_total": 1,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 1,
       "crossref_only_dois": [],
@@ -123,24 +147,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 2,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0,
-        "initial_error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
-        "retry_evidence": "crossref_transport_retry.json"
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -154,22 +172,18 @@
         "raw_retrieved": 1,
         "source_total": 1,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 1,
       "crossref_only_dois": [],
@@ -185,22 +199,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -214,22 +224,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -243,22 +249,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -272,22 +274,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 0,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -301,22 +299,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -330,22 +324,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -359,22 +349,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -384,29 +370,27 @@
     {
       "journal": "International Journal of Information Security",
       "openalex": {
-        "count": 5,
-        "raw_retrieved": 5,
-        "source_total": 5,
+        "count": 3,
+        "raw_retrieved": 3,
+        "source_total": 3,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
-        "count": 5,
-        "raw_retrieved": 5,
-        "source_total": 5,
+        "count": 4,
+        "raw_retrieved": 4,
+        "source_total": 4,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
-      "union_count": 5,
-      "crossref_only_dois": [],
+      "union_count": 4,
+      "crossref_only_dois": [
+        "10.1007/s10207-026-01354-7"
+      ],
       "openalex_only_dois": [],
       "source_comparison_complete": true
     },
@@ -417,22 +401,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -446,22 +426,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -475,22 +451,18 @@
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "union_count": 0,
       "crossref_only_dois": [],
@@ -500,28 +472,24 @@
     {
       "journal": "Machine Learning",
       "openalex": {
-        "count": 3,
-        "raw_retrieved": 3,
-        "source_total": 3,
+        "count": 1,
+        "raw_retrieved": 1,
+        "source_total": 1,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
-        "count": 3,
-        "raw_retrieved": 3,
-        "source_total": 3,
+        "count": 1,
+        "raw_retrieved": 1,
+        "source_total": 1,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
-      "union_count": 3,
+      "union_count": 1,
       "crossref_only_dois": [],
       "openalex_only_dois": [],
       "source_comparison_complete": true
@@ -529,28 +497,24 @@
     {
       "journal": "Nature Machine Intelligence",
       "openalex": {
-        "count": 6,
-        "raw_retrieved": 6,
-        "source_total": 6,
+        "count": 7,
+        "raw_retrieved": 7,
+        "source_total": 7,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
-        "count": 6,
-        "raw_retrieved": 6,
-        "source_total": 6,
+        "count": 7,
+        "raw_retrieved": 7,
+        "source_total": 7,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
-      "union_count": 6,
+      "union_count": 7,
       "crossref_only_dois": [],
       "openalex_only_dois": [],
       "source_comparison_complete": true
@@ -558,44 +522,45 @@
     {
       "journal": "Neural Networks",
       "openalex": {
-        "count": 3,
-        "raw_retrieved": 5,
-        "source_total": 5,
+        "count": 6,
+        "raw_retrieved": 8,
+        "source_total": 8,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 2
+        "error": null,
+        "network_calls": 1
       },
       "crossref": {
         "count": 0,
         "raw_retrieved": 0,
         "source_total": 0,
         "pages": 1,
-        "network_calls": 1,
-        "error": null,
-        "attempted": true,
         "complete": true,
-        "excluded_count": 0
+        "error": null,
+        "network_calls": 1
       },
-      "union_count": 3,
+      "union_count": 6,
       "crossref_only_dois": [],
       "openalex_only_dois": [
         "10.1016/j.neunet.2026.109758",
         "10.1016/j.neunet.2026.109759",
-        "10.1016/j.neunet.2026.109760"
+        "10.1016/j.neunet.2026.109760",
+        "10.1016/j.neunet.2026.109765",
+        "10.1016/j.neunet.2026.109785",
+        "10.1016/j.neunet.2026.109787"
       ],
       "source_comparison_complete": true
     }
   ],
   "new_record_count": 7,
-  "new_research_metadata": 7,
+  "genuinely_new_dois": 6,
+  "resolved_prior_type_eligible": 1,
   "uncollected_month_eligible_count": 1771,
-  "new_nonresearch_exclusions": 2,
-  "raw_recent_distinct_article_dois": 19,
-  "partial_historical_records_examined": 298,
+  "new_nonresearch_exclusions": 1,
+  "raw_recent_distinct_article_dois": 20,
+  "partial_historical_records_examined": 100,
   "partial_historical_new_dois": 0,
   "baseline_advanced": false,
-  "baseline_date": "2026-09-22"
+  "baseline_date": "2026-09-22",
+  "previous_audit_snapshot": "skill-runs/update_2026-10-23/collection_audit.json"
 }

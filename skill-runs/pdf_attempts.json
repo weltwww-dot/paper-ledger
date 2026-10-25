@@ -2041,6 +2041,18 @@
   },
   "10.1038/s42256-026-01316-7": {
     "reason": "no-file",
-    "note": "2026-10-23读取PDFagent交付：直链/落地页均HTTP200 text/html384977字节，instsci主/重试capture_failed、0字节，观察仅有Supplementary Information PDF入口，未取得正式正文。证据skill-runs/gap_2026-10-23/probe_016-7.txt、log_nature1.txt及batch20261023_nature诊断。不能把SI当正文或证明所有机构路径均不可用；整理agent未自行获取。"
+    "note": "2026-10-25获取agent工具报success但PDF仅Supplementary information（15页8644511字节，首页SI封面语），保留batch20261025_nature/supplementary，正式正文仍缺；不能以DOI/题名相同或查看器URL充正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+  },
+  "10.1038/s42256-026-01318-5": {
+    "reason": "no-file",
+    "note": "2026-10-25获取agent抓到Stanford Canaries错文（140页，目标题名/作者/DOI不匹配），已在batch20261025_nature/rejected隔离，非Agentic inequality正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+  },
+  "10.1038/s42256-026-01326-5": {
+    "reason": "no-file",
+    "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html361445字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+  },
+  "10.1038/s42256-026-01331-8": {
+    "reason": "no-file",
+    "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html325877字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
   }
 }
