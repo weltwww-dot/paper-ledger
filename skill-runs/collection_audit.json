@@ -1,13 +1,13 @@
 {
-  "from_date": "2026-10-18",
+  "from_date": "2026-10-21",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-10-25",
+  "until_date": "2026-10-28",
   "retention_cutoff": "2026-07-01",
   "journal_count": 17,
-  "scope": "7-day-overlap metadata refresh; not a full July-October recollection",
+  "scope": "7day publication-overlap plus Crossref created-date discovery fallback; NOT full JulyOctober collection",
   "collection_complete": false,
-  "current_overlap_source_comparison_complete": true,
-  "current_overlap_unresolved_source_errors": 0,
+  "current_overlap_source_comparison_complete": false,
+  "current_overlap_unresolved_source_errors": 17,
   "historical_coverage_gaps": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -45,7 +45,8 @@
       "complete": false,
       "error": "HTTP Error 401: Unauthorized",
       "last_checked": "2026-10-25",
-      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json"
+      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json",
+      "rechecked_this_update": false
     },
     {
       "journal": "Neural Networks",
@@ -63,6 +64,142 @@
   ],
   "errors": [
     {
+      "journal": "IEEE Transactions on Information Forensics and Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Transactions on Dependable and Secure Computing",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Security & Privacy",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "ACM Transactions on Privacy and Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "International Journal of Information Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Journal of Computer Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Journal of Cybersecurity",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Computers & Security",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Artificial Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Neural Networks",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "IEEE Transactions on Artificial Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Machine Learning",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
+      "journal": "Journal of Machine Learning Research",
+      "source": "openalex",
+      "error": "HTTP Error 429: Too Many Requests",
+      "scope": "current_overlap",
+      "from_date": "2026-10-21",
+      "until_date": "2026-10-28"
+    },
+    {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
       "from_date": "2026-07-01",
@@ -73,7 +210,8 @@
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
       "rechecked_this_update": false,
-      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
+      "scope": "historical_full_window"
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -86,7 +224,8 @@
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
       "rechecked_this_update": false,
-      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
+      "scope": "historical_full_window"
     },
     {
       "journal": "Computers & Security",
@@ -98,7 +237,9 @@
       "complete": false,
       "error": "HTTP Error 401: Unauthorized",
       "last_checked": "2026-10-25",
-      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json"
+      "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json",
+      "rechecked_this_update": false,
+      "scope": "historical_full_window"
     },
     {
       "journal": "Neural Networks",
@@ -111,44 +252,42 @@
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
       "rechecked_this_update": false,
-      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json"
+      "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
+      "scope": "historical_full_window"
     }
   ],
   "journals": [
     {
       "journal": "ACM Transactions on Privacy and Security",
       "openalex": {
-        "count": 1,
-        "raw_retrieved": 1,
-        "source_total": 1,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
-        "count": 1,
-        "raw_retrieved": 1,
-        "source_total": 1,
+        "count": 2,
+        "raw_retrieved": 2,
+        "source_total": 2,
         "pages": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
-      "union_count": 1,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Artificial Intelligence",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -160,20 +299,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Computers & Security",
       "openalex": {
-        "count": 1,
-        "raw_retrieved": 1,
-        "source_total": 1,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -185,22 +321,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 1,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [
-        "10.1016/j.cose.2026.105219"
-      ],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Security & Privacy",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -212,20 +343,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Artificial Intelligence",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -237,20 +365,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Dependable and Secure Computing",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -262,20 +387,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Information Forensics and Security",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -287,20 +409,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -312,20 +431,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -337,20 +453,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -362,47 +475,39 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "International Journal of Information Security",
       "openalex": {
-        "count": 3,
-        "raw_retrieved": 3,
-        "source_total": 3,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
-        "count": 4,
-        "raw_retrieved": 4,
-        "source_total": 4,
+        "count": 2,
+        "raw_retrieved": 2,
+        "source_total": 2,
         "pages": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
-      "union_count": 4,
-      "crossref_only_dois": [
-        "10.1007/s10207-026-01354-7"
-      ],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Journal of Computer Security",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -414,20 +519,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Journal of Cybersecurity",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -439,20 +541,17 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Journal of Machine Learning Research",
       "openalex": {
         "count": 0,
         "raw_retrieved": 0,
-        "source_total": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -464,70 +563,61 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 0,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Machine Learning",
       "openalex": {
-        "count": 1,
-        "raw_retrieved": 1,
-        "source_total": 1,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
-        "count": 1,
-        "raw_retrieved": 1,
-        "source_total": 1,
+        "count": 2,
+        "raw_retrieved": 2,
+        "source_total": 2,
         "pages": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
-      "union_count": 1,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Nature Machine Intelligence",
       "openalex": {
-        "count": 7,
-        "raw_retrieved": 7,
-        "source_total": 7,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
-        "count": 7,
-        "raw_retrieved": 7,
-        "source_total": 7,
+        "count": 2,
+        "raw_retrieved": 2,
+        "source_total": 2,
         "pages": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
-      "union_count": 7,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     },
     {
       "journal": "Neural Networks",
       "openalex": {
-        "count": 6,
-        "raw_retrieved": 8,
-        "source_total": 8,
+        "count": 0,
+        "raw_retrieved": 0,
+        "source_total": null,
         "pages": 1,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP Error 429: Too Many Requests",
         "network_calls": 1
       },
       "crossref": {
@@ -539,28 +629,19 @@
         "error": null,
         "network_calls": 1
       },
-      "union_count": 6,
-      "crossref_only_dois": [],
-      "openalex_only_dois": [
-        "10.1016/j.neunet.2026.109758",
-        "10.1016/j.neunet.2026.109759",
-        "10.1016/j.neunet.2026.109760",
-        "10.1016/j.neunet.2026.109765",
-        "10.1016/j.neunet.2026.109785",
-        "10.1016/j.neunet.2026.109787"
-      ],
-      "source_comparison_complete": true
+      "source_comparison_complete": false
     }
   ],
-  "new_record_count": 7,
-  "genuinely_new_dois": 6,
-  "resolved_prior_type_eligible": 1,
-  "uncollected_month_eligible_count": 1771,
-  "new_nonresearch_exclusions": 1,
-  "raw_recent_distinct_article_dois": 20,
-  "partial_historical_records_examined": 100,
-  "partial_historical_new_dois": 0,
+  "created_date_discovery_evidence": "skill-runs/update_2026-10-28/crossref_created_discovery.json",
+  "created_date_discovery_calls": 17,
+  "created_date_discovery_source_complete": true,
+  "created_date_discovery_is_publication_date": false,
+  "new_record_count": 20,
+  "uncollected_month_eligible_count": 1787,
+  "new_month_unverified": 69,
+  "new_nonresearch_exclusions": 2,
+  "historical_gaps_retried": false,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_snapshot": "skill-runs/update_2026-10-23/collection_audit.json"
+  "previous_audit_snapshot": "skill-runs/update_2026-10-25/collection_audit.json"
 }

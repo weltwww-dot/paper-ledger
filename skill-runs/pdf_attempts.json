@@ -2041,18 +2041,102 @@
   },
   "10.1038/s42256-026-01316-7": {
     "reason": "no-file",
-    "note": "2026-10-25获取agent工具报success但PDF仅Supplementary information（15页8644511字节，首页SI封面语），保留batch20261025_nature/supplementary，正式正文仍缺；不能以DOI/题名相同或查看器URL充正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    "note": "2026-10-28获取agent重试，主agent独立核交付：SI_only;15pages8644511bytes,same SHA as10/25,main body missing。证据skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl。仅证明这些尝试未得正文；新合法可用性线索仍可重试。",
+    "previous_attempt": {
+      "reason": "no-file",
+      "note": "2026-10-25获取agent工具报success但PDF仅Supplementary information（15页8644511字节，首页SI封面语），保留batch20261025_nature/supplementary，正式正文仍缺；不能以DOI/题名相同或查看器URL充正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    }
   },
   "10.1038/s42256-026-01318-5": {
     "reason": "no-file",
-    "note": "2026-10-25获取agent抓到Stanford Canaries错文（140页，目标题名/作者/DOI不匹配），已在batch20261025_nature/rejected隔离，非Agentic inequality正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    "note": "2026-10-28获取agent重试，主agent独立核交付：wrong_paper; Stanford Canaries140pages, same SHA as10/25, target identity mismatch。证据skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl。仅证明这些尝试未得正文；新合法可用性线索仍可重试。",
+    "previous_attempt": {
+      "reason": "no-file",
+      "note": "2026-10-25获取agent抓到Stanford Canaries错文（140页，目标题名/作者/DOI不匹配），已在batch20261025_nature/rejected隔离，非Agentic inequality正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    }
   },
   "10.1038/s42256-026-01326-5": {
     "reason": "no-file",
-    "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html361445字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    "note": "2026-10-28获取agent重试，主agent独立核交付：pdf_not_captured;primary+retry0bytes,no main PDF。证据skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl。仅证明这些尝试未得正文；新合法可用性线索仍可重试。",
+    "previous_attempt": {
+      "reason": "no-file",
+      "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html361445字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    }
   },
   "10.1038/s42256-026-01331-8": {
     "reason": "no-file",
-    "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html325877字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    "note": "2026-10-28获取agent重试，主agent独立核交付：pdf_not_captured;primary+retry0bytes,no main PDF。证据skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl。仅证明这些尝试未得正文；新合法可用性线索仍可重试。",
+    "previous_attempt": {
+      "reason": "no-file",
+      "note": "2026-10-25获取agent主文capture_failed、0字节；直链200 text/html325877字节，未获正式正文。证据skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/；整理agent未自行获取出版社PDF。"
+    }
+  },
+  "10.1016/j.artint.2026.104645": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.artint.2026.104647": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105203": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105212": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105213": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105214": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105215": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105217": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.cose.2026.105223": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109792": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109795": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109798": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109799": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109802": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109803": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109804": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.neunet.2026.109805": {
+    "reason": "no-file",
+    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   }
 }

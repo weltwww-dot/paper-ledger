@@ -29526,7 +29526,7 @@
       "crossref",
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
@@ -29567,7 +29567,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -31933,7 +31933,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -31953,7 +31953,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -32647,7 +32647,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -32667,7 +32667,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -32688,7 +32688,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -32708,7 +32708,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -32729,7 +32729,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -32749,7 +32749,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -32770,7 +32770,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -32790,7 +32790,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -33162,7 +33162,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -33182,7 +33182,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -33692,7 +33692,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -33712,7 +33712,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -33733,7 +33733,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -33753,7 +33753,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -34090,7 +34090,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -34110,7 +34110,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -34754,7 +34754,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -34774,7 +34774,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -36432,7 +36432,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -36452,7 +36452,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -36473,7 +36473,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -36493,7 +36493,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -36749,7 +36749,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -36769,7 +36769,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -36790,7 +36790,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -36810,7 +36810,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -36831,7 +36831,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -36851,7 +36851,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -38125,7 +38125,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -38145,7 +38145,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -38166,7 +38166,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -38186,7 +38186,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -38207,7 +38207,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -38227,7 +38227,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -38248,7 +38248,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -38268,7 +38268,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39041,7 +39041,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39061,7 +39061,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39082,7 +39082,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39102,7 +39102,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39632,7 +39632,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39652,7 +39652,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39673,7 +39673,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39693,7 +39693,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39714,7 +39714,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39734,7 +39734,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -39755,7 +39755,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -39775,7 +39775,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -40753,7 +40753,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -40773,7 +40773,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -41941,7 +41941,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -41961,7 +41961,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42044,7 +42044,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42064,7 +42064,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42250,7 +42250,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42270,7 +42270,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42291,7 +42291,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42311,7 +42311,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42589,7 +42589,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42609,7 +42609,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42630,7 +42630,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42650,7 +42650,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -42671,7 +42671,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -42691,7 +42691,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -43054,7 +43054,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -43074,7 +43074,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -44115,7 +44115,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -44135,7 +44135,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45031,7 +45031,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45051,7 +45051,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45072,7 +45072,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45092,7 +45092,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45113,7 +45113,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45133,7 +45133,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45154,7 +45154,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45174,7 +45174,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45195,7 +45195,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45215,7 +45215,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45236,7 +45236,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45256,7 +45256,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -45277,7 +45277,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -45297,7 +45297,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -66864,7 +66864,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -66884,7 +66884,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -66972,7 +66972,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -66992,7 +66992,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -67013,7 +67013,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -67033,7 +67033,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -67414,7 +67414,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -67434,7 +67434,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -67455,7 +67455,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -67475,7 +67475,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -67496,7 +67496,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -67516,7 +67516,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -68518,7 +68518,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -68538,7 +68538,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -68909,7 +68909,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -68929,7 +68929,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -68950,7 +68950,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -68970,7 +68970,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -68991,7 +68991,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -69011,7 +69011,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -69278,7 +69278,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -69298,7 +69298,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -69319,7 +69319,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -69339,7 +69339,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -69486,7 +69486,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -69506,7 +69506,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -70721,7 +70721,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -70741,7 +70741,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -70762,7 +70762,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -70782,7 +70782,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -70803,7 +70803,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -70823,7 +70823,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71092,7 +71092,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71112,7 +71112,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71196,7 +71196,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71216,7 +71216,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71237,7 +71237,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71257,7 +71257,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71486,7 +71486,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71506,7 +71506,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71527,7 +71527,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71547,7 +71547,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71713,7 +71713,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71733,7 +71733,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -71754,7 +71754,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -71774,7 +71774,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72136,7 +72136,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72156,7 +72156,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72177,7 +72177,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72197,7 +72197,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72218,7 +72218,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72238,7 +72238,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72259,7 +72259,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72279,7 +72279,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72490,7 +72490,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72510,7 +72510,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72531,7 +72531,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72551,7 +72551,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -72840,7 +72840,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -72860,7 +72860,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -73258,7 +73258,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -73278,7 +73278,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -73299,7 +73299,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -73319,7 +73319,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -73422,7 +73422,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -73442,7 +73442,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -73698,7 +73698,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -73718,7 +73718,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -74042,7 +74042,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -74062,7 +74062,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -74083,7 +74083,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -74103,7 +74103,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -74192,7 +74192,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -74212,7 +74212,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -74233,7 +74233,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -74253,7 +74253,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -74274,7 +74274,7 @@
     "collection_sources": [
       "openalex"
     ],
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "last_seen": "2026-10-25",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
@@ -74294,7 +74294,7 @@
     "date_verified": false,
     "month_eligible": true,
     "last_metadata_collection_date": "2026-10-25",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
@@ -76153,6 +76153,183 @@
     "next_action": "月份已满足当前规则，无须等待精确首发日。PDFagent核对身份并交付正式完整正文；整理agent亲自写中文六段式、主题及规范PDF绑定。"
   },
   {
+    "doi": "10.1016/j.artint.2026.104645",
+    "title": "Enhancing Few-Shot Continual Relation Extraction via Pairwise Augmentation and Guided Sharpness-Aware Optimization",
+    "source": "Artificial Intelligence",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T07:35:57Z",
+        "timestamp": 1793086557000
+      }
+    },
+    "authors": [
+      "Hoang Thanh Dat",
+      "Nguyen Hoang Anh",
+      "Nam Le Hai",
+      "Linh Ngo Van",
+      "Sang Dinh"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0004370226001712",
+    "alternative_id": [
+      "S0004370226001712"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.artint.2026.104645.pdf",
+    "nonfinal_pdf_sha256": "5f695f7855cfaf060f56f109594112fee59569270b09180d2803ee43d3315d74",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.artint.2026.104647",
+    "title": "HiMAE: High-intensity Mask-based Autoencoder Framework for Unsupervised Human Action Recognition",
+    "source": "Artificial Intelligence",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2026-10-26T07:58:52Z",
+        "timestamp": 1793001532000
+      }
+    },
+    "authors": [
+      "Jianqi Zhong",
+      "Zhenrong Wang",
+      "Xu Tan",
+      "Wenming Cao"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0004370226001736",
+    "alternative_id": [
+      "S0004370226001736"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.artint.2026.104647.pdf",
+    "nonfinal_pdf_sha256": "6301a6dcc430f69de40b7fd3cf6dd7fe61909cb15f0c5ae846c56b3895c363a4",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
     "doi": "10.1016/j.cose.2026.104973",
     "title": "Crisis-driven cyber risk: Evaluating the cybercrime landscape in the face of pandemic uncertainty",
     "year": 2026,
@@ -76269,6 +76446,620 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003640",
     "queue_group": "uncollected_month_eligible",
     "next_action": "月份已满足当前规则，无须等待精确首发日。PDFagent核对身份并交付正式完整正文；整理agent亲自写中文六段式、主题及规范PDF绑定。"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105203",
+    "title": "Exploiting CPython’s just-in-time optimization: StencilLeak attack",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2026-10-26T17:09:22Z",
+        "timestamp": 1793034562000
+      }
+    },
+    "authors": [
+      "Seehwan Yoo",
+      "Youngpil Kim",
+      "Chuck Yoo"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003792",
+    "alternative_id": [
+      "S0167404826003792"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.cose.2026.105203.pdf",
+    "nonfinal_pdf_sha256": "d44787174db3ad5e81cbdd8cc40b35cde0d461775b075e02d9cc3a271ca0a3e4",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105212",
+    "title": "The Evolution of Cybersecurity Skill Demands in the U.S. Labor Market: A 15-Year Analysis (2010–2024)",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ],
+        "date-time": "2026-10-21T15:11:53Z",
+        "timestamp": 1792595513000
+      }
+    },
+    "authors": [
+      "Joseph H. Schuessler"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003883",
+    "alternative_id": [
+      "S0167404826003883"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.cose.2026.105212.pdf",
+    "nonfinal_pdf_sha256": "ff3cc621853bbd9f8c46bdc4034749d7d04b88e9df2ad5fc20aa8996141da49f",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105213",
+    "title": "AdaGuard: Temporal-leakage-free static-dynamic adaptation for android malware detection under concept drift",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ],
+        "date-time": "2026-10-21T06:18:41Z",
+        "timestamp": 1792563521000
+      }
+    },
+    "authors": [
+      "Linfeng Yang",
+      "Zhi Xie",
+      "Zhiding Wu",
+      "Yuan Meng",
+      "Zhenrong Yang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003895",
+    "alternative_id": [
+      "S0167404826003895"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.cose.2026.105213.pdf",
+    "nonfinal_pdf_sha256": "a103ed9eac22a72eb962a7017da2d42abca99a5fe8d9ec9322ca990af170e19a",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105214",
+    "title": "Beyond membership inference: Distributional leakage in diffusion models",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2026-10-24T06:52:10Z",
+        "timestamp": 1792824730000
+      }
+    },
+    "authors": [
+      "Sergio Barezzani",
+      "Pasquale Coscia",
+      "Stefano Ferrari",
+      "Vincenzo Piuri"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003901",
+    "alternative_id": [
+      "S0167404826003901"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c1\\preproof\\10.1016_j.cose.2026.105214.pdf",
+    "nonfinal_pdf_sha256": "672d9fd2b6f393231da518f5a5f291e23c729a0e2211402e9642cc49b867782b",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105215",
+    "title": "Vulnerability management: Survey, taxonomy, and challenges",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T16:43:23Z",
+        "timestamp": 1793119403000
+      }
+    },
+    "authors": [
+      "Ehab Alkhateeb",
+      "Saqib Hakak",
+      "Arbaaz Dharmavaram",
+      "Saeid Bahmanisangesari",
+      "Ali Ghorbani"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003913",
+    "alternative_id": [
+      "S0167404826003913"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.cose.2026.105215.pdf",
+    "nonfinal_pdf_sha256": "a233a8db19e7f8def119706cce948e88b99496359446f346d67aef994dcab4a5",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105217",
+    "title": "Intrusion detection datasets for Cyber-Physical Systems: Taxonomy, challenges, and opportunities",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2026-10-24T15:48:26Z",
+        "timestamp": 1792856906000
+      }
+    },
+    "authors": [
+      "Vagner E. Quincozes",
+      "Silvio E. Quincozes",
+      "Célio Albuquerque",
+      "Diego Passos",
+      "Daniel Mossé"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003937",
+    "alternative_id": [
+      "S0167404826003937"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.cose.2026.105217.pdf",
+    "nonfinal_pdf_sha256": "bfadc9bf9efda82e1d696a166824f2cc0af51fb1a811342198fa3cfb99b62570",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105223",
+    "title": "RiskOnto: An ontology-driven framework for threat modeling, risk reasoning and cyber defense knowledge integration",
+    "source": "Computers & Security",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T00:19:57Z",
+        "timestamp": 1793060397000
+      }
+    },
+    "authors": [
+      "Michael Adekunle Adelere",
+      "Yasser Morgan",
+      "Luigi Benedicenti"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003998",
+    "alternative_id": [
+      "S0167404826003998"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.cose.2026.105223.pdf",
+    "nonfinal_pdf_sha256": "405994053219e2c675df37dd2a1ae9e75ebab0f078d3a254ffa94f2b2411b03b",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
   },
   {
     "doi": "10.1016/j.neunet.2026.109020",
@@ -78452,6 +79243,715 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012360",
     "queue_group": "uncollected_month_eligible",
     "next_action": "月份已满足当前规则，无须等待精确首发日。PDFagent核对身份并交付正式完整正文；整理agent亲自写中文六段式、主题及规范PDF绑定。"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109792",
+    "title": "Bayesian Nonparametric Survival Analysis via Deep Dirichlet Process",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ],
+        "date-time": "2026-10-23T16:18:15Z",
+        "timestamp": 1792772295000
+      }
+    },
+    "authors": [
+      "Jiacheng Xu",
+      "Tsai Hor Chan",
+      "Fuying Wang",
+      "Guosheng Yin",
+      "Lequan Yu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012475",
+    "alternative_id": [
+      "S0893608026012475"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.neunet.2026.109792.pdf",
+    "nonfinal_pdf_sha256": "8894a19faae3723c3e007055107869584271ea6963a915c67f6b87125ca58cb3",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109795",
+    "title": "Memory Dendritic Neural P Systems for Multi-ground Type Fault Line Selection in Distribution Networks",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ],
+        "date-time": "2026-10-23T23:09:17Z",
+        "timestamp": 1792796957000
+      }
+    },
+    "authors": [
+      "Song Ma",
+      "Fei Li",
+      "Xiu Yin",
+      "Xiyu Liu",
+      "Yangheng Hu",
+      "Xing Zhang",
+      "Mingyao Ma"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012505",
+    "alternative_id": [
+      "S0893608026012505"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.neunet.2026.109795.pdf",
+    "nonfinal_pdf_sha256": "d41ae61aac3c335ecec2667389ce916fbca24fca7926ae0853c2b7f16a44159c",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109798",
+    "title": "A Lagrangian-Inspired Force-Based Loss for Deep Metric Learning",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ],
+        "date-time": "2026-10-23T16:18:17Z",
+        "timestamp": 1792772297000
+      }
+    },
+    "authors": [
+      "Byung Do Cheon",
+      "Jeongmin Yu",
+      "Jungeun Kim",
+      "Ha Young Kim"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012530",
+    "alternative_id": [
+      "S0893608026012530"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c2\\preproof\\10.1016_j.neunet.2026.109798.pdf",
+    "nonfinal_pdf_sha256": "f483df7bad2edf4aa978199198b9b285aaf34f2f4cc28084f41623e8a0ea8247",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109799",
+    "title": "Moving Beyond Graph Homophily: Disentangled Node Representation for Graph Neural Networks",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2026-10-26T16:02:29Z",
+        "timestamp": 1793030549000
+      }
+    },
+    "authors": [
+      "Shuyang Fang",
+      "Zelong Yang",
+      "Yintao Cai",
+      "Yuqin Huang",
+      "Xiaoping Min"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012542",
+    "alternative_id": [
+      "S0893608026012542"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c3\\preproof\\10.1016_j.neunet.2026.109799.pdf",
+    "nonfinal_pdf_sha256": "98b061acf7a5e1a9697f535105128e948768a0b59a6101b2a43f1f71ff1d59e4",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109802",
+    "title": "Beyond Temporal Encoding: Efficient and Hierarchical Model-Level Online Adaptation for Tabular Distribution Shift",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T00:23:09Z",
+        "timestamp": 1793060589000
+      }
+    },
+    "authors": [
+      "Tianyu Wang",
+      "Mian Li",
+      "Xi Vincent Wang",
+      "Lihui Wang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012578",
+    "alternative_id": [
+      "S0893608026012578"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c3\\preproof\\10.1016_j.neunet.2026.109802.pdf",
+    "nonfinal_pdf_sha256": "be4955d95c014f41237730cf306552ad6caa5b57cf2a76209269399a199425ef",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109803",
+    "title": "Transductive Learning via Validation Risk Minimization for Semi-supervised Learning",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T00:23:16Z",
+        "timestamp": 1793060596000
+      }
+    },
+    "authors": [
+      "Yan Lv",
+      "Zhen Wang",
+      "Lan Bai"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601258X",
+    "alternative_id": [
+      "S089360802601258X"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c3\\preproof\\10.1016_j.neunet.2026.109803.pdf",
+    "nonfinal_pdf_sha256": "92e552256e42bbf573d256fb6889a594d0d7921a878cc88b636e010f062b13d7",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109804",
+    "title": "ERL-BCP: A Balance-Controlled Plasticity Network with Energy-Regulated Liquid Timescales",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T00:23:19Z",
+        "timestamp": 1793060599000
+      }
+    },
+    "authors": [
+      "Yichuan Jiang",
+      "Qian Zhao",
+      "Yusheng Yang",
+      "Yangmin Xie"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012591",
+    "alternative_id": [
+      "S0893608026012591"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c3\\preproof\\10.1016_j.neunet.2026.109804.pdf",
+    "nonfinal_pdf_sha256": "4304091c2c8c22efd5f33d9c652eef724842962ff7c4909c738aba7eff349608",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109805",
+    "title": "Distributed Variational Bayesian Meta-Learning over Multi-Agent Systems",
+    "source": "Neural Networks",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "crossref_date": "2026-10",
+    "crossref_date_source": "published",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2026-10-27T07:41:38Z",
+        "timestamp": 1793086898000
+      }
+    },
+    "authors": [
+      "Xianyang Zhang",
+      "Weijie Kang",
+      "Ying Li",
+      "Bing He",
+      "Honglan Huang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012608",
+    "alternative_id": [
+      "S0893608026012608"
+    ],
+    "year": 2026,
+    "date_precision": "month",
+    "discovery_filter": "Crossref created date; not publication",
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": true,
+    "source_seen_this_run": true,
+    "pdf_attempted_this_update": true,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "document_type_verified": false,
+    "discovered_by": "Crossref created-date fallback (created is NOT publication)",
+    "queue_group": "uncollected_month_eligible",
+    "month_eligible": true,
+    "date_verified": false,
+    "published_online": null,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
+    "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_pdf_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:\\codex\\博客网站\\papers\\instsci\\batch20261028_elsevier_c3\\preproof\\10.1016_j.neunet.2026.109805.pdf",
+    "nonfinal_pdf_sha256": "6789d7046d586e39ff8cc06943b33f01ac54fa9dbab1b12a569d3090b3713335",
+    "latest_pdf_issue": "Explicit Journal Pre-proof, not yet final version",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-28/preproof_replacement_queue.json"
   },
   {
     "doi": "10.1109/tai.2025.3630118",
@@ -97858,9 +99358,9 @@
     "publisher_page": "https://www.nature.com/articles/s42256-026-01316-7",
     "published": "2026-10-20",
     "publication_date_source": "crossref-published-online",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "last_seen": "2026-10-25",
-    "source_seen_this_run": true,
+    "source_seen_this_run": false,
     "new_since_previous_collection": false,
     "last_metadata_collection_date": "2026-10-25",
     "date_precision": "day",
@@ -97871,13 +99371,13 @@
     "required_pdf_version": "publisher_version_of_record",
     "pdf_status": "not_delivered_as_verified_main_VoR",
     "queue_group": "uncollected_month_eligible",
-    "next_action": "继续合法授权获取正式完整正文；01318-5错文、01316-7仅SI不可入库，本次会话失败不证明所有机构路径不可用。",
-    "latest_pdf_attempt_date": "2026-10-25",
-    "latest_full_retrieval_attempt_date": "2026-10-25",
+    "next_action": "同路线重复失败，待新合法机构会话/OA或正式版本线索再尝试；不把错文/SI当正文，不断言所有获取路线无效。",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
     "latest_attempt_actor": "external PDF agent",
-    "latest_attempt_kind": "publisher_direct_probe_and_instsci_content_review",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/",
-    "latest_pdf_issue": "supplementary_information_only;15pages8644511bytes; cover explicitly Supplementary information; tool success is not main article",
+    "latest_attempt_kind": "instsci_capture_and_local_content_review",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl",
+    "latest_pdf_issue": "SI_only;15pages8644511bytes,same SHA as10/25,main body missing",
     "latest_observed_date": "2026-10-20",
     "latest_observed_date_source": "crossref-published-online",
     "latest_direct_probe_date": "2026-10-25"
@@ -97990,26 +99490,27 @@
       "decision": "Publisher type verified as Perspective; preserve as a scholarly/theoretical PDF candidate under the existing Perspective scope. Do not label as an empirical study."
     },
     "eligibility_note": "按既有台账Perspective范围保留；本篇提出概念框架/研究议程，不标成实证Article；待正式PDF后如实总结。",
-    "metadata_seen_this_update": true,
+    "metadata_seen_this_update": false,
     "last_seen": "2026-10-25",
     "last_metadata_collection_date": "2026-10-25",
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "pdf_attempted_this_update": true,
     "required_pdf_version": "publisher_version_of_record",
     "pdf_status": "not_delivered_as_verified_main_VoR",
     "queue_group": "uncollected_month_eligible",
     "new_discovery_this_update": false,
     "resolved_prior_document_type": true,
-    "next_action": "继续合法授权获取正式完整正文；01318-5错文、01316-7仅SI不可入库，本次会话失败不证明所有机构路径不可用。",
+    "next_action": "同路线重复失败，待新合法机构会话/OA或正式版本线索再尝试；不把错文/SI当正文，不断言所有获取路线无效。",
     "published_online": "2026-10-20",
     "date_verified": true,
-    "latest_pdf_attempt_date": "2026-10-25",
-    "latest_full_retrieval_attempt_date": "2026-10-25",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
     "latest_direct_probe_date": "2026-10-25",
     "latest_attempt_actor": "external PDF agent",
-    "latest_attempt_kind": "publisher_direct_probe_and_instsci_content_review",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/",
-    "latest_pdf_issue": "wrong_paper_captured; Canaries in the Coal Mine? by Brynjolfsson/Chandar/Chen,140pages; target DOI/title/authors mismatch"
+    "latest_attempt_kind": "instsci_capture_and_local_content_review",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl",
+    "latest_pdf_issue": "wrong_paper; Stanford Canaries140pages, same SHA as10/25, target identity mismatch",
+    "source_seen_this_run": false
   },
   {
     "doi": "10.1038/s42256-026-01326-5",
@@ -98089,25 +99590,28 @@
       "publisher_type": "Article"
     },
     "metadata_seen_this_update": true,
-    "last_seen": "2026-10-25",
-    "last_metadata_collection_date": "2026-10-25",
-    "new_since_previous_collection": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": false,
     "pdf_attempted_this_update": true,
     "required_pdf_version": "publisher_version_of_record",
     "pdf_status": "not_delivered_as_verified_main_VoR",
     "queue_group": "uncollected_month_eligible",
     "new_discovery_this_update": true,
     "resolved_prior_document_type": false,
-    "next_action": "继续合法授权获取正式完整正文；01318-5错文、01316-7仅SI不可入库，本次会话失败不证明所有机构路径不可用。",
+    "next_action": "同路线重复失败，待新合法机构会话/OA或正式版本线索再尝试；不把错文/SI当正文，不断言所有获取路线无效。",
     "published_online": "2026-10-23",
     "date_verified": true,
-    "latest_pdf_attempt_date": "2026-10-25",
-    "latest_full_retrieval_attempt_date": "2026-10-25",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
     "latest_direct_probe_date": "2026-10-25",
     "latest_attempt_actor": "external PDF agent",
-    "latest_attempt_kind": "publisher_direct_probe_and_instsci_content_review",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/",
-    "latest_pdf_issue": "capture_failed; no main PDF, direct endpoint returned HTTP200 HTML361445bytes"
+    "latest_attempt_kind": "instsci_capture_and_local_content_review",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl",
+    "latest_pdf_issue": "pdf_not_captured;primary+retry0bytes,no main PDF",
+    "source_seen_this_run": true,
+    "latest_observed_date": "2026-10-23",
+    "latest_observed_date_source": "crossref-published-online"
   },
   {
     "doi": "10.1038/s42256-026-01331-8",
@@ -98183,24 +99687,27 @@
     },
     "eligibility_note": "方法评估指南类Perspective；沿用既有Perspective范围，不伪称新实证结果。",
     "metadata_seen_this_update": true,
-    "last_seen": "2026-10-25",
-    "last_metadata_collection_date": "2026-10-25",
-    "new_since_previous_collection": true,
+    "last_seen": "2026-10-28",
+    "last_metadata_collection_date": "2026-10-28",
+    "new_since_previous_collection": false,
     "pdf_attempted_this_update": true,
     "required_pdf_version": "publisher_version_of_record",
     "pdf_status": "not_delivered_as_verified_main_VoR",
     "queue_group": "uncollected_month_eligible",
     "new_discovery_this_update": true,
     "resolved_prior_document_type": false,
-    "next_action": "继续合法授权获取正式完整正文；01318-5错文、01316-7仅SI不可入库，本次会话失败不证明所有机构路径不可用。",
+    "next_action": "同路线重复失败，待新合法机构会话/OA或正式版本线索再尝试；不把错文/SI当正文，不断言所有获取路线无效。",
     "published_online": "2026-10-23",
     "date_verified": true,
-    "latest_pdf_attempt_date": "2026-10-25",
-    "latest_full_retrieval_attempt_date": "2026-10-25",
+    "latest_pdf_attempt_date": "2026-10-28",
+    "latest_full_retrieval_attempt_date": "2026-10-28",
     "latest_direct_probe_date": "2026-10-25",
     "latest_attempt_actor": "external PDF agent",
-    "latest_attempt_kind": "publisher_direct_probe_and_instsci_content_review",
-    "latest_attempt_evidence": "skill-runs/gap_2026-10-25/PDF交付报告.md; skill-runs/gap_2026-10-25/probe_2026-10-25.txt; skill-runs/organize_2026-10-25/rejected_delivery_review.json; papers/instsci/batch20261025_nature/",
-    "latest_pdf_issue": "capture_failed; no main PDF, direct endpoint returned HTTP200 HTML325877bytes"
+    "latest_attempt_kind": "instsci_capture_and_local_content_review",
+    "latest_attempt_evidence": "skill-runs/gap_2026-10-28/PDF交付报告.md; skill-runs/organize_2026-10-28/rejected_delivery_review.json; papers/instsci/batch20261028_nature/attempts.jsonl",
+    "latest_pdf_issue": "pdf_not_captured;primary+retry0bytes,no main PDF",
+    "source_seen_this_run": true,
+    "latest_observed_date": "2026-10-23",
+    "latest_observed_date_source": "crossref-published-online"
   }
 ]

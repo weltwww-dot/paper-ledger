@@ -1,6 +1,83 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "Optimizing AlphaPose with Dual Non-Local Attention for Real-Time Unsafe Behavior Detection in Mining Environments",
+    "authors": "Weidong Li、Huiyong Xie、Zhenying Li、Daijun Zhang、Shuai Wang",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-26",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10994-026-07185-w",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_AlphaPoseDualNonLocal.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07185-w",
+    "direction": "人工智能",
+    "summary": "结合外观目标检测与改进AlphaPose，分别识别矿工防护用品佩戴问题和姿态相关危险动作，在矿区数据及COCO上评估精度与速度。",
+    "question": "井下光照不足、遮挡和防护装备会干扰人体关键点定位；单靠骨架也难判断安全帽、口罩是否佩戴规范，因此需要互补的外观与姿态线索。",
+    "method": "STFNet-A采用Swin Transformer、多尺度特征和质量焦点损失检测外观类别；Alpha-SDL-Pose用其替换AlphaPose的人体检测器，再加入空间与通道双分支非局部注意力，最后以LSTM处理姿态序列并分类动作。",
+    "experiments": "11,600张矿区图像按80/20随机划分，STFNet-A达到96.9% mAP、59.6 FPS；COCO姿态估计达到74.8% mAP、49.4 FPS，mAP略低于HRNet-W48的75.2%。矿区8,600个人体姿态标注按4:1划分，表5指标由89.8升至94.9；该表标为mAP，正文却称识别准确率，不能混作普通分类准确率。速度在RTX 3060、批量1下测量，姿态模型的49.4 FPS包含人体检测与姿态估计两阶段（PDF第10、18—21页，表2、4、5）。",
+    "contribution": "分别改善矿区外观检测和姿态表示，为联合监测提供模块依据；尚未在连续监控视频上进行完整系统的端到端评估，所报FPS也不是完整监测链路吞吐率。自建数据未公开，划分未说明是否按人员或视频分组，跨矿区泛化及相邻帧泄漏风险仍缺独立验证（PDF第22—23页）。\n---\nDOI: 10.1007/s10994-026-07185-w | PDF: [ML_2026_AlphaPoseDualNonLocal.pdf](papers/ML_2026_AlphaPoseDualNonLocal.pdf)",
+    "sample": false,
+    "id": "r-1qafkn",
+    "tags": [
+      "计算机视觉",
+      "异常检测"
+    ]
+  },
+  {
+    "title": "Evasion Games: Dissecting Malware Evasive Techniques Across Packers, Sandboxes, and Debuggers",
+    "authors": "Daniele Mammone、Francesco Sidoti Migliore、Stefano Longari、Michele Carminati、Stefano Zanero、Mario Polino",
+    "journal": "ACM Transactions on Privacy and Security",
+    "year": "2026",
+    "published": "2026-10-26",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1145/3846178",
+    "arxiv": "",
+    "pdf": "papers/TOPS_2026_EvasionGames.pdf",
+    "link": "https://doi.org/10.1145/3846178",
+    "direction": "信息安全",
+    "summary": "扩展恶意软件规避分析技术的分类体系，对照加壳工具采用的技术与沙箱、调试器的应对能力，揭示单项防护与组合规避之间的差距。",
+    "question": "分析工具即使能处理常见环境检测，也可能在时间行为、环境一致性或多种技术组合下失效；已有研究较少把加壳工具的实际采用情况与分析工具的覆盖范围联系起来。",
+    "method": "在既有分类体系中新增整理55项技术，区分反调试、反虚拟化和其他规避行为。用最小测试程序及受控探针分析25种加壳工具，并评估7个在线沙箱、4种调试器；除单项测试外，还比较各加壳工具所对应的技术组合。",
+    "experiments": "沙箱对反调试、反虚拟化技术的平均应对比例约为72%和85%，对其他技术仅约42%；在加壳工具对应的组合测试中，表现最好的沙箱也只应对了不超过44%的组合。调试器处理反调试技术较弱，但摘要的27%与正文、结论统计口径不一致，不宜当作统一成功率引用（PDF第18—24、27页，表6—14）。",
+    "contribution": "把技术分类、加壳工具采用情况和分析环境能力对应起来，为防御工具定位薄弱环节。部分加壳工具仅测试试用版，结果依赖具体Windows环境、位数兼容性及当时工具版本；最小程序和逐项探针也不能替代真实恶意软件的完整行为评估，组合测试不代表真实样本检出率（PDF第11—14、22、27页）。\n---\nDOI: 10.1145/3846178 | PDF: [TOPS_2026_EvasionGames.pdf](papers/TOPS_2026_EvasionGames.pdf)",
+    "sample": false,
+    "id": "r-p2tves",
+    "tags": [
+      "系统与网络安全",
+      "对抗与鲁棒性"
+    ]
+  },
+  {
+    "title": "FedXAI: Federated Medical Imaging with Intrinsic Explainability and Differentially Private Explanation Auditing",
+    "authors": "Mohammad Amanour Rahman",
+    "journal": "Machine Learning",
+    "year": "2026",
+    "published": "2026-10-27",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1007/s10994-026-07191-y",
+    "arxiv": "",
+    "pdf": "papers/ML_2026_FedXAI.pdf",
+    "link": "https://doi.org/10.1007/s10994-026-07191-y",
+    "direction": "人工智能",
+    "summary": "把概念瓶颈、跨客户端解释对齐和带差分隐私的解释审计结合起来，探索联邦胸片分类中预测性能、解释一致性与审计隐私之间的取舍。",
+    "question": "联邦学习不交换原始图像，但各医院模型的解释可能不一致，额外传输解释统计也会泄露信息；数据留在本地本身并不构成模型更新的差分隐私保证。",
+    "method": "SEFA在EfficientNet-B0后设置32维混合概念瓶颈，以RadLex术语作语义锚点；FEAP按客户端概念向量的余弦一致性修正聚合，PPEV对传出的概念统计加高斯噪声并进行Rényi差分隐私记账。隐私保证仅覆盖解释审计通道，未覆盖模型参数的端到端训练。",
+    "experiments": "采用ChestX-ray14的25,000张训练图像、5,000张测试图像，保留患者级训练/测试划分，在单机模拟五个非独立同分布客户端。FedXAI平均AUC为0.7349，高于FedAvg的0.7193和MOON的0.7301，解释一致性由83.6%升至99.9%；开启PPEV噪声后，一致性为99.6%，AUC降至0.7032，低于上述基线，不能据此声称隐私版本仍全面领先（PDF第15—19页，表2—4）。",
+    "contribution": "将解释表示、聚合和审计作为同一流程设计，给出隐私噪声带来的实际性能代价。解释一致性直接受训练目标优化，99.9%不等于解释具有临床正确性；概念命名缺少明确的概念级监督，且仅在单一数据集、模拟医院中验证。尚未证明真实多院部署、放射科医师认可或梯度传输的隐私安全（PDF第18—22页）。\n---\nDOI: 10.1007/s10994-026-07191-y | PDF: [ML_2026_FedXAI.pdf](papers/ML_2026_FedXAI.pdf)",
+    "sample": false,
+    "id": "r-1mxcxse",
+    "tags": [
+      "联邦学习",
+      "医学AI",
+      "可解释AI",
+      "隐私保护"
+    ]
+  },
+  {
     "title": "DCDA-Net: A depthwise convolution dilated attention network with temporal weighted loss for seizure prediction",
     "authors": "Xingchen Dong、Haotian Li、Qiangqiang Chen 等",
     "journal": "Neural Networks",
