@@ -2079,19 +2079,7 @@
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
-  "10.1016/j.cose.2026.105203": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
   "10.1016/j.cose.2026.105212": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
-  "10.1016/j.cose.2026.105213": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
-  "10.1016/j.cose.2026.105214": {
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
@@ -2099,23 +2087,7 @@
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
-  "10.1016/j.cose.2026.105217": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
-  "10.1016/j.cose.2026.105223": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
   "10.1016/j.neunet.2026.109792": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
-  "10.1016/j.neunet.2026.109795": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
-  "10.1016/j.neunet.2026.109798": {
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
@@ -2131,12 +2103,60 @@
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
-  "10.1016/j.neunet.2026.109804": {
-    "reason": "no-file",
-    "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
-  },
   "10.1016/j.neunet.2026.109805": {
     "reason": "no-file",
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
+  },
+  "10.1016/j.artint.2026.104646": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.cose.2026.105206": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.cose.2026.105208": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.cose.2026.105222": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109784": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109800": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109801": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109806": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109807": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109808": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109809": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1016/j.neunet.2026.109810": {
+    "reason": "no-file",
+    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+  },
+  "10.1177/0926227x261505352": {
+    "reason": "blocked",
+    "note": "2026-10-30获取agent报告清理失效代理环境后直连curl28约21.3秒TCP超时，probe记录HTTP000/0字节，未得HTTP响应；不是403。log_sage1显示本机InstSci无sage profile，仅描述本配置。证据skill-runs/gap_2026-10-30/PDF交付报告.md、probe_2026-10-30.txt、log_sage1.txt。"
   }
 }
