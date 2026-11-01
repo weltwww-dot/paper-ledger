@@ -1,7 +1,7 @@
 {
   "policy": "current-month-and-three-previous-months",
-  "as_of": "2026-10-18",
-  "cutoff": "2026-07-01",
+  "as_of": "2026-11-01",
+  "cutoff": "2026-08-01",
   "retired": [
     {
       "doi": "10.1016/j.neunet.2026.108956",
@@ -2685,6 +2685,4518 @@
       "reason": "expired",
       "date_source": "publisher-PDF-first-online",
       "evidence": "skill-runs/organize_2026-10-18/reviews/44.json"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3709319",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3708552",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3710932",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714465",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TKDE.2026.3708513",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714500",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714400",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3708852",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3711370",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714758",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3709894",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3712080",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714374",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3709803",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104588",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3711164",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3710528",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3713485",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714391",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3713051",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3708662",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3710651",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3713210",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3710223",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714715",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3710321",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3713473",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3712721",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3710057",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3712723",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TKDE.2026.3708765",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3708889",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3712032",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TKDE.2026.3710776",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3712193",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3712242",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TKDE.2026.3710808",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3710034",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3711460",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714774",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714771",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714802",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3710863",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3710224",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TKDE.2026.3710572",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714766",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3712748",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3709125",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104587",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3714883",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3716326",
+      "published": "2026-07-23",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3715465",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3715456",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3715804",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3715447",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3715374",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104589",
+      "published": "2026-07-19",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3714209",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715844",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715531",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715522",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715693",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715679",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715975",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/TDSC.2026.3715690",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104525",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104529",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104540",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104541",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.artint.2026.104544",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104870",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104871",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104881",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104884",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104885",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104886",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104887",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104888",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104889",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104890",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104898",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104899",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104901",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104902",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104903",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104904",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104905",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.104908",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2025.108483",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2025.108521",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108577",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108601",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108614",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108615",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108620",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108624",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108630",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108641",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108642",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108643",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108644",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108645",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108646",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108647",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108648",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108649",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108650",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108651",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108652",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108654",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108655",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108656",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108657",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108658",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108659",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108660",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108661",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108662",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108663",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108664",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108665",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108666",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108667",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108668",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108669",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108670",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108671",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108672",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108673",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108674",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108675",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108676",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108677",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108678",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108679",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108680",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108681",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108682",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108683",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108684",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108685",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108686",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108687",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108688",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108689",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108690",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108691",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108693",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108694",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108695",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108696",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108699",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108700",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108702",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108703",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108704",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108706",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108707",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108708",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108711",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108715",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108722",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108723",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108724",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108725",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108727",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108728",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108729",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108730",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108731",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108732",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108733",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108734",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108735",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108746",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108747",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108749",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108755",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108757",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108758",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108769",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108771",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.108773",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3654404",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3671696",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3679183",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3685070",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3687644",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3688536",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3696229",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3702496",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707256",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2024.3489534",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3643401",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3645022",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3645157",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3645710",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3645716",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3645750",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3646146",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3646194",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3646956",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3646958",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3647017",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3647410",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3647418",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3647596",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3648376",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3648693",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3648953",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3650488",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3650558",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2025.3650565",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3650896",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3651217",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3652904",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3653362",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3653713",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3654049",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3654502",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3654905",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3654914",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3654921",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3655628",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3656126",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3656155",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3656248",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3656263",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3658018",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3659429",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660580",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660627",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660942",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660986",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660994",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tai.2026.3660995",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3669529",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674133",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674195",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674217",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674523",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674796",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674806",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3674809",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3675085",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3675596",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3675881",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3675905",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3676447",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3676743",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3676951",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677093",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677196",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677216",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677224",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677283",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677366",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677430",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677473",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677485",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677524",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677663",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3677794",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3678327",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3678915",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3678933",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679571",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679695",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679769",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679770",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679784",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3679801",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3680150",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3680342",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3680621",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3680667",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3680671",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681111",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681122",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681195",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681256",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681296",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681329",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681398",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681562",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3681955",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682057",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682216",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682284",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682678",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682682",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3682768",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3683063",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3683107",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3683379",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3683950",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684112",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684469",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684479",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684550",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684581",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3684944",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3685256",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3685419",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3685885",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3685897",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3685926",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3686012",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3686763",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3686774",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3686845",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687031",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687141",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687210",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687550",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687558",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3687798",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688036",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688154",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688247",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688318",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688514",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688655",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3688752",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689195",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689535",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689590",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689592",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689663",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689685",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689866",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689891",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3689905",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3690461",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3690615",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3690628",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3690744",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3690902",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691050",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691053",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691058",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691113",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691153",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691211",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691392",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691462",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691470",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691474",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691741",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3691948",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692272",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692382",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692401",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692440",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692493",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692520",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692527",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692543",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692551",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692719",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692750",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692790",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692826",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3692888",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693091",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693215",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693408",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693684",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693739",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3693743",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694131",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694180",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694332",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694384",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694417",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694473",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694695",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694706",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3694826",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3695233",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2024.3444608",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3669778",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3674507",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3675811",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3676662",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3677426",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3678022",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3680286",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3680353",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3681605",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3681678",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3681811",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3681914",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3681944",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682010",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682046",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682468",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682510",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682605",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682749",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682785",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682862",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682883",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3682970",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3683100",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3683437",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3683562",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3684047",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3684304",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3684675",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3684753",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3686613",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3688922",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689103",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689176",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689192",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689197",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689207",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689542",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689812",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3689935",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3690133",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3690579",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3690643",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3690971",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3691040",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3691148",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3691902",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3692681",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3644134",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3644299",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3644425",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3644484",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3645355",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646023",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646122",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646159",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646358",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646605",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3646848",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647027",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647282",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647483",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647641",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647831",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3647892",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648367",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648421",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648433",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648530",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648714",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3648828",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649055",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649103",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649221",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649341",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649537",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3649650",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3650157",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3650184",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3650570",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2025.3650673",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3650771",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tnnls.2026.3691521",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3658114",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3658965",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3660569",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3662389",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3662990",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3663547",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3663744",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3663759",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664091",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664227",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664269",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664307",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664388",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664488",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664842",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664863",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664873",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3664937",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665061",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665097",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665111",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665481",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665610",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665645",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665701",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665728",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665736",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665753",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665771",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665779",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665813",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665872",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3665927",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3666165",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3666860",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667002",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667072",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667180",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667397",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667409",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667437",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667525",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667600",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667694",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667806",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667914",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3667935",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3668075",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3668757",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3668763",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669002",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669003",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669121",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669168",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669188",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669252",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669254",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669427",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669431",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669471",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669584",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669598",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669664",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669720",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669907",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669974",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669976",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3669995",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670236",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670292",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670423",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670471",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670856",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670952",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3670969",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3671754",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672463",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672465",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672569",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672629",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672655",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672726",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672777",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672908",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3672916",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3673141",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3673273",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3673339",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3673525",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3673840",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674120",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674176",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674197",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674484",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674640",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674800",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674984",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3674997",
+      "published": "2026-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01285-3",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01287-1",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07083-1",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105092",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109280",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109299",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109300",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109316",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109321",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109322",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109324",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109327",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109329",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01261-5",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3655449",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3684786",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3697909",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3698657",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3700408",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3700429",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3702494",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707253",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707254",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707257",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707258",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707259",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707260",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707261",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707262",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707263",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/msec.2026.3707264",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3708608",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3708751",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3708861",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708591",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708691",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708708",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708762",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708824",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3708904",
+      "published": "2026-07-01",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01292-4",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07084-0",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07098-8",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07102-1",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07108-9",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105049",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109287",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109308",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109312",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109328",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109330",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109331",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109332",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01264-2",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01266-0",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3709368",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3709672",
+      "published": "2026-07-02",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07049-3",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07064-4",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105027",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105050",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105052",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105053",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109313",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109318",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109325",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01267-z",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3709941",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710189",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710196",
+      "published": "2026-07-03",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105041",
+      "published": "2026-07-04",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109307",
+      "published": "2026-07-04",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109315",
+      "published": "2026-07-04",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109335",
+      "published": "2026-07-04",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109337",
+      "published": "2026-07-05",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01286-2",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01293-3",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01295-1",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07070-6",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07104-z",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105029",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105033",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109320",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109326",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109341",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01262-4",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710585",
+      "published": "2026-07-06",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07101-2",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105051",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109303",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109334",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109336",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109339",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109343",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109344",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3710993",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710409",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710696",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3710841",
+      "published": "2026-07-07",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07113-y",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109323",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711513",
+      "published": "2026-07-08",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105060",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109311",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109333",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109338",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109340",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109346",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109356",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109358",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109359",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109361",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109363",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109364",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109365",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109366",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109367",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109370",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109372",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109374",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711593",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711708",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711750",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711802",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711828",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711847",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711850",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711911",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711921",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712043",
+      "published": "2026-07-09",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01288-0",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01294-2",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109345",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109357",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109377",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3710602",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712213",
+      "published": "2026-07-10",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07085-z",
+      "published": "2026-07-11",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07097-9",
+      "published": "2026-07-11",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105062",
+      "published": "2026-07-11",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105065",
+      "published": "2026-07-11",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109378",
+      "published": "2026-07-11",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01273-7",
+      "published": "2026-07-12",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01251-z",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07096-w",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105055",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105056",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105067",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109360",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109368",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109371",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109373",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109375",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109381",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109382",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109383",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109384",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109385",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109387",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109388",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109390",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01260-6",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01272-2",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tdsc.2026.3712350",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3712877",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711762",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3711981",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712056",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712094",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712355",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712551",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712701",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712710",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3712736",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713020",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713027",
+      "published": "2026-07-13",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105054",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105058",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105059",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105061",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01259-z",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713048",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713184",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713520",
+      "published": "2026-07-14",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01278-2",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01299-x",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07072-4",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109386",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01265-1",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713383",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713694",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713771",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3714012",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3714053",
+      "published": "2026-07-15",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01283-5",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105046",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105064",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109369",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109389",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109392",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109393",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109394",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109395",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713917",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713990",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3714205",
+      "published": "2026-07-16",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07119-6",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07120-z",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105047",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105057",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105063",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105068",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109397",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109398",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109399",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109400",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109402",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109403",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109408",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3714081",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3714444",
+      "published": "2026-07-17",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01290-6",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109404",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109407",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109409",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109410",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109412",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109414",
+      "published": "2026-07-18",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07103-0",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07110-1",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07111-0",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07116-9",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105071",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109391",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109396",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109401",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109406",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109411",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109413",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109415",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109417",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01274-0",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3715213",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3715402",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3715453",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3715237",
+      "published": "2026-07-20",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01303-4",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07112-z",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07122-x",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109405",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109420",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.neunet.2026.109422",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01254-4",
+      "published": "2026-07-21",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07107-w",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07121-y",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105074",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716452",
+      "published": "2026-07-22",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105066",
+      "published": "2026-07-23",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716656",
+      "published": "2026-07-23",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716682",
+      "published": "2026-07-23",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3713379",
+      "published": "2026-07-23",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105042",
+      "published": "2026-07-24",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105078",
+      "published": "2026-07-24",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01268-y",
+      "published": "2026-07-24",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716724",
+      "published": "2026-07-24",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716977",
+      "published": "2026-07-24",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07092-0",
+      "published": "2026-07-25",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105069",
+      "published": "2026-07-25",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105072",
+      "published": "2026-07-25",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105079",
+      "published": "2026-07-25",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01302-5",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07109-8",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07124-9",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07129-4",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07130-x",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105082",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717059",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717198",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717266",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717285",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717305",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717320",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717344",
+      "published": "2026-07-27",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07127-6",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3716345",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717641",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717759",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717792",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717808",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717828",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3717777",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3717996",
+      "published": "2026-07-28",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01291-5",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105073",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717880",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3717987",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718023",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718033",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718049",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718061",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718204",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718207",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3717881",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3717905",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3717912",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718245",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718272",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718490",
+      "published": "2026-07-29",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01300-7",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10994-026-07114-x",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105070",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105077",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105080",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105084",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105085",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105087",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1016/j.cose.2026.105090",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01277-x",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1038/s42256-026-01284-y",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718313",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718370",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718528",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718697",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718737",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3718935",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718311",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718498",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718681",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718699",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718850",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718926",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1177/0926227x261462131",
+      "published": "2026-07-30",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01276-4",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-026-01314-1",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3719144",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3719286",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tkde.2026.3719432",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3718968",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1109/tpami.2026.3719106",
+      "published": "2026-07-31",
+      "reason": "expired"
+    },
+    {
+      "doi": "10.1007/s10207-025-01149-2",
+      "reason": "publisher_retraction",
+      "retraction_notice_doi": "10.1007/s10207-026-01352-9",
+      "retracted_on": "2026-10-30",
+      "evidence_file": "skill-runs/update_2026-11-01/retraction_review.json"
     }
   ]
 }

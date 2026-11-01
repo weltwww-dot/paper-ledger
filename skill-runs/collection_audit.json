@@ -1,13 +1,13 @@
 {
-  "from_date": "2026-10-23",
+  "from_date": "2026-10-25",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-10-30",
-  "retention_cutoff": "2026-07-01",
+  "until_date": "2026-11-01",
+  "retention_cutoff": "2026-08-01",
   "journal_count": 17,
-  "scope": "7day overlap current comparison plus created-date discovery; historical full-window gaps retained",
+  "scope": "17 journals recent metadata plus created discovery; November issue rollover held for first-online verification",
   "collection_complete": false,
-  "current_overlap_source_comparison_complete": true,
-  "current_overlap_unresolved_source_errors": 0,
+  "current_overlap_source_comparison_complete": false,
+  "current_overlap_unresolved_source_errors": 11,
   "historical_coverage_gaps": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -63,6 +63,160 @@
     }
   ],
   "errors": [
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "International Journal of Information Security",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Journal of Computer Security",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "IEEE Security & Privacy",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Journal of Cybersecurity",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Artificial Intelligence",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Machine Learning",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Neural Networks",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "Nature Machine Intelligence",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
+    {
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "error": "HTTP 429",
+      "network_calls": 1,
+      "count": 0,
+      "journal": "IEEE Transactions on Artificial Intelligence",
+      "source": "openalex",
+      "from_date": "2026-10-25",
+      "until_date": "2026-11-01",
+      "scope": "current_overlap",
+      "last_checked": "2026-11-01"
+    },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
@@ -181,20 +335,20 @@
     {
       "journal": "Computers & Security",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 65,
+        "raw_retrieved": 65,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 0
+        "count": 65
       },
       "openalex": {
-        "source_total": 6,
-        "raw_retrieved": 6,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 6
+        "count": 2
       }
     },
     {
@@ -208,12 +362,12 @@
         "count": 1
       },
       "openalex": {
-        "source_total": 1,
-        "raw_retrieved": 1,
-        "complete": true,
-        "error": null,
+        "source_total": null,
+        "raw_retrieved": 0,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
-        "count": 1
+        "count": 0
       }
     },
     {
@@ -227,10 +381,10 @@
         "count": 1
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -246,10 +400,10 @@
         "count": 0
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -265,10 +419,10 @@
         "count": 0
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -295,12 +449,12 @@
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 121,
+        "raw_retrieved": 121,
         "complete": true,
         "error": null,
-        "network_calls": 1,
-        "count": 0
+        "network_calls": 2,
+        "count": 121
       },
       "openalex": {
         "source_total": 0,
@@ -314,18 +468,18 @@
     {
       "journal": "Artificial Intelligence",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 9,
+        "raw_retrieved": 9,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 0
+        "count": 9
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -341,31 +495,31 @@
         "count": 2
       },
       "openalex": {
-        "source_total": 2,
-        "raw_retrieved": 2,
-        "complete": true,
-        "error": null,
+        "source_total": null,
+        "raw_retrieved": 0,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
-        "count": 2
+        "count": 0
       }
     },
     {
       "journal": "Neural Networks",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 104,
+        "raw_retrieved": 104,
         "complete": true,
         "error": null,
-        "network_calls": 1,
-        "count": 0
+        "network_calls": 2,
+        "count": 104
       },
       "openalex": {
-        "source_total": 4,
-        "raw_retrieved": 4,
-        "complete": true,
-        "error": null,
+        "source_total": null,
+        "raw_retrieved": 0,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
-        "count": 4
+        "count": 0
       }
     },
     {
@@ -379,10 +533,10 @@
         "count": 0
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -390,18 +544,18 @@
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 48,
+        "raw_retrieved": 48,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 0
+        "count": 48
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
@@ -409,53 +563,53 @@
     {
       "journal": "Nature Machine Intelligence",
       "crossref": {
-        "source_total": 3,
-        "raw_retrieved": 3,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 3
+        "count": 1
       },
       "openalex": {
-        "source_total": 2,
-        "raw_retrieved": 2,
-        "complete": true,
-        "error": null,
+        "source_total": null,
+        "raw_retrieved": 0,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
-        "count": 2
+        "count": 0
       }
     },
     {
       "journal": "IEEE Transactions on Artificial Intelligence",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 43,
+        "raw_retrieved": 43,
         "complete": true,
         "error": null,
         "network_calls": 1,
-        "count": 0
+        "count": 43
       },
       "openalex": {
-        "source_total": 0,
+        "source_total": null,
         "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
+        "complete": false,
+        "error": "HTTP 429",
         "network_calls": 1,
         "count": 0
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-10-30/crossref_created_discovery.json",
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-01/crossref_created_discovery.json",
   "created_date_discovery_calls": 17,
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
-  "new_record_count": 14,
-  "new_doi_discovery_count": 31,
-  "uncollected_month_eligible_count": 1798,
-  "new_month_unverified": 17,
-  "new_nonresearch_exclusions": 0,
+  "new_record_count": 6,
+  "new_doi_discovery_count": 259,
+  "uncollected_month_eligible_count": 959,
+  "new_month_unverified": 249,
+  "new_nonresearch_exclusions": 4,
   "historical_gaps_retried": false,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_snapshot": "skill-runs/update_2026-10-28/collection_audit.json"
+  "previous_audit_snapshot": "skill-runs/update_2026-10-30/collection_audit.json"
 }
