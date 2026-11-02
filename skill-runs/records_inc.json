@@ -20622,7 +20622,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -20640,7 +20640,7 @@
     "openalex_publication_date": "2026-08-03",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -20688,6 +20688,33 @@
         "date-time": "2026-08-03T19:03:49Z",
         "timestamp": 1785783829000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -20701,7 +20728,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -20719,7 +20746,7 @@
     "openalex_publication_date": "2026-08-03",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -20767,6 +20794,33 @@
         "date-time": "2026-08-03T19:04:20Z",
         "timestamp": 1785783860000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -20780,7 +20834,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -20798,7 +20852,7 @@
     "openalex_publication_date": "2026-08-03",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -20846,6 +20900,33 @@
         "date-time": "2026-08-03T19:04:15Z",
         "timestamp": 1785783855000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -20859,7 +20940,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -20877,7 +20958,7 @@
     "openalex_publication_date": "2026-08-03",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -20924,6 +21005,33 @@
         ],
         "date-time": "2026-08-03T19:03:09Z",
         "timestamp": 1785783789000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -21256,7 +21364,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21274,7 +21382,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21322,6 +21430,33 @@
         "date-time": "2026-08-04T19:04:24Z",
         "timestamp": 1785870264000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21335,7 +21470,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21353,7 +21488,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21401,6 +21536,33 @@
         "date-time": "2026-08-04T19:07:21Z",
         "timestamp": 1785870441000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21414,7 +21576,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21432,7 +21594,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21480,6 +21642,33 @@
         "date-time": "2026-08-04T19:03:55Z",
         "timestamp": 1785870235000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21493,7 +21682,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21511,7 +21700,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21559,6 +21748,33 @@
         "date-time": "2026-08-04T19:05:51Z",
         "timestamp": 1785870351000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21572,7 +21788,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21590,7 +21806,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21638,6 +21854,33 @@
         "date-time": "2026-08-04T19:05:19Z",
         "timestamp": 1785870319000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21651,7 +21894,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21669,7 +21912,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21717,6 +21960,33 @@
         "date-time": "2026-08-04T19:03:24Z",
         "timestamp": 1785870204000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21730,7 +22000,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21748,7 +22018,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21796,6 +22066,33 @@
         "date-time": "2026-08-04T19:05:22Z",
         "timestamp": 1785870322000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21809,7 +22106,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21827,7 +22124,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21875,6 +22172,33 @@
         "date-time": "2026-08-04T19:06:51Z",
         "timestamp": 1785870411000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -21888,7 +22212,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -21906,7 +22230,7 @@
     "openalex_publication_date": "2026-08-04",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -21953,6 +22277,33 @@
         ],
         "date-time": "2026-08-04T19:08:01Z",
         "timestamp": 1785870481000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -22154,7 +22505,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22172,7 +22523,7 @@
     "openalex_publication_date": "2026-08-05",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22220,6 +22571,33 @@
         "date-time": "2026-08-05T19:03:23Z",
         "timestamp": 1785956603000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -22233,7 +22611,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22251,7 +22629,7 @@
     "openalex_publication_date": "2026-08-05",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22298,6 +22676,33 @@
         ],
         "date-time": "2026-08-05T19:03:03Z",
         "timestamp": 1785956583000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -22634,7 +23039,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22652,7 +23057,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22700,6 +23105,33 @@
         "date-time": "2026-08-06T19:08:46Z",
         "timestamp": 1786043326000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -22713,7 +23145,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22731,7 +23163,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22779,6 +23211,33 @@
         "date-time": "2026-08-06T19:04:15Z",
         "timestamp": 1786043055000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -22792,7 +23251,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22810,7 +23269,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22858,6 +23317,33 @@
         "date-time": "2026-08-06T19:03:16Z",
         "timestamp": 1786042996000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -22871,7 +23357,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22889,7 +23375,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -22937,6 +23423,33 @@
         "date-time": "2026-08-06T19:08:09Z",
         "timestamp": 1786043289000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -22950,7 +23463,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -22968,7 +23481,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23016,6 +23529,33 @@
         "date-time": "2026-08-06T19:06:36Z",
         "timestamp": 1786043196000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23029,7 +23569,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23047,7 +23587,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23095,6 +23635,33 @@
         "date-time": "2026-08-06T19:02:56Z",
         "timestamp": 1786042976000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23108,7 +23675,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23126,7 +23693,7 @@
     "openalex_publication_date": "2026-08-06",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23173,6 +23740,33 @@
         ],
         "date-time": "2026-08-06T19:06:14Z",
         "timestamp": 1786043174000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -23373,7 +23967,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23391,7 +23985,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23439,6 +24033,33 @@
         "date-time": "2026-08-07T19:05:34Z",
         "timestamp": 1786129534000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23452,7 +24073,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23470,7 +24091,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23518,6 +24139,33 @@
         "date-time": "2026-08-07T19:07:52Z",
         "timestamp": 1786129672000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23531,7 +24179,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23549,7 +24197,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23597,6 +24245,33 @@
         "date-time": "2026-08-07T19:11:48Z",
         "timestamp": 1786129908000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23610,7 +24285,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23628,7 +24303,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23676,6 +24351,33 @@
         "date-time": "2026-08-07T19:10:49Z",
         "timestamp": 1786129849000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23689,7 +24391,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23707,7 +24409,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23755,6 +24457,33 @@
         "date-time": "2026-08-07T19:09:16Z",
         "timestamp": 1786129756000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -23768,7 +24497,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -23786,7 +24515,7 @@
     "openalex_publication_date": "2026-08-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -23833,6 +24562,33 @@
         ],
         "date-time": "2026-08-07T19:11:51Z",
         "timestamp": 1786129911000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -24283,7 +25039,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24301,7 +25057,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24349,6 +25105,33 @@
         "date-time": "2026-08-10T19:08:39Z",
         "timestamp": 1786388919000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24362,7 +25145,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24380,7 +25163,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24427,6 +25210,33 @@
         ],
         "date-time": "2026-08-10T19:05:20Z",
         "timestamp": 1786388720000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -24501,7 +25311,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24519,7 +25329,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24567,6 +25377,33 @@
         "date-time": "2026-08-10T19:07:21Z",
         "timestamp": 1786388841000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24580,7 +25417,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24598,7 +25435,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24646,6 +25483,33 @@
         "date-time": "2026-08-10T19:06:34Z",
         "timestamp": 1786388794000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24659,7 +25523,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24677,7 +25541,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24725,6 +25589,33 @@
         "date-time": "2026-08-10T19:07:27Z",
         "timestamp": 1786388847000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24738,7 +25629,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24756,7 +25647,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24804,6 +25695,33 @@
         "date-time": "2026-08-10T19:05:31Z",
         "timestamp": 1786388731000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24817,7 +25735,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24835,7 +25753,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24883,6 +25801,33 @@
         "date-time": "2026-08-10T19:05:14Z",
         "timestamp": 1786388714000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -24896,7 +25841,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -24914,7 +25859,7 @@
     "openalex_publication_date": "2026-08-10",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -24961,6 +25906,33 @@
         ],
         "date-time": "2026-08-10T19:04:36Z",
         "timestamp": 1786388676000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -25100,7 +26072,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25118,7 +26090,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25165,6 +26137,33 @@
         ],
         "date-time": "2026-08-11T19:04:07Z",
         "timestamp": 1786475047000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -25241,7 +26240,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25259,7 +26258,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25307,6 +26306,33 @@
         "date-time": "2026-08-11T19:10:05Z",
         "timestamp": 1786475405000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25320,7 +26346,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25338,7 +26364,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25386,6 +26412,33 @@
         "date-time": "2026-08-11T19:04:30Z",
         "timestamp": 1786475070000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25399,7 +26452,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25417,7 +26470,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25465,6 +26518,33 @@
         "date-time": "2026-08-11T19:04:13Z",
         "timestamp": 1786475053000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25478,7 +26558,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25496,7 +26576,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25544,6 +26624,33 @@
         "date-time": "2026-08-11T19:08:03Z",
         "timestamp": 1786475283000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25557,7 +26664,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25575,7 +26682,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25623,6 +26730,33 @@
         "date-time": "2026-08-11T19:07:39Z",
         "timestamp": 1786475259000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25636,7 +26770,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25654,7 +26788,7 @@
     "openalex_publication_date": "2026-08-11",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25701,6 +26835,33 @@
         ],
         "date-time": "2026-08-11T19:08:19Z",
         "timestamp": 1786475299000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -25778,7 +26939,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25796,7 +26957,7 @@
     "openalex_publication_date": "2026-08-12",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25844,6 +27005,33 @@
         "date-time": "2026-08-12T19:06:33Z",
         "timestamp": 1786561593000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -25857,7 +27045,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -25875,7 +27063,7 @@
     "openalex_publication_date": "2026-08-12",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -25922,6 +27110,33 @@
         ],
         "date-time": "2026-08-12T19:04:17Z",
         "timestamp": 1786561457000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -26556,7 +27771,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -26574,7 +27789,7 @@
     "openalex_publication_date": "2026-08-17",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -26622,6 +27837,33 @@
         "date-time": "2026-08-17T19:06:49Z",
         "timestamp": 1786993609000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -26635,7 +27877,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -26653,7 +27895,7 @@
     "openalex_publication_date": "2026-08-17",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -26700,6 +27942,33 @@
         ],
         "date-time": "2026-08-17T19:12:42Z",
         "timestamp": 1786993962000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -26922,7 +28191,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -26940,7 +28209,7 @@
     "openalex_publication_date": "2026-08-18",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -26988,6 +28257,33 @@
         "date-time": "2026-08-18T19:15:50Z",
         "timestamp": 1787080550000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -27001,7 +28297,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -27019,7 +28315,7 @@
     "openalex_publication_date": "2026-08-18",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -27066,6 +28362,33 @@
         ],
         "date-time": "2026-08-18T19:15:09Z",
         "timestamp": 1787080509000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -27225,7 +28548,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -27243,7 +28566,7 @@
     "openalex_publication_date": "2026-08-19",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -27291,6 +28614,33 @@
         "date-time": "2026-08-19T19:07:05Z",
         "timestamp": 1787166425000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -27304,7 +28654,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -27322,7 +28672,7 @@
     "openalex_publication_date": "2026-08-19",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -27369,6 +28719,33 @@
         ],
         "date-time": "2026-08-19T19:04:12Z",
         "timestamp": 1787166252000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -27743,7 +29120,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -27761,7 +29138,7 @@
     "openalex_publication_date": "2026-08-20",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -27809,6 +29186,33 @@
         "date-time": "2026-08-20T19:07:54Z",
         "timestamp": 1787252874000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -27822,7 +29226,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -27840,7 +29244,7 @@
     "openalex_publication_date": "2026-08-20",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -27887,6 +29291,33 @@
         ],
         "date-time": "2026-08-20T19:04:54Z",
         "timestamp": 1787252694000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -27970,7 +29401,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
     "crossref_evidence_reused": false,
@@ -27988,7 +29419,7 @@
     "openalex_publication_date": "2026-08-22",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28033,6 +29464,33 @@
         ],
         "date-time": "2026-08-22T14:39:11Z",
         "timestamp": 1787409551000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -28192,7 +29650,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28210,7 +29668,7 @@
     "openalex_publication_date": "2026-08-24",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28258,6 +29716,33 @@
         "date-time": "2026-08-24T19:13:39Z",
         "timestamp": 1787598819000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -28271,7 +29756,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28289,7 +29774,7 @@
     "openalex_publication_date": "2026-08-24",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28337,6 +29822,33 @@
         "date-time": "2026-08-24T19:14:20Z",
         "timestamp": 1787598860000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -28350,7 +29862,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28368,7 +29880,7 @@
     "openalex_publication_date": "2026-08-24",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28416,6 +29928,33 @@
         "date-time": "2026-08-24T19:08:25Z",
         "timestamp": 1787598505000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -28429,7 +29968,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28447,7 +29986,7 @@
     "openalex_publication_date": "2026-08-24",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28495,6 +30034,33 @@
         "date-time": "2026-08-24T19:06:34Z",
         "timestamp": 1787598394000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -28508,7 +30074,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28526,7 +30092,7 @@
     "openalex_publication_date": "2026-08-24",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28573,6 +30139,33 @@
         ],
         "date-time": "2026-08-24T19:11:28Z",
         "timestamp": 1787598688000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -28628,7 +30221,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -28646,7 +30239,7 @@
     "openalex_publication_date": "2026-08-25",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -28693,6 +30286,33 @@
         ],
         "date-time": "2026-08-25T19:04:14Z",
         "timestamp": 1787684654000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -29125,7 +30745,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29143,7 +30763,7 @@
     "openalex_publication_date": "2026-08-27",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29191,6 +30811,33 @@
         "date-time": "2026-08-27T19:05:59Z",
         "timestamp": 1787857559000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -29204,7 +30851,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29222,7 +30869,7 @@
     "openalex_publication_date": "2026-08-27",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29269,6 +30916,33 @@
         ],
         "date-time": "2026-08-27T19:10:24Z",
         "timestamp": 1787857824000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -29386,7 +31060,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29404,7 +31078,7 @@
     "openalex_publication_date": "2026-08-28",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29451,6 +31125,33 @@
         ],
         "date-time": "2026-08-28T19:06:59Z",
         "timestamp": 1787944019000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -29638,7 +31339,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29656,7 +31357,7 @@
     "openalex_publication_date": "2026-08-31",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29703,6 +31404,33 @@
         ],
         "date-time": "2026-08-31T19:10:07Z",
         "timestamp": 1788203407000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -29777,7 +31505,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29795,7 +31523,7 @@
     "openalex_publication_date": "2026-09-01",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29843,6 +31571,33 @@
         "date-time": "2026-09-01T19:04:53Z",
         "timestamp": 1788289493000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -29856,7 +31611,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29874,7 +31629,7 @@
     "openalex_publication_date": "2026-09-01",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -29922,6 +31677,33 @@
         "date-time": "2026-09-01T19:05:43Z",
         "timestamp": 1788289543000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -29935,7 +31717,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -29953,7 +31735,7 @@
     "openalex_publication_date": "2026-09-01",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -30001,6 +31783,33 @@
         "date-time": "2026-09-01T19:09:06Z",
         "timestamp": 1788289746000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -30014,7 +31823,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": true,
     "crossref_evidence_reused": false,
@@ -30032,7 +31841,7 @@
     "openalex_publication_date": "2026-09-02",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -30080,6 +31889,33 @@
         "date-time": "2026-09-02T19:10:00Z",
         "timestamp": 1788376200000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -30092,7 +31928,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
     "crossref_evidence_reused": false,
@@ -30110,7 +31946,7 @@
     "openalex_publication_date": "2026-09-09",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -30155,6 +31991,33 @@
         ],
         "date-time": "2026-09-09T16:29:46Z",
         "timestamp": 1788971386000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -32341,11 +34204,11 @@
     "date_precision": "month",
     "discovery_filter": "Crossref created date; not publication",
     "metadata_seen_this_update": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "new_since_previous_collection": false,
     "source_seen_this_run": true,
-    "pdf_attempted_this_update": false,
+    "pdf_attempted_this_update": true,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "document_type_verified": false,
     "discovered_by": "Crossref created-date fallback (created is NOT publication)",
@@ -32354,7 +34217,7 @@
     "date_verified": false,
     "published_online": null,
     "required_pdf_version": "publisher_version_of_record",
-    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "pdf_status": "journal_preproof_not_vor",
     "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
     "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
     "latest_pdf_attempt_date": "2026-10-28",
@@ -32368,6 +34231,7 @@
     "latest_observed_date": "2026-10",
     "latest_observed_date_source": "crossref-published",
     "latest_metadata_date_evidence": {
+      "published-online": null,
       "published": {
         "date-parts": [
           [
@@ -32391,17 +34255,6 @@
             10
           ]
         ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            26
-          ]
-        ],
-        "date-time": "2026-10-26T07:58:52Z",
-        "timestamp": 1793001532000
       }
     },
     "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
@@ -32443,7 +34296,10 @@
         "date-time": "2026-10-26T07:58:52Z",
         "timestamp": 1793001532000
       }
-    }
+    },
+    "last_pdf_attempt_date": "2026-11-02",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-02/delivery_review.json",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261102_el3\\preproof\\10.1016_j.artint.2026.104647.pdf"
   },
   {
     "doi": "10.1016/j.cose.2026.104973",
@@ -34814,7 +36670,7 @@
     "last_metadata_collection_date": "2026-10-30",
     "new_since_previous_collection": false,
     "source_seen_this_run": false,
-    "pdf_attempted_this_update": false,
+    "pdf_attempted_this_update": true,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "document_type_verified": false,
     "discovered_by": "Crossref created-date fallback (created is NOT publication)",
@@ -34823,7 +36679,7 @@
     "date_verified": false,
     "published_online": null,
     "required_pdf_version": "publisher_version_of_record",
-    "pdf_status": "journal_preproof_available_formal_VoR_needed",
+    "pdf_status": "journal_preproof_not_vor",
     "next_action": "保留已取pre-proof，核新版本信号及合法可用的正式正文；卷号仅作复查线索，不单独证明版本或尚无VoR。首发月份现有Crossref月级，不造具体日。",
     "date_note": "保留Crossref published年月，不造1日；无独立online字段，交付时核PDF真实首发月份，已知更早online优先。",
     "latest_pdf_attempt_date": "2026-10-28",
@@ -34874,7 +36730,10 @@
       }
     },
     "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
-    "organizer_requested_pdf": false
+    "organizer_requested_pdf": false,
+    "last_pdf_attempt_date": "2026-11-02",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-02/delivery_review.json",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261102_el3\\preproof\\10.1016_j.neunet.2026.109792.pdf"
   },
   {
     "doi": "10.1016/j.neunet.2026.109802",
@@ -34939,8 +36798,8 @@
     "date_precision": "month",
     "discovery_filter": "Crossref created date; not publication",
     "metadata_seen_this_update": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "new_since_previous_collection": false,
     "source_seen_this_run": true,
     "pdf_attempted_this_update": false,
@@ -34966,6 +36825,7 @@
     "latest_observed_date": "2026-10",
     "latest_observed_date_source": "crossref-published",
     "latest_metadata_date_evidence": {
+      "published-online": null,
       "published": {
         "date-parts": [
           [
@@ -34989,17 +36849,6 @@
             10
           ]
         ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            27
-          ]
-        ],
-        "date-time": "2026-10-27T00:23:09Z",
-        "timestamp": 1793060589000
       }
     },
     "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
@@ -35107,8 +36956,8 @@
     "date_precision": "month",
     "discovery_filter": "Crossref created date; not publication",
     "metadata_seen_this_update": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "new_since_previous_collection": false,
     "source_seen_this_run": true,
     "pdf_attempted_this_update": false,
@@ -35134,6 +36983,7 @@
     "latest_observed_date": "2026-10",
     "latest_observed_date_source": "crossref-published",
     "latest_metadata_date_evidence": {
+      "published-online": null,
       "published": {
         "date-parts": [
           [
@@ -35157,17 +37007,6 @@
             10
           ]
         ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            27
-          ]
-        ],
-        "date-time": "2026-10-27T07:41:38Z",
-        "timestamp": 1793086898000
       }
     },
     "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
@@ -53157,7 +54996,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
     "crossref_evidence_reused": false,
@@ -53175,7 +55014,7 @@
     "openalex_publication_date": "2026-10-07",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -53220,6 +55059,33 @@
         ],
         "date-time": "2026-10-07T19:12:20Z",
         "timestamp": 1791400340000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -53765,7 +55631,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
     "crossref_evidence_reused": false,
@@ -53783,7 +55649,7 @@
     "openalex_publication_date": "2026-10-08",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -53829,6 +55695,33 @@
         "date-time": "2026-10-08T19:14:13Z",
         "timestamp": 1791486853000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
     }
   },
   {
@@ -53841,7 +55734,7 @@
       "openalex"
     ],
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
+    "last_seen": "2026-11-02",
     "new_since_previous_collection": false,
     "recovered_from_partial_source_page": false,
     "crossref_evidence_reused": false,
@@ -53859,7 +55752,7 @@
     "openalex_publication_date": "2026-10-08",
     "date_verified": false,
     "month_eligible": true,
-    "last_metadata_collection_date": "2026-11-01",
+    "last_metadata_collection_date": "2026-11-02",
     "metadata_seen_this_update": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -53904,6 +55797,33 @@
         ],
         "date-time": "2026-10-08T19:12:25Z",
         "timestamp": 1791486745000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
       }
     }
   },
@@ -55235,8 +57155,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55294,6 +57214,33 @@
         ],
         "date-time": "2026-10-29T23:58:53Z",
         "timestamp": 1793318333000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55360,8 +57307,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55419,6 +57366,33 @@
         ],
         "date-time": "2026-10-29T16:49:28Z",
         "timestamp": 1793292568000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55485,8 +57459,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55544,6 +57518,33 @@
         ],
         "date-time": "2026-10-29T16:12:59Z",
         "timestamp": 1793290379000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55611,8 +57612,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55670,6 +57671,33 @@
         ],
         "date-time": "2026-10-29T16:13:01Z",
         "timestamp": 1793290381000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55745,8 +57773,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55804,6 +57832,33 @@
         ],
         "date-time": "2026-10-29T16:52:37Z",
         "timestamp": 1793292757000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55871,8 +57926,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -55930,6 +57985,33 @@
         ],
         "date-time": "2026-10-29T08:14:46Z",
         "timestamp": 1793261686000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -55998,8 +58080,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -56057,6 +58139,33 @@
         ],
         "date-time": "2026-10-28T20:02:15Z",
         "timestamp": 1793217735000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -56124,8 +58233,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -56183,6 +58292,33 @@
         ],
         "date-time": "2026-10-28T16:15:52Z",
         "timestamp": 1793204152000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -56249,8 +58385,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -56308,6 +58444,33 @@
         ],
         "date-time": "2026-10-29T16:52:30Z",
         "timestamp": 1793292750000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
       }
     }
   },
@@ -56381,8 +58544,8 @@
     "openalex_publication_date": null,
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -56442,6 +58605,36 @@
         "date-time": "2026-10-30T08:43:42Z",
         "timestamp": 1793349822000
       }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "published-print": null
     }
   },
   {
@@ -56501,11 +58694,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0004370226001748",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56515,7 +58708,34 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
   },
   {
     "doi": "10.1016/j.cose.2026.105209",
@@ -56577,11 +58797,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003858",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56591,7 +58811,34 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
   },
   {
     "doi": "10.1016/j.cose.2026.105221",
@@ -56652,11 +58899,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826003974",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56666,7 +58913,34 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
   },
   {
     "doi": "10.1016/j.neunet.2026.109825",
@@ -56728,11 +59002,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012803",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56742,7 +59016,34 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
   },
   {
     "doi": "10.1016/j.neunet.2026.109844",
@@ -56802,11 +59103,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012992",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56816,7 +59117,34 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
   },
   {
     "doi": "10.1016/j.neunet.2026.109845",
@@ -56885,11 +59213,11 @@
     "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013006",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-01",
-    "last_metadata_collection_date": "2026-11-01",
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
-    "new_since_previous_collection": true,
+    "new_since_previous_collection": false,
     "document_type_verified": false,
     "publication_type": "generic journal-article; subtype pending main PDF",
     "raw_metadata_evidence": "skill-runs/update_2026-11-01/observed_metadata.json",
@@ -56899,6 +59227,187 @@
     "month_eligible": true,
     "queue_group": "uncollected_month_eligible",
     "pdf_status": "not_delivered_as_verified_VoR",
-    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。"
+    "next_action": "月份级出版证据符合8—11月候选范围，不造具体日；核对已有交付后获取正确正式完整正文，并核真实首发。由主agent读原文写中文六段式。",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109848",
+    "title": "DPDA: A Dual-Path Domain Adaptation Method for Cross-Terrain Real-Time Attack Detection in Mobile Robots",
+    "source": "Neural Networks",
+    "authors": [
+      "Yu Wang",
+      "Zhitao He",
+      "Yongyi Chen",
+      "Dan Zhang",
+      "Hamid Reza Karimi"
+    ],
+    "published": "2026-11",
+    "date": "2026-11",
+    "published_online": null,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2026-11-01T15:06:42Z",
+        "timestamp": 1793545602000
+      }
+    },
+    "year": 2026,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_verified": false,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013031",
+    "metadata_seen_this_update": true,
+    "source_seen_this_run": true,
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-02/observed_metadata.json",
+    "new_since_previous_collection": true,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "月精度满足窗口；先查已有交付，再获取正式完整正文并核首发，主agent亲写中文六段式。",
+    "last_pdf_attempt_date": "2026-11-02",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-02/delivery_review.json",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261102_el3\\preproof\\10.1016_j.neunet.2026.109848.pdf"
+  },
+  {
+    "doi": "10.1177/0926227x261505351",
+    "title": "Recovery traces as quantitative information channels: Leakage-aware policy–interface selection for fault recovery",
+    "source": "Journal of Computer Security",
+    "authors": [
+      "Chun Yin Chiu"
+    ],
+    "published": "2026-11-01",
+    "date": "2026-11-01",
+    "published_online": "2026-11-01",
+    "date_evidence": {
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2026-11-01T23:45:38Z",
+        "timestamp": 1793576738000
+      }
+    },
+    "year": 2026,
+    "date_precision": "day",
+    "publication_date_source": "crossref-published-online",
+    "date_verified": true,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261505351",
+    "metadata_seen_this_update": true,
+    "source_seen_this_run": true,
+    "last_seen": "2026-11-02",
+    "last_metadata_collection_date": "2026-11-02",
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-02/observed_metadata.json",
+    "new_since_previous_collection": true,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "direct_connection_timeout",
+    "next_action": "月精度满足窗口；先查已有交付，再获取正式完整正文并核首发，主agent亲写中文六段式。",
+    "last_pdf_attempt_date": "2026-11-02",
+    "pdf_evidence_file": "skill-runs/gap_2026-11-02/probe_sage.txt"
   }
 ]
