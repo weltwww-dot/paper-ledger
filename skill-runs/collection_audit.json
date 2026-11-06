@@ -1,13 +1,13 @@
 {
-  "from_date": "2026-10-28",
+  "from_date": "2026-10-30",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-11-04",
+  "until_date": "2026-11-06",
   "retention_cutoff": "2026-08-01",
   "journal_count": 17,
   "scope": "17 journals recent metadata plus created discovery; November issue rollover held for first-online verification",
   "collection_complete": false,
-  "current_overlap_source_comparison_complete": false,
-  "current_overlap_unresolved_source_errors": 17,
+  "current_overlap_source_comparison_complete": true,
+  "current_overlap_unresolved_source_errors": 0,
   "historical_coverage_gaps": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -63,244 +63,6 @@
     }
   ],
   "errors": [
-    {
-      "journal": "IEEE Transactions on Information Forensics and Security",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP 429",
-      "network_calls": 1,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Transactions on Dependable and Secure Computing",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Security & Privacy",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "ACM Transactions on Privacy and Security",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "International Journal of Information Security",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Journal of Computer Security",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Journal of Cybersecurity",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Computers & Security",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Artificial Intelligence",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Neural Networks",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Journal of Machine Learning Research",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Machine Learning",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "Nature Machine Intelligence",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Transactions on Knowledge and Data Engineering",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
-    {
-      "journal": "IEEE Transactions on Artificial Intelligence",
-      "source": "openalex",
-      "mode": "recent",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "Not queried after HTTP429 in this run; see raw source responses",
-      "network_calls": 0,
-      "from_date": "2026-10-28",
-      "until_date": "2026-11-04",
-      "scope": "current_overlap",
-      "last_checked": "2026-11-04"
-    },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
@@ -369,10 +131,10 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "HTTP 429",
+        "complete": true,
+        "error": null,
         "network_calls": 1
       }
     },
@@ -386,11 +148,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -403,45 +165,45 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Computers & Security",
       "crossref": {
-        "source_total": 67,
-        "raw_retrieved": 67,
+        "source_total": 70,
+        "raw_retrieved": 70,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 5,
+        "raw_retrieved": 5,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "International Journal of Information Security",
       "crossref": {
-        "source_total": 2,
-        "raw_retrieved": 2,
+        "source_total": 5,
+        "raw_retrieved": 5,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 1,
+        "raw_retrieved": 1,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -454,11 +216,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 3,
+        "raw_retrieved": 3,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -471,11 +233,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -488,11 +250,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -505,11 +267,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -522,79 +284,79 @@
         "network_calls": 2
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Artificial Intelligence",
       "crossref": {
-        "source_total": 10,
-        "raw_retrieved": 10,
+        "source_total": 9,
+        "raw_retrieved": 9,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 1,
+        "raw_retrieved": 1,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Machine Learning",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Neural Networks",
       "crossref": {
-        "source_total": 123,
-        "raw_retrieved": 123,
+        "source_total": 127,
+        "raw_retrieved": 127,
         "complete": true,
         "error": null,
         "network_calls": 2
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 29,
+        "raw_retrieved": 29,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 69,
+        "raw_retrieved": 69,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -607,11 +369,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -624,11 +386,11 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "source_total": 1,
+        "raw_retrieved": 1,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -641,29 +403,28 @@
         "network_calls": 1
       },
       "openalex": {
-        "source_total": null,
+        "source_total": 0,
         "raw_retrieved": 0,
-        "complete": false,
-        "error": "Not queried after HTTP429 in this run; see raw source responses",
-        "network_calls": 0
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-11-04/crossref_created_discovery.json",
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-06/crossref_created_discovery.json",
   "created_date_discovery_calls": 17,
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
-  "new_record_count": 24,
-  "new_doi_discovery_count": 46,
-  "uncollected_month_eligible_count": 977,
-  "new_month_unverified": 17,
-  "new_nonresearch_exclusions": 5,
+  "new_record_count": 23,
+  "new_doi_discovery_count": 158,
+  "uncollected_month_eligible_count": 984,
+  "new_month_unverified": 131,
+  "new_nonresearch_exclusions": 4,
   "historical_gaps_retried": false,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_snapshot": "skill-runs/update_2026-11-02/collection_audit.json",
-  "request_accounting_evidence": "skill-runs/update_2026-11-04/main_review.md",
-  "duplicate_group1_invocation": true,
-  "retained_network_requests": 40,
-  "exact_total_network_requests": null
+  "previous_audit_snapshot": "skill-runs/update_2026-11-04/collection_audit.json",
+  "jmlr_new_publisher_entries": 34,
+  "jmlr_publisher_queue": "skill-runs/update_2026-11-06/jmlr_publisher_queue.json",
+  "exact_total_network_requests": 58
 }
