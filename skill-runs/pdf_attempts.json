@@ -2103,20 +2103,16 @@
     "reason": "no-file",
     "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
   },
-  "10.1016/j.neunet.2026.109806": {
-    "reason": "no-file",
-    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
-  },
   "10.1016/j.neunet.2026.109807": {
-    "reason": "no-file",
-    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
-  },
-  "10.1016/j.neunet.2026.109809": {
     "reason": "no-file",
     "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
   },
   "10.1177/0926227x261505352": {
     "reason": "blocked",
     "note": "2026-10-30获取agent报告清理失效代理环境后直连curl28约21.3秒TCP超时，probe记录HTTP000/0字节，未得HTTP响应；不是403。log_sage1显示本机InstSci无sage profile，仅描述本配置。证据skill-runs/gap_2026-10-30/PDF交付报告.md、probe_2026-10-30.txt、log_sage1.txt。"
+  },
+  "10.1038/s42256-026-01317-6": {
+    "reason": "blocked",
+    "note": "2026-11-07外部PDF agent实测官方PDF入口返回HTML，文章页提示机构访问。工具取得参考文献中的Azulay & Weiss (JMLR 2019) 错文，独立校验题名、作者和目标DOI失败，已隔离。证据skill-runs/organize_2026-11-07/rejected_delivery_review.json及skill-runs/gap_2026-11-07/PDF交付报告.md。保留为待取正文的Perspective候选。"
   }
 }
