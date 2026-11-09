@@ -1,6 +1,80 @@
 /* 自动生成: node scripts/sync-papers.js · 请勿手改 */
 window.PAPERLEDGER_SEED = [
   {
+    "title": "FusionAVP: A cross-attention-based heterogeneous feature fusion and contrastive learning strategy for antiviral peptide identification",
+    "authors": "Aoyun Geng、Jinwei Wang、Chunyan Cui 等",
+    "journal": "Neural Networks",
+    "year": "2026",
+    "published": "2026-10-31",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1016/j.neunet.2026.109845",
+    "arxiv": "",
+    "pdf": "papers/NN_2026_FusionAVP.pdf",
+    "link": "https://doi.org/10.1016/j.neunet.2026.109845",
+    "direction": "人工智能",
+    "summary": "将蛋白语言模型表征与人工设计的序列特征融合，用于筛选候选抗病毒肽。",
+    "question": "蛋白语言模型能从氨基酸序列学习上下文，传统特征则显式编码理化性质和组成。直接拼接容易忽略两类信息在残基层面的对应关系，限制它们的互补作用。",
+    "method": "FusionAVP对齐ESM-2残基嵌入和传统特征，用交叉注意力学习两路特征的相互关系。再通过对比学习拉近同一样本的不同融合视图，分开其他样本，最后对肽序列分类。",
+    "experiments": "在同一独立测试集上用10个随机种子重复实验，FusionAVP整体优于多种基线。各次运行仍有124至132个假阳性和28至35个假阴性。消融比较了特征融合方案，个案的注意力分布与部分已报道功能位点一致（PDF第6–9页）。",
+    "contribution": "为生物序列分类提供了可复用的异构特征融合方法。计算筛选可为实验确定优先级，但候选序列的抗病毒活性仍需实验验证，注意力与位点的对应也需要更多结构及突变数据检验。\n---\nDOI: 10.1016/j.neunet.2026.109845 | PDF: [NN_2026_FusionAVP.pdf](papers/NN_2026_FusionAVP.pdf)",
+    "sample": false,
+    "id": "r-1fpnl8k",
+    "tags": [
+      "医学AI",
+      "多模态学习"
+    ]
+  },
+  {
+    "title": "Dual-space learning with low-rank and sparse constraints for multi-view subspace clustering",
+    "authors": "Lihao Yang、Yong Wang、Yourui Huang 等",
+    "journal": "Neural Networks",
+    "year": "2026",
+    "published": "2026-11-05",
+    "contentState": "complete",
+    "contentNote": "已基于出版社正式版全文完成中文六段式总结",
+    "doi": "10.1016/j.neunet.2026.109868",
+    "arxiv": "",
+    "pdf": "papers/NN_2026_DSLSMSC.pdf",
+    "link": "https://doi.org/10.1016/j.neunet.2026.109868",
+    "direction": "人工智能",
+    "summary": "在多视图子空间聚类中分别学习跨视图的全局结构和各视图的局部关系，再用张量约束融合。",
+    "question": "多种特征视图既包含共有结构，也有各自的邻域信息。若只在一个表示空间施加结构约束，容易把视图间的一致性与各视图的互补信息混在一起。",
+    "method": "DSLSMSC在联合视图空间学习低秩自表示，以捕捉共有结构，在各原始视图空间施加稀疏约束以保留局部关系。用张量核范数耦合两类表示，并以交替方向乘子法分步求解。",
+    "experiments": "论文在ORL、BBCSport和CiteSeer等基准上报告准确率、归一化互信息和F分数等指标。分开移除联合空间、原视图空间或张量约束的消融支持各组件的作用，同时运行时间表显示方法比部分轻量基线耗时更长（PDF第8–12页）。",
+    "contribution": "将共享和局部结构分开建模后再联合优化，使不同约束各有明确用途。双空间及张量优化增加计算成本，效果也对潜在维数敏感，大规模应用仍需验证。\n---\nDOI: 10.1016/j.neunet.2026.109868 | PDF: [NN_2026_DSLSMSC.pdf](papers/NN_2026_DSLSMSC.pdf)",
+    "sample": false,
+    "id": "r-5hp7kr",
+    "tags": [
+      "机器学习方法"
+    ]
+  },
+  {
+    "title": "Multimodal cell foundation models require synergistic integration beyond alignment",
+    "authors": "Till Richter、Eric Zimmermann、James Hall 等",
+    "journal": "Nature Machine Intelligence",
+    "year": "2026",
+    "published": "2026-11-09",
+    "contentState": "complete",
+    "contentNote": "已基于出版社完整在线版全文完成中文六段式总结，待正式分页",
+    "doi": "10.1038/s42256-026-01328-3",
+    "arxiv": "",
+    "pdf": "papers/NMI_2026_CellModelSynergy.pdf",
+    "link": "https://doi.org/10.1038/s42256-026-01328-3",
+    "direction": "人工智能",
+    "summary": "提出协同信息评分，检验细胞模型融合组织图像和基因表达后，能否获得超出最强单模态的任务信息。",
+    "question": "大规模配对测量不足时，常把冻结的单模态编码器接到一个融合层。融合模型得分提高，可能只是保留了原有的共享信号。对于连接组织形态与基因表达的任务，两种测量有时提供的是互补线索。",
+    "method": "作者以部分信息分解为出发点，用线性探针估计融合表征相对最强单模态的收益，分类用宏平均F1，回归用决定系数。理论分析考察冻结编码器下的对齐目标为何偏向捕获线性冗余，以及它对非线性协同信号的限制。",
+    "experiments": "作者在肺纤维化、发育期人胸腺和乳腺癌三套空间转录组数据上比较10种融合方法。胸腺的生态位分类中，DCCA和CoMM的协同信息评分分别为0.142和0.120，直接拼接为0.072。所测常规任务上，微调优势单模态更节省标注样本（PDF第4、8页）。",
+    "contribution": "提供了判断何时值得融合的诊断指标。实测评分依赖任务、冻结表征、线性探针与单模态基线。较低的评分只表明该配置下额外收益有限，较弱模态仍可能含有其他任务所需的生物信息。\n---\nDOI: 10.1038/s42256-026-01328-3 | PDF: [NMI_2026_CellModelSynergy.pdf](papers/NMI_2026_CellModelSynergy.pdf)",
+    "sample": false,
+    "id": "r-1r7yvaa",
+    "tags": [
+      "多模态学习",
+      "医学AI"
+    ]
+  },
+  {
     "title": "Real-time multi-domain collaborative low-light image enhancement for driving safety",
     "authors": "Xiaoli Li、Zhiyuan Han、Kang Wang 等",
     "journal": "Neural Networks",

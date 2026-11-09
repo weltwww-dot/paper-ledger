@@ -1,13 +1,15 @@
 {
-  "from_date": "2026-10-31",
+  "from_date": "2026-11-02",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-11-07",
+  "until_date": "2026-11-09",
   "retention_cutoff": "2026-08-01",
   "journal_count": 17,
-  "scope": "17 journals recent publication and created discovery plus OpenAlex coverage check",
+  "scope": "17 journals recent publication and deposit discovery; OpenAlex quota probe; older proof DOI recheck",
   "collection_complete": false,
   "current_overlap_source_comparison_complete": false,
   "current_overlap_unresolved_source_errors": 17,
+  "openalex_attempted_journals": 1,
+  "openalex_skipped_journals": 16,
   "historical_coverage_gaps": [
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -19,7 +21,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -37,7 +39,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -56,7 +58,7 @@
       "error": "HTTP Error 401: Unauthorized",
       "last_checked": "2026-10-25",
       "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
@@ -73,7 +75,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -86,223 +88,240 @@
     {
       "journal": "IEEE Transactions on Information Forensics and Security",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": true,
+      "network_calls": 1,
+      "error": "HTTP 429; anonymous quota exhausted",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Dependable and Secure Computing",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "IEEE Security & Privacy",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "ACM Transactions on Privacy and Security",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "International Journal of Information Security",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "Journal of Computer Security",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "Journal of Cybersecurity",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "Computers & Security",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
-      "journal": "Artificial Intelligence",
+      "journal": "International Journal of Information Security",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
-      "journal": "Neural Networks",
+      "journal": "Journal of Computer Security",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "IEEE Security & Privacy",
+      "source": "openalex",
       "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "Journal of Cybersecurity",
+      "source": "openalex",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "Journal of Machine Learning Research",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "Machine Learning",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
-    },
-    {
-      "journal": "Nature Machine Intelligence",
-      "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
-      "source_total": null,
-      "raw_retrieved": 0,
-      "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "Artificial Intelligence",
+      "source": "openalex",
       "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "Machine Learning",
+      "source": "openalex",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "Neural Networks",
+      "source": "openalex",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "source": "openalex",
       "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
+      "source_total": null,
+      "raw_retrieved": 0,
+      "complete": false,
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Artificial Intelligence",
       "source": "openalex",
-      "from_date": "2026-10-31",
-      "until_date": "2026-11-07",
+      "scope": "current_overlap",
+      "from_date": "2026-11-02",
+      "until_date": "2026-11-09",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "error": "HTTP Error 429: Too Many Requests",
-      "network_calls": 2,
-      "scope": "current_overlap",
-      "last_checked": "2026-11-07"
+      "attempted": false,
+      "network_calls": 0,
+      "error": "not queried after shared anonymous quota exhaustion",
+      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -314,7 +333,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -332,7 +351,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -351,7 +370,7 @@
       "error": "HTTP Error 401: Unauthorized",
       "last_checked": "2026-10-25",
       "evidence_file": "skill-runs/update_2026-10-25/historical_cose_recheck.json",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
@@ -368,7 +387,7 @@
       "complete": false,
       "error": "HTTP 401",
       "last_checked": "2026-10-23",
-      "rechecked_this_update": true,
+      "rechecked_this_update": false,
       "evidence_file": "skill-runs/update_2026-10-23/historical_coverage_recheck.json",
       "latest_recheck_date": "2026-11-07",
       "latest_recheck_error": "HTTP 429",
@@ -398,8 +417,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "HTTP 429; anonymous quota exhausted",
+        "network_calls": 1,
+        "attempted": true
       }
     },
     {
@@ -422,8 +442,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
@@ -446,22 +467,23 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Computers & Security",
       "crossref": {
-        "source_total": 70,
-        "raw_retrieved": 70,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 8,
-        "raw_retrieved": 8,
+        "source_total": 6,
+        "raw_retrieved": 6,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -470,8 +492,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
@@ -494,22 +517,23 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Journal of Computer Security",
       "crossref": {
-        "source_total": 2,
-        "raw_retrieved": 2,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 2,
-        "raw_retrieved": 2,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -518,8 +542,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
@@ -542,8 +567,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
@@ -566,8 +592,9 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
@@ -590,18 +617,19 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "crossref": {
-        "source_total": 121,
-        "raw_retrieved": 121,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
-        "network_calls": 2
+        "network_calls": 1
       },
       "crossref_created": {
         "source_total": 23,
@@ -614,39 +642,41 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Artificial Intelligence",
       "crossref": {
-        "source_total": 9,
-        "raw_retrieved": 9,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 3,
-        "raw_retrieved": 3,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Machine Learning",
       "crossref": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -662,18 +692,19 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Neural Networks",
       "crossref": {
-        "source_total": 122,
-        "raw_retrieved": 122,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
-        "network_calls": 2
+        "network_calls": 1
       },
       "crossref_created": {
         "source_total": 45,
@@ -686,15 +717,16 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "crossref": {
-        "source_total": 69,
-        "raw_retrieved": 69,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -710,15 +742,16 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "crossref": {
-        "source_total": 48,
-        "raw_retrieved": 48,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -734,22 +767,23 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "Nature Machine Intelligence",
       "crossref": {
-        "source_total": 3,
-        "raw_retrieved": 3,
+        "source_total": 4,
+        "raw_retrieved": 4,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 3,
-        "raw_retrieved": 3,
+        "source_total": 4,
+        "raw_retrieved": 4,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -758,15 +792,16 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     },
     {
       "journal": "IEEE Transactions on Artificial Intelligence",
       "crossref": {
-        "source_total": 43,
-        "raw_retrieved": 43,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -782,25 +817,26 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "network_calls": 2
+        "error": "not queried after shared anonymous quota exhaustion",
+        "network_calls": 0,
+        "attempted": false
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-11-07/crossref_created_discovery.json",
-  "created_date_discovery_calls": 17,
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-09/crossref_created_discovery.json",
+  "created_date_discovery_calls": 18,
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
   "new_record_count": 4,
-  "new_doi_discovery_count": 17,
-  "new_month_unverified": 13,
+  "new_doi_discovery_count": 5,
+  "new_month_unverified": 1,
   "new_nonresearch_exclusions": 0,
-  "uncollected_month_eligible_count": 971,
-  "historical_gaps_retried": true,
+  "uncollected_month_eligible_count": 965,
+  "historical_gaps_retried": false,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_snapshot": "skill-runs/update_2026-11-06/collection_audit.json",
+  "previous_audit_snapshot": "skill-runs/update_2026-11-07/collection_audit.json",
   "jmlr_new_publisher_entries": 0,
-  "jmlr_publisher_queue": "skill-runs/update_2026-11-07/jmlr_publisher_queue.json",
-  "exact_total_network_requests": 148
+  "jmlr_publisher_queue": "skill-runs/update_2026-11-09/jmlr_publisher_queue.json",
+  "exact_total_network_requests": 66
 }
