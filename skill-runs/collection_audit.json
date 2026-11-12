@@ -1,10 +1,10 @@
 {
-  "from_date": "2026-11-02",
+  "from_date": "2026-11-04",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-11-09",
+  "until_date": "2026-11-11",
   "retention_cutoff": "2026-08-01",
   "journal_count": 17,
-  "scope": "17 journals recent publication and deposit discovery; OpenAlex quota probe; older proof DOI recheck",
+  "scope": "17 journals recent publication and deposit discovery; publisher reconciliation; OpenAlex quota probe; proof DOI recheck",
   "collection_complete": false,
   "current_overlap_source_comparison_complete": false,
   "current_overlap_unresolved_source_errors": 17,
@@ -89,239 +89,239 @@
       "journal": "IEEE Transactions on Information Forensics and Security",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": true,
-      "network_calls": 1,
       "error": "HTTP 429; anonymous quota exhausted",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "network_calls": 1,
+      "attempted": true
     },
     {
       "journal": "IEEE Transactions on Dependable and Secure Computing",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "ACM Transactions on Privacy and Security",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Computers & Security",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "International Journal of Information Security",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Journal of Computer Security",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Security & Privacy",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Journal of Cybersecurity",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Journal of Machine Learning Research",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Artificial Intelligence",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Machine Learning",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Neural Networks",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Transactions on Neural Networks and Learning Systems",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "Nature Machine Intelligence",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Transactions on Artificial Intelligence",
       "source": "openalex",
       "scope": "current_overlap",
-      "from_date": "2026-11-02",
-      "until_date": "2026-11-09",
+      "from_date": "2026-11-04",
+      "until_date": "2026-11-11",
+      "evidence_file": "skill-runs/update_2026-11-11/openalex_probe.json",
       "source_total": null,
       "raw_retrieved": 0,
       "complete": false,
-      "attempted": false,
+      "error": "Skipped after shared quota probe returned HTTP 429",
       "network_calls": 0,
-      "error": "not queried after shared anonymous quota exhaustion",
-      "evidence_file": "skill-runs/update_2026-11-09/openalex_probe.json"
+      "attempted": false
     },
     {
       "journal": "IEEE Transactions on Knowledge and Data Engineering",
@@ -339,7 +339,8 @@
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
       "latest_recheck_retrieved": 0,
-      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json"
+      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json",
+      "scope": "historical"
     },
     {
       "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -357,7 +358,8 @@
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
       "latest_recheck_retrieved": 0,
-      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json"
+      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json",
+      "scope": "historical"
     },
     {
       "journal": "Computers & Security",
@@ -375,7 +377,8 @@
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
       "latest_recheck_retrieved": 0,
-      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json"
+      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json",
+      "scope": "historical"
     },
     {
       "journal": "Neural Networks",
@@ -393,7 +396,8 @@
       "latest_recheck_error": "HTTP 429",
       "latest_recheck_slices": 9,
       "latest_recheck_retrieved": 0,
-      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json"
+      "latest_recheck_evidence": "skill-runs/update_2026-11-07/historical_coverage_recheck.json",
+      "scope": "historical"
     }
   ],
   "journals": [
@@ -407,8 +411,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 29,
-        "raw_retrieved": 29,
+        "source_total": 45,
+        "raw_retrieved": 45,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -432,8 +436,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 15,
-        "raw_retrieved": 15,
+        "source_total": 13,
+        "raw_retrieved": 13,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -442,7 +446,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -467,7 +471,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -477,6 +481,31 @@
       "crossref": {
         "source_total": 0,
         "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 5,
+        "raw_retrieved": 5,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": null,
+        "raw_retrieved": 0,
+        "complete": false,
+        "error": "Skipped after shared quota probe returned HTTP 429",
+        "network_calls": 0,
+        "attempted": false
+      }
+    },
+    {
+      "journal": "International Journal of Information Security",
+      "crossref": {
+        "source_total": 6,
+        "raw_retrieved": 6,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -492,32 +521,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
-        "network_calls": 0,
-        "attempted": false
-      }
-    },
-    {
-      "journal": "International Journal of Information Security",
-      "crossref": {
-        "source_total": 4,
-        "raw_retrieved": 4,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 4,
-        "raw_retrieved": 4,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": null,
-        "raw_retrieved": 0,
-        "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -542,7 +546,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -557,8 +561,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 3,
-        "raw_retrieved": 3,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -567,7 +571,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -592,7 +596,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -617,7 +621,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -632,8 +636,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 23,
-        "raw_retrieved": 23,
+        "source_total": 33,
+        "raw_retrieved": 33,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -642,7 +646,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -657,17 +661,17 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 2,
-        "raw_retrieved": 2,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
-        "network_calls": 2
+        "network_calls": 1
       },
       "openalex": {
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -692,7 +696,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -707,8 +711,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 45,
-        "raw_retrieved": 45,
+        "source_total": 43,
+        "raw_retrieved": 43,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -717,7 +721,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -742,7 +746,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -767,7 +771,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -792,7 +796,7 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
@@ -807,8 +811,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 7,
-        "raw_retrieved": 7,
+        "source_total": 4,
+        "raw_retrieved": 4,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -817,26 +821,65 @@
         "source_total": null,
         "raw_retrieved": 0,
         "complete": false,
-        "error": "not queried after shared anonymous quota exhaustion",
+        "error": "Skipped after shared quota probe returned HTTP 429",
         "network_calls": 0,
         "attempted": false
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-11-09/crossref_created_discovery.json",
-  "created_date_discovery_calls": 18,
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-11/crossref_created_discovery.json",
+  "created_date_discovery_calls": 17,
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
-  "new_record_count": 4,
-  "new_doi_discovery_count": 5,
-  "new_month_unverified": 1,
-  "new_nonresearch_exclusions": 0,
-  "uncollected_month_eligible_count": 965,
+  "new_record_count": 20,
+  "new_doi_discovery_count": 60,
+  "new_month_unverified": 39,
+  "new_nonresearch_exclusions": 1,
+  "new_retracted_original_excluded": 1,
+  "uncollected_month_eligible_count": 972,
   "historical_gaps_retried": false,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_snapshot": "skill-runs/update_2026-11-07/collection_audit.json",
+  "previous_audit_snapshot": "skill-runs/update_2026-11-09/collection_audit.json",
   "jmlr_new_publisher_entries": 0,
-  "jmlr_publisher_queue": "skill-runs/update_2026-11-09/jmlr_publisher_queue.json",
-  "exact_total_network_requests": 66
+  "jmlr_publisher_queue": "skill-runs/update_2026-11-11/jmlr_publisher_queue.json",
+  "crossref_union_doi_count": 179,
+  "initial_crossref_network_requests": 28,
+  "crossref_retry_network_requests": 15,
+  "official_publisher_article_evidence": {
+    "10.1007/s10207-026-01343-w": {
+      "date": "2026-11-10",
+      "type": "Regular Contribution",
+      "url": "https://link.springer.com/article/10.1007/s10207-026-01343-w",
+      "sha256": "d68667b682ab6a2d58a7430795e94969024c3dcf08d89355b8e216f3b5d4130f",
+      "evidence_file": "skill-runs/update_2026-11-11/ijis_01343.html"
+    },
+    "10.1007/s10207-026-01346-7": {
+      "date": "2026-11-10",
+      "type": "Regular Contribution",
+      "url": "https://link.springer.com/article/10.1007/s10207-026-01346-7",
+      "sha256": "eca6c94e9017017e60c8d84581f5453b9b7e55e1b028de8203064aaf45143ddf",
+      "evidence_file": "skill-runs/update_2026-11-11/ijis_01346.html"
+    },
+    "10.1007/s10207-026-01362-7": {
+      "date": "2026-11-11",
+      "type": "Retraction Note",
+      "url": "https://link.springer.com/article/10.1007/s10207-026-01362-7",
+      "sha256": "7442c65b502f1bdc3852893e2b3c9c8aca45b4a0ea8a8243c1ba5eec647e8c1f",
+      "evidence_file": "skill-runs/update_2026-11-11/ijis_retraction.html"
+    },
+    "10.1038/s42256-026-01335-4": {
+      "date": "2026-11-11",
+      "type": "Article",
+      "url": "https://www.nature.com/articles/s42256-026-01335-4",
+      "sha256": "0bda5f62d4fffdf39ab7df50b483d4d37069c1e63293b43c9a5438d14ba5f9f1",
+      "evidence_file": "skill-runs/update_2026-11-11/nature_01335-4.html"
+    }
+  },
+  "organization_reconciliation": {
+    "as_of": "2026-11-12",
+    "delivered_vor": 12,
+    "eligible_candidates_organized": 10,
+    "date_pending_resolved_and_organized": 2
+  }
 }

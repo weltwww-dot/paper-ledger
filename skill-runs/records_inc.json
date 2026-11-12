@@ -35442,6 +35442,169 @@
     "crossref_single_work_checked_this_run": false
   },
   {
+    "doi": "10.1016/j.artint.2026.104646",
+    "title": "PASER: Patchified Spectral Representation Learning for Non-Stationary and Non-Periodic User Behavior Sequence",
+    "source": "Artificial Intelligence",
+    "collection_sources": [
+      "crossref"
+    ],
+    "date": "2026-10",
+    "published": "2026-10",
+    "publication_date_source": "crossref-published",
+    "date_precision": "month",
+    "year": 2026,
+    "authors": [
+      "Hao Wang",
+      "Zhichao Chen",
+      "Yuan Lu",
+      "Qingsong Wen",
+      "Xiaoxi Li",
+      "Yinuo Wang",
+      "Xu Chen",
+      "Haoxuan Li",
+      "Zhouchen Lin"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0004370226001724",
+    "alternative_id": [
+      "S0004370226001724"
+    ],
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T23:58:53Z",
+        "timestamp": 1793318333000
+      }
+    },
+    "published_online": null,
+    "openalex_publication_date": null,
+    "metadata_seen_this_update": false,
+    "source_seen_this_run": false,
+    "last_seen": "2026-11-09",
+    "last_metadata_collection_date": "2026-11-09",
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "publication_type": "generic journal-article; subtype pending main PDF",
+    "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
+    "date_verified": false,
+    "new_since_previous_collection": false,
+    "discovered_by": "Crossref created-date discovery",
+    "month_eligible": true,
+    "required_pdf_version": "publisher_version_of_record",
+    "pdf_status": "journal_preproof_not_vor",
+    "queue_group": "uncollected_month_eligible",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "latest_pdf_attempt_date": "2026-10-30",
+    "latest_full_retrieval_attempt_date": "2026-10-30",
+    "latest_attempt_actor": "external PDF agent",
+    "latest_attempt_kind": "publisher_delivery_and_local_version_review",
+    "available_nonfinal_pdf": "D:/codex/博客网站\\papers\\instsci\\batch20261030_elsevier_a\\preproof\\10.1016_j.artint.2026.104646.pdf",
+    "nonfinal_pdf_sha256": "4f5f1b1e7b68117eb42e92f0e5da7577370ef844abe7913d955608f2eeaaa7ef",
+    "latest_pdf_issue": "Explicit Journal Pre-proof; final main VoR not delivered",
+    "latest_attempt_evidence": "skill-runs/organize_2026-10-30/new_preproof_review.json",
+    "metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2026-10-29T23:58:53Z",
+        "timestamp": 1793318333000
+      }
+    },
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10
+          ]
+        ]
+      }
+    },
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_c_novol6\\preproof\\10.1016_j.artint.2026.104646.pdf",
+    "last_pdf_attempt_date": "2026-11-06",
+    "latest_pdf_attempt_actor": "external PDF agent",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
     "doi": "10.1016/j.cose.2026.104973",
     "title": "Crisis-driven cyber risk: Evaluating the cybercrime landscape in the face of pandemic uncertainty",
     "year": 2026,
@@ -58203,169 +58366,6 @@
     "crossref_single_work_checked_this_run": false
   },
   {
-    "doi": "10.1016/j.artint.2026.104646",
-    "title": "PASER: Patchified Spectral Representation Learning for Non-Stationary and Non-Periodic User Behavior Sequence",
-    "source": "Artificial Intelligence",
-    "collection_sources": [
-      "crossref"
-    ],
-    "date": "2026-10",
-    "published": "2026-10",
-    "publication_date_source": "crossref-published",
-    "date_precision": "month",
-    "year": 2026,
-    "authors": [
-      "Hao Wang",
-      "Zhichao Chen",
-      "Yuan Lu",
-      "Qingsong Wen",
-      "Xiaoxi Li",
-      "Yinuo Wang",
-      "Xu Chen",
-      "Haoxuan Li",
-      "Zhouchen Lin"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0004370226001724",
-    "alternative_id": [
-      "S0004370226001724"
-    ],
-    "date_evidence": {
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            29
-          ]
-        ],
-        "date-time": "2026-10-29T23:58:53Z",
-        "timestamp": 1793318333000
-      }
-    },
-    "published_online": null,
-    "openalex_publication_date": null,
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "publication_type": "generic journal-article; subtype pending main PDF",
-    "raw_metadata_evidence": "skill-runs/update_2026-10-30/observed_metadata.json",
-    "date_verified": false,
-    "new_since_previous_collection": false,
-    "discovered_by": "Crossref created-date discovery",
-    "month_eligible": true,
-    "required_pdf_version": "publisher_version_of_record",
-    "pdf_status": "journal_preproof_not_vor",
-    "queue_group": "uncollected_month_eligible",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "latest_pdf_attempt_date": "2026-10-30",
-    "latest_full_retrieval_attempt_date": "2026-10-30",
-    "latest_attempt_actor": "external PDF agent",
-    "latest_attempt_kind": "publisher_delivery_and_local_version_review",
-    "available_nonfinal_pdf": "D:/codex/博客网站\\papers\\instsci\\batch20261030_elsevier_a\\preproof\\10.1016_j.artint.2026.104646.pdf",
-    "nonfinal_pdf_sha256": "4f5f1b1e7b68117eb42e92f0e5da7577370ef844abe7913d955608f2eeaaa7ef",
-    "latest_pdf_issue": "Explicit Journal Pre-proof; final main VoR not delivered",
-    "latest_attempt_evidence": "skill-runs/organize_2026-10-30/new_preproof_review.json",
-    "metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            10,
-            29
-          ]
-        ],
-        "date-time": "2026-10-29T23:58:53Z",
-        "timestamp": 1793318333000
-      }
-    },
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            10
-          ]
-        ]
-      }
-    },
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_c_novol6\\preproof\\10.1016_j.artint.2026.104646.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
     "doi": "10.1177/0926227x261505352",
     "title": "DCFinder: A dependency confusion detection method based on multi-dimensional dependency analysis",
     "source": "Journal of Computer Security",
@@ -58541,6 +58541,2876 @@
     "crossref_single_work_checked_this_run": false
   },
   {
+    "doi": "10.1016/j.cose.2026.105231",
+    "title": "OnionAdapt: Cross-domain few-shot website fingerprinting attack from surface sites to onion services",
+    "source": "Computers & Security",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T17:04:00Z",
+        "timestamp": 1794330240000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Yuwei Xu",
+      "Xinhe Fan",
+      "Zhengxin Xu",
+      "Jie Cao",
+      "Qiao Xiang",
+      "Guang Cheng"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004074",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105233",
+    "title": "Understanding Employees’ Responses to Information Security Requirements through the Holistic Stress Process",
+    "source": "Computers & Security",
+    "authors": [
+      "Ya Yin",
+      "carol hsu",
+      "Zhongyun Zhou"
+    ],
+    "published": "2026-11",
+    "date": "2026-11",
+    "published_online": null,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            3
+          ]
+        ],
+        "date-time": "2026-11-03T16:15:29Z",
+        "timestamp": 1793722529000
+      }
+    },
+    "year": 2026,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_verified": false,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004098",
+    "metadata_seen_this_update": false,
+    "source_seen_this_run": false,
+    "last_seen": "2026-11-09",
+    "last_metadata_collection_date": "2026-11-09",
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_d_new8\\preproof\\10.1016_j.cose.2026.105233.pdf",
+    "last_pdf_attempt_date": "2026-11-06",
+    "latest_pdf_attempt_actor": "external PDF agent",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            3
+          ]
+        ],
+        "date-time": "2026-11-03T16:15:29Z",
+        "timestamp": 1793722529000
+      }
+    },
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105234",
+    "title": "A Metadata-Driven Adaptive Cybersecurity Protector for Small and Medium-Sized Enterprises: Event-Driven Profile Updating Evaluated in Metaverse-Enabled Scenarios",
+    "source": "Computers & Security",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T17:24:15Z",
+        "timestamp": 1793899455000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Olga Torstensson",
+      "Dmytro Prokopovych-Tkachenko",
+      "Saltanat Adilzhanova",
+      "Bakytgul Ilessova",
+      "Zhansaya Duisenbekkyzy"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004104",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.cose.2026.105235",
+    "title": "Mitigating Cache Timing Attacks in NVM-Based Systems through Write-Aware Secure Partitioning (WASP)",
+    "source": "Computers & Security",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            6
+          ]
+        ],
+        "date-time": "2026-11-06T00:26:48Z",
+        "timestamp": 1793924808000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Shahzad Ashraf",
+      "Hamad Naeem",
+      "Chang Choi"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004116",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109836",
+    "title": "Adaptive dynamic event-triggered optimal control for delayed electro-hydraulic servo fatigue testing machines",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            6
+          ]
+        ],
+        "date-time": "2026-11-06T08:04:37Z",
+        "timestamp": 1793952277000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Lu Liu",
+      "Ruizhuo Song",
+      "Zixiao Xu",
+      "Pinjia Zhang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012918",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109837",
+    "title": "A Survey of Sparse Attention in Vision Transformers: Taxonomy, Methods and Analysis",
+    "source": "Neural Networks",
+    "authors": [
+      "Wenji Yin",
+      "Zhicun Zhang",
+      "Yu Han",
+      "Xiaoqi Xi",
+      "Chaohua Wang",
+      "Weijie Chen",
+      "Chunhui Wang",
+      "Linlin Zhu",
+      "Siyu Tan",
+      "Lei Li",
+      "Bin Yan"
+    ],
+    "published": "2026-11",
+    "date": "2026-11",
+    "published_online": null,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2026-11-02T16:22:22Z",
+        "timestamp": 1793636542000
+      }
+    },
+    "year": 2026,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_verified": false,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601292X",
+    "metadata_seen_this_update": false,
+    "source_seen_this_run": false,
+    "last_seen": "2026-11-09",
+    "last_metadata_collection_date": "2026-11-09",
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_e_new8\\preproof\\10.1016_j.neunet.2026.109837.pdf",
+    "last_pdf_attempt_date": "2026-11-06",
+    "latest_pdf_attempt_actor": "external PDF agent",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2026-11-02T16:22:22Z",
+        "timestamp": 1793636542000
+      }
+    },
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109846",
+    "title": "SFSNet: A Spatial-Frequency-Semantic Tri-Domain Fusion Network for Low-light Image Enhancement",
+    "source": "Neural Networks",
+    "authors": [
+      "Mingtong Chen",
+      "Zhida Ren",
+      "Xiaowen Shi",
+      "Huihong Huang",
+      "Yongqiang Tang",
+      "Wensheng Zhang"
+    ],
+    "published": "2026-11",
+    "date": "2026-11",
+    "published_online": null,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2026-11-02T16:56:02Z",
+        "timestamp": 1793638562000
+      }
+    },
+    "year": 2026,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_verified": false,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013018",
+    "metadata_seen_this_update": false,
+    "source_seen_this_run": false,
+    "last_seen": "2026-11-09",
+    "last_metadata_collection_date": "2026-11-09",
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_f_new6\\preproof\\10.1016_j.neunet.2026.109846.pdf",
+    "last_pdf_attempt_date": "2026-11-06",
+    "latest_pdf_attempt_actor": "external PDF agent",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2026-11-02T16:56:02Z",
+        "timestamp": 1793638562000
+      }
+    },
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109847",
+    "title": "Fast Multipole Attention: A Scalable Multilevel Attention Mechanism for Text and Images",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T08:24:27Z",
+        "timestamp": 1793867067000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Yanming Kang",
+      "Giang Tran",
+      "Hans De Sterck"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601302X",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109855",
+    "title": "Memory-Inspired Decoupling of Generalization and Specialization for Robust Domain Incremental Learning",
+    "source": "Neural Networks",
+    "authors": [
+      "Di Shang",
+      "Yanfeng Lu",
+      "Zhiyuan Li",
+      "Guoqi Li",
+      "Lu Zhang",
+      "Hong Qiao"
+    ],
+    "published": "2026-11",
+    "date": "2026-11",
+    "published_online": null,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2026-11-04T07:54:41Z",
+        "timestamp": 1793778881000
+      }
+    },
+    "year": 2026,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_verified": false,
+    "collection_sources": [
+      "crossref"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013109",
+    "metadata_seen_this_update": true,
+    "source_seen_this_run": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "document_type_verified": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_f_new6\\preproof\\10.1016_j.neunet.2026.109855.pdf",
+    "last_pdf_attempt_date": "2026-11-06",
+    "latest_pdf_attempt_actor": "external PDF agent",
+    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
+    "latest_metadata_date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2026-11-04T07:54:41Z",
+        "timestamp": 1793778881000
+      }
+    },
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109858",
+    "title": "Is In-Context Universality Enough? MLPs are Also Universal In-Context",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T00:24:58Z",
+        "timestamp": 1793838298000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Anastasis Kratsios",
+      "Takashi Furuya"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013134",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109860",
+    "title": "DPCoOp: Dual Positive Context Optimization for Multi-Label Recognition with Limited Annotations",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2026-11-04T16:33:59Z",
+        "timestamp": 1793810039000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Chuhan Peng",
+      "Lizhuo Zhang",
+      "Zhiqiang Pan",
+      "Wei Li",
+      "Yingchun Kuang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013158",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109866",
+    "title": "A Knowledge-Guided and Pattern-Constrained Framework for Medical Dialogue Generation",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T18:01:07Z",
+        "timestamp": 1793901667000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Yuhong He",
+      "Yi Hong",
+      "Xinping Gao",
+      "Shizhu He",
+      "Yongqi Zhang",
+      "Jun Wan"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013213",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109867",
+    "title": "SILC-G: Instance-level contrastive learning on semantic-enhanced graphs for fine-grained DTI prediction",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T18:01:03Z",
+        "timestamp": 1793901663000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Zhuo Chen",
+      "Fei Zhu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013225",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109871",
+    "title": "Mutual Information-Guided Dynamic Cross-View Graph Learning for Robust Multi-View Clustering",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            6
+          ]
+        ],
+        "date-time": "2026-11-06T16:37:05Z",
+        "timestamp": 1793983025000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created",
+      "recent"
+    ],
+    "authors": [
+      "Tingting Chen",
+      "Yijian Fu",
+      "Zinan Peng",
+      "Jingkai Guo",
+      "Zehui Zhang",
+      "Wei Zhou",
+      "Yugen Yi"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013262",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后验收正文与首次在线年月。",
+    "last_pdf_attempt_date": "2026-11-07",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109872",
+    "title": "Automated derivation of mean field models from spiking neural networks for the simulation of brain dynamics",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "date_precision": "month",
+    "published_online": null,
+    "year": 2026,
+    "publication_date_source": "crossref-published-or-issued",
+    "date_verified": false,
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2026-11-05T17:28:56Z",
+        "timestamp": 1793899736000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "authors": [
+      "Roberta Lorenzi",
+      "Marialaura De Grazia",
+      "Claudia Gandini Wheeler Kingshott",
+      "Fulvia Palesi",
+      "Egidio D'Angelo",
+      "Claudia Casellato"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013274",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "new_since_previous_collection": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "document_type_verified": false,
+    "month_eligible": true,
+    "queue_group": "uncollected_month_eligible",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
+    "last_pdf_attempt_date": "2026-11-06",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109874",
+    "title": "Linguistically-Aligned Adaptive Fusion Network for Continuous Sign Language Recognition",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T07:57:24Z",
+        "timestamp": 1794297444000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Haifa Harrouch",
+      "Maher Jebali"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013298",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109875",
+    "title": "ADRMD: Adaptive Dynamic Role Multi-modal Agent Debate Framework for Event Prediction",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:03:54Z",
+        "timestamp": 1794240234000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Zongwei Tang",
+      "Zezong Zhang",
+      "Bo Liu",
+      "Yiwei Guo",
+      "Kaixi Wang",
+      "Xingkong Ma"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013304",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109877",
+    "title": "Active Negative Loss: A Robust Framework for Learning with Noisy Labels",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:39:02Z",
+        "timestamp": 1794242342000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Xichen Ye",
+      "Yifan Wu",
+      "Yiqi Wang",
+      "Xiaoqiang Li",
+      "Weizhong Zhang",
+      "Yifan Chen"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013328",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109878",
+    "title": "Closed-form Continuous-time Neural Networks for Cognitive Regime Recognition",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:04:02Z",
+        "timestamp": 1794240242000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Zihan Lin"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601333X",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109881",
+    "title": "Diffusion-based reconstruction of three-dimensional porous media structures from two-dimensional image sequences",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            7
+          ]
+        ],
+        "date-time": "2026-11-07T08:00:00Z",
+        "timestamp": 1794038400000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created",
+      "recent"
+    ],
+    "authors": [
+      "Zongshun Xu",
+      "Mingliang Gao",
+      "Yongpeng Tan",
+      "Hui Wang",
+      "Chen Zuo",
+      "Jiayi Wang",
+      "Ze Yang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013365",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "pdf_attempted_this_update": false,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "new_since_previous_collection": false,
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后验收正文与首次在线年月。",
+    "last_pdf_attempt_date": "2026-11-07",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109883",
+    "title": "TVTTP: Task-specific Visual Tracking based on Trajectory Prompts",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:03:55Z",
+        "timestamp": 1794240235000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Mengting Zhang",
+      "Runkai Hua",
+      "Qun Li",
+      "Aiwu Shi",
+      "Xiong Wei",
+      "Kai Yang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013389",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109884",
+    "title": "Probing Implicit Graph Structure from Node Features via Variational Learning",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:38:57Z",
+        "timestamp": 1794242337000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Yu Chen",
+      "Qihang Guo",
+      "Yuge Wang",
+      "Keyu Liu",
+      "Xibei Yang",
+      "Yuhua Qian"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013390",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109885",
+    "title": "Real-Time Multiplierless FPGA Implementation of a Spiking Cerebellar Neuroprosthesis for Oculomotor Disorders Rehabilitation",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:04:16Z",
+        "timestamp": 1794240256000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Xiaotian Pan",
+      "Xinyue Chen",
+      "Chaochao Wang",
+      "Wei Wu",
+      "Kesu Bao",
+      "Jiahao Huang",
+      "Wang Jing"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013407",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109886",
+    "title": "RAU: Sparsity-Regularized Residual Addition Unit for High-Resolution Spatiotemporal Prediction",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T07:57:18Z",
+        "timestamp": 1794297438000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Fang Yuan",
+      "Chengcai Leng",
+      "Zhao Pei",
+      "Jinye Peng",
+      "Irene Cheng",
+      "Anup Basu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013419",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109887",
+    "title": "AFMNet: Adaptive Feature Matching Network for Few-Shot Strip Steel Surface Defect Segmentation",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T15:59:04Z",
+        "timestamp": 1794326344000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Xiaofei Zhou",
+      "Xuan Wang",
+      "Guanghui Wang",
+      "Kunye Shen",
+      "Juting Miu",
+      "Deyang Liu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013420",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109890",
+    "title": "DNA Compatible Predefined Primer-Aware Hash Mapping for Image Retrieval",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T07:57:39Z",
+        "timestamp": 1794297459000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Seunggi Shin",
+      "Byunghan Lee"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013456",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109891",
+    "title": "FSS-Attack: Frequency–Spatial–Semantic Alignment Attack against Closed-Source MLLMs",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:04:07Z",
+        "timestamp": 1794240247000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Jia Deng",
+      "Jin Li",
+      "Shaowei Wang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013468",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109892",
+    "title": "CLEAR: Consistency-Augmented Hierarchical Concept Bottlenecks for Medical Image Classification",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2026-11-11T07:37:38Z",
+        "timestamp": 1794382658000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Jiati Cai",
+      "Yuxun Zhao",
+      "Meihui Zhong",
+      "Chao Li",
+      "Lin Ji",
+      "Kai Wang",
+      "Fan Zhou"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601347X",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109896",
+    "title": "Distributed Event-Triggered Neural Dynamics Scheme for Consensus Motion of Multi-Robot Arm Systems with Efficient Communication",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T15:58:39Z",
+        "timestamp": 1794326319000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Zhongwen Cao",
+      "Zhijun Zhang",
+      "Xiangliang Sun"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013511",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109897",
+    "title": "A Hierarchical Framework for Multi-Agent Path Planning using Cooperative Attention and Task-Correlation Communication",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:39:09Z",
+        "timestamp": 1794242349000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Ke Han",
+      "Shuaiyi Liu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013523",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109899",
+    "title": "A Hybrid Linear Transformer-Diffusion Framework for Heterogeneous Spatiotemporal Representation Learning and Generation",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            7
+          ]
+        ],
+        "date-time": "2026-11-07T15:49:44Z",
+        "timestamp": 1794066584000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Jingzheng Li",
+      "Zhiwen Zhao",
+      "Mohamed A. Mohamed",
+      "Tao Jin"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013547",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": false,
+    "organizer_requested_pdf": false,
+    "pdf_attempted_this_update": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
+    "last_pdf_attempt_date": "2026-11-09",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109900",
+    "title": "Event-based neuroadaptive fault-tolerant control based on multi-cluster reservoir echo state network",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            7
+          ]
+        ],
+        "date-time": "2026-11-07T23:26:55Z",
+        "timestamp": 1794094015000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Tao Dong",
+      "Hongli Luo",
+      "Huaqing Li",
+      "Tingwen Huang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013559",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": false,
+    "organizer_requested_pdf": false,
+    "pdf_attempted_this_update": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
+    "last_pdf_attempt_date": "2026-11-09",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109902",
+    "title": "A New Deep Belief Rule-based System with Stacked Ensemble Learning and Optimization-Free Modeling Procedure",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T08:14:36Z",
+        "timestamp": 1794212076000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Long-Hao Yang",
+      "Yan-bin Cheng",
+      "Fei-Fei Ye",
+      "Ying-Ming Wang",
+      "Haitian Lu"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013572",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": false,
+    "organizer_requested_pdf": false,
+    "pdf_attempted_this_update": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
+    "last_pdf_attempt_date": "2026-11-09",
+    "pdf_attempt_actor": "external_pdf_agent",
+    "crossref_single_work_checked_this_run": true
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109903",
+    "title": "Common Concept Aggregation and Verification for Complex Concept Classification",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2026-11-09T16:04:03Z",
+        "timestamp": 1794240243000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Mao Feng",
+      "Meng Yang",
+      "Yihao Wang",
+      "Chenfei Liao",
+      "Xu Zheng",
+      "Luc Van Gool"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013584",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
+    "doi": "10.1016/j.neunet.2026.109904",
+    "title": "A Unified Framework for Compact and Multiresolution Implicit Neural Representation via Transform Domain Methods",
+    "source": "Neural Networks",
+    "published": "2026-11",
+    "date": "2026-11",
+    "year": 2026,
+    "published_online": null,
+    "date_precision": "month",
+    "publication_date_source": "crossref-published",
+    "date_evidence": {
+      "published-online": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            10
+          ]
+        ],
+        "date-time": "2026-11-10T00:10:48Z",
+        "timestamp": 1794269448000
+      }
+    },
+    "collection_sources": [
+      "crossref"
+    ],
+    "discovery_modes": [
+      "created"
+    ],
+    "authors": [
+      "Qibiao Li",
+      "Hongbo Gao",
+      "Muyang Sun",
+      "Feifan Huang",
+      "Xinmiao Wang",
+      "Chengbo Wang"
+    ],
+    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013596",
+    "source_seen_this_run": true,
+    "metadata_seen_this_update": true,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": false,
+    "new_since_previous_collection": true,
+    "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
+    "required_pdf_version": "publisher_version_of_record",
+    "month_eligible": true,
+    "queue_group": "new_research",
+    "pdf_status": "journal_preproof_not_vor",
+    "next_action": "本轮已核实 Journal Pre-proof，后续复取出版社正式正文。",
+    "last_pdf_attempt_date": "2026-11-11"
+  },
+  {
     "doi": "10.1177/0926227x261505351",
     "title": "Recovery traces as quantitative information channels: Leakage-aware policy–interface selection for fault recovery",
     "source": "Journal of Computer Security",
@@ -58659,726 +61529,6 @@
     "crossref_single_work_checked_this_run": false
   },
   {
-    "doi": "10.1016/j.cose.2026.105225",
-    "title": "A newly generated dataset and pattern-driven approach for detecting AMQP Denial-of-Service attacks",
-    "source": "Computers & Security",
-    "authors": [
-      "Munmun Swain",
-      "Sushant Kuril",
-      "Nikhil Tripathi",
-      "Kamalakanta Sethi"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:17:24Z",
-        "timestamp": 1793636244000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004013",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_d_new8\\preproof\\10.1016_j.cose.2026.105225.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:17:24Z",
-        "timestamp": 1793636244000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105233",
-    "title": "Understanding Employees’ Responses to Information Security Requirements through the Holistic Stress Process",
-    "source": "Computers & Security",
-    "authors": [
-      "Ya Yin",
-      "carol hsu",
-      "Zhongyun Zhou"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2026-11-03T16:15:29Z",
-        "timestamp": 1793722529000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004098",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_d_new8\\preproof\\10.1016_j.cose.2026.105233.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2026-11-03T16:15:29Z",
-        "timestamp": 1793722529000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109837",
-    "title": "A Survey of Sparse Attention in Vision Transformers: Taxonomy, Methods and Analysis",
-    "source": "Neural Networks",
-    "authors": [
-      "Wenji Yin",
-      "Zhicun Zhang",
-      "Yu Han",
-      "Xiaoqi Xi",
-      "Chaohua Wang",
-      "Weijie Chen",
-      "Chunhui Wang",
-      "Linlin Zhu",
-      "Siyu Tan",
-      "Lei Li",
-      "Bin Yan"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:22:22Z",
-        "timestamp": 1793636542000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601292X",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_e_new8\\preproof\\10.1016_j.neunet.2026.109837.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:22:22Z",
-        "timestamp": 1793636542000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109838",
-    "title": "Unified Global Adaptive Anchor Graph Learning and Factorization for Incomplete Multi-View Clustering",
-    "source": "Neural Networks",
-    "authors": [
-      "Yulong Zhang",
-      "Rankun Chen",
-      "Jingxiang Huang",
-      "Jinghan Wu",
-      "Ben Yang",
-      "Xuetao Zhang"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2026-11-03T00:11:31Z",
-        "timestamp": 1793664691000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012931",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_f_new6\\preproof\\10.1016_j.neunet.2026.109838.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            3
-          ]
-        ],
-        "date-time": "2026-11-03T00:11:31Z",
-        "timestamp": 1793664691000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109846",
-    "title": "SFSNet: A Spatial-Frequency-Semantic Tri-Domain Fusion Network for Low-light Image Enhancement",
-    "source": "Neural Networks",
-    "authors": [
-      "Mingtong Chen",
-      "Zhida Ren",
-      "Xiaowen Shi",
-      "Huihong Huang",
-      "Yongqiang Tang",
-      "Wensheng Zhang"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:56:02Z",
-        "timestamp": 1793638562000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013018",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_f_new6\\preproof\\10.1016_j.neunet.2026.109846.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            2
-          ]
-        ],
-        "date-time": "2026-11-02T16:56:02Z",
-        "timestamp": 1793638562000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109855",
-    "title": "Memory-Inspired Decoupling of Generalization and Specialization for Robust Domain Incremental Learning",
-    "source": "Neural Networks",
-    "authors": [
-      "Di Shang",
-      "Yanfeng Lu",
-      "Zhiyuan Li",
-      "Guoqi Li",
-      "Lu Zhang",
-      "Hong Qiao"
-    ],
-    "published": "2026-11",
-    "date": "2026-11",
-    "published_online": null,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            4
-          ]
-        ],
-        "date-time": "2026-11-04T07:54:41Z",
-        "timestamp": 1793778881000
-      }
-    },
-    "year": 2026,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_verified": false,
-    "collection_sources": [
-      "crossref"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013109",
-    "metadata_seen_this_update": true,
-    "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "document_type_verified": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "raw_metadata_evidence": "skill-runs/update_2026-11-04/observed_metadata.json",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "available_preproof_path": "D:\\codex\\博客网站\\papers\\instsci\\batch20261104_f_new6\\preproof\\10.1016_j.neunet.2026.109855.pdf",
-    "last_pdf_attempt_date": "2026-11-06",
-    "latest_pdf_attempt_actor": "external PDF agent",
-    "pdf_evidence_file": "skill-runs/organize_2026-11-05/preproof_replacement_queue.json",
-    "latest_metadata_date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            4
-          ]
-        ],
-        "date-time": "2026-11-04T07:54:41Z",
-        "timestamp": 1793778881000
-      }
-    },
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
     "doi": "10.1177/0926227x261505043",
     "title": "DISARM: Taint-gated counterfactual auditing for efficient defense against indirect prompt injection",
     "source": "Journal of Computer Security",
@@ -59449,8 +61599,8 @@
     "publisher_page": "https://journals.sagepub.com/doi/10.1177/0926227X261505043",
     "metadata_seen_this_update": true,
     "source_seen_this_run": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
     "document_type_verified": false,
@@ -59505,1317 +61655,6 @@
       }
     },
     "crossref_single_work_checked_this_run": false
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105227",
-    "title": "DiffFuzz: Homology-aware function-level fuzzing of wireless router firmware",
-    "source": "Computers & Security",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T17:23:54Z",
-        "timestamp": 1793899434000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Pulin Chen",
-      "Yingpei Zeng",
-      "Xiangpu Song",
-      "Yuhang Pan",
-      "Xiao Li",
-      "Shanqing Guo"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004037",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105228",
-    "title": "Evaluating Parameter-Efficient Fine-Tuning Attacks Against Non-Transferable Learning Defenses",
-    "source": "Computers & Security",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T08:20:42Z",
-        "timestamp": 1793866842000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Ammara Zamir",
-      "Paolo Falcarin",
-      "Salvatore Orlando",
-      "Claudio Lucchese"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004049",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105234",
-    "title": "A Metadata-Driven Adaptive Cybersecurity Protector for Small and Medium-Sized Enterprises: Event-Driven Profile Updating Evaluated in Metaverse-Enabled Scenarios",
-    "source": "Computers & Security",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T17:24:15Z",
-        "timestamp": 1793899455000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Olga Torstensson",
-      "Dmytro Prokopovych-Tkachenko",
-      "Saltanat Adilzhanova",
-      "Bakytgul Ilessova",
-      "Zhansaya Duisenbekkyzy"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004104",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.cose.2026.105235",
-    "title": "Mitigating Cache Timing Attacks in NVM-Based Systems through Write-Aware Secure Partitioning (WASP)",
-    "source": "Computers & Security",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            6
-          ]
-        ],
-        "date-time": "2026-11-06T00:26:48Z",
-        "timestamp": 1793924808000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Shahzad Ashraf",
-      "Hamad Naeem",
-      "Chang Choi"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0167404826004116",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109836",
-    "title": "Adaptive dynamic event-triggered optimal control for delayed electro-hydraulic servo fatigue testing machines",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            6
-          ]
-        ],
-        "date-time": "2026-11-06T08:04:37Z",
-        "timestamp": 1793952277000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Lu Liu",
-      "Ruizhuo Song",
-      "Zixiao Xu",
-      "Pinjia Zhang"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012918",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109847",
-    "title": "Fast Multipole Attention: A Scalable Multilevel Attention Mechanism for Text and Images",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T08:24:27Z",
-        "timestamp": 1793867067000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Yanming Kang",
-      "Giang Tran",
-      "Hans De Sterck"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601302X",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109858",
-    "title": "Is In-Context Universality Enough? MLPs are Also Universal In-Context",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T00:24:58Z",
-        "timestamp": 1793838298000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Anastasis Kratsios",
-      "Takashi Furuya"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013134",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109860",
-    "title": "DPCoOp: Dual Positive Context Optimization for Multi-Label Recognition with Limited Annotations",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            4
-          ]
-        ],
-        "date-time": "2026-11-04T16:33:59Z",
-        "timestamp": 1793810039000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Chuhan Peng",
-      "Lizhuo Zhang",
-      "Zhiqiang Pan",
-      "Wei Li",
-      "Yingchun Kuang"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013158",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109861",
-    "title": "A Theory of Multilevel Interactive Equilibrium in NeuroAI",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            4
-          ]
-        ],
-        "date-time": "2026-11-04T16:34:06Z",
-        "timestamp": 1793810046000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Zhe Sage Chen",
-      "Yuchen Shen",
-      "Quanyan Zhu"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S089360802601316X",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109863",
-    "title": "An Adaptive Gradient Compensation Neural Network for Time-Varying Nonlinear Optimization with Application to Redundant Manipulators",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T17:28:55Z",
-        "timestamp": 1793899735000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Shangfeng Du",
-      "Duo Liu",
-      "Yang Si",
-      "Haoen Huang",
-      "Zihao Zhang"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013183",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109864",
-    "title": "Hierarchical Semantic Fusion in Hyperbolic Space for Next POI Recommendation",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            4
-          ]
-        ],
-        "date-time": "2026-11-04T17:09:08Z",
-        "timestamp": 1793812148000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Hongliang Qiao",
-      "Shanshan Feng",
-      "Hao Wang",
-      "Xutao Li",
-      "Tiantian He",
-      "Fan Li",
-      "Puay Siew Tan",
-      "Yew-Soon Ong"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013195",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109866",
-    "title": "A Knowledge-Guided and Pattern-Constrained Framework for Medical Dialogue Generation",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T18:01:07Z",
-        "timestamp": 1793901667000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Yuhong He",
-      "Yi Hong",
-      "Xinping Gao",
-      "Shizhu He",
-      "Yongqi Zhang",
-      "Jun Wan"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013213",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109867",
-    "title": "SILC-G: Instance-level contrastive learning on semantic-enhanced graphs for fine-grained DTI prediction",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T18:01:03Z",
-        "timestamp": 1793901663000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Zhuo Chen",
-      "Fei Zhu"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013225",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109872",
-    "title": "Automated derivation of mean field models from spiking neural networks for the simulation of brain dynamics",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "date_precision": "month",
-    "published_online": null,
-    "year": 2026,
-    "publication_date_source": "crossref-published-or-issued",
-    "date_verified": false,
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            5
-          ]
-        ],
-        "date-time": "2026-11-05T17:28:56Z",
-        "timestamp": 1793899736000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "authors": [
-      "Roberta Lorenzi",
-      "Marialaura De Grazia",
-      "Claudia Gandini Wheeler Kingshott",
-      "Fulvia Palesi",
-      "Egidio D'Angelo",
-      "Claudia Casellato"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013274",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "new_since_previous_collection": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "document_type_verified": false,
-    "month_eligible": true,
-    "queue_group": "uncollected_month_eligible",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核实Journal Pre-proof。取得并校验出版社正式正文后交整理agent入库。",
-    "last_pdf_attempt_date": "2026-11-06",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109862",
-    "title": "A Collaborative Network of Bi-Mamba and CAFS for Multi-Task Classification of Unilateral Lower Limb",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            6
-          ]
-        ],
-        "date-time": "2026-11-06T17:12:50Z",
-        "timestamp": 1793985170000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "discovery_modes": [
-      "created",
-      "recent"
-    ],
-    "authors": [
-      "Zhicheng Chen",
-      "Junhua Li"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013171",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后验收正文与首次在线年月。",
-    "last_pdf_attempt_date": "2026-11-07",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109871",
-    "title": "Mutual Information-Guided Dynamic Cross-View Graph Learning for Robust Multi-View Clustering",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            6
-          ]
-        ],
-        "date-time": "2026-11-06T16:37:05Z",
-        "timestamp": 1793983025000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "discovery_modes": [
-      "created",
-      "recent"
-    ],
-    "authors": [
-      "Tingting Chen",
-      "Yijian Fu",
-      "Zinan Peng",
-      "Jingkai Guo",
-      "Zehui Zhang",
-      "Wei Zhou",
-      "Yugen Yi"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013262",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后验收正文与首次在线年月。",
-    "last_pdf_attempt_date": "2026-11-07",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109881",
-    "title": "Diffusion-based reconstruction of three-dimensional porous media structures from two-dimensional image sequences",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            7
-          ]
-        ],
-        "date-time": "2026-11-07T08:00:00Z",
-        "timestamp": 1794038400000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "discovery_modes": [
-      "created",
-      "recent"
-    ],
-    "authors": [
-      "Zongshun Xu",
-      "Mingliang Gao",
-      "Yongpeng Tan",
-      "Hui Wang",
-      "Chen Zuo",
-      "Jiayi Wang",
-      "Ze Yang"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013365",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
-    "pdf_attempted_this_update": false,
-    "organizer_requested_pdf": false,
-    "required_pdf_version": "publisher_version_of_record",
-    "new_since_previous_collection": false,
-    "month_eligible": true,
-    "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后验收正文与首次在线年月。",
-    "last_pdf_attempt_date": "2026-11-07",
-    "pdf_attempt_actor": "external_pdf_agent",
-    "crossref_single_work_checked_this_run": true
   },
   {
     "doi": "10.1038/s42256-026-01317-6",
@@ -60898,8 +61737,8 @@
     "publisher_page": "https://www.nature.com/articles/s42256-026-01317-6",
     "source_seen_this_run": true,
     "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
     "date_verified": true,
     "pdf_attempted_this_update": false,
     "organizer_requested_pdf": false,
@@ -60918,21 +61757,30 @@
     "crossref_single_work_checked_this_run": false
   },
   {
-    "doi": "10.1016/j.neunet.2026.109899",
-    "title": "A Hybrid Linear Transformer-Diffusion Framework for Heterogeneous Spatiotemporal Representation Learning and Generation",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
+    "doi": "10.1038/s42256-026-01335-4",
+    "title": "Tensegrity continuum robots enable task-adaptive morphologies for cooperative behaviours",
+    "source": "Nature Machine Intelligence",
+    "published": "2026-11-11",
+    "date": "2026-11-11",
     "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
+    "published_online": "2026-11-11",
+    "date_precision": "day",
+    "publication_date_source": "publisher-citation-online-date",
     "date_evidence": {
-      "published-online": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
       "published": {
         "date-parts": [
           [
             2026,
+            11,
             11
           ]
         ]
@@ -60941,212 +61789,59 @@
         "date-parts": [
           [
             2026,
+            11,
             11
           ]
         ]
       },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
+      "published-print": null,
       "created": {
         "date-parts": [
           [
             2026,
             11,
-            7
+            11
           ]
         ],
-        "date-time": "2026-11-07T15:49:44Z",
-        "timestamp": 1794066584000
+        "date-time": "2026-11-11T10:03:24Z",
+        "timestamp": 1794391404000
       }
     },
     "collection_sources": [
-      "crossref"
+      "crossref",
+      "publisher"
     ],
     "discovery_modes": [
-      "created"
+      "created",
+      "recent"
     ],
     "authors": [
-      "Jingzheng Li",
-      "Zhiwen Zhao",
-      "Mohamed A. Mohamed",
-      "Tao Jin"
+      "Mahmud Hasan Saikot",
+      "Sydney Spiegel",
+      "Sudheera Akalanka Kariyawasam",
+      "Andrew Stefka",
+      "Josh Chrisler",
+      "Jianguo Zhao"
     ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013547",
+    "publisher_page": "https://www.nature.com/articles/s42256-026-01335-4",
     "source_seen_this_run": true,
     "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
+    "last_seen": "2026-11-11",
+    "last_metadata_collection_date": "2026-11-11",
+    "date_verified": true,
     "new_since_previous_collection": true,
-    "organizer_requested_pdf": false,
     "pdf_attempted_this_update": true,
+    "organizer_requested_pdf": false,
     "required_pdf_version": "publisher_version_of_record",
+    "document_type": "Article",
+    "publisher_evidence": "skill-runs/update_2026-11-11/nature_01335-4.html",
+    "publisher_evidence_sha256": "0bda5f62d4fffdf39ab7df50b483d4d37069c1e63293b43c9a5438d14ba5f9f1",
     "month_eligible": true,
     "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
-    "last_pdf_attempt_date": "2026-11-09",
-    "pdf_attempt_actor": "external_pdf_agent"
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109900",
-    "title": "Event-based neuroadaptive fault-tolerant control based on multi-cluster reservoir echo state network",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            7
-          ]
-        ],
-        "date-time": "2026-11-07T23:26:55Z",
-        "timestamp": 1794094015000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "discovery_modes": [
-      "created"
-    ],
-    "authors": [
-      "Tao Dong",
-      "Hongli Luo",
-      "Huaqing Li",
-      "Tingwen Huang"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013559",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
-    "new_since_previous_collection": true,
-    "organizer_requested_pdf": false,
-    "pdf_attempted_this_update": true,
-    "required_pdf_version": "publisher_version_of_record",
-    "month_eligible": true,
-    "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
-    "last_pdf_attempt_date": "2026-11-09",
-    "pdf_attempt_actor": "external_pdf_agent"
-  },
-  {
-    "doi": "10.1016/j.neunet.2026.109902",
-    "title": "A New Deep Belief Rule-based System with Stacked Ensemble Learning and Optimization-Free Modeling Procedure",
-    "source": "Neural Networks",
-    "published": "2026-11",
-    "date": "2026-11",
-    "year": 2026,
-    "published_online": null,
-    "date_precision": "month",
-    "publication_date_source": "crossref-published",
-    "date_evidence": {
-      "published-online": null,
-      "published": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "published-print": {
-        "date-parts": [
-          [
-            2026,
-            11
-          ]
-        ]
-      },
-      "created": {
-        "date-parts": [
-          [
-            2026,
-            11,
-            9
-          ]
-        ],
-        "date-time": "2026-11-09T08:14:36Z",
-        "timestamp": 1794212076000
-      }
-    },
-    "collection_sources": [
-      "crossref"
-    ],
-    "discovery_modes": [
-      "created"
-    ],
-    "authors": [
-      "Long-Hao Yang",
-      "Yan-bin Cheng",
-      "Fei-Fei Ye",
-      "Ying-Ming Wang",
-      "Haitian Lu"
-    ],
-    "publisher_page": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026013572",
-    "source_seen_this_run": true,
-    "metadata_seen_this_update": true,
-    "last_seen": "2026-11-09",
-    "last_metadata_collection_date": "2026-11-09",
-    "date_verified": false,
-    "new_since_previous_collection": true,
-    "organizer_requested_pdf": false,
-    "pdf_attempted_this_update": true,
-    "required_pdf_version": "publisher_version_of_record",
-    "month_eligible": true,
-    "queue_group": "new_research",
-    "pdf_status": "journal_preproof_not_vor",
-    "next_action": "已核Journal Pre-proof。待正式排版PDF交付后核首次在线年月和正文。",
-    "last_pdf_attempt_date": "2026-11-09",
-    "pdf_attempt_actor": "external_pdf_agent"
+    "pdf_status": "no_verified_publisher_pdf",
+    "next_action": "核首次在线年月和版本，交付匹配的完整正文。",
+    "last_pdf_attempt_date": "2026-11-11",
+    "pdf_attempt_reason": "no-file",
+    "pdf_attempt_evidence": "skill-runs/gap_2026-11-11/PDF交付报告.md"
   }
 ]

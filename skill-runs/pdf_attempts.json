@@ -25,11 +25,11 @@
   },
   "10.1177/0926227x261476666": {
     "reason": "blocked",
-    "note": "2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    "note": "2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
   },
   "10.1038/s42256-026-01299-5": {
     "reason": "no-file",
-    "note": "2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
+    "note": "2026-11-11 PDF agent 实测：直链返回 HTML，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
   },
   "10.1109/tpami.2026.3691448": {
     "reason": "not-oa",
@@ -2037,7 +2037,7 @@
   },
   "10.1177/0926227x261487917": {
     "reason": "blocked",
-    "note": "2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    "note": "2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
   },
   "10.1038/s42256-026-01316-7": {
     "reason": "no-file",
@@ -2114,5 +2114,9 @@
   "10.1038/s42256-026-01317-6": {
     "reason": "blocked",
     "note": "2026-11-07外部PDF agent实测官方PDF入口返回HTML，文章页提示机构访问。工具取得参考文献中的Azulay & Weiss (JMLR 2019) 错文，独立校验题名、作者和目标DOI失败，已隔离。证据skill-runs/organize_2026-11-07/rejected_delivery_review.json及skill-runs/gap_2026-11-07/PDF交付报告.md。保留为待取正文的Perspective候选。"
+  },
+  "10.1038/s42256-026-01335-4": {
+    "reason": "no-file",
+    "note": "2026-11-11 PDF agent 实测：PDF 请求跳回文章落地页，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。"
   }
 }
