@@ -1,12 +1,12 @@
 {
-  "from_date": "2026-11-07",
+  "from_date": "2026-11-09",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-11-14",
+  "until_date": "2026-11-16",
   "retention_cutoff": "2026-08-01",
   "journal_count": 17,
-  "scope": "17 journals recent publication and Crossref registration discovery, with four targeted OpenAlex historical rechecks",
+  "scope": "Recent overlap by Crossref publication and registration plus OpenAlex and publisher checks",
   "collection_complete": false,
-  "coverage_limit": "This update covers a seven-day overlap plus four targeted historical windows, not a baseline-to-current scan across every journal.",
+  "coverage_limit": "Recent overlap; historical reconciliations from November 14 are preserved and the global baseline is unchanged.",
   "current_overlap_source_comparison_complete": true,
   "current_overlap_unresolved_source_errors": 0,
   "openalex_attempted_journals": 17,
@@ -54,6 +54,7 @@
       "evidence_file": "skill-runs/update_2026-11-14/historical_coverage_recheck.json"
     }
   ],
+  "historical_gaps_retried": false,
   "errors": [],
   "journals": [
     {
@@ -145,7 +146,7 @@
         "raw_retrieved": 6,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
         "source_total": 0,
@@ -316,11 +317,11 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 3,
+        "raw_retrieved": 3,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
         "source_total": 0,
@@ -334,18 +335,18 @@
     {
       "journal": "Machine Learning",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "crossref_created": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 6,
+        "raw_retrieved": 6,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
         "source_total": 0,
@@ -366,15 +367,15 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 40,
-        "raw_retrieved": 40,
+        "source_total": 45,
+        "raw_retrieved": 45,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
-        "source_total": 4,
-        "raw_retrieved": 4,
+        "source_total": 3,
+        "raw_retrieved": 3,
         "complete": true,
         "error": null,
         "network_calls": 1,
@@ -438,14 +439,14 @@
         "raw_retrieved": 2,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "crossref_created": {
         "source_total": 2,
         "raw_retrieved": 2,
         "complete": true,
         "error": null,
-        "network_calls": 1
+        "network_calls": 2
       },
       "openalex": {
         "source_total": 2,
@@ -482,65 +483,132 @@
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-11-14/crossref_created_discovery.json",
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-16/crossref_created_discovery.json",
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
-  "new_record_count": 250,
-  "new_doi_discovery_count": 302,
-  "new_month_unverified": 72,
-  "new_nonresearch_exclusions": 10,
-  "uncollected_month_eligible_count": 1120,
-  "historical_gaps_retried": true,
+  "new_record_count": 12,
+  "new_doi_discovery_count": 17,
+  "new_month_unverified": 2,
+  "new_nonresearch_exclusions": 3,
+  "uncollected_month_eligible_count": 1053,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
-  "previous_audit_commit": "9631d79309daeb3d19f3aad1b039405a679cd708",
+  "previous_audit_commit": "25fcd288e06e51f9b5db5b8a0dbfb5c853b9e84c",
   "jmlr_new_publisher_entries": 0,
-  "jmlr_publisher_queue": "skill-runs/update_2026-11-14/jmlr_publisher_queue.json",
-  "crossref_union_doi_count": 161,
-  "openalex_recent_union_doi_count": 8,
-  "openalex_historical_union_doi_count": 851,
+  "jmlr_publisher_queue": "skill-runs/update_2026-11-16/jmlr_publisher_queue.json",
+  "crossref_union_doi_count": 174,
+  "openalex_recent_union_doi_count": 7,
   "official_publisher_article_evidence": {
-    "10.1007/s10207-026-01362-7": {
-      "journal": "International Journal of Information Security",
-      "date": "2026-11-11",
-      "title": "Retraction Note: DOT-C: A smartphone unlock scheme based on dot-dot connection in IoT-enabled smart cities",
-      "url": "https://link.springer.com/article/10.1007/s10207-026-01362-7",
-      "evidence_file": "skill-runs/update_2026-11-14/springer_10207.html"
+    "10.1007/s10994-026-07194-9": {
+      "doi": "10.1007/s10994-026-07194-9",
+      "title": "Logarithmic Tri-factorized Tensor Low-Rank Representation for Robust Subspace Clustering",
+      "date": "2026-11-16",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07194-9",
+      "status": 200,
+      "sha256": "27fc3312032043a291d322937c1cd6424d6fd4621c2741b83fa0d54eb88b4815",
+      "file": "springer_07194.html",
+      "authors": [
+        "Lan, Xinyu",
+        "Yang, Ming",
+        "Li, Wen"
+      ]
     },
-    "10.1007/s10207-026-01346-7": {
-      "journal": "International Journal of Information Security",
-      "date": "2026-11-10",
-      "title": "A hybrid framework for web applications security vulnerabilities detection",
-      "url": "https://link.springer.com/article/10.1007/s10207-026-01346-7",
-      "evidence_file": "skill-runs/update_2026-11-14/springer_10207.html"
+    "10.1007/s10994-026-07190-z": {
+      "doi": "10.1007/s10994-026-07190-z",
+      "title": "A Semi-supervised Few-Shot Framework for Detecting Stealth Malicious Network Traffic",
+      "date": "2026-11-16",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07190-z",
+      "status": 200,
+      "sha256": "3885185fc9b03e7146b677d1b32fd86ebf9565b66c6864cd732e748c37aae7a4",
+      "file": "springer_07190.html",
+      "authors": [
+        "Caviglione, Luca",
+        "Guarascio, Massimo",
+        "Liguori, Angelica",
+        "Scala, Francesco",
+        "Valente, Bernardo"
+      ]
     },
-    "10.1007/s10207-026-01343-w": {
-      "journal": "International Journal of Information Security",
-      "date": "2026-11-10",
-      "title": "Authorization assurance for tool-using LLM agents: a structured review of enforcement semantics and effect-level security evidence",
-      "url": "https://link.springer.com/article/10.1007/s10207-026-01343-w",
-      "evidence_file": "skill-runs/update_2026-11-14/springer_10207.html"
+    "10.1007/s10994-026-07186-9": {
+      "doi": "10.1007/s10994-026-07186-9",
+      "title": "The Hierarchical Barycenter: Conditional Probability Simulation with Structured and Unobserved Covariates",
+      "date": "2026-11-14",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07186-9",
+      "status": 200,
+      "sha256": "ef4e51a981f3da9bd1bc1dc52ef07ccc42d6c3e5be2cc2f18a9aa0c199022ebc",
+      "file": "springer_07186.html",
+      "authors": [
+        "Tabak, Esteban G.",
+        "Trigila, Giulio",
+        "Zhao, Wenjun"
+      ]
     },
-    "10.1038/s42256-026-01335-4": {
-      "journal": "Nature Machine Intelligence",
-      "date": "2026-11-11",
-      "title": "Tensegrity continuum robots enable task-adaptive morphologies for cooperative behaviours",
-      "url": "https://www.nature.com/articles/s42256-026-01335-4",
-      "evidence_file": "skill-runs/update_2026-11-14/nature_rss.xml"
+    "10.1007/s10994-026-07184-x": {
+      "doi": "10.1007/s10994-026-07184-x",
+      "title": "The Power of Uniform Sampling for (k, z)-Clustering",
+      "date": "2026-11-14",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07184-x",
+      "status": 200,
+      "sha256": "f3c3a378f25358fceb6f9c5206bf17f9a1db81a3f8013a1cb9b56be162c1d943",
+      "file": "springer_07184.html",
+      "authors": [
+        "Chen, Duanrui",
+        "Huang, Lingxiao",
+        "Jiang, Shaofeng H.-C.",
+        "Lou, Jianing"
+      ]
     },
-    "10.1038/s42256-026-01328-3": {
-      "journal": "Nature Machine Intelligence",
-      "date": "2026-11-09",
-      "title": "Multimodal cell foundation models require synergistic integration beyond alignment",
-      "url": "https://www.nature.com/articles/s42256-026-01328-3",
-      "evidence_file": "skill-runs/update_2026-11-14/nature_rss.xml"
+    "10.1007/s10994-026-07197-6": {
+      "doi": "10.1007/s10994-026-07197-6",
+      "title": "Query Selection with Proper Latent-Representation Similarity in Preference-Based Reinforcement Learning",
+      "date": "2026-11-14",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07197-6",
+      "status": 200,
+      "sha256": "73200a206b8d9a3eaf6b0f9c568ac2542419a4da39ced0b9170a73174819d233",
+      "file": "springer_07197.html",
+      "authors": [
+        "Dong, Chunru",
+        "Wang, Aoxiang",
+        "Wang, Yang",
+        "Hua, Qiang",
+        "Zhang, Feng"
+      ]
+    },
+    "10.1007/s10994-026-07199-4": {
+      "doi": "10.1007/s10994-026-07199-4",
+      "title": "Advancing Rotation and Scale-Invariant Trajectory Representations for Maritime and Aviation Mobility Data Analysis",
+      "date": "2026-11-14",
+      "journal": "Machine Learning",
+      "document_type": "Article",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07199-4",
+      "status": 200,
+      "sha256": "d75f37db016d7eabed2a70097e3e1fa6671d2867216a69faf39f65b66afd52a2",
+      "file": "springer_07199.html",
+      "authors": [
+        "Landi, Cristiano",
+        "Andrienko, Natalia",
+        "Andrienko, Gennady",
+        "Guidotti, Riccardo"
+      ]
     }
   },
   "organization_reconciliation": {
-    "as_of": "2026-11-14",
-    "organized": 100,
-    "public_fulltext": 11,
-    "nonresearch_removed": 2,
-    "delivery_source": "skill-runs/gap_2026-11-14/PDF交付报告.md"
+    "as_of": "2026-11-16",
+    "organized": 79,
+    "public_fulltext": 7,
+    "local_only_for_summary": 72,
+    "verified_pdf_first_online_unverified": 2,
+    "delivery_source": "skill-runs/gap_2026-11-16/PDF交付报告.md",
+    "ieee_previous_release_dates_confirmed": 85
   }
 }
