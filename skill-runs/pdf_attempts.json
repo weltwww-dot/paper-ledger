@@ -25,11 +25,23 @@
   },
   "10.1177/0926227x261476666": {
     "reason": "blocked",
-    "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
+    "date": "2026-11-19",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "previous_attempt": {
+      "reason": "blocked",
+      "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    }
   },
   "10.1038/s42256-026-01299-5": {
-    "reason": "no-file",
-    "note": "2026-11-16 获取 agent 实测，直链返回 HTML，未获正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：PDF 请求返回 HTML，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：直链返回 HTML，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
+    "reason": "blocked",
+    "note": "出版社PDF地址返回HTML订阅页面，非正文（546927字节）。 尚无可核验正式全文。",
+    "date": "2026-11-19",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "previous_attempt": {
+      "reason": "no-file",
+      "note": "2026-11-16 获取 agent 实测，直链返回 HTML，未获正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：PDF 请求返回 HTML，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：直链返回 HTML，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
+    }
   },
   "10.1109/tpami.2026.3691448": {
     "reason": "not-oa",
@@ -2037,7 +2049,13 @@
   },
   "10.1177/0926227x261487917": {
     "reason": "blocked",
-    "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
+    "date": "2026-11-19",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "previous_attempt": {
+      "reason": "blocked",
+      "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+    }
   },
   "10.1038/s42256-026-01316-7": {
     "reason": "no-file",
@@ -2092,8 +2110,11 @@
     "note": "2026-10-28已有PDF，但仅Journal Pre-proof，正式完整VoR未交付；非无任何文件。原件和SHA见skill-runs/organize_2026-10-28/preproof_replacement_queue.json。卷号缺失不证明全球尚无VoR；整理agent未抓取。"
   },
   "10.1016/j.artint.2026.104646": {
-    "reason": "no-file",
-    "note": "2026-10-30已有PDF，但首页明确Journal Pre-proof，缺合格正式完整正文而非无任何文件。源路径/SHA/独立首页核验见skill-runs/organize_2026-10-30/new_preproof_review.json；不以无卷号断言全球无VoR。整理agent未取PDF。"
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "10ad553ce5b0ee2ec415a0280b742f9755fd9ea89cc95695dfa143cf59fac26e"
   },
   "10.1016/j.neunet.2026.109784": {
     "reason": "no-file",
@@ -2770,5 +2791,663 @@
   "10.1016/j.neunet.2026.109493": {
     "reason": "blocked",
     "note": "2026-11-16 获取 agent 实测，机构登录条件未满足，未获取正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。"
+  },
+  "10.1016/j.cose.2026.105230": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "6bc1d247959d505330fad6ec01e9928138ceebe52126debc8221d3bbf3d0a9f7"
+  },
+  "10.1016/j.cose.2026.105236": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "f39ebaa631120d485021dd389df6ae6a43da6a78cb2cdc76166d3aba06aa8295"
+  },
+  "10.1016/j.neunet.2026.109837": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "1a1260cd23e0f528f0d76842cbf67feb6bbd1c4067c6fa7ae12727034bd98489"
+  },
+  "10.1016/j.neunet.2026.109846": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d8f111fa0c5f6e4615756c5c9b3f4ae19ba5207b417ed008d9e2bdad78ce87ce"
+  },
+  "10.1016/j.neunet.2026.109855": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "755a4506a3f74d992436a1da2b6daae991c57aa28d0efc041709c6d3ab86b16c"
+  },
+  "10.1016/j.neunet.2026.109866": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "272e725bb8ed363a424f25abc509070fe5cd277e6ed73e104cabc56fb0c8998a"
+  },
+  "10.1016/j.neunet.2026.109870": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "06f1fd86ac8e7e3abfde6a98d4fa8bb87e5e5876b76ad4872f1e60af8ead1f3e"
+  },
+  "10.1016/j.neunet.2026.109875": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "6ed2624ef84fb83051171a6bb445a2b8d565b6c3404f329c1a85913cc77f2796"
+  },
+  "10.1016/j.neunet.2026.109878": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8cf060edb21302cf82084863eba3b196636fae43734ab745e3b9753d02a7073d"
+  },
+  "10.1016/j.neunet.2026.109880": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "11f8ddc46511568b459a42149b94622cd6601ac9d6b90217ad66f8da17c4b8cf"
+  },
+  "10.1016/j.neunet.2026.109882": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8a0fdb77d1962f3efbed304e1711440b16612a99854262237291375b7fa2984c"
+  },
+  "10.1016/j.neunet.2026.109883": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "7f525f0b5c2000d87273f1bf96627da9a61b31d8e75fc30c5321d4e50f069426"
+  },
+  "10.1016/j.neunet.2026.109884": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "3c97c7497109233d8a9e5a2a5b6a8ee92353529e18b0d29801311495a4062f9d"
+  },
+  "10.1016/j.neunet.2026.109885": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "4ee06c87b16e672d73759967672c20b4224afee55f2c26cc402d7fad7b63fa77"
+  },
+  "10.1016/j.neunet.2026.109886": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "c325699a12eff6a974e8e76ab8fe0a750f6b78e7867b4ff0488e533d4a152f33"
+  },
+  "10.1016/j.neunet.2026.109887": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a88be0b99791b1a547a9934fc27db1bd68325dcef769cd12970ac2f70f5ba15d"
+  },
+  "10.1016/j.neunet.2026.109888": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "c535a473410c1ceb1fcb15fb1b06584eab079345046bab5cdcfc767ff2b5956b"
+  },
+  "10.1016/j.neunet.2026.109889": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "9dbd890260e17387e9aa9ccb7a225ca113441b8f1c8e31ccee5873b353b29aab"
+  },
+  "10.1016/j.neunet.2026.109890": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "1b05a41a8959ecba8e24be4f710a3ed6b9f9bddbd1f8fa83271c43097448be77"
+  },
+  "10.1016/j.neunet.2026.109891": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "e6f80c051a65f8b42dff74f5eeb2605964cda5d0db8871f1d5ac042396166b3b"
+  },
+  "10.1016/j.neunet.2026.109892": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d44f6c52bfde417966055681cd30583bcfb73b6a4c28025a12ae48784a7064c9"
+  },
+  "10.1016/j.neunet.2026.109896": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "3a1fd36296a69be53e70b8216defd35d86686346c2be2ee26fbd45ff89a4c1f3"
+  },
+  "10.1016/j.neunet.2026.109898": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "f23a5003d68957dd378b81890f04827007e1e725090358eb8fc9cd0700e35ab2"
+  },
+  "10.1016/j.neunet.2026.109900": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "0b56648553e5f15124498fda3f2a0f281292bd1327f27ac0d1e559045a5737d7"
+  },
+  "10.1016/j.neunet.2026.109902": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "0b439b6007114b4880bd61c3a9d5e8bb2c035e29a58dbda6a6d63d7734c83630"
+  },
+  "10.1016/j.neunet.2026.109903": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "121705d03953593105d17d331f558837ec4402230397a62322727fdb07690692"
+  },
+  "10.1016/j.neunet.2026.109904": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "b14ff44f568d5ade90c9adf71b78aef3db7716411d93f75fcdb4f3e55a300c07"
+  },
+  "10.1016/j.neunet.2026.109905": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "f7cc88b67e1f46885095c742106b18dc78ff5e86650dbee9a9e9aa310cf497fa"
+  },
+  "10.1016/j.neunet.2026.109906": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "cd3e16896f93a143503c51bdb7a6e8984b4e6d6e36e305a5e69e07e0f054ef0c"
+  },
+  "10.1016/j.neunet.2026.109907": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "7457147d5c454992e4f7243bdbeb77871e152eb8b70485727b09253fcf2efe3e"
+  },
+  "10.1016/j.neunet.2026.109908": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "5ad796721850c569d5661cebaeebc935de8e1c0750ca31bd065953f40b975743"
+  },
+  "10.1016/j.neunet.2026.109909": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a1ed7b5c6f8304a752261c0a69d2fb806acf35197c24b07a7fbd1a404e511cf7"
+  },
+  "10.1016/j.neunet.2026.109910": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "0372048df3c5aa801b656d5fa24365c4bfd41cd1befb6ab39f1a73424bf9aa96"
+  },
+  "10.1016/j.neunet.2026.109911": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a2f8520120232f8f17b5918068c71bdd9aa4b3c3a4f769b6291cc9941304ef9d"
+  },
+  "10.1016/j.neunet.2026.109912": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "02061ec288fabb0b64e96cf4cc0cba22f08b487dcbd01133854d0e1e45a845b6"
+  },
+  "10.1016/j.neunet.2026.109924": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8761560dfdf7e3b1dfc4355355b84f48fa2c8bb0c4c79e57f4003718ca2af662"
+  },
+  "10.1016/j.neunet.2026.109518": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "ca25d21dc6eeb9a62cb4fafb300566b7ed86a46178acceac277e9231e44d7266"
+  },
+  "10.1016/j.neunet.2026.109519": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "6027834955a92cff8fdda8ad19b5d0e7587596174754f733693af1e857890629"
+  },
+  "10.1016/j.neunet.2026.109520": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a00b8cccf61c9978cda0a9a431ef5ef102d0f5e6b5b81058f4e96140b48e0117"
+  },
+  "10.1016/j.neunet.2026.109521": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "87a6efb0712dcfa83cc053b070f25e4757d55ef7af1a050d8090f814d29237ac"
+  },
+  "10.1016/j.neunet.2026.109522": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "5a19a656375ab42eeb9101370ac216db87af0b4ab06b0d9dfacf0881b23fcfc4"
+  },
+  "10.1016/j.neunet.2026.109523": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "b906c6fc3754b66f134331f558462648533b0fd7220a28d77eaa88e4fd5b2e1c"
+  },
+  "10.1016/j.neunet.2026.109524": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "20f0f2c43f430693f69969e85744a90e1e6650a30bc0a943a79127fad71ad418"
+  },
+  "10.1016/j.neunet.2026.109528": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8c804727fe3b707224d56cfff45a5a9288b0c954294aeb63587556d25c508022"
+  },
+  "10.1016/j.neunet.2026.109529": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "7339165c3b243f3089ac406e87960e887222544deffada6ac85fc121d9f4ec61"
+  },
+  "10.1016/j.neunet.2026.109530": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "87a5fcb19ca1c80eee2f4906c4ead31d033cf36ebe50528abb2c58e2df8cac97"
+  },
+  "10.1016/j.neunet.2026.109531": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a6b21d183ba2f8bbbbb7bdf2ee2d34c53cf37a986a46f828f07a547b90a28b52"
+  },
+  "10.1016/j.neunet.2026.109532": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "cf97a762ba497231804d92ba38c98a4ec198b3782f98d101fc18e7c33d6fff61"
+  },
+  "10.1016/j.neunet.2026.109533": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "a79ed3272aa40d9d11bfc7bd530b2757cb46502f8577aa426781cf34697a5795"
+  },
+  "10.1016/j.neunet.2026.109535": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d0219e33a56fe0118b035ec0075f0ad5885f92d8479886282a89549b26281bf7"
+  },
+  "10.1016/j.neunet.2026.109536": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "ee114054f85816c3fa8f4da708ffa5ef25824932fa02aae896de2dafd57bad2a"
+  },
+  "10.1016/j.neunet.2026.109537": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "c25bb80c30ef96de60a53a9a4da7440ca1a570182eefb768494eadcafcda032d"
+  },
+  "10.1016/j.neunet.2026.109539": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "5eb38e159fa96206298ea2db04d8bfb6db687867197e168c14f5e2a7963d4bb4"
+  },
+  "10.1016/j.neunet.2026.109540": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "51958d844c2001f3523520d37700cbae1876c044157a0ed956c6a2cd80fbb2b6"
+  },
+  "10.1016/j.neunet.2026.109541": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d54150766329dddfcd6b30ff1327d9f61e6ffd9ef57746ffe0dcf5c97277bdac"
+  },
+  "10.1016/j.neunet.2026.109542": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "00c6f40322bd49e8225c6ac7c7f3fafccc10a40ae6c34cbf86acf45872914f8d"
+  },
+  "10.1016/j.neunet.2026.109543": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "5df1ce995456bb25b7e249de7e7b5507d2459324cf110a041fd85fa050b1f154"
+  },
+  "10.1016/j.neunet.2026.109544": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "ff6a8e5920076c4d38ee493c487cea51f50baf360a336ecd64f183fddc2f46a5"
+  },
+  "10.1016/j.neunet.2026.109545": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d278b95ada92826442bdc9ec60047b8bb041bd3ee64bfd77f51511382faf4773"
+  },
+  "10.1016/j.neunet.2026.109546": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "e94c8470ab58964c28d0530510d4d0c50d274396d8c3c7afbae85a3ccea4708e"
+  },
+  "10.1016/j.neunet.2026.109547": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "bd7b395c2337f56a927807d30a3c9a82d90122c6b01c395f722437ea1c0b770e"
+  },
+  "10.1016/j.neunet.2026.109548": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d1c81342f0c2530bed0c400f1049cec9fc6869e9b346c00f999320c316f6b6ec"
+  },
+  "10.1016/j.neunet.2026.109549": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "1456b196cb5025a87f9a8e2f386e151cae9a6ba62900ed9dae845595577ea463"
+  },
+  "10.1016/j.neunet.2026.109550": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "22401b3b0ae416e8e3ee9010ed4b41360bfa30ffa3879eb51bb2c51b2a769a3a"
+  },
+  "10.1016/j.neunet.2026.109551": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "36a817490c81107c1b345765019b26d7e5f2d95e6631f3d5c85c886d703edaeb"
+  },
+  "10.1016/j.neunet.2026.109552": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8d4b79daacbaede8e7de237a047afd07d16d62c64b03362af814f9d8bb5df414"
+  },
+  "10.1016/j.neunet.2026.109553": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "d1a52e949e6009c6ffef0d2b0d9182317f7628620fd73e611546fb82d4c54d82"
+  },
+  "10.1016/j.neunet.2026.109556": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "7b85d0b453cf87468cbb8dab9d6c4985f84fc8cef9ad262ac2c25f397bff8501"
+  },
+  "10.1016/j.neunet.2026.109557": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "2d16d76d38e7846d8be32b69dc55fcec8d8a1f6359e980819cca6d3247317d2a"
+  },
+  "10.1016/j.neunet.2026.109558": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "3a772d375ed97a9056b66b4e8b964909cd1c3f50de2c9c17930b77ec3d00e14d"
+  },
+  "10.1016/j.neunet.2026.109567": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "2ee5938777e568376aa7df6c861a726391daf7a6ca53a35ad1ad1d6004f3bb62"
+  },
+  "10.1016/j.neunet.2026.109570": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "73dfbef07eb47e660df6ec7fdc7e53b08ca8dc60cd0948b7bcc0f737b560e7f6"
+  },
+  "10.1016/j.neunet.2026.109572": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "7719de18604f41b4207a332876191b69093a9a11136712f51c76a3f4dcc8c194"
+  },
+  "10.1016/j.neunet.2026.109574": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "633d23e7372da4cbacddc196ae2882a5812a4d17e919234226ae44e57c5f1461"
+  },
+  "10.1016/j.neunet.2026.109612": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "231aedc1f740c0fc1ba5ee9e980953564f962d01b9205f03afc71d121c765587"
+  },
+  "10.1016/j.neunet.2026.109619": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "1f0bac95dbe85169a0bee449852b3505683ad6183baae1565f36821d0c72e16a"
+  },
+  "10.1016/j.neunet.2026.109622": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "145fc27772657a7e4c86d6b72dd7f8ad5ef58d4475e68cfef8277ecfd8b22eb8"
+  },
+  "10.1016/j.neunet.2026.109625": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "619726103dae2727e935d73721bb81439b815fd1f8026226dc6fb65fa2ace043"
+  },
+  "10.1016/j.neunet.2026.109628": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "210f9bcde712b13ea4c2ef68e85ff6d3f650d7984ecf5d195aa67c8722a2e875"
+  },
+  "10.1016/j.neunet.2026.109642": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "2f5428e718bf2a751de5b374499257019b5cb0403bac192168b92fb422a5235e"
+  },
+  "10.1016/j.neunet.2026.109644": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "766c7b5b9dd6fed00133037baa4cb3f51ff865a95fc973fdb115ee17d72463d7"
+  },
+  "10.1016/j.neunet.2026.109645": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "76eb278ada18e4ab445bd5cae424fed24b3d3ec7d8505cfd651a3147371ce966"
+  },
+  "10.1016/j.neunet.2026.109646": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "acb1027579d2b96a275595992383d37b64c78ce2cd30a525aa7b49742467a69e"
+  },
+  "10.1016/j.neunet.2026.109647": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "516fd679458161f1fece8860a4a756766f22b209c3d9df7b3d60092762805473"
+  },
+  "10.1016/j.neunet.2026.109649": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "960cb9aa5e0a6ac87202526b89d2d232f3add3a658ba7400c8bd4668606192dc"
+  },
+  "10.1016/j.neunet.2026.109650": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "8e0f8924f87bb132431fcac95aa266ebd9f5e343ed8147d1e6d8ae9d44265110"
+  },
+  "10.1016/j.neunet.2026.109663": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "2710f4729cb94fe3431dbbfbf3d52fda71a880967db7e54538d2e723b15a42da"
+  },
+  "10.1016/j.neunet.2026.109664": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "9a9911eb64742a99b3aef5c0bf274fb48f15f1a77958a57d6bc6837def2e5609"
+  },
+  "10.1016/j.neunet.2026.109665": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "61ebf5c509b156857a6452c1572a60add9e4c453f488b575fa86e1a4c5125460"
+  },
+  "10.1016/j.neunet.2026.109666": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "30e0b21b8741cdf0992f0f2b332fe4e3ab8be77c117300be51b2dc6987e28f42"
+  },
+  "10.1016/j.neunet.2026.109668": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "fde5b5ada97017326d017274cfe90e9d6d6ed0ee44d75c687e12a69b5281d1a5"
+  },
+  "10.1016/j.neunet.2026.109788": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "febc14cbe071b83792556ed2231fb527d2eb90827095c00737a6fb577d890871"
+  },
+  "10.1016/j.neunet.2026.109790": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "0db446967c4607d761fe97578d543b520bc3776e0e37a05a12ad2b1d484bf1e4"
+  },
+  "10.1016/j.neunet.2026.109793": {
+    "date": "2026-11-19",
+    "reason": "not-oa",
+    "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
+    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "source_pdf_sha256": "ca43a241a1f642366f652deabc244c01a654c53d96d4496287b8ec4beb80feb8"
   }
 }
