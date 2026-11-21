@@ -25,22 +25,34 @@
   },
   "10.1177/0926227x261476666": {
     "reason": "blocked",
-    "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
-    "date": "2026-11-19",
-    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "note": "Sage 主页和文章页均无 HTTP 响应（000，0 字节）。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
     "previous_attempt": {
       "reason": "blocked",
-      "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+      "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
+      "date": "2026-11-19",
+      "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+      "previous_attempt": {
+        "reason": "blocked",
+        "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21257毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+      }
     }
   },
   "10.1038/s42256-026-01299-5": {
-    "reason": "blocked",
-    "note": "出版社PDF地址返回HTML订阅页面，非正文（546927字节）。 尚无可核验正式全文。",
-    "date": "2026-11-19",
-    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "reason": "no-file",
+    "note": "Nature PDF 地址返回 HTTP 200 HTML（约 547 KB），未取得正文。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
     "previous_attempt": {
-      "reason": "no-file",
-      "note": "2026-11-16 获取 agent 实测，直链返回 HTML，未获正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：PDF 请求返回 HTML，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：直链返回 HTML，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
+      "reason": "blocked",
+      "note": "出版社PDF地址返回HTML订阅页面，非正文（546927字节）。 尚无可核验正式全文。",
+      "date": "2026-11-19",
+      "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+      "previous_attempt": {
+        "reason": "no-file",
+        "note": "2026-11-16 获取 agent 实测，直链返回 HTML，未获正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：PDF 请求返回 HTML，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：直链返回 HTML，浏览器两次均未捕获正文。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：PDF直链返回HTTP200、text/html、564457字节，非PDF正文。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。未获正式正文；该观察不证明学校未订阅或所有合法会话路线不可用。旧10月11日pdf_not_captured为历史；整理agent未自行获取。"
+      }
     }
   },
   "10.1109/tpami.2026.3691448": {
@@ -2049,12 +2061,18 @@
   },
   "10.1177/0926227x261487917": {
     "reason": "blocked",
-    "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
-    "date": "2026-11-19",
-    "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+    "note": "Sage 主页和文章页均无 HTTP 响应（000，0 字节）。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
     "previous_attempt": {
       "reason": "blocked",
-      "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+      "note": "Sage站点及主页均连接超时，curl(28)，21.3秒0字节。 尚无可核验正式全文。",
+      "date": "2026-11-19",
+      "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
+      "previous_attempt": {
+        "reason": "blocked",
+        "note": "2026-11-16 获取 agent 实测，出版社站点连接超时。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。 既往记录：2026-11-14 PDF agent 复测：出版社站点连接超时，未取得正文。 证据见 skill-runs/gap_2026-11-14/PDF交付报告.md。 既往：2026-11-11 PDF agent 实测：文章页与站点主页连接约 21.2 秒超时，未收到 HTTP 响应。 证据 skill-runs/gap_2026-11-11/PDF交付报告.md。 既往记录：2026-10-15整理读取PDFagent直链取证：curl(28)连接21268毫秒超时，未收到HTTP响应、未获正式正文；不能据此判403或无订阅。证据skill-runs/gap_2026-10-15/probe_sage_nature_2026-10-15.txt。旧10月11日会话过期/CARSI403记录保留作历史，不混为本次原因；整理agent未自行获取。"
+      }
     }
   },
   "10.1038/s42256-026-01316-7": {
@@ -2789,8 +2807,11 @@
     "note": "2026-11-16 正式版已在本地验收并用于全文总结。原件无开放再分发许可，公开台账通过 DOI 指向出版社。"
   },
   "10.1016/j.neunet.2026.109493": {
-    "reason": "blocked",
-    "note": "2026-11-16 获取 agent 实测，机构登录条件未满足，未获取正文。 证据见 skill-runs/gap_2026-11-16/PDF交付报告.md。"
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "81bcb4c2f46eb654573c5b40c84f571641bf5ca66c836e2376bfb524ae9844e1"
   },
   "10.1016/j.cose.2026.105230": {
     "date": "2026-11-19",
@@ -3449,5 +3470,93 @@
     "note": "已核验并阅读出版社正式版全文，完成中文六段式总结；原件未获公开再分发许可，网站提供DOI。",
     "evidence": "skill-runs/gap_2026-11-19/PDF交付报告.md",
     "source_pdf_sha256": "ca43a241a1f642366f652deabc244c01a654c53d96d4496287b8ec4beb80feb8"
+  },
+  "10.1038/s42256-026-01339-0": {
+    "reason": "blocked",
+    "note": "Nature 落地页为订阅预览，PDF 地址返回 HTML（296344 字节）。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md"
+  },
+  "10.1007/s10994-026-07065-3": {
+    "reason": "no-file",
+    "note": "两轮 browser_watch 均为 no_window，未落盘。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md"
+  },
+  "10.1177/0926227x261509540": {
+    "reason": "blocked",
+    "note": "Sage 主页和文章页均无 HTTP 响应（000，0 字节）。",
+    "date": "2026-11-21",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md"
+  },
+  "10.1016/j.neunet.2026.109534": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "aa2aa13133c7814919b29ed7a49243c71837b7f71088c43b5e5c5d637059bb5b"
+  },
+  "10.1016/j.neunet.2026.109566": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "682e6589c7a88d97db578c6f8355d58d15ca6af6da77bb1b27c28326689afd8c"
+  },
+  "10.1016/j.neunet.2026.109579": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "3c538118e1b4ba1d7991c5f5845b4f7f7993ce00e58cbc901153723ca983ee54"
+  },
+  "10.1016/j.neunet.2026.109786": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "b295e62e26aadb4eb94cbab02634e8cefee30712c5a6bdb90069ee7f864859ef"
+  },
+  "10.1016/j.neunet.2026.109789": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "6167e5cf2b0eeaf85bf6d8e51caaf013f326b55446da1928958c2426cafadc04"
+  },
+  "10.1016/j.neunet.2026.109836": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "c0c79d98086517bafd31a35e611cc3a1eab815e07b7827140417f920f398d2c4"
+  },
+  "10.1016/j.neunet.2026.109871": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "f7bce3236a75fb6c711161657b36559cc9bfc2b193ca9eefb0e7f92b34f02ab3"
+  },
+  "10.1016/j.neunet.2026.109925": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "07c74a1ac153b7dd9c320c47b18cb47d1949f8197f736a0dd49958cbc2f6b297"
+  },
+  "10.1016/j.neunet.2026.109941": {
+    "date": "2026-11-21",
+    "reason": "not-oa",
+    "note": "已阅读正式版全文。原件留本地，网站提供 DOI。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "b91f798191796f1ed01632eda673349e786c3cfd87d9fd7287de9450fc22c188"
+  },
+  "10.1007/s10207-026-01348-5": {
+    "date": "2026-11-21",
+    "reason": "no-file",
+    "note": "论文含低功耗蓝牙拒绝服务攻击复现实验。网站刊载防御侧总结与 DOI，原件保留在本地。",
+    "evidence": "skill-runs/gap_2026-11-21/PDF交付报告.md",
+    "source_pdf_sha256": "9030cf2e539a6f6cde062ac771965415d341307beee3dafa6d29c702f7a93b88"
   }
 }

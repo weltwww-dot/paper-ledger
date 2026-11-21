@@ -1,7 +1,7 @@
 {
-  "from_date": "2026-11-12",
+  "from_date": "2026-11-14",
   "requested_from_date": "2026-09-22",
-  "until_date": "2026-11-19",
+  "until_date": "2026-11-21",
   "retention_cutoff": "2026-08-01",
   "journal_count": 17,
   "scope": "Recent overlap by Crossref publication and registration plus OpenAlex and publisher checks",
@@ -67,8 +67,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 0,
+        "raw_retrieved": 0,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -77,9 +77,8 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -102,23 +101,22 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "ACM Transactions on Privacy and Security",
       "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 0,
-        "raw_retrieved": 0,
+        "source_total": 1,
+        "raw_retrieved": 1,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -127,9 +125,8 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -142,8 +139,8 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 7,
-        "raw_retrieved": 7,
+        "source_total": 11,
+        "raw_retrieved": 11,
         "complete": true,
         "error": null,
         "network_calls": 1
@@ -152,59 +149,56 @@
         "source_total": 2,
         "raw_retrieved": 2,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "International Journal of Information Security",
       "crossref": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Journal of Computer Security",
       "crossref": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": 1,
-        "raw_retrieved": 1,
+        "source_total": 2,
+        "raw_retrieved": 2,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -227,9 +221,8 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -252,9 +245,8 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -277,9 +269,8 @@
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
@@ -292,173 +283,22 @@
         "network_calls": 1
       },
       "crossref_created": {
-        "source_total": 19,
-        "raw_retrieved": 19,
+        "source_total": 11,
+        "raw_retrieved": 11,
         "complete": true,
         "error": null,
         "network_calls": 1
       },
       "openalex": {
-        "source_total": 9,
-        "raw_retrieved": 9,
+        "source_total": 6,
+        "raw_retrieved": 6,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
       }
     },
     {
       "journal": "Artificial Intelligence",
-      "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 5,
-        "raw_retrieved": 5,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 1,
-        "raw_retrieved": 1,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "Machine Learning",
-      "crossref": {
-        "source_total": 3,
-        "raw_retrieved": 3,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 7,
-        "raw_retrieved": 7,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 3,
-        "raw_retrieved": 3,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "Neural Networks",
-      "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 39,
-        "raw_retrieved": 39,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 16,
-        "raw_retrieved": 16,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
-      "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 10,
-        "raw_retrieved": 10,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 7,
-        "raw_retrieved": 7,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "IEEE Transactions on Knowledge and Data Engineering",
-      "crossref": {
-        "source_total": 0,
-        "raw_retrieved": 0,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 15,
-        "raw_retrieved": 15,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 0,
-        "raw_retrieved": 0,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "Nature Machine Intelligence",
-      "crossref": {
-        "source_total": 2,
-        "raw_retrieved": 2,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "crossref_created": {
-        "source_total": 2,
-        "raw_retrieved": 2,
-        "complete": true,
-        "error": null,
-        "network_calls": 1
-      },
-      "openalex": {
-        "source_total": 1,
-        "raw_retrieved": 1,
-        "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
-      }
-    },
-    {
-      "journal": "IEEE Transactions on Artificial Intelligence",
       "crossref": {
         "source_total": 0,
         "raw_retrieved": 0,
@@ -474,100 +314,245 @@
         "network_calls": 1
       },
       "openalex": {
+        "source_total": 1,
+        "raw_retrieved": 1,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "Machine Learning",
+      "crossref": {
+        "source_total": 4,
+        "raw_retrieved": 4,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 8,
+        "raw_retrieved": 8,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 4,
+        "raw_retrieved": 4,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "Neural Networks",
+      "crossref": {
         "source_total": 0,
         "raw_retrieved": 0,
         "complete": true,
-        "network_calls": 1,
-        "attempted": true,
-        "error": null
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 30,
+        "raw_retrieved": 30,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 8,
+        "raw_retrieved": 8,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "crossref": {
+        "source_total": 0,
+        "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 7,
+        "raw_retrieved": 7,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 2,
+        "raw_retrieved": 2,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "crossref": {
+        "source_total": 0,
+        "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 5,
+        "raw_retrieved": 5,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 0,
+        "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "Nature Machine Intelligence",
+      "crossref": {
+        "source_total": 3,
+        "raw_retrieved": 3,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 3,
+        "raw_retrieved": 3,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 2,
+        "raw_retrieved": 2,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      }
+    },
+    {
+      "journal": "IEEE Transactions on Artificial Intelligence",
+      "crossref": {
+        "source_total": 0,
+        "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "crossref_created": {
+        "source_total": 5,
+        "raw_retrieved": 5,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
+      },
+      "openalex": {
+        "source_total": 0,
+        "raw_retrieved": 0,
+        "complete": true,
+        "error": null,
+        "network_calls": 1
       }
     }
   ],
-  "created_date_discovery_evidence": "skill-runs/update_2026-11-19/crossref_created_discovery.json",
+  "created_date_discovery_evidence": "skill-runs/update_2026-11-21/source_matrix.json",
   "created_date_discovery_source_complete": true,
   "created_date_discovery_is_publication_date": false,
-  "new_record_count": 14,
-  "new_doi_discovery_count": 23,
-  "new_month_unverified": 8,
-  "new_nonresearch_exclusions": 8,
-  "uncollected_month_eligible_count": 1004,
+  "new_record_count": 20,
+  "new_doi_discovery_count": 38,
+  "new_month_unverified": 25,
+  "new_nonresearch_exclusions": 0,
+  "uncollected_month_eligible_count": 1012,
   "baseline_advanced": false,
   "baseline_date": "2026-09-22",
   "previous_audit_commit": "9c61d999964f35e6aab49169b20f40a9fd54beb1",
   "jmlr_new_publisher_entries": 0,
-  "jmlr_publisher_queue": "skill-runs/update_2026-11-19/jmlr_publisher_queue.json",
-  "crossref_union_doi_count": 129,
-  "openalex_recent_union_doi_count": 41,
+  "jmlr_publisher_queue": "skill-runs/update_2026-11-21/jmlr_publisher_queue.json",
+  "crossref_union_doi_count": 107,
+  "openalex_recent_union_doi_count": 29,
   "official_publisher_article_evidence": {
-    "10.1007/s10207-026-01301-6": {
-      "url": "https://link.springer.com/article/10.1007/s10207-026-01301-6",
+    "10.1007/s10207-026-01348-5": {
+      "url": "https://link.springer.com/article/10.1007/s10207-026-01348-5",
       "status": 200,
-      "sha256": "2d48d06f0c94e6fc21e20d7fa53622456a929d835d44291dd399abbf78fcda10",
-      "rate": {},
-      "doi": "10.1007/s10207-026-01301-6",
-      "resolved_doi": "10.1007/s10207-026-01301-6",
-      "title": "Correction: Context is key for cybersecurity: leveraging external knowledge for process model explanation via LLMs",
-      "online": "2026/09/07",
-      "document_type": "Correction",
+      "sha256": "be4ba558e2e3b4d71c4e7e4e70cf04d001082255cce1613c723972d4cb66096e",
+      "retry_after": null,
+      "file": "s10207-026-01348-5.html",
+      "doi": "10.1007/s10207-026-01348-5",
+      "expected_doi": "10.1007/s10207-026-01348-5",
+      "title": "Quantifying the impact of stealthy attacks on IoT environments",
+      "online": "2026/11/19",
+      "document_type": "Regular Contribution",
       "journal": "International Journal of Information Security",
       "authors": [
-        "Kölbel, Linda Maria",
-        "Poss, Leo",
-        "Schönig, Stefan"
-      ],
-      "file": "s10207-026-01301-6.html"
+        "Rauf, Usman",
+        "Martinez, Adalynn",
+        "Mohsen, Fadi"
+      ]
     },
-    "10.1007/s10207-026-01305-2": {
-      "url": "https://link.springer.com/article/10.1007/s10207-026-01305-2",
+    "10.1007/s10994-026-07065-3": {
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07065-3",
       "status": 200,
-      "sha256": "3793760816f81e6c36af69224d364eccb2d5d0179d3baa6a039f9f120828ba4a",
-      "rate": {},
-      "doi": "10.1007/s10207-026-01305-2",
-      "resolved_doi": "10.1007/s10207-026-01305-2",
-      "title": "Correction to: EdgeFence: Federated Temporal Graph Neural Networks for Lightweight, Adversarial Malware Detection in Distributed Edge Networks",
-      "online": "2026/08/26",
-      "document_type": "Correction",
-      "journal": "International Journal of Information Security",
+      "sha256": "48624d03a923a10eb06146a34e7b2409fbd23a5a734eca15dc0042b90e7ea469",
+      "retry_after": null,
+      "file": "s10994-026-07065-3.html",
+      "doi": "10.1007/s10994-026-07065-3",
+      "expected_doi": "10.1007/s10994-026-07065-3",
+      "title": "Expanding Data-Agnostic Pivotal Instances Selection Models with Proximity Trees and Ensemble Learning",
+      "online": "2026/11/19",
+      "document_type": "Article",
+      "journal": "Machine Learning",
       "authors": [
-        "Isaac, Osei",
-        "Appiah, Benjamin",
-        "Commey, Daniel",
-        "Owusu-Agyemang, Kwabena",
-        "Asante, Michael",
-        "Acquah, Benjamin Hayfrom"
-      ],
-      "file": "s10207-026-01305-2.html"
+        "Cascione, Alessio",
+        "Setzu, Mattia",
+        "Landi, Cristiano",
+        "Mancarella, Paolo Maria",
+        "Guidotti, Riccardo"
+      ]
     },
-    "10.1038/s42256-026-01349-y": {
-      "url": "https://www.nature.com/articles/s42256-026-01349-y",
+    "10.1038/s42256-026-01339-0": {
+      "url": "https://www.nature.com/articles/s42256-026-01339-0",
       "status": 200,
-      "sha256": "d2686e55d12b4845e3d69106f93c259c391b96ea743ebd58f0ef4b93a8f0b766",
-      "rate": {},
-      "doi": "10.1038/s42256-026-01349-y",
-      "resolved_doi": "10.1038/s42256-026-01349-y",
-      "title": "When AI-assisted criticism scales, peer review needs an obligation threshold",
-      "online": "2026/11/18",
-      "document_type": "Correspondence",
+      "sha256": "6da71741fb59040a3fb4b22a7d25ca232c2ae57f19c9516ee1f91d34b4432b04",
+      "retry_after": null,
+      "file": "s42256-026-01339-0.html",
+      "doi": "10.1038/s42256-026-01339-0",
+      "expected_doi": "10.1038/s42256-026-01339-0",
+      "title": "Enabling lab autonomy with reward functions and executable workflows",
+      "online": "2026/11/20",
+      "document_type": "Perspective",
       "journal": "Nature Machine Intelligence",
       "authors": [
-        "Sun, Yiteng",
-        "Li, Fan",
-        "Lee, Ching-Hung",
-        "Chen, Chun-Hsien"
-      ],
-      "file": "s42256-026-01349-y.html"
+        "Kalinin, Sergei V.",
+        "Slautin, Boris N.",
+        "Liu, Yu",
+        "Foadian, Elham",
+        "Duscher, Gerd",
+        "Ahmadi, Mahshid",
+        "Bazhirov, Timur"
+      ]
     }
   },
-  "preproof_recheck_complete": 51,
-  "preproof_recheck_inventory": 51,
-  "preproof_volume_signals": 41,
+  "preproof_recheck_complete": 22,
+  "preproof_recheck_inventory": 22,
+  "preproof_volume_signals": 4,
   "latest_organization": {
-    "as_of": "2026-11-19",
-    "formal_fulltexts": 102,
-    "public_pdfs": 7,
-    "local_only_fulltexts": 95,
-    "remaining_preproofs": 22,
-    "early_access": 1,
-    "pending_tasks": "skill-runs/organize_2026-11-19/PDF_AGENT_TASKS.md"
+    "as_of": "2026-11-21",
+    "formal_fulltexts": 12,
+    "public_pdfs": 1,
+    "local_only_fulltexts": 11,
+    "remaining_preproofs": 26,
+    "early_access": 8,
+    "pending_tasks": "skill-runs/organize_2026-11-21/PDF_AGENT_TASKS.md"
   }
 }
